@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>空き家アプリ レビュー会</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f8fa; --card:#ffffff; --ink:#1d232b; --sub:#5b6570; --line:#dde2e8;
+  --accent:#1f6f5c; --accent-soft:#e3f1ec; --warn:#b3541e; --warn-soft:#fbeee4;
+  --star:#8a5a00; --star-soft:#fff4d6; --on-accent:#ffffff;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14181d; --card:#1c2229; --ink:#e7ebef; --sub:#9aa5b1; --line:#2e3740;
+    --accent:#6cc4a8; --accent-soft:#1d3530; --warn:#f0a070; --warn-soft:#3a271c;
+    --star:#f2c75c; --star-soft:#3a3120; --on-accent:#10221d;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14181d; --card:#1c2229; --ink:#e7ebef; --sub:#9aa5b1; --line:#2e3740;
+  --accent:#6cc4a8; --accent-soft:#1d3530; --warn:#f0a070; --warn-soft:#3a271c;
+  --star:#f2c75c; --star-soft:#3a3120; --on-accent:#10221d;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"BIZ UDPGothic","Hiragino Sans","Yu Gothic",sans-serif;font-size:16px;line-height:1.7}
+main{max-width:920px;margin:0 auto;padding:32px 16px 64px}
+header h1{font-size:28px;margin:0 0 4px}
+.meta{color:var(--sub);display:flex;flex-wrap:wrap;gap:4px 20px;margin:0 0 24px;padding:0;list-style:none}
+h2{font-size:20px;margin:36px 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:12px 0}
+.goal{background:var(--accent-soft);border-color:transparent}
+.goal p{margin:0}
+.goal strong{color:var(--accent)}
+.premise table{margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{color:var(--sub);font-weight:700;white-space:nowrap}
+.scroll{overflow-x:auto}
+.ng{color:var(--warn);font-weight:700}
+/* timeline */
+.tl{list-style:none;margin:0;padding:0}
+.slot{display:grid;grid-template-columns:92px 1fr;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:10px 0}
+.slot.key{background:var(--star-soft);border-color:transparent}
+.time{font-weight:700;font-variant-numeric:tabular-nums}
+.time small{display:block;color:var(--sub);font-weight:400}
+.slot h3{margin:0 0 6px;font-size:17px}
+.slot.key h3::before{content:"★ ";color:var(--star)}
+.slot ul{margin:6px 0 0;padding-left:1.2em}
+.slot li{margin:2px 0}
+.q{color:var(--accent);font-weight:700}
+.ev{color:var(--sub);font-size:15px}
+.tag{display:inline-block;font-size:13px;padding:0 8px;border-radius:99px;background:var(--warn-soft);color:var(--warn);margin-left:6px;vertical-align:2px}
+/* 判定シート（入力フォーム） */
+.sheet input,.sheet select,.sheet textarea{
+  font:inherit;font-size:15px;color:var(--ink);background:var(--bg);
+  border:1px solid var(--line);border-radius:7px;padding:6px 8px;width:100%;
+}
+.sheet textarea{resize:vertical;min-height:2.6em;line-height:1.5}
+.sheet input:focus,.sheet select:focus,.sheet textarea:focus{
+  outline:2px solid var(--accent);outline-offset:1px;border-color:transparent
+}
+.sheet td{padding:6px}
+.sheet th{padding:8px 6px}
+.sheet .col-name{white-space:nowrap;padding-left:10px}
+.sheet .col-was{white-space:nowrap;text-align:center}
+.sheet select{min-width:88px}
+.sheet td.c-why,.sheet td.c-next{min-width:190px}
+.who{display:block;max-width:220px;margin:4px 0 14px;color:var(--sub);font-size:14px}
+.who input{margin-top:4px}
+.score-row{display:flex;flex-wrap:wrap;gap:16px;margin-top:16px}
+.score-row label{color:var(--sub);font-size:14px}
+.score-row .grow{flex:1 1 320px}
+.score-row input,.score-row textarea{margin-top:4px}
+.score-row input[type=number]{width:110px}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:16px}
+.actions button{
+  font:inherit;font-size:15px;cursor:pointer;border:none;border-radius:8px;
+  padding:8px 16px;background:var(--accent);color:var(--on-accent);
+}
+.actions button.ghost{background:transparent;color:var(--sub);border:1px solid var(--line)}
+.actions button:hover{opacity:.88}
+.status{color:var(--accent);font-size:14px}
+.note{color:var(--sub);font-size:14px}
+.opinion{border-left:0;background:var(--card)}
+.opinion p{margin:0}
+footer{color:var(--sub);font-size:13px;margin-top:40px}
+@media (max-width:600px){
+  .slot{grid-template-columns:1fr;gap:4px}
+  header h1{font-size:23px}
+}
+@media print{
+  body{background:#fff}
+  .card,.slot{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>空き家アプリ（Aki-Link）レビュー会</h1>
+  <ul class="meta">
+    <li>2026年9月30日（水）</li>
+    <li>60分</li>
+    <li>対象：空き家チーム（兒玉・河村）</li>
+    <li>基準：課題選定表の評価軸（<code>survey/README.md</code>）</li>
+  </ul>
+</header>
+
+<section class="card goal">
+  <p><strong>今日のゴール：</strong>アプリを作ってみて、課題選定のときの評価（<b>新規アプリ余地 △・NEC評価 中</b>）を<b>○・高</b>に引き上げられたかを判定する。あわせて、<b>画面の主役を何にするか</b>を決める。</p>
+</section>
+
+<h2>前提：選定表の空き家の行</h2>
+<div class="card premise">
+  <div class="scroll">
+  <table>
+    <tr><th>市の認知</th><th>既存で解決可能か</th><th>新規アプリ余地</th><th>NEC</th><th>三浦市</th><th>ニッポン放送</th><th>優先度</th></tr>
+    <tr><td>高</td><td>▲</td><td class="ng">△</td><td class="ng">中</td><td>高</td><td>中</td><td>高</td></tr>
+  </table>
+  </div>
+  <p class="note">「優先度 高」の定義は「新規アプリ余地が○で、かつNEC評価が高」。空き家は両方とも満たしていない。そこで今日は、各列を「アプリがその評価を裏づけたか、引き上げたか」という問いに置き換えて見ていく。</p>
+</div>
+
+<h2>進行（60分）</h2>
+<ol class="tl">
+  <li class="slot">
+    <div class="time">0:00<small>5分</small></div>
+    <div>
+      <h3>前提の共有</h3>
+      <ul>
+        <li>選定表の値と「優先度 高」の定義が食い違っていることを確認する</li>
+        <li>今日の判定の仕方：列ごとに「選定時の値 → 今日の判定」を付ける</li>
+      </ul>
+    </div>
+  </li>
+  <li class="slot">
+    <div class="time">0:05<small>10分</small></div>
+    <div>
+      <h3>デモ</h3>
+      <ul>
+        <li>所有者の登録（マイナンバーカードでの本人確認）→ 間取り・状態の入力 → 見積</li>
+        <li>市職員の審査・台帳 → 時間貸し（駐車場・車庫・庭）の予約</li>
+        <li class="ev">見る人は「どこが既存サービスと違うか」をメモしておく</li>
+      </ul>
+    </div>
+  </li>
+  <li class="slot key">
+    <div class="time">0:15<small>20分</small></div>
+    <div>
+      <h3>新規アプリ余地（△ → ?）：主役を決める</h3>
+      <ul>
+        <li class="ev">チームの分析では、マッチング（C09）は<b>主な原因ではない</b>という結果。詰まりは「売りに出す前」にある（売却用の空き家は約100戸なのに取引は年79件。空き家バンクの充実を求める声は2%）</li>
+        <li class="ev">アプリの中心にある時間貸し・予約の即確定は、マッチングの機能 → <b>自分たちの分析と食い違う</b></li>
+        <li class="ev">一方で、登録から見積・市の審査までの流れは「売りに出す前」の詰まりに効く</li>
+        <li><span class="q">決めること：</span>主役は「売る前の登録と見立て」か「時間貸し」か。時間貸しを残すなら、どういう位置づけにするか</li>
+      </ul>
+    </div>
+  </li>
+  <li class="slot">
+    <div class="time">0:35<small>10分</small></div>
+    <div>
+      <h3>既存サービスとの違い（▲）・NEC評価（中 → ?）</h3>
+      <ul>
+        <li><span class="q">問い：</span>時間貸しだけなら、akippa やスペースマーケットなど既存サービスで足りる。<b>既存にない部分</b>を1文で言えるか（本人確認／市の台帳に載る／売る前に相場が分かる）</li>
+        <li class="ev">価格モデル：学習は135件。2025〜26年の50件を当てたとき、±20%以内が52%、誤差の中央値は18.5%。50%の幅は予測の×0.83〜×1.20。戸建てだけで、調整区域のデータは0件</li>
+        <li><span class="q">問い：</span>この精度で「AI活用」と言えるか。「査定の代わりにはならない目安」であることを、画面でどう見せるか</li>
+      </ul>
+    </div>
+  </li>
+  <li class="slot">
+    <div class="time">0:45<small>10分</small></div>
+    <div>
+      <h3>市・ニッポン放送の評価、9/21の宿題</h3>
+      <ul>
+        <li><span class="q">市（高を維持できるか）：</span>審査は1件に何分かかり、年に何件を見込むか。空き家バンクや空家等対策計画のどこを置き換え、どこを補うか</li>
+        <li><span class="q">ニッポン放送（中 → ?）：</span>ラジオで何を呼びかけるか（例：「相続したら、まず登録を」）</li>
+        <li>宅建業法<span class="tag">9/21</span>：見積の表示や業者の見立てが「媒介」に当たらないか。結論が出ていなければ、今日スコープの線を引く</li>
+        <li>流れが一方通行で循環しない<span class="tag">9/21</span>：登録 → 審査 → 活用 → 次の所有者、とつながるようになったか</li>
+        <li>工程間の接続<span class="tag">9/21</span>：登録（REG）→ 台帳（LDG）→ 活用（USE）の状態の受け渡しが要件に書かれたか</li>
+      </ul>
+    </div>
+  </li>
+  <li class="slot">
+    <div class="time">0:55<small>5分</small></div>
+    <div>
+      <h3>判定と次の手</h3>
+      <ul>
+        <li>下の判定シートを埋める（9/21は21点、到達見込み24〜26点。同じ基準で点数も付ける）</li>
+        <li>宿題の担当と期限を決める</li>
+      </ul>
+    </div>
+  </li>
+</ol>
+
+<h2>判定シート</h2>
+<form class="card sheet" id="sheet" autocomplete="off">
+  <p class="note">入力すると、この端末のブラウザに自動で保存される（他の人には共有されない）。終わったら「議事録用にコピー」で表形式のテキストを取り出して、議事録に貼る。</p>
+
+  <label class="who">記入者
+    <input type="text" id="who" placeholder="例：秋元">
+  </label>
+
+  <div class="scroll">
+  <table>
+    <thead>
+      <tr><th>列</th><th>選定時</th><th>今日の判定</th><th>根拠</th><th>次の手</th></tr>
+    </thead>
+    <tbody id="sheet-rows"></tbody>
+  </table>
+  </div>
+
+  <div class="score-row">
+    <label>点数（9/21は21点、到達見込み24〜26点）
+      <input type="number" id="score" min="0" max="36" step="1" placeholder="—">
+    </label>
+    <label class="grow">今日の結論（主役をどちらにするか）
+      <textarea id="conclusion" rows="2" placeholder="例：主役は「売りに出す前の登録と見立て」に移す。時間貸しは活用先の一つとして残す"></textarea>
+    </label>
+  </div>
+
+  <div class="actions">
+    <button type="button" id="copy">議事録用にコピー</button>
+    <button type="button" id="download">ファイルに保存（.md）</button>
+    <button type="button" id="clear" class="ghost">入力を消す</button>
+    <span id="status" class="status" role="status" aria-live="polite"></span>
+  </div>
+</form>
+
+<h2>補助の観点（時間があれば）</h2>
+<div class="card">
+  <div class="scroll">
+  <table>
+    <tr><th>観点</th><th>見るところ</th></tr>
+    <tr><td>定量的な根拠</td><td>裏づけが取れた原因（C01・C11・C14）に、アプリの機能が一つずつ対応しているか</td></tr>
+    <tr><td>データの更新</td><td>成約データは四半期ごとに更新される。モデルを作り直す手順があるか</td></tr>
+    <tr><td>行政批判のリスク</td><td>画面や資料が「市の空き家対策が遅れている」と読める書き方になっていないか</td></tr>
+  </table>
+  </div>
+</div>
+
+<h2>レビュアーの見立て（叩き台）</h2>
+<div class="card opinion">
+  <p>今のままだと、新規アプリ余地は△、NEC評価は中のままで、選定時から上がっていない。ただし<b>主役を「売りに出す前の登録と見立て」に移せば、どちらも一段上げられる</b>見込みがある。主役を移すかどうかを今日決めるのが、一番大事な結論になる。</p>
+</div>
+
+<h2>事前に用意するもの</h2>
+<div class="card">
+  <ul>
+    <li>動く状態のアプリ（デモの流れを一通り通しておく）</li>
+    <li>分析結果の要点（<code>analysis/kodama/akiya_chosa/ANALYSIS_LOG.md</code>：どの原因が裏づけられ、どれが否定されたか）</li>
+    <li>価格モデルのモデルカード（<code>models/final/35_重回帰_③＋積算.md</code>）</li>
+    <li>9/21の統合評価（<code>app/akiyaTeam/review/20260921_統合評価.md</code>）</li>
+  </ul>
+</div>
+
+<footer>MiuLabo 5K ／ NEC Analytics Challenge Cup 2026（三浦市 × ニッポン放送）</footer>
+</main>
+
+<script>
+(() => {
+  "use strict";
+  const KEY = "akiya-review-20260930";
+  const HL  = ["高", "中", "低"];           // 高中低の3段階
+  const MRK = ["○", "▲", "△", "×"];        // 記号の4段階
+
+  // 列（id・名前・選定時の値・選べる値・強調するか）
+  const ROWS = [
+    { id: "ninchi",  name: "市の認知",         was: "高", opts: HL,  key: false },
+    { id: "kizon",   name: "既存で解決可能か", was: "▲", opts: MRK, key: false },
+    { id: "yochi",   name: "新規アプリ余地",   was: "△", opts: MRK, key: true  },
+    { id: "nec",     name: "NEC",              was: "中", opts: HL,  key: true  },
+    { id: "miura",   name: "三浦市",           was: "高", opts: HL,  key: false },
+    { id: "lf",      name: "ニッポン放送",     was: "中", opts: HL,  key: false },
+    { id: "yusen",   name: "優先度",           was: "高", opts: HL,  key: false },
+  ];
+
+  const tbody = document.getElementById("sheet-rows");
+  tbody.innerHTML = ROWS.map(r => `
+    <tr>
+      <td class="col-name">${r.key ? "<b>" + r.name + "</b>" : r.name}</td>
+      <td class="col-was${r.key ? " ng" : ""}">${r.was}</td>
+      <td><select id="${r.id}-now" aria-label="${r.name}の今日の判定">
+        <option value="">—</option>
+        ${r.opts.map(o => `<option>${o}</option>`).join("")}
+      </select></td>
+      <td class="c-why"><textarea id="${r.id}-why" rows="2" aria-label="${r.name}の根拠"></textarea></td>
+      <td class="c-next"><textarea id="${r.id}-next" rows="2" aria-label="${r.name}の次の手"></textarea></td>
+    </tr>`).join("");
+
+  const form   = document.getElementById("sheet");
+  const status = document.getElementById("status");
+  const fields = [...form.querySelectorAll("input, select, textarea")];
+
+  // --- 保存と読み込み（この端末のブラウザだけ。読めない環境でも動くようにする） ---
+  function save() {
+    const data = {};
+    fields.forEach(f => { if (f.value) data[f.id] = f.value; });
+    try { localStorage.setItem(KEY, JSON.stringify(data)); } catch (e) { /* 使えなくても続行 */ }
+    say("保存しました");
+  }
+  function load() {
+    let data = null;
+    try { data = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) { return; }
+    if (!data) return;
+    fields.forEach(f => { if (data[f.id] != null) f.value = data[f.id]; });
+  }
+  let timer = null;
+  function say(msg) {
+    status.textContent = msg;
+    clearTimeout(timer);
+    timer = setTimeout(() => { status.textContent = ""; }, 2000);
+  }
+  load();
+  form.addEventListener("input", save);
+  form.addEventListener("change", save);
+
+  // --- 議事録用のテキスト（Markdownの表） ---
+  const v = id => (document.getElementById(id).value || "").trim();
+  const cell = s => s.replace(/\|/g, "／").replace(/\r?\n/g, " ");
+  function toMarkdown() {
+    const who = v("who");
+    const lines = [
+      "## 空き家アプリ レビュー会 判定シート（2026-09-30）",
+      ...(who ? ["記入者：" + who] : []),
+      "",
+      "| 列 | 選定時 | 今日の判定 | 根拠 | 次の手 |",
+      "|---|---|---|---|---|",
+      ...ROWS.map(r => `| ${r.name} | ${r.was} | ${v(r.id + "-now") || "—"} | ${cell(v(r.id + "-why")) || "—"} | ${cell(v(r.id + "-next")) || "—"} |`),
+      "",
+      "点数：" + (v("score") ? v("score") + "点（9/21は21点）" : "—"),
+      "",
+      "今日の結論：" + (v("conclusion") || "—"),
+    ];
+    return lines.join("\n") + "\n";
+  }
+
+  document.getElementById("copy").addEventListener("click", async () => {
+    const text = toMarkdown();
+    try {
+      await navigator.clipboard.writeText(text);
+      say("コピーしました");
+    } catch (e) {
+      // file:// や権限なしでも取り出せるように、選択状態にして渡す
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.cssText = "position:fixed;top:10%;left:5%;width:90%;height:60%;z-index:99";
+      document.body.appendChild(ta);
+      ta.select();
+      say("Ctrl+C でコピーしてください（枠外をクリックで閉じる）");
+      ta.addEventListener("blur", () => ta.remove());
+    }
+  });
+
+  document.getElementById("download").addEventListener("click", () => {
+    const blob = new Blob([toMarkdown()], { type: "text/markdown;charset=utf-8" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "20260930_判定シート.md";
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    say("保存しました");
+  });
+
+  document.getElementById("clear").addEventListener("click", () => {
+    if (!confirm("入力した内容をすべて消します。よろしいですか。")) return;
+    fields.forEach(f => { f.value = ""; });
+    try { localStorage.removeItem(KEY); } catch (e) { /* 何もしない */ }
+    say("消しました");
+  });
+})();
+</script>
+</body>
+</html>

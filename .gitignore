@@ -1,0 +1,21 @@
+# Office が開いている間に作る一時ロックファイル
+~$*
+
+# 書き出し用のzip（中身は元データが正）
+*.zip
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+.next/
+
+# 環境変数（API キーなど）
+.env
+.env.local
+
+# Claude Code の個人設定
+.claude/settings.local.json

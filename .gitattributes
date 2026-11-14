@@ -1,0 +1,9 @@
+# テキストの改行は LF にそろえる
+* text=auto eol=lf
+
+# バイナリ
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.pptx binary
+*.pdf binary
