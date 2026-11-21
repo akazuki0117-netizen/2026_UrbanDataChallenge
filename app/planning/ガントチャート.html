@@ -86,7 +86,7 @@ footer{color:var(--sub);font-size:12px;margin-top:24px}
 <body>
 <main>
 <h1>UDC2026 ガントチャート（Politica）</h1>
-<p class="meta">2026-11-21 版（前回のハッカソンからの引継ぎと、11/21 の役割分担を反映・akazuki0117-netizen）。日程は <code>app/planning/ガントチャート.html</code> の <code>TASKS</code> を直すと引き直せる。白抜きの◇は「案」（まだ決まっていない日付）。</p>
+<p class="meta">2026-11-21 版（11/21 キックオフの決定を反映：アイデアの絞り込みを 11/29 に、要件定義を 11/30〜12/6 にずらした）。日程は <code>app/planning/ガントチャート.html</code> の <code>TASKS</code> を直すと引き直せる。白抜きの◇は「案」（まだ決まっていない日付）。</p>
 
 <ul class="keys">
   <li><b>11/21（土）夕方か夜</b>アイデアの収束・要件定義・スコープの会議</li>
@@ -121,7 +121,7 @@ footer{color:var(--sub);font-size:12px;margin-top:24px}
     <ul>
       <li>11/21 までに、各自が「未成年の政治参加」のアプリ案を <code>idea/&lt;自分&gt;/</code> に Markdown で用意する</li>
       <li><b>11/21 の会議</b>で、アイデアを1つに収束し、スコープ（やること・やらないこと）を決める</li>
-      <li>11/22〜11/30 で要件定義（ペルソナ・機能一覧・画面一覧・使うオープンデータ）。入口の「18歳以下か」の設問は決定済み</li>
+      <li>11/21 のキックオフでは絞り切れなかった。<b>11/29（日）に、課題一覧を土台にした各自の案から1つに絞る</b>。12/6 ごろまでに要件定義（ペルソナ・機能一覧・画面一覧・使うオープンデータ）</li>
       <li>機能案はakazuki0117-netizen・tmzwx4a-hub。既存サービスの調査はakazuki0117-netizen</li>
       <li><b>データはMaci-as</b>：使えるオープンデータの洗い出し → データ作成・整備（アプリで使う形）→ データ分析（機能の根拠づくり）。動けるのは主に土日</li>
     </ul>
@@ -164,7 +164,7 @@ footer{color:var(--sub);font-size:12px;margin-top:24px}
   </div>
 </div>
 
-<footer>チーム cocatrix ／ アーバンデータチャレンジ2026（教育・政治）。日程の出典：docs/contest.md、meeting/20261114_事前キックオフ/README.md</footer>
+<footer>チーム cocatrix ／ アーバンデータチャレンジ2026（教育・政治）。日程の出典：docs/contest.md、meeting/ の議事録</footer>
 </main>
 
 <script>
@@ -188,12 +188,14 @@ footer{color:var(--sub);font-size:12px;margin-top:24px}
     { type: "phase", p: 1, name: "① 企画・要件定義・データ" },
     { type: "ms",    p: 1, name: "事前キックオフ", d: "2026-11-14" },
     { type: "ms",    p: 1, name: "作品概要エントリー締切", d: "2026-11-15" },
-    { type: "bar",   p: 1, name: "各自のアプリ案（未成年の政治参加）", who: "全員", s: "2026-11-15", e: "2026-11-21" },
+    { type: "bar",   p: 1, name: "各自のアプリ案（未成年の政治参加）", who: "全員", s: "2026-11-15", e: "2026-11-21", done: true },
+    { type: "bar",   p: 1, name: "課題一覧から、自分ごとにできるアプリ案を1〜3つ深める", who: "全員", s: "2026-11-22", e: "2026-11-29" },
     { type: "bar",   p: 1, name: "既存サービスの調査", who: "akazuki0117-netizen", s: "2026-11-16", e: "2026-11-28", soft: true },
     { type: "bar",   p: 1, name: "使えるオープンデータの洗い出し", who: "Maci-as", s: "2026-11-21", e: "2026-11-29" },
-    { type: "ms",    p: 1, name: "アイデア収束・要件定義・スコープ", d: "2026-11-21" },
-    { type: "bar",   p: 1, name: "要件定義（ペルソナ・機能・画面・データ）", who: "akazuki0117-netizen・kentakodama99・tmzwx4a-hub", s: "2026-11-22", e: "2026-11-28" },
-    { type: "ms",    p: 1, name: "要件の確定（案）", d: "2026-11-28", tbd: true },
+    { type: "ms",    p: 1, name: "キックオフ（9案の確認）", d: "2026-11-21" },
+    { type: "ms",    p: 1, name: "アイデアを1つに絞る", d: "2026-11-29" },
+    { type: "bar",   p: 1, name: "要件定義（ペルソナ・機能・画面・データ）", who: "akazuki0117-netizen・kentakodama99・tmzwx4a-hub", s: "2026-11-30", e: "2026-12-06" },
+    { type: "ms",    p: 1, name: "要件の確定（案）", d: "2026-12-06", tbd: true },
     { type: "bar",   p: 1, name: "データ作成・データ整備（アプリで使う形に）", who: "Maci-as", s: "2026-11-29", e: "2026-12-13" },
     { type: "bar",   p: 1, name: "データ分析（機能の根拠づくり）", who: "Maci-as", s: "2026-12-05", e: "2026-12-20", soft: true },
 
