@@ -1,0 +1,31 @@
+{
+ "id": "6632601496177394741",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632601496177394741/?year=2026",
+ "fetched_at": "2026-11-20T15:38:07+00:00",
+ "title": "推しTrip",
+ "team": "しばっこ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "AIアイドル「サクラ」と一緒に東京を巡るスマートフォン向けおでかけアドベンチャーゲーム。観光やお出かけの行き先は知名度の高い人気エリアに偏りやすく「いつも同じ場所を選んでしまう」という課題に対応。オープンデータの観光スポットやイベントをゲーム内の行き先として提案し、サクラとの会話やミッションを楽しみながら実際に街を巡り写真や思い出を集めて絆を深める。「サクラと一緒に行きたい」という感情を新しい場所へ足を運ぶきっかけに変える設計。HTML・CSS・JavaScriptでGeolocation APIによる訪問判定を実装し、OpenAI API（GPT-5 mini）でサクラとの会話やスポット提案を行った。",
+ "open_data_items": [
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "東京の公立図書館情報　東京都公立図書館オールガイド",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000016"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000016"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=5075",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

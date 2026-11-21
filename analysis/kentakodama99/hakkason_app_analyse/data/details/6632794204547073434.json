@@ -1,0 +1,31 @@
+{
+ "id": "6632794204547073434",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632794204547073434/?year=2026",
+ "fetched_at": "2026-11-20T15:42:23+00:00",
+ "title": "KidsLink（キッズリンク）",
+ "team": "KidsLink",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「KidsLink」は、子どもが携帯する小型無線端末の電波を車のスマホで検知し接近を運転者に警告する交通安全サービス。見通しの悪い交差点では車載センサーの死角となり曲がり角の先にいる子どもを検知できない場合があり、低学年の子どもは身長が低くトラック等の死角に入りやすいという実体験に基づく課題に対応。SwitchBotのBLE電波を運転者のスマホで検知し画面表示と警告音で早期認知を支援する。将来は子ども側にも警告を発する双方向の仕組みを目指す。安価に入手できるBLE端末を用いて低消費電力で対象物の直接視認が不要な仕組みとし、ChatGPTでSwift／SwiftUIのBLE検知ロジックを検討した。",
+ "open_data_items": [
+  {
+   "name": "交通量統計表",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000035?utm_source=chatgpt.com"
+  },
+  {
+   "name": "交通事故発生状況データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000035?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000035?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000035?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2085",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

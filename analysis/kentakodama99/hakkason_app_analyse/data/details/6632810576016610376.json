@@ -1,0 +1,51 @@
+{
+ "id": "6632810576016610376",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810576016610376/?year=2026",
+ "fetched_at": "2026-11-20T15:45:06+00:00",
+ "title": "MINFO",
+ "team": "MINFO",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「MINFO」は、外国人住民が日本での生活に必要な情報を8言語で確認できる生活情報ナビ。新宿区は外国人住民が約14.5%を占めるが、生活情報は複数ページに分かれ行政用語も難しく必要な情報を探し出すこと自体が負担になるという課題に対応。困っている内容を選ぶと必要な情報と次の行動が分かり、医療機関・保育施設・避難場所の検索やごみ482品目の多言語分別検索に対応する。窓口でそのまま見せられる日本語表示も用意。Next.js・React・TypeScript・Tailwind CSSでVercel上に構築し、ChatGPTとOpenAI Codexをアイデア整理からコード実装補助まで活用しつつ行政情報の生成はその場でAIに作らせない設計とした。",
+ "open_data_items": [
+  {
+   "name": "新宿区の子育て施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000117"
+  },
+  {
+   "name": "新宿区の指定緊急避難場所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000115"
+  },
+  {
+   "name": "新宿区のゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000129"
+  },
+  {
+   "name": "新宿区の医療機関一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000121"
+  },
+  {
+   "name": "公立学校統計調査報告書［東京都公立学校一覧］",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000117",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000115",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000129",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000121",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://minfo-umber.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://minfo-umber.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4762",
+ "image_count": 3,
+ "notes": ""
+}

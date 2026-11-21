@@ -1,0 +1,62 @@
+{
+ "id": "6632806494315198828",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806494315198828/?year=2026",
+ "fetched_at": "2026-11-20T15:43:48+00:00",
+ "title": "フラっと",
+ "team": "CureApp",
+ "member_count": 10,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「フラっと」は、ベビーカーや未就学児と移動する人のための経路・乗車位置案内。都内の0〜4歳児は44.7万人おり子連れで外出を控える人は女性77.4%にのぼるが、必要情報は駅・記事・事業者ごとに分断され保護者が移動前に自力で突き合わせているという課題に対応。出発地・目的地から経路を検索するとエレベーターに近い号車や子育て応援スペース、ホームとの段差・混雑、到着駅のおむつ交換台まで一つの旅程として提示する。都営地下鉄3経路を実データで案内するPoC。Cloudflare Workers＋HonoとReact、D1＋Drizzleで型安全に統合し、Codex／Claude Codeを調査・実装・テスト生成に活用しつつ根拠は出典・鮮度とともに291件の自動テストで確認した。",
+ "open_data_items": [
+  {
+   "name": "東京都交通局「鉄道関連情報 GTFS」（公共交通オープンデータセンター、CC BY 4.0）",
+   "url": "https://ckan.odpt.org/dataset/train-toei"
+  },
+  {
+   "name": "東京都交通局「駅情報」（公共交通オープンデータセンター、CC BY 4.0）",
+   "url": "https://ckan.odpt.org/dataset/r_station-toei"
+  },
+  {
+   "name": "東京地下鉄「駅情報」（公共交通オープンデータセンター、公共交通オープンデータ基本ライセンス）",
+   "url": "https://ckan.odpt.org/dataset/r_station-tokyometro"
+  },
+  {
+   "name": "東京都交通局「地下鉄関連情報 バリアフリー情報」（東京都オープンデータカタログ、CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "東京都交通局「地下鉄関連情報 混雑の見える化」（東京都オープンデータカタログ、CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031"
+  },
+  {
+   "name": "東京都デジタルサービス局「宿泊施設等の施設情報ポータルサイト『だれでも東京』交通施設CSV」（CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "東京都交通局「都営地下鉄各駅エレベーター等点検・工事日程データ」（CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051"
+ ],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset/train-toei",
+  "https://ckan.odpt.org/dataset/r_station-toei",
+  "https://ckan.odpt.org/dataset/r_station-tokyometro"
+ ],
+ "demo_url": "https://tokyo-hackathon.tokyo-odh-164.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-hackathon.tokyo-odh-164.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4337",
+ "image_count": 2,
+ "notes": ""
+}

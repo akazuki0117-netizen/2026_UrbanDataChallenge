@@ -1,0 +1,31 @@
+{
+ "id": "6632697689172178581",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632697689172178581/?year=2026",
+ "fetched_at": "2026-11-20T15:38:57+00:00",
+ "title": "まちのわ",
+ "team": "takano",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "活動地域・年齢・興味・子どもの月齢に合わせて近所のオフラインイベントだけをPush通知するアプリ。掲示板や広報紙は自分から探しに行く前提のため外に出づらい人ほど届かず、育児期の孤立では児童館の「0歳のひろば」が最も近い接点なのにその存在が届いていないという課題に対応。施設情報は東京都オープンデータカタログから自動収集しDBの人手メンテが不要。Cloudflare Workers + D1 + Cron Triggers + Web Pushで地域×年齢×興味×子の月齢を横断するクエリを実装し、Claude Codeでシステム全体を作成した。",
+ "open_data_items": [
+  {
+   "name": "子育て施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000014"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000014"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://machinowa.matinowa.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://machinowa.matinowa.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1643",
+ "image_count": 2,
+ "notes": ""
+}

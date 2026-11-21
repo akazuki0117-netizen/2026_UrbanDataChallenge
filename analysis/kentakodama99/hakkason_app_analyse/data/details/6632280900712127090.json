@@ -1,0 +1,67 @@
+{
+ "id": "6632280900712127090",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632280900712127090/?year=2026",
+ "fetched_at": "2026-11-20T15:37:32+00:00",
+ "title": "TOKYO PACE",
+ "team": "TOKYO PACE",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO PACE」は、長時間歩き続けることが難しい人のための歩行経路比較サービス。一般的な経路検索は距離や所要時間が中心で高齢者等にとって重要な「あと何分歩き続けるか」「休める場所やトイレはあるか」が経路選択時に分かりにくいという課題に対応。出発地・目的地と「休まずに歩ける時間」「トイレ」「急坂回避」等の条件を入力すると複数経路の連続歩行時間・休憩空白・坂道負担を比較し理由付きで提示する。条件を満たせない場合も未達項目を明示。React・TypeScriptとCloudflare Workersで構築し、openrouteserviceと国土地理院の標高タイルを利用、ChatGPT／Codexで要件整理からリファクタリングまで活用した。",
+ "open_data_items": [
+  {
+   "name": "新宿区公衆トイレ一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（公共施設等・鉄道駅）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "新宿区の公共施設情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000113"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "国土地理院「地理院タイル（標高タイル）」",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html#dem"
+  },
+  {
+   "name": "openrouteservice（OpenStreetMapを用いた経路API）",
+   "url": "https://openrouteservice.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000113",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/",
+  "https://maps.gsi.go.jp/development/ichiran.html#dem",
+  "https://openrouteservice.org/"
+ ],
+ "demo_url": "https://tokyo-pace.tokyo-pace.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-pace.tokyo-pace.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1147",
+ "image_count": 3,
+ "notes": ""
+}

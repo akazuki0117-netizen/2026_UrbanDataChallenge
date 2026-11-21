@@ -1,0 +1,41 @@
+{
+ "id": "6632779671016178266",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632779671016178266/?year=2026",
+ "fetched_at": "2026-11-20T15:41:32+00:00",
+ "title": "OMOKAGE",
+ "team": "チーム乙女座AB型",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「OMOKAGE（オモカゲ）」は、再開発前後の文化的変容を可視化するエリア分析プラットフォーム。再開発の議論では経済効果は語られても、かつての家屋やコミュニティ、生まれた文化といった文化面の議論が薄いという課題に着目。令和3年度の土地利用現況調査とOpenStreetMapで同じ土地の別時代の建物・用途を可視化し、利用者が投稿やリアクションで抱く「面影」を重ねることで、街の文化的変化を定量・定性データのハイブリッドで独自にスコアリングする。地図はLeaflet.jsとOpenStreetMapを採用し商用依存を回避。生成AIにはClaudeとGeminiを用いた。",
+ "open_data_items": [
+  {
+   "name": "区部土地利用現況調査（建物現況）令和3年度",
+   "url": "https://www.toshiseibi.metro.tokyo.lg.jp/about/chousa/tochi_c/tochi_kekka_r3/list"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://openstreetmap.jp/"
+  },
+  {
+   "name": "東京都文化財情報",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/lifelong/cultural_property/resource"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toshiseibi.metro.tokyo.lg.jp/about/chousa/tochi_c/tochi_kekka_r3/list",
+  "https://openstreetmap.jp/",
+  "https://www.kyoiku.metro.tokyo.lg.jp/lifelong/cultural_property/resource"
+ ],
+ "demo_url": "https://omokage.hitsujihaneco.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://omokage.hitsujihaneco.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=3096",
+ "image_count": 3,
+ "notes": ""
+}

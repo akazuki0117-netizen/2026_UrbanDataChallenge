@@ -1,0 +1,76 @@
+{
+ "id": "6625067232616877495",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625067232616877495/?year=2026",
+ "fetched_at": "2026-11-20T15:32:24+00:00",
+ "title": "うちの区ちゃん",
+ "team": "白いフラン",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京23区を昼夜間人口比率・年齢構成・公園面積・世帯構成・財政力指数の5軸性格ベクトルで表し擬人化した「区ちゃん」として巡れるWeb図鑑。オープンデータが充実しても関心のない人が自分や暮らす地域との接点としてデータに触れる入口がないという課題に対応（世田谷区調査では区の情報を「特に入手していない」人が10代・20代で半数超）。10問の性格診断に答えると回答ベクトルに最も近い区を提示し、レーダーチャートや相性TOP3、区別の詳細指標・出典まで確認でき結果はXで共有可能。“診断されたい”好奇心を入口に区への関心を作る関心の矢印を逆転させる設計。Next.js App RouterでCloudflare Pagesに静的生成し、ChatGPTで23区キャラクターの画像生成ルールを統一した。",
+ "open_data_items": [
+  {
+   "name": "令和2年国勢調査 従業地・通学地による人口・就業状態等集計（昼夜間人口比率）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/tyukanj/2020/tj20zv0100.csv"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口 年齢別人口（令和8年1月）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26qv0301.csv"
+  },
+  {
+   "name": "東京都都市公園等区市町村別面積・人口割比率表（令和7年4月1日現在）",
+   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/kouen_menseki"
+  },
+  {
+   "name": "令和2年国勢調査 人口等基本集計 第10表「世帯の家族類型、世帯人員の人数別一般世帯数」",
+   "url": "https://www.e-stat.go.jp/stat-search/database?statdisp_id=0003445080"
+  },
+  {
+   "name": "総務省「全市町村の主要財政指標」（令和5年度）",
+   "url": "https://www.soumu.go.jp/main_content/000983094.xlsx"
+  },
+  {
+   "name": "国土交通省「令和7年地価公示」",
+   "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000444.html"
+  },
+  {
+   "name": "総務省「市町村税課税状況等の調」（令和6年度）第11表",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-24-b.xlsx"
+  },
+  {
+   "name": "東京都の統計「国籍・地域別 外国人人口」（令和8年1月1日現在）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/gaikoku/2026/ga26ev0100.csv"
+  },
+  {
+   "name": "警視庁「区市町村の町丁別、罪種別及び手口別認知件数」（令和6年分）",
+   "url": "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.html"
+  },
+  {
+   "name": "こども家庭庁「保育所等関連状況取りまとめ（令和7年4月1日）」",
+   "url": "https://www.cfa.go.jp/policies/hoiku/torimatome/r7"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/tyukanj/2020/tj20zv0100.csv",
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26qv0301.csv",
+  "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/kouen_menseki",
+  "https://www.e-stat.go.jp/stat-search/database?statdisp_id=0003445080",
+  "https://www.soumu.go.jp/main_content/000983094.xlsx",
+  "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000444.html",
+  "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-24-b.xlsx",
+  "https://www.toukei.metro.tokyo.lg.jp/gaikoku/2026/ga26ev0100.csv",
+  "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.html",
+  "https://www.cfa.go.jp/policies/hoiku/torimatome/r7"
+ ],
+ "demo_url": "https://uchinokuchan.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://uchinokuchan.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4897",
+ "image_count": 3,
+ "notes": ""
+}

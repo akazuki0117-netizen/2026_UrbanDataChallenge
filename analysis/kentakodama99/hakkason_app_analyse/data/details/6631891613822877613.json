@@ -1,0 +1,37 @@
+{
+ "id": "6631891613822877613",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631891613822877613/?year=2026",
+ "fetched_at": "2026-11-20T15:36:21+00:00",
+ "title": "桶屋",
+ "team": "ねこめ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都の地域危険度測定調査の全町丁目を接合し、順位変動を「自町の危険量変化」と「他地域の変動」の4要因に分解するツール。地域危険度は相対評価だが自分の町が改善しても他の町がより改善すれば順位は悪化するという性質が区別されずに流通し、順位が危険側へ動いた1,734町丁目のうち89.6%はその町の火災危険量がむしろ下がっていたという課題に対応。町丁目を選ぶと順位悪化がどちらの要因に由来するかを数値で示し、相対評価であることを明記した住民向け説明文を自動生成しコピー・印刷できる。数値計算はすべてPowerShellの決定的なスクリプトで行い生成AIに数値を計算させない設計。丸めのため解釈できない変化はLOW_PRECISIONとして理由とともに表示する誠実さを持つ。Claude Codeを実装・検証設計・ドキュメント作成に使用した。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）地域危険度一覧（CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "同上・町丁目ポリゴン（シェープファイル、CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査（第8回）地域危険度一覧（平成30年2月公表・Internet Archive経由／利用条件を事務局経由で確認中）",
+   "url": "https://web.archive.org/web/20210213164600/https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/home.htm"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+ ],
+ "external_data_urls": [
+  "https://web.archive.org/web/20210213164600/https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/home.htm"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1222",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "6632648138016309885",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632648138016309885/?year=2026",
+ "fetched_at": "2026-11-20T15:38:28+00:00",
+ "title": "TOKYO QUEST",
+ "team": "HopenData",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京を「遊ぶ」ことがデータを「集める」ことになる市民参加型サービス。都のオープンデータカタログを実監査した結果、都民の声から生まれた公式テーマ55件のうち既存データで応えられるのは19件だけで、センサー増設等は費用が大きく市民通報は負担が重く集まらないという課題に対応。市民は「駅から公園までいちばん涼しい道を見つけよう」等のクエストを選んで街を歩き1タップの現地確認でバッジや特典を得る一方、行政はスマホの環境光センサー等でクエストに必要な最小限の観測を本人同意のもと集め足りなかったオープンデータを生み出す。Swift（iOS）／Kotlin（Android）のネイティブアプリを想定し、生成AIをデータの空白分析とクエスト草案づくりに活用しつつ行政担当者の承認フローを設けた。",
+ "open_data_items": [
+  {
+   "name": "都道の街路樹",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "都市公園・都立公園一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132039d2025000003"
+  },
+  {
+   "name": "公衆トイレ一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132039d0000000005"
+  },
+  {
+   "name": "自転車走行空間について",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026"
+  },
+  {
+   "name": "TOKYO WALKING MAP",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132039d2025000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132039d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://246design.com/hopendata/tokyo-quest-demo/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://246design.com/hopendata/tokyo-quest-demo/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1892",
+ "image_count": 1,
+ "notes": ""
+}

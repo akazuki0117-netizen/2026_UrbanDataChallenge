@@ -1,0 +1,41 @@
+{
+ "id": "6632810251019264353",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810251019264353/?year=2026",
+ "fetched_at": "2026-11-20T15:44:58+00:00",
+ "title": "KYOMI",
+ "team": "タン元",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "学びの場となる場所やイベントをAIにより概念抽出し不登校児との対話によって新たな学びの場を提供するサービス。不登校児の増加に対応し学びの場を提供するという課題に着目。タイピングが不慣れな子どもがユーザーとなるためクローズクエスチョンとなるUIが必要と考え、オープンデータとなるコンテンツの概念抽出に生成AIを活用する設計。Cloudflare（hono、Workers、Workers AI）で構築した。",
+ "open_data_items": [
+  {
+   "name": "図書館",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv"
+  },
+  {
+   "name": "こども食堂",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/fuchu/132063_fuchushi_kodomosyokudo.csv"
+  },
+  {
+   "name": "文化施設",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_21/CSV/opendata_5000397.csv"
+  },
+  {
+   "name": "イベント一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/komae/132195_event.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/fuchu/132063_fuchushi_kodomosyokudo.csv",
+  "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_21/CSV/opendata_5000397.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/komae/132195_event.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=3469",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

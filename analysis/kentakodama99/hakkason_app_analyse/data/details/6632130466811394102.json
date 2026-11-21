@@ -1,0 +1,61 @@
+{
+ "id": "6632130466811394102",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632130466811394102/?year=2026",
+ "fetched_at": "2026-11-20T15:37:01+00:00",
+ "title": "ゆれみる・地震リスクの一元管理",
+ "team": "にいがた",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ゆれみる」は、地域の地震リスクと日頃の備えを一つにまとめた防災アプリ。既存サービスは揺れ・震度に重点を置き人口曝露や社会的脆弱性、災害対応力を含む地域差を十分に示していないという課題に対応。250mメッシュ単位で地震活動度・人口曝露・社会的脆弱性・災害対応力を可視化し地域の「地震備え指数」を表示、病院・避難所・給水施設の検索や経路確認、持ち出し品チェックリストも提供する。地震活動度の推定にHawkes型の連続ETAS時空間地震予測モデルを採用。RとPython、TypeScript/React/Viteで構築し、OpenAI Codexをコード作成・デバッグ等の開発支援に限定して活用した。",
+ "open_data_items": [
+  {
+   "name": "気象庁「震度データベース検索」用震度観測データの年別アーカイブ",
+   "url": "https://www.data.jma.go.jp/eqev/data/bulletin/shindo.html"
+  },
+  {
+   "name": "気象庁防災情報XML・地震火山Atomフィード",
+   "url": "https://xml.kishou.go.jp/xmlpull.html"
+  },
+  {
+   "name": "2020年国勢調査250mメッシュ(人口に関するもの)",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521&toukeiYear=2020&aggregateUnit=Q&datum=2011"
+  },
+  {
+   "name": "2021年経済センサス－活動調査・産業大分類別事業所数及び従業者数(昼間人口計算用)",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200553"
+  },
+  {
+   "name": "令和2年国勢調査・町丁・字等別境界データ（東京都）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521"
+  },
+  {
+   "name": "国土数値情報・東京都(病院、避難所等の各種施設)",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "東京都水道局「災害時給水ステーション（給水拠点）」",
+   "url": "https://www.waterworks.metro.tokyo.lg.jp/kurashi/shinsai/ichiran"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.data.jma.go.jp/eqev/data/bulletin/shindo.html",
+  "https://xml.kishou.go.jp/xmlpull.html",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521&toukeiYear=2020&aggregateUnit=Q&datum=2011",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200553",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521",
+  "https://nlftp.mlit.go.jp/ksj/",
+  "https://www.waterworks.metro.tokyo.lg.jp/kurashi/shinsai/ichiran"
+ ],
+ "demo_url": "https://tokyo23-earthquake-map.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo23-earthquake-map.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4213",
+ "image_count": 3,
+ "notes": ""
+}

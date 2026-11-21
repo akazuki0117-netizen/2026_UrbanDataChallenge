@@ -1,0 +1,77 @@
+{
+ "id": "6632810561017314793",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810561017314793/?year=2026",
+ "fetched_at": "2026-11-20T15:45:04+00:00",
+ "title": "Bikr",
+ "team": "Johnny",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Bikr（バイカー）」は「いま、どこを走ればいいのか」に答える東京向け自転車ナビ。自転車専用通行帯や歩道通行可区間の情報が経路検索に反映されておらず走行位置が明示されないという課題に対応。警視庁の交通規制データをOSMの道路ネットワーク678,774本のエッジに12m以内でマッチングし「自転車レーン／車道／歩道通行可／車道・注意」の4種類に色分け表示、一方通行の73.3%が「自転車を除く」で逆走可能であることを経路探索に反映し走行可能ネットワークの連結成分を96.4%から100%に改善した。React＋TypeScript＋MapLibre GLでバックエンドを持たずブラウザ内で経路探索する設計とし、Claudeでモデル性能の天井を測る手法も活用した。",
+ "open_data_items": [
+  {
+   "name": "警視庁「交通規制情報」（自転車専用通行帯・歩道通行可・自転車横断帯・一方通行/自転車を除く）",
+   "url": "https://www.jartic.or.jp/service/opendata/"
+  },
+  {
+   "name": "警察庁「交通事故統計情報のオープンデータ」（2019–2024年・23区の自転車事故55,835件）",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "OpenStreetMap（道路ネットワーク678,774エッジ・31,660km・建物形状）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "東京都建設局「自転車走行空間について」（自転車推奨ルート・優先整備区間）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068"
+  },
+  {
+   "name": "東京都建設局「都道の街路樹」（144,183本・日陰推定に使用）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv"
+  },
+  {
+   "name": "国土数値情報 N03 行政区域（23区を単一の連結ネットワークとして抽出）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html"
+  },
+  {
+   "name": "国土数値情報 A29 用途地域（リスクモデル特徴量・99.7%被覆）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29-v2_1.html"
+  },
+  {
+   "name": "国土数値情報 N02 鉄道（駅）（リスクモデル特徴量・100%被覆）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html"
+  },
+  {
+   "name": "東京都オープンデータカタログ 各区「公営駐輪場一覧」等（17区・駐輪場680か所）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "各区 シェアサイクルポート（港区・目黒区・文京区・320か所）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.jartic.or.jp/service/opendata/",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://www.openstreetmap.org/copyright",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29-v2_1.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html"
+ ],
+ "demo_url": "https://bikr-tokyo.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://bikr-tokyo.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3000",
+ "image_count": 3,
+ "notes": ""
+}

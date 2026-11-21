@@ -1,0 +1,47 @@
+{
+ "id": "6627601595221175089",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627601595221175089/?year=2026",
+ "fetched_at": "2026-11-20T15:33:05+00:00",
+ "title": "私は日陰を歩きたい",
+ "team": "石釜パン",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "暑い日の移動で日陰の多い道を選ぶためのWebアプリ。猛暑日の通勤で日陰を歩きたくても一般的な地図ではどの道が日陰か分からないという課題に対応。3D都市モデルの建物形状・街路樹データ・歩行可能道路・太陽位置を組み合わせ建物影と木陰を推定、道路を短区間に分けて日陰率を算出し日陰の多い道を緑、少ない道を赤で可視化する。日時を変えると時間による日陰の変化も確認できる。Python＋FlaskとAstral（太陽位置算出）で構築し、ChatGPTとOpenAI Codexで課題整理から実装まで対話的に進めた。",
+ "open_data_items": [
+  {
+   "name": "都道の街路樹（23区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029?utm_source=chatgpt.com"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）品川区 建築物モデル",
+   "url": "https://www.mlit.go.jp/plateau/?utm_source=chatgpt.com"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）江東区 建築物モデル",
+   "url": "https://www.mlit.go.jp/plateau/?utm_source=chatgpt.com"
+  },
+  {
+   "name": "OpenStreetMap 道路データ",
+   "url": "https://www.openstreetmap.org/?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [
+  "https://www.mlit.go.jp/plateau/?utm_source=chatgpt.com",
+  "https://www.mlit.go.jp/plateau/?utm_source=chatgpt.com",
+  "https://www.openstreetmap.org/?utm_source=chatgpt.com"
+ ],
+ "demo_url": "https://shade-route.onrender.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://shade-route.onrender.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2365",
+ "image_count": 3,
+ "notes": ""
+}

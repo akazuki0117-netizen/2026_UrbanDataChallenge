@@ -1,0 +1,17 @@
+{
+ "id": "6632791503611063817",
+ "group": "control",
+ "title": "はぐくみ 〜申請主義を、先回りに。〜",
+ "demo_url": "https://claude.ai/public/artifacts/b7b2fa8e-6859-42df-91e9-2db0225c1e8c",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632791503611063817.png",
+ "status": "リンク切れ・エラー",
+ "form": "-",
+ "clear_in_5s": "-",
+ "n_features": 0,
+ "gen_ai": "-",
+ "map_viz": "-",
+ "maturity": "判定不能",
+ "note": "Claude の公開アーティファクトが「ページが見つかりません」"
+}

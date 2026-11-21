@@ -1,0 +1,31 @@
+{
+ "id": "6631566247978473224",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631566247978473224/?year=2026",
+ "fetched_at": "2026-11-20T15:35:39+00:00",
+ "title": "トドク",
+ "team": "トドク",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "災害時に自宅へとどまる在宅避難者へ物資を届けるための割当サービス。避難所には物資が届く一方在宅避難者には行き届かず、能登半島地震でも「在宅避難者に物資が届かない」実態が繰り返し報告されているという課題に対応。位置・必要な物資・緊急度の3点だけを申告すると氏名等は聞かずに緊急度の高い順に処理され行政境界を問わず受入余力のある最寄りの拠点へ自動割り当てられる。名簿に頼らずStage1の平常時エリア推定とStage2の発災後自己申告の二段構えで支援対象をつかむ設計。拠点データは東京都の実データ2,251施設、貪欲法で割当を実装し、ClaudeとChatGPTでオープンデータの実在確認と仕様検証に重点を置いた。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ避難所一覧データ",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv"
+ ],
+ "demo_url": "https://delivering-what-you-want.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://delivering-what-you-want.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3198",
+ "image_count": 3,
+ "notes": ""
+}

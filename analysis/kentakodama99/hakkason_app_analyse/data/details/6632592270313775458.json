@@ -1,0 +1,57 @@
+{
+ "id": "6632592270313775458",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632592270313775458/?year=2026",
+ "fetched_at": "2026-11-20T15:38:05+00:00",
+ "title": "東京RPG",
+ "team": "KEIO SCI-TECH",
+ "member_count": 5,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "「東京RPG」は、東京都のオープンデータと独自推定の混雑度を「レア度」というゲーム要素に変換する、外国人旅行者向けクエスト型観光アプリ。人気観光地に訪問先が極端に集中し（渋谷62.6%に対し亀有1.4%など約70倍の差）、混雑を見せるだけでは実際に見る人が36%にとどまるという課題に対応。混雑スコアをそのまま経験値というご褒美に変換することで、旅行者は混雑を調べずに空いている場所を選ぶようになる仕組み。困ったときは半径2km以内の都民に助けを求められる機能もあり、都民に見えるのは距離のみとしプライバシーに配慮。Cloudflare Workers/D1で構成し、事実はデータベース、物語はLLMという役割分離でストーリー生成・翻訳を行った。",
+ "open_data_items": [
+  {
+   "name": "文化財一覧（東京都教育庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+  },
+  {
+   "name": "公共施設一覧（東京都デジタルサービス局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "2024年東京都観光客数等実態調査（東京都産業労働局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000083"
+  },
+  {
+   "name": "令和6年 国・地域別外国人旅行者行動特性調査（東京都産業労働局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+  },
+  {
+   "name": "東京都公衆無線LANアクセスポイント一覧（東京都デジタルサービス局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025"
+  },
+  {
+   "name": "Open-Meteo Forecast API（Open-Meteo／CC BY 4.0）",
+   "url": "https://open-meteo.com/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000083",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025"
+ ],
+ "external_data_urls": [
+  "https://open-meteo.com/"
+ ],
+ "demo_url": "https://tokyo-rpg.keio-sci-tech.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-rpg.keio-sci-tech.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2719",
+ "image_count": 3,
+ "notes": ""
+}

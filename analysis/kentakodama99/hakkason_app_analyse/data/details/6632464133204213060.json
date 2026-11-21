@@ -1,0 +1,57 @@
+{
+ "id": "6632464133204213060",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632464133204213060/?year=2026",
+ "fetched_at": "2026-11-20T15:37:45+00:00",
+ "title": "TOKYOを支える人を育てる。大型ビルを核とした障がい者を活かすキャリアアップ循環モデル",
+ "team": "2023年度東京都セカンドキャリア塾有志チーム",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "大型ビルの清掃・館内物流・社食などエッセンシャル業務の人手不足と、障がい者雇用が単純作業中心で給与が上がらない構造的課題を、大型ビル単位での企業連携で同時に解決する「循環型キャリアアップモデル」。入居企業とエッセンシャル企業が連携し、障がい者を出向型の育成段階から派遣型での評価、正社員化、他ビルへの転出まで段階的に導く。清掃・物流・飲食の求人倍率が2〜4.5倍に達する一方、単独企業では両者を同時に解決できないという背景がある。オープンデータの延床面積・求人倍率・法人番号等を統合し、モデルが成立する大型ビルをAIで自動抽出、街区スコアとして実装可能性を評価する仕組みも備える。",
+ "open_data_items": [
+  {
+   "name": "東京都 都市計画基礎調査（都市計画決定情報GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019"
+  },
+  {
+   "name": "東京都福祉保健局 食品衛生関係一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000361"
+  },
+  {
+   "name": "／厚生労働省 一般職業紹介状況(職業安定業務統計)",
+   "url": "https://www.mhlw.go.jp/toukei/list/114-1.html"
+  },
+  {
+   "name": "東京都 都市計画基礎調査",
+   "url": "https://www.toshiseibi.metro.tokyo.lg.jp/about/chousa/tochi_c"
+  },
+  {
+   "name": "国税庁 法人番号公表サイト",
+   "url": "https://www.houjin-bangou.nta.go.jp/"
+  },
+  {
+   "name": "総務省　経済センサス",
+   "url": "https://www.stat.go.jp/data/e-census/"
+  },
+  {
+   "name": "OpenStreetMap (OSM)",
+   "url": "https://www.openstreetmap.org"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000361"
+ ],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/toukei/list/114-1.html",
+  "https://www.toshiseibi.metro.tokyo.lg.jp/about/chousa/tochi_c",
+  "https://www.houjin-bangou.nta.go.jp/",
+  "https://www.stat.go.jp/data/e-census/",
+  "https://www.openstreetmap.org"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=2873",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

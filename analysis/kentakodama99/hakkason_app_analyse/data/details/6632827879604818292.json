@@ -1,0 +1,57 @@
+{
+ "id": "6632827879604818292",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632827879604818292/?year=2026",
+ "fetched_at": "2026-11-20T15:47:00+00:00",
+ "title": "Ring",
+ "team": "Ring",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「近くの駐輪場」を探すサービスの逆で、今立っている場所に停めたら撤去されるかを答えるブラウザアプリ。放置禁止区域の境界は数メートル先でアウトになり区ごとに公開形式もばらばらで、既存の駐輪場検索は安全な場所のリストの外側については何も言えないという課題に対応。地図中央の任意地点を放置禁止区域の内か外か5段階で判定し、撤去対象なら近くの駐輪場を、既に撤去された場合は保管所を案内する。都のオープンデータには放置禁止区域のポリゴンが1件も存在しないため、駅別放置自転車状況のExcelフラグと駅座標を突合率99.9%で結合し全都519駅の区域を独自生成した。Vite+TypeScript+Reactで構築し、Claude Code（Opus 5）を調査・検証の共同開発者として使った。",
+ "open_data_items": [
+  {
+   "name": "駅別放置自転車の状況（令和7年度）／東京都都民安全総合対策本部",
+   "url": "https://www.tomin-anzen.metro.tokyo.lg.jp/kotsu/jitensha/houchi/0000001962"
+  },
+  {
+   "name": "国土数値情報 鉄道データ N02-24（駅の位置）／国土交通省",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
+  },
+  {
+   "name": "自転車駐車場（駐輪場の位置・収容台数）／文京区",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/e8b3192a-7c3e-49a2-9c57-d39a46d0301a"
+  },
+  {
+   "name": "区営・民間自転車駐輪場／品川区",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/91bf1825-e7f2-4d6f-951a-60b29a63c913"
+  },
+  {
+   "name": "地理院タイル（淡色地図・地図の基図）／国土地理院",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "自転車等駐輪場一覧（料金・利用時間）／目黒区",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/eb7b7721-bafb-4ad7-9da7-84ca1a1c4203"
+  },
+  {
+   "name": "区営自転車駐車場設置箇所／中野区",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/88c46c2e-2dc8-4b42-9418-0258f8bb7c21"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/e8b3192a-7c3e-49a2-9c57-d39a46d0301a",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/91bf1825-e7f2-4d6f-951a-60b29a63c913",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/eb7b7721-bafb-4ad7-9da7-84ca1a1c4203",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/88c46c2e-2dc8-4b42-9418-0258f8bb7c21"
+ ],
+ "external_data_urls": [
+  "https://www.tomin-anzen.metro.tokyo.lg.jp/kotsu/jitensha/houchi/0000001962",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4240",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

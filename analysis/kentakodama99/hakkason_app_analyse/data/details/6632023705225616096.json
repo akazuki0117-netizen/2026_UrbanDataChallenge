@@ -1,0 +1,67 @@
+{
+ "id": "6632023705225616096",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632023705225616096/?year=2026",
+ "fetched_at": "2026-11-20T15:36:43+00:00",
+ "title": "SafeDrop Tokyo",
+ "team": "おりみる",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "タクシー降車時の「どこで降りるか・何を確認するか」を支援するWebアプリ。ドア開閉事故は年間250件台で推移し、駅周辺では複数の交通が重なりドライバーが降車直前に停車地点と確認対象を短時間で判断する必要があるという課題に対応。施設情報から降車予定を指定すると徒歩時間・候補条件・確認ポイントで周辺候補を比較でき、到着前の確認予告から停車後の目視確認、乗客への案内までを支援する。最終判断はドライバーが行う設計。PythonとStreamlitでFoliumとscikit-learnのKDEを使い警察庁事故データの空間的集中傾向を分析、OpenAI Codexで実装とレビューを行った。",
+ "open_data_items": [
+  {
+   "name": "警察庁「交通事故統計情報のオープンデータ（2024年 本票）」",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2024/opendata_2024.html"
+  },
+  {
+   "name": "東京都建設局「自転車走行空間について／自転車推奨ルート」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026"
+  },
+  {
+   "name": "東京都交通局「バス関連情報（GTFS-JP形式）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052"
+  },
+  {
+   "name": "東京都交通局「地下鉄関連情報 バリアフリー情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000018d0000000028"
+  },
+  {
+   "name": "中央区「観光施設情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000020"
+  },
+  {
+   "name": "中央区「公共施設情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000027"
+  },
+  {
+   "name": "新宿区「公共施設情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000113"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052",
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000020",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000027",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000113"
+ ],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2024/opendata_2024.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://safedrop-tokyo-2026demo.streamlit.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://safedrop-tokyo-2026demo.streamlit.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4275",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,56 @@
+{
+ "id": "6632784350521207538",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632784350521207538/?year=2026",
+ "fetched_at": "2026-11-20T15:41:49+00:00",
+ "title": "夜間救命AED最適配置プランナー",
+ "team": "夜間救命AED最適配置プランナー",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "「夜間救命AED最適配置プランナー」は、限られた予算の中で夜間も使えるAEDを増やすための自治体職員向け意思決定支援サービス。渋谷区のAED105台のうち夜間実際に使えるのはわずか3台（2.9%）で、除細動が1分遅れるごとに救命率が7〜10%低下するのに複数の選択肢を定量的に比較する手段がないという課題に対応。新規設置・屋外移設・24時間協定の3施策案を予算内で組み合わせた場合の効果を比較し最も命を救える組み合わせを算出、予算額を変えると施策構成がリアルタイムで入れ替わる。Uber H3で空間統合しPythonとPuLP（CBCソルバー）で多肢選択ナップサック問題として決定論的に最適化、数値の判断部分と文書下書き部分でAIの役割を明確に分けた。",
+ "open_data_items": [
+  {
+   "name": "渋谷区AEDデータ（Shibuya Open Data）",
+   "url": "https://city-shibuya-data.opendata.arcgis.com/search?q=AED"
+  },
+  {
+   "name": "国勢調査 小地域（町丁・字等）別集計、500mメッシュ人口統計",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521&toukeiYear=2020&aggregateUnit=H&serveyId=H002005112020&statsId=T001101&datum=2000&by_prefecture_flg=1"
+  },
+  {
+   "name": "国土数値情報（行政区域データ N03）",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "OpenStreetMap（24時間営業店舗抽出用）",
+   "url": "https://www.openstreetmap.org/#map=5/35.59/134.38"
+  },
+  {
+   "name": "総務省消防庁「令和7年版 救急・救助の現況」",
+   "url": "https://www.fdma.go.jp/"
+  },
+  {
+   "name": "総務省統計局「人口推計」",
+   "url": "https://www.stat.go.jp/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://city-shibuya-data.opendata.arcgis.com/search?q=AED",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521&toukeiYear=2020&aggregateUnit=H&serveyId=H002005112020&statsId=T001101&datum=2000&by_prefecture_flg=1",
+  "https://nlftp.mlit.go.jp/ksj/",
+  "https://www.openstreetmap.org/#map=5/35.59/134.38",
+  "https://www.fdma.go.jp/",
+  "https://www.stat.go.jp/"
+ ],
+ "demo_url": "https://yellow-night-e49d.tokyo-odh-229.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yellow-night-e49d.tokyo-odh-229.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4830",
+ "image_count": 3,
+ "notes": ""
+}

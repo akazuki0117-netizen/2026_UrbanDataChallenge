@@ -1,0 +1,52 @@
+{
+ "id": "6628329957519869346",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628329957519869346/?year=2026",
+ "fetched_at": "2026-11-20T15:33:27+00:00",
+ "title": "さんぽの一歩",
+ "team": "てくてく",
+ "member_count": 2,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "「さんぽの一歩」は、体調に波がある人が「今日はどこまで歩けそうか」を距離ではなく休める間隔で選べる散歩ナビ。休憩施設を点で示すだけでは歩きすぎを防げず、休める場所が近くにあっても通り過ぎてへとへとになるという実体験の課題に対応。TOKYO WALKING MAPや駅・トイレ・公園・給水拠点データを組み合わせ、立ち寄れる場所がないまま歩き続ける最長区間「とぎれ」をサブコース単位で算出する。何を立ち寄り先と数えるかは利用者が選べ、選び直すたびに判定がやり直される。歩行中は現在地やとぎれ区間、近くの休憩・離脱地点を表示し、休める場所が近づくと提案する。座標変換や最近傍探索はPythonで実行し、Claude Codeで開発を進めた。",
+ "open_data_items": [
+  {
+   "name": "Tokyo walking map",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "都営バス GTFS-JP（停留所・時刻表）／東京都交通局",
+   "url": "https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei"
+  },
+  {
+   "name": "都営地下鉄 TrainTimetable（駅・時刻表）／東京都交通局（ODPT経由）",
+   "url": "https://ckan.odpt.org/dataset/r_train_timetable-toei"
+  },
+  {
+   "name": "国土数値情報 鉄道データN02（駅データ）／国土交通省",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/data/N02/N02-25/N02-25_GML.zip"
+  },
+  {
+   "name": "給水拠点一覧データ（災害時給水ステーション 213件）／東京都水道局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei",
+  "https://ckan.odpt.org/dataset/r_train_timetable-toei",
+  "https://nlftp.mlit.go.jp/ksj/gml/data/N02/N02-25/N02-25_GML.zip"
+ ],
+ "demo_url": "https://togire.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://togire.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2890",
+ "image_count": 3,
+ "notes": ""
+}

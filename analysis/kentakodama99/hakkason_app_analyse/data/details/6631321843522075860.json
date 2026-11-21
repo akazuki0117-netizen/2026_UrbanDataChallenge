@@ -1,0 +1,31 @@
+{
+ "id": "6631321843522075860",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631321843522075860/?year=2026",
+ "fetched_at": "2026-11-20T15:35:25+00:00",
+ "title": "SafeTokyo：文化理解×リアルタイム・リスクマネジメント",
+ "team": "SafeTokyo",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「SafeTokyo」は、地域の公開データと承認済み事例を訪日客への予防行動案内に変換するサービス。観光地では混雑や地域ルールの違いから割込みや撮影マナー等の小さな摩擦が起き、店舗や自治体は同じ説明を繰り返し問題発生後に対応しているという課題に対応（台東区調査でも観光地混雑への不安42.7%）。自治体画面でエリアの優先課題を確認しAIまたは承認済みテンプレートからDO／DON'T／WHY形式の短い案内を複数言語で作成、QRで店舗や観光地点へ配信し訪日客は登録不要で閲覧できる。将来的にはリアルタイム化やSNS炎上検知への発展も構想。Cloudflare WorkersとHono/TypeScriptで構築し、ChatGPT・Kiroを企画整理から実装支援に活用した。",
+ "open_data_items": [
+  {
+   "name": "台東区来訪者アンケート調査結果",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/a3c0c06f-886d-4e83-95dd-569d3c4fc482"
+  },
+  {
+   "name": "台東区長期総合計画一部修正に係る区民及び来訪者へのアンケート調査結果",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/607cf87e-4443-4364-8537-5f25f7e61a18"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/a3c0c06f-886d-4e83-95dd-569d3c4fc482",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/607cf87e-4443-4364-8537-5f25f7e61a18"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1286",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

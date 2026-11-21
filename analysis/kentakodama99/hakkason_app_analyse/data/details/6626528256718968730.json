@@ -1,0 +1,52 @@
+{
+ "id": "6626528256718968730",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626528256718968730/?year=2026",
+ "fetched_at": "2026-11-20T15:32:50+00:00",
+ "title": "マンション防災カルテ",
+ "team": "ssuga",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京のマンション住民向け防災・避難支援Webアプリ。都は耐震性の高いマンションでの在宅避難を推奨するが、住民は自宅が本当に留まれる建物かを知らないまま暮らしており、判断材料となる公的データが地域危険度・浸水予想・消防水利・避難所一覧と複数に分散しているという課題に対応。住所を入力すると国土地理院APIと東京都オープンデータAPIを突合し、地域危険度・浸水深・消防水利・避難所を1枚のカルテにまとめ、築年・構造・階数から在宅避難の適性と備蓄継続可能日数を算出する。避難所の不足物資とマンションの余剰備蓄を区×物資カテゴリで自動マッチングする「デジタル目安箱」も備える。Next.jsとCloudflare Workersで構築し、Claude Codeで実際にAPIを呼び出しレスポンス構造を確認してから実装した。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査地域危険度一覧／東京都都市整備局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "浸水予想区域図（改定）浸水深・地盤高／東京都下水道局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000020d0000000043"
+  },
+  {
+   "name": "東京消防庁 消火栓及び防火水槽等／東京消防庁",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000007"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ／東京都総務局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "住所検索API・逆ジオコーディングAPI／国土地理院",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000020d0000000043",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://mansion-bousai.tokyo-odh-039.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mansion-bousai.tokyo-odh-039.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=5490",
+ "image_count": 3,
+ "notes": ""
+}

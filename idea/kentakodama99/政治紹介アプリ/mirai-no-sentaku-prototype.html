@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ミライの選択 プロトタイプ（中高生向け 選挙・政党紹介アプリ）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#E9E9E4;font-family:'Noto Sans JP',system-ui,sans-serif;color:#1B1B1F}
+button{font-family:inherit;color:inherit}
+textarea{font-family:inherit}
+a{color:#2451B7}a:hover{color:#173A87}
+rt{font-size:9px}
+.stage{min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:16px;padding:24px 12px}
+.ctrl{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:center;font-size:13px}
+.ctrl label{color:#3A3A44}
+.ctrl select{height:36px;border:1px solid #C9CCD6;border-radius:8px;padding:0 10px;font-family:inherit;font-size:13px;background:#fff}
+.phone{width:390px;height:844px;max-width:100%;background:#F6F6F3;border-radius:28px;box-shadow:0 10px 40px rgba(0,0,0,.15);overflow:hidden;position:relative;display:flex;flex-direction:column}
+@media (max-width:480px){.stage{padding:0;gap:0}.ctrl{padding:8px}.phone{width:100%;height:calc(100vh - 52px);border-radius:0;box-shadow:none}}
+.hdr{height:56px;flex-shrink:0;display:flex;align-items:center;gap:8px;padding:0 12px;background:#fff;border-bottom:1px solid #E2E2DC}
+.hdr h1{margin:0;flex:1;font-size:17px;font-weight:700;padding-left:4px}
+.phase{font-size:11px;font-weight:700;color:#2451B7;background:#E8EEFA;padding:4px 10px;border-radius:12px}
+.icon-btn{width:44px;height:44px;border:none;background:transparent;border-radius:22px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.body{flex:1;overflow-y:auto;min-height:0}
+.pad{padding:16px;display:flex;flex-direction:column;gap:16px}
+.card{background:#fff;border:1px solid #E2E2DC;border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.muted{color:#5B5B66}
+.small{font-size:12px}
+p{margin:0}
+h2{margin:0;font-size:16px;font-weight:700}
+.chip{font-size:11px;font-weight:700;padding:3px 8px;border-radius:10px;background:#EFEFEA;color:#3A3A44}
+.chip.blue{background:#E8EEFA;color:#2451B7}
+.chip.warm{background:#FFF4EC;color:#8A3A08}
+.topic-btn{text-align:left;background:#fff;border:1px solid #E2E2DC;border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;cursor:pointer;width:100%}
+.bar{height:8px;border-radius:4px;background:#E8EEFA;overflow:hidden}
+.bar>i{display:block;height:100%;background:#2451B7;border-radius:4px}
+.like{flex:1;height:44px;border:1px solid #B4470B;border-radius:22px;background:#fff;color:#B4470B;font-size:14px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px}
+.like.on{background:#B4470B;color:#fff}
+.ghost{height:44px;border:1px solid #C9CCD6;border-radius:22px;background:#fff;font-size:14px;cursor:pointer;padding:0 16px}
+.primary{height:44px;border:none;border-radius:22px;background:#2451B7;color:#fff;font-size:15px;font-weight:700;cursor:pointer;padding:0 20px}
+.link-btn{border:none;background:transparent;padding:0;text-align:left;font-size:13px;font-weight:700;color:#2451B7;cursor:pointer;min-height:44px}
+.text-btn{border:none;background:transparent;font-size:12px;color:#5B5B66;cursor:pointer;min-height:32px}
+.tabs{height:64px;flex-shrink:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:#fff;border-top:1px solid #E2E2DC}
+.tabs button{border:none;background:transparent;font-size:13px;color:#5B5B66;cursor:pointer;border-top:3px solid transparent}
+.tabs button[aria-current]{font-weight:700;color:#2451B7;border-top-color:#2451B7}
+.fig{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr);gap:4px}
+.fig .box{border-radius:12px;padding:12px 10px;display:flex;flex-direction:column;gap:4px;align-items:center;text-align:center}
+.fig .now{background:#F1F1EC}
+.fig .next{background:#FFF4EC;border:2px solid #B4470B}
+.tag{font-size:11px;font-weight:700;padding:2px 10px;border-radius:10px}
+.sheet-bg{position:absolute;inset:0;background:rgba(20,20,30,.45);display:flex;flex-direction:column;justify-content:flex-end}
+.sheet{background:#fff;border-radius:20px 20px 0 0;padding:20px 20px 28px;display:flex;flex-direction:column;gap:10px}
+.toast{position:absolute;left:24px;right:24px;bottom:80px;background:#1B1B1F;color:#fff;border-radius:12px;padding:12px 16px;font-size:13px;line-height:1.6}
+.filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.filters button{flex-shrink:0;height:36px;padding:0 14px;border:1px solid #C9CCD6;border-radius:18px;background:#fff;font-size:13px;cursor:pointer}
+.filters button[aria-pressed=true]{background:#2451B7;border-color:#2451B7;color:#fff}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="ctrl">
+    <label for="phase">時期（デモ用の切り替え）</label>
+    <select id="phase">
+      <option>選挙期間中</option>
+      <option>投票終了後</option>
+      <option>選挙のない時期</option>
+    </select>
+    <span class="muted small">候補者・政党・数字はすべて架空のサンプルです</span>
+  </div>
+  <div class="phone" id="app" aria-live="polite"></div>
+</div>
+
+<script>
+var TOTAL = 1240;
+var TOPICS = [
+  { id: 'edu', name: '教育', liked: 768 },
+  { id: 'club', name: '部活・地域', liked: 512 },
+  { id: 'life', name: '物価・くらし', liked: 694 },
+  { id: 'env', name: '環境', liked: 403 },
+  { id: 'digital', name: 'デジタル・SNS', liked: 588 }
+];
+var TERMS = {
+  zaigen: { word: '財源', text: '政策にかかるお金を、どこから出すかのこと。税金、国の借金（国債）、ほかの予算を減らす、などの方法がある。' },
+  mushou: { word: '無償化', text: 'これまでお金がかかっていたものを無料にすること。そのぶんは税金などでまかなう。' },
+  kyufu: { word: '給付型奨学金', text: '返さなくてよい奨学金。あとで返す必要があるものは「貸与型」という。' },
+  chiiki: { word: '地域移行', text: '学校の先生が見ていた部活動を、地域のクラブや団体が受け持つようにすること。' },
+  shohi: { word: '消費税', text: '物やサービスを買うときに、代金といっしょに払う税金。中高生もお菓子を買うたびに払っている。' },
+  saichin: { word: '最低賃金', text: '働く人に払わなければならない、1時間あたりの給料の最低ライン。アルバイトの時給にも関係する。' },
+  saiene: { word: '再生可能エネルギー', text: '太陽の光や風、水の流れなど、使ってもなくならない自然の力でつくる電気。' },
+  nenrei: { word: '年齢確認', text: 'サービスを使う人が何歳かをたしかめること。身分証や保護者の同意を使う方法がある。' }
+};
+var CLAIMS = [
+  { id: 'c1', topic: 'edu', by: 'party', who: 'あおば党', party: 'あおば党', title: '高校の授業料を、家庭の収入に関係なく無料にする', image: '家庭の収入に関係なく、高校の授業料がかからなくなるとされています。党は、中高生が学費を気にせずに進学先を選べるようになる、と説明しています。', source: 'あおば党 政策集2026 12ページ（サンプル）', checked: '2026年11月10日', correction: '', prev: '前回（2024年）の選挙では「年収910万円未満の家庭に限って無料にする」と主張していました。今回は収入による区切りをなくしています。', terms: ['mushou', 'zaigen'] },
+  { id: 'c2', topic: 'edu', by: 'party', who: 'みなと党', party: 'みなと党', title: '返さなくてよい奨学金を、大学生の3人に1人まで広げる', image: '大学に進むとき、返さなくてよい奨学金を受け取れる人が増えるとされています。党は、卒業後の借金の心配が減る、と説明しています。', source: 'みなと党 マニフェスト2026 8ページ（サンプル）', checked: '2026年11月9日', correction: '', prev: '', terms: ['kyufu', 'zaigen'] },
+  { id: 'c3', topic: 'edu', by: 'candidate', who: '青木 ゆう', party: 'あおば党', title: 'この選挙区の公立中学校の給食を無料にする', image: '選挙区の公立中学校で、給食費がかからなくなるとされています。候補者は、家庭の負担が月4,000円ほど軽くなる、と説明しています。', source: '青木ゆう 選挙公報（サンプル）', checked: '2026年11月12日', correction: '2026年11月12日：「全国の公立中学校」を「この選挙区の公立中学校」に訂正しました（候補者からの申し出により、元資料と照らして確認）。', prev: '', terms: ['mushou'] },
+  { id: 'c4', topic: 'club', by: 'party', who: 'ひかり党', party: 'ひかり党', title: '休日の部活動を地域クラブに移すために、国の予算をつける', image: '休日の部活動が、地域のクラブや団体による活動に変わっていくとされています。党は、専門のコーチに教わる機会が増え、先生の負担も減る、と説明しています。', source: 'ひかり党 重点政策2026 5ページ（サンプル）', checked: '2026年11月8日', correction: '', prev: '', terms: ['chiiki', 'zaigen'] },
+  { id: 'c5', topic: 'club', by: 'candidate', who: '港 さとし', party: 'みなと党', title: '地域クラブの参加費を、月1,000円以下におさえる', image: '部活が地域クラブに移っても、参加費は月1,000円以下で済むとされています。候補者は、家庭の事情で部活をあきらめる人を減らせる、と説明しています。', source: '港さとし 選挙公報（サンプル）', checked: '2026年11月11日', correction: '', prev: '', terms: ['chiiki'] },
+  { id: 'c6', topic: 'life', by: 'party', who: 'そよかぜの会', party: 'そよかぜの会', title: '食料品の消費税を5%に下げる', image: 'スーパーやコンビニで買う食べ物の値段が、少し下がるとされています。会は、毎日の買い物の負担が軽くなる、と説明しています。', source: 'そよかぜの会 政策パンフレット（サンプル）', checked: '2026年11月7日', correction: '', prev: '', terms: ['shohi', 'zaigen'] },
+  { id: 'c7', topic: 'life', by: 'party', who: 'みなと党', party: 'みなと党', title: '最低賃金を時給1,500円に引き上げる', image: 'アルバイトなどの時給が、全国どこでも1,500円以上になるとされています。党は、高校生のアルバイト代も上がる、と説明しています。', source: 'みなと党 マニフェスト2026 14ページ（サンプル）', checked: '2026年11月9日', correction: '', prev: '', terms: ['saichin'] },
+  { id: 'c8', topic: 'env', by: 'party', who: 'ひかり党', party: 'ひかり党', title: '2035年までに、電気の6割を再生可能エネルギーでつくる', image: '使う電気の多くが、太陽光や風力でつくられるようになるとされています。党は、地球温暖化をおさえ、将来の電気代も安定する、と説明しています。', source: 'ひかり党 重点政策2026 9ページ（サンプル）', checked: '2026年11月8日', correction: '', prev: '', terms: ['saiene'] },
+  { id: 'c9', topic: 'env', by: 'candidate', who: '光田 りな', party: 'ひかり党', title: '選挙区のすべての学校の屋根に、太陽光パネルを置く', image: '学校の屋根でつくった電気を、学校で使えるようになるとされています。候補者は、災害で停電したときの避難所の電気にもなる、と説明しています。', source: '光田りな 選挙公報（サンプル）', checked: '2026年11月11日', correction: '', prev: '', terms: ['saiene'] },
+  { id: 'c10', topic: 'digital', by: 'party', who: 'あおば党', party: 'あおば党', title: 'SNSを使うときの年齢確認のルールをつくる', image: 'SNSに登録するとき、年齢をたしかめるしくみが入るとされています。党は、中高生がトラブルに巻きこまれにくくなる、と説明しています。', source: 'あおば党 政策集2026 20ページ（サンプル）', checked: '2026年11月10日', correction: '', prev: '', terms: ['nenrei'] },
+  { id: 'c11', topic: 'digital', by: 'party', who: 'そよかぜの会', party: 'そよかぜの会', title: '学校の1人1台の端末を、家でも自由に使えるようにする', image: '学校で配られたタブレットやパソコンを、家でも勉強や調べものに使えるようになるとされています。会は、家にパソコンがない人との差が縮まる、と説明しています。', source: 'そよかぜの会 政策パンフレット（サンプル）', checked: '2026年11月7日', correction: '', prev: '', terms: [] },
+  { id: 'c12', topic: 'edu', by: 'party', who: 'あおば党', party: 'あおば党', title: '年収910万円未満の家庭の、高校の授業料を無料にする', image: '一定の収入より少ない家庭で、高校の授業料がかからなくなるとされていました。', source: 'あおば党 政策集2024 10ページ（サンプル）', checked: '2024年10月5日', correction: '', prev: '', terms: ['mushou'], past: true, pastYear: 2024, replacedBy: 'c1' }
+];
+var FIGS = {
+  c1: ['年 約12万円', '収入が多い家庭は授業料を払う', '0円', 'どの家庭も授業料なし', '高校生とその家庭'],
+  c2: ['約6人に1人', '返さなくてよい奨学金をもらえる大学生', '3人に1人', 'もらえる人が約2倍に', '大学に進みたい人'],
+  c3: ['月 約4,000円', '中学校の給食費', '0円', 'この選挙区の公立中学校', '中学生とその家庭'],
+  c4: ['学校の先生', '休日の部活を見ている', '地域のコーチ', '国の予算で地域クラブへ', '部活をしている中高生'],
+  c5: ['地域でばらばら', '月に数千円かかる所も', '月1,000円以下', '参加費に上限をつくる', '部活をしている中高生'],
+  c6: ['162円', '税込のパン1個（消費税8%）', '約158円', '消費税5%になると', '食べ物を買うすべての人'],
+  c7: ['時給 約1,050円', '最低賃金の全国平均', '時給1,500円', '全国どこでも', 'アルバイトをする高校生'],
+  c8: ['約2割', '自然の力でつくる電気', '6割', '2035年までに', 'すべての人'],
+  c9: ['一部の学校', '屋根に太陽光パネル', 'すべての学校', '停電のときは避難所の電気に', '選挙区の小中高生'],
+  c10: ['自己申告', '年齢は自分で入力するだけ', '確認あり', '登録のときに年齢をたしかめる', 'SNSを使う中高生'],
+  c11: ['学校だけ', '持ち帰りは学校ごとにちがう', '家でも自由に', '勉強や調べものに使える', '小中学生'],
+  c12: ['年 約12万円', '年収910万円以上の家庭', '0円', '年収910万円未満の家庭', '高校生とその家庭']
+};
+var COMMENTS = {
+  edu: ['塾代が高くて、学校の授業料より塾のほうが気になる。', '給食が無料になったら、親が少し楽になると思う。'],
+  club: ['地域クラブになったら、送り迎えがない家は通えないかもしれない。'],
+  life: ['お小遣いで買えるお菓子が、前より少なくなった気がする。'],
+  env: ['学校の屋上にパネルがあったら、理科の授業で使えそう。'],
+  digital: ['年齢確認はいいけど、毎回やるのは面倒そう。']
+};
+var CANDIDATES = [
+  { name: '青木 ゆう', party: 'あおば党', result: '当選', liked: 508 },
+  { name: '港 さとし', party: 'みなと党', result: '落選', liked: 409 },
+  { name: '光田 りな', party: 'ひかり党', result: '落選', liked: 273 }
+];
+var PARTIES = [
+  { name: 'あおば党', liked: 583 },
+  { name: 'みなと党', liked: 484 },
+  { name: 'ひかり党', liked: 372 },
+  { name: 'そよかぜの会', liked: 310 }
+];
+
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+function fmt(n) { return n.toLocaleString('ja-JP'); }
+function pct(n) { return Math.round(n / TOTAL * 100); }
+function shuffle(xs) { var a = xs.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+function judge(text) {
+  if (/投票して|入れて|当選させ|落選させ|勝たせ|投票しよう|入れよう/.test(text)) return '投票の呼びかけにあたるかもしれない表現があります';
+  if (/@|\d{2,4}-\d{2,4}-\d{3,4}|中学校|高校|小学校/.test(text)) return '学校名や連絡先などの個人情報が入っているかもしれません';
+  if (/バカ|ばか|死ね|うざ|キモ|きも/.test(text)) return '人を傷つける表現があるかもしれません';
+  return '';
+}
+function byId(id) { for (var i = 0; i < CLAIMS.length; i++) if (CLAIMS[i].id === id) return CLAIMS[i]; return CLAIMS[0]; }
+function topicName(id) { for (var i = 0; i < TOPICS.length; i++) if (TOPICS[i].id === id) return TOPICS[i].name; return ''; }
+function whoLabel(c) { return c.by === 'party' ? c.who : c.who + '（' + c.party + '）'; }
+function whoType(c) { return c.by === 'party' ? '政党' : '候補者'; }
+
+// ストックはこの端末（ブラウザ）にだけ保存
+function loadLikes() { try { var v = JSON.parse(localStorage.getItem('mirai-likes')); if (Array.isArray(v)) return v; } catch (e) {} return ['c12']; }
+function saveLikes() { try { localStorage.setItem('mirai-likes', JSON.stringify(S.likes)); } catch (e) {} }
+
+var S = {
+  phase: '選挙期間中', screen: 'intro', history: [], topicId: 'edu', claimId: 'c1',
+  likes: loadLikes(), order: shuffle(CLAIMS.map(function (c) { return c.id; })),
+  draft: '', myComments: [], reported: {}, sheet: null, toast: '',
+  showWhy: false, showPrev: false, stockFilter: 'all', seq: 1
+};
+var toastTimer;
+
+function isLiked(id) { return S.likes.indexOf(id) >= 0; }
+function none() { return S.phase === '選挙のない時期'; }
+function visible(c) { return !c.past && (!none() || c.by === 'party'); }
+
+var CHECK = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>';
+function likeBtn(c, big) {
+  var on = isLiked(c.id);
+  return '<button type="button" class="like' + (on ? ' on' : '') + '" aria-pressed="' + on + '" data-act="like" data-arg="' + c.id + '"' + (big ? ' style="height:48px;font-size:15px"' : '') + '>' + (on ? CHECK : '') + '気になる</button>';
+}
+function bar(r) { return '<div class="bar" aria-hidden="true"><i style="width:' + r + '%"></i></div>'; }
+
+function vIntro() {
+  return '<div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;padding:56px 24px 32px;background:#fff;overflow-y:auto">' +
+    '<div style="display:flex;flex-direction:column;gap:24px">' +
+    '<div style="display:flex;flex-direction:column;gap:8px"><p style="font-size:13px;font-weight:700;color:#2451B7;letter-spacing:.08em">ミライの<ruby>選択<rt>せんたく</rt></ruby></p>' +
+    '<h1 style="margin:0;font-size:26px;line-height:1.45">選挙で、日本はどう変わる？<br>政党や候補者の<ruby>主張<rt>しゅちょう</rt></ruby>を、やさしく。</h1></div>' +
+    ['特定の政党をおすすめしません。表示の順番は毎回ランダムです。', '解説はAIが下書きし、人が<ruby>公約<rt>こうやく</rt></ruby>などの元資料と照らして確認しています。', '18歳未満は選挙運動ができません。「この人に投票して」と呼びかける投稿はできないしくみです。'].map(function (t, i) {
+      return '<div style="display:flex;gap:12px;padding:16px;background:#F1F4FB;border-radius:12px"><p style="font-size:18px;font-weight:700;color:#2451B7;width:20px">' + (i + 1) + '</p><p style="font-size:14px;line-height:1.7">' + t + '</p></div>';
+    }).join('') +
+    '<p class="small muted" style="line-height:1.7">ログインは不要です。「気になる」の記録はこの端末にだけ保存されます。</p></div>' +
+    '<button type="button" class="primary" style="height:52px;border-radius:26px;font-size:16px;margin-top:24px" data-act="start">はじめる</button></div>';
+}
+
+function vHome() {
+  var during = S.phase === '選挙期間中', after = S.phase === '投票終了後';
+  var label = none() ? 'いまは選挙期間ではありません' : (after ? '投票は終わりました（サンプル）' : '投票日 2026年12月6日（日）（サンプル）');
+  var name = none() ? '政党の主張を、いつでも読めます' : '第〇〇回 衆議院議員総選挙 ・ 〇〇県第1区';
+  var note = none() ? '次の選挙が決まると、候補者の主張も追加されます。' : (after ? '「振り返り」で、結果と候補者別の「気になる」の割合を見られます。' : '国会に議席がある4つの政党と、この選挙区の候補者3人の主張を紹介しています。');
+  var h = '<div class="pad"><div class="card" style="gap:6px"><p class="small muted">' + label + '</p><p style="font-size:18px;font-weight:700;line-height:1.5">' + name + '</p><p style="font-size:13px;line-height:1.7;color:#3A3A44">' + note + '</p></div>';
+  h += '<div style="display:flex;flex-direction:column;gap:4px"><h2>気になる話題からえらぶ</h2><p class="small muted">アプリ利用者 ' + fmt(TOTAL) + '人のうち、その話題の主張に「気になる」を付けた人の割合</p></div><div style="display:flex;flex-direction:column;gap:10px">';
+  TOPICS.forEach(function (t) {
+    var n = CLAIMS.filter(function (c) { return c.topic === t.id && visible(c); }).length;
+    h += '<button type="button" class="topic-btn" data-act="topic" data-arg="' + t.id + '"><span style="display:flex;justify-content:space-between;align-items:baseline;width:100%"><span style="font-size:16px;font-weight:700">' + t.name + '</span><span style="font-size:20px;font-weight:700;color:#2451B7">' + pct(t.liked) + '%</span></span><span style="width:100%">' + bar(pct(t.liked)) + '</span><span class="small muted">' + fmt(TOTAL) + '人中 ' + fmt(t.liked) + '人 ・ 主張 ' + n + '件</span></button>';
+  });
+  h += '</div><div class="card" style="gap:4px;padding:8px 16px"><button type="button" class="link-btn" data-act="why" aria-expanded="' + S.showWhy + '">候補者別・政党別の割合が出ないのはなぜ？</button>';
+  if (S.showWhy) h += '<p style="font-size:13px;line-height:1.8;color:#3A3A44;padding-bottom:8px">法律（公職選挙法）で、選挙の当選者を予想する人気投票の結果を公表することが禁止されています。そのため、候補者別・政党別の割合は、投票が終わった選挙についてだけ「振り返り」で見られます。</p>';
+  return h + '</div></div>';
+}
+
+function vTopic() {
+  var t = TOPICS.filter(function (x) { return x.id === S.topicId; })[0];
+  var claims = CLAIMS.filter(function (c) { return c.topic === S.topicId && visible(c); }).sort(function (a, b) { return S.order.indexOf(a.id) - S.order.indexOf(b.id); });
+  var canComment = CLAIMS.some(function (c) { return c.topic === S.topicId && !c.past && isLiked(c.id); });
+  var h = '<div class="pad"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px"><p style="font-size:13px;line-height:1.6;color:#3A3A44">アプリ利用者の <b style="color:#2451B7;font-size:16px">' + pct(t.liked) + '%</b>（' + fmt(TOTAL) + '人中 ' + fmt(t.liked) + '人）がこの話題を気にしています</p><button type="button" class="ghost" style="height:40px;flex-shrink:0;font-size:13px" data-act="shareTopic">シェア</button></div>';
+  h += '<p class="small muted">並び順は開くたびにランダムです</p><div style="display:flex;flex-direction:column;gap:12px">';
+  claims.forEach(function (c) {
+    h += '<div class="card"><div style="display:flex;gap:8px;align-items:center"><span class="chip">' + whoType(c) + '</span><span style="font-size:13px;color:#3A3A44">' + esc(whoLabel(c)) + '</span></div><p style="font-size:16px;font-weight:700;line-height:1.55">' + esc(c.title) + '</p><div style="display:flex;gap:8px">' + likeBtn(c) + '<button type="button" class="ghost" style="flex:1" data-act="claim" data-arg="' + c.id + '">どう変わる？</button></div></div>';
+  });
+  h += '</div><div style="display:flex;flex-direction:column;gap:10px;padding-top:8px"><h2>みんなのコメント（匿名）</h2>';
+  if (!canComment) {
+    h += '<div style="background:#FFF4EC;border-radius:12px;padding:14px 16px"><p style="font-size:13px;line-height:1.7;color:#3A3A44">この話題の主張に「気になる」を付けると、コメントを書けるようになります。</p></div>';
+  } else {
+    h += '<div class="card" style="padding:12px;gap:8px"><label for="draft" class="small muted">この話題について、自分の生活で感じることを書いてみよう</label><textarea id="draft" rows="3" placeholder="例：部活が地域クラブになったら、送り迎えが心配" style="width:100%;border:1px solid #C9CCD6;border-radius:10px;padding:10px;font-size:14px;line-height:1.6;resize:none">' + esc(S.draft) + '</textarea><p style="font-size:11px;line-height:1.6" class="muted">投票の呼びかけ・個人情報・人を傷つける表現は、AIが見つけて人が確認してから公開します。</p><button type="button" class="primary" style="align-self:flex-end;height:40px;font-size:14px" data-act="post">投稿する</button></div>';
+  }
+  S.myComments.filter(function (m) { return m.topic === S.topicId; }).forEach(function (m) {
+    h += '<div style="background:#fff;border:1px dashed #9AA3BF;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:11px;font-weight:700;color:#2451B7">あなたのコメント ・ ' + m.status + '</span><button type="button" class="text-btn" data-act="delComment" data-arg="' + m.id + '">削除</button></div><p style="font-size:14px;line-height:1.6">' + esc(m.text) + '</p>' + (m.reason ? '<p style="font-size:12px;line-height:1.6;color:#8A3A08">確認待ち：' + m.reason + '。人が確認するまで、ほかの人には見えません。</p>' : '') + '</div>';
+  });
+  (COMMENTS[S.topicId] || []).forEach(function (text, i) {
+    var key = S.topicId + i;
+    h += '<div style="background:#fff;border:1px solid #E2E2DC;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><p style="font-size:14px;line-height:1.6">' + esc(text) + '</p><div style="display:flex;justify-content:flex-end"><button type="button" class="text-btn" data-act="report" data-arg="' + key + '">' + (S.reported[key] ? '通報しました' : '通報する') + '</button></div></div>';
+  });
+  return h + '</div></div>';
+}
+
+function vClaim() {
+  var c = byId(S.claimId), f = FIGS[c.id], during = S.phase === '選挙期間中';
+  var h = '<div class="pad" style="gap:14px"><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="chip blue">' + topicName(c.topic) + '</span><span class="chip">' + whoType(c) + '</span><span style="font-size:13px;color:#3A3A44">' + esc(whoLabel(c)) + '</span></div>';
+  h += '<h2 style="font-size:20px;line-height:1.5">' + esc(c.title) + '</h2>';
+  h += '<div class="card" style="gap:12px"><p style="font-size:13px;font-weight:700;color:#2451B7">これで、どう変わるとされている？</p>';
+  h += '<figure style="margin:0;display:flex;flex-direction:column;gap:8px"><div class="fig">' +
+    '<div class="box now"><span class="tag" style="color:#5B5B66;background:#fff">いま</span><span style="font-size:18px;font-weight:700;line-height:1.35;color:#3A3A44">' + f[0] + '</span><span style="font-size:11px;line-height:1.5;color:#5B5B66">' + f[1] + '</span></div>' +
+    '<div style="display:flex;align-items:center;justify-content:center;color:#B4470B"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="M13 6l6 6-6 6"/></svg></div>' +
+    '<div class="box next"><span class="tag" style="color:#fff;background:#B4470B">こうなる！</span><span style="font-size:20px;font-weight:700;line-height:1.35;color:#8A3A08">' + f[2] + '</span><span style="font-size:11px;line-height:1.5;color:#3A3A44">' + f[3] + '</span></div></div>' +
+    '<figcaption style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><span style="font-size:12px;color:#3A3A44">関係する人：<b>' + f[4] + '</b></span><span style="font-size:11px" class="muted">' + esc(c.who) + 'の主張をもとにしたイメージ図</span></figcaption></figure>';
+  h += '<p style="font-size:15px;line-height:1.85">' + esc(c.image) + '</p>';
+  h += '<div style="background:#F6F6F3;border-radius:10px;padding:10px 12px"><p style="font-size:12px;line-height:1.7;color:#3A3A44"><b>これは主張をもとに作成したイメージです。</b>アプリの予測ではありません。AIが下書きし、人が元資料と照らして確認しました。</p></div>';
+  if (c.terms.length) {
+    h += '<div style="display:flex;flex-direction:column;gap:6px"><p class="small muted">ことばをタップすると説明が出ます</p><div style="display:flex;gap:8px;flex-wrap:wrap">' + c.terms.map(function (k) {
+      return '<button type="button" style="height:36px;padding:0 14px;border:1px dashed #2451B7;border-radius:18px;background:#fff;color:#2451B7;font-size:13px;cursor:pointer" data-act="term" data-arg="' + k + '">' + TERMS[k].word + '</button>';
+    }).join('') + '</div></div>';
+  }
+  h += '</div><div class="card" style="gap:8px;padding:14px 16px"><p class="small muted">元資料</p><a href="#" onclick="return false" style="font-size:14px;line-height:1.6">' + esc(c.source) + '</a><p class="small muted">最終確認日：' + c.checked + '</p>';
+  if (c.correction) h += '<div style="border-top:1px solid #E2E2DC;padding-top:8px"><p style="font-size:12px;font-weight:700;color:#3A3A44">訂正記録</p><p style="margin-top:4px;font-size:12px;line-height:1.7;color:#3A3A44">' + esc(c.correction) + '</p></div>';
+  h += '</div>';
+  if (c.prev) {
+    h += '<div class="card" style="gap:4px;padding:8px 16px"><button type="button" class="link-btn" data-act="prev" aria-expanded="' + S.showPrev + '">前回の選挙での主張とくらべる</button>' + (S.showPrev ? '<p style="font-size:13px;line-height:1.7;color:#3A3A44;padding-bottom:8px">' + esc(c.prev) + '</p>' : '') + '</div>';
+  }
+  h += '<div style="display:flex;gap:8px">' + likeBtn(c, true) + (during ? '' : '<button type="button" class="ghost" style="height:48px;border-radius:24px" data-act="shareClaim">シェア</button>') + '</div>';
+  if (during) h += '<p style="font-size:12px;line-height:1.7" class="muted">選挙期間中は、候補者・政党の主張はシェアできません。18歳未満は選挙運動ができないため、知らないうちに違反しないようにしています。話題（' + topicName(c.topic) + '）のシェアはできます。</p>';
+  return h + '</div>';
+}
+
+function vStock() {
+  var list = CLAIMS.filter(function (c) { return isLiked(c.id) && (S.stockFilter === 'all' || c.topic === S.stockFilter); });
+  var h = '<div class="pad" style="gap:14px"><p class="small muted" style="line-height:1.6">ストックはこの端末にだけ保存されます。だれにも見られません。</p><div class="filters">';
+  [{ id: 'all', name: 'すべて' }].concat(TOPICS).forEach(function (f) {
+    h += '<button type="button" aria-pressed="' + (S.stockFilter === f.id) + '" data-act="filter" data-arg="' + f.id + '">' + f.name + '</button>';
+  });
+  h += '</div>';
+  if (!list.length) h += '<p style="font-size:14px;line-height:1.7;padding:24px 0;text-align:center" class="muted">まだストックがありません。<br>主張に「気になる」を付けると、ここに集まります。</p>';
+  list.forEach(function (c) {
+    h += '<button type="button" class="topic-btn" style="gap:6px" data-act="claim" data-arg="' + (c.past ? c.replacedBy : c.id) + '"><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="chip blue">' + topicName(c.topic) + '</span>' + (c.past ? '<span class="chip">過去の主張（' + c.pastYear + '年）・新しい主張があります</span>' : '') + (c.correction ? '<span class="chip warm">訂正あり</span>' : '') + '</span><span style="font-size:15px;font-weight:700;line-height:1.5">' + esc(c.title) + '</span><span class="small muted">' + esc(whoLabel(c)) + '</span></button>';
+  });
+  return h + '</div>';
+}
+
+function vReview() {
+  if (S.phase !== '投票終了後') {
+    return '<div class="pad"><div class="card" style="padding:20px"><p style="font-size:16px;font-weight:700">振り返りは、投票が終わってから開きます</p><p style="font-size:13px;line-height:1.8;color:#3A3A44">選挙の結果と、あなたが気になった主張、候補者別・政党別の「気になる」の割合をまとめて見られます。投票前に候補者別の割合を出すことは、法律（公職選挙法）で禁じられた人気投票の公表にあたるおそれがあるため、投票締め切り（20時）まで公開しません。</p></div></div>';
+  }
+  var h = '<div class="pad"><div class="card" style="gap:4px"><p class="small muted">投票終了（サンプル）</p><p style="font-size:17px;font-weight:700">第〇〇回 衆議院議員総選挙 ・ 〇〇県第1区</p></div>';
+  h += '<div style="display:flex;flex-direction:column;gap:8px"><h2>あなたが気になった主張の候補者</h2>';
+  var mine = CLAIMS.filter(function (c) { return c.by === 'candidate' && isLiked(c.id); });
+  if (!mine.length) h += '<p style="font-size:13px" class="muted">候補者の主張には、まだ「気になる」を付けていません。</p>';
+  mine.forEach(function (c) {
+    var cand = CANDIDATES.filter(function (x) { return x.name === c.who; })[0];
+    h += '<div class="card" style="flex-direction:row;justify-content:space-between;align-items:center;padding:12px 16px"><span style="display:flex;flex-direction:column;gap:2px"><b style="font-size:15px">' + c.who + '</b><span class="small muted">' + esc(c.title) + '</span></span><span class="chip" style="font-size:13px;padding:4px 10px;flex-shrink:0">' + (cand ? cand.result : '') + '</span></div>';
+  });
+  h += '</div><div style="display:flex;flex-direction:column;gap:8px"><h2>候補者別の「気になる」の割合</h2><p class="small muted">アプリ利用者 ' + fmt(TOTAL) + '人のうち、その候補者の主張に「気になる」を付けた人</p>';
+  CANDIDATES.forEach(function (c) {
+    h += '<div class="card" style="gap:6px;padding:12px 16px"><span style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:15px;font-weight:700">' + c.name + ' <span style="font-size:12px;font-weight:400" class="muted">' + c.party + ' ・ ' + c.result + '</span></span><span style="font-size:17px;font-weight:700;color:#2451B7">' + pct(c.liked) + '%</span></span>' + bar(pct(c.liked)) + '</div>';
+  });
+  h += '</div><div style="display:flex;flex-direction:column;gap:8px"><h2>政党別の「気になる」の割合</h2>';
+  PARTIES.forEach(function (p) {
+    h += '<div class="card" style="gap:6px;padding:12px 16px"><span style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:15px;font-weight:700">' + p.name + '</span><span style="font-size:17px;font-weight:700;color:#2451B7">' + pct(p.liked) + '%</span></span>' + bar(pct(p.liked)) + '</div>';
+  });
+  return h + '</div></div>';
+}
+
+function render() {
+  var app = document.getElementById('app');
+  var scrollEl = app.querySelector('.body');
+  var keepScroll = render._same && scrollEl ? scrollEl.scrollTop : 0;
+  var h = '';
+  if (S.screen === 'intro') {
+    h = vIntro();
+  } else {
+    var titles = { home: 'ホーム', topic: topicName(S.topicId), claim: '主張のくわしい説明', stock: 'ストック', review: '振り返り' };
+    h += '<div class="hdr">' + (S.history.length ? '<button type="button" class="icon-btn" aria-label="もどる" data-act="back"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>' : '') + '<h1>' + titles[S.screen] + '</h1><span class="phase">' + S.phase + '</span></div>';
+    h += '<div class="body">' + ({ home: vHome, topic: vTopic, claim: vClaim, stock: vStock, review: vReview })[S.screen]() + '</div>';
+    var tab = S.screen === 'stock' || S.screen === 'review' ? S.screen : 'home';
+    var count = CLAIMS.filter(function (c) { return isLiked(c.id); }).length;
+    h += '<nav class="tabs" aria-label="メインメニュー">' + [['home', 'ホーム'], ['stock', 'ストック ' + count], ['review', '振り返り']].map(function (t) {
+      return '<button type="button" data-act="tab" data-arg="' + t[0] + '"' + (tab === t[0] ? ' aria-current="page"' : '') + '>' + t[1] + '</button>';
+    }).join('') + '</nav>';
+  }
+  if (S.sheet) h += '<div class="sheet-bg" data-act="closeSheet"><div class="sheet" role="dialog" aria-label="ことばの説明" onclick="event.stopPropagation()"><p style="font-size:18px;font-weight:700">' + S.sheet.word + '</p><p style="font-size:15px;line-height:1.8">' + S.sheet.text + '</p><button type="button" class="ghost" style="margin-top:8px;height:48px;border-radius:24px;font-size:15px" data-act="closeSheet">とじる</button></div></div>';
+  if (S.toast) h += '<div class="toast" role="status">' + esc(S.toast) + '</div>';
+  app.innerHTML = h;
+  var nb = app.querySelector('.body');
+  if (nb) nb.scrollTop = keepScroll;
+  var ta = document.getElementById('draft');
+  if (ta) ta.addEventListener('input', function () { S.draft = ta.value; });
+}
+
+function go(screen, extra) {
+  var top = screen === 'home' || screen === 'stock' || screen === 'review';
+  S.history = top ? [] : S.history.concat([{ screen: S.screen, topicId: S.topicId, claimId: S.claimId }]);
+  S.screen = screen; S.sheet = null; S.showPrev = false;
+  for (var k in (extra || {})) S[k] = extra[k];
+  render._same = false; render();
+}
+function update() { render._same = true; render(); }
+function flash(msg) {
+  S.toast = msg; update();
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { S.toast = ''; update(); }, 2600);
+}
+
+var ACTIONS = {
+  start: function () { S.screen = 'home'; S.history = []; update(); },
+  tab: function (a) { go(a); },
+  topic: function (a) { go('topic', { topicId: a, draft: '' }); },
+  claim: function (a) { go('claim', { claimId: a }); },
+  back: function () { var last = S.history.pop(); if (last) { S.screen = last.screen; S.topicId = last.topicId; S.claimId = last.claimId; S.sheet = null; S.showPrev = false; } render._same = false; render(); },
+  like: function (a) { S.likes = isLiked(a) ? S.likes.filter(function (x) { return x !== a; }) : S.likes.concat([a]); saveLikes(); update(); },
+  why: function () { S.showWhy = !S.showWhy; update(); },
+  prev: function () { S.showPrev = !S.showPrev; update(); },
+  term: function (a) { S.sheet = TERMS[a]; update(); },
+  closeSheet: function () { S.sheet = null; update(); },
+  filter: function (a) { S.stockFilter = a; update(); },
+  shareTopic: function () { flash('話題「' + topicName(S.topicId) + '」のリンクをコピーしました（プロトタイプ）'); },
+  shareClaim: function () { flash('主張のリンクをコピーしました（プロトタイプ）'); },
+  post: function () {
+    var text = (S.draft || '').trim(); if (!text) return;
+    var reason = judge(text);
+    S.myComments.unshift({ id: S.seq++, topic: S.topicId, text: text, status: reason ? '確認待ち' : '公開中', reason: reason });
+    S.draft = '';
+    flash(reason ? '確認待ちになりました。人が確認してから公開されます。' : 'コメントを公開しました（匿名）');
+  },
+  delComment: function (a) { S.myComments = S.myComments.filter(function (m) { return String(m.id) !== a; }); update(); },
+  report: function (a) { if (S.reported[a]) return; S.reported[a] = true; flash('通報を受け付けました。運営が確認します。'); }
+};
+
+document.getElementById('app').addEventListener('click', function (e) {
+  var el = e.target.closest('[data-act]');
+  if (!el) return;
+  var fn = ACTIONS[el.getAttribute('data-act')];
+  if (fn) fn(el.getAttribute('data-arg'));
+});
+document.getElementById('phase').addEventListener('change', function (e) { S.phase = e.target.value; update(); });
+
+render();
+</script>
+</body>
+</html>

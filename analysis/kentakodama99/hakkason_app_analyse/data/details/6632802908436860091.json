@@ -1,0 +1,37 @@
+{
+ "id": "6632802908436860091",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632802908436860091/?year=2026",
+ "fetched_at": "2026-11-20T15:43:10+00:00",
+ "title": "あつまっぷ",
+ "team": "Hosei AI コミュニティ - HAC - チームA",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "待ち合わせを「決める・向かう・待つ」の全部でラクにする複数人集合ナビ。新宿駅は5社局が乗り入れ64の出口があり路線・改札・階の違いで認識がずれるが地図アプリは駅の中や地下通路を正確に案内しないという課題に対応。国交省の屋内地図から作った歩行網で72の集合候補を比べ全員が集まりやすい公平な場所を提案し、集合場所までは地下・室内・屋外を階ごとに切り替える3Dマップで案内、到着状況はルームで共有できる。アカウントも位置情報も使わない設計。TypeScriptフルスタックでCloudflare Workers＋Honoを用いルーム1件をDurable Objectに持たせ、Claude Code、Cursor、Figma MCPで開発した。",
+ "open_data_items": [
+  {
+   "name": "新宿駅周辺の施設情報等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000037"
+  },
+  {
+   "name": "新宿駅周辺屋内地図オープンデータ（令和2年度更新版）",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-indoor-shinjuku-r2"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000037"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/mlit-indoor-shinjuku-r2"
+ ],
+ "demo_url": "https://atsumap.h-furugen-24-7-1533.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://atsumap.h-furugen-24-7-1533.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3011",
+ "image_count": 2,
+ "notes": ""
+}

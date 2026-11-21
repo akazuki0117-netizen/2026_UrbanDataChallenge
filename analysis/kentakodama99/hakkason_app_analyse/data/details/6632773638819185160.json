@@ -1,0 +1,42 @@
+{
+ "id": "6632773638819185160",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632773638819185160/?year=2026",
+ "fetched_at": "2026-11-20T15:41:13+00:00",
+ "title": "支援総合Navi",
+ "team": "支援総合Naviプロジェクト",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「支援総合Navi」は、困窮や精神的疲弊により自力で制度を検索・説明できない要支援者が自由記述ゼロで公的支援につながるAAC（意思疎通支援）Webアプリ。当事者は検索キーワードが分からず窓口で状況を論理的に説明できないという認知的・心理的障壁に直面し、本当に支援を必要とするサイレントプア層ほど窓口に辿り着けないという課題に対応。感情や状況を表すカードを数回タップするだけで都のオープンデータから最適な支援窓口へ照合され、窓口でそのまま職員に見せる「意思表示カンペ」を自動生成する。文字入力を完全に排除した決定木UIとし、HTML5/CSS/Vanilla JSの単一ファイル構成で低スペック端末でも動作するようにし、生成AIをオープンデータの構造化とカンペ文面テンプレートの整形に活用した。",
+ "open_data_items": [
+  {
+   "name": "TOKYO補助金サーチ 見える化ボード",
+   "url": "https://www.zaimu.metro.tokyo.lg.jp/zaisei/zaisei/dashboard/redirect06"
+  },
+  {
+   "name": "都内区市町村及び東京都の子育て支援制度レジストリ",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2024/11/2024112807"
+  },
+  {
+   "name": "障害者支援施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/43afab84-bcda-4e76-ac1f-63caa5c003c7/resource/b89654dc-4db0-42e1-8cc0-5313b98cbc01"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/43afab84-bcda-4e76-ac1f-63caa5c003c7/resource/b89654dc-4db0-42e1-8cc0-5313b98cbc01"
+ ],
+ "external_data_urls": [
+  "https://www.zaimu.metro.tokyo.lg.jp/zaisei/zaisei/dashboard/redirect06",
+  "https://www.metro.tokyo.lg.jp/information/press/2024/11/2024112807"
+ ],
+ "demo_url": "https://script.google.com/macros/s/AKfycbxcGLZEpLlPLfx5HtyFaKm7CEL9OldfFirhcrYd29m1RoMGpi6jgfZwIi8j7F8KwHCg/exec",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://script.google.com/macros/s/AKfycbxcGLZEpLlPLfx5HtyFaKm7CEL9OldfFirhcrYd29m1RoMGpi6jgfZwIi8j7F8KwHCg/exec"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=756",
+ "image_count": 3,
+ "notes": ""
+}

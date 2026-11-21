@@ -1,0 +1,76 @@
+{
+ "id": "6632699306616281773",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632699306616281773/?year=2026",
+ "fetched_at": "2026-11-20T15:39:01+00:00",
+ "title": "Traveln",
+ "team": "Traveln",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "訪日・在留外国人向けの旅の相棒Webアプリ。2024年の訪都外国人は約2,479万人と過去最多だが「伝わらない」「行けるか分からない」という不安が旅の体験を止めているという課題に対応。母語⇄日本語の確認済みフレーズを見せる対話カード、都営地下鉄106駅のバリアフリー検索、江東区の分別1,099品目案内、周辺1,303スポット検索を登録不要のブラウザで提供、圏外でも動作する設計とした。データに無い項目は「記載なし」と正直に表示し、位置情報は端末外に送信しない。Next.js+PWAで構築し、Claude CodeとCodexを二段構えで使い分けて開発した。",
+ "open_data_items": [
+  {
+   "name": "地下鉄関連情報 バリアフリー情報(東京都交通局)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト『だれでも東京』(東京都デジタルサービス局)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "公共施設一覧(東京都デジタルサービス局)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "文化財一覧(東京都教育庁)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+  },
+  {
+   "name": "救急医療機関(台東区)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000230"
+  },
+  {
+   "name": "避難所(品川区)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000001"
+  },
+  {
+   "name": "資源の店頭回収実施店舗一覧(江東区)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000081"
+  },
+  {
+   "name": "ゴミの分別方法一覧(江東区)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000008"
+  },
+  {
+   "name": "資源の回収拠点(文京区)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0110060003"
+  },
+  {
+   "name": "拠点回収(品川区)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000093"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000230",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000081",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000008",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0110060003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000093"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://traveln-tokyo.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://traveln-tokyo.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=760",
+ "image_count": 3,
+ "notes": ""
+}

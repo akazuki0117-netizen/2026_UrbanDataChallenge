@@ -1,0 +1,46 @@
+{
+ "id": "6632026158809486681",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632026158809486681/?year=2026",
+ "fetched_at": "2026-11-20T15:36:45+00:00",
+ "title": "ヨルケア",
+ "team": "ヨルケア",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ヨルケア」は、メンタル不調から復職した人が自分のセルフケアを1〜2分で記録できるスマホ向けWebアプリ。うつ病になる人は約6%で再発率は約50%、精神障がい者の約50%は復職後1年以内に離職するが一人で体調管理をするのは難しいという長年の就労支援経験に基づく課題に対応。日付・気分の波・睡眠時間・振り返りを入力項目のベースとし主治医と相談しながら記録項目をカスタマイズ、記録から自身の状態を整理した文章を自動生成し3分診療でも状態を伝えやすくする。オープンデータを活用した相談先検索機能も備える。Next.js（App Router）でVercelに公開し、Claude（Cowork）、Codex、Cursorを要件整理から回帰テストまで活用した。",
+ "open_data_items": [
+  {
+   "name": "特別区保健所・保健センター一覧（東京都保健医療局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000401"
+  },
+  {
+   "name": "市町村保健センター一覧（東京都保健医療局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000399"
+  },
+  {
+   "name": "中核市・政令市保健所・保健センター一覧（東京都保健医療局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000400"
+  },
+  {
+   "name": "令和6年度東京都福祉保健基礎調査（東京都福祉局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000398"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000401",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000399",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000400",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000398"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://yorucare.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yorucare.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3760",
+ "image_count": 3,
+ "notes": ""
+}

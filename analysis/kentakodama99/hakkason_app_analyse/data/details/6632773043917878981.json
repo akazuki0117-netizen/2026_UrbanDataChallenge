@@ -1,0 +1,72 @@
+{
+ "id": "6632773043917878981",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632773043917878981/?year=2026",
+ "fetched_at": "2026-11-20T15:41:11+00:00",
+ "title": "てくてくあるQ",
+ "team": "スコーンとキンカン",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「てくてくあるQ」は、親子で通学路や習い事までの道を歩き見つけた目印や気をつけたい場所を写真や文字で2択クイズにするWebアプリ。オープンデータの数値だけを見て安全・危険を判断すると実際の体感とずれが生じ、子どもが実際に歩いて気づいたことを地域の課題として共有する機会も少ないという課題に対応。子どもは行き・帰りの向きを選びゲーム感覚で道順を学び、ふりかえりでは親子の気づきと経路周辺の交通・防災・防犯データを重ねて表示、数値だけで断定しない設計。セキュリティ観点から写真・クイズ・AI処理はすべて端末内で完結する。NextjsとMapLibre GL JSで構築し、アプリ内ではLiteRT.jsとMobileNetV3-Smallで端末内推論を行い、OpenAI Codexを仕様整理・実装補助に活用した。",
+ "open_data_items": [
+  {
+   "name": "警察庁「交通事故統計情報（2024年）」",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "警視庁「交通量統計表（主要交差点・令和6年調査）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000035"
+  },
+  {
+   "name": "警察庁「音響式信号機の設置場所一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d1700000012"
+  },
+  {
+   "name": "東京都水道局「Tokyowater Drinking Station一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "東京都総務局「東京都防災マップ 避難所・避難場所一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "東京都建設局「浸水予想区域図（想定最大規模）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "東京都都民安全総合対策本部「子供110番の家の登録件数」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000002d1800000002"
+  },
+  {
+   "name": "東京都環境局「東京都ツキノワグマ目撃等情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060"
+  },
+  {
+   "name": "江東区「クーリングシェルター(指定暑熱避難施設)一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000035",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d1700000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000002d1800000002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016"
+ ],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+ ],
+ "demo_url": "https://tekuteku-aruq.tokyo-odh-258.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tekuteku-aruq.tokyo-odh-258.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4509",
+ "image_count": 3,
+ "notes": ""
+}

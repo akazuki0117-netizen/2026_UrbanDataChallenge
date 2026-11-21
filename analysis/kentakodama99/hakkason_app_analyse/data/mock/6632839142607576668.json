@@ -1,0 +1,17 @@
+{
+ "id": "6632839142607576668",
+ "group": "control",
+ "title": "社会参加",
+ "demo_url": "https://seiseki-api-staging.tokyo-odh-129.workers.dev/app",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632839142607576668.png",
+ "status": "動く",
+ "form": "ダッシュボード",
+ "clear_in_5s": "いいえ：「政治意見の量子化」という言葉から用途が掴みにくい",
+ "n_features": 6,
+ "gen_ai": "画面上は不明",
+ "map_viz": "あり",
+ "maturity": "プロトタイプ",
+ "note": "検証環境・合成デモ 30 件と明記"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "6625919714312183597",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625919714312183597/?year=2026",
+ "fetched_at": "2026-11-20T15:32:38+00:00",
+ "title": "kagemap",
+ "team": "Bridge AI",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "建物3Dデータと東京都の街路樹データを活用し地図上に時間別の影の様子を描画、日陰の多い経路検索や道路ごとの日照割合が分かるサービス。搬送される熱中症患者の1/3は道路上で発症し日陰に入ると日なたより体感温度が7度下がるというデータに着目、都民が日陰の多いルートを選ぶことでリスクを減らす短期的効果と、自治体が危険な道を発見し街路樹やクーリングスポットを整備する長期的効果の両方を狙う。データ量の都合で品川区のみ実装。HTML/CSS/JavaScriptとLeaflet.js、SunCalc.js（太陽位置計算）でPython標準ライブラリのVercel関数を構築し、Claude Codeを開発作業の補助に利用した。",
+ "open_data_items": [
+  {
+   "name": "PLATEAU（国土交通省）品川区 3D都市モデル",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13109-shinagawa-ku-2025"
+  },
+  {
+   "name": "東京都建設局「都道の街路樹」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029)"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/#map=15/35.63294/139.73258"
+  },
+  {
+   "name": "東京消防庁　熱中症の統計資料",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/lfe/nichijo/heat/toukei.html"
+  },
+  {
+   "name": "気象庁　資料",
+   "url": "https://www.data.jma.go.jp/cpdinfo/himr/himr_tmaxGE35.html"
+  },
+  {
+   "name": "環境省 まちなかの暑さ対策ガイドライン_令和４年度部分改訂版",
+   "url": "https://www.env.go.jp/content/000119013.pdf"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029)"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-13109-shinagawa-ku-2025",
+  "https://www.openstreetmap.org/#map=15/35.63294/139.73258",
+  "https://www.tfd.metro.tokyo.lg.jp/lfe/nichijo/heat/toukei.html",
+  "https://www.data.jma.go.jp/cpdinfo/himr/himr_tmaxGE35.html",
+  "https://www.env.go.jp/content/000119013.pdf"
+ ],
+ "demo_url": "https://kagemap.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kagemap.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1761",
+ "image_count": 2,
+ "notes": ""
+}

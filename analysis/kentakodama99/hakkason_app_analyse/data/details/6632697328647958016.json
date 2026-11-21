@@ -1,0 +1,26 @@
+{
+ "id": "6632697328647958016",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632697328647958016/?year=2026",
+ "fetched_at": "2026-11-20T15:38:55+00:00",
+ "title": "Metropolitan Passive Design Simulator",
+ "team": "Join Kit Maker",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "東京都の3Dデジタルマップと気象風配図を活用し、過密都市の日照と風況をリアルタイム解析するWebアプリ。共同住宅比率が高く建物が密集する東京では隣家の影や風向の乱れで従来のパッシブデザイン理論が通用せず、賃貸・集合住宅の住民や工務店が自邸に合う窓・庇・通風の最適解や省エネ効果が分からないという課題に対応。地図上で自宅を選ぶだけで日影と風況を解析し、複雑な空力計算をVision AIの推論に置き換えて、窓ごとの最適ガラスや庇寸法、ウインドキャッチャー窓の開き勝手を自動処方、年間光熱費削減額も一発提示する。Mapbox GL JSとDeck.glで3D描画し、Cloudflare R2/Pagesでサーバーレス配信する。マルチモーダルAI（GPT-4o/Gemini）で建物の隙間や遮蔽を画像認識し流体計算を省いている。",
+ "open_data_items": [
+  {
+   "name": "東京都都市整備局：3Dデジタルマップ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=5350",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

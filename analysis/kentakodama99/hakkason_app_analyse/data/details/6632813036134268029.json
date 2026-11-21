@@ -1,0 +1,56 @@
+{
+ "id": "6632813036134268029",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632813036134268029/?year=2026",
+ "fetched_at": "2026-11-20T15:46:24+00:00",
+ "title": "Tokyo Open Vision「ミエテル」",
+ "team": "tenru堂",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ミエテル」は、形式や表記が不揃いな行政オープンデータをRokidスマートグラスに現れる妖怪エージェントが短い言葉と音声で伝えるサービス。駅のホームでスマホを見ながらベビーカーを押す保護者を見て危険であると同時に親子の時間が画面に奪われるのはもったいないという実体験に着目。唐傘小僧や座敷童などの妖怪が雨・酷暑・子育て施設・水害・前方危険を可視化し、自前MCPが形式・表記の違いを吸収し利用者の状況に合う一言へ変換する。スマホを見続けられない子育て中の行動をハンズフリーで支える設計。Android/Java 17とRokid公式連携で構築し、OpenAI Codexで設計・実装、Geminiでオープンデータ活用案と妖怪ペルソナを検討した。",
+ "open_data_items": [
+  {
+   "name": "気象庁 天気予報データ（東京地方）",
+   "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+  },
+  {
+   "name": "気象庁 高解像度降水ナウキャスト",
+   "url": "https://www.jma.go.jp/bosai/nowc/"
+  },
+  {
+   "name": "江東区 イベント一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koto/131083_012_event.csv"
+  },
+  {
+   "name": "墨田区 イベント一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_event.csv"
+  },
+  {
+   "name": "データ名 URL 東京都オープンデータカタログサイト https://catalog.data.metro.tokyo.lg.jp/ 東京都オープンデータカタログサイト データセット検索API https://catalog.data.metro.tokyo.lg.jp/api/3/action 気象庁 天気予報データ（東京地方） https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json 気象庁 高解像度降水ナウキャスト https://www.jma.go.jp/bosai/nowc/ 環境省 熱中症予防情報サイト 暑さ指数（WBGT）予測データ https://www.wbgt.env.go.jp/api/v1/getForecastData 江東区 イベント一覧 https://www.opendata.metro.tokyo.lg.jp/koto/131083_012_event.csv 墨田区 イベント一覧 https://www.opendata.metro.tokyo.lg.jp/sumida/131075_event.csv 中野区 荒川水系神田川・善福寺川・妙正寺川 洪水浸水想定区域図（浸水継続時間",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_28/CSV/opendata_18000050.csv"
+  },
+  {
+   "name": "東京都港湾局 高潮浸水想定区域図",
+   "url": "https://www.kouwan.metro.tokyo.lg.jp/yakuwari/takashio/shinsuisoutei.html"
+  },
+  {
+   "name": "荒川区 公衆トイレ一覧（乳幼児用設備・バリアフリー設備を含む）",
+   "url": "https://www.city.arakawa.tokyo.jp/documents/23112/131181_public_toilet.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+  "https://www.jma.go.jp/bosai/nowc/",
+  "https://www.opendata.metro.tokyo.lg.jp/koto/131083_012_event.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_event.csv",
+  "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_28/CSV/opendata_18000050.csv",
+  "https://www.kouwan.metro.tokyo.lg.jp/yakuwari/takashio/shinsuisoutei.html",
+  "https://www.city.arakawa.tokyo.jp/documents/23112/131181_public_toilet.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3769",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

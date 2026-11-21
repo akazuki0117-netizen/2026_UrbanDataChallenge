@@ -1,0 +1,62 @@
+{
+ "id": "6632762781018709236",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632762781018709236/?year=2026",
+ "fetched_at": "2026-11-20T15:40:39+00:00",
+ "title": "安いよ安いよ",
+ "team": "WISE",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「安いよ安いよ」は、東京都卸売市場日報データと食品成分データを日々の買い物と献立づくりに活用する食生活支援サービス。値下がり食材を買いたくても店頭では価格傾向が分からず、慣れない食材を買っても使い切れず余らせてしまうという課題に対応。卸値を直近1ヶ月平均と比較して値下がり・値上がり傾向を表示し、選んだ食材から献立を作成、人数・日数・在庫量から購入個数と使い切り率を計算する。値上がり食材には栄養面を考慮した値下がり代替食材を提示し、代替後の栄養情報も再計算する「買う・置き換える・食べきる」の一体設計。Vinext(TypeScript)で構築し、Codexを用いたVibe Codingで開発した。",
+ "open_data_items": [
+  {
+   "name": "東京都卸売市場日報（2025年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d2000000033"
+  },
+  {
+   "name": "東京都卸売市場日報（2024年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d2000000032"
+  },
+  {
+   "name": "東京都卸売市場日報（2023年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000012"
+  },
+  {
+   "name": "東京都卸売市場日報（2022年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000005"
+  },
+  {
+   "name": "東京都卸売市場日報（2021年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000004"
+  },
+  {
+   "name": "東京都卸売市場日報（2020年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000003"
+  },
+  {
+   "name": "日本食品標準成分表2020年版",
+   "url": "https://www.mext.go.jp/a_menu/syokuhinseibun/mext_01110.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d2000000033",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d2000000032",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000003"
+ ],
+ "external_data_urls": [
+  "https://www.mext.go.jp/a_menu/syokuhinseibun/mext_01110.html"
+ ],
+ "demo_url": "https://yasuiyo-yasuiyo.kase-932.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yasuiyo-yasuiyo.kase-932.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2381",
+ "image_count": 3,
+ "notes": ""
+}

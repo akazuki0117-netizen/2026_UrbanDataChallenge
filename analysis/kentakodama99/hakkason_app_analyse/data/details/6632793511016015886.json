@@ -1,0 +1,42 @@
+{
+ "id": "6632793511016015886",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632793511016015886/?year=2026",
+ "fetched_at": "2026-11-20T15:42:19+00:00",
+ "title": "パパ、育児ミッション",
+ "team": "TokyoDrifters",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "妊娠期〜乳児期のパパにその時期に必要な育児・行政手続きを「今日のミッション」として提示する子育て伴走アプリ。情報は自治体サイト等に分散しパパは育児に関わりたくてもいつ何を準備すればよいか分からずパートナーに聞いてから動く受け身になりがちという課題に対応。妊娠週数・月齢・居住自治体から出生届や児童手当等を「今日のミッション」として1〜3件提示し、完了チェックでパパが主体的に育児参加するきっかけを作る。React／Next.jsを想定し、ChatGPTを企画検討からミッション設計・プロトタイプ開発まで活用した。",
+ "open_data_items": [
+  {
+   "name": "社会福祉施設等一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374"
+  },
+  {
+   "name": "児童館データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/be74c705-6f17-4e42-97d7-76722e1d3942"
+  },
+  {
+   "name": "港区の診療所情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000208"
+  },
+  {
+   "name": "子育て支援制度レジストリ",
+   "url": "https://www.digital.go.jp/policies/childrearing-support-registry"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/be74c705-6f17-4e42-97d7-76722e1d3942",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000208"
+ ],
+ "external_data_urls": [
+  "https://www.digital.go.jp/policies/childrearing-support-registry"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=5009",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

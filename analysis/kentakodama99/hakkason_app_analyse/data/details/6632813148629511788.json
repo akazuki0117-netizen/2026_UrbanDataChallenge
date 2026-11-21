@@ -1,0 +1,51 @@
+{
+ "id": "6632813148629511788",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632813148629511788/?year=2026",
+ "fetched_at": "2026-11-20T15:46:31+00:00",
+ "title": "OpenGym Tokyo",
+ "team": "OpenGym Tokyo",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "公営ジム向けトレーニング記録アプリ。取得できた55自治体・890施設の公開CSVを検査したところマシン構成を示す項目は確認できず、施設情報とマシン設定と個人の記録が別々で継続を支えるデジタル体験がつながっていないという課題に対応。地図から近い施設を探しそのマシン設定に合わせて記録でき、不足情報は案内プリントやマシン写真からAIで設定候補を抽出、確認後に個人保存または同意して共有できる。体組成は端末内保存とし匿名共有すると同じ条件の人との比較とAI助言を得られる。HTML/CSS/JavaScriptでLeaflet/OpenStreetMapと端末位置情報で構築し、Cloudflare Workers AIをAIトレーナーと施設設定候補の構造化入力に活用した。",
+ "open_data_items": [
+  {
+   "name": "自治体標準オープンデータセット「スポーツ施設一覧」（東京都内57自治体）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7"
+  },
+  {
+   "name": "練馬区 スポーツ施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d3100000004"
+  },
+  {
+   "name": "江東区 スポーツ施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000004"
+  },
+  {
+   "name": "板橋区 スポーツ施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d3100000004"
+  },
+  {
+   "name": "世田谷区 スポーツ施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d3100000004"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d3100000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d3100000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d3100000004"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://opengym-tokyo.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://opengym-tokyo.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=377",
+ "image_count": 3,
+ "notes": ""
+}

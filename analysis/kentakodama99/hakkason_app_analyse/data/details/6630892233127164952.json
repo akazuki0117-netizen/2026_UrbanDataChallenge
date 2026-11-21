@@ -1,0 +1,47 @@
+{
+ "id": "6630892233127164952",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630892233127164952/?year=2026",
+ "fetched_at": "2026-11-20T15:34:53+00:00",
+ "title": "防災議案メーカー",
+ "team": "dadadai",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「防災議案メーカー」は、ハザードを見せる地図ではなくマンション理事会にそのまま出せる紙に変換するサービス。全国で災害対応マニュアルを作成している管理組合は19.1%にとどまり、輪番理事が防災の提案資料を一週間かけて作っても読まれないまま不採用になったという実体験の課題に対応。町丁目と議案を選び総戸数を入力すると地域危険度・想定最大浸水深等をもとに防災マニュアル・訓練・備蓄・名簿の4議案と法定事項について「概要・詳細・根拠」の3枚を生成、議事録の文例や区の無料専門家派遣窓口も含める。記載は公表文書の転記に限り自マンションへの適用は判定せず実行時に生成AIは動かない設計。Cloudflare Pages上の静的サイトでサーバー処理なしとし、Claude Codeで開発しつつ実行時はコードのみで動く仕組みとした。",
+ "open_data_items": [
+  {
+   "name": "1. 地震に関する地域危険度測定調査（第9回）地域危険度一覧／東京都都市整備局／CC BY 4.0（ライセンス確認日 2026-08-10）／取得日 2026-08-05",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "2. 給水拠点一覧データ／東京都水道局／CC BY 4.0（ライセンス確認日 2026-08-10）／取得日 2026-08-05",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "3. 浸水予想区域図（河川流域別・7流域）／東京都建設局／CC BY 4.0／取得日 2026-08-11",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "4. 大字・町丁目レベル位置参照情報 東京都 令和7年版19.0b／国土交通省／位置参照情報利用約款（出典表示で二次利用可）／取得日 2026-08-11　※町丁目の代表点座標を各データの結合に使用。座標値そのものは配布物に含めていません",
+   "url": "https://nlftp.mlit.go.jp/isj/dls/data/19.0b/13000-19.0b.zip"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/isj/dls/data/19.0b/13000-19.0b.zip"
+ ],
+ "demo_url": "https://odh2026-bosai-gian.pages.dev/app-v3/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://odh2026-bosai-gian.pages.dev/app-v3/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=399",
+ "image_count": 3,
+ "notes": ""
+}

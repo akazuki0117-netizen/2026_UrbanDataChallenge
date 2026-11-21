@@ -1,0 +1,72 @@
+{
+ "id": "6632769484581087115",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632769484581087115/?year=2026",
+ "fetched_at": "2026-11-20T15:40:58+00:00",
+ "title": "tiEeEz.",
+ "team": "ATM",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "利用者の状況をチャットボットに入力するとその人の移動条件に合った経路を提案する移動支援マップアプリ。一般的な地図アプリは距離や所要時間基準のため妊婦・高齢者・車椅子利用者には歩道橋や急な坂道を含む最短経路が大きな負担になり、利用者状況に応じた情報が一つのサービスにまとまっていないという課題に対応。「妊娠中」「車いすを利用している」等と入力するとAIが状況を分類し適切な経路条件を自動設定、坂道・バリアフリー施設・交通事故・街路樹・避難所等のオープンデータと組み合わせて経路を提案する。GPS取得・音声案内も統合。SwiftUIとMapKit、Core LocationでiOSアプリとして構築し、FastAPIバックエンドとCodexで実装を進めた。",
+ "open_data_items": [
+  {
+   "name": "基盤地図情報 数値標高モデル",
+   "url": "https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html"
+  },
+  {
+   "name": "バリアフリー施設情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "公共施設・駅のバリアフリートイレ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "交通事故統計情報（2024）",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "街路樹データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "自転車通行空間・推奨ルート",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026"
+  },
+  {
+   "name": "自転車駐車場",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0109020001"
+  },
+  {
+   "name": "自転車シェアリング",
+   "url": "https://api-public.odpt.org/api/v4/gbfs/hellocycling/station_information.json"
+  },
+  {
+   "name": "都市の３Dデジタルマップ（文京区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017/resource/6ba6aa00-45c0-43f5-b292-2bcebd6be1ad"
+  },
+  {
+   "name": "避難所等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0502060001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0109020001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017/resource/6ba6aa00-45c0-43f5-b292-2bcebd6be1ad",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0502060001"
+ ],
+ "external_data_urls": [
+  "https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://api-public.odpt.org/api/v4/gbfs/hellocycling/station_information.json"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=10",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

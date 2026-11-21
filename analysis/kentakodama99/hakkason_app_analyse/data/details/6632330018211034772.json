@@ -1,0 +1,72 @@
+{
+ "id": "6632330018211034772",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632330018211034772/?year=2026",
+ "fetched_at": "2026-11-20T15:37:40+00:00",
+ "title": "SUTECO(ステコ)",
+ "team": "SUTECO",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「SUTECO」は、旅行中のごみを撮るだけでAIが可燃・不燃・資源に分類し、渋谷区の公式ルールと回収場所を案内する日英対応サービス。渋谷を訪れる外国人旅行者はごみ箱が少なく日本独自の分別ルールも分からず、複数素材の容器は分解が必要で誤分別や長時間の持ち歩きにつながるという課題に対応。AIが写真からごみを部品単位で認識し、渋谷区の公式ルールに基づく分類と近隣の回収候補、地図、徒歩ルートを提示する。将来は協力店舗の送客・特典情報とも組み合わせ、旅行者・街・店舗に価値が循環する仕組みを目指す。Vision対応モデル「Qwen3.6-27B」でごみを最大8部品に分解しJSON Schemaで構造化して取得している。",
+ "open_data_items": [
+  {
+   "name": "渋谷区「ごみの品目別分別一覧（50音順）」",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html"
+  },
+  {
+   "name": "渋谷区「資源とごみの正しい分け方・出し方パンフレット」",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_panf.html"
+  },
+  {
+   "name": "渋谷区「資源の分け方・出し方」",
+   "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html"
+  },
+  {
+   "name": "渋谷区「2026年 店舗ごみ箱設置ルール」",
+   "url": "https://www.city.shibuya.tokyo.jp/kankyo/machi-seiso/seiso/shibuyaku_gomibako_rule.html"
+  },
+  {
+   "name": "OpenStreetMap／Overpass API（実在店舗・回収容器・一般ごみ箱）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "国土地理院「地理院タイル・淡色地図」",
+   "url": "https://maps.gsi.go.jp/"
+  },
+  {
+   "name": "環境省「食品ロス推計値・食品ロスポータル」",
+   "url": "https://www.env.go.jp/recycle/foodloss/general.html"
+  },
+  {
+   "name": "渋谷区「SHIBUYA CITY DASHBOARD」特集記事",
+   "url": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/articles/article02.html"
+  },
+  {
+   "name": "東京都「ごみの排出量とリサイクル率の推移」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000338"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000338"
+ ],
+ "external_data_urls": [
+  "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_hinmoku.html",
+  "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_panf.html",
+  "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/sigen_gomi.html",
+  "https://www.city.shibuya.tokyo.jp/kankyo/machi-seiso/seiso/shibuyaku_gomibako_rule.html",
+  "https://www.openstreetmap.org/copyright",
+  "https://maps.gsi.go.jp/",
+  "https://www.env.go.jp/recycle/foodloss/general.html",
+  "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/articles/article02.html"
+ ],
+ "demo_url": "https://www.suteco.jp/ja",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://www.suteco.jp/ja"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3448",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+ "id": "6631888413018062510",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631888413018062510/?year=2026",
+ "fetched_at": "2026-11-20T15:36:18+00:00",
+ "title": "「検討します」のゆくえ",
+ "team": "チーム川越",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都議会の議論を論点ごとにまとめ、同じ論点が会期をまたいでどう扱われたかを追えるサービス。都議会は情報公開が十分でも公開単位が「会議」であって「論点」ではないため、前の会期で都が「検討します」と答えた話がどうなったかは自分で読み比べるしかないという課題に対応。本会議5会期23日分2,264発言を1,235論点に整理し、都の答えを「どこまで約束したか」で5段階判定、都のオープンデータの政策目標・取組と突き合わせて262論点で答弁と実際の取組を接続した。静的サイトのみでサーバー不要の継続可能な構成とし、Claudeで質問と答弁の要約・論点分解・5段階判定を行い、判定は言葉の印象ではなく約束内容で行うようプロンプトに明記した。",
+ "open_data_items": [
+  {
+   "name": "「未来の東京」戦略 政策目標進捗状況一覧（東京都政策企画局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000001d0000000010"
+  },
+  {
+   "name": "「未来の東京」戦略 3か年のアクションプラン取組状況一覧（東京都政策企画局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000001d0000000010"
+  },
+  {
+   "name": "東京都議会 会議録（東京都議会）",
+   "url": "https://www.record.gikai.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都議会 議員名簿（会派）（東京都議会）",
+   "url": "https://www.gikai.metro.tokyo.lg.jp/membership/political-party.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000001d0000000010",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000001d0000000010"
+ ],
+ "external_data_urls": [
+  "https://www.record.gikai.metro.tokyo.lg.jp/",
+  "https://www.gikai.metro.tokyo.lg.jp/membership/political-party.html"
+ ],
+ "demo_url": "https://togikai-policy-tracker-demo.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://togikai-policy-tracker-demo.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1799",
+ "image_count": 3,
+ "notes": ""
+}

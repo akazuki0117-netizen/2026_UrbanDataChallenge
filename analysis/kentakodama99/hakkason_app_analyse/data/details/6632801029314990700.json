@@ -1,0 +1,26 @@
+{
+ "id": "6632801029314990700",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632801029314990700/?year=2026",
+ "fetched_at": "2026-11-20T15:42:57+00:00",
+ "title": "BLOOMIRU",
+ "team": "うぇるびーいんぐ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "健康診断や献血の検査結果、食事・運動の記録から現在の健康状態をAIが分析し1週間分の夕食レシピ等を提案する健康提案アプリ「BLOOMIRU」。食事制限や運動に取り組んでも継続できず、健康診断の判定結果を見るだけで終わり血液検査の数値を活用できていないという課題に対応。血液検査結果をAIが分析し可視化した上で一人ひとりに合わせたダイエットプランと運動習慣を提案、実践後のフィードバックで内容を継続的に最適化する。健康維持と献血への協力を結びつけ輸血を必要とする人を支える循環も構想する。PythonとDjango、OpenAI APIで構築した。",
+ "open_data_items": [
+  {
+   "name": "厚生労働省　「日本人の食事摂取基準（2025年版）」策定検討会報告書",
+   "url": "https://www.mhlw.go.jp/stf/newpage_44138.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/stf/newpage_44138.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1361",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

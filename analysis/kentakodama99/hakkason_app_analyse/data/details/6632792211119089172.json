@@ -1,0 +1,31 @@
+{
+ "id": "6632792211119089172",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632792211119089172/?year=2026",
+ "fetched_at": "2026-11-20T15:42:10+00:00",
+ "title": "東京未来地図",
+ "team": "よもや",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京未来地図」は、突然始まる親の介護をテーマにした体験型シミュレーションゲーム。制度内容への理解不足や費用面への不安を抱えたまま介護が始まり、地域包括支援センター等の福祉サービスは自治体ごとに異なり十分把握しきれないという課題に対応。介護休暇を取得したプレイヤーが限られた介護資金・体力・時間を管理しながらデイサービスやショートステイを活用し、地域ごとの施設定員や待機期間、薬代等の費用も可視化してゲーム感覚で学べる。プログラミング未経験のチームがHTML/CSS/Vanilla JavaScriptの単一ファイル構成で開発し、Geminiを専属エンジニア兼プランナーとしてフル活用した。",
+ "open_data_items": [
+  {
+   "name": "WAMNET",
+   "url": "https://www.wam.go.jp/wamappl/00youkaigo.nsf/aAuthorizedDetail?openagent&NM=13&DATE=2021%2F01"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.wam.go.jp/wamappl/00youkaigo.nsf/aAuthorizedDetail?openagent&NM=13&DATE=2021%2F01"
+ ],
+ "demo_url": "https://kaigo-cma.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kaigo-cma.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=390",
+ "image_count": 3,
+ "notes": ""
+}

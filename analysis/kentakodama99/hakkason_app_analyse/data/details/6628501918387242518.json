@@ -1,0 +1,72 @@
+{
+ "id": "6628501918387242518",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628501918387242518/?year=2026",
+ "fetched_at": "2026-11-20T15:33:30+00:00",
+ "title": "NaviSta. Tokyo",
+ "team": "小林組",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "訪日外国人旅行者をメインの対象とした鉄道アプリ。個別手配旅行が80.6%と高く鉄道移動の重要性が増す一方、多言語対応や必要な情報の質・量が十分でないという課題に対応。路線図を主体に時刻表・出口情報を10言語で表示し、複数事業者の情報を1つのアプリにまとめる。駅ナンバリングやピクトグラムを実際の案内表示と併記することで見比べを容易にし、運行情報や出口検索でトラブル時にも対応できるようにした。Unityでマルチプラットフォーム開発しDeepL APIで翻訳、ChatGPT・Claude・Copilotをコード生成や画像生成に活用した。",
+ "open_data_items": [
+  {
+   "name": "荒川区　観光施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131181d0000000006"
+  },
+  {
+   "name": "江東区　観光施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000016"
+  },
+  {
+   "name": "深川めし食べ歩きマップ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/67d47b6c-f256-4ed4-8007-6da7ee0b8b32/resource/0b93e40d-62c1-4b84-a559-a369e75b0b14"
+  },
+  {
+   "name": "三鷹市　みどころマップ情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132047d0000000004"
+  },
+  {
+   "name": "世田谷区　観光施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/d9f96efd-7e71-45b1-995a-3f4c0a8485ba/resource/d56daf51-19f3-4672-80d4-02923a2918f1"
+  },
+  {
+   "name": "墨田区　観光施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/bb8eedf6-203a-450d-acca-b9b27556fc55/resource/77f67986-8b80-4b8b-8196-6f0dff16fa62"
+  },
+  {
+   "name": "東京メトロ　駅情報",
+   "url": "https://ckan.odpt.org/dataset/r_station-tokyometro/resource/9a17b58f-9258-431b-a006-add6eb0cacc6"
+  },
+  {
+   "name": "東京都交通局　列車ロケーション情報",
+   "url": "https://ckan.odpt.org/dataset/r_train_location-toei/resource/431564fc-adf4-4b6c-8210-e82175078b3e"
+  },
+  {
+   "name": "東京都交通局　駅情報",
+   "url": "https://ckan.odpt.org/dataset/r_station-toei/resource/4e2c86aa-188d-4101-8752-777428a524b1"
+  },
+  {
+   "name": "JR東日本　駅情報",
+   "url": "https://ckan.odpt.org/dataset/jreast__r_station/resource/6556197d-8368-443a-9225-ed79d17c42d0"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131181d0000000006",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000016",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/67d47b6c-f256-4ed4-8007-6da7ee0b8b32/resource/0b93e40d-62c1-4b84-a559-a369e75b0b14",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132047d0000000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/d9f96efd-7e71-45b1-995a-3f4c0a8485ba/resource/d56daf51-19f3-4672-80d4-02923a2918f1",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/bb8eedf6-203a-450d-acca-b9b27556fc55/resource/77f67986-8b80-4b8b-8196-6f0dff16fa62"
+ ],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset/r_station-tokyometro/resource/9a17b58f-9258-431b-a006-add6eb0cacc6",
+  "https://ckan.odpt.org/dataset/r_train_location-toei/resource/431564fc-adf4-4b6c-8210-e82175078b3e",
+  "https://ckan.odpt.org/dataset/r_station-toei/resource/4e2c86aa-188d-4101-8752-777428a524b1",
+  "https://ckan.odpt.org/dataset/jreast__r_station/resource/6556197d-8368-443a-9225-ed79d17c42d0"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=3711",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

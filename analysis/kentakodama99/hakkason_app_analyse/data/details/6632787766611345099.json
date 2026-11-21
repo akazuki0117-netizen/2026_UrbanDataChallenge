@@ -1,0 +1,36 @@
+{
+ "id": "6632787766611345099",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632787766611345099/?year=2026",
+ "fetched_at": "2026-11-20T15:41:55+00:00",
+ "title": "雨の日移動ナビ",
+ "team": "水たま",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「雨の日移動ナビ」は、雨天時の浸水リスクや水たまりを地図上で確認し利用者に合った移動ルートを提案するWebサービス。浸水予想データが公開されていても「今日自分はどの道を通ればよいか」という具体的な移動判断にはつながりにくいという課題に対応。東京都の浸水予想4,362地点を可視化し、一般・ビジネス革靴・車椅子ベビーカーの利用者タイプごとに危険度を調整して回避ルートを提示する。単なる最短経路ではなく「今日の自分に合った道」を選べる設計。HTML/CSS/JavaScriptとLeafletで構築し、ChatGPTとCodexで課題整理からデータ処理まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局「江東内部河川流域浸水予想区域図（改定） 浸水深・地盤高データ」",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_koutounaibu.csv"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "気象庁の降水量・気象データ（利用予定）",
+   "url": "https://www.jma.go.jp/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_koutounaibu.csv",
+  "https://www.openstreetmap.org/",
+  "https://www.jma.go.jp/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=1691",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

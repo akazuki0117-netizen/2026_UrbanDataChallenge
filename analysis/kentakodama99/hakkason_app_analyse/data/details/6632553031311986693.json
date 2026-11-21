@@ -1,0 +1,61 @@
+{
+ "id": "6632553031311986693",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632553031311986693/?year=2026",
+ "fetched_at": "2026-11-20T15:37:49+00:00",
+ "title": "子育て地図アプリ『まにあう』",
+ "team": "KARIASI",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "着きたい時刻を入れると家を出る時刻が出るアプリ。塾の送り迎えのたびに買い物を途中で切り上げ一度家に帰る必要があり、経路検索は買い物にかかる時間や子どもの歩く速さを考慮しないという実体験の課題に対応。目的時刻から逆算し寄り道できる範囲を先に出す方式で、寄り道の予定を足すと出る時刻が更新され10分前にはプッシュ通知が届く。向かっている間もGPSで補足し余裕が5分を切ると行動を促す。かかる時間は1つの値ではなく幅で持ち1,500回試行して間に合う確率を出す設計。MapLibre GL JSと国土地理院タイルで構築し、Claude Codeを実装の主軸にOpenAI CodexとGoogle Geminiをレビュー役として観点を分けて併用した。",
+ "open_data_items": [
+  {
+   "name": "道路・歩道・施設（OpenStreetMap、ODbL 1.0）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "最適化ベクトルタイル・標高タイルDEM5A（国土地理院）背景地図と坂の判定",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "街区レベル位置参照情報（国土交通省）町丁目の境界・住所",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  },
+  {
+   "name": "町丁別・罪種別及び手口別認知件数（警視庁）夜道の選び方",
+   "url": "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+  },
+  {
+   "name": "公衆トイレ一覧165件（多摩市）寄り道の判定・おむつ替え台",
+   "url": "https://www.city.tama.lg.jp/opendata/index.html"
+  },
+  {
+   "name": "公園一覧208件（多摩市）休める場所・目印",
+   "url": "https://www.city.tama.lg.jp/opendata/index.html"
+  },
+  {
+   "name": "学童クラブ22件・子ども食堂一覧（多摩市）行き先と閉所時刻・夕飯の選択肢",
+   "url": "https://www.city.tama.lg.jp/opendata/index.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/copyright",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://nlftp.mlit.go.jp/isj/",
+  "https://mail.keishicho.metro.tokyo.lg.jp/opendata/",
+  "https://www.city.tama.lg.jp/opendata/index.html",
+  "https://www.city.tama.lg.jp/opendata/index.html",
+  "https://www.city.tama.lg.jp/opendata/index.html"
+ ],
+ "demo_url": "https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrdidfpclkng/b/maniau/o/index.html",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrdidfpclkng/b/maniau/o/index.html"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=635",
+ "image_count": 3,
+ "notes": ""
+}

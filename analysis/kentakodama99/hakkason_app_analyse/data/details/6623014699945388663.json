@@ -1,0 +1,42 @@
+{
+ "id": "6623014699945388663",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6623014699945388663/?year=2026",
+ "fetched_at": "2026-11-20T15:32:13+00:00",
+ "title": "発熱そなえ",
+ "team": "HealthEyes",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「発熱そなえ」は、発熱する前にも発熱した今にも使えるWebサービス。行政や医療機関から多くの情報が提供されていても生活者は「自分の場合は何を知り何を備えればよいか」に置き換えることが難しいという、個人・医療者・行政間の情報と経験の分断に着目。元気なうちに東京都の感染症状況やセルフメディケーションと医療の選択肢を整理でき、発熱時には症状・時間・生活状況・希望から次に確認したいことにつなげる。診断や重症度判定は行わない設計。Hono/TypeScript/HTML/CSS/JavaScriptでCloudflare Workers上に構築し、ChatGPT/Codexで課題整理から実装まで活用した。",
+ "open_data_items": [
+  {
+   "name": "【オープンデータ】東京都保健医療局「東京都感染症発生動向調査」／CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f705c7e5-d380-4148-b72c-b58e04fd23e7/resource/ea4e94af-2995-4b62-9406-94d9e3851af4"
+  },
+  {
+   "name": "【参考情報】東京都感染症情報センター「東京都の感染症発生状況」",
+   "url": "https://idsc.tmiph.metro.tokyo.lg.jp/epid_ja/"
+  },
+  {
+   "name": "【参考情報】厚生労働省「感染症情報」",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/index.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f705c7e5-d380-4148-b72c-b58e04fd23e7/resource/ea4e94af-2995-4b62-9406-94d9e3851af4"
+ ],
+ "external_data_urls": [
+  "https://idsc.tmiph.metro.tokyo.lg.jp/epid_ja/",
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/index.html"
+ ],
+ "demo_url": "https://healtheyes-v3.hiroko-odh-089.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://healtheyes-v3.hiroko-odh-089.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4138",
+ "image_count": 1,
+ "notes": ""
+}

@@ -1,0 +1,77 @@
+{
+ "id": "6632808956218552698",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808956218552698/?year=2026",
+ "fetched_at": "2026-11-20T15:44:28+00:00",
+ "title": "Tokyo Comfort Route",
+ "team": "ISOGABA",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「最速・最安」だけでなくその時の利用者にとって最適な移動経路を提案するサービス。東日本大震災時に電車が終日運休となり5時間歩いて帰宅した経験や、腰を痛めた母と出かけた際にエレベーターのある出口を探して余計に歩いた経験という実体験の課題に対応。東京都の交通・バリアフリー情報に天候や運行状況を組み合わせ、徒歩を減らす・階段を避ける・雨に濡れないなどの希望に応じて経路を提案する。乗換アプリと地図アプリ、天候アプリを横断せず1つのサービスで完結する設計。技術に詳しくない開発者がすべて生成AIに実装を依頼し、TypeScript・React・ViteとCloudflare Workers＋Honoで構築、opencodeとChatGPTのCodexを使い分けた。",
+ "open_data_items": [
+  {
+   "name": "都営地下鉄駅基本情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000053"
+  },
+  {
+   "name": "地下鉄関連情報　バリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "都営地下鉄各駅エレベーター点検・工事日程データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051"
+  },
+  {
+   "name": "最新の気象データ",
+   "url": "https://www.data.jma.go.jp/stats/data/mdrr/"
+  },
+  {
+   "name": "東京都交通局 鉄道関連情報",
+   "url": "https://ckan.odpt.org/dataset/train-toei"
+  },
+  {
+   "name": "東京都交通局 鉄道関連リアルタイム情報",
+   "url": "https://ckan.odpt.org/dataset/r_train_gtfs_rt-odpt_train-toei"
+  },
+  {
+   "name": "東京都交通局 駅時刻表",
+   "url": "https://ckan.odpt.org/dataset/r_station_timetable-toei"
+  },
+  {
+   "name": "東京都交通局 列車時刻表",
+   "url": "https://ckan.odpt.org/dataset/r_train_timetable-toei"
+  },
+  {
+   "name": "東京都交通局 運行情報",
+   "url": "https://ckan.odpt.org/dataset/r_train_status-toei"
+  },
+  {
+   "name": "東京都交通局 列車ロケーション情報",
+   "url": "https://ckan.odpt.org/dataset/r_train_location-toei"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000053",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051"
+ ],
+ "external_data_urls": [
+  "https://www.data.jma.go.jp/stats/data/mdrr/",
+  "https://ckan.odpt.org/dataset/train-toei",
+  "https://ckan.odpt.org/dataset/r_train_gtfs_rt-odpt_train-toei",
+  "https://ckan.odpt.org/dataset/r_station_timetable-toei",
+  "https://ckan.odpt.org/dataset/r_train_timetable-toei",
+  "https://ckan.odpt.org/dataset/r_train_status-toei",
+  "https://ckan.odpt.org/dataset/r_train_location-toei"
+ ],
+ "demo_url": "https://tokyo-comfort-route-demo.tokyo-comfort-route.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-comfort-route-demo.tokyo-comfort-route.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=4611",
+ "image_count": 2,
+ "notes": ""
+}

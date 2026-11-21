@@ -1,0 +1,31 @@
+{
+ "id": "6632616781013305816",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632616781013305816/?year=2026",
+ "fetched_at": "2026-11-20T15:38:15+00:00",
+ "title": "おっせかいおばさん",
+ "team": "おせっかいおばさんず",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「おっせかいおばさん」は、孤独を感じても自分でイベントを探すことが負担な人に人との接点を提案するAI。都内で1年間に孤独を感じた人は29.3%、社会活動に参加していない人は53.3%にのぼる一方、既存サービスは「自分で探す」ことが前提で「探しに行かない人」にきっかけが届いていないという課題に対応。初回約90秒のヒアリングで興味・生活圏・行動可能な曜日を把握し、オープンデータから実在イベントを取得、会話や共同活動などの接点の根拠、料金、移動時間を組み合わせて候補を絞る。「行ってみる」「今回はやめる」の反応も次回推薦に活かす学習型設計。Next.jsとPython/OpenClawで画面と推薦判断を分離して構築した。",
+ "open_data_items": [
+  {
+   "name": "イベント一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koto/131083_012_event.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/koto/131083_012_event.csv"
+ ],
+ "demo_url": "https://benz-whatever-jews-testimonials.trycloudflare.com/osekkai",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://benz-whatever-jews-testimonials.trycloudflare.com/osekkai"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=853",
+ "image_count": 3,
+ "notes": ""
+}

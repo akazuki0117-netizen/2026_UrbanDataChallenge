@@ -1,0 +1,36 @@
+{
+ "id": "6632768282285094889",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632768282285094889/?year=2026",
+ "fetched_at": "2026-11-20T15:40:56+00:00",
+ "title": "江東5区防災型高層化と関連シミュレーター",
+ "team": "アンゼ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「遠くに逃げない」コンパクト防災（高層化＋空中道路網）を可視化するシミュレータ。江東5区250万人が抱える荒川・江戸川氾濫の危機に対し、広域避難は移動困難者には非現実的で避難所自体の浸水リスクも住民に直感的に伝わらないという課題に対応。過去豪雨データから水位と標高を比較し機能停止を赤色で示す「降水シミュレータ」と、個人のGPX避難軌跡を3Dで再生する「GPX 3D Viewer」を開発し、住民が避難ルートを疑似体験できるようにした。ハードでは駅中心の高層化と空中道路による垂直避難＋水平移動の構想も提示。MapLibre GLとdeck.glで3D描画し、Gemini・NotebookLM・Claude・Auroraを適材適所で使い分けて開発した。",
+ "open_data_items": [
+  {
+   "name": "気象庁：過去の気象データ",
+   "url": "https://www.data.jma.go.jp/gmd/risk/obsdl/"
+  },
+  {
+   "name": "国土地理院：地理院タイル（地図・標高）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "Overpass API（指定避難所・地下鉄等データの取得元）",
+   "url": "URL: https://overpass-api.de/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.data.jma.go.jp/gmd/risk/obsdl/",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "URL: https://overpass-api.de/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2508",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

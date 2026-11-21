@@ -1,0 +1,42 @@
+{
+ "id": "6632789667957182077",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632789667957182077/?year=2026",
+ "fetched_at": "2026-11-20T15:42:02+00:00",
+ "title": "都民向け防災アクションダッシュボード",
+ "team": "NTokyo",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "災害予兆の早期検知と個別最適化された行動レコメンドを実現するスマホ向けダッシュボード。豪雨の急発達や河川の増水など危険が高まる前に行動を促す仕組みが不足し、気象庁・防災アプリ・自治体サイト等複数の情報源を都民が自分で確認する負担が大きいという課題に対応。気象データ・河川データ・過去災害データを統合し危険度の変化を早期に把握、現在地・家族構成・時間帯・河川近接度に応じた行動レコメンドをスマホというリアルタイム性の高いチャネルで届ける。First Stage時点ではデータは全てダミーで、依存ゼロの単一ファイルでビルド不要な構成としHTML/CSS/JavaScriptのみで実装、Claude Codeでモック作成のコーディング作業を実施した。",
+ "open_data_items": [
+  {
+   "name": "【東京都建設局】浸水予想区域図",
+   "url": "https://www.suigai-risk.metro.tokyo.lg.jp/shinsui/yosou/main.html"
+  },
+  {
+   "name": "【東京都建設局河川部】東京都土砂災害危険度情報関連データ",
+   "url": "https://d-keikai.metro.tokyo.lg.jp/top?gps_on=1&timestamp=1787469452249"
+  },
+  {
+   "name": "【東京都総務局】東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "【東京都都市整備局】地震に関する地域危険度測定調査地域危険度一覧",
+   "url": "https://www.funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://www.suigai-risk.metro.tokyo.lg.jp/shinsui/yosou/main.html",
+  "https://d-keikai.metro.tokyo.lg.jp/top?gps_on=1&timestamp=1787469452249",
+  "https://www.funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3894",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

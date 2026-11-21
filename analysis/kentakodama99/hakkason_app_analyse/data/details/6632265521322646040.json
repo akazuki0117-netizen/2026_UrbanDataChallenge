@@ -1,0 +1,79 @@
+{
+ "id": "6632265521322646040",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632265521322646040/?year=2026",
+ "fetched_at": "2026-11-20T15:37:28+00:00",
+ "title": "たぶんかコンパス",
+ "team": "紅行",
+ "member_count": 2,
+ "is_finalist": true,
+ "awards": [
+  "アイデア賞"
+ ],
+ "service_description": "「たぶんかコンパス」は、東京都内の日本語教室・外国語対応クリニック・住まい支援情報を初めて1つの地図に統合した検索サービス。東京都の外国人住民は日本全体の19.4%だが日本語教室等の情報は区市町村や団体ごとにバラバラで都の公式アグリゲーターでも北区の日本語教室の56%が未掲載という課題に対応。曜日・時間帯・エリアでの絞り込みに加え半径検索や自然文AIチャット検索に対応し3言語で表示、掲載情報は全て出典を明記し一次情報を検証した上で公開する。Pythonの標準ライブラリのみで外部依存ゼロで構築し、Claude Codeで各区市町村のPDF/HTMLから情報を構造化データとして抽出しつつ必ず一次資料と人手で突き合わせて検証した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログサイト（CC BY 4.0）— 診療・検査医療機関の一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000391"
+  },
+  {
+   "name": "東京都総務局統計部「外国人人口」統計（第3表）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/gaikoku/2026/ga26010000.htm"
+  },
+  {
+   "name": "文部科学省「日本語指導が必要な児童生徒の受入状況等に関する調査」",
+   "url": "https://www.mext.go.jp/b_menu/houdou/31/09/1421569_00006.htm"
+  },
+  {
+   "name": "厚生労働省 医療機能情報提供制度（医療情報ネット）",
+   "url": "https://www.iryou.teikyouseido.mhlw.go.jp/"
+  },
+  {
+   "name": "デジタル庁 e-Govデータポータル（医療機能情報提供制度 一括CSV、PDL1.0）",
+   "url": "https://data.e-gov.go.jp/data/dataset/321fdf20-5f6a-49e5-bcab-35d81d652c65"
+  },
+  {
+   "name": "東京都住宅政策本部（東京都居住支援法人一覧）",
+   "url": "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/toukyoutokyozyuushienhouzinichiran_20250818"
+  },
+  {
+   "name": "北区（日本語教室情報）",
+   "url": "https://www.city.kita.lg.jp/culture-tourism-sports/exchange/1018313/1010335/1010357.html"
+  },
+  {
+   "name": "世田谷区（日本語教室情報）",
+   "url": "https://www.city.setagaya.lg.jp/02408/3623.html"
+  },
+  {
+   "name": "足立区（日本語教室情報）",
+   "url": "https://www.city.adachi.tokyo.jp/chiiki/chiikibunka/shogaigakushu/volunteer.html"
+  },
+  {
+   "name": "ほか20区市町村の公式サイト（千代田区・八王子市・東久留米市・葛飾区・小平市・国分寺市・江東区・国立市・武蔵村山市・練馬区・西東京市・大田区・品川区・新宿区・墨田区・台東区・多摩市・豊島区・東大和市・羽村市、各自治体の教室情報ページ）",
+   "url": "https://www.city.ota.tokyo.jp/kokusaitoshi/japanese_class/nihongo_kyoshitu.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000391"
+ ],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/gaikoku/2026/ga26010000.htm",
+  "https://www.mext.go.jp/b_menu/houdou/31/09/1421569_00006.htm",
+  "https://www.iryou.teikyouseido.mhlw.go.jp/",
+  "https://data.e-gov.go.jp/data/dataset/321fdf20-5f6a-49e5-bcab-35d81d652c65",
+  "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/toukyoutokyozyuushienhouzinichiran_20250818",
+  "https://www.city.kita.lg.jp/culture-tourism-sports/exchange/1018313/1010335/1010357.html",
+  "https://www.city.setagaya.lg.jp/02408/3623.html",
+  "https://www.city.adachi.tokyo.jp/chiiki/chiikibunka/shogaigakushu/volunteer.html",
+  "https://www.city.ota.tokyo.jp/kokusaitoshi/japanese_class/nihongo_kyoshitu.html"
+ ],
+ "demo_url": "https://review-sknehl.tokyo-odh-193.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://review-sknehl.tokyo-odh-193.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2768",
+ "image_count": 3,
+ "notes": ""
+}

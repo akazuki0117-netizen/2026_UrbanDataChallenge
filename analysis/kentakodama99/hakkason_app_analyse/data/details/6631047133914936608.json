@@ -1,0 +1,47 @@
+{
+ "id": "6631047133914936608",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631047133914936608/?year=2026",
+ "fetched_at": "2026-11-20T15:34:56+00:00",
+ "title": "すもわけ（Sumowake）",
+ "team": "すもわけ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「すもわけ」は、公共喫煙所のオープンデータから「煙の少ない徒歩ルート」を出す分煙マップ。歩きタバコはベビーカーの乳幼児や喘息のある人に受動喫煙とやけどのリスクをもたらすが喫煙所の点データはあっても「煙を避けてどう歩くか」を示す仕組みがないという課題に対応。出発地と目的地を入れると通常の最短と喫煙所まわりを避けたルートを並べリスクスコアを出し、歩きタバコの困りごとは写真なし・匿名のテキストで通報できる。喫煙者を晒す設計にはせず双方が住み分けられる街を目指す。MapLibre＋OpenFreeMapとOpenRouteServiceの徒歩回避、Neonのpostgisで構築し、Cursor上の生成AIで要件・設計・実装を対話で進めた。",
+ "open_data_items": [
+  {
+   "name": "江東区 公共喫煙所一覧（駅前・公園）／東京都オープンデータカタログ／CC BY",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000061"
+  },
+  {
+   "name": "台東区 公衆喫煙所／東京都オープンデータ API／CC BY",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/usage?lang=ja"
+  },
+  {
+   "name": "OpenStreetMap amenity=smoking_area（面の補完）／ODbL",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "東京都環境局 PM2.5 モニタリング（1分値）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000058"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000061",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000058"
+ ],
+ "external_data_urls": [
+  "https://spec.api.metro.tokyo.lg.jp/spec/usage?lang=ja",
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": "https://sumowake-web.keita-akanuma0716.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sumowake-web.keita-akanuma0716.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=5086",
+ "image_count": 3,
+ "notes": ""
+}

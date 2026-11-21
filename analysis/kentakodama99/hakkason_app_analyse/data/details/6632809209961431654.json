@@ -1,0 +1,72 @@
+{
+ "id": "6632809209961431654",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809209961431654/?year=2026",
+ "fetched_at": "2026-11-20T15:44:32+00:00",
+ "title": "TOKYO SYNC",
+ "team": "Ching-Yang Lin Seminar",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO SYNC」は、外国人旅行者に観光地の見どころだけでなく現地の文化や振る舞い方を必要な直前に伝える多言語Webアプリ。2024年の訪都外国人は過去最高で浅草では住民の81.0%がポイ捨て増加を実感するなど観光客と住民の摩擦が生じているが、現地でどう振る舞えばより楽しめるかという情報が届いていないという課題に対応。GPSが目的地までの残り距離を検知しLocal Cue Engineが現在地・距離・場所タイプ等から今必要な1件のtipをマナーの押し付けではなく「文化を楽しむための提案」として表示する。Next.js・TypeScriptのPWAで実装し、ChatGPT／CodexでCue本文自体は行政・施設等の公式情報を根拠に事前確定した。",
+ "open_data_items": [
+  {
+   "name": "東京都 都立・区市町村立施設等における車いす対応トイレ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "東京都 公衆無線LANアクセスポイント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025"
+  },
+  {
+   "name": "東京都教育庁 文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+  },
+  {
+   "name": "台東区 公衆・公園トイレ",
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.html"
+  },
+  {
+   "name": "台東区 公衆喫煙所一覧",
+   "url": "https://www.city.taito.lg.jp/kenchiku/machibika/kosyu/webmap.html"
+  },
+  {
+   "name": "台東区 バリアフリーマップ施設情報",
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/koutu/barrier-free_itiran.html"
+  },
+  {
+   "name": "台東区 公衆無線LANアクセスポイント",
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.html"
+  },
+  {
+   "name": "東京都 訪都旅行者数の実態調査",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "台東区 浅草地区の持続可能な観光地づくりに関する調査",
+   "url": "https://www.city.taito.lg.jp/kusei/sanka/release/2024/press0611/26.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+ ],
+ "external_data_urls": [
+  "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.html",
+  "https://www.city.taito.lg.jp/kenchiku/machibika/kosyu/webmap.html",
+  "https://www.city.taito.lg.jp/kusei/online/opendata/koutu/barrier-free_itiran.html",
+  "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.html",
+  "https://data.tourism.metro.tokyo.lg.jp/",
+  "https://www.city.taito.lg.jp/kusei/sanka/release/2024/press0611/26.html"
+ ],
+ "demo_url": "https://hakason-sightseeing2.tokyo-odh-130.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hakason-sightseeing2.tokyo-odh-130.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2894",
+ "image_count": 3,
+ "notes": ""
+}

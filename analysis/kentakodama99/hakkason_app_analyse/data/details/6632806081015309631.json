@@ -1,0 +1,49 @@
+{
+ "id": "6632806081015309631",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806081015309631/?year=2026",
+ "fetched_at": "2026-11-20T15:43:44+00:00",
+ "title": "檜原村3D探検シリーズ！じゃがめぐり檜原・ナイトパトロール檜原",
+ "team": "麒塾",
+ "member_count": 3,
+ "is_finalist": true,
+ "awards": [
+  "学生賞"
+ ],
+ "service_description": "東京都西多摩郡檜原村の実際の地形をオープンデータで3D再現し、スマホブラウザだけで歩ける2本の学習ゲーム。檜原村は人口減少・高齢化が進み令和6年に人口2000人を割り込む一方、獣害への漠然とした恐怖感もあり魅力が伝わっていないという課題に対応。昼の部「じゃがめぐり檜原」は名所を巡りジャガイモを集め、夜の部「ナイトパトロール檜原」は獣害対策の道具を学びながらサル・シカ・イノシシを追い払うゲームで、観光と獣害対策の両面を体験できる。中学1年生がバイブコーディングで開発し、HTML/JavaScriptでPC・スマホどちらでもプレイできるようにした。CodexとClaudeで実装、ElevenLabs等で音声生成を行った。",
+ "open_data_items": [
+  {
+   "name": "都市の３Dデジタルマップデータ（区部・多摩部）（東京都都市整備局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017"
+  },
+  {
+   "name": "電子国土基本図（地名情報）（国土地理院）",
+   "url": "https://maps.gsi.go.jp/"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）檜原村（2025年度）（国土交通省）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13307-hinohara-mura-2025"
+  },
+  {
+   "name": "OpenStreetMap 地点（POI）データ（© OpenStreetMap contributors）",
+   "url": "https://www.openstreetmap.org/node/5863253123"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13307-hinohara-mura-2025",
+  "https://www.openstreetmap.org/node/5863253123"
+ ],
+ "demo_url": "https://yuki.kawa.net/jaga-meguri/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yuki.kawa.net/jaga-meguri/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=352",
+ "image_count": 3,
+ "notes": ""
+}

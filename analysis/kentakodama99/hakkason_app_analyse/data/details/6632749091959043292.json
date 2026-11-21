@@ -1,0 +1,71 @@
+{
+ "id": "6632749091959043292",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632749091959043292/?year=2026",
+ "fetched_at": "2026-11-20T15:40:05+00:00",
+ "title": "TORA（環境適応型Configure案内エージェント）",
+ "team": "Project Oasis (Tora)",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "車椅子利用者が安全に目的地へたどり着けるようサポートするバリアフリー防災案内サービス。単純な生成AIナビは存在しないエレベーターやスロープを確率的に生成し立ち往生させるハルシネーションのリスクがあり、都心の地下街等ではGPS精度低下や通信途絶でクラウド依存のAIが機能しないという課題に対応。通信環境が整っている場所では3D都市モデルを活用した詳細な段差ナビゲーションを提供し、通信不安定時はAIに頼らず物理的なSOS発信やセンサー連携に切り替える「環境適応型Configure構造」を採用、段階的縮退で確定テキストのみへ決定論的に安全退避する。Cloudflare WorkersでエッジLLM（Qwen2.5-Coder 32B等）のツール説明を動的に書き換えAIをガバナンス下に置く工夫をした。",
+ "open_data_items": [
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和６年度更新版） 都立及び区市町村立施設等における車椅子使用者対応トイレ of バリアフリー設備情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "都立文化施設におけるエレベーター・多目的トイレのバリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000006d0000000004"
+  },
+  {
+   "name": "東京都交通局 都営バス・都営地下鉄オープンデータ（公共交通オープンデータセンター提供）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052"
+  },
+  {
+   "name": "都市の３Ｄデジタルマップ（区部・多摩部）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "新宿区の公衆トイレ一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123"
+  },
+  {
+   "name": "中野区内の施設のバリアフリー設備情報の一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000162"
+  },
+  {
+   "name": "港区のバリアフリー観光ルート",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000239"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」 宿泊施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "自治体標準オープンデータセット（AED設置箇所一覧）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000045"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000006d0000000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000162",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000239",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000045"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2462",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

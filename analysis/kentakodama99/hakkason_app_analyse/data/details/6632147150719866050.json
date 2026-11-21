@@ -1,0 +1,31 @@
+{
+ "id": "6632147150719866050",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632147150719866050/?year=2026",
+ "fetched_at": "2026-11-20T15:37:04+00:00",
+ "title": "花結び日記",
+ "team": "福山結花",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「花結び」は、シニアが気分やその日の出来事を選ぶだけで日記に残し、その日のうちにLINEで家族に届く日記共有アプリ。独居高齢者の増加とともに、離れて暮らす家族は電話や訪問頼みの安否確認に心理的・時間的負担を抱え、異変に気づいても相談先が分からないという課題に対応。監視カメラやセンサーではなく、本人が自分の言葉で発信し家族が「みたよ」やコメントで応える双方向設計とした。一定期間更新がない場合に地域包括支援センター等の連絡先とあわせて家族へ自動通知する「異変検知アラート」と、シニア本人がいつでも相談窓口を確認できる「常時表示」を新たに実装。LINEログインとMessaging APIで新しい操作を覚える負担をなくしている。",
+ "open_data_items": [
+  {
+   "name": "高齢者等の異変等に気付いた際の区市町村連絡先（東京都福祉局）",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kourei/jiritsu_shien/chiikizukurikyotei/kyotei-jigyosha/ihen"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.fukushi.metro.tokyo.lg.jp/kourei/jiritsu_shien/chiikizukurikyotei/kyotei-jigyosha/ihen"
+ ],
+ "demo_url": "https://hanamusubi-neon.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hanamusubi-neon.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2764",
+ "image_count": 2,
+ "notes": ""
+}

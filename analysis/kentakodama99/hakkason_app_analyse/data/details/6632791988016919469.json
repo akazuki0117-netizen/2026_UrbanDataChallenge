@@ -1,0 +1,52 @@
+{
+ "id": "6632791988016919469",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632791988016919469/?year=2026",
+ "fetched_at": "2026-11-20T15:42:08+00:00",
+ "title": "まちのIFノベル 2036",
+ "team": "チームODNソリューション",
+ "member_count": 7,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都オープンデータを土台に生活者が2036年の東京での暮らしをAIとの対話で小説として表現するサービス「まちのIFノベル」。クールスポットや給水場所のデータだけでは「誰が・いつ・どこで・なぜ困るのか」という生活の背景が見えず、通常のアンケートでも要望だけになり具体的な生活場面を想像しにくいという課題に対応。地域・気候テーマを選び「どうなっていてほしいか」を考えるとAIが問い返しながら小説として表現するのを補助し、最終的な作品内容は人間が決定、読者も「私の場合は」と自分の暮らしから返事をする。読後は現在使える暑さ対策施設にもつなげる。HTML/CSS/JavaScriptのWebモックで実装し、ChatGPTで企画設計とモック制作を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都都市整備局「緑のオープンデータ（GISデータ）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "東京都建設局「都道の街路樹」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "東京都水道局「Tokyowater Drinking Station 一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "江東区「クーリングシェルター（指定暑熱避難施設）一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016"
+  },
+  {
+   "name": "東京都総務局「東京都統計年鑑 令和6年 1 土地・気象」",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2024/tn24q3i001.htm"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016"
+ ],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2024/tn24q3i001.htm"
+ ],
+ "demo_url": "https://brainswater.github.io/teamODNS_town-if-novel/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://brainswater.github.io/teamODNS_town-if-novel/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4268",
+ "image_count": 3,
+ "notes": ""
+}

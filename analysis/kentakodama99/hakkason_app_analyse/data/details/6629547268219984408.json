@@ -1,0 +1,51 @@
+{
+ "id": "6629547268219984408",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629547268219984408/?year=2026",
+ "fetched_at": "2026-11-20T15:33:58+00:00",
+ "title": "ELSEKAI（あなたが選ばなかった、もうひとつの世界へ）",
+ "team": "ゆるめき推進室",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ELSEKAI」は、東京都のオープンデータと3つの簡単な質問をもとに「自分では選ばない東京」を週に一度お便りとして届けるアプリ。SNSでは自分の好みに合う情報が中心となり知らない世界に触れる機会が減っているという課題に対応。好みのうち1つだけをそっとズラし、防災・イベント・公園等の行政情報に基づく行動プラン（所要時間・持ち物・出典つき）として届ける。複数の人が同じ日に同じお便りを受け取ることで思いがけない会話のきっかけも生まれる設計。Cloudflare環境との親和性を重視しVite+React+TypeScriptで構築し、Claude Codeで「ずらしエンジン」の設計・開発を行った。",
+ "open_data_items": [
+  {
+   "name": "府県天気予報（R１）",
+   "url": "https://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=TenkiYoh"
+  },
+  {
+   "name": "避難所一覧データ",
+   "url": "https://www.jotform.com/edit/6629547268219984408"
+  },
+  {
+   "name": "避難場所一覧データ",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv"
+  },
+  {
+   "name": "データ項目定義書",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/R4/130001_evacuation_center-area_spec.xlsx"
+  },
+  {
+   "name": "江東内部河川流域",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_koutounaibu.csv"
+  },
+  {
+   "name": "隅田川及び新河岸川流域",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_sumidagawa.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=TenkiYoh",
+  "https://www.jotform.com/edit/6629547268219984408",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/R4/130001_evacuation_center-area_spec.xlsx",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_koutounaibu.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_sumidagawa.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1612",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

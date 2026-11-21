@@ -1,0 +1,47 @@
+{
+ "id": "6632771381013167275",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632771381013167275/?year=2026",
+ "fetched_at": "2026-11-20T15:41:05+00:00",
+ "title": "ツキノワグマ出没予測アプリの開発",
+ "team": "ツキノワグマ見張り番",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "ツキノワグマの出没が報告されている6市町村を対象に、エサとなる堅果類の豊凶に加え標高・気象データとの相関からツキノワグマ出没リスクを可視化するサービス。従来の出没予測はエサの豊凶が中心で年単位の粗い予測にとどまっていたという課題に対応し、気象条件を新たな指標として導入することで、より細かい情報提供と地元住民の不安解消を目指す。エサの豊凶と気象データを入力するだけで出没リスクを数値化・可視化する。開発ではAIに気象・エサ・標高データを読み込ませ出没との相関を推論させ、Claude Codeを活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都ツキノワグマ目撃等情報一覧（CSVデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060"
+  },
+  {
+   "name": "東京都レンジャーニュース（多摩）No.248",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/202510no-248r-pdf"
+  },
+  {
+   "name": "東京都レンジャーニュース（多摩）No.236",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/rangernews10gatsu"
+  },
+  {
+   "name": "東京都レンジャーニュース（多摩）No.224",
+   "url": "https://www.kankyo1.metro.tokyo.lg.jp/naturepark/join/toranger/news.files/202310No.224R.pdf.pdf"
+  },
+  {
+   "name": "気象庁　過去の気象データ検索",
+   "url": "https://www.data.jma.go.jp/stats/etrn/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060"
+ ],
+ "external_data_urls": [
+  "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/202510no-248r-pdf",
+  "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/rangernews10gatsu",
+  "https://www.kankyo1.metro.tokyo.lg.jp/naturepark/join/toranger/news.files/202310No.224R.pdf.pdf",
+  "https://www.data.jma.go.jp/stats/etrn/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3189",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,72 @@
+{
+ "id": "6630873972913639388",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630873972913639388/?year=2026",
+ "fetched_at": "2026-11-20T15:34:49+00:00",
+ "title": "CREARE Resilience+",
+ "team": "CREARE",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "災害の前・中・後を一つのシステムでつなぐ都民・企業・都の三方良し防災基盤。都内約65万人の外国人が災害時に母国語で助けを呼べず、中小企業のBCPは作って終わりか未策定で被災時に機能しないという課題に対応。平時は住所を入れるだけで拠点専用のBCPを自動生成し発災時は気象庁ライブ情報で再評価、被災時は話す・撮る・書くだけで14言語のAIがトリアージし母国語で避難行動を返信、圏外でも通信回復時に自動送信する。対策本部ダッシュボードは現場情報を国の防災基盤SIP4Dへ共有する。Cloudflare Workers＋Hono＋D1のエッジ構成で、Workers AIのllama-3.3-70bでトリアージやBCP生成、Whisperで音声処理を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難場所一覧データ（東京都オープンデータカタログ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "災害時給水拠点（給水拠点一覧データ・東京都水道局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "気象庁 防災情報（警報・注意報・地震情報）",
+   "url": "https://www.jma.go.jp/bosai/"
+  },
+  {
+   "name": "国土地理院 ハザードマップポータル（洪水浸水想定区域・土砂災害警戒区域タイル）",
+   "url": "https://disaportal.gsi.go.jp/"
+  },
+  {
+   "name": "防災科学技術研究所 J-SHIS 地震ハザードステーション",
+   "url": "https://www.j-shis.bosai.go.jp/"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "OSRM（経路探索・OpenStreetMapベース）",
+   "url": "http://project-osrm.org/"
+  },
+  {
+   "name": "郵便番号データ（日本郵便）",
+   "url": "https://www.post.japanpost.jp/zipcode/download.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [
+  "https://www.jma.go.jp/bosai/",
+  "https://disaportal.gsi.go.jp/",
+  "https://www.j-shis.bosai.go.jp/",
+  "https://www.openstreetmap.org/",
+  "http://project-osrm.org/",
+  "https://www.post.japanpost.jp/zipcode/download.html"
+ ],
+ "demo_url": "https://creare-resilience-plus.creare-resilience-plus.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://creare-resilience-plus.creare-resilience-plus.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1273",
+ "image_count": 3,
+ "notes": ""
+}

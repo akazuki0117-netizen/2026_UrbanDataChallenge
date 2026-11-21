@@ -1,0 +1,46 @@
+{
+ "id": "6632803060313301556",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632803060313301556/?year=2026",
+ "fetched_at": "2026-11-20T15:43:14+00:00",
+ "title": "TANE｜みんなでつくる東京",
+ "team": "サンレックス",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "市民一人ひとりが自分の手でオープンデータ活用の問題解決アプリを作り始められるサービス。都民は幅広い分野で要望を抱えているが解決は専門知識を持つ人に委ねられ声をあげた当事者は待つ側に置かれてきたという課題に対応。設問に答える形で困りごとを言語化すると大枠のサービスが自動生成され、同じ悩みを抱える人と交流しながらブラッシュアップでき、作成したサービスは誰でも参照可能なURLとして発行される。行政側にもある程度形になったサービス案として届くため市民が本当に求めるデータ活用サービスの制作に着手できる。TypeScriptとHono/PostgreSQL(pgvector)で構築し、Claude CodeとOpenAI APIを活用しつつAIにはコードを書かせずZodスキーマに適合する設定JSONの生成だけに役割を限定した。",
+ "open_data_items": [
+  {
+   "name": "東京都の避難所・避難場所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=緊急避難場所・避難所"
+  },
+  {
+   "name": "東京都内の公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=公共施設一覧"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "東京都内のスポーツ施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=スポーツ施設一覧"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=緊急避難場所・避難所",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=公共施設一覧",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=スポーツ施設一覧"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tane.up.railway.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tane.up.railway.app"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=5342",
+ "image_count": 3,
+ "notes": ""
+}

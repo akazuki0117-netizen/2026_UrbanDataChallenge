@@ -1,0 +1,77 @@
+{
+ "id": "6629128700713418633",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629128700713418633/?year=2026",
+ "fetched_at": "2026-11-20T15:33:50+00:00",
+ "title": "ピコまる",
+ "team": "チームピコ",
+ "member_count": 4,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "「ピコまる」は、配慮が必要な子と家族のための「見通しマップ」。避難所一覧やバリアフリー情報は公開されているが「この子が行けるか」という一行が足りず、障害のある人の約3人に1人（32.9%）が旅行や遠距離の外出をあきらめているという課題に対応。避難所・トイレ・公園等に子のプロフィール（車いす・人ごみ・音・暑さ等）を重ね、その子が使える設備だけに★を付ける。同じ場所でも人が変われば★も写真も変わり、おでかけの行き先はそのまま避難先の予習になり個別避難計画の下書きも作れる。主導線はAIを使わず実在データだけで機械的に組み、Gemini（gemini-3.1-flash-lite）は自然言語検索と多言語対応の2箇所に限定した。HTML／CSS／JavaScript＋PHPとLeafletでPWAとして構築した。",
+ "open_data_items": [
+  {
+   "name": "避難所（調布市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100000424"
+  },
+  {
+   "name": "公共施設一覧（調布市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001963"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和７年度更新版）（東京都福祉局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "13.公衆トイレ一覧（調布市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001967"
+  },
+  {
+   "name": "障害福祉サービス等情報公表システムデータのオープンデータ（WAM NET）",
+   "url": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/"
+  },
+  {
+   "name": "二次避難場所（調布市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100000423"
+  },
+  {
+   "name": "犯罪発生情報（メールけいしちょうオープンデータ）（警視庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000033"
+  },
+  {
+   "name": "ハザードマップポータルサイト オープンデータ配信／ベクトルタイル提供実験（道路中心線）（国土地理院）",
+   "url": "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
+  },
+  {
+   "name": "都市公園・都立公園一覧（調布市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d2025000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100000424",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001963",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001967",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100000423",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000033",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d2025000003"
+ ],
+ "external_data_urls": [
+  "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
+  "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
+ ],
+ "demo_url": "https://picomaru.jp",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://picomaru.jp"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3846",
+ "image_count": 3,
+ "notes": ""
+}

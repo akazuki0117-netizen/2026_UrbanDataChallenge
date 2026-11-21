@@ -1,0 +1,57 @@
+{
+ "id": "6631059132373756171",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631059132373756171/?year=2026",
+ "fetched_at": "2026-11-20T15:35:00+00:00",
+ "title": "東京都23区 公共工事マップ",
+ "team": "Digital Forest",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都建設局の路上工事オープンデータを地図化し、道路・上下水道・電気・ガス・建築等を横断して見られる住民向けWebアプリ。公共工事の情報が自治体・事業者・工事種別ごとに分散し、自宅や通学路への影響を直感的に判断しにくいという課題に対応。現在地から300m・800m・1.5km圏内の工事を区・種別・状況で絞り込め、工期から算出した進捗目安や作業時間、通行・騒音への影響、公式情報と連絡先を一画面に整理する。工事ごとの住民の意見を可視化するプロトタイプ機能も備える。HTML/CSS/JavaScriptの静的Webアプリとして実装し、OpenAI Codexを要件整理からデータ加工まで幅広く活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局「23区内 都道の路上工事情報」（オープンデータ／CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028"
+  },
+  {
+   "name": "OpenStreetMap（背景地図・工事範囲／ODbL）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "CARTO Basemaps（背景地図タイル light_all）",
+   "url": "https://docs.carto.com/faqs/carto-basemaps"
+  },
+  {
+   "name": "全国Q地図ジオコーダ API（号レベル座標）",
+   "url": "https://qchizu.jp/geocoder-api/"
+  },
+  {
+   "name": "国土地理院 地理院地図 住所検索（番地・丁目座標）",
+   "url": "https://maps.gsi.go.jp/"
+  },
+  {
+   "name": "国土地理院「地球地図日本」（23区界）",
+   "url": "https://www.gsi.go.jp/kankyochiri/gm_jpn.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/copyright",
+  "https://docs.carto.com/faqs/carto-basemaps",
+  "https://qchizu.jp/geocoder-api/",
+  "https://maps.gsi.go.jp/",
+  "https://www.gsi.go.jp/kankyochiri/gm_jpn.html"
+ ],
+ "demo_url": "https://drive.google.com/file/d/12nFcvQf07k4OvnqEr95LvuwvDhoxWTVQ/view?usp=sharing",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/file/d/12nFcvQf07k4OvnqEr95LvuwvDhoxWTVQ/view?usp=sharing"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=134",
+ "image_count": 3,
+ "notes": ""
+}

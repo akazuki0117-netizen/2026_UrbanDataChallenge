@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic UI','Meiryo',sans-serif">
+  <title>中高生向け 選挙・政党紹介アプリ「ミライの選択」（仮） コンセプト</title>
+  <rect width="1200" height="675" fill="#F6F6F3"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#2451B7"/>
+
+  <!-- 左：コピー -->
+  <rect x="64" y="66" width="290" height="36" rx="18" fill="#E8EEFA"/>
+  <text x="209" y="90" font-size="15" font-weight="700" fill="#2451B7" text-anchor="middle">中高生向け　選挙・政党紹介アプリ</text>
+
+  <text x="60" y="184" font-size="68" font-weight="900" fill="#3A3A44">ミライの<tspan fill="#2451B7">選択</tspan></text>
+  <text x="64" y="240" font-size="28" font-weight="800" fill="#3A3A44">選挙で、日本はどう変わる？</text>
+  <text x="64" y="278" font-size="18" fill="#5B5B66">政党や候補者の主張を、やさしく。</text>
+
+  <!-- 3つの約束 -->
+  <g transform="translate(64,322)" font-size="16" fill="#3A3A44">
+    <g>
+      <rect width="440" height="58" rx="12" fill="#fff" stroke="#E2E2DC" stroke-width="1.5"/>
+      <rect width="8" height="58" rx="4" fill="#2451B7"/>
+      <text x="28" y="26" font-weight="700">気になる話題から読める</text>
+      <text x="28" y="46" font-size="13" fill="#5B5B66">教育・部活・物価・環境・SNS など</text>
+    </g>
+    <g transform="translate(0,70)">
+      <rect width="440" height="58" rx="12" fill="#fff" stroke="#E2E2DC" stroke-width="1.5"/>
+      <rect width="8" height="58" rx="4" fill="#2451B7"/>
+      <text x="28" y="26" font-weight="700">「いま → こうなる！」の図で分かる</text>
+      <text x="28" y="46" font-size="13" fill="#5B5B66">元資料・最終確認日・訂正記録つき</text>
+    </g>
+    <g transform="translate(0,140)">
+      <rect width="440" height="58" rx="12" fill="#fff" stroke="#E2E2DC" stroke-width="1.5"/>
+      <rect width="8" height="58" rx="4" fill="#B4470B"/>
+      <text x="28" y="26" font-weight="700">特定の政党をすすめない</text>
+      <text x="28" y="46" font-size="13" fill="#5B5B66">並び順はランダム。候補者別の割合は投票後だけ</text>
+    </g>
+  </g>
+
+  <!-- 中央：スマホ（ホーム） -->
+  <g transform="translate(560,64)">
+    <rect width="250" height="500" rx="34" fill="#3A3A44"/>
+    <rect x="9" y="9" width="232" height="482" rx="26" fill="#F6F6F3"/>
+    <rect x="9" y="9" width="232" height="52" rx="26" fill="#2451B7"/>
+    <rect x="9" y="36" width="232" height="25" fill="#2451B7"/>
+    <text x="125" y="42" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">ホーム</text>
+
+    <text x="24" y="88" font-size="13" font-weight="700" fill="#3A3A44">気になる話題からえらぶ</text>
+    <g font-size="13" fill="#3A3A44">
+      <g transform="translate(20,100)">
+        <rect width="210" height="58" rx="10" fill="#fff" stroke="#E2E2DC"/>
+        <text x="12" y="24" font-weight="700">教育</text><text x="198" y="24" text-anchor="end" font-weight="700" fill="#2451B7">62%</text>
+        <rect x="12" y="36" width="186" height="8" rx="4" fill="#E8EEFA"/><rect x="12" y="36" width="115" height="8" rx="4" fill="#2451B7"/>
+      </g>
+      <g transform="translate(20,166)">
+        <rect width="210" height="58" rx="10" fill="#fff" stroke="#E2E2DC"/>
+        <text x="12" y="24" font-weight="700">物価・くらし</text><text x="198" y="24" text-anchor="end" font-weight="700" fill="#2451B7">56%</text>
+        <rect x="12" y="36" width="186" height="8" rx="4" fill="#E8EEFA"/><rect x="12" y="36" width="104" height="8" rx="4" fill="#2451B7"/>
+      </g>
+      <g transform="translate(20,232)">
+        <rect width="210" height="58" rx="10" fill="#fff" stroke="#E2E2DC"/>
+        <text x="12" y="24" font-weight="700">デジタル・SNS</text><text x="198" y="24" text-anchor="end" font-weight="700" fill="#2451B7">47%</text>
+        <rect x="12" y="36" width="186" height="8" rx="4" fill="#E8EEFA"/><rect x="12" y="36" width="87" height="8" rx="4" fill="#2451B7"/>
+      </g>
+      <g transform="translate(20,298)">
+        <rect width="210" height="58" rx="10" fill="#fff" stroke="#E2E2DC"/>
+        <text x="12" y="24" font-weight="700">部活・地域</text><text x="198" y="24" text-anchor="end" font-weight="700" fill="#2451B7">41%</text>
+        <rect x="12" y="36" width="186" height="8" rx="4" fill="#E8EEFA"/><rect x="12" y="36" width="76" height="8" rx="4" fill="#2451B7"/>
+      </g>
+      <g transform="translate(20,364)">
+        <rect width="210" height="58" rx="10" fill="#fff" stroke="#E2E2DC"/>
+        <text x="12" y="24" font-weight="700">環境</text><text x="198" y="24" text-anchor="end" font-weight="700" fill="#2451B7">33%</text>
+        <rect x="12" y="36" width="186" height="8" rx="4" fill="#E8EEFA"/><rect x="12" y="36" width="61" height="8" rx="4" fill="#2451B7"/>
+      </g>
+    </g>
+    <line x1="9" y1="438" x2="241" y2="438" stroke="#E2E2DC"/>
+    <g font-size="12" text-anchor="middle">
+      <text x="50" y="466" font-weight="700" fill="#2451B7">ホーム</text>
+      <text x="125" y="466" fill="#5B5B66">ストック</text>
+      <text x="200" y="466" fill="#5B5B66">振り返り</text>
+    </g>
+  </g>
+
+  <!-- 右：主張カード -->
+  <g transform="translate(850,96)">
+    <rect width="290" height="436" rx="18" fill="#fff" stroke="#E2E2DC" stroke-width="1.5"/>
+    <rect x="20" y="20" width="52" height="24" rx="12" fill="#E8EEFA"/>
+    <text x="46" y="37" font-size="12" font-weight="700" fill="#2451B7" text-anchor="middle">教育</text>
+    <text x="82" y="37" font-size="12" fill="#5B5B66">政党　あおば党（架空）</text>
+    <text x="20" y="76" font-size="17" font-weight="800" fill="#3A3A44">高校の授業料を、収入に</text>
+    <text x="20" y="100" font-size="17" font-weight="800" fill="#3A3A44">関係なく無料にする</text>
+
+    <text x="20" y="136" font-size="12" font-weight="700" fill="#5B5B66">これで、どう変わるとされている？</text>
+    <rect x="20" y="148" width="108" height="104" rx="12" fill="#F6F6F3"/>
+    <text x="74" y="174" font-size="12" fill="#5B5B66" text-anchor="middle">いま</text>
+    <text x="74" y="208" font-size="19" font-weight="800" fill="#3A3A44" text-anchor="middle">年 約12万円</text>
+    <text x="74" y="234" font-size="11" fill="#5B5B66" text-anchor="middle">授業料がかかる</text>
+
+    <path d="M136 200 h14 M144 192 l8 8 l-8 8" fill="none" stroke="#B4470B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="162" y="148" width="108" height="104" rx="12" fill="#FFF4EC"/>
+    <text x="216" y="174" font-size="12" font-weight="700" fill="#B4470B" text-anchor="middle">こうなる！</text>
+    <text x="216" y="212" font-size="28" font-weight="900" fill="#B4470B" text-anchor="middle">0円</text>
+    <text x="216" y="234" font-size="11" fill="#8A3A08" text-anchor="middle">どの家庭も</text>
+
+    <rect x="20" y="266" width="250" height="46" rx="8" fill="#F6F6F3"/>
+    <text x="32" y="285" font-size="11" fill="#5B5B66">これは主張をもとに作成したイメージです。</text>
+    <text x="32" y="302" font-size="11" fill="#5B5B66">アプリの予測ではありません。</text>
+
+    <text x="20" y="338" font-size="11" fill="#5B5B66">元資料：政策集 12ページ ／ 最終確認日つき</text>
+
+    <rect x="20" y="360" width="250" height="50" rx="25" fill="#2451B7"/>
+    <path d="M100 385 l7 7 l13 -14" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="158" y="391" font-size="17" font-weight="800" fill="#fff" text-anchor="middle">気になる</text>
+  </g>
+
+  <path d="M818 314 h18 M830 306 l8 8 l-8 8" fill="none" stroke="#2451B7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- フッター -->
+  <rect x="0" y="600" width="1200" height="75" fill="#3A3A44"/>
+  <g font-size="16" font-weight="700" fill="#fff">
+    <text x="64" y="644">読む</text>
+    <text x="108" y="644" fill="#C9CCD6">→</text>
+    <text x="140" y="644">「気になる」を付ける</text>
+    <text x="314" y="644" fill="#C9CCD6">→</text>
+    <text x="346" y="644">みんなの関心と見比べる</text>
+    <text x="536" y="644" fill="#C9CCD6">→</text>
+    <text x="568" y="644">投票後に結果と振り返る</text>
+  </g>
+  <text x="1136" y="644" font-size="12" fill="#C9CCD6" text-anchor="end">※候補者・政党・数字はすべて架空のサンプル</text>
+</svg>

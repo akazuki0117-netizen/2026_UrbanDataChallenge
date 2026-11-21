@@ -1,0 +1,17 @@
+{
+ "id": "6632806081015309631",
+ "group": "finalist",
+ "title": "檜原村3D探検シリーズ！じゃがめぐり檜原・ナイトパトロール檜原",
+ "demo_url": "https://yuki.kawa.net/jaga-meguri/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632806081015309631.png",
+ "status": "動く",
+ "form": "ゲーム（3D）",
+ "clear_in_5s": "はい：ステージ選択画面と一文の説明",
+ "n_features": 4,
+ "gen_ai": "なし",
+ "map_viz": "あり（3D）",
+ "maturity": "プロトタイプ",
+ "note": "独自ドメイン。データ出典を画面下に明記"
+}

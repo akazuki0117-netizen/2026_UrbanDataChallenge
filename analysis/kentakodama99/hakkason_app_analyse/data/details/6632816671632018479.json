@@ -1,0 +1,26 @@
+{
+ "id": "6632816671632018479",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632816671632018479/?year=2026",
+ "fetched_at": "2026-11-20T15:46:50+00:00",
+ "title": "CARE BRIDGE AI",
+ "team": "CARE BRIDGE AI",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「CARE BRIDGE AI」は、介護者の限界が「支援につながる前」に訪れてしまう構造的課題を解消する仕組み。両親を1人で介護する友人を支援先へ橋渡しした実体験から、介護者の限界やSOSが制度に届きにくく支援前の情報が欠落しているという課題に着目。要介護者情報は保持せず被保険者番号をブラウザ上で匿名ID（CASE ID）へ変換し、介護者の負担やSOSという「声」のみを扱う。介護者の語りを負担・変化・緊急度などの項目に構造化し社会福祉士が判断に使えるレポートとして届け、既存の要介護者ケースとの照合は地域包括支援センターが行う。生成AIで介護者の入力内容を解析し緊急度をスコア化して支援先が優先順位を判断できるよう視覚化した。",
+ "open_data_items": [
+  {
+   "name": "高齢者等の異変等に気付いた際の区市町村連絡先.csv",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/documents/d/fukushi/renrakusaki_2026-04-01-1"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.fukushi.metro.tokyo.lg.jp/documents/d/fukushi/renrakusaki_2026-04-01-1"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4070",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,72 @@
+{
+ "id": "6625820065412997427",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625820065412997427/?year=2026",
+ "fetched_at": "2026-11-20T15:32:36+00:00",
+ "title": "イリグチ",
+ "team": "鮎",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "上京してくる新社会人・学生のための住む場所選びの壁打ちアプリ。地方から上京する際どんな基準で住む場所を選べばよいか分からず家賃と駅名の知名度だけで決めてしまい、治安・家賃・混雑のデータも単位がバラバラで駅単位に揃っていないという課題に対応（東京都の転入超過は年約6.5万人で中心は20〜24歳）。LLMが答えが順位を変える質問だけをして治安・家賃相場・生活利便性・朝の混雑率の4軸の重みを埋め、515駅を通勤時間で絞り採点、1駅を選ぶと夜は街灯オープンデータの実座標だけを明かりにした「明るいルート」と最短ルートを比較できる。Cloudflare WorkersでWorkers AIの2モデル（Qwen3 30B・Llama 3.3 70B）を役割分担し、オープンデータを事前計算して実行時の外部API呼び出しをゼロにした。",
+ "open_data_items": [
+  {
+   "name": "区市町村の町丁別、罪種別及び手口別認知件数(警視庁)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000100001"
+  },
+  {
+   "name": "令和2年国勢調査 町丁・字等別境界データ（e-Stat 統計GIS）",
+   "url": "https://www.e-stat.go.jp/gis"
+  },
+  {
+   "name": "住宅・土地統計調査 第130表（総務省統計局）",
+   "url": "https://www.e-stat.go.jp/stat-search/files?toukei=00200522"
+  },
+  {
+   "name": "都市鉄道の混雑率調査結果 令和7年度（国土交通省）",
+   "url": "https://www.mlit.go.jp/report/press/tetsudo04_hh_000139.html"
+  },
+  {
+   "name": "第12回大都市交通センサス 表3・表5・表9（国土交通省）",
+   "url": "https://www.mlit.go.jp/sogoseisaku/transport/sosei_transport_tk_000035.html"
+  },
+  {
+   "name": "全国鉄道運行本数データ 2026年版（西澤明）",
+   "url": "https://gtfs-gis.jp/railway_honsu/"
+  },
+  {
+   "name": "国土数値情報 鉄道データ N02-25 令和7年度（国土交通省）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html"
+  },
+  {
+   "name": "OpenStreetMap（OSM contributors）",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "環境・防災LED（街灯）／街路灯（板橋区・町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000152"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000100001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000152"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/gis",
+  "https://www.e-stat.go.jp/stat-search/files?toukei=00200522",
+  "https://www.mlit.go.jp/report/press/tetsudo04_hh_000139.html",
+  "https://www.mlit.go.jp/sogoseisaku/transport/sosei_transport_tk_000035.html",
+  "https://gtfs-gis.jp/railway_honsu/",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html",
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": "https://iriguchi.tokyo-odh-139.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://iriguchi.tokyo-odh-139.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=396",
+ "image_count": 3,
+ "notes": ""
+}

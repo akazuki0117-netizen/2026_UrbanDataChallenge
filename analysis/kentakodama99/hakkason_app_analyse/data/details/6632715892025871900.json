@@ -1,0 +1,61 @@
+{
+ "id": "6632715892025871900",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632715892025871900/?year=2026",
+ "fetched_at": "2026-11-20T15:39:11+00:00",
+ "title": "帰宅ダイヤ",
+ "team": "はぁ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "首都直下地震後、事業所が従業員を「いつ、誰から帰すか」を決めるサービス。都条例は事業者に一斉帰宅の抑制と3日分の備蓄を求めるが「誰をいつ帰すか」は決められておらず、帰宅困難者415万人が同時に歩けば道路が詰まるという課題に対応。所在地の町丁目と人数、地震発生時刻を入れるだけで、国勢調査の自足率から推定した居住地と、細街路閉塞率・焼失棟数を積んだ経路の危険を用い、危険曝露と滞留負担の和が最小になる出発時刻を72時間分算出する。答えは掲示できる時刻表や備蓄の買い物リスト、家族への文面まで含む。サーバを持たない静的サイトとし、推定・最適化はすべてブラウザ内で解く設計。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査地域危険度一覧（東京都都市整備局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "交通インフラ・ライフライン・生活への影響（令和4年度首都直下型地震等による東京の被害想定結果）（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000391"
+  },
+  {
+   "name": "建物被害・人的被害（令和4年度首都直下型地震等による東京の被害想定結果）（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）令和8年1月（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115"
+  },
+  {
+   "name": "令和2年国勢調査 東京都区市町村町丁別報告（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000626"
+  },
+  {
+   "name": "令和2年国勢調査による東京都の昼間人口（従業地・通学地による人口）（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000627"
+  },
+  {
+   "name": "都立の一時滞在施設（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000391",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000626",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000627",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://t93622790-cmd.github.io/kitaku-diagram/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://t93622790-cmd.github.io/kitaku-diagram/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=3596",
+ "image_count": 3,
+ "notes": ""
+}

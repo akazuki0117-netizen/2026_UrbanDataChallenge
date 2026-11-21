@@ -1,0 +1,52 @@
+{
+ "id": "6630673789329189198",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630673789329189198/?year=2026",
+ "fetched_at": "2026-11-20T15:34:37+00:00",
+ "title": "TOKYO HEAT SHIELD",
+ "team": "Kers AI Agent",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO HEAT SHIELD」は、真夏の東京を歩く人と暑熱対策を担う行政を一つのデータ基盤でつなぐWebサービス。東京消防庁管内で2025年に9,125人が熱中症で救急搬送されたが既存の経路検索は距離・所要時間中心で日陰やWBGT、クーリングシェルターまでの距離をまとめて判断できないという課題に対応。歩行者は所要時間優先経路と日陰優先経路を比較でき、行政向け画面では道路ごとの暑熱リスクと整備候補を優先順位付きで確認できる。港区を対象に経路検索と政策判断を同じ分析結果で支援する設計。ReactとMapLibre GL JSで構築し、ChatGPTとCodexで公開データ仕様調査からアクセシビリティ確認まで活用した。",
+ "open_data_items": [
+  {
+   "name": "環境省「暑さ指数（WBGT）実況値・予測値」",
+   "url": "https://www.wbgt.env.go.jp/wbgt_data_download.php"
+  },
+  {
+   "name": "東京消防庁「熱中症に注意／熱中症の統計資料」",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/lfe/nichijo/heat/toukei.html"
+  },
+  {
+   "name": "港区「指定暑熱避難施設（クーリングシェルター）について」",
+   "url": "https://www.city.minato.tokyo.jp/kankyouseisaku/coolingshelter.html"
+  },
+  {
+   "name": "東京都オープンデータカタログ「港区の公共施設情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014"
+ ],
+ "external_data_urls": [
+  "https://www.wbgt.env.go.jp/wbgt_data_download.php",
+  "https://www.tfd.metro.tokyo.lg.jp/lfe/nichijo/heat/toukei.html",
+  "https://www.city.minato.tokyo.jp/kankyouseisaku/coolingshelter.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://heatshield.kers-dev.tech/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://heatshield.kers-dev.tech/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1017",
+ "image_count": 3,
+ "notes": ""
+}

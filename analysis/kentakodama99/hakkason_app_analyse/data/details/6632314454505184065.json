@@ -1,0 +1,56 @@
+{
+ "id": "6632314454505184065",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632314454505184065/?year=2026",
+ "fetched_at": "2026-11-20T15:37:38+00:00",
+ "title": "行政インテリジェンス",
+ "team": "あかぱんだ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "住民の困りごとから探せる住民向け総合案内サイトと、行政支援相談需要の増減を確認できる自治体職員向けサイトの2つ。行政サービスは国・都道府県・市区町村に分かれ利用者は支援がどこにあるか判断しにくく、行政側も市民の需要や途中離脱を把握しづらいという課題に対応。自治体職員向けサイトではオープンデータから相談需要の増減や2〜3か月後の増加可能性を確認でき、担当職員が需要増を見て制度案内を強化すると住民向けサイトへ即時反映される連携ギミックを組み込んだ。予測や関連は因果と断定せず行政変更は職員判断とする設計。TypeScript/Node.jsとCloudflare Workers、D1で構築し、ChatGPT/Codexを要件整理からテスト作成まで活用しつつ制度要件や数値をAIの記憶から生成しない方針とした。",
+ "open_data_items": [
+  {
+   "name": "母子・父子自立支援員の新規相談受付状況（福祉局月報 6-1）",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/fukushigeppo"
+  },
+  {
+   "name": "東京都区部消費者物価10大費目指数（月別・総合）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/bukka/bk-index.htm"
+  },
+  {
+   "name": "東京都 毎月勤労統計調査 第15表 実質賃金指数",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/maikin/mk-index.htm"
+  },
+  {
+   "name": "都民のくらしむき 主要指標2 勤労者世帯・可処分所得",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/seikei/sb-index.htm"
+  },
+  {
+   "name": "保護の開始・廃止の状況（福祉局月報 2-5）",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/fukushigeppo"
+  },
+  {
+   "name": "母子福祉資金・父子福祉資金（福祉局月報 6-3）",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/fukushigeppo"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/fukushigeppo",
+  "https://www.toukei.metro.tokyo.lg.jp/bukka/bk-index.htm",
+  "https://www.toukei.metro.tokyo.lg.jp/maikin/mk-index.htm",
+  "https://www.toukei.metro.tokyo.lg.jp/seikei/sb-index.htm",
+  "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/fukushigeppo",
+  "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/fukushigeppo"
+ ],
+ "demo_url": "https://tokyo-odh-2026.tokyo-odh-472.workers.dev/citizen",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-odh-2026.tokyo-odh-472.workers.dev/citizen"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=489",
+ "image_count": 3,
+ "notes": ""
+}

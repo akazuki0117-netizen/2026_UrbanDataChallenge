@@ -1,0 +1,36 @@
+{
+ "id": "6626066664318658392",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626066664318658392/?year=2026",
+ "fetched_at": "2026-11-20T15:32:46+00:00",
+ "title": "結",
+ "team": "結",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「結（ゆい）」は、土砂災害の現場で待機する家族と現場をつなぐWeb完結・登録不要のアプリ。現場に居合わせても家族は捜索を手伝えずただ待つしかなく、指揮官が家族に直接聞き取ることで捜索の手が止まり人づて伝達で遅延・誤伝達も生じるという実体験に基づく課題に対応。6桁のルームコードで参加でき、行方不明者の事前問診フォームや家の間取りの手書き共有、前兆現象のワンタップ共有機能を備え、指揮官が聞き取る手間なく情報を届けられる。待つことしかできない家族の不安に寄り添う傾聴AIチャットも生存確率等の予測は行わない安全設計。個人情報は暗号化し事案終了後30日で自動削除、Cloudflare Workers・D1の無料枠で運用し、Claude Codeを実装パートナーとして活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局河川部「東京都土砂災害危険度情報関連データ」(CC BY 4.0)",
+   "url": "https://www2.sabomap.jp/tokyo/"
+  },
+  {
+   "name": "東京都「土砂災害警戒区域等マップ」",
+   "url": "https://d-keikai.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "首相官邸「土砂災害から身を守るには」",
+   "url": "https://www.kantei.go.jp/jp/headline/bousai/doshyasaigai.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www2.sabomap.jp/tokyo/",
+  "https://d-keikai.metro.tokyo.lg.jp/",
+  "https://www.kantei.go.jp/jp/headline/bousai/doshyasaigai.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2381",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

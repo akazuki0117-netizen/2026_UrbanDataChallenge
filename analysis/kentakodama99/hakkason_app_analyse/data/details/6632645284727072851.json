@@ -1,0 +1,31 @@
+{
+ "id": "6632645284727072851",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632645284727072851/?year=2026",
+ "fetched_at": "2026-11-20T15:38:26+00:00",
+ "title": "大人の公園探し",
+ "team": "Park Mood Tokyo",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「大人の公園探し」は、その日の気分や過ごし方を自然な言葉で入力すると、AIが分析して東京都内の公園・庭園から最適な場所を提案するWebサービス。休日に「少し散歩したい」と思っても行き先が思いつかず、結局知っている公園ばかり訪れてしまうという課題に対応。設備やエリア条件による従来検索ではなく、気分や過ごし方を起点に公園データベースから候補を提案し、選定理由や地図、公式サイト情報も表示する。開発者はアプリ開発未経験だが、参加特典のCloudflare環境を活用しWorkersとHono、D1でシンプルに構成。OpenCodeやCopilotに相談しながら開発を進め、Workers AIで自然文の分析を実現した。",
+ "open_data_items": [
+  {
+   "name": "東京都デジタルサービス局>公共施設一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv"
+  },
+  {
+   "name": "新宿御苑（環境省）",
+   "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/index.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv",
+  "https://policies.env.go.jp/national-garden/shinjukugyoen/index.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=5107",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

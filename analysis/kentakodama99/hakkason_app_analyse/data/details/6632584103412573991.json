@@ -1,0 +1,26 @@
+{
+ "id": "6632584103412573991",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632584103412573991/?year=2026",
+ "fetched_at": "2026-11-20T15:37:55+00:00",
+ "title": "Policy Spotlight",
+ "team": "EngageWorks",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Policy Spotlight」は、市民の声と政策・取組・実績を重ね「分かっていること」と「まだ分からないこと」を探索するツール。行政職員は市民の声を関連する政策と重ねて読み解き次に誰に何を聴くかを見つけるのに大きな手間がかかり、集計や要約だけでは情報の空白が見えにくいという課題に対応。品川区の「夏休みの食支援」を題材にAIで情報を整理し情報の空白を示し、次に確かめるべき問いの候補や根拠を提示して行政職員の探索を支援する。データ入力・整形は未実装で探索体験のUI検証に集中したMVP。Next.js（App Router）＋TypeScript＋React＋Tailwind CSSで静的JSONを読み込み、品川区民アンケートの自由記述から声を抽出し行政の取組と照合した。",
+ "open_data_items": [
+  {
+   "name": "品川区民アンケート",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000158"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000158"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=2618",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

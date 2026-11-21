@@ -1,0 +1,37 @@
+{
+ "id": "6632225290202100151",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632225290202100151/?year=2026",
+ "fetched_at": "2026-11-20T15:37:23+00:00",
+ "title": "おはよう！今日何する？―日常を伴走するＡＩコンパニオン",
+ "team": "チームおはよう！",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "65〜74歳の介護認定を受けていないアクティブシニア、特に独居シニア向けに外出を誘うAI会話アプリ。都では2050年まで単身高齢世帯の増加が続く一方、介護認定前の元気な高齢者は周囲の目が届かず小さな変化が見過ごされやすいという課題に対応。朝夕各5分程度の短い音声会話で体調や気分、予定を確認し、本人の希望や生活圏に合わせて外出を提案、夕方には振り返りを行う。会話や行動データを蓄積して一人ひとりの通常値（ベースライン）を確認し、小さな変化を可視化してフィードバックする。Hono・Viteでスマホ向けWebアプリとして試作し、現状は固定シナリオで会話を実装、将来的には対話データを反映した個別対応への発展を想定している。",
+ "open_data_items": [
+  {
+   "name": "「だれでも東京」 - データセット –東京都オープンデータカタログ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003?utm_source=chatgpt.com"
+  },
+  {
+   "name": "環境省「暑さ指数（WBGT）予測値等電子情報提供サービス」",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [
+  "https://www.wbgt.env.go.jp/data_service.php"
+ ],
+ "demo_url": "https://voice-chat-cloudflare.kmyseino.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://voice-chat-cloudflare.kmyseino.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1021",
+ "image_count": 3,
+ "notes": ""
+}

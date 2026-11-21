@@ -1,0 +1,47 @@
+{
+ "id": "6632812090851058497",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812090851058497/?year=2026",
+ "fetched_at": "2026-11-20T15:46:05+00:00",
+ "title": "TOKYO ESCAPE SIMULATOR",
+ "team": "文明と天災",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都23区内で被災した瞬間から八王子市の自宅に帰宅するまでの行動をシミュレーションできるゲーム。都内の帰宅困難者は480万人と予想されるが東日本大震災を経験していない若い世代が増加し帰宅時や遊興時の対策ができる教育環境が不足しているという課題に対応。プロフィールとスタート地点を選び、交通機関が麻痺した中で二次災害等のイベントを経て安全経路を確保しながら帰宅を目指すゲーム設計。一時滞在施設や帰宅支援ステーション等の周知も狙う。Pythonのpygame-CEでOpenStreetMapのAPIと道路データを活用し、opencode、ChatGPTを首都直下地震時の公共交通機関の状況等過去の事例にない推測が必要な部分の検討に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局. “東京の液状化予測図 令和7年度改訂版”, 東京都.",
+   "url": "https://doboku.metro.tokyo.lg.jp/start/03-jyouhou/ekijyouka/lhmap2.aspx"
+  },
+  {
+   "name": "東京都総務局. “建物被害・人的被害（令和4年度首都直下型地震等による東京の被害想定結果）”, 東京都.",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393"
+  },
+  {
+   "name": "首都直下地震帰宅困難者等対策協議会. “首都直下地震帰宅困難者等対策協議会 最終報告参考資料”, 東京都.",
+   "url": "https://www.bousai.go.jp/jishin/syuto/kitaku/pdf/saishu03.pdf"
+  },
+  {
+   "name": "東京都総務省総合防災部防災管理課.\"東京都防災マップ\", 東京都.",
+   "url": "https://map.bosai.metro.tokyo.lg.jp/en.html?p=evacuation%2Fshelter&l=1015-0%2C1017-0&ll=35.6024276938132%2C139.72274780273438&z=14&municipalityCd=130001&bl=GOOGLE"
+  },
+  {
+   "name": "OpenStreetMap Japan.",
+   "url": "https://openstreetmap.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393"
+ ],
+ "external_data_urls": [
+  "https://doboku.metro.tokyo.lg.jp/start/03-jyouhou/ekijyouka/lhmap2.aspx",
+  "https://www.bousai.go.jp/jishin/syuto/kitaku/pdf/saishu03.pdf",
+  "https://map.bosai.metro.tokyo.lg.jp/en.html?p=evacuation%2Fshelter&l=1015-0%2C1017-0&ll=35.6024276938132%2C139.72274780273438&z=14&municipalityCd=130001&bl=GOOGLE",
+  "https://openstreetmap.jp/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=5016",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

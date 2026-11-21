@@ -1,0 +1,71 @@
+{
+ "id": "6632765744263705338",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632765744263705338/?year=2026",
+ "fetched_at": "2026-11-20T15:40:48+00:00",
+ "title": "たいけんコンパス",
+ "team": "ひらくラボ310",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「たいけんコンパス」は、子どもの年齢・興味・地域・希望や困りごとに合わせて東京都内のイベントや施設から学び・体験を提案するサービス。障害や発達特性のある子どもは興味があっても人混みや大きな音、長時間の参加が壁となり体験を諦めることがあるが、公開情報には混雑や休憩場所など参加判断に必要な情報が十分でないという課題に対応。「人混みが苦手」等を選ぶと自治体ごとに形式の異なるオープンデータを横断し適合度の高い候補を表示、おすすめ理由・注意点・確認事項を出典とともに提示し推測しない誠実な設計。HTML・CSS・JavaScriptでCSV・XMLを共通形式に正規化し、Codex（GPT）とOpenAI APIで複数自治体データの構造分析と変換を行った。",
+ "open_data_items": [
+  {
+   "name": "江東区　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/574f53d0-02fc-422e-b634-ce5913277b37/resource/9a987a3d-3b24-4612-a88f-c71f445d1f73"
+  },
+  {
+   "name": "清瀬市　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/698d6567-3cc7-4b3a-994b-0ab082b88c38/resource/514c8a25-572b-4c44-877e-beb1c12302d3"
+  },
+  {
+   "name": "中野区　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000008"
+  },
+  {
+   "name": "福生市　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132187d0000000001"
+  },
+  {
+   "name": "小金井市　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000029"
+  },
+  {
+   "name": "清瀬市　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132217d0000000014"
+  },
+  {
+   "name": "東京ビッグサイト8月～10月のイベント情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/fa1896b2-e324-4a11-b7e5-f62c8f0c93a9/resource/21c075bb-e526-4455-a82f-7f5d2189ff50"
+  },
+  {
+   "name": "町田市　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132098d0000000075"
+  },
+  {
+   "name": "港区　図書館・文化・スポーツ施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/4f7cf71b-eef6-4ccd-a7fc-65af22df6d9d/resource/8483a0f3-b0c6-44c4-9a56-afe3ee68261b"
+  },
+  {
+   "name": "東京都　イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000027"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/574f53d0-02fc-422e-b634-ce5913277b37/resource/9a987a3d-3b24-4612-a88f-c71f445d1f73",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/698d6567-3cc7-4b3a-994b-0ab082b88c38/resource/514c8a25-572b-4c44-877e-beb1c12302d3",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000008",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132187d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132217d0000000014",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/fa1896b2-e324-4a11-b7e5-f62c8f0c93a9/resource/21c075bb-e526-4455-a82f-7f5d2189ff50",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132098d0000000075",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/4f7cf71b-eef6-4ccd-a7fc-65af22df6d9d/resource/8483a0f3-b0c6-44c4-9a56-afe3ee68261b",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000027"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=1232",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

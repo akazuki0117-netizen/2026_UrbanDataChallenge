@@ -1,0 +1,71 @@
+{
+ "id": "6631840217229952266",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631840217229952266/?year=2026",
+ "fetched_at": "2026-11-20T15:35:56+00:00",
+ "title": "Sona-edo",
+ "team": "DMP",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自治体の備蓄公表データと東京都の被害想定を突き合わせ、「あなたの街は避難者を何人と想定し、備蓄は何人を何日支えられるか」を住所ひとつで示すサービス。「3日分を備えましょう」と言われても自助の必然性が伝わらず、内閣府調査でも3日分以上備蓄する人は6割弱にとどまるという課題に対応。地図で街を選ぶと自治体の想定避難者数と近隣避難所の備蓄量が人日換算で表示され、指定日数で割って「何人を何日支えられるか」を計算式ごと提示する。板橋区では避難者想定99,749人に対し主食で支えられるのは3日分で53,489人のみ、と具体的な数字で公助の限界を可視化する。全数値から一次資料URLに到達できるようNext.jsとグラフDB（Neo4j）で構築した。",
+ "open_data_items": [
+  {
+   "name": "令和4年 首都直下地震等による東京の被害想定（避難者数・自治体別）／東京都",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/18_hinannsya_4nichikara1syuukanngo_zennsouteijisinn.csv"
+  },
+  {
+   "name": "避難所備蓄物資一覧（令和8年4月1日現在・災害対策基本法49条2項に基づく公表）／板橋区",
+   "url": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/005/690/r80401bitikuitiran1.xlsx"
+  },
+  {
+   "name": "指定緊急避難場所データ／国土地理院",
+   "url": "https://hinanmap.gsi.go.jp/hinanjocp/hinanbasho/koukaidate.html"
+  },
+  {
+   "name": "東京備蓄ナビ 品目別必要量の算定係数（MITライセンスで公開）／東京都",
+   "url": "https://github.com/Tokyo-Metro-Gov/bichiku-navi"
+  },
+  {
+   "name": "国土数値情報 避難施設データ（P20・収容人数/施設規模）／国土交通省",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P20.html"
+  },
+  {
+   "name": "国土数値情報 行政区域データ（N03）／国土交通省",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html"
+  },
+  {
+   "name": "防災に関する世論調査（令和7年8月調査・集計表CSV）／内閣府",
+   "url": "https://survey.gov-online.go.jp/public_safety/202510/r07/r07-bousai/"
+  },
+  {
+   "name": "避難所における備蓄状況調査（令和6年11月1日）／内閣府",
+   "url": "https://www.bousai.go.jp/taisaku/hinanjo/pdf/r6_1101.pdf"
+  },
+  {
+   "name": "全国都道府県市区町村別面積調（令和8年4月1日時点）／国土地理院",
+   "url": "https://www.gsi.go.jp/KOKUJYOHO/MENCHO/backnumber/R8_04_mencho.csv"
+  },
+  {
+   "name": "住民基本台帳による世帯と人口／令和2年国勢調査 昼間人口／東京都",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukim/2026/jm265v0000_1.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/18_hinannsya_4nichikara1syuukanngo_zennsouteijisinn.csv",
+  "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/005/690/r80401bitikuitiran1.xlsx",
+  "https://hinanmap.gsi.go.jp/hinanjocp/hinanbasho/koukaidate.html",
+  "https://github.com/Tokyo-Metro-Gov/bichiku-navi",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P20.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html",
+  "https://survey.gov-online.go.jp/public_safety/202510/r07/r07-bousai/",
+  "https://www.bousai.go.jp/taisaku/hinanjo/pdf/r6_1101.pdf",
+  "https://www.gsi.go.jp/KOKUJYOHO/MENCHO/backnumber/R8_04_mencho.csv",
+  "https://www.toukei.metro.tokyo.lg.jp/juukim/2026/jm265v0000_1.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=5228",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

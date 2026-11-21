@@ -1,0 +1,31 @@
+{
+ "id": "6632781884127113111",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632781884127113111/?year=2026",
+ "fetched_at": "2026-11-20T15:41:42+00:00",
+ "title": "TOKYO MOGU MOGU",
+ "team": "TOKYO MOGU MOGU",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO MOGU MOGU」は、東京の「おいしい」を入口に旅行者と未来に残したい食文化をつなぐWebアプリ。訪日外国人旅行者の訪問は渋谷・新宿等に集中し奥多摩等の郊外の食文化や作り手は十分に知られず後継者不足が進んでいるという課題に対応。関心や食の好み、アレルギー、移動可能時間に応じて地域の料理・食材・作り手の物語と周遊ルートを提案、訪問・体験でデジタルバッジを付与し観光案内所で景品と交換できる仕組みで地域周遊や再訪を促進する。React＋TypeScriptとCloudflare PagesでCI/CDを構築し、国籍・言語の異なるメンバーをつなぐ共通基盤として生成AIをSlackの翻訳・意図補完等に活用した。",
+ "open_data_items": [
+  {
+   "name": "令和６年国・地域別外国人行動特性調査結果",
+   "url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/toukei/tourism/tourism/r6"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.sangyo-rodo.metro.tokyo.lg.jp/toukei/tourism/tourism/r6"
+ ],
+ "demo_url": "https://tokyo-mogu-mogu.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-mogu-mogu.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2759",
+ "image_count": 3,
+ "notes": ""
+}

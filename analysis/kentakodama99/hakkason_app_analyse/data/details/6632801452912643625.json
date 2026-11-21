@@ -1,0 +1,41 @@
+{
+ "id": "6632801452912643625",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632801452912643625/?year=2026",
+ "fetched_at": "2026-11-20T15:42:59+00:00",
+ "title": "支援のミカタ",
+ "team": "支援のミカタ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「支援のミカタ」は、東京都の支援を「何をしたら、いくらもらえるか」という自分の言葉に変えてくれるアプリ。会社を辞めた際、何をいつまでにやればいいか分からず、制度名を知らないと検索すらできず困っている本人が一番情報にたどり着けないという実体験の課題に対応。会社を辞めた日を入れるだけでやるべき手続きが期限の近い順に並び、「わたしに合わせる」機能で自分に関係が深い支援を上位表示、金額が不明なものも「想定」と正直に示す。個人情報はスマホ内にとどめサーバーに送信しない設計。窓口へ実際に行けたことをGPSで確認する仕組みも備える。Cloudflare WorkersとD1で構築し、Claude CodeとCodexで開発した。",
+ "open_data_items": [
+  {
+   "name": "TOKYO補助金サーチ 見える化ボード（2026年度）（東京都財務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000019"
+  },
+  {
+   "name": "支援制度（給付金）情報（中野区・自治体標準オープンデータセット準拠）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046"
+  },
+  {
+   "name": "公共施設一覧（東京都・推奨データセット）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/"
+  },
+  {
+   "name": "社会教育施設（東京都教育庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000017"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000017"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3128",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

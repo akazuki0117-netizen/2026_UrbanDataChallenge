@@ -1,0 +1,47 @@
+{
+ "id": "6632811157127978351",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811157127978351/?year=2026",
+ "fetched_at": "2026-11-20T15:45:21+00:00",
+ "title": "東京 公共交通到達圏マップ",
+ "team": "おもち焼きし者",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京の全271,017地点について鉄道・バス・徒歩の乗り換えや待ち時間、坂道を考慮した実際の到達時間を事前計算し、地図クリックだけで「○分以内で行ける範囲」を表示するWebサービス。既存の地図は直線距離や「駅徒歩○分」ベースで乗り換え・待ち時間を無視しており、正確に調べるにはGISツールの学習が必要で一般ユーザーには敷居が高いという課題に対応。複数地点の共通到達圏や施設・観光検索、CSV/KML入出力にも対応し、インストール不要・無料でオープンデータのみで構成する。公共交通の現実的な経路計算に特化したオープンソース「R5」を採用し高速なパフォーマンスを実現、OpenClaw（DeepSeekモデル）と共同でフロントエンドを実装した。",
+ "open_data_items": [
+  {
+   "name": "国土数値情報 鉄道データ（N02）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html"
+  },
+  {
+   "name": "国土数値情報 学校データ（P29）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29.html"
+  },
+  {
+   "name": "地理院タイル",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "AED設置場所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/30ab0e08-0af4-44b6-8425-ca6b23039385/resource/f69cce48-3f64-4ca0-99c8-bfd22e0ece68"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/30ab0e08-0af4-44b6-8425-ca6b23039385/resource/f69cce48-3f64-4ca0-99c8-bfd22e0ece68"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29.html",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://pub-7e4b70d2f59d4230a589b6ec0c8c1ef4.r2.dev/index.html",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://pub-7e4b70d2f59d4230a589b6ec0c8c1ef4.r2.dev/index.html"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4853",
+ "image_count": 3,
+ "notes": ""
+}

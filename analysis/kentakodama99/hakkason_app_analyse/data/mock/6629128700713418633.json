@@ -1,0 +1,17 @@
+{
+ "id": "6629128700713418633",
+ "group": "finalist",
+ "title": "ピコまる",
+ "demo_url": "https://picomaru.jp",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6629128700713418633.png",
+ "status": "動く",
+ "form": "地図アプリ（PWA）",
+ "clear_in_5s": "はい：ひらがなの大きなボタン 4 つと地図",
+ "n_features": 5,
+ "gen_ai": "画面上は不明",
+ "map_viz": "あり",
+ "maturity": "実用レベル",
+ "note": "独自ドメイン・運営法人名・アクセシビリティ方針・プライバシーポリシーまで掲載"
+}

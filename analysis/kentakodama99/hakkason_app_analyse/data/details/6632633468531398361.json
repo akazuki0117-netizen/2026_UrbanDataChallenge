@@ -1,0 +1,26 @@
+{
+ "id": "6632633468531398361",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632633468531398361/?year=2026",
+ "fetched_at": "2026-11-20T15:38:24+00:00",
+ "title": "東京公共施設予約",
+ "team": "Rhynt",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "公共施設利用における煩雑な手続きを解消するオンラインプラットフォーム。市民音楽団体等が公共施設を借りる際、施設ごとに利用条件や予約方法がバラバラで空き状況検索から実際の利用申請まで膨大な手作業の書類作成が必要という課題に対応。事前にマイナンバーカード等で本人確認と団体登録を済ませておき「利用日時」と「人数」を入力するだけで条件に合致する施設を横断検索、施設の予約から利用申請までサイト上で完結でき現地窓口での書類提出が不要になる。Next.js(App Router)とReact、Tailwind CSSとFramer Motionで構築し、全工程で自律型AI「Google Antigravity」を活用し自然言語で要件を伝え環境構築から実装まで一気通貫で任せた。",
+ "open_data_items": [
+  {
+   "name": "公共施設データ（一例）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/5c7b5a25-fd68-47cf-b5de-db619498be31/resource/be3c338a-b96d-452c-90a0-789a73c0955c"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/5c7b5a25-fd68-47cf-b5de-db619498be31/resource/be3c338a-b96d-452c-90a0-789a73c0955c"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4461",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

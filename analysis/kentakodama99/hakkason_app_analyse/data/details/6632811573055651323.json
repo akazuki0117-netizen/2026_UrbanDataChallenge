@@ -1,0 +1,24 @@
+{
+ "id": "6632811573055651323",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811573055651323/?year=2026",
+ "fetched_at": "2026-11-20T15:45:42+00:00",
+ "title": "LifePack Tokyo",
+ "team": "LifePack Tokyo",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「LifePack Tokyo」は、家賃や駅距離では見えない「その街でどんな日常を続けられるか」を比べる転居支援サービス。海外経験者が「日本食は好きだが欲しい食材がない」「映画館が遠い」等の生活習慣の断絶に直面したという実体験の課題に対応。食材・余暇・通勤等の条件を地域特性へ変換し西葛西・中野・北千住等の違いを理由・弱点・未確認点とともに比較する。総合点で単純化せず不確実性を明示する誠実な設計。React、TypeScript、ViteでOpenStreetMap等の地域特性を独立したデータモデルとして実装し、ChatGPT、Codexで原体験の構造化からテストまで行った。",
+ "open_data_items": [],
+ "open_data_urls": [],
+ "external_data_urls": [],
+ "demo_url": "https://lifepack-tokyo-2026.taiki-msw.workers.dev/?entry=handoff",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://lifepack-tokyo-2026.taiki-msw.workers.dev/?entry=handoff"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1380",
+ "image_count": 3,
+ "notes": "利用データ URL なし"
+}

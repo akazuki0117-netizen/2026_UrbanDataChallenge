@@ -1,0 +1,57 @@
+{
+ "id": "6632811558515459435",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811558515459435/?year=2026",
+ "fetched_at": "2026-11-20T15:45:41+00:00",
+ "title": "Sanpo Go",
+ "team": "Sanpo",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "現在地と希望時間、散歩の好みから徒歩ルートを複数提案するサービス。「どこを歩けばよいか分からない」「同じ道で飽きる」という悩みに対し一般的な地図サービスは目的地への移動が中心で緑・勾配・明るさなど散歩特有の希望に対応できないという課題に対応。OpenStreetMapから独自のWalking Graphを構築し自作検索エンジンで周回・目的地ルートを生成、公園・坂・夜道の明るさを経路評価に反映し東京都の給水所・トイレ・街路樹等のオープンデータも活用する。散歩履歴やコイン報酬、キャラクター機能で楽しく続けられる設計。Expo・React Native・TypeScriptとPython・FastAPIで構築した。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "国土地理院 標高タイル（DEM10B）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html#dem"
+  },
+  {
+   "name": "Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "都道の街路樹",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和7年度更新版）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "公衆トイレ一覧（自治体標準オープンデータセット）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=公衆トイレ"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=公衆トイレ"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/",
+  "https://maps.gsi.go.jp/development/ichiran.html#dem"
+ ],
+ "demo_url": "https://sanpo-app.tokyo-odh-130.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sanpo-app.tokyo-odh-130.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4331",
+ "image_count": 1,
+ "notes": ""
+}

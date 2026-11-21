@@ -1,0 +1,47 @@
+{
+ "id": "6632696314965345773",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632696314965345773/?year=2026",
+ "fetched_at": "2026-11-20T15:38:54+00:00",
+ "title": "Sonic Escape - 画面を見ない、音と振動のゲリラ豪雨避難ナビゲーション",
+ "team": "りのれい",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Sonic Escape」は、ゲリラ豪雨時に画面を見ず音と振動だけで安全な避難所へ導くWebアプリ。避難時は傘や荷物で両手が塞がり横殴りの雨でスマホ操作・視認が困難になる「歩きスマホ避難の物理的限界」という課題に対応。気象庁のリアルタイム降水量と浸水想定区域、避難所データ、道路網をエッジ環境で空間統合し、進行方向の冠水リスクを検知するとA*アルゴリズムが安全な高台ルートをミリ秒単位で再計算、音声案内と振動で誘導する。全経路が水没した場合は「垂直避難」を指示するフェイルセーフも備える。Cloudflare Workersのエッジ環境で低遅延な経路計算を実現し、生成AIをA*の最適化と音声案内の自然な日本語生成に活用した。",
+ "open_data_items": [
+  {
+   "name": "国土数値情報 洪水浸水想定区域データ（国土交通省）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html"
+  },
+  {
+   "name": "1時間降水量データ（気象庁）",
+   "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre1h00_rct.csv"
+  },
+  {
+   "name": "東京都防災マップ 避難所一覧データ（東京都）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093/resource/4d800809-d51c-41e1-8311-f708a488978e"
+  },
+  {
+   "name": "経路データ（© OpenStreetMap contributors）",
+   "url": "https://openstreetmap.org"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093/resource/4d800809-d51c-41e1-8311-f708a488978e"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html",
+  "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre1h00_rct.csv",
+  "https://openstreetmap.org"
+ ],
+ "demo_url": "https://mock-up.tokyo-odh-225.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mock-up.tokyo-odh-225.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=3897",
+ "image_count": 3,
+ "notes": ""
+}

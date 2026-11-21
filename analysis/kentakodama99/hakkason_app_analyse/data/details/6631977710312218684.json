@@ -1,0 +1,71 @@
+{
+ "id": "6631977710312218684",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631977710312218684/?year=2026",
+ "fetched_at": "2026-11-20T15:36:33+00:00",
+ "title": "放課後ミチシルベ",
+ "team": "部活みらいラボ",
+ "member_count": 11,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「一つのOSで、児童・学校・地域コーチ・クラブ・保護者・自治体をつなぐ部活動地域移行支援サービス。部活動の地域移行が進む一方、学校は指導者不足や教員負担が続き、保護者は費用や安全面の不安を抱え、地域の人材や施設が学校とつながっていないという課題に対応。生徒が希望を登録すると、在籍校内での成立可否から近隣校との合同、地域クラブでの補完、費用・移動支援の要否まで、AIが段階的に成立可能性をサポートし推薦する。地域コーチの本人確認・資格確認・研修・保険を一体化したTrust & Safety機能も備える。フロントとバックエンドをAPIに一元化し、開発にはClaude CodeとAWS Kiroを併用した。",
+ "open_data_items": [
+  {
+   "name": "学校統計（練馬区立中学校生徒数・学級数一覧）",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/seitosuu.files/2025.05.01_seitosuu.xls"
+  },
+  {
+   "name": "小中学校通学区域情報（練馬区）",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/school_district.files/131202_school_district.csv"
+  },
+  {
+   "name": "スポーツ施設一覧（練馬区）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_sportsfacilities.csv"
+  },
+  {
+   "name": "公共施設一覧（練馬区）",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/sisetsujyouhou/index.files/131202_public_facility.csv"
+  },
+  {
+   "name": "教育機関一覧（練馬区）",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/educational_institut.files/131202_educational_institution.csv"
+  },
+  {
+   "name": "児童館中高生事業実施施設一覧（練馬区）",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/tyuukousei.files/tyuukousei.csv"
+  },
+  {
+   "name": "都市公園・都立公園一覧（練馬区）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_toshitoritukouen.csv"
+  },
+  {
+   "name": "公立図書館情報（練馬区）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_library.csv"
+  },
+  {
+   "name": "東京都「部活動実施状況に関する調査」",
+   "url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260820_25_03"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/seitosuu.files/2025.05.01_seitosuu.xls",
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/school_district.files/131202_school_district.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_sportsfacilities.csv",
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/sisetsujyouhou/index.files/131202_public_facility.csv",
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/educational_institut.files/131202_educational_institution.csv",
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/tyuukousei.files/tyuukousei.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_toshitoritukouen.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_library.csv",
+  "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260820_25_03"
+ ],
+ "demo_url": "https://master.d29s9x8y5xgcy9.amplifyapp.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://master.d29s9x8y5xgcy9.amplifyapp.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1870",
+ "image_count": 3,
+ "notes": ""
+}

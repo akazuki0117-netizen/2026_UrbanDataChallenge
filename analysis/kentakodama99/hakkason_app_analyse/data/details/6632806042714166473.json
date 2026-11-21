@@ -1,0 +1,57 @@
+{
+ "id": "6632806042714166473",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806042714166473/?year=2026",
+ "fetched_at": "2026-11-20T15:43:42+00:00",
+ "title": "ココデ",
+ "team": "yuinodo",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "生活習慣を変えたい人が「何を・どこで始めるか」を決める意思決定時間を短縮するWebアプリ「ココデ」。都内では生活習慣改善を望みながら始めていない人が約165万人、運動習慣がない人が約241万人おり、身体状態や生活圏に合う「何を・どこで始めるか」が具体化されていないという課題に対応。年代・地域と6つの質問に答えるとNDBオープンデータから同世代の傾向を示し、現在地に近い公園・ウォーキングコース・スポーツ施設を3件提案、暑さ指数が高い日は屋内施設を優先する。HTML/CSS/JavaScriptとLeafletでプロトタイプを構築し、Claude CodeとOpenAI Codexでデータ探索から批判レビューまで行い、行動変容への効果は未検証と正直に明示している。",
+ "open_data_items": [
+  {
+   "name": "TOKYO WALKING MAP（東京都保健医療局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "都立公園・庭園データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000056d0000000002"
+  },
+  {
+   "name": "都立スポーツ施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000007"
+  },
+  {
+   "name": "スポーツ施設一覧（東京都内の区市町村）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/?groups=c020&res_format=CSV"
+  },
+  {
+   "name": "代表例・江東区",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000004"
+  },
+  {
+   "name": "都市公園・都立公園一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/?res_format=CSV&tags=%E9%83%BD%E7%9F%A5%E4%BA%8B%E6%9D%AF%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3"
+  },
+  {
+   "name": "第11回NDBオープンデータ・特定健診質問票／検査値（厚生労働省）",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000177221_00017.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000056d0000000002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/?groups=c020&res_format=CSV",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/?res_format=CSV&tags=%E9%83%BD%E7%9F%A5%E4%BA%8B%E6%9D%AF%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3"
+ ],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000177221_00017.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2947",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

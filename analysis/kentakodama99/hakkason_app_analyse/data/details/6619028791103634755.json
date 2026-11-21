@@ -1,0 +1,61 @@
+{
+ "id": "6619028791103634755",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6619028791103634755/?year=2026",
+ "fetched_at": "2026-11-20T15:31:55+00:00",
+ "title": "どっか行く？",
+ "team": "アシタマゴ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "現在地から徒歩・バス・電車と外出時間を選ぶと、その時間で行って戻れる目的地を1件だけランダムに提案するサービス。高齢者は体調や天気の良い日に外出を思っても「面倒」という小さな判断の積み重ねが負担となり実際の外出につながらないという課題に対応。選択肢を並べず1件だけ提案することで意思決定の負担を減らし、天候・熱中症情報や涼めるスポット、休憩場所・トイレの案内も1画面にまとめる。宿泊施設運営者が独自のおすすめスポットを登録しQR配布できる拡張機能も備える。HTML/CSS/JavaScriptで軽量に実装し、Cloudflare Workersで公開、アイデア段階から複数の生成AIを使い分けて企画を検討した。",
+ "open_data_items": [
+  {
+   "name": "東京都公共施設等一覧",
+   "url": "opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv"
+  },
+  {
+   "name": "バスGTFS/GTFS-JP（都営・京王・西東京・関東・西武・小田急）",
+   "url": "例:都営バス https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei"
+  },
+  {
+   "name": "暑さ指数(WBGT)予測値",
+   "url": "wbgt.env.go.jp/prev15WG/dl/yohou_44132.csv"
+  },
+  {
+   "name": "天気予報データ(東京地方)",
+   "url": "jma.go.jp/bosai/forecast/data/forecast/130000.json"
+  },
+  {
+   "name": "クーリングシェルター・TOKYOクールシェアスポット",
+   "url": "wbgt.metro.tokyo.lg.jp/assets/data/coolshare.csv"
+  },
+  {
+   "name": "国土数値情報 鉄道データ（N02）",
+   "url": "nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html"
+  },
+  {
+   "name": "図書館一覧",
+   "url": "opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv",
+  "例:都営バス https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei",
+  "wbgt.env.go.jp/prev15WG/dl/yohou_44132.csv",
+  "jma.go.jp/bosai/forecast/data/forecast/130000.json",
+  "wbgt.metro.tokyo.lg.jp/assets/data/coolshare.csv",
+  "nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html",
+  "opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv"
+ ],
+ "demo_url": "https://dokka-iku.ashitamago.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://dokka-iku.ashitamago.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2240",
+ "image_count": 3,
+ "notes": ""
+}

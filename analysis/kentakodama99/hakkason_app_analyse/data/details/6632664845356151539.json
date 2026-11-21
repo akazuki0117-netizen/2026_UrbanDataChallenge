@@ -1,0 +1,72 @@
+{
+ "id": "6632664845356151539",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632664845356151539/?year=2026",
+ "fetched_at": "2026-11-20T15:38:36+00:00",
+ "title": "IKERUYO",
+ "team": "AIFES🪽",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「IKERUYO」は、形式の異なるオープンデータをLLMで共通形式に統合するデータ基盤と、車椅子利用者向け経路検索付きバリアフリーマップ。一般的な地図では坂の勾配・段差・トイレ・工事による通行支障を一度に判断できず、情報が行政・交通事業者・施設に分散し形式や更新時期もばらばらという課題に対応。現在地から最短・バランス・安全重視の3ルートを比較でき、国土地理院の勾配情報から急坂や通行しづらい区間を検出し回避経路を再検索、音声ナビで手が塞がっていても進行方向を把握できる。各情報の出典・調査時期・信頼度も確認できる誠実な設計。TypeScriptでReact・MapLibre GL JSを構築し、Claude Code・Cursor・GitHub Copilot・Codexを設計から実装まで活用した。",
+ "open_data_items": [
+  {
+   "name": "だれでも東京",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和7年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "歩行空間ネットワークデータ（ほこナビDP）",
+   "url": "https://www.hokonavi.go.jp/opendata/"
+  },
+  {
+   "name": "地下鉄関連情報 バリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "都営地下鉄各駅エレベーター点検・工事日程データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051"
+  },
+  {
+   "name": "都道の路上工事情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028"
+  },
+  {
+   "name": "OpenStreetMapデータ",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "国土地理院 住所検索データ",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  },
+  {
+   "name": "国土地理院 標高データ",
+   "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028"
+ ],
+ "external_data_urls": [
+  "https://www.hokonavi.go.jp/opendata/",
+  "https://www.openstreetmap.org/copyright",
+  "https://msearch.gsi.go.jp/address-search/AddressSearch",
+  "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php"
+ ],
+ "demo_url": "https://wheelmap.wheelmap.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://wheelmap.wheelmap.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3652",
+ "image_count": 3,
+ "notes": ""
+}

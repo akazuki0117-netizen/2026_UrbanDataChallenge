@@ -1,0 +1,51 @@
+{
+ "id": "6632195692984360696",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632195692984360696/?year=2026",
+ "fetched_at": "2026-11-20T15:37:15+00:00",
+ "title": "ソナエ会議",
+ "team": "Palette lab",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "家族情報と住所をもとに家庭ごとの災害リスクや必要な備えを提示し「災害時にどうするか」を考えるきっかけをつくるサービス。高齢者や子ども、ペットと暮らす家庭では一般的な防災情報だけでは判断できず家族間で話し合う機会もないという課題に対応。家族構成に応じた持ち出し品リスト、避難所・病院マップ、AIによる家族向け防災アドバイス・避難プラン提案の3つを提供する。Cloudflare Workers（TypeScript）とD1で構築し、Claudeを開発支援としてCSVデータ変換処理の設計やスキーマ設計に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難場所一覧データ",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv"
+  },
+  {
+   "name": "東京都災害拠点病院一覧",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/kyotenbyoinlist"
+  },
+  {
+   "name": "東京都災害拠点連携病院一覧",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/renkeibyouinlist"
+  },
+  {
+   "name": "OpenStreetMap（動物病院・薬局・公園データ、© OpenStreetMap contributors、ODbL）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "OpenStreetMap Nominatim（住所ジオコーディング、© OpenStreetMap contributors）",
+   "url": "https://nominatim.openstreetmap.org/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv",
+  "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/kyotenbyoinlist",
+  "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/renkeibyouinlist",
+  "https://www.openstreetmap.org/copyright",
+  "https://nominatim.openstreetmap.org/"
+ ],
+ "demo_url": "https://evacuation-planner.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://evacuation-planner.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1746",
+ "image_count": 2,
+ "notes": ""
+}

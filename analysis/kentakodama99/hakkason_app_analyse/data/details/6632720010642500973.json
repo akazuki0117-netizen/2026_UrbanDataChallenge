@@ -1,0 +1,41 @@
+{
+ "id": "6632720010642500973",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632720010642500973/?year=2026",
+ "fetched_at": "2026-11-20T15:39:13+00:00",
+ "title": "D-Sync",
+ "team": "D-Sync",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「AI x ゲーミフィケーションで、運動が楽しく続くフィットネスSNS」。リモートワークや配送サービスの普及で外に出なくて済む機会が増え運動不足に陥りやすいという課題に対応。AIパーソナルトレーナーがその日のコンディションに合わせたランニングコースや筋トレメニューを選定し、写真を撮ってフレンドと共有でき、写真投稿で貯めたポイントでガチャを回して三日坊主を防ぐ。Flutter/DartとFirebase、Cloudflareで画像配信を構築し、Geminiをコーディング効率化とアプリ内AIチャットの設計に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京の10年間の気温のオープンデータ",
+   "url": "https://www.data.jma.go.jp/risk/obsdl/"
+  },
+  {
+   "name": "千代田区のトイレの場所のオープンデータ",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/chiyoda/131016_13public_toilet.csv"
+  },
+  {
+   "name": "中央区のトイレの場所のオープンデータ",
+   "url": "https://www.city.chuo.lg.jp/documents/984/kousyuutoilet.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.data.jma.go.jp/risk/obsdl/",
+  "https://www.opendata.metro.tokyo.lg.jp/chiyoda/131016_13public_toilet.csv",
+  "https://www.city.chuo.lg.jp/documents/984/kousyuutoilet.csv"
+ ],
+ "demo_url": "https://d-sync-muds01.web.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://d-sync-muds01.web.app"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=479",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+ "id": "6632792855438126616",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632792855438126616/?year=2026",
+ "fetched_at": "2026-11-20T15:42:12+00:00",
+ "title": "東京いくみ",
+ "team": "チームいくみ",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京いくみ」は、気分と「人混みは避けたい」等の条件を自然な言葉で伝えると東京都内のおでかけ先を提案するWebサービス。休日の外出先探しは検索結果を一つずつ比較する負担が大きく、特に小さな子どもや高齢家族との外出では階段や人混みなどの「避けたい条件」を自然な言葉でまとめて指定しにくいという課題に対応。公開データ579件を好み・距離・天気・同行者・除外条件で評価し第一候補と理由を地図付きで表示、条件の言い直しや会話の巻き戻しにも対応する。確定順位はプログラムが決め、AIは仮候補の条件漏れ監査と理由文生成に限定。Python/FastAPIとClaude APIのtool useで構築した。",
+ "open_data_items": [
+  {
+   "name": "東京都「公立図書館情報」416件",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv"
+  },
+  {
+   "name": "東京都「公共施設一覧」122件",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv"
+  },
+  {
+   "name": "東京都「スポーツ施設一覧」18件",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/sports/130001sports_facilities.csv"
+  },
+  {
+   "name": "国土交通省「国土数値情報 観光資源データ P12」東京都分23件",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P12-v2_2.html"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/sports/130001sports_facilities.csv",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P12-v2_2.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1131",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

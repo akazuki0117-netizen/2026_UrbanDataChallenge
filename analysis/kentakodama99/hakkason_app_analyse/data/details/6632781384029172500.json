@@ -1,0 +1,31 @@
+{
+ "id": "6632781384029172500",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632781384029172500/?year=2026",
+ "fetched_at": "2026-11-20T15:41:38+00:00",
+ "title": "園くらーべ",
+ "team": "エスユーピーアール",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "保育園選定「保活」のミスマッチを解決し家族が納得する保育園選びをサポートするWeb/iOSアプリ。約40園を見学した実体験から「保育園の何を見るべきか」が分からず情報整理や比較に苦労し、個人の経験が蓄積されにくく仕組みとして改善されにくいという課題に対応。判断基準を5段階評価で標準化し重視・妥協できる項目を調整、家族間の知らなかった・そう思ってた等のディスコミュニケーションを解決するメモ共有機能を備える。LaravelとFilamentでバックエンドを構築し、ClaudeCode+Codexを開発スピード優先で活用した。",
+ "open_data_items": [
+  {
+   "name": "子ども・子育て・教育",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000153"
+  },
+  {
+   "name": "保育園",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206080001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000153",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206080001"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1871",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

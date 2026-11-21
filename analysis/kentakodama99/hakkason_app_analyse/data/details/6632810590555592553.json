@@ -1,0 +1,31 @@
+{
+ "id": "6632810590555592553",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810590555592553/?year=2026",
+ "fetched_at": "2026-11-20T15:45:08+00:00",
+ "title": "Tokyo Accessibility Park Finder",
+ "team": "Optic Dragon",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "脆弱な立場にある利用者が複数の受け入れ条件を一度に選択し公園を検索できるWebサイト。東京の公園・施設情報がWeb上でばらばらの形式に分散し、公式サイトに情報が欠落していることもあるという課題に対応。大規模な公園データセットを活用し、脆弱な利用者グループが複数の対応要素を同時に選択して希望に合う公園をマッチングするプログラムを構築、AIチャットボットで質問対応も行う。JavaScriptとMeteosource Weather APIで構築し、Cursor AI AgentとGLM 5.2を活用した。",
+ "open_data_items": [
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」 - データセット - 東京都オープンデータカタログ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://drive.google.com/file/d/1WjuWhHjOucjATm9fu68zTHlxgN47VF2W/view?usp=sharing",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://drive.google.com/file/d/1WjuWhHjOucjATm9fu68zTHlxgN47VF2W/view?usp=sharing"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4518",
+ "image_count": 3,
+ "notes": ""
+}

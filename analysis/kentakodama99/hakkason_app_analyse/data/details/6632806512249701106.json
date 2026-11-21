@@ -1,0 +1,36 @@
+{
+ "id": "6632806512249701106",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806512249701106/?year=2026",
+ "fetched_at": "2026-11-20T15:43:50+00:00",
+ "title": "TOKYO NEXT",
+ "team": "ゆりかもめ",
+ "member_count": 2,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "興味のあるテーマや過ごし方を直感的にスワイプして選択すると、AIが嗜好に合った東京のエリアやスポットを提案する観光マッチングサービス。浅草・渋谷など人気エリアに観光客が集中しオーバーツーリズムが課題となる一方、旅行者が触れる情報はSNSで人気化した場所に偏りがちという課題に対応。定番スポットを既に訪れ再訪意向が高い「リピーター」に着目し、まだ知られていないエリアとマッチングすることで「空いているから行く」ではなく「自分が好きだから行く」という動機を生む。利用状況や来訪データを蓄積し東京都の観光施策にも活用する構想。Next.jsとVercelで短期間での開発・改善を可能にし、Claude Codeを活用した。",
+ "open_data_items": [
+  {
+   "name": "国・地域別外国人旅行者行動特性調査 R6",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/data/kunibetsu/#place"
+  },
+  {
+   "name": "伊豆諸島・小笠原諸島観光客入込実態調査",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/data/tosho-irekomi/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://data.tourism.metro.tokyo.lg.jp/data/kunibetsu/#place",
+  "https://data.tourism.metro.tokyo.lg.jp/data/tosho-irekomi/"
+ ],
+ "demo_url": "https://tokyo-next.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-next.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1014",
+ "image_count": 1,
+ "notes": ""
+}

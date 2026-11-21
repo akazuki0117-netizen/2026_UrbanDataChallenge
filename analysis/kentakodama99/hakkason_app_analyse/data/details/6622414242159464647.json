@@ -1,0 +1,47 @@
+{
+ "id": "6622414242159464647",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6622414242159464647/?year=2026",
+ "fetched_at": "2026-11-20T15:32:09+00:00",
+ "title": "むし＆GO",
+ "team": "データファミリー",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ムシ＆GO」は、子どもの「虫を捕まえたい」と親の「安心して外出したい」を同時に叶えるおでかけナビアプリ。5歳と2歳の子を持つ親が虫のいる場所やトイレ・危険生物の有無が分からず外出を悩む実体験の課題に対応。東京都の緑地・植生データからカブトムシ等の生息可能性を解析し多機能トイレ等のバリアフリー情報と掛け合わせ「親も安心な虫捕りスポット」を提案する。現地で撮影すると「昆虫図鑑」に登録され都民参加型の生物生息マップとしてリアルタイム共有される。虫の名前特定と生息地マップのスコア化にAIを活用した。",
+ "open_data_items": [
+  {
+   "name": "エコロジカル・ネットワークマップ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d0000000028"
+  },
+  {
+   "name": "【東京都都市整備局】緑のオープンデータ（GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "公園トイレ一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000132"
+  },
+  {
+   "name": "都市公園・都立公園一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_toshitoritukouen.csv"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000132"
+ ],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/nerima/131202_nerimaku_toshitoritukouen.csv"
+ ],
+ "demo_url": "https://mushi-and-go-app-hackathon.tokyo-odh-419.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mushi-and-go-app-hackathon.tokyo-odh-419.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2111",
+ "image_count": 3,
+ "notes": ""
+}

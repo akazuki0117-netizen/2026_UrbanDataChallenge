@@ -1,0 +1,36 @@
+{
+ "id": "6632789085814863255",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632789085814863255/?year=2026",
+ "fetched_at": "2026-11-20T15:42:00+00:00",
+ "title": "CoolWalk Tokyo",
+ "team": "sangikousenuser",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「CoolWalk Tokyo」は、最短距離だけでなく「日なたが長く続かない道」を選べる徒歩ナビ。晴天時の熱中症搬送が増加する一方、一般的な経路検索は距離や時間優先で建物の影や街路樹を考慮したルート選びが困難という課題に対応。Googleの歩行ルート候補に建物影・街路樹・地下屋内区間を重ね、指定日時の太陽位置に合わせて5mごとに評価し、最短ルートとCoolWalkルートを時間・距離・推定日陰率で比較できる。給水スポットやクールスポットも地図上で切り替え表示できる。Nuxt 4とCloudflare Workersで構築し、OpencodeとOpenAI Codexで涼しさ評価アルゴリズムや地図表示機能を実装した。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMapデータ",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "東京都水道局「Tokyowater Drinking Station一覧」",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t000019d0000000003-b502aeff51a15dabe9e8da0bc18f0928-0"
+  },
+  {
+   "name": "東京都熱中症対策ポータル「クーリングシェルター・クールシェアスポット」",
+   "url": "https://wbgt.metro.tokyo.lg.jp/effort/coolshare/search.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/copyright",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t000019d0000000003-b502aeff51a15dabe9e8da0bc18f0928-0",
+  "https://wbgt.metro.tokyo.lg.jp/effort/coolshare/search.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=10",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

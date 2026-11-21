@@ -1,0 +1,42 @@
+{
+ "id": "6632728231017272965",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632728231017272965/?year=2026",
+ "fetched_at": "2026-11-20T15:39:26+00:00",
+ "title": "高校えらびノート",
+ "team": "チーム嗅覚",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "子どもの興味・学び方・校風の希望と保護者の通学・学費等の負担をAIで整理し親子の共通点や違いを可視化する高校選び支援サービス。東京都には多様な進路がある一方、中学生は将来像が定まらないまま短期間で進路決定を求められ、出願ルールが親子に十分共有されないまま判断を迫られるという課題に対応。子ども本人と保護者に別々の質問を行い共通点・相違点を可視化した上で公立・私立高校オープンデータから候補を提示し、「本人との相性」と「受験現実性」を分けて示す。AIが進路を決めるのではなく親子が納得して選ぶための支援に徹する。React＋TypeScript＋Viteでモックを実装し、ChatGPTとCodexを企画整理と実装に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都公立学校一覧（高等学校）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000021d2000000191"
+  },
+  {
+   "name": "東京都知事が認可している私立高等学校（全日制）の一覧",
+   "url": "https://www.seikatubunka.metro.tokyo.lg.jp/shigaku/kankeisya/ninka/0000000140"
+  },
+  {
+   "name": "令和8年度 東京都内私立高等学校（全日制）の学費の状況",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2025/12/2025121819?"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000021d2000000191"
+ ],
+ "external_data_urls": [
+  "https://www.seikatubunka.metro.tokyo.lg.jp/shigaku/kankeisya/ninka/0000000140",
+  "https://www.metro.tokyo.lg.jp/information/press/2025/12/2025121819?"
+ ],
+ "demo_url": "https://koko-erabi-note-2026.takahashimiho1017.chatgpt.site/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://koko-erabi-note-2026.takahashimiho1017.chatgpt.site/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3623",
+ "image_count": 3,
+ "notes": ""
+}

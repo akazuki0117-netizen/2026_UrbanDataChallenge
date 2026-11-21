@@ -1,0 +1,77 @@
+{
+ "id": "6632811645326583592",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811645326583592/?year=2026",
+ "fetched_at": "2026-11-20T15:45:48+00:00",
+ "title": "Tokyo Flood Risk Stack",
+ "team": "ONE SHOT STAR",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyo Flood Risk Stack」は、東京23区の地点を選ぶと警報・雨雲・河川水位・浸水想定・過去の浸水実績・避難所開設状況を一画面で確認できるWebサービス。ハザードマップを見ても自宅や職場に現在どの情報が関係するか短時間で判断しにくく、防災担当者にも情報が別々に管理され説明に手間がかかるという課題に対応。4件の大雨事例を現在の想定や過去実績と重ね最大4地点を比較でき、各情報の出典・時刻・地点との関係を明示する。TypeScript・React・ViteとLeafletで静的ビルド配信を実現し、ChatGPT／OpenAI Codexで要件整理からUI文言まで活用しつつ事実や安全性はAIに判断させない設計とした。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局 洪水・浸水予想区域図（外水・内水、6水系CSV）",
+   "url": "https://www.kensetsu.metro.tokyo.lg.jp/river/chusho_seibi/panhulink/menu"
+  },
+  {
+   "name": "東京都下水道局 雨水出水浸水想定区域図",
+   "url": "https://www.gesui.metro.tokyo.lg.jp/living/amesh/inundation"
+  },
+  {
+   "name": "東京都建設局 浸水実績図・住所別浸水実績",
+   "url": "https://www.suigai-risk.metro.tokyo.lg.jp/shiryoshu/shinsui-kensaku/"
+  },
+  {
+   "name": "国土交通省 道路冠水注意箇所",
+   "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000952894.pdf"
+  },
+  {
+   "name": "気象庁 警報・注意報",
+   "url": "https://www.jma.go.jp/bosai/warning/data/warning/130000.json"
+  },
+  {
+   "name": "気象庁 東京都天気予報",
+   "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+  },
+  {
+   "name": "気象庁 高解像度降水ナウキャスト・アメダス",
+   "url": "https://www.jma.go.jp/bosai/nowc/"
+  },
+  {
+   "name": "東京都 河川水位観測情報",
+   "url": "https://www.kasen-suibo.metro.tokyo.lg.jp/im/uryosuii/tsim0102g.html"
+  },
+  {
+   "name": "東京都防災マップ 避難所・指定緊急避難場所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/14110fe5-0415-4d07-86ef-ec9841f10896"
+  },
+  {
+   "name": "東京都防災マップ 避難所開設状況",
+   "url": "https://map.bosai.metro.tokyo.lg.jp/data/shelter/shelter.json"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/14110fe5-0415-4d07-86ef-ec9841f10896"
+ ],
+ "external_data_urls": [
+  "https://www.kensetsu.metro.tokyo.lg.jp/river/chusho_seibi/panhulink/menu",
+  "https://www.gesui.metro.tokyo.lg.jp/living/amesh/inundation",
+  "https://www.suigai-risk.metro.tokyo.lg.jp/shiryoshu/shinsui-kensaku/",
+  "https://www.ktr.mlit.go.jp/ktr_content/content/000952894.pdf",
+  "https://www.jma.go.jp/bosai/warning/data/warning/130000.json",
+  "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+  "https://www.jma.go.jp/bosai/nowc/",
+  "https://www.kasen-suibo.metro.tokyo.lg.jp/im/uryosuii/tsim0102g.html",
+  "https://map.bosai.metro.tokyo.lg.jp/data/shelter/shelter.json"
+ ],
+ "demo_url": "https://tokyo-flood-risk-stack.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-flood-risk-stack.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=10",
+ "image_count": 3,
+ "notes": ""
+}

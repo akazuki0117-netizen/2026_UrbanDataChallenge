@@ -1,0 +1,37 @@
+{
+ "id": "6632805663165703757",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632805663165703757/?year=2026",
+ "fetched_at": "2026-11-20T15:43:36+00:00",
+ "title": "tagui",
+ "team": "tagui",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「tagui（たぐい）」は、「今、誰かと一緒にいてもいい」という気持ちを共有しその場で人と過ごせるサービス。東京は世帯の半数が一人暮らしで、気軽に話せる相手がいない人は同居者がいる人の10倍孤独を感じているという課題に対応（同居者なしで孤独をしばしば感じる9.8%）。東京都オープンデータの公園・文化施設を利用可能な場所として取り込み、今いる場所と行動をONにすると同じ状態の人が匿名で表示され双方が挨拶したときだけつながる。会える場所は公共施設に限定し開館時間内のみ有効、位置情報も大まかにする安全設計。Next.js／React／TypeScriptでバックエンドなし、Cloudflare Pagesに構築し、ClaudeやCursorで課題設定からアプリ化まで一貫して行った。",
+ "open_data_items": [
+  {
+   "name": "東京都 公共施設一覧（東京都デジタルサービス局／デジタル庁推奨データセット準拠、CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "地理院タイル（国土地理院）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://tagui.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tagui.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2212",
+ "image_count": 1,
+ "notes": ""
+}

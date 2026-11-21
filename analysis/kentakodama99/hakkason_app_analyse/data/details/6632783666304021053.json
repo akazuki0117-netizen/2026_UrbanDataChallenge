@@ -1,0 +1,64 @@
+{
+ "id": "6632783666304021053",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632783666304021053/?year=2026",
+ "fetched_at": "2026-11-20T15:41:47+00:00",
+ "title": "Family Compass（ファミリーコンパス）",
+ "team": "チームシンシア",
+ "member_count": 3,
+ "is_finalist": true,
+ "awards": [
+  "オーディエンス賞"
+ ],
+ "service_description": "「ファミリーコンパス」は、夫婦関係が揺れる家族の「いまの現在地」を整理し次の行動を示すサービス。生活費や転校など生活の言葉で悩む親と、制度名を軸にした行政情報がつながっていないという課題に対応。子どもの年齢や暮らし方についていくつか質問に答えるだけで、居住自治体の制度と照合し利用可能性・金額の目安と今日から90日でやることを提示する。都62自治体分の制度745件・相談窓口286件を一次情報から整備。判定は決められた条件どおりに行い、AIには制度可否や金額を判断させない設計。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログサイト",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "こども家庭庁 児童手当",
+   "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai"
+  },
+  {
+   "name": "こども家庭庁 児童扶養手当",
+   "url": "https://www.cfa.go.jp/policies/hitori-oya/fuyou-teate"
+  },
+  {
+   "name": "こども家庭庁 ひとり親家庭等の支援",
+   "url": "https://www.cfa.go.jp/policies/hitori-oya"
+  },
+  {
+   "name": "法務省 法定養育費制度",
+   "url": "https://www.moj.go.jp/MINJI/minji07_00389.html"
+  },
+  {
+   "name": "日本司法支援センター（法テラス） 民事法律扶助",
+   "url": "https://www.houterasu.or.jp/"
+  },
+  {
+   "name": "e-Gov 法令検索",
+   "url": "https://laws.e-gov.go.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai",
+  "https://www.cfa.go.jp/policies/hitori-oya/fuyou-teate",
+  "https://www.cfa.go.jp/policies/hitori-oya",
+  "https://www.moj.go.jp/MINJI/minji07_00389.html",
+  "https://www.houterasu.or.jp/",
+  "https://laws.e-gov.go.jp/"
+ ],
+ "demo_url": "https://od-hackathon-2026.od-hackathon-2026.workers.dev/ja",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://od-hackathon-2026.od-hackathon-2026.workers.dev/ja"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=631",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+ "id": "6628630672321882572",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628630672321882572/?year=2026",
+ "fetched_at": "2026-11-20T15:33:40+00:00",
+ "title": "この雨、 クルマいける？(アメクル)",
+ "team": "めざせ土木とデジタルの二刀流",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "大雨の中家族を送迎する際に走行注意な道路を示して出発前の判断を支援するアプリ。千葉豪雨の際、浸水想定データは分かってもそれが車で走ってよいものか判断できなかったという実体験の課題に対応。出発地と目的地を入力すると浸水想定データを元に道路ごとの自動車走行上の注意を色分け表示し、最短経路だけでなく周辺200mの迂回想定道路についても色分けする。緊急時に誰でも操作しやすいよう機能を絞り込んだ設計。ChatGPT PlusでGIS分析の処理手順のプロンプトを作成し仕様固めの壁打ち相手として活用した。",
+ "open_data_items": [
+  {
+   "name": "浸水予想エリア図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "国土数値情報行政区域データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2025.html"
+  },
+  {
+   "name": "国土数値情報道路データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N13-2024.html"
+  },
+  {
+   "name": "基盤地図情報道路縁",
+   "url": "https://service.gsi.go.jp/kiban/app/map/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2025.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N13-2024.html",
+  "https://service.gsi.go.jp/kiban/app/map/"
+ ],
+ "demo_url": "https://amekuru-demo.tokyo-odh-378.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://amekuru-demo.tokyo-odh-378.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1255",
+ "image_count": 3,
+ "notes": ""
+}

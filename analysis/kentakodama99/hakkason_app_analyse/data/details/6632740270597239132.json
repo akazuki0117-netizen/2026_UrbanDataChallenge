@@ -1,0 +1,42 @@
+{
+ "id": "6632740270597239132",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632740270597239132/?year=2026",
+ "fetched_at": "2026-11-20T15:39:50+00:00",
+ "title": "みんタビ TOKYO",
+ "team": "チームともだち",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「みんタビ TOKYO」は、複数人でのおでかけ先選びを支援するWebサービス。複数人での東京観光では「全員が楽しめる場所を探すのが大変」「一人が我慢してしまう」という課題があり幹事役に負担が集中し多数決では一部の人が我慢する結果になりやすいという課題に対応。各メンバーが好みを0〜3で入力すると平均満足度と最低満足度の両方を考慮し誰か1人が我慢しにくい東京1日プランを提案、「バランス重視」「やりたいこと重視」「移動少なめ」の3種類から選べる。React+TypeScript+ViteとHono+Cloudflare Workersで構築し、ChatGPTで仕様整理、Claude Codeで実装・テストを行った。",
+ "open_data_items": [
+  {
+   "name": "だれでも東京",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "東京都交通局 鉄道関連情報",
+   "url": "https://ckan.odpt.org/dataset/train-toei"
+  },
+  {
+   "name": "東京都交通局 バス関連情報",
+   "url": "https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+ ],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset/train-toei",
+  "https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei"
+ ],
+ "demo_url": "https://mintabi-tokyo.tomodati.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mintabi-tokyo.tomodati.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3142",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,36 @@
+{
+ "id": "6632661533616059503",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632661533616059503/?year=2026",
+ "fetched_at": "2026-11-20T15:38:32+00:00",
+ "title": "TOKYO SHIFT",
+ "team": "coaster",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "行きたいスポットから真の目的を抽出し混雑を避けて同等の体験価値が得られる代替スポットを提案するスマホWebアプリ。SNSや口コミで人気スポットへ観光客が集中する一方「有名な場所に行きたいが混雑は避けたい」という両立が難しいという課題に対応。「どこへ行きたいか」ではなく「何をしたいか」という目的を入力すると目的に合うスポットを抽出し混雑状況を踏まえて比較的空いている代替スポットを提案する。誰が試しても同じ結果になるよう計算は全てコードで行う設計。TypeScriptでReact/Honoを構築し、Claude Fable 5との対話で460件の施設に体験タグを付け15次元ベクトルへ変換した。",
+ "open_data_items": [
+  {
+   "name": "東京都観光データカタログ",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "全国の人流オープンデータ（1kmメッシュ、市区町村単位発地別）",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://data.tourism.metro.tokyo.lg.jp/",
+  "https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto"
+ ],
+ "demo_url": "https://tokyo-shift.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-shift.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=5143",
+ "image_count": 3,
+ "notes": ""
+}

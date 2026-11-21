@@ -1,0 +1,36 @@
+{
+ "id": "6632809400418848780",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809400418848780/?year=2026",
+ "fetched_at": "2026-11-20T15:44:38+00:00",
+ "title": "支援を探さず見つけられる！「Tokyo助成金ライフゲーム」と「N-labo Subsidy Helper」",
+ "team": "N-labo",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自治体の支援制度を「探す」から「自然と出会う」体験へ転換するデータ連携プラットフォーム。助成制度の認知度は30%前後と低く「知らなかった」ために受給機会を逃す都民が多く、行政検索ポータルは「自分で探そうと思い立った人」しか利用できないという課題に対応。Three.jsによるライフステージごとの助成金を疑似体験する3D Webボードゲーム「Tokyo助成金ライフゲーム」と、Google検索時にキーワードから関連助成金を提示するChrome拡張「N-labo Subsidy Helper」の2体験を提供、背後のMCP基盤がオープンデータを構造化しAIへ供給する。Cloudflare Workers / D1 / R2でMCP準拠のAPI基盤を構築し、Workers AI（Gemma等）を曖昧な検索クエリのフォールバックに統合した。",
+ "open_data_items": [
+  {
+   "name": "Tokyo支援ナビ掲載データ（令和6年5月15日時点）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/ff8cc891-e975-4e66-ad44-ceb1d0b0b8f8/resource/94303fa8-fbc7-4009-8ac2-266c9b0ddc0f"
+  },
+  {
+   "name": "2026年補助金一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000019/resource/fe92a3a0-f87f-4b9c-b972-a9337bd18296"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/ff8cc891-e975-4e66-ad44-ceb1d0b0b8f8/resource/94303fa8-fbc7-4009-8ac2-266c9b0ddc0f",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000019/resource/fe92a3a0-f87f-4b9c-b972-a9337bd18296"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://web-spa.tokyo-odh-475.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://web-spa.tokyo-odh-475.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=880",
+ "image_count": 3,
+ "notes": ""
+}

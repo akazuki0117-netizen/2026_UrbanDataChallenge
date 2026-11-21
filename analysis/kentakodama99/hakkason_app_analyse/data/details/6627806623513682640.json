@@ -1,0 +1,26 @@
+{
+ "id": "6627806623513682640",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627806623513682640/?year=2026",
+ "fetched_at": "2026-11-20T15:33:15+00:00",
+ "title": "とうきょうキッズオープンナビ",
+ "team": "Kids Data Lab",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都のオープンデータを活用し子どもや子育て世帯に向けて都内のイベント情報や活用できる補助金制度を分かりやすく提供するWebアプリケーション。行政のオープンデータは一覧表形式で見づらく欲しい情報に辿り着きにくく補助金の申請漏れや地域活動への参加機会のロスが発生しているという課題に対応。子ども視点に配慮したデザインで目的に合わせたイベント検索から補助金情報の参照までをワンストップでサポートする。Google AI Studio（Gemini API）でアイデアから実装までの高速なAIアシスト開発を行った。",
+ "open_data_items": [
+  {
+   "name": "子育て支援制度レジストリ（東京都および区市町村の子育て支援・補助金データ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=4024",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

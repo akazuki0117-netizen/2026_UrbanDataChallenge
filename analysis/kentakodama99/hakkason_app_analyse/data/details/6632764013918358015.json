@@ -1,0 +1,37 @@
+{
+ "id": "6632764013918358015",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632764013918358015/?year=2026",
+ "fetched_at": "2026-11-20T15:40:42+00:00",
+ "title": "Offline FoodGuard",
+ "team": "Offline FoodGuard",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "Raspberry Pi ZeroとTWELITE無線センサーを用いた、中小食品事業者向けローカル完結型の温湿度自動監視・フードロス防衛システム。中小企業の在庫管理は自社対応に偏り、リアルタイムの温度・品質管理が課題として上位に挙がる一方、ICT人材不足やコスト負担が導入の壁になっているという課題に対応。冷蔵庫・冷凍庫にセンサーを置くだけでWi-Fi等の通信環境に依存せず自動でデータを収集・記録し、常時モニタリングで設備劣化によるサイレント昇温を検知、衛生管理帳票をワンクリックで自動生成する。Flask（Python）+SQLiteでPi Zeroの限られたリソースでも動作する軽量構成とし、要件定義にはAI駆動開発のSpec方式を採用しClaudeとの対話で設計書を作成した。",
+ "open_data_items": [
+  {
+   "name": "東京都産業労働局「令和５年度_東京の中小企業の現状に関する調査（流通産業編）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000065"
+  },
+  {
+   "name": "厚生労働省「令和７年度地域別最低賃金の全国一覧」",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/minimumichiran/index.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000065"
+ ],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/minimumichiran/index.html"
+ ],
+ "demo_url": "https://raspzero-cloud.tokyo-odh-057.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://raspzero-cloud.tokyo-odh-057.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2971",
+ "image_count": 3,
+ "notes": ""
+}

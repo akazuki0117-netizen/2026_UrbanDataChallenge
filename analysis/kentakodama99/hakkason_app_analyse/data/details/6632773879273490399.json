@@ -1,0 +1,26 @@
+{
+ "id": "6632773879273490399",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632773879273490399/?year=2026",
+ "fetched_at": "2026-11-20T15:41:21+00:00",
+ "title": "道路の知識が育つ未来の交通インフラへ",
+ "team": "クルマ好き",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "現在のナビは渋滞や最短経路は教えても事故が起きやすい・未遂が多い場所までは学習していないという課題に対応する「事故予防ナビ」。東京都は2025年交通事故発生件数が全国最多で事故は交差点内・付近に集中するが警察庁等の事故発生マップは静止画像で活用されていないという課題に対応。事故・ヒヤリなどみんなの経験を道路に知識として持たせ、その知識が育つことで未来の事故を減らす段階的に進化するナビを提案、将来的には自動運転技術と連携した移動サービスの拡大も構想する。ChatGPTを日常的に活用して企画した。",
+ "open_data_items": [
+  {
+   "name": "警察庁公式HP/交通事故発生状況",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/index_jiko.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/index_jiko.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2634",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

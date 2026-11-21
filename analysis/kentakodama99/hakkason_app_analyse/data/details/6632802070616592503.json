@@ -1,0 +1,37 @@
+{
+ "id": "6632802070616592503",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632802070616592503/?year=2026",
+ "fetched_at": "2026-11-20T15:43:03+00:00",
+ "title": "キャリアギルド",
+ "team": "竹中家",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「キャリアギルド」は、キャリア上のセーフティネットを平時からつくる小さな相互扶助コミュニティ。転職サイトは「転職すること」が中心で「まだ転職するか決めていないが漠然と不安」な人を支える場が不足しているという課題に対応。自分が提供できる「Give」としてほしい「Want」を登録し業界の多様性から相手を提案する。グラフ理論を用い人をノード、Connectをエッジとして直接・2次のつながりを可視化し「助け合える集団」をGuild候補として提示、狙いは推薦精度ではなく「いざというとき頼れる」実感の醸成。React＋TypeScript＋Vite＋Cloudflare Workersで構築し、ChatGPTでサービス設計、Claude Codeを実装エージェントとして活用した。",
+ "open_data_items": [
+  {
+   "name": "生活困窮者自立支援制度に関する情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000045"
+  },
+  {
+   "name": "令和6年度 自立相談支援機関 問い合わせ先等一覧",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/documents/d/fukushi/r6madoguchiichiran"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000045"
+ ],
+ "external_data_urls": [
+  "https://www.fukushi.metro.tokyo.lg.jp/documents/d/fukushi/r6madoguchiichiran"
+ ],
+ "demo_url": "https://tenshoku-guild.tenshoku-guild.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tenshoku-guild.tenshoku-guild.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4601",
+ "image_count": 3,
+ "notes": ""
+}

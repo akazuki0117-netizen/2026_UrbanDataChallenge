@@ -1,0 +1,31 @@
+{
+ "id": "6632811668457629257",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811668457629257/?year=2026",
+ "fetched_at": "2026-11-20T15:45:52+00:00",
+ "title": "お風呂ルーレット",
+ "team": "集合体",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "入浴のハードルが高い日に実行する行動をルーレットで決定する支援Webアプリ。疲労や精神的消耗で入浴の必要性を認識しながら身体が動かない人は「きちんと洗わなければ」という社会規範に苛まれ自己肯定感を低下させがちという課題に対応。「シャワーのみ」等の選択肢を抽選し納得いくまで引き直せる。気象オープンデータで当日の天候・気圧を提示し動けない状態を外的環境による自然な反応と認識させ、引き直しの履歴を記録しないことで罪悪感を抱かせない設計。TypeScript+HTMLでダウンロード不要のWebアプリとし、Gemini Flash 3.7でプログラムを疎結合に細かくファイル分けした。",
+ "open_data_items": [
+  {
+   "name": "気象庁防災情報XML",
+   "url": "https://xml.kishou.go.jp/index.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://xml.kishou.go.jp/index.html"
+ ],
+ "demo_url": "https://shinh0707.github.io/BathRoulette/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://shinh0707.github.io/BathRoulette/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=3724",
+ "image_count": 3,
+ "notes": ""
+}

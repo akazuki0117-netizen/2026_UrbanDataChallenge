@@ -1,0 +1,36 @@
+{
+ "id": "6632236691774191852",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632236691774191852/?year=2026",
+ "fetched_at": "2026-11-20T15:37:26+00:00",
+ "title": "BusBuzzMap",
+ "team": "BusBuzzLab",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「BusBuzzMap」は、東京23区西側6区の鉄道とバスを組み合わせた交通利便性を可視化するWeb地図サービス。物件探しでは「駅徒歩○分」が重視されバスの利便性は見落とされがちという実体験の課題に対応。駅から半径500mを青、バス停から半径300mをオレンジのグラデーションで「生活圏」として可視化し、任意の駅をクリックするとその駅に直結する路線と生活圏だけを抽出表示できる。中野駅通勤の例でバスでアクセスできる地域も含めて居住候補を探せる。Next.js(App Router)とReact LeafletでCloudflare Workersに構築し、Claudeでコンポーネント設計やデプロイトラブルシューティングを行った。",
+ "open_data_items": [
+  {
+   "name": "国土交通省 国土数値情報「バスルートデータ（2022年度）」",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N07-2022.html"
+  },
+  {
+   "name": "国土交通省 国土数値情報「バス停留所データ（2022年度・第3.0版）」",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-v3_0.html"
+  },
+  {
+   "name": "国土交通省 国土数値情報「鉄道データ・第2.3版（2020年度）」",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N07-2022.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-v3_0.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v2_3.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2496",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

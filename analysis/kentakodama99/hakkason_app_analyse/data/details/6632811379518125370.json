@@ -1,0 +1,26 @@
+{
+ "id": "6632811379518125370",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811379518125370/?year=2026",
+ "fetched_at": "2026-11-20T15:45:35+00:00",
+ "title": "東京オアシスマップ",
+ "team": "フレームワークメン",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京オアシスマップ」は、東京都内のクーリングシェルターを地図上で直感的に検索・確認できるWebアプリケーション。施設一覧が自治体サイトでCSVやPDF形式で公開されているため一般市民が外出先で今すぐ涼める場所をスマホから探し出すのが困難という課題に対応。クーリングシェルターのデータをLeafletの地図に視覚的にマッピングし、Googleアカウントで簡単にログインして現在地周辺の施設を即座に把握できる設計とした。猛暑日のアクセス集中にもCloudflareのサーバーレス配信網で耐える構成とし、ReactとTypeScript、Viteで構築、生成AIをコーディング補完と実装スピード向上に活用した。",
+ "open_data_items": [
+  {
+   "name": "クーリングシェルター・TOKYO クールシェアスポット",
+   "url": "https://wbgt.metro.tokyo.lg.jp/effort/coolshare/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://wbgt.metro.tokyo.lg.jp/effort/coolshare/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=2122",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

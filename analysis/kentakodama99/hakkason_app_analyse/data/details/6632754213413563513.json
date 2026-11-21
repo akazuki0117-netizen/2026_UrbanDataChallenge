@@ -1,0 +1,46 @@
+{
+ "id": "6632754213413563513",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632754213413563513/?year=2026",
+ "fetched_at": "2026-11-20T15:40:12+00:00",
+ "title": "不登校支援選択サポート",
+ "team": "InterChai",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "不登校支援のラストマイルを埋めるWebツールで、保護者が5項目を入力すると5分で支援先を確定する。東京都で不登校児は約3万人にのぼり、約3割が専門機関に相談できていない一方、支援情報は散在し区ごとに異なる助成制度の精査を保護者が自力で担う負担が課題。自宅や職場からの移動時間・開所日時に基づく物理的アクセス性の判定、都と区の助成を統合した立替額・実質負担額の費用計算、相談用メール・電話メモテンプレートの自動生成という3つの機能で、公的・民間を並列に提示し支援への到達を後押しする。TypeScript／Next.jsで構築し、生成AIは制度差と料金の突き合わせ整理の解説に限定し、対象可否や金額はプログラムが決定論的に算出する。",
+ "open_data_items": [
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000011"
+  },
+  {
+   "name": "児童生徒の問題行動・不登校等生徒指導上の諸課題に関する調査",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000174?utm_source=chatgpt.com"
+  },
+  {
+   "name": "TOKYO補助金サーチ見える化ボード",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000019"
+  },
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000011",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000174?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://yorisoi-navi.rigentsuu.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yorisoi-navi.rigentsuu.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=5124",
+ "image_count": 3,
+ "notes": ""
+}

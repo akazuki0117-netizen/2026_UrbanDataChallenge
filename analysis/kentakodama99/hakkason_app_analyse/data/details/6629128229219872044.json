@@ -1,0 +1,36 @@
+{
+ "id": "6629128229219872044",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629128229219872044/?year=2026",
+ "fetched_at": "2026-11-20T15:33:48+00:00",
+ "title": "タンケンメシ",
+ "team": "あいえむ",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「タンケンメシ」は、気分・エリア・お店の好みの3問に答えるだけで東京の個人店や老舗を探検感覚でおすすめするサービス。都内の商店街は知名度や人流が特定エリアに偏り空き店舗率も上昇傾向にある一方、個人店側はWeb戦略に対応しきれていないという課題に対応。従来の検索や口コミは人気店ほど目に入る循環を生むため、「知られていない」ことを弱みではなく誰よりも先に出会える魅力として捉え直し、まだ知られていない店を「自分だけの発見」として提案する。HTML・CSS・JavaScriptで単一ページのWebアプリとして実装し、空き店舗率や来訪者数のデータをもとにAIで各店舗の紹介文を生成した。",
+ "open_data_items": [
+  {
+   "name": "東京都商店街実態調査",
+   "url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/documents/d/sangyo-rodo/tokyo-shopping-street-survey-report-2025"
+  },
+  {
+   "name": "東京都観光データカタログ",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.sangyo-rodo.metro.tokyo.lg.jp/documents/d/sangyo-rodo/tokyo-shopping-street-survey-report-2025",
+  "https://data.tourism.metro.tokyo.lg.jp/"
+ ],
+ "demo_url": "https://im-lab.kimura-naoto5.workers.dev/works/49282cf18c5b/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://im-lab.kimura-naoto5.workers.dev/works/49282cf18c5b/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=3837",
+ "image_count": 3,
+ "notes": ""
+}

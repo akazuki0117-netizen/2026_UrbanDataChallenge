@@ -1,0 +1,31 @@
+{
+ "id": "6627791359342939914",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627791359342939914/?year=2026",
+ "fetched_at": "2026-11-20T15:33:13+00:00",
+ "title": "となりの先輩ペアレント",
+ "team": "FILLOW",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "妊娠・出産・育児について「少し上のお子さんを持つ先輩ママ・パパ」に相談するイメージで気軽に相談できるアプリ。家庭環境や子どもの特性によって必要な対応が異なる中で何を選べばよいか分からず、育児の情報収集・整理の役割がママに偏りやすいという課題に対応。LINEのようなインターフェースで悩みを伝えると先輩パパ・ママをイメージしたAIが対話形式で寄り添い、少し先の見通しや専門家相談の目安を教えてくれる。子どもの月齢と居住市区町村を登録すると相談内容に応じた自治体の関連施設・サービスも提案する。TypeScriptとExpo/React NativeでWeb・iOS・Android展開を可能にし、LlamaとGLMをトピックにより使い分けている。",
+ "open_data_items": [
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://drive.google.com/file/d/1pvYCjNOZo4o0BHGHzgm19AHe9GBQ0wcA/view?usp=sharing",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/file/d/1pvYCjNOZo4o0BHGHzgm19AHe9GBQ0wcA/view?usp=sharing"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2507",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,36 @@
+{
+ "id": "6632809250115590073",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809250115590073/?year=2026",
+ "fetched_at": "2026-11-20T15:44:36+00:00",
+ "title": "ひそひそ",
+ "team": "Cockatrice",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "美術館・博物館で声を出さずに感想を分かち合うサービス「ひそひそ」。展示室では静かに作品と向き合うことが大切にされる一方、作品の前で生まれた感想は声に出しにくくその場で消えてしまいやすいという課題に対応。作品ごとに短い感想「ひそひそ」を残せ「みんなへ」公開または「ひとりで」非公開を選べ後から切り替えられる。ほかの鑑賞者からは返信ではなく共感・問い・発見・ユーモアの4種のリアクションが届き、投稿は現地でチェックインした人だけに限定する。展覧会情報は都立文化施設事業一覧、作品情報はToMuCoのオープンデータを活用。FlutterでiOS/Android/Webを単一コードで実装し、Cursor／Claude Codeをペアプログラマとして全面活用しAGENTS.mdで開発ルールを共有した。",
+ "open_data_items": [
+  {
+   "name": "都立文化施設事業一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000001"
+  },
+  {
+   "name": "ToMuCo - Tokyo Museum Collection",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000014"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000014"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://odh-hisohiso-app.cockatrice.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://odh-hisohiso-app.cockatrice.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2128",
+ "image_count": 3,
+ "notes": ""
+}

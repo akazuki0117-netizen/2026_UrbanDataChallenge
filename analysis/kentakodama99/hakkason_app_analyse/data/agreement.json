@@ -1,0 +1,50 @@
+{
+ "theme_primary": {
+  "all": "30/48",
+  "all_rate": 0.625,
+  "finalist": "17/24",
+  "finalist_rate": 0.708
+ },
+ "user_specific": {
+  "all": "37/48",
+  "all_rate": 0.771,
+  "finalist": "17/24",
+  "finalist_rate": 0.708
+ },
+ "user_gov": {
+  "all": "45/48",
+  "all_rate": 0.938,
+  "finalist": "23/24",
+  "finalist_rate": 0.958
+ },
+ "problem_specificity": {
+  "all": "31/48",
+  "all_rate": 0.646,
+  "finalist": "15/24",
+  "finalist_rate": 0.625
+ },
+ "data_use_level": {
+  "all": "31/48",
+  "all_rate": 0.646,
+  "finalist": "18/24",
+  "finalist_rate": 0.75
+ },
+ "ai_in_product": {
+  "all": "41/48",
+  "all_rate": 0.854,
+  "finalist": "21/24",
+  "finalist_rate": 0.875
+ },
+ "tech_map": {
+  "all": "44/48",
+  "all_rate": 0.917,
+  "finalist": "21/24",
+  "finalist_rate": 0.875
+ },
+ "sol_ゲーム化・体験": {
+  "all": "48/48",
+  "all_rate": 1.0,
+  "finalist": "24/24",
+  "finalist_rate": 1.0
+ }
+}

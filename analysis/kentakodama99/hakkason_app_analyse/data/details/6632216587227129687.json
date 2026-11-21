@@ -1,0 +1,76 @@
+{
+ "id": "6632216587227129687",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632216587227129687/?year=2026",
+ "fetched_at": "2026-11-20T15:37:17+00:00",
+ "title": "重説のつづき",
+ "team": "重説のつづき",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "重要事項説明書をアップロードすると10の法定項目を原文と選んだ言語の読み解きの二列で並べるサービス。住宅購入経験者の84.4%が少しでも後悔・不満を持った経験があるという調査があり、書面が「別添のとおり」と外に預けた想定浸水深等の情報も分散しているという課題に対応。「別添」にある情報や重説だけでは拾いにくい総合危険度順位・地価公示推移・避難場所等を10種の公開データから同じ画面に並べ、二つの住所を同じ表で比較する頁も備える。AIは書面の転記だけに限定し法的判断はさせず一致しない項目は表示しない誠実な設計。Next.js 16＋TypeScriptのサーバレンダリングでクライアントJSを4箇所に絞り、Claude（システムプロンプトで法的判断・推測を禁止）で28項目の文字列転記のみ行わせた。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）",
+   "url": "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/home.htm"
+  },
+  {
+   "name": "地理院タイル・標高・住所検索・逆ジオコーディング",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "地震ハザードステーション J-SHIS",
+   "url": "https://www.j-shis.bosai.go.jp/api-pshm-meshinfo"
+  },
+  {
+   "name": "不動産情報ライブラリ 浸水想定区域（洪水・高潮）",
+   "url": "https://www.reinfolib.mlit.go.jp/help/apiManual/"
+  },
+  {
+   "name": "不動産情報ライブラリ 地価公示",
+   "url": "https://www.reinfolib.mlit.go.jp/help/apiManual/xpt002/"
+  },
+  {
+   "name": "不動産情報ライブラリ 液状化危険度",
+   "url": "https://www.reinfolib.mlit.go.jp/help/apiManual/xkt025/"
+  },
+  {
+   "name": "不動産情報ライブラリ 用途地域",
+   "url": "https://www.reinfolib.mlit.go.jp/help/apiManual/xkt002/"
+  },
+  {
+   "name": "不動産情報ライブラリ 災害区域（土砂・津波）",
+   "url": "https://www.reinfolib.mlit.go.jp/help/apiManual/"
+  },
+  {
+   "name": "国土数値情報 行政区域データ（N03）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html"
+  },
+  {
+   "name": "災害時給水ステーション（給水拠点）一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/home.htm",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://www.j-shis.bosai.go.jp/api-pshm-meshinfo",
+  "https://www.reinfolib.mlit.go.jp/help/apiManual/",
+  "https://www.reinfolib.mlit.go.jp/help/apiManual/xpt002/",
+  "https://www.reinfolib.mlit.go.jp/help/apiManual/xkt025/",
+  "https://www.reinfolib.mlit.go.jp/help/apiManual/xkt002/",
+  "https://www.reinfolib.mlit.go.jp/help/apiManual/",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html",
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv"
+ ],
+ "demo_url": "https://juyosetsu.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://juyosetsu.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2140",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic UI','Meiryo',sans-serif">
+  <title>議案を裁く裁判ゲーム「生徒裁判」（仮） コンセプト</title>
+  <rect width="1200" height="675" fill="#1d2b24"/>
+  <rect x="14" y="14" width="1172" height="647" rx="10" fill="none" stroke="#24372e" stroke-width="10"/>
+
+  <!-- 左：タイトル -->
+  <text x="64" y="92" font-size="16" font-weight="700" fill="#a9b8ae" letter-spacing="3">中高生が議案を裁く、裁判ゲーム</text>
+  <text x="60" y="176" font-size="76" font-weight="900" fill="#f3f1e8">生徒裁判<tspan font-size="26" fill="#a9b8ae" dx="10">（仮）</tspan></text>
+  <rect x="64" y="198" width="120" height="6" fill="#e4572e"/>
+  <text x="64" y="252" font-size="26" font-weight="800" fill="#f3f1e8">証拠を集め、主張を崩し、</text>
+  <text x="64" y="290" font-size="26" font-weight="800" fill="#f3f1e8">最後は自分で投票する。</text>
+
+  <!-- 議案 -->
+  <g transform="translate(64,326)">
+    <rect width="520" height="92" rx="8" fill="#24372e" stroke="#f3f1e8" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="20" y="34" font-size="14" font-weight="700" fill="#f2a541" letter-spacing="2">今回の議案</text>
+    <text x="20" y="68" font-size="21" font-weight="800" fill="#f3f1e8">部活動を廃止して、外部のクラブに任せるか</text>
+  </g>
+
+  <!-- 右：裁判場 -->
+  <g transform="translate(900,236)">
+    <circle r="178" fill="#24372e"/>
+    <circle r="178" fill="none" stroke="#f3f1e8" stroke-width="2" opacity=".35"/>
+    <circle r="112" fill="none" stroke="#f3f1e8" stroke-width="1.5" stroke-dasharray="4 8" opacity=".35"/>
+
+    <!-- 賛成側 -->
+    <g fill="#f2a541">
+      <circle cx="-140" cy="-80" r="26"/><circle cx="-162" cy="6" r="26"/><circle cx="-128" cy="92" r="26"/>
+    </g>
+    <!-- 反対側 -->
+    <g fill="#5fb3d9">
+      <circle cx="140" cy="-80" r="26"/><circle cx="162" cy="6" r="26"/><circle cx="128" cy="92" r="26"/>
+    </g>
+    <g font-size="13" font-weight="800" fill="#1d2b24" text-anchor="middle">
+      <text x="-140" y="-75">賛成</text><text x="-162" y="11">賛成</text><text x="-128" y="97">賛成</text>
+      <text x="140" y="-75">反対</text><text x="162" y="11">反対</text><text x="128" y="97">反対</text>
+    </g>
+
+    <!-- 検証役 -->
+    <circle cy="118" r="30" fill="#f3f1e8"/>
+    <text y="123" font-size="13" font-weight="800" fill="#1d2b24" text-anchor="middle">検証役</text>
+    <text y="168" font-size="12" fill="#a9b8ae" text-anchor="middle">どちらの側にもつかない</text>
+
+    <!-- 主張と証拠 -->
+    <g transform="translate(-96,-104)">
+      <rect width="192" height="54" rx="8" fill="#f3f1e8"/>
+      <text x="96" y="23" font-size="13" font-weight="700" fill="#1d2b24" text-anchor="middle">「みんな賛成している」</text>
+      <text x="96" y="43" font-size="11" fill="#5b6b61" text-anchor="middle">根拠のない主張</text>
+      <line x1="10" y1="27" x2="182" y2="27" stroke="#e4572e" stroke-width="4" stroke-linecap="round" transform="rotate(-6 96 27)"/>
+    </g>
+    <g transform="translate(-58,-22) rotate(-4 58 40)">
+      <rect width="116" height="80" rx="6" fill="#e4572e"/>
+      <text x="58" y="26" font-size="12" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="2">証拠</text>
+      <text x="58" y="48" font-size="12" fill="#fff" text-anchor="middle">アンケート結果</text>
+      <text x="58" y="66" font-size="10" fill="#ffd9cf" text-anchor="middle">出典・時期つき</text>
+    </g>
+  </g>
+
+  <!-- 下：流れ -->
+  <g transform="translate(64,468)" font-weight="800">
+    <g>
+      <rect width="250" height="112" rx="8" fill="#24372e" stroke="#a9b8ae" stroke-width="1.5"/>
+      <text x="18" y="34" font-size="13" fill="#a9b8ae" letter-spacing="2">STEP 1</text>
+      <text x="18" y="66" font-size="24" fill="#f3f1e8">捜査</text>
+      <text x="18" y="92" font-size="13" font-weight="400" fill="#a9b8ae">絵をタップして証拠を5つ集める</text>
+    </g>
+    <g transform="translate(274,0)">
+      <rect width="250" height="112" rx="8" fill="#24372e" stroke="#e4572e" stroke-width="2"/>
+      <text x="18" y="34" font-size="13" fill="#e4572e" letter-spacing="2">STEP 2</text>
+      <text x="18" y="66" font-size="24" fill="#f3f1e8">裁判</text>
+      <text x="18" y="92" font-size="13" font-weight="400" fill="#a9b8ae">根拠のない主張を、証拠で崩す</text>
+    </g>
+    <g transform="translate(548,0)">
+      <rect width="250" height="112" rx="8" fill="#24372e" stroke="#a9b8ae" stroke-width="1.5"/>
+      <text x="18" y="34" font-size="13" fill="#a9b8ae" letter-spacing="2">STEP 3</text>
+      <text x="18" y="66" font-size="24" fill="#f3f1e8">投票</text>
+      <text x="18" y="92" font-size="13" font-weight="400" fill="#a9b8ae">賛成か反対か。正解はない</text>
+    </g>
+    <g transform="translate(822,0)">
+      <rect width="250" height="112" rx="8" fill="#f2a541"/>
+      <text x="18" y="34" font-size="13" fill="#1d2b24" letter-spacing="2">STEP 4</text>
+      <text x="18" y="66" font-size="24" fill="#1d2b24">種明かし</text>
+      <text x="18" y="92" font-size="13" font-weight="700" fill="#1d2b24">実は、地方議会の本物の議題だった</text>
+    </g>
+    <g fill="none" stroke="#f3f1e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M256 56 l10 0 M262 50 l6 6 l-6 6"/>
+      <path d="M530 56 l10 0 M536 50 l6 6 l-6 6"/>
+      <path d="M804 56 l10 0 M810 50 l6 6 l-6 6"/>
+    </g>
+  </g>
+
+  <text x="64" y="626" font-size="14" fill="#a9b8ae">元の議題：部活動の地域展開　／　証拠は本物のデータ　／　舞台は架空の学園　／　通しで10〜15分</text>
+</svg>

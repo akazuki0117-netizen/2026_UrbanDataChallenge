@@ -1,0 +1,77 @@
+{
+ "id": "6632802992934570113",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632802992934570113/?year=2026",
+ "fetched_at": "2026-11-20T15:43:12+00:00",
+ "title": "TURN",
+ "team": "Synoptic",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TURN」は、「行きは電車・帰りは走る」で予定した時間をちょうど使い切る最適解を提案するランニング/サイクリング・プランナー。出張者や旅行者が「50分だけ走りたい」と思っても土地勘がなくちょうど50分で戻るにはどこまで行けるか分からず既存の経路検索は目的地未知の問いに答えられないという課題に対応。宿の位置・可処分時間・ペースを入れると徒歩→鉄道（乗り換えなし）→ランニングで宿へ直帰する片道ルートを1本提示、東京メトロ・都営地下鉄のGTFSで実ダイヤを考慮する。総所要＝徒歩＋待ち＋乗車＋走行として予定時間との誤差が最小の提案を行う。WebアプリでキューシートUIを実装し、Claude Codeで実装前に要件定義書を固めてから差分実装させる進め方をした。",
+ "open_data_items": [
+  {
+   "name": "東京メトロ 鉄道関連情報",
+   "url": "https://ckan.odpt.org/dataset/train-tokyometro"
+  },
+  {
+   "name": "東京都交通局 鉄道関連情報",
+   "url": "https://ckan.odpt.org/dataset/train-toei"
+  },
+  {
+   "name": "OpenStreetMap（歩行者ネットワーク／OpenRouteService経由）",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "OpenStreet（ハローサイクリング） バイクシェア関連情報",
+   "url": "https://ckan.odpt.org/dataset/c_bikeshare_gbfs-openstreet"
+  },
+  {
+   "name": "ドコモ・バイクシェア バイクシェア関連情報",
+   "url": "https://ckan.odpt.org/dataset/c_bikeshare_gbfs-d-nationwide-bikeshare"
+  },
+  {
+   "name": "観光施設一覧（リンクは江東区の例）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000016"
+  },
+  {
+   "name": "東京都交通局 鉄道関連リアルタイム情報",
+   "url": "https://ckan.odpt.org/dataset/r_train_gtfs_rt-odpt_train-toei"
+  },
+  {
+   "name": "基盤地図情報　数値標高モデル",
+   "url": "https://maps.gsi.go.jp/development/siyou.html"
+  },
+  {
+   "name": "JARTIC　交通規制情報",
+   "url": "https://www.jartic.or.jp/service/opendata/"
+  },
+  {
+   "name": "Openrouteservice",
+   "url": "https://api.openrouteservice.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000016"
+ ],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset/train-tokyometro",
+  "https://ckan.odpt.org/dataset/train-toei",
+  "https://www.openstreetmap.org/",
+  "https://ckan.odpt.org/dataset/c_bikeshare_gbfs-openstreet",
+  "https://ckan.odpt.org/dataset/c_bikeshare_gbfs-d-nationwide-bikeshare",
+  "https://ckan.odpt.org/dataset/r_train_gtfs_rt-odpt_train-toei",
+  "https://maps.gsi.go.jp/development/siyou.html",
+  "https://www.jartic.or.jp/service/opendata/",
+  "https://api.openrouteservice.org/"
+ ],
+ "demo_url": "https://turn.tokyo-odh-333.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://turn.tokyo-odh-333.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1136",
+ "image_count": 2,
+ "notes": ""
+}

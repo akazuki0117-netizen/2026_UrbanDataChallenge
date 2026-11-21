@@ -1,0 +1,51 @@
+{
+ "id": "6627674096676315677",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627674096676315677/?year=2026",
+ "fetched_at": "2026-11-20T15:33:11+00:00",
+ "title": "オープンデータ アプリ開発基盤",
+ "team": "チームアーベル",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都のオープンデータを活用し、都民生活をよりよくするアプリアイデアをAIが企画・設計する開発基盤プラットフォーム。オープンデータを公開しても具体的な活用アイデアを出すハードルが高く十分に利活用されず、開発者もどのデータをどう組み合わせるかの着想や要件定義に時間がかかるという課題に対応。キャラクター対話形式のアイデア記事とともに、AIコーディングツールにそのまま投入できる構造化された要件定義書をワンクリックで提供する。バックエンドはPython/Flask、DBはSQLite3で他自治体への展開性を重視し、開発環境にはAI開発ツール「Antigravity IDE」を採用してAIへの役割分担と仕様の言語化を工夫した。",
+ "open_data_items": [
+  {
+   "name": "浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "緑のオープンデータ（GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "土地利用現況調査GISデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "都市計画決定情報GISデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000028"
+  },
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4649",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

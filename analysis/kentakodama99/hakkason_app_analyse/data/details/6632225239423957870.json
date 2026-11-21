@@ -1,0 +1,31 @@
+{
+ "id": "6632225239423957870",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632225239423957870/?year=2026",
+ "fetched_at": "2026-11-20T15:37:21+00:00",
+ "title": "コト継ぎ",
+ "team": "モモンガインターナショナル",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「コト継ぎ」は、高齢者の言葉になりにくい技術や記憶を人が会って聞き取り探せて頼めてお返しできる形で流通させる地域交流プラットフォーム。高齢者の暗黙知は徐々に消えていくが当人は「話すようなことは何もない」と価値に気づいていないという課題に対応（都内88歳は1年で6,053人減）。AIとの対話で自分の「コト継ぎ帳」を作り聞き手が目録から探して面談を依頼、お返しは謝礼のほか「スマホやAIの使い方を教わる」も選べる。AIは目録づくりの入口だけを担い本編は人が会って直接話を聞く設計。Workers AIの6モデルを同一プロンプトで比較しmistral-small-3.1-24bを深掘り質問生成と目録抽出に構造化出力で使用した。",
+ "open_data_items": [
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）令和8年1月",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26000001.htm"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26000001.htm"
+ ],
+ "demo_url": "https://kototsugi.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kototsugi.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3792",
+ "image_count": 3,
+ "notes": ""
+}

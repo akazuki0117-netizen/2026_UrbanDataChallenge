@@ -1,0 +1,31 @@
+{
+ "id": "6632811728644456743",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811728644456743/?year=2026",
+ "fetched_at": "2026-11-20T15:45:57+00:00",
+ "title": "civic-compass",
+ "team": "atno",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "選挙時の投票先選定を支援するニュースアプリ。2026年衆院選の東京都投票率は59%で4割以上が投票せず、既存のボートマッチサービスは政策への賛否から候補を示すが賛否が一致してもその理由は異なりうるという課題に対応。政治や行政のニュースに関心度合いと自分の考えを記録すると蓄積データから重視する観点の傾向を可視化し、政治家側も国会答弁からケア・公正・自由等の観点と優先する対象を抽出して双方の傾向を突き合わせる。表面的な政策一致ではなく判断基準の近さを把握できる設計。Next.jsとReact、HonoでCloudflare Workers上に構築し、Claude CodeとCodexで開発しつつ人が直接コードを書くことは禁止し設計・レビューに専念する体制とした。",
+ "open_data_items": [
+  {
+   "name": "国会会議録検索システム検索用API",
+   "url": "https://kokkai.ndl.go.jp/api.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://kokkai.ndl.go.jp/api.html"
+ ],
+ "demo_url": "https://civic-compass.atno-hackathon.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://civic-compass.atno-hackathon.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=5265",
+ "image_count": 3,
+ "notes": ""
+}

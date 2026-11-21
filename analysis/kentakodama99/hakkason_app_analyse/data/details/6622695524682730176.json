@@ -1,0 +1,46 @@
+{
+ "id": "6622695524682730176",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6622695524682730176/?year=2026",
+ "fetched_at": "2026-11-20T15:32:11+00:00",
+ "title": "学校健診 未受診ゼロ東京",
+ "team": "猪狩家",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "健診で「要受診」となった子どもが実際に受診したかを学校も都も把握できていないという課題に対し、養護教諭の定型事務を軽くしながら副産物として匿名の受診状況データを自動生成・公開するサービス。要受診の5〜6割が未受診で、視力だけで都内約19万人が未受診の可能性がある一方、区市町村別の未受診率を測る統計自体が存在しないという課題に対応。健診結果から経年変化の一枚紙と勧奨文を一括生成しQRで受診報告を受け付け、未確認者だけを再勧奨、区市町村×校種×項目の匿名集計行を即日オープンデータとして公開する。校内系（個人情報）と公開系（匿名集計のみ）をシステムとして分離し、AIは資料検索の要約支援など養護教諭の判断補助に限定した。",
+ "open_data_items": [
+  {
+   "name": "公立学校統計調査報告書",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/list_of_public_school/school_lists2025"
+  },
+  {
+   "name": "教育人口等推計（東京都教育庁）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/number_of_students/report2025"
+  },
+  {
+   "name": "医療機関一覧（中央区）",
+   "url": "https://www.city.chuo.lg.jp/documents/984/iryoukikan.csv"
+  },
+  {
+   "name": "学校保健統計調査（文部科学省）",
+   "url": "https://www.mext.go.jp/b_menu/toukei/chousa05/hoken/1268826.htm"
+  },
+  {
+   "name": "全国地方公共団体コード（総務省）",
+   "url": "https://data.e-gov.go.jp/data/ja/dataset/82feaed1-a1fe-4147-b0b2-0ef2dccc12a3/resource/6a409f0d-1c17-4c02-a361-2c6f11a31398"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/list_of_public_school/school_lists2025",
+  "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/number_of_students/report2025",
+  "https://www.city.chuo.lg.jp/documents/984/iryoukikan.csv",
+  "https://www.mext.go.jp/b_menu/toukei/chousa05/hoken/1268826.htm",
+  "https://data.e-gov.go.jp/data/ja/dataset/82feaed1-a1fe-4147-b0b2-0ef2dccc12a3/resource/6a409f0d-1c17-4c02-a361-2c6f11a31398"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4460",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "6632788033412668072",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632788033412668072/?year=2026",
+ "fetched_at": "2026-11-20T15:41:57+00:00",
+ "title": "TOKYO MACHI SCOPE",
+ "team": "たかたく",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京23区の住みやすさを10軸の実データからライフステージ別の偏差値として可視化するWebアプリ。住み替え検討者は何を基準に区を選べばよいか分からず口コミに頼りがちで、ライフステージごとに重視すべき項目が異なるのにそれを踏まえた客観的な比較データが見当たらないという課題に対応。治安・医療・保育・防災・財政等10軸を単身・子育て・シニア別に重み付けし偏差値として3D地図上に可視化、財政力指数の全国順位やふるさと納税による流出額（23区で年間854億円）も同じ画面で確認できる。ランキング計算は生成AIから分離した決定的なコードが担当する設計。React+deck.glでPLATEAUの3D都市モデルを扱い、Vertex AI Geminiで自由文からの重み付け生成を行った。",
+ "open_data_items": [
+  {
+   "name": "令和5年住生活総合調査(結果公表・図7)",
+   "url": "https://www.mlit.go.jp/report/press/content/001860010.pdf"
+  },
+  {
+   "name": "令和5年住生活総合調査(図12/図13、家族類型別)",
+   "url": "https://www.mlit.go.jp/report/press/content/001907386.pdf"
+  },
+  {
+   "name": "令和6年度 地方公共団体の主要財政指標一覧「全市町村の主要財政指標」",
+   "url": "https://www.soumu.go.jp/main_content/001044529.xlsx"
+  },
+  {
+   "name": "ふるさと納税に関する現況調査結果(令和7年度実施)",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/"
+  },
+  {
+   "name": "ふるさと納税に関する現況調査結果・各自治体の令和6年度受入額等",
+   "url": "https://www.soumu.go.jp/main_content/001022818.xlsx"
+  },
+  {
+   "name": "国土数値情報 鉄道データ(N02・v3.1)",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html"
+  },
+  {
+   "name": "Project PLATEAU 3D都市モデル(オープンデータ)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "OpenStreetMap(ライセンス・帰属ページ)",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+ ],
+ "external_data_urls": [
+  "https://www.mlit.go.jp/report/press/content/001860010.pdf",
+  "https://www.mlit.go.jp/report/press/content/001907386.pdf",
+  "https://www.soumu.go.jp/main_content/001044529.xlsx",
+  "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/",
+  "https://www.soumu.go.jp/main_content/001022818.xlsx",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=389",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

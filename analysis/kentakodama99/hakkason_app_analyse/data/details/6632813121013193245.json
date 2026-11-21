@@ -1,0 +1,36 @@
+{
+ "id": "6632813121013193245",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632813121013193245/?year=2026",
+ "fetched_at": "2026-11-20T15:46:29+00:00",
+ "title": "けあしる",
+ "team": "早稲田大学雄弁会チームB",
+ "member_count": 7,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "介護保険外サービスの情報がケアマネージャーからは提供されにくく親族が自ら探す必要があるという課題に対応するプロダクト。保険外サービスを利用しなかった人の約6割が「利用したかった」と回答した調査があるが保険内サービスと違いケアプランでは検討されないという課題に対応。親族が介護度・世帯状況・利用時間・希望サービス内容等の要項を入力すると地域で利用できる保険内・外サービスを特定し、ケアマネージャーとの相談材料にできる。自治体にとっても地域ごとの需要把握につながる。Next.jsとTypeScriptでサーバー側処理を行い、PDF形式のデータはPlaywrightでスクリーンショットしてから数値を検出する方法で収集した。",
+ "open_data_items": [
+  {
+   "name": "練馬区内介護サービス事業所一覧（令和8年8月1日現在）（PDF：1,036KB）",
+   "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/kaigohoken/kunaikaigosurvice.html"
+  },
+  {
+   "name": "第一号通所事業（通所サービス）事業所一覧（令和8年8月1日現在）",
+   "url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.city.nerima.tokyo.jp%2Fhokenfukushi%2Fkaigohoken%2Fkunaikaigosurvice.files%2F080801tuusho.xlsx&wdOrigin=BROWSELINK"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.nerima.tokyo.jp/hokenfukushi/kaigohoken/kunaikaigosurvice.html",
+  "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.city.nerima.tokyo.jp%2Fhokenfukushi%2Fkaigohoken%2Fkunaikaigosurvice.files%2F080801tuusho.xlsx&wdOrigin=BROWSELINK"
+ ],
+ "demo_url": "https://tochizihai5.1712kou.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tochizihai5.1712kou.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=899",
+ "image_count": 3,
+ "notes": ""
+}

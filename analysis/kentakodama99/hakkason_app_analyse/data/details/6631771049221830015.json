@@ -1,0 +1,66 @@
+{
+ "id": "6631771049221830015",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631771049221830015/?year=2026",
+ "fetched_at": "2026-11-20T15:35:47+00:00",
+ "title": "とぎれない在宅避難対策（Zaitaku to Net）",
+ "team": "としお父さん",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "町会・自治会が住民へ情報を届けるPWAと、住民が自室のQRコードから在宅避難状況を申告できる安否確認システム。品川区のある自治会（4棟255世帯）で防災訓練の館内放送が住民に届かないことが判明し、各世帯という「ラストワンマイル」への情報到達は町会の人海戦術に委ねられているという課題に対応。オンライン時はFirebase同期、オフライン時はローカル保存し復旧時に自動送信するため通信不安定な災害時も記録を失わない。行政へは集計値のみをCSVで引き継ぎ双方の負担に見合った情報粒度とする設計。既存のNetlify/Firebase Firestore/FCMを土台にPWAで拡張し、Claude Codeで非エンジニアの開発者が要件定義からコード実装まで一貫して行った。",
+ "open_data_items": [
+  {
+   "name": "災害時等の避難所・広域避難場所の情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000001"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://portal.data.metro.tokyo.lg.jp/visualization/evacuation-map/"
+  },
+  {
+   "name": "二次避難所の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000137"
+  },
+  {
+   "name": "消火栓の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/3018699a-36a5-4fab-bb04-44048ef4880a"
+  },
+  {
+   "name": "消防署の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/d6321928-f675-40f9-a228-10e051005d86"
+  },
+  {
+   "name": "消防出張所の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/38b3e879-e16e-471c-83a7-a17678fc628e"
+  },
+  {
+   "name": "行政防災無線固定系の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/d423e280-bdaf-49a2-8e24-053a56778688"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000406"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000001",
+  "https://portal.data.metro.tokyo.lg.jp/visualization/evacuation-map/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000137",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/3018699a-36a5-4fab-bb04-44048ef4880a",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/d6321928-f675-40f9-a228-10e051005d86",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/38b3e879-e16e-471c-83a7-a17678fc628e",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/d423e280-bdaf-49a2-8e24-053a56778688",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000406"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://gilded-flan-54abbd.netlify.app/self.html",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://gilded-flan-54abbd.netlify.app/self.html"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=516",
+ "image_count": 2,
+ "notes": ""
+}

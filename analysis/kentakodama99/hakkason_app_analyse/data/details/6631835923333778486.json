@@ -1,0 +1,31 @@
+{
+ "id": "6631835923333778486",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631835923333778486/?year=2026",
+ "fetched_at": "2026-11-20T15:35:54+00:00",
+ "title": "町札合戦",
+ "team": "町札",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "地域のスポットを実際に訪れてカードを集め対戦する位置情報カードゲーム「町札」。自治体が公開する文化財等の地域情報は公開されているだけでは住民が知ったり実際に訪れたりするきっかけにならないという課題に対応。3×3の盤面で交互にカードを置き隣接する辺の数字を比べる対戦形式で、現地訪問・カード取得・デッキ編成・NPC対戦までをプロトタイプで実装した。訪問をゴールにせずゲームの入口にすることで情報公開と地域体験をつなげる。将来的には防災・暑熱対策への展開も想定。JavaScriptとGeolocation APIでアプリ不要のブラウザゲームとし、AWS Lambda/DynamoDBで構築、生成AIを企画初期からの壁打ち相手として活用した。",
+ "open_data_items": [
+  {
+   "name": "文化財一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koto/131083_002_cultural_property.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/koto/131083_002_cultural_property.csv"
+ ],
+ "demo_url": "https://dvk79b3pddhzz.cloudfront.net/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://dvk79b3pddhzz.cloudfront.net/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3407",
+ "image_count": 3,
+ "notes": ""
+}

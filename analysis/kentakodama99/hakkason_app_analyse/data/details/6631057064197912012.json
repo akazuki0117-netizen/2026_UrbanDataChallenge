@@ -1,0 +1,36 @@
+{
+ "id": "6631057064197912012",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631057064197912012/?year=2026",
+ "fetched_at": "2026-11-20T15:34:58+00:00",
+ "title": "獣害トリアージ",
+ "team": "PolariStone",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "害獣被害を撮影するだけで画像判定AIが獣種と緊急度を判定し、位置情報から自治体の通報窓口・民間業者・対処法を一括提示するサービス。東京都の害獣被害は毎年増加する一方、獣種と自治体によって通報窓口や対処法がバラバラでどこに相談すべきか分かりにくく、自治体側も通報の切り分けに工数がかかるという課題に対応。画像診断とスマホの位置情報を掛け合わせ、自治体の通報窓口・民間の相談窓口・自分でできる対処法をすぐに提示し、自治体側の通報分析工数も削減する。TypeScript/React/Next.js/Pythonで画像診断AIエンジンを実装し、ChatGPTとClaudeでUI検討の壁打ちを行った。",
+ "open_data_items": [
+  {
+   "name": "東京都ツキノワグマ目撃等情報マップ ～TOKYOくまっぷ～",
+   "url": "https://app.powerbi.com/view?r=eyJrIjoiMTI3ZWMwMzktODJkZS00NzMxLWI0MTctOTVlODBhMjEzMGY0IiwidCI6ImQwMzAyZmNjLTNlODEtNDljMy04MjM1LWQzMTFhMzY4NGNmYyJ9"
+  },
+  {
+   "name": "各種動物のフン・足跡データ",
+   "url": "https://www.choujuhigai.com/f/trace_check"
+  },
+  {
+   "name": "PhotACの獣害画像データ",
+   "url": "https://www.photo-ac.com/main/search?by_ai=0&q=%E7%8D%A3%E5%AE%B3&srt=dlrank&nq=&exclude_ai=on&orientation=all&sizesec=all&creator=&ngcreator=&qid=&color=all&model_count=-1&age=all&mdlrlrsec=all&prprlrsec=all"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://app.powerbi.com/view?r=eyJrIjoiMTI3ZWMwMzktODJkZS00NzMxLWI0MTctOTVlODBhMjEzMGY0IiwidCI6ImQwMzAyZmNjLTNlODEtNDljMy04MjM1LWQzMTFhMzY4NGNmYyJ9",
+  "https://www.choujuhigai.com/f/trace_check",
+  "https://www.photo-ac.com/main/search?by_ai=0&q=%E7%8D%A3%E5%AE%B3&srt=dlrank&nq=&exclude_ai=on&orientation=all&sizesec=all&creator=&ngcreator=&qid=&color=all&model_count=-1&age=all&mdlrlrsec=all&prprlrsec=all"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=4881",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

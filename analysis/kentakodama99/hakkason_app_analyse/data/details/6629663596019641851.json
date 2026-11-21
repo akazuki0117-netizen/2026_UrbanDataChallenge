@@ -1,0 +1,76 @@
+{
+ "id": "6629663596019641851",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629663596019641851/?year=2026",
+ "fetched_at": "2026-11-20T15:34:02+00:00",
+ "title": "Tokyo Table Game Finder",
+ "team": "趣味人オクタン",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyo Table Game Finder」は、カードゲームやボードゲームを一緒に遊ぶ相手と遊べる場所を同時に見つけるWebサービス。単身者は既存の集まりが常連グループ前提で初対面への不安があり、公共施設はオープンデータで公開されていてもそこで一緒に遊ぶ相手は見つからないという課題に対応。12問の診断で遊び方を4軸で数値化し相性の高い相手を提示、合う点だけでなく合わない点も先に開示する。マッチ度計算に共通して行ける公共施設や共通の時間帯を組み込み会えない相手を上位に出さない。会う場所は公共施設と実在店舗に限定。Cloudflare Workers＋Hono＋D1で構築し、Workers AI（gpt-oss-20b）で連絡先交換や私的場所での待ち合わせ等の危険な投稿を判定した。",
+ "open_data_items": [
+  {
+   "name": "世田谷区　公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d0000000002"
+  },
+  {
+   "name": "葛飾区　公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000005"
+  },
+  {
+   "name": "八王子市　公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132012d0000000090"
+  },
+  {
+   "name": "練馬区　公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000115"
+  },
+  {
+   "name": "板橋区　地域のイベント会場（貸出可能施設）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d2025000001"
+  },
+  {
+   "name": "江東区　地域のイベント会場（貸出可能施設）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d2025000001"
+  },
+  {
+   "name": "品川区　地域のイベント会場（貸出可能施設）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d2025000001"
+  },
+  {
+   "name": "江戸川区　地域のイベント会場（貸出可能施設）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131237d2025000001"
+  },
+  {
+   "name": "武蔵野市　地域のイベント会場（貸出可能施設）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132039d2025000001"
+  },
+  {
+   "name": "昭島市　地域のイベント会場（貸出可能施設）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132071d2025000001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d0000000002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132012d0000000090",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000115",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d2025000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d2025000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d2025000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131237d2025000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132039d2025000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132071d2025000001"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://ttgf.ttgf.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://ttgf.ttgf.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3727",
+ "image_count": 3,
+ "notes": ""
+}

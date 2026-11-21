@@ -1,0 +1,47 @@
+{
+ "id": "6630868861413012854",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630868861413012854/?year=2026",
+ "fetched_at": "2026-11-20T15:34:47+00:00",
+ "title": "急落時の投資意思決定シミュレーション",
+ "team": "CLYR株式会社",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "生活プロフィールを選び生活費余力と価値観を確認した上で急落を再現した市場指数に対し6ターンの売買判断を行うWebシミュレーション。金融教育は知識提供が中心で実際の急落時に自分がどう判断するかを安全に体験する機会が少なく、投資判断は損失への恐怖や生活状況にも左右されるという課題に対応。東京都・e-Statの統計を開始資産や月間生活支出として組み込み市場だけでなく生活基盤も判断材料にする。最後に資産額・安全性・価値観との一致を振り返り任意の「2年後」エピローグを比較できる。Vite、React、TypeScript、Material UIで構築し、OpenAI Codexを開発主体として企画からデプロイ手順まで全面活用した。",
+ "open_data_items": [
+  {
+   "name": "2019年全国家計構造調査 第31-0表（東京都）",
+   "url": "https://www.e-stat.go.jp/stat-search/files?toukei=00200564&tstat=000001139024&tclass1=000001150335&tclass2=000001150339&tclass3=000001150388&tclass4=000001153419&cycle=0&layout=datalist&page=1&tclass5val=0"
+  },
+  {
+   "name": "都民のくらしむき」東京都生計分析調査報告（年報）令和7年",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001119"
+  },
+  {
+   "name": "「東京の物価」東京都区部消費者物価指数（月報）令和6年7月",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000648"
+  },
+  {
+   "name": "都民のくらしむき」東京都生計分析調査報告（月報）令和6年5月",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000450"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001119",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000648",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000450"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/stat-search/files?toukei=00200564&tstat=000001139024&tclass1=000001150335&tclass2=000001150339&tclass3=000001150388&tclass4=000001153419&cycle=0&layout=datalist&page=1&tclass5val=0"
+ ],
+ "demo_url": "https://todochiji-money-decision.tokyo-odh-489.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://todochiji-money-decision.tokyo-odh-489.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=140",
+ "image_count": 3,
+ "notes": ""
+}

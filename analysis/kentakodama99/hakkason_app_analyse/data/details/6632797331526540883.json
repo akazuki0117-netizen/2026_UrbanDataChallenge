@@ -1,0 +1,62 @@
+{
+ "id": "6632797331526540883",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632797331526540883/?year=2026",
+ "fetched_at": "2026-11-20T15:42:42+00:00",
+ "title": "東京防災シミュレーター：地震編",
+ "team": "TokyoNinjaGirl",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自分の家族に特化したインタラクティブな3D防災シミュレーター。都民の家族構成単位にパーソナライズした避難情報が少なく、災害時にいきなり歩ける訳ではないのに平常時に避難ルートを実際に歩く機会もないという課題に対応。出発地と目的地の住所を選ぶと東京都オープンデータから地震危険度と避難所までの経路を表示し、港区の実際の建物データ(PLATEAU)を使って3Dで経路を自動で歩いて確認できる。高齢者・子ども等の年齢構成に合わせた徒歩所要時間も自動計算する。住所はブラウザの外に一切送らない設計。Three.jsと3DTilesRendererJSでPLATEAUの3D Tilesを読み込み、Claude Codeで座標系変換のバグ調査を進めた。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査 地域危険度一覧（東京都都市整備局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "港区 建築物モデル（PLATEAU LOD2.2 3D Tiles）（国土交通省）",
+   "url": "https://plateauview.mlit.go.jp/"
+  },
+  {
+   "name": "位置参照情報（港区）（国土交通省）",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  },
+  {
+   "name": "基盤地図情報 標高点座標取得API",
+   "url": "https://maps.gsi.go.jp/development/elevation.html"
+  },
+  {
+   "name": "ジオイド高計算サービス GSIGEO2011（国土地理院）",
+   "url": "https://vldb.gsi.go.jp/sokuchi/surveycalc/geoid/calcgh/calc_f.html"
+  },
+  {
+   "name": "OpenStreetMap 道路網・建物データ（Overpass API）",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://plateauview.mlit.go.jp/",
+  "https://nlftp.mlit.go.jp/isj/",
+  "https://maps.gsi.go.jp/development/elevation.html",
+  "https://vldb.gsi.go.jp/sokuchi/surveycalc/geoid/calcgh/calc_f.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://tokyo-bousai-simulator.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-bousai-simulator.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1961",
+ "image_count": 3,
+ "notes": ""
+}

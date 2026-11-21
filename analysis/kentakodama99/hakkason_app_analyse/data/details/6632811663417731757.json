@@ -1,0 +1,77 @@
+{
+ "id": "6632811663417731757",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811663417731757/?year=2026",
+ "fetched_at": "2026-11-20T15:45:50+00:00",
+ "title": "me-fo",
+ "team": "Green River",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「me-fo」は、こころの状態を天気のように記録し可視化するアプリ。精神疾患の総患者数は約603万人で5疾病中最多だが既存の把握手段はいずれも受診・相談後の遅行指標で、受診に至っていない層の状態は公的統計にほぼ存在しないという課題に対応。5つの心模様（いらいら／もやもや／しずか／ごきげん／わくわく）から選ぶだけの数タップ入力で継続性を確保し、位置情報を区の判定に使いマップで他ユーザーの気分を確認できる。記録が貯まると「誰かといた日の気分は上がる傾向がある」等の個人傾向をAIアバターが言葉にして届け、同じ集計エンジンを区単位に適用することで日次・市区町村粒度の地域データも同時に得られる。Cloudflare Workers＋Honoで構築し、Claude Codeで「数値はコード、言葉はAI」という責務分離を徹底した。",
+ "open_data_items": [
+  {
+   "name": "国土地理院「地球地図日本」",
+   "url": "https://www.gsi.go.jp/kankyochiri/gm_jpn.html"
+  },
+  {
+   "name": "dataofjapan/land「東京都GeoJSON」",
+   "url": "https://github.com/dataofjapan/land"
+  },
+  {
+   "name": "東京都デジタルサービス局「公共施設一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "港区「公共施設情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014"
+  },
+  {
+   "name": "品川区「公共施設」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/a11578ae-ed7e-4adf-9fd7-07320238ed7b"
+  },
+  {
+   "name": "中野区「文化施設」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000049"
+  },
+  {
+   "name": "千代田区市町村「公立図書館情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d3100000005"
+  },
+  {
+   "name": "千代田区「都市公園・都立公園一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d2025000003"
+  },
+  {
+   "name": "杉並区「都市公園・都立公園一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131156d3100000005"
+  },
+  {
+   "name": "Open-Meteo「気象データAPI」",
+   "url": "https://open-meteo.com/en/docs"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/a11578ae-ed7e-4adf-9fd7-07320238ed7b",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000049",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d3100000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d2025000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131156d3100000005"
+ ],
+ "external_data_urls": [
+  "https://www.gsi.go.jp/kankyochiri/gm_jpn.html",
+  "https://github.com/dataofjapan/land",
+  "https://open-meteo.com/en/docs"
+ ],
+ "demo_url": "https://me-fo.tokyo-odh-292.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://me-fo.tokyo-odh-292.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4694",
+ "image_count": 2,
+ "notes": ""
+}

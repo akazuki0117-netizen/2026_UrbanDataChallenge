@@ -1,0 +1,52 @@
+{
+ "id": "6632801993418184508",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632801993418184508/?year=2026",
+ "fetched_at": "2026-11-20T15:43:01+00:00",
+ "title": "みずみち東京",
+ "team": "青い月",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「みずみち東京」は、大雨・豪雨時に土地勘のない場所を歩く人向けの徒歩経路比較Webアプリ。ハザードマップと経路検索が別々で、浸水しやすい道か、遠回りでどれだけリスクが減るか判断しにくいという課題に対し、東京都の浸水予想区域図から経路ごとの想定浸水深と通過距離を算出。「時間重視」「バランス」「リスク低減」の3モードで上位3経路を比較表示し、避難先も地図上に示して進むか避難するかの判断を支援する。React・TypeScript・Viteで構築し、ChatGPTとOpenAI Codexを用いて仕様書に基づく開発を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局「浸水予想区域図」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "東京都総務局「東京都防災マップ 避難所・避難場所一覧データ」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "気象庁「特別警報・警報・注意報」",
+   "url": "https://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=Keiho"
+  },
+  {
+   "name": "国土交通省「国土数値情報 行政区域データ N03（2025年）」",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2025.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/",
+  "https://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=Keiho",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2025.html"
+ ],
+ "demo_url": "https://tangerine-centaur-2e4cb3.netlify.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tangerine-centaur-2e4cb3.netlify.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3255",
+ "image_count": 3,
+ "notes": ""
+}

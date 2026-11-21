@@ -1,0 +1,26 @@
+{
+ "id": "6631814082113451972",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631814082113451972/?year=2026",
+ "fetched_at": "2026-11-20T15:35:50+00:00",
+ "title": "Tokyo Culture Finder",
+ "team": "Mitchy-Samurai",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都オープンデータの「文化財一覧」から、外国人観光客の興味に対応する文化財分類の候補を抽出するプロトタイプ。文化財の公式情報が日本語のみで提供されている場合が多く、外国人観光客が興味に合った文化財を見つけ内容を理解するまでに手間がかかるという課題に対応。興味を選択すると対応する文化財候補をPythonで抽出し、選んだ文化財の公式説明を含むプロンプトを生成AIにコピペすることで英語説明につなげる。PandasによるCSVデータの分類・検索処理とJupyter Notebookでの確認を組み合わせて実装した。",
+ "open_data_items": [
+  {
+   "name": "文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3152",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

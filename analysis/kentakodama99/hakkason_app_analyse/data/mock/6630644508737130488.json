@@ -1,0 +1,17 @@
+{
+ "id": "6630644508737130488",
+ "group": "control",
+ "title": "CROWD WEATHER　-イベント予報-",
+ "demo_url": "https://crowd-weather-v5-77taka777.vercel.app/?view=plan",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6630644508737130488.png",
+ "status": "動く",
+ "form": "ダッシュボード",
+ "clear_in_5s": "いいえ：数値とパネルが多く、最初に何を見るかが分かりにくい",
+ "n_features": 6,
+ "gen_ai": "なし",
+ "map_viz": "あり",
+ "maturity": "プロトタイプ",
+ "note": "主催・来場者・スタッフの 3 画面切り替え"
+}

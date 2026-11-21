@@ -1,0 +1,52 @@
+{
+ "id": "6632785409219692601",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632785409219692601/?year=2026",
+ "fetched_at": "2026-11-20T15:41:51+00:00",
+ "title": "共感型ふるさと納税 〜気持ちで選んで、見届ける〜",
+ "team": "ももタウロス",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "返礼品や自治体名ではなく「子育てを応援したい」といった寄付金の使い道への共感で選べる、共感型ふるさと納税サイト。東京都はふるさと納税による住民税流出額が全国トップ20自治体のうち8つを占める一方、既存サイトは返礼品比較中心で自分のお金がどう役立つか見えづらいという課題に対応。使途をテーマ別に一覧化し、決済機能は持たず選択後は自治体の公式ページへ遷移する仕組みで自治体側の新たな負担もない。寄付後は活用状況をレポートや写真で継続的に追える機能も備える。Cloudflare Workers＋D1＋Workers AIで構築し、自治体の成果レポート下書きはLlama 3.3で公表ページの本文のみを根拠に生成し職員の確認・承認を経て配信する設計。",
+ "open_data_items": [
+  {
+   "name": "総務省「ふるさと納税に関する現況調査（令和8年度実施）」東京都62自治体分（自治体統計・事業204件・分野別受入額）",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/"
+  },
+  {
+   "name": "「各自治体のふるさと納税受入額及び受入件数」（H20〜R7年度の推移）",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/"
+  },
+  {
+   "name": "東京都オープンデータカタログ「住民基本台帳による世帯と人口」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000003d2000001115"
+  },
+  {
+   "name": "東京都オープンデータカタログ「区市町村、年齢３区分別人口」",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t000003d2000001115-345d420ad5ee10178a5bc873cb2c8184-0"
+  },
+  {
+   "name": "東京都福祉局「都内の保育サービスの状況について」表4（待機児童数）",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2025/08/2025082917"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000003d2000001115"
+ ],
+ "external_data_urls": [
+  "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/",
+  "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t000003d2000001115-345d420ad5ee10178a5bc873cb2c8184-0",
+  "https://www.metro.tokyo.lg.jp/information/press/2025/08/2025082917"
+ ],
+ "demo_url": "https://odh2026-app.tokyo-odh-255.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://odh2026-app.tokyo-odh-255.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=382",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,71 @@
+{
+ "id": "6628628640745657877",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628628640745657877/?year=2026",
+ "fetched_at": "2026-11-20T15:33:38+00:00",
+ "title": "TOKYO QUEST",
+ "team": "こんにちくわ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都のオープンデータと生成AIを活用し日常の街歩きをゲーム化することで人の流れを分散し地域の魅力再発見と防災意識を高めるリアル探索クエストゲーム。「主要観光地の一極集中」「防災の形骸化」「運動不足」「地元商店街の衰退」の4大課題に着目、オープンデータは多数公開されているが都民の日常行動に届いていないという課題に対応。AIが提案する混雑回避の穴場スポット巡りで人流を分散し、避難所や給水拠点を巡るクエストで避難知識を体感記憶、「東京図鑑」で歩行習慣を創出しクエスト達成で商店街のデジタルクーポンも獲得できる。React＋TypeScript＋Viteの静的SPAでCloudflare Workersから配信しDBを持たずブラウザ内に進捗保存、Claude Code、Antigravity、Stitchでリサーチとデータ整備を行った。",
+ "open_data_items": [
+  {
+   "name": "広域避難場所位置情報",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000094"
+  },
+  {
+   "name": "地区内残留地区位置情報",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000095"
+  },
+  {
+   "name": "応急給水拠点位置情報 (東京都水道局)",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "都立公園・都市公園位置情報 (建設局)",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "4m未満狭小道路位置情報",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000045"
+  },
+  {
+   "name": "東京都指定文化財一覧 (教育庁)",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000003"
+  },
+  {
+   "name": "都内公立図書館一覧 (立図書館)",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000010"
+  },
+  {
+   "name": "商店街実態調査データ (産業労働局)",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000008"
+  },
+  {
+   "name": "人流統計オープンデータ (デジタルサービス局)",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000002d0000000015"
+  }
+ ],
+ "open_data_urls": [
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000094",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000095",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000045",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000003",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000010",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000013d0000000008",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000002d0000000015"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tokyo-quest-tsukka.tokyo-odh-298.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-quest-tsukka.tokyo-odh-298.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3963",
+ "image_count": 3,
+ "notes": ""
+}

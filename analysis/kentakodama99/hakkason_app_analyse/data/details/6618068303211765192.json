@@ -1,0 +1,46 @@
+{
+ "id": "6618068303211765192",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6618068303211765192/?year=2026",
+ "fetched_at": "2026-11-20T15:31:51+00:00",
+ "title": "まちネクサス",
+ "team": "地域共創OS",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "地域の課題を地域の商いと支え合いに変える地域市場形成プラットフォーム。商店街や地域事業者は住民ニーズの把握が単発アンケートや経験に偏り集客につながる確信が持てず、自治体もオープンデータから課題は把握できても民間資源と結びつける仕組みが不足しているという課題に対応。オープンデータやアンケートから地域・時間帯・価格帯別の需要を可視化し、店舗が登録した商品・人材・場所等と照合して企画立案から協力者募集、販促、振り返りまでを一体で支援する。平時に形成されたネットワークは、災害時には自治体の区域を越えて人材・物資・施設・車両をつなぐ行動ネットワークとして活用する設計。TypeScriptとNext.jsで構築し、地域課題マップの分析にCloudflare Workers AI（Qwen3 30B）を用いている。",
+ "open_data_items": [
+  {
+   "name": "町丁別・年齢別・男女別人口（江東区）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koto/131083_204_population_detail_chouchoubetu_202605.csv"
+  },
+  {
+   "name": "江東内部河川流域 浸水予想区域図（浸水深・地盤高）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_koutounaibu.csv"
+  },
+  {
+   "name": "東京都防災マップ 避難所一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/koto/131083_204_population_detail_chouchoubetu_202605.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R3/shinsui_koutounaibu.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://chiiki-kyoso-os.tokyo-odh-093.workers.dev/login",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://chiiki-kyoso-os.tokyo-odh-093.workers.dev/login"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=5105",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6632809411014138935",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809411014138935/?year=2026",
+ "fetched_at": "2026-11-20T15:44:39+00:00",
+ "title": "子育てポッポナビ",
+ "team": "早稲田大学雄弁会チームA",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「子育てポッポナビ」は、保護者が自分に合う支援制度にたどり着きもらい忘れをなくすためのWebアプリ。自分の子育て方針が定まりにくく東京都の制度は種類が多く全体像が捉えにくい上、申請の締め切りに気づかず本来受けられるはずの支援を逃すという3つの課題に対応。8問の診断で子育て方針を4つの軸から16タイプに分類し、住んでいる市区町村と子どもの年齢から東京都の実在制度10,554件から自分に合うものを一覧表示、出生届等の必須手続きは常に最上位に表示し締め切り前にメール通知する。素のHTML/CSS/JavaScriptで外部通信ゼロ・オフライン動作を実現し、Claude Codeを実装・データ加工に使いAIの出力を実データと突き合わせて検証した。",
+ "open_data_items": [
+  {
+   "name": "東京都デジタルサービス局　東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://kosodate-navi.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kosodate-navi.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2304",
+ "image_count": 3,
+ "notes": ""
+}

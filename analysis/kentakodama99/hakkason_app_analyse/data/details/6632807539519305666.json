@@ -1,0 +1,57 @@
+{
+ "id": "6632807539519305666",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632807539519305666/?year=2026",
+ "fetched_at": "2026-11-20T15:44:08+00:00",
+ "title": "TOKYO GOMISUTE QUEST",
+ "team": "あたまみず",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO GOMISUTE QUEST」は、東京都内のごみ分別・処分情報を統合した都民の「これ、どう捨てる？」を解決するゲーミフィケーション型アプリ。自治体ごとにごみ分別ルールが異なり住民は複数のサイトを参照する必要があり転入者や外国人住民には特に分かりにくいという課題に対応。品目名を入力するだけで自治体ごとの分別ルールを案内し、捨てる以外に売る・譲る・リサイクルする選択肢も費用や手間とあわせて比較表示、利用状況やごみ削減への貢献度をゲーム要素として可視化する。生成AIによる自然言語検索で「壊れた電子レンジ」等の曖昧な表現から処分方法を案内する構想。統合データ基盤（Databricks想定）でオープンテーブル形式を採用した。",
+ "open_data_items": [
+  {
+   "name": "東京都区市町村清掃事業年報（令和6年度実績）",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/resource/general_waste/survey_results"
+  },
+  {
+   "name": "東京都二十三区清掃一部事務組合/ごみ量・ごみの中身",
+   "url": "https://www.union.tokyo23-seisou.lg.jp/somu/koho/toke/nakami/index.html"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000577"
+  },
+  {
+   "name": "ゴミの分別方法一覧（江東区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/beeffb49-be09-4da8-8ad7-b5c7290bbecb/resource/08048ab8-8d26-4ec1-b0fa-76c2722f174c"
+  },
+  {
+   "name": "ゴミの分別方法一覧（中央区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/ba23cc27-ee70-4877-8662-d20a3eab6524/resource/51c7a570-5800-45f6-9c4e-66247a85a339"
+  },
+  {
+   "name": "ゴミの分別方法一覧（新宿区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/0231d62a-eb57-430b-b399-a716aecce681/resource/4546f9be-cb16-4872-901a-23af758ea1fd"
+  },
+  {
+   "name": "ゴミの分別方法一覧（調布市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/2c79470f-a7b6-42a3-9833-86df39c75ae2/resource/8e053ece-c951-40ad-a925-8307d46cac85"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000577",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/beeffb49-be09-4da8-8ad7-b5c7290bbecb/resource/08048ab8-8d26-4ec1-b0fa-76c2722f174c",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/ba23cc27-ee70-4877-8662-d20a3eab6524/resource/51c7a570-5800-45f6-9c4e-66247a85a339",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/0231d62a-eb57-430b-b399-a716aecce681/resource/4546f9be-cb16-4872-901a-23af758ea1fd",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/2c79470f-a7b6-42a3-9833-86df39c75ae2/resource/8e053ece-c951-40ad-a925-8307d46cac85"
+ ],
+ "external_data_urls": [
+  "https://www.kankyo.metro.tokyo.lg.jp/resource/general_waste/survey_results",
+  "https://www.union.tokyo23-seisou.lg.jp/somu/koho/toke/nakami/index.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1645",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "6632782773246180377",
+ "group": "finalist",
+ "title": "サギカモ",
+ "demo_url": "https://sagikamo.sagikanchi.workers.dev",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632782773246180377.png",
+ "status": "動く",
+ "form": "Webアプリ（スマホ向け）",
+ "clear_in_5s": "はい：「怪しいと思ったら、撮って送るだけ」＋認知件数 6,611 件",
+ "n_features": 4,
+ "gen_ai": "あり",
+ "map_viz": "あり（別タブ）",
+ "maturity": "実用レベル",
+ "note": "文字入力不要の導線、出典を画面内に明記"
+}

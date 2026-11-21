@@ -1,0 +1,17 @@
+{
+ "id": "6630809951519908396",
+ "group": "control",
+ "title": "Tokyo Urban Forest",
+ "demo_url": "https://tokyo-urban-forest.pages.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6630809951519908396.png",
+ "status": "動く",
+ "form": "地図アプリ",
+ "clear_in_5s": "はい：「東京の街路樹を、自然資産として知る」＋地図",
+ "n_features": 3,
+ "gen_ai": "なし",
+ "map_viz": "あり",
+ "maturity": "プロトタイプ",
+ "note": "14.4 万本を描画"
+}

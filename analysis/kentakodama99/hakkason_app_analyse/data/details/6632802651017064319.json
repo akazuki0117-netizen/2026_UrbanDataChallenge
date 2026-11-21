@@ -1,0 +1,52 @@
+{
+ "id": "6632802651017064319",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632802651017064319/?year=2026",
+ "fetched_at": "2026-11-20T15:43:08+00:00",
+ "title": "みっけ",
+ "team": "みちしるべ",
+ "member_count": 7,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "中学生が「学校の学び」と「将来の仕事」のつながりを発見できる職業探索サービス「みっけ」。中学生は学校で学ぶ内容が将来どう役立つか分からず「なぜ勉強するのか」目的を持てないまま学習し、身近な限られた職業しか知らないという課題に対応。ショート動画で興味を持った仕事を30秒の疑似体験で体験し、そこで使った力と学校の教科・単元とのつながりを可視化する。職業データを活用し同じ力を使う意外な仕事との出会いや体験施設への導線も提供する。VercelとNext.js（App Router）でバイブコーディングし、初期段階では説明性を担保するルールベース推薦を実装、将来は生成AIをつながりの言語化に活用する構想。",
+ "open_data_items": [
+  {
+   "name": "職業情報提供サイト job tag（厚生労働省）",
+   "url": "https://shigoto.mhlw.go.jp/User/"
+  },
+  {
+   "name": "中学校学習指導要領（文部科学省）",
+   "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/1304424.htm"
+  },
+  {
+   "name": "公共施設一覧（東京都デジタルサービス局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "都立文化施設事業一覧",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t313360d0000000001"
+  },
+  {
+   "name": "施設関連情報_博物館（東京都教育庁）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t000021d2000000004"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+ ],
+ "external_data_urls": [
+  "https://shigoto.mhlw.go.jp/User/",
+  "https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/1304424.htm",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t313360d0000000001",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t000021d2000000004"
+ ],
+ "demo_url": "https://job-explore-demo.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://job-explore-demo.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1868",
+ "image_count": 3,
+ "notes": ""
+}

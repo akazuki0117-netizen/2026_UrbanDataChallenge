@@ -1,0 +1,47 @@
+{
+ "id": "6625818377312435822",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625818377312435822/?year=2026",
+ "fetched_at": "2026-11-20T15:32:34+00:00",
+ "title": "島しょ・へき地医療アクセス可視化マップ",
+ "team": "ssuga",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都の島しょ9町村と西多摩へき地2町村の医療アクセスを地図上で可視化するWebアプリ。小笠原村は片道約24時間の定期船が約6日に1便など、島しょ部の専門診療アクセスの地域差が自治体ごとの資料に散在し横並びで比較できないという課題に対応。基幹病院までの距離と救急・小児・妊婦対応状況から「医療孤立度」を算出し色分け地図で提示、オンライン診療を優先導入すべきエリアを理由つきランキングで示す。単純な人口÷医療機関数では実態と逆転するため孤立度を主指標に据えた点が特徴。MapLibre GL JSとPostgreSQLのビューで算出式を1か所に集約し、Claude Codeを実装と調査に使った。",
+ "open_data_items": [
+  {
+   "name": "東京都の人口（推計）令和7年11月1日現在（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001071"
+  },
+  {
+   "name": "救急医療機関一覧（東京都保健医療局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000356"
+  },
+  {
+   "name": "診療・検査医療機関の一覧（東京都保健医療局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000391"
+  },
+  {
+   "name": "地理院タイル 淡色地図（国土地理院）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001071",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000356",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000391"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://ritou-iryo-map.tokyo-odh-039.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://ritou-iryo-map.tokyo-odh-039.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4635",
+ "image_count": 3,
+ "notes": ""
+}

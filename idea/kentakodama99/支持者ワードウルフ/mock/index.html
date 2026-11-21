@@ -1,0 +1,29 @@
+<!doctype html>
+<!--
+  PROTOTYPE（使い捨て）— 支持者ワードウルフの画面案
+  問い：「この画面はどう見えるべきか？」
+  構造の違う3案（A 円卓 / B 通話 / C カードゲーム）を ?variant=A|B|C で切り替える。
+  場面は ?phase=match|card|talk|vote|result|review。
+  下の黒いバーの ← → （またはキーボードの ← →）で案を切り替える。
+  政党名・主張・国会での発言はすべて架空のサンプル。
+-->
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>支持者ワードウルフ 画面案（PROTOTYPE）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone" id="app"></div>
+
+  <div class="proto-bar" id="proto-bar">
+    <button type="button" data-proto="prev" aria-label="前の案">←</button>
+    <span class="proto-label" id="proto-label"></span>
+    <button type="button" data-proto="next" aria-label="次の案">→</button>
+    <select id="proto-phase" aria-label="場面"></select>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

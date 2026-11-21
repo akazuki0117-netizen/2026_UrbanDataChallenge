@@ -1,0 +1,41 @@
+{
+ "id": "6632809801012105672",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809801012105672/?year=2026",
+ "fetched_at": "2026-11-20T15:44:45+00:00",
+ "title": "Safe Evac Route​",
+ "team": "発化村",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "浸水予想区域・地震危険度を考慮した避難経路を地図上に可視化するWebアプリ。既存のナビアプリは最短経路を案内するが浸水想定区域や建物倒壊危険度は無視され、行政のハザードマップも経路案内とは統合されていないという課題に対応。出発地・目的地から単純最短経路とリスク回避経路を比較表示しどの区間が危険かを色分けで確認でき、目的地未入力時は近隣避難所を自動候補表示する。住民が現場の被害状況を投稿・共有できるコミュニティ機能で行政情報を補完する。React（Vite）とFastAPI（Python）、Cloudflare Workers＋D1で構築し、Claude Codeで開発全般を進めた。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局の浸水想定区域データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "東京都「地震に関する地域危険度測定調査」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://saigai-map-api.tokyo-odh-150.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://saigai-map-api.tokyo-odh-150.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1789",
+ "image_count": 2,
+ "notes": ""
+}

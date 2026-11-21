@@ -1,0 +1,46 @@
+{
+ "id": "6609495640958460552",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6609495640958460552/?year=2026",
+ "fetched_at": "2026-11-20T15:31:42+00:00",
+ "title": "SUZUMAP",
+ "team": "Gochan",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "地図上で近くの涼めるスポットを瞬時に確認し、最短ルートで案内するアプリ。東京の熱中症搬送者数が増加傾向にある一方、既存の地図アプリでは涼める場所の検索に時間がかかり、クーリングシェルターのデータにはWi-Fiや作業環境等の条件が記載されていないという課題に対応。クーリングシェルターだけでなく「涼しく作業できるワークスペース」も対象に含め、Web会議可否やPC作業可否等の条件で絞り込める。ユーザー自身が新しいシェルターやワークスペース情報を投稿でき、現在地周辺の安全度を示す「Oasis Index」を自治体と共有する仕組みも備える。Flutterと軽量なCARTO Voyagerマップで構築し、デバッグにGLM5.2を活用した。",
+ "open_data_items": [
+  {
+   "name": "クーリングシェルター・TOKYOクールシェアスポットのリスト",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/260630CSListcsv"
+  },
+  {
+   "name": "港区の図書館・文化施設一覧",
+   "url": "https://opendata.city.minato.tokyo.jp/dataset/52105970-c407-423c-8827-2cfc229bf864/resource/dc824430-1645-45f6-8dc1-229b2d2c97a2/download/minatokushisetsujoho_tosyokan.csv"
+  },
+  {
+   "name": "千代田区の図書館・文化施設一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/chiyoda/131016_chiyodaku_library.csv"
+  },
+  {
+   "name": "渋谷区の図書館・文化施設一覧（他20区もあるので省略）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/shibuya/131130_shibuyaku_library.csv"
+  },
+  {
+   "name": "CocoDesk設置場所（東京）",
+   "url": "https://www.fujifilm.com/fb/ja/products/it-services/remote-office/cocodesk/tokyo"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/260630CSListcsv",
+  "https://opendata.city.minato.tokyo.jp/dataset/52105970-c407-423c-8827-2cfc229bf864/resource/dc824430-1645-45f6-8dc1-229b2d2c97a2/download/minatokushisetsujoho_tosyokan.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/chiyoda/131016_chiyodaku_library.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/shibuya/131130_shibuyaku_library.csv",
+  "https://www.fujifilm.com/fb/ja/products/it-services/remote-office/cocodesk/tokyo"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=5214",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

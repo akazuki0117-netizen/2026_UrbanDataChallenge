@@ -1,0 +1,77 @@
+{
+ "id": "6618395204211009009",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6618395204211009009/?year=2026",
+ "fetched_at": "2026-11-20T15:31:53+00:00",
+ "title": "暮らしのミカタ",
+ "team": "暮らしのミカタProject",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「暮らしのミカタ」は、東京都オープンデータとAIを組み合わせ、天気・防災・医療・交通・ごみ収集などの情報を高齢者向けに「暮らしの言葉」へ翻訳して届ける生活支援サービス。情報は数多く公開されていても高齢者には「どれが自分に必要か」の判断負担が大きいという課題に対し、地域や生活状況、季節等を踏まえて必要な情報だけを選び、専門用語をやさしい言葉で70文字程度に整理して届ける。さらに通話内容は取得せずスマホの利用状況などの生活メタデータから「いつもと違う変化」や特殊詐欺の兆しに気づける見守り機能も備え、本人と家族をつなぐパートナーを目指す。開発はタクシー乗務員としての経験や高齢者への聞き取りをもとに企画した。",
+ "open_data_items": [
+  {
+   "name": "公共交通オープンデータ（都営バス・都営地下鉄）",
+   "url": "https://www.odpt.org/"
+  },
+  {
+   "name": "環境省 暑さ指数（WBGT）データ",
+   "url": "https://www.wbgt.env.go.jp/"
+  },
+  {
+   "name": "気象庁 気象情報（天気予報・警報等）",
+   "url": "https://www.jma.go.jp/"
+  },
+  {
+   "name": "東京都 避難所・避難場所データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都 医療機関データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都 人口・世帯統計データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都 犯罪発生情報（特殊詐欺を含む）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都 ごみ収集日データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都 救急搬送・救急医療データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都 AED設置場所データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.odpt.org/",
+  "https://www.wbgt.env.go.jp/",
+  "https://www.jma.go.jp/"
+ ],
+ "demo_url": "https://drive.google.com/file/d/11-ERFIN6lpWUWhp75MrXe8Ht-_QvnDVf/view?usp=sharing",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/file/d/11-ERFIN6lpWUWhp75MrXe8Ht-_QvnDVf/view?usp=sharing"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=5005",
+ "image_count": 3,
+ "notes": ""
+}

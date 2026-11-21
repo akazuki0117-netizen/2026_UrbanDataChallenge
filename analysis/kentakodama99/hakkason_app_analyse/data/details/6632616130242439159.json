@@ -1,0 +1,76 @@
+{
+ "id": "6632616130242439159",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632616130242439159/?year=2026",
+ "fetched_at": "2026-11-20T15:38:13+00:00",
+ "title": "旅コンシェルジュTOKYO",
+ "team": "チームshiwata",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都オープンデータ約9,600件への到達を会話に変える訪日外国人向けAI旅行ガイド。オープンデータカタログの閲覧は約200PV/日にとどまり、訪日外国人が旅先で適切なデータセットを探しCSVを読むのは困難だという課題に対応。旅の条件・興味から出典付きの旅程と観光地を提案し、提供元・取得日・ライセンスを表示、答えられるデータがなければ推測せず未回答を記録・分類して将来のデータ改善要望につなげる。基盤のオープンデータ・コンシェルジュ機能はAPIとMCPで公開している点が特徴。React 19＋ViteとHonoの単一Cloudflare Workerで構築し、Claude CodeとCodexでAI仕様駆動開発を行った。",
+ "open_data_items": [
+  {
+   "name": "名所・史跡",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000251"
+  },
+  {
+   "name": "文化観光施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000236"
+  },
+  {
+   "name": "文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000393"
+  },
+  {
+   "name": "トイレ情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000249"
+  },
+  {
+   "name": "めぐりん停留所（東西めぐりん）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000247"
+  },
+  {
+   "name": "銭湯",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000256"
+  },
+  {
+   "name": "宿泊施設（旅館台帳）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d2025000004"
+  },
+  {
+   "name": "東京都内の飲食店のバリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063"
+  },
+  {
+   "name": "R6国・地域別外国人旅行者行動特性調査",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+  },
+  {
+   "name": "都市公園・都立公園一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131130d2025000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000251",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000236",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000393",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000249",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000247",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000256",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d2025000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131130d2025000003"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tabi-concierge-tokyo.tokyo-odh-091.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tabi-concierge-tokyo.tokyo-odh-091.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2626",
+ "image_count": 3,
+ "notes": ""
+}

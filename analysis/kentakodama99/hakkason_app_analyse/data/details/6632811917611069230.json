@@ -1,0 +1,52 @@
+{
+ "id": "6632811917611069230",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811917611069230/?year=2026",
+ "fetched_at": "2026-11-20T15:46:03+00:00",
+ "title": "都内避難所リスクシミュレーター",
+ "team": "チームbric",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "災害時にその避難所へ集まると見込まれる人数を受け入れきれるか地図上で確かめる、区市町村の防災担当職員向けツール。国が「1人当たり最低3.5㎡」を初めて明記し東京都も採用した一方、面積から収容人数を算出する計算式やツールが自治体裁量のまま存在せずExcel様式シートでの手計算が実質標準になっているという課題に対応（内閣府の新被害想定では避難所避難者数が約41%増）。1人当たり必要面積・昼夜・訪日外国人を切り替えると避難所ごとの受け入れ可能率が再計算され赤・橙・緑に塗り分けられる。新宿区・台東区・足立区の218施設を対象とした。ReactとPostgreSQLで構築し、Claude Codeで要件・計算方法を先に固めてから実装した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "3D都市モデル PLATEAU 東京都23区 CityGML v4配信",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+  },
+  {
+   "name": "統計GIS 境界データ（令和2年国勢調査 小地域）",
+   "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200521&tstat=000001136464&cycle=0&tclass1=000001136472"
+  },
+  {
+   "name": "令和2年国勢調査による東京都の昼間人口（第11表）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000003d0000000627/resource/4683f864-17b6-44a1-bea6-ae24c367d277"
+  },
+  {
+   "name": "東京都地域防災計画　震災編（平成26年修正）別冊資料 / 資料第136 避難所及び二次避難所（福祉避難所）区市町村別一覧表（都福祉保健局）",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/data/mobile/"
+  },
+  {
+   "name": "訪都旅行者動態調査",
+   "url": "https://openstreetmap.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000003d0000000627/resource/4683f864-17b6-44a1-bea6-ae24c367d277"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku",
+  "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200521&tstat=000001136464&cycle=0&tclass1=000001136472",
+  "https://data.tourism.metro.tokyo.lg.jp/data/mobile/",
+  "https://openstreetmap.jp/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2936",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

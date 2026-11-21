@@ -1,0 +1,66 @@
+{
+ "id": "6632807331718020123",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632807331718020123/?year=2026",
+ "fetched_at": "2026-11-20T15:44:04+00:00",
+ "title": "ひとりぶん そらどき",
+ "team": "ひとりぶん",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "植物の多さ、人や車の少なさ、遠回りできる時間、暑さや雨への感じ方を自分で設定し条件に合う徒歩経路を比べるアプリ。病名や年齢を診断名で絞らず、一般的な経路検索は距離と到着時間が基準のため時間差の小さい経路どうしの環境の違いは比べられないという課題に対応。東京23区の歩行可能な道路網で候補を作り沿道緑・人の少なさ・車の少なさをそれぞれ推定値・予測・代理指標と明記した上で同じ式で採点する誠実な設計。天候は候補共通の負荷として別途表示し順位には混ぜない。HTML・CSS・JavaScriptで計算層をUIから分離しNode.jsの自動検査でも実行できる構成とし、OpenAI CodexとClaudeを開発支援に使用し実行時には使わなかった。",
+ "open_data_items": [
+  {
+   "name": "国土交通省 国土数値情報 行政区域データ N03（2026年版・CC BY 4.0）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html"
+  },
+  {
+   "name": "OpenStreetMap 道路網・緑地・樹木・信号・横断歩道（© OpenStreetMap contributors / ODbL 1.0）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "東京都 緑のオープンデータ 街路樹（区部都道・単木／区市町村道・路線）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/02_gairoju.zip"
+  },
+  {
+   "name": "環境省 熱中症予防情報サイト 暑さ指数（WBGT）予測値",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "気象庁 天気予報・週間予報（東京地方）",
+   "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+  },
+  {
+   "name": "「全国の人流オープンデータ」（国土交通省）（https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto）を加工して作成",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto"
+  },
+  {
+   "name": "東京都市圏交通計画協議会 第6回東京都市圏パーソントリップ調査（平成30年）時刻別滞留人口",
+   "url": "https://www.tokyo-pt.jp/static/info_provision/data/area/time_population.csv"
+  },
+  {
+   "name": "国土地理院 住所検索API（地理院地図・API一覧）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html",
+  "https://www.openstreetmap.org/copyright",
+  "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/02_gairoju.zip",
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+  "https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto",
+  "https://www.tokyo-pt.jp/static/info_provision/data/area/time_population.csv",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://soradoki.hitori-bun.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://soradoki.hitori-bun.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=766",
+ "image_count": 3,
+ "notes": ""
+}

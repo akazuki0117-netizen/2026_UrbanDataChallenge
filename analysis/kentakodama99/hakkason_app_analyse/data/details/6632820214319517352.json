@@ -1,0 +1,31 @@
+{
+ "id": "6632820214319517352",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632820214319517352/?year=2026",
+ "fetched_at": "2026-11-20T15:46:54+00:00",
+ "title": "ひとまど",
+ "team": "TeamKST",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自治体・年齢・世帯・仕事・健康や介護・所得を選ぶと分野を問わず使える可能性のある制度が一覧で並ぶサービス。分野を問わない制度一覧をオープンデータにしている自治体は63のうち4つだけで、公開データでも収入条件等の記入率は0%という課題に対応。生成AIで対象者の文章に埋もれた条件を年齢・世帯・就労等の決められた語彙へ構造化し原文と機械照合、裏付けのない条件は採用せず読み取れなかった制度は絞り込みに使わず必ず表示する誠実な設計。全8,239制度・63自治体を収録。Cloudflare Workersで静的アセットのみの構成とし、Claudeで427件を一括処理しつつ抽出条件ごとに原文照合するチェックを組み込んだ。",
+ "open_data_items": [
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "支援制度（給付金）情報（中野区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000108"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000108"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=1739",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

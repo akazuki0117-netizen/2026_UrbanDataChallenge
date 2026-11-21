@@ -1,0 +1,42 @@
+{
+ "id": "6632808550394330764",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808550394330764/?year=2026",
+ "fetched_at": "2026-11-20T15:44:21+00:00",
+ "title": "自治体データダッシュボード",
+ "team": "おちゃらぼ。",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "バラバラな東京都オープンデータを横串で見られるようにするサービス。東京都のオープンデータはCSV・XLSX・PDF・ZIP・RDFと形式がバラバラで文字コードも混在し「公開されているのに使えない」状態が利活用最大の障壁だという課題に対応。CKANのメタデータを日次同期し実バイトから形式とエンコーディングを判定してCSV・XLSX・JSON等を共通JSON契約へ正規化、東京都のデータ一覧を毎日自動で取り込みどの自治体がいくつ公開しているかを地図で色分けするダッシュボードも備える。メダリオンアーキテクチャの「シルバー層API」として設計。TypeScriptでReact/Vite、Cloudflare D1/R2で構築した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログ",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都オープンデータ CKAN API",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search"
+  },
+  {
+   "name": "国土交通省 国土数値情報「行政区域」",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html"
+ ],
+ "demo_url": "https://dashboard.tokyo-odh-218.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://dashboard.tokyo-odh-218.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3824",
+ "image_count": 3,
+ "notes": ""
+}

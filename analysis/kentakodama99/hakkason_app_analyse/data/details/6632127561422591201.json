@@ -1,0 +1,36 @@
+{
+ "id": "6632127561422591201",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632127561422591201/?year=2026",
+ "fetched_at": "2026-11-20T15:36:55+00:00",
+ "title": "ローリングストックス",
+ "team": "brave-heart",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ローリングストックス」は、おうちの備蓄が動物園になるスマホ向けWebアプリ。都民の日常備蓄実施率は2020年度の59.2%をピークに停滞し備蓄した人の65.5%が期限切れを経験、備蓄が「やらなきゃ」の義務になっているという課題に対応。棚を撮影するとAIが品目を数え備蓄ごとに担当の動物が村に引っ越してくる仕組みで、家族構成から東京備蓄ナビの計算式で7日分の必要量を算出、期限が近づくと動物がおねだりし食べて買い足すと星がもらえて動物が育つ循環でローリングストックの行動そのものをご褒美にする。Next.js／React／TypeScriptでCloudflare Workersに構築し、Workers AIのMistral Small 3.1で棚の写真から品目・個数・期限を読み取り複数モデルで比較して最も正確なものを選定した。",
+ "open_data_items": [
+  {
+   "name": "東京備蓄ナビ 品目データ",
+   "url": "https://www.bichiku.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京備蓄ナビ 品目データ",
+   "url": "https://github.com/Tokyo-Metro-Gov/bichiku-navi"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.bichiku.metro.tokyo.lg.jp/",
+  "https://github.com/Tokyo-Metro-Gov/bichiku-navi"
+ ],
+ "demo_url": "https://rolling-stocks.tokyo-odh-435.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://rolling-stocks.tokyo-odh-435.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1741",
+ "image_count": 3,
+ "notes": ""
+}

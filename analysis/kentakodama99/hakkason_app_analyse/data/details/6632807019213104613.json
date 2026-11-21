@@ -1,0 +1,51 @@
+{
+ "id": "6632807019213104613",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632807019213104613/?year=2026",
+ "fetched_at": "2026-11-20T15:44:02+00:00",
+ "title": "StayBridge Tokyo",
+ "team": "情報技術メディア研究会（INIAD）",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "母国の戦争・政変・迫害等で帰国できなくなった短期滞在外国人を支援するWebアプリ。帰国予定が崩れると在留手続だけでなく宿泊・教育・医療・生活費・相談先を同時に考える必要があるが情報は入管・自治体・学校・医療機関ごとに分散し日本語に不慣れな状況ではさらに負担が大きいという課題に対応。滞在状況や困りごとを整理するとRule Engineが「TODAY／THIS WEEK／NEXT 30 DAYS／期限前」の行動を優先度順に提示し各案内に判断ルールと根拠となる公式情報を明示、在留・就労等はAIで断定せず公的相談窓口へつなぐ誠実な設計。Next.js／React／TypeScriptで構築し、CodexやOpenCodeを調査・設計・実装補助に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都「外国人人口 令和8年1月」区市町村・国籍／地域別",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/gaikoku/2026/ga26ev0300.csv"
+  },
+  {
+   "name": "北区立小学校情報",
+   "url": "https://www.city.kita.lg.jp/education/elementary/index.html"
+  },
+  {
+   "name": "北区 病院・診療所・歯科診療所名簿",
+   "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/008/500/r8_hospital_clinic_list.pdf"
+  },
+  {
+   "name": "北区 子どもセンター・児童館一覧",
+   "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1007588/1008062/1008063.html"
+  },
+  {
+   "name": "北区立図書館一覧",
+   "url": "https://www.library.city.kita.lg.jp/viewer/info.html?id=46&idSubTop=0"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/gaikoku/2026/ga26ev0300.csv",
+  "https://www.city.kita.lg.jp/education/elementary/index.html",
+  "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/008/500/r8_hospital_clinic_list.pdf",
+  "https://www.city.kita.lg.jp/children-edu/childcare/1002833/1007588/1008062/1008063.html",
+  "https://www.library.city.kita.lg.jp/viewer/info.html?id=46&idSubTop=0"
+ ],
+ "demo_url": "https://staybridge-user-production.tokyo-odh-466.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://staybridge-user-production.tokyo-odh-466.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1003",
+ "image_count": 3,
+ "notes": ""
+}

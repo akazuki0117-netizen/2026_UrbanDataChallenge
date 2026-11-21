@@ -1,0 +1,47 @@
+{
+ "id": "6626764026139740883",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626764026139740883/?year=2026",
+ "fetched_at": "2026-11-20T15:32:54+00:00",
+ "title": "おりにつけ",
+ "team": "おかし係",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「おりにつけ」は、現在地・時刻・気象・季節進行等から今出会えそうな季節の自然を提案するWebサービス。東京都在住者アンケートで61.3%が季節の自然に関心を示す一方33.8%が過去1年で見頃を逃した経験があるという課題に対応。街路樹・公園・環境省の植生データを約500mメッシュへ前処理しOpen-Meteoの気象データ等と組み合わせ、花・生きもの・虹・月等13現象の出会いやすさを理由とともに定性的に示す。推薦処理には生成AIを組み込まずGIS・気象・天文計算の説明可能なルールベースで評価する設計。HTML/CSS/Vanilla JavaScriptとCloudflare Workersで構築し、開発では生成AIを設計検討やコードレビューに活用した。",
+ "open_data_items": [
+  {
+   "name": "緑のオープンデータ（GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "都道の街路樹",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "生物季節観測データベース",
+   "url": "https://agora.ex.nii.ac.jp/cps/weather/season/"
+  },
+  {
+   "name": "Free Weather API",
+   "url": "https://open-meteo.com/"
+  },
+  {
+   "name": "自然環境保全基礎調査",
+   "url": "https://www.biodic.go.jp/kiso/vg/vg_kiso.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+ ],
+ "external_data_urls": [
+  "https://agora.ex.nii.ac.jp/cps/weather/season/",
+  "https://open-meteo.com/",
+  "https://www.biodic.go.jp/kiso/vg/vg_kiso.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=5607",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

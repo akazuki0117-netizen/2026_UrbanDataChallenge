@@ -1,0 +1,37 @@
+{
+ "id": "6632809832559115552",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809832559115552/?year=2026",
+ "fetched_at": "2026-11-20T15:44:47+00:00",
+ "title": "MIZUMAE ― 水害前の車両退避判断支援",
+ "team": "T中学校PCメディア部 卒業生有志",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「MIZUMAE」は、水害が迫る「まだ車を動かせる可能性がある段階」で車を移すかどこへ退避させるかの判断を支援するWebサービス。1時間50mm以上の大雨は10年前と比べ約1.5倍に増え、水が来てから動かすには遅すぎるが車は生活を支える基盤で被災後の生活再建にも関わるという課題に対応。調布市を実証地域とし、退避場所の利用条件・開放状況・目的地や候補経路と浸水想定区域の重なり・未確認情報・出典を分けて示し、情報不足時は無理に候補を勧めず「候補なし」と理由とともに示す誠実な設計。Next.js・React・TypeScriptでZodによりデータ検証し、ChatGPTで安全性・利用条件等の観点を分けて独立に批評させ人間が統合判断した。",
+ "open_data_items": [
+  {
+   "name": "野川、仙川、入間川、谷沢川及び丸子川流域浸水予想区域図（改定）　浸水深・地盤高データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029/resource/4cb0bf2c-9de2-4a8e-b4d4-b64c6c820daf"
+  },
+  {
+   "name": "新3.公営駐車場一覧",
+   "url": "https://www.city.chofu.lg.jp/020020/p006070.html"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029/resource/4cb0bf2c-9de2-4a8e-b4d4-b64c6c820daf"
+ ],
+ "external_data_urls": [
+  "https://www.city.chofu.lg.jp/020020/p006070.html",
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=634",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

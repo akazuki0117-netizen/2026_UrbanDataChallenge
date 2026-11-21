@@ -1,0 +1,31 @@
+{
+ "id": "6632720179528699565",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632720179528699565/?year=2026",
+ "fetched_at": "2026-11-20T15:39:15+00:00",
+ "title": "15歳の地図",
+ "team": "１５のミカタ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「15歳の地図」は、進路を考え始めた中学3年生のためのWebアプリ。都内約440校の高校からどこから見ればよいか分からず結局は偏差値表の上から順にたどるしかなく、頼れる物差しが偏差値だけという課題に対応。「どんな人生を冒険したい？」という問いから始まり全日制だけでなく専門学科・定時制・通信制・就職・留学・特別支援学校まで多様な進路を地図の上に広げて可視化する。偏差値ランキングの外にある可能性に15歳が自分の力で出会える設計。HTML/CSS/JavaScriptとLeafletで構築し、対話型AIのClaudeで設計・情報整理、Claude Codeで実装を進め変更計画を必ず確認しながら開発した。",
+ "open_data_items": [
+  {
+   "name": "令和７年度　公立学校統計調査報告書【東京都公立学校一覧】 高等学校（住所）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_koutougakkou_address"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_koutougakkou_address"
+ ],
+ "demo_url": "https://hello-mai.15-dev.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hello-mai.15-dev.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=368",
+ "image_count": 3,
+ "notes": ""
+}

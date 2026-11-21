@@ -1,0 +1,62 @@
+{
+ "id": "6632781784129777513",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632781784129777513/?year=2026",
+ "fetched_at": "2026-11-20T15:41:40+00:00",
+ "title": "PINOWA",
+ "team": "PINOWA Project",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「PINOWA」は、街の「いま」がひと目でわかる地域情報マップ。災害時「自分の近くでどこが安全か」という情報は刻々と変化するがSNSのタイムラインから周辺情報だけを探し出すのは困難で、災害時だけ使うサービスは平時に使われないという課題に対応。東京都や区市町村のオープンデータに利用者のリアルタイム投稿を重ねAIが分類、平時は混雑や街の楽しいポイントの発見に、災害時は避難所や浸水リスクと現地の声を組み合わせて活用する。「普段から便利だから災害時にも自然とアクセスできる」設計思想。ReactとTypeScript、LeafletでCloudflareに構築し、Cloudflare Workers AIで投稿の分類・まとめを行った。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "東京都防災マップ 避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "給水拠点一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "OpenStreetMap Nominatim",
+   "url": "https://operations.osmfoundation.org/policies/nominatim/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/copyright",
+  "https://operations.osmfoundation.org/policies/nominatim/"
+ ],
+ "demo_url": "https://pinowa.pinowa.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://pinowa.pinowa.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4032",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,19 @@
+{
+ "id": "6632812514215894415",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812514215894415/?year=2026",
+ "fetched_at": "2026-11-20T15:46:12+00:00",
+ "title": "いまスポ",
+ "team": "メイキョク開発部",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「いまスポ」は、江東区で「今から運動したい」人に条件から今の自分に合う運動を最大3件提案するWebアプリ。運動したい人は近くで何ができるか、料金や休館日を調べるのが面倒で情報収集の途中で運動を諦めてしまうという課題に対応。時間・予算・人数・気分・屋内外を選ぶと条件に合わない施設を自動絞り込み、給水スポットやクーリングシェルターも同じ地図で確認できる。施設の正確性が求められるデータは生成AIの推測を避け一次情報で確認する方針。ReactとLeaflet/OpenStreetMapで構築した。",
+ "open_data_items": [],
+ "open_data_urls": [],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3881",
+ "image_count": 3,
+ "notes": "提出作品URL なし; 利用データ URL なし"
+}

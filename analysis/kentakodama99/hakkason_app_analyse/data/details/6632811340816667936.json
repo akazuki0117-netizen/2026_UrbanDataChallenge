@@ -1,0 +1,26 @@
+{
+ "id": "6632811340816667936",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811340816667936/?year=2026",
+ "fetched_at": "2026-11-20T15:45:31+00:00",
+ "title": "アイスはどこへ消えた？ ― 東京の「逃げ場」をみんなでつくるクールスポットマップ ―",
+ "team": "カピバララボ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京の「暑さからの逃げ場」を見つけるクールスポットマップ。猛暑の日に休みたいと思ってもクーリングシェルターや図書館、カフェなどの情報がバラバラになっているという課題に対応。東京都・自治体の公式データ（行政認定施設）と市民からの投稿データ（「涼しい」「座れる」等のリアルタイム情報）を組み合わせ、現在地から「徒歩5分以内」「冷房あり」等の条件を指定して検索できる地図を構築、ChatGPTを開発に活用した。",
+ "open_data_items": [
+  {
+   "name": "猛暑回避施設（涼み処、クールスポット）",
+   "url": "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/mousyo-kaihi.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/mousyo-kaihi.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=375",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

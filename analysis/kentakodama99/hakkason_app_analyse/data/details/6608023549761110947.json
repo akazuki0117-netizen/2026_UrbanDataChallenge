@@ -1,0 +1,67 @@
+{
+ "id": "6608023549761110947",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6608023549761110947/?year=2026",
+ "fetched_at": "2026-11-20T15:31:33+00:00",
+ "title": "減らせ、死亡（脂肪）率！ハートビートヒーロー・バイスタンダー119",
+ "team": "災害モンスター研究所",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "心拍数に連動したアバターを操作しバーチャル東京を走るインクルーシブなフィットネス型街歩きゲーム。国内約60万台のAEDも心停止時の市民使用率は約5%と低く、設置報告義務のないAEDデータは実態との乖離が生じやすいという課題に対応。GoogleストリートビューにAED等を多層表示しAIナビゲーターとの会話で地域安全情報を把握、リアル街歩きモードでは発見したAEDを現地確認し更新情報を報告、確認データは日本AED財団の検証を経てAEDオープンデータのクレンジングに活用される。心拍数を入力とするインクルーシブ設計で高齢者や車いすユーザーも参加可能。Google Maps JavaScript APIとウェアラブルの心拍・加速度センサーで構築し、Geminiをゲーミフィケーションのアイデア具体化とイラスト作成に活用した。",
+ "open_data_items": [
+  {
+   "name": "公益財団法人 日本AED財団　2026/8/19付「AED N@VI」AED登録データ（東京都全域）",
+   "url": "https://aed-navi.jp/home.html"
+  },
+  {
+   "name": "【東京都建設局】浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "【東京都総務局】東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "【東京都環境局】東京のツキノワグマ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060"
+  },
+  {
+   "name": "【東京都保健医療局】TOKYO WALKING MAP",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "【東京都建設局】都道の街路樹",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "【東京都水道局】Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "【東京都教育庁】文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+  },
+  {
+   "name": "【東京都デジタルサービス局】公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+ ],
+ "external_data_urls": [
+  "https://aed-navi.jp/home.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3637",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

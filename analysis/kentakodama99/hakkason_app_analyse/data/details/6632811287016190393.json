@@ -1,0 +1,26 @@
+{
+ "id": "6632811287016190393",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811287016190393/?year=2026",
+ "fetched_at": "2026-11-20T15:45:29+00:00",
+ "title": "山手線walk",
+ "team": "ゆうひとつよし",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "ユーザープロフィールを登録すると山手線の指定駅からAIが周辺の観光地や飲食店をピックアップしパーソナライズされた街歩きルートを生成するアプリ。新宿・渋谷等の特定駅に観光客が集中するオーバーツーリズムが深刻化する一方、周辺の魅力的なローカルエリアには客足が届かないという課題に対応。AIによるパーソナライズとゲーム要素でユーザーを自然と駒込や田端などのマイナー駅や路地裏へ誘導し、街全体の混雑を分散させる。空いている時間帯の探索を優遇し訪問ピークを平準化する設計。HTML/JavaScriptとLeaflet API、Gemini APIで軽量なWeb API構成として実装した。",
+ "open_data_items": [
+  {
+   "name": "中央区のイベント一覧",
+   "url": "https://www.city.chuo.lg.jp/cgi-bin/event_cal_multi/calendar.cgi"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.chuo.lg.jp/cgi-bin/event_cal_multi/calendar.cgi"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1391",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

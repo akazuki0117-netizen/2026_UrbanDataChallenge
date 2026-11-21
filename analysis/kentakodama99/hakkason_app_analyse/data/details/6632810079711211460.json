@@ -1,0 +1,42 @@
+{
+ "id": "6632810079711211460",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810079711211460/?year=2026",
+ "fetched_at": "2026-11-20T15:44:52+00:00",
+ "title": "ココリス",
+ "team": "ぽてちの群れ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ココリス」は位置情報をもとに一人ひとりに合った避難ルートとリスクを提示する乳幼児のいる家庭向け防災アプリ。生後6カ月までの乳児がいる世帯の67.6%が日頃の防災を「意識できていない」と回答し、授乳室等乳幼児連れが本当に知りたい避難所設備情報は行政オープンデータにも存在しないという課題に対応。普段よく行く場所を軸にその人専用の避難所案内を自動作成し子どもの月齢に応じた備蓄チェックリストを自動生成、既存データにない授乳室等の設備情報を避難者自身の投稿で集める。Vite + React + TypeScriptとMapLibre GL JSで構築し、Google Gemini APIで地域危険度データを乳幼児連れ向けの防災アドバイスに変換した。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）／東京都都市整備局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "町丁目別出火危険度（第10回）／東京消防庁",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/learning/elib/shukkakiken/index.html"
+  },
+  {
+   "name": "震災時火災における避難場所及び避難道路等の指定（第9次）／東京都都市整備局",
+   "url": "https://www.funenka.metro.tokyo.lg.jp/evacuation/9th-evacuation-site/"
+  },
+  {
+   "name": "地理院タイル（淡色地図）／国土地理院",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+ ],
+ "external_data_urls": [
+  "https://www.tfd.metro.tokyo.lg.jp/learning/elib/shukkakiken/index.html",
+  "https://www.funenka.metro.tokyo.lg.jp/evacuation/9th-evacuation-site/",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2611",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "6632586316922346572",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632586316922346572/?year=2026",
+ "fetched_at": "2026-11-20T15:37:57+00:00",
+ "title": "東京解読",
+ "team": "東京解読",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京解読」は、東京独自のルールや障壁を先回りして取り除く「都市の案内インフラ」。外国人客は日本の複雑な独自ルールを「知らないため検索すらできず」到着後に断られるタイムロスを重ね「体験の損失」が発生しているという課題に対応。出発前に整理券配布の有無を通知する「Prevents Tragedy」でタイムロスを防止、通信がなくても画面を見せるだけで意思が伝わる「オフライン質問カード」も提供する。完全公開し都民やエンジニアが共に育てる「市民開発」のデジタル公共財として運用。Cloudflare Pagesの超軽量静的Web Appとしレコメンドはハルシネーションのないルールベースで稼働、裏側のデータ収集と検証にのみ生成AIを特化して活用する構想。",
+ "open_data_items": [
+  {
+   "name": "R6国・地域別外国人旅行者行動特性調査",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1999",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "6632773770316467231",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632773770316467231/?year=2026",
+ "fetched_at": "2026-11-20T15:41:19+00:00",
+ "title": "TOKYO SOZORO",
+ "team": "Hosei AI コミュニティ - HAC　Team B",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO SOZORO（トーキョーそぞろ）」は、上野周辺の空いている文化財・飲食店へ冒険気分で歩いて向かう観光ナビアプリ。上野公園の訪問率79.2%に対し谷中7.1%等、来訪者は上野公園周辺に留まり周辺施設は集客機会を失っているという課題に対応。行き先の種類と所要時間を選ぶと人流データから絞り込んだ非混雑エリアのスポットが名前を伏せてランダム提示され、地図もルートも出ずコンパスだけを頼りに迷いながら歩く体験を提供する。フレームワークを使わずCanvas描画で実装しCloudflare WorkersとD1とPagesで配信、Claude Codeで抽選ロジックの設計・実装とテストケース作成を行った。",
+ "open_data_items": [
+  {
+   "name": "台東区-食品衛生営業施設一覧（業種順・許可日順）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d3100000006"
+  },
+  {
+   "name": "台東区-文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000393"
+  },
+  {
+   "name": "台東区-文化観光施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000236"
+  },
+  {
+   "name": "台東区-名所・史跡",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000251"
+  },
+  {
+   "name": "台東区来訪者アンケート調査結果",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000258"
+  },
+  {
+   "name": "R6国・地域別外国人旅行者行動特性調査",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+  },
+  {
+   "name": "全国の人流オープンデータ（1kmメッシュ）",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto"
+  },
+  {
+   "name": "令和5年 台東区観光統計・マーケティング分析 報告書",
+   "url": "https://t-navi.city.taito.lg.jp/storage/basic_info_block_picture/20240917133427_zentaiban.pdf"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d3100000006",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000393",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000236",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000251",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000258",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/mlit-1km-fromto",
+  "https://t-navi.city.taito.lg.jp/storage/basic_info_block_picture/20240917133427_zentaiban.pdf"
+ ],
+ "demo_url": "https://tokyo-sozoro.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-sozoro.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4577",
+ "image_count": 3,
+ "notes": ""
+}

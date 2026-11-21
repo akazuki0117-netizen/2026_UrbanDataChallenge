@@ -1,0 +1,37 @@
+{
+ "id": "6630843168312484114",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630843168312484114/?year=2026",
+ "fetched_at": "2026-11-20T15:34:43+00:00",
+ "title": "manmaru",
+ "team": "M-Grow",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「manmaru」は妊娠期の栄養記録アプリ。東京都は都内60区市町村の約7,260制度を子育て支援制度レジストリとして公開しているが板橋区だけで妊娠・出産関連の制度が34件あり体調が不安定な妊娠中に自分に関係するものを探すのは現実的でないという課題に対応。記録した食事から栄養素の充足状況と足したい食材のヒントを返す毎日開く理由をつくり、居住自治体と本人が選んだ困りごとに応じて行政支援を「次にできること1つ」に絞って提示する。板橋区の公式ページを実測すると28件中5件が404だったため到達を検証し死んだリンクは案内しない誠実な設計。SwiftUIとNext.jsのAPIで構成し、生成AIを食事写真からの食品認識と栄養助言の生成に活用しつつ禁止表現のパターン照合で多段防御した。",
+ "open_data_items": [
+  {
+   "name": "東京都 東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "文部科学省 日本食品標準成分表（八訂）増補2023年",
+   "url": "fooddb.mext.go.jp/"
+  },
+  {
+   "name": "厚生労働省 日本人の食事摂取基準（2025年版）",
+   "url": "www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/eiyou/syokuji_kijyun.html"
+  }
+ ],
+ "open_data_urls": [
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [
+  "fooddb.mext.go.jp/",
+  "www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/eiyou/syokuji_kijyun.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=4390",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

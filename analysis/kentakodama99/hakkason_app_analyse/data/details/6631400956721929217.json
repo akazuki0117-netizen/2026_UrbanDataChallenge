@@ -1,0 +1,72 @@
+{
+ "id": "6631400956721929217",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631400956721929217/?year=2026",
+ "fetched_at": "2026-11-20T15:35:37+00:00",
+ "title": "モシモ（MoshiMo）",
+ "team": "Orange",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「モシモ（MoshiMo）」は、日頃の散歩やお出かけで使うほど災害時に役立つ「日常→防災」のペット防災アプリ。国や都は同行避難を推奨するが実際に受け入れ可能か判断できず、自宅待機を選び災害支援から外れてしまう懸念があるという課題に対応。平時は動物病院や公園などペット同伴施設を地図で検索・記録・投稿しお気に入りや訪問済みを蓄積、その蓄積から防災チェックリストや避難持出カードを作成できる。災害時は都内の避難所・避難場所を検索し、ユーザー投稿でペット受入可否をリアルタイム更新・共有、家族間で避難登録も共有できる。技術詳細はAI（OpenCode）で構築し、提供されたCloudflare環境に準拠した。",
+ "open_data_items": [
+  {
+   "name": "避難所・避難場所一覧データ",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "都市公園・都立公園一覧（各自治体）",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "公園・児童遊園・緑地",
+   "url": "https://opendata.city.minato.tokyo.jp/"
+  },
+  {
+   "name": "公園配置図",
+   "url": "https://www2.wagmap.jp/nakanodatamap"
+  },
+  {
+   "name": "公園・公衆便所一覧（オープンデータ）",
+   "url": "https://www.city.itabashi.tokyo.jp/bousai/kouen/kouen/1014717.html"
+  },
+  {
+   "name": "都市公園等一覧（公園調書）",
+   "url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005867.html"
+  },
+  {
+   "name": "公共トイレ",
+   "url": "https://www.city.hachioji.tokyo.jp/shisei/001/006/001/002/p037425.html"
+  },
+  {
+   "name": "動物病院一覧（犬登録・狂犬病予防注射済票交付の委託動物病院／動物愛護関連補助金指定動物病院）",
+   "url": "https://opendata.city.machida.tokyo.jp/dataset/shisetsu_doubutubyouin"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/",
+  "https://portal.data.metro.tokyo.lg.jp/",
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://opendata.city.minato.tokyo.jp/",
+  "https://www2.wagmap.jp/nakanodatamap",
+  "https://www.city.itabashi.tokyo.jp/bousai/kouen/kouen/1014717.html",
+  "https://www.city.hachioji.tokyo.jp/contents/open/002/p005867.html",
+  "https://www.city.hachioji.tokyo.jp/shisei/001/006/001/002/p037425.html",
+  "https://opendata.city.machida.tokyo.jp/dataset/shisetsu_doubutubyouin"
+ ],
+ "demo_url": "https://moshimo.tokyo-odh-280.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://moshimo.tokyo-odh-280.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2636",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+ "id": "6632813399428976849",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632813399428976849/?year=2026",
+ "fetched_at": "2026-11-20T15:46:33+00:00",
+ "title": "Tokyo-Traverse",
+ "team": "CBF",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyo Traverse」は、リアルタイムの天候・人流混雑データを活用し状況に応じた最適な観光スポットをAI診断・スコアリングするスマートアプリ。猛暑や悪天候による体調不良リスクに加え一部観光地への一極集中で観光客は検索や待ち時間に移動時間を奪われ都民も生活QOLが低下するという課題に対応。天候・混雑・個人の好みを加味した動的スコアリングでスポットをカラー表示し、混雑緩和と周辺店舗への送客による地域経済循環を同時に実現する。React 18 + Vite、TypeScriptとSupabaseで構築した。",
+ "open_data_items": [
+  {
+   "name": "観光施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131181d0000000006"
+  },
+  {
+   "name": "観光施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131121d0000000006"
+  },
+  {
+   "name": "観光施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131041d0000000131"
+  },
+  {
+   "name": "飲食店等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000236"
+  },
+  {
+   "name": "猛暑回避施設（涼み処、クールスポット）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/en/dataset/t131075d0000000189"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131181d0000000006",
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131121d0000000006",
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131041d0000000131",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000236",
+  "https://catalog.data.metro.tokyo.lg.jp/en/dataset/t131075d0000000189"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2151",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

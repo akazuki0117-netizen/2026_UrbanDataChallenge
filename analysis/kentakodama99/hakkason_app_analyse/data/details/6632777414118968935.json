@@ -1,0 +1,47 @@
+{
+ "id": "6632777414118968935",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632777414118968935/?year=2026",
+ "fetched_at": "2026-11-20T15:41:27+00:00",
+ "title": "アイデアのたね",
+ "team": "2026kaze",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "市民がオープンデータ活用サービスの作り方をスマホだけで学べる教育アプリ「アイデアのたね」。都は2,000超のデータセットを公開するが活用の担い手は一部のエンジニアに偏りがちで、多くの都民はデータの探し方・企画への落とし込み方が分からず参加を諦めてしまうという課題に対応。クイズでルールを学び、カタログを実際に探検し、CSVを表・グラフ化して気づきを見つけ、データを組み合わせる「アイデアガチャ」で企画を生成する5クエスト構成とし、進めるほど画面の種が発芽する育成演出で完走を促す。約20分で応募文まで自動生成される出口設計。依存ライブラリなしの単一HTMLでオフライン動作も可能とし、Anthropic Claudeで企画壁打ちからUI設計まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログサイト",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都の教育行政基礎データ（東京都教育委員会・不登校等CSV）",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026020204"
+  },
+  {
+   "name": "緑のオープンデータ（東京都都市整備局・GIS）",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026020204"
+  },
+  {
+   "name": "東京都レッドリスト〈本土部〉2020年見直し版（東京都環境局）",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/nature/animals_plants/red_data_book"
+  },
+  {
+   "name": "都知事杯オープンデータ・ハッカソン課題ページ（12テーマ）",
+   "url": "https://odhackathon.metro.tokyo.lg.jp/issues/"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026020204",
+  "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026020204",
+  "https://www.kankyo.metro.tokyo.lg.jp/nature/animals_plants/red_data_book",
+  "https://odhackathon.metro.tokyo.lg.jp/issues/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4974",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

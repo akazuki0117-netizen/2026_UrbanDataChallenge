@@ -1,0 +1,31 @@
+{
+ "id": "6621703495398376909",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6621703495398376909/?year=2026",
+ "fetched_at": "2026-11-20T15:32:05+00:00",
+ "title": "空き家相談準備シート",
+ "team": "相談準備室",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "相続した実家や空き家について相談前の問診に答えると「相談前シート」を作成するサービス。相続手続きや建物管理等複数の問題が同時に起こる一方、相談窓口は行政・法務局・専門家に分かれ相談者は「これは何の相談か」を自分で決めてから窓口を選ぶ必要があり最初の一歩を踏み出せないという課題に対応。選択式の問診で相談内容・確認事項・用意する資料・相談先候補・次にやることの5つを出力し、専門分野を一つに決めてから窓口を選ぶ形にしない設計。個人情報を扱うため入力を外部送信しないブラウザ完結の構成とし、生成AIを分類ルールの草案作成やレビュー等の開発工程に活用しつつ実行時のトリアージには使わなかった。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査（第9回・令和4年9月公表）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/4d0b55cc-b204-4a36-9ab9-09e029b1fcf9"
+  },
+  {
+   "name": "東京の土地２０２４（土地関係資料集）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000023"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/4d0b55cc-b204-4a36-9ab9-09e029b1fcf9",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000023"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=5732",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

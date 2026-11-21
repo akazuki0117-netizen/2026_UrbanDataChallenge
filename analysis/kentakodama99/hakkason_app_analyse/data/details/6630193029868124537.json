@@ -1,0 +1,41 @@
+{
+ "id": "6630193029868124537",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630193029868124537/?year=2026",
+ "fetched_at": "2026-11-20T15:34:15+00:00",
+ "title": "YOBUCA（呼ぶか）",
+ "team": "救急ラボ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「YOBUCA」は、平時に「呼ぶか」の判断軸を身につけるクイズ型学習アプリ。東京消防庁の救急出場は過去最多を更新しており、今すぐ119番か#7119か明日受診かを決められないことが独居・高齢・深夜ほど顕著な課題となっている。全68問の設問を、119番・#7119・今すぐ受診・当日か翌日・様子を見るの5択で答え、正解と一次資料からの逐語引用・出典URLをその場で確認できる。緊急度の自動判定は実装せず国のQ助等に委ね、判断の練習を繰り返すことで緊急時に調べ直さずに済む状態をつくる。依存ゼロの静的PWAとし、Claude Codeを設問の下書きや実装に用いたが正解と出典の対応付けは人が行った。",
+ "open_data_items": [
+  {
+   "name": "第77回 東京消防庁統計書（令和６年）｜東京消防庁",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000070"
+  },
+  {
+   "name": "東京の消防白書2025｜東京消防庁",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000069"
+  },
+  {
+   "name": "救急搬送データからみる日常生活の事故（令和4年）｜東京消防庁",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000070",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000069",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://yobuca.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yobuca.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2873",
+ "image_count": 3,
+ "notes": ""
+}

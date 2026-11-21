@@ -1,0 +1,57 @@
+{
+ "id": "6625779381112216344",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625779381112216344/?year=2026",
+ "fetched_at": "2026-11-20T15:32:29+00:00",
+ "title": "東京親友 Tokyo Parent Companion",
+ "team": "Tokyo Kids Future",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京親友（オヤトモ）」は、子どもの成長ステージと家庭の状況に応じて子育て・健康情報や地域の支援を届ける次世代型子育て支援サービス。忙しい中で情報収集や健康管理を続ける負担があり、親は日々の子育て経験や達成感を実感できる機会が少ないという課題に対応。成長ステージに合わせて必要な情報を届け「探す時間」を減らすとともに、親子の参加・体験をスコアとして記録し「子育てアチーブメント」として見える化する。情報収集から行動、達成感までを一つにつなぐ設計。Next.js・React・TypeScriptとCloudflare Workers/D1で多言語対応のモバイルWebとして構築した。",
+ "open_data_items": [
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034/resource/bdbd64ed-4e35-4599-8034-a3c0969fa3de"
+  },
+  {
+   "name": "港区の診療所情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000208"
+  },
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "港区イベント情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000003"
+  },
+  {
+   "name": "東京都・区市町村の子ども向けイベント候補",
+   "url": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/"
+  },
+  {
+   "name": "気象庁防災情報XML",
+   "url": "https://xml.kishou.go.jp/index.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034/resource/bdbd64ed-4e35-4599-8034-a3c0969fa3de",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000208",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000003"
+ ],
+ "external_data_urls": [
+  "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/",
+  "https://xml.kishou.go.jp/index.html"
+ ],
+ "demo_url": "https://tokyo-parent-companion-preview.tokyo-odh-048.workers.dev/app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-parent-companion-preview.tokyo-odh-048.workers.dev/app"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=516",
+ "image_count": 3,
+ "notes": ""
+}

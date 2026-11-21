@@ -1,0 +1,52 @@
+{
+ "id": "6632744380526115290",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632744380526115290/?year=2026",
+ "fetched_at": "2026-11-20T15:39:56+00:00",
+ "title": "メモリレ　おうちのＡＩ診断",
+ "team": "チームメモリレ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「メモリレ おうちのAI診断」は、住所を入れるだけで浸水リスク・学区・福祉施設・地価・気候を横断したレポートを生成するサービス。賃貸・購入検討者は家賃・駅徒歩を軸に物件を並べ防災や学区は後回しにしがちで、公開データは揃っていても住まい探しの検索画面にネガティブデータが上がってこないという課題に対応。候補物件のレポートを保存し重視条件を選ぶと保存物件をマッチング%で比較でき、発災後の避難アプリではなく住む場所を決める瞬間の比較軸を提示する。PHP・MariaDB・nginxの既存Web基盤で実装し、Cursorを用いてAPI仕様書・DB設計・診断画面を高速に構築した。",
+ "open_data_items": [
+  {
+   "name": "東京都 浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "国土交通省 不動産情報ライブラリ",
+   "url": "https://www.data.jma.go.jp/stats/data/mdrr/normal/index.html"
+  },
+  {
+   "name": "気象庁 平年値（2020年平年値）",
+   "url": "https://www.data.jma.go.jp/stats/data/mdrr/normal/index.html"
+  },
+  {
+   "name": "政府統計の総合窓口（e-Stat）",
+   "url": "https://www.e-stat.go.jp/"
+  },
+  {
+   "name": "国土地理院 地理院地図",
+   "url": "https://maps.gsi.go.jp/"
+  },
+  {
+   "name": "メールけいしちょうオープンデータ",
+   "url": "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+ ],
+ "external_data_urls": [
+  "https://www.data.jma.go.jp/stats/data/mdrr/normal/index.html",
+  "https://www.data.jma.go.jp/stats/data/mdrr/normal/index.html",
+  "https://www.e-stat.go.jp/",
+  "https://maps.gsi.go.jp/",
+  "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=235",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

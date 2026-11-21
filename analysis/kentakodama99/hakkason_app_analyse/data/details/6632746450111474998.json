@@ -1,0 +1,67 @@
+{
+ "id": "6632746450111474998",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632746450111474998/?year=2026",
+ "fetched_at": "2026-11-20T15:39:59+00:00",
+ "title": "Hoiku — Tokyo Daycare Wait-List Dashboard",
+ "team": "Baka Bytes",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京23区全域の保育園待機リストデータを表示するインタラクティブな地図ダッシュボード。東京の保護者は待機リストについて不確実性を抱えているが、政府データは数十の区のサイトに不統一な形式で分散し地域比較や施設単位の詳細を見る統一手段がないという課題に対応。5以上の区から実データを収集し820の実在施設をジオコーディング、20以上のモデリング手法を検証してリスク推定の妥当な方法を見つけ、すべての数値を実データ・バックテスト・推定値のいずれかとして正直にラベル付けする。ReactとLeafletで地図を構築し、Pythonのpandas・scikit-learn・XGBoost・SHAPでデータパイプラインとモデリングを行い、Hugging FaceのGemmaモデルをCloudflare Worker経由で根拠に基づく回答生成に利用した。",
+ "open_data_items": [
+  {
+   "name": "都内の保育サービスの状況について（待機児童数）",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2025/08/2025082917"
+  },
+  {
+   "name": "東京都の保育所定員数と待機児童数の推移（東京都オープンデータカタログ）",
+   "url": "https://portal.data.metro.tokyo.lg.jp/visualization/capacity-daycare-centers-children-waiting-lists/"
+  },
+  {
+   "name": "東京都オープンデータカタログサイト",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "世田谷区 保育待機児童等の状況（令和8年度）",
+   "url": "https://www.city.setagaya.lg.jp/documents/33363/9.pdf"
+  },
+  {
+   "name": "世田谷区オープンデータポータル",
+   "url": "https://www.city.setagaya.lg.jp/opendata/index.html"
+  },
+  {
+   "name": "港区オープンデータカタログサイト",
+   "url": "https://opendata.city.minato.tokyo.jp"
+  },
+  {
+   "name": "東京都区市町村 行政界データ（GitHub）",
+   "url": "https://github.com/dataofjapan/land"
+  },
+  {
+   "name": "地図タイル（OpenStreetMap / CARTO）",
+   "url": "https://carto.com/basemaps"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/visualization/capacity-daycare-centers-children-waiting-lists/",
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.metro.tokyo.lg.jp/information/press/2025/08/2025082917",
+  "https://www.city.setagaya.lg.jp/documents/33363/9.pdf",
+  "https://www.city.setagaya.lg.jp/opendata/index.html",
+  "https://opendata.city.minato.tokyo.jp",
+  "https://github.com/dataofjapan/land",
+  "https://carto.com/basemaps"
+ ],
+ "demo_url": "https://hoiku.kotatsu.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hoiku.kotatsu.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=989",
+ "image_count": 3,
+ "notes": ""
+}

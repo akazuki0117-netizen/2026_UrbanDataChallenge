@@ -1,0 +1,41 @@
+{
+ "id": "6629220330021182175",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629220330021182175/?year=2026",
+ "fetched_at": "2026-11-20T15:33:52+00:00",
+ "title": "認可保育所データ検算プロジェクト",
+ "team": "HIRAKE",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都が公開する認可保育所2,747施設の財務情報・モデル賃金PDFを全数検査し誤りの疑いがある記載375件を一覧化するツール。保育士や保護者は正確な処遇情報を得にくく、約2,700枚の書類を1枚ずつ受け取る流れでは施設間比較による異常発見が構造的に困難という課題に対応。施設内で閉じる縦の検算と全施設を並べて可能な横の検査（児童1人当り換算の分布比較）の二層構成で判定は決定論的ルールで誰でも再現できる。誤記を除いた集計から自治体別の月給・推定年収マップも作成、月給は区部が高く年収は多摩が高いという逆転を発見した。Pythonとライブラリ非依存のHTML＋SVGで構築し、Claudeを様式のゆれ吸収と検算コードの実装補助に限定して使用した。",
+ "open_data_items": [
+  {
+   "name": "財務情報・モデル賃金PDF（認可保育所・令和5年度）｜東京都福祉保健財団「ふくナビ」",
+   "url": "https://www.fukunavi.or.jp/fukunavi/controller?cmd=ml3&actionID=jgytik&SVCSBR_CD=031"
+  },
+  {
+   "name": "国土数値情報 行政区域データ（N03）｜国土交通省",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html"
+  },
+  {
+   "name": "公定価格における地域区分（令和3〜5年度適用地域）｜内閣府・こども家庭庁",
+   "url": "https://www.wam.go.jp/gyoseiShiryou-files/documents/2021/0304183632354/20210305_09.pdf"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.fukunavi.or.jp/fukunavi/controller?cmd=ml3&actionID=jgytik&SVCSBR_CD=031",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html",
+  "https://www.wam.go.jp/gyoseiShiryou-files/documents/2021/0304183632354/20210305_09.pdf"
+ ],
+ "demo_url": "hackathon.hoikuict.net",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "hackathon.hoikuict.net"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2895",
+ "image_count": 2,
+ "notes": ""
+}

@@ -1,0 +1,36 @@
+{
+ "id": "6632753963816000856",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632753963816000856/?year=2026",
+ "fetched_at": "2026-11-20T15:40:11+00:00",
+ "title": "役所バディ",
+ "team": "チームたらい回し",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "話すだけで福祉の簡易申請が埋まるWebサービス。東京都の外国人人口は2026年1月時点で783,701人で日本語の様式や西暦の生年月日でつまずき、話せば説明できる人が「書けない」という一点で申請できずにいるという課題に対応。音声を文字に起こし氏名・住所・相談区分等7項目へ自動振り分け、相談区分と住所から東京都オープンデータの309件の窓口を照合して引き継ぎ先を提示する。まだ口にしていない項目は絶対に埋めず全項目が揃い本人が確認したときだけ受付が成立する誠実な設計。音声認識にWhisper、項目抽出にGPT-4o miniを用いNext.js 16で構築し、Claude Codeで開発した。",
+ "open_data_items": [
+  {
+   "name": "社会福祉施設等一覧（令和６年５月１日 │ 時点）／東京都福祉局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000356"
+  },
+  {
+   "name": "東京都こどもDX_子育て支援制度レジストリ_0-6歳制度_2025年8月20日時点",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034/resource/bdbd64ed-4e35-4599-8034-a3c0969fa3de"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000356",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034/resource/bdbd64ed-4e35-4599-8034-a3c0969fa3de"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://drive.google.com/file/d/1EoZVg-3j9RjilRv37zrpdZEH0IVsUTv0/view?usp=drive_link",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/file/d/1EoZVg-3j9RjilRv37zrpdZEH0IVsUTv0/view?usp=drive_link"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3376",
+ "image_count": 3,
+ "notes": ""
+}

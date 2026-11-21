@@ -1,0 +1,31 @@
+{
+ "id": "6632765025895585917",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632765025895585917/?year=2026",
+ "fetched_at": "2026-11-20T15:40:46+00:00",
+ "title": "東京手続きナビ",
+ "team": "ds",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "複雑になりがちな行政手続き全般を最新の公式情報に基づく「順番の分かるTODO」へ変えるAIナビゲーションサービス。行政手続き情報は国・都・自治体の異なる部署に分散し、ある申請の交付物が次の申請の添付書類になるなど手続き同士の前後関係を単純な一覧では分からないという課題に対応。相談ごとに最新の公式情報を検索し各手続きをノード、前提条件や順序をエッジとするDAGで表現、確認できない内容は推測せず問い合わせ先とともに分離する。Codex CLIのライブ検索で最新の公式情報を確認しJSON Schemaへ変換、ReactでUIを構築、利用者自身のAPIキーでAI APIとライブWeb検索を利用する設計とした。",
+ "open_data_items": [
+  {
+   "name": "区外から世田谷区に引越しをしてきたときの届出（転入届）",
+   "url": "https://www.city.setagaya.lg.jp/02233/88.html"
+  },
+  {
+   "name": "マイナポータルで「引越し」の申請をされた方へ",
+   "url": "https://www.city.setagaya.lg.jp/02233/95.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.setagaya.lg.jp/02233/88.html",
+  "https://www.city.setagaya.lg.jp/02233/95.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=5215",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

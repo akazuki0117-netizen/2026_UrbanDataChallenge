@@ -1,0 +1,42 @@
+{
+ "id": "6630056863125235284",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630056863125235284/?year=2026",
+ "fetched_at": "2026-11-20T15:34:09+00:00",
+ "title": "TOKYO Offline Oasis",
+ "team": "NOQQE",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO Offline Oasis」は、常時接続社会のデジタル疲れを解消するため現在地周辺の「緑（公園・街路樹）」と「通信（基地局・Wi-Fi）」のオープンデータを重ね合わせて可視化するWebマップ。少し休みたい、緑のある場所に行きたいと思ったとき今いる場所の周辺にどんな緑があるか簡単に知りたいという課題に対応。レイヤー切替で「緑あり×電波なし」のデジタルデトックススポットから「緑あり×電波あり」の屋外ワークスペースまで目的別に検索でき、季節の樹木（サクラ・イチョウ等）にも対応する。Leaflet.jsとCloudflare Workers/D1で構築し、OpenCode（Qwen2.5-Coder）とGemini、ChatGPTで不統一な東京都の膨大なオープンデータの収集・クレンジングに活用した。",
+ "open_data_items": [
+  {
+   "name": "緑のオープンデータ（GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "公衆無線LANアクセスポイント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/50935312-c357-4656-af0d-f98a5d58c709/resource/d6046f09-d77e-44f1-aee0-0a1a5aa117bb"
+  },
+  {
+   "name": "OpenCelliD 携帯電話基地局位置情報データ（日本/東京都エリア）",
+   "url": "https://opencellid.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/50935312-c357-4656-af0d-f98a5d58c709/resource/d6046f09-d77e-44f1-aee0-0a1a5aa117bb"
+ ],
+ "external_data_urls": [
+  "https://opencellid.org/"
+ ],
+ "demo_url": "https://tokyo-noqqe-app.noqqe-tdh.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-noqqe-app.noqqe-tdh.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=773",
+ "image_count": 3,
+ "notes": ""
+}

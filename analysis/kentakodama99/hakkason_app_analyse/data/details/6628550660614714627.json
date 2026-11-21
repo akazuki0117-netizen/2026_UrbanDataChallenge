@@ -1,0 +1,26 @@
+{
+ "id": "6628550660614714627",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628550660614714627/?year=2026",
+ "fetched_at": "2026-11-20T15:33:34+00:00",
+ "title": "とどくワード",
+ "team": "SKH*",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "入力されたHTMLと届けたい対象等の情報からLLMが検索エンジンで使われる可能性のあるキーワード候補を提案理由とともに生成するツール。都民アンケートで社会参加や学び・体験に関する情報提供のニーズが挙げられる一方、My TOKYO等で情報自体は既に提供されており「情報そのものが存在しない」のではなく行政のWeb表現と都民が検索で使う表現にズレがあるという課題に対応。プロンプトや具体例は画面から修正でき運用しながら改善できる。Cloudflare Workersでハッカソンの検証環境として常時稼働サーバー不要で構築し、TypeScriptで実装した。",
+ "open_data_items": [
+  {
+   "name": "【OD化 回答】子どもの生活実態調査保護者票ローデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f158d7dd-bbd2-4a7f-aef0-e21312c70cbb/resource/ca70e5ef-f5f0-4a41-b79e-b2a2e3dad070"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f158d7dd-bbd2-4a7f-aef0-e21312c70cbb/resource/ca70e5ef-f5f0-4a41-b79e-b2a2e3dad070"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2586",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

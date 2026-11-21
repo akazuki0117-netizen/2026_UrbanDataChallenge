@@ -1,0 +1,41 @@
+{
+ "id": "6632791503611063817",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632791503611063817/?year=2026",
+ "fetched_at": "2026-11-20T15:42:06+00:00",
+ "title": "はぐくみ 〜申請主義を、先回りに。〜",
+ "team": "MSOL Digital DIG",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "受け取れるはずの子育て支援を探す前に届けるサービス「はぐくみ」。日本の社会保障は申請主義で自力で制度を探し理解し期限内に申請できる人を前提としており、東京都年間約10万人の出生に対し制度は63自治体に7,812件分散しているという課題に対応。自治体と年齢を選ぶ3タップだけで対象制度を自動で全抽出し、お金の支援を上位に電子申請の可否や窓口まで一覧提示、選んだ制度の申請準備メモを自動生成する。給付情報の誤りを避けるためレジストリの登録値のみを表示し最終確認は一次情報でと明記する信頼性設計。React 18のSPAでこどもDXの制度レジストリを採用し、Claude Codeでスペック駆動開発を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都こどもDX 子育て支援制度レジストリ",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.xlsx"
+  },
+  {
+   "name": "第1表 区市町村別 変動要因別人口",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/jugoki/2011/ju11qv0100.csv"
+  },
+  {
+   "name": "子育て支援総合センター",
+   "url": "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/gyoseikisosiryo/20160401/8.files/8-2-13-1.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.xlsx",
+  "https://www.toukei.metro.tokyo.lg.jp/jugoki/2011/ju11qv0100.csv",
+  "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/gyoseikisosiryo/20160401/8.files/8-2-13-1.csv"
+ ],
+ "demo_url": "https://claude.ai/public/artifacts/b7b2fa8e-6859-42df-91e9-2db0225c1e8c",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://claude.ai/public/artifacts/b7b2fa8e-6859-42df-91e9-2db0225c1e8c"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1261",
+ "image_count": 3,
+ "notes": ""
+}

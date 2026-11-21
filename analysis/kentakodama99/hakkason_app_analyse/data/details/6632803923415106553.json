@@ -1,0 +1,31 @@
+{
+ "id": "6632803923415106553",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632803923415106553/?year=2026",
+ "fetched_at": "2026-11-20T15:43:21+00:00",
+ "title": "Gov-Match",
+ "team": "Gov-Match",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Gov-Match（Bid-Assist）」は、東京都・区市町村の入札公開情報を自動収集し締切・地図・業種で横断検索できるWebサービス。公共調達の情報が分散し中小企業や職人が情報を知らないまま挑戦の機会を逃す一方、一部大企業だけが公示前から情報を得ているという課題に対応。案件検索に加え自社の入札計画を管理し、過去の落札結果から金額や落札率の相場感、企業別受注状況も可視化する。将来的には更新通知やレコメンド機能も構想。Cloudflare Workers・Hono・D1のサーバーレス構成とし、東京都電子入札情報サービスへのアクセスにはClaudeによる実ブラウザ操作を活用した。",
+ "open_data_items": [
+  {
+   "name": "〔工事の発注予定〕土木工事等(令和8年度上半期)",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/tokei_kusei/tyoutatujouhou.files/131202_doboku.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/tokei_kusei/tyoutatujouhou.files/131202_doboku.csv"
+ ],
+ "demo_url": "https://bidassist.govmatch.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://bidassist.govmatch.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=4756",
+ "image_count": 3,
+ "notes": ""
+}

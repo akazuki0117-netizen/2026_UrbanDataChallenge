@@ -1,0 +1,31 @@
+{
+ "id": "6632722255713276452",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632722255713276452/?year=2026",
+ "fetched_at": "2026-11-20T15:39:20+00:00",
+ "title": "kizuna",
+ "team": "Kizuna",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「kizuna」は、大地震や通信障害時でも圏外・ネットなしでメッセージを送受信できるオフライン通信アプリ。基地局損壊や通信規制で家族や周辺住民と連絡が取れなくなる情報孤立が発生し、既存の防災対策では通信途絶直後の近隣同士の互助や情報共有ができないという課題に対応。スマホのBluetoothで端末同士が直接つながるメッシュネットワークを形成し、インターネット遮断下でも周囲数十メートルで安否確認や救助要請ができる。サーバーを経由せずメッセージは端末内のみに保存されプライバシーも確保、東京都のオープンデータと連携し最寄り避難所情報もオフラインで確認できる。AndroidネイティブのBLEを採用しサーバーレスなP2Pアーキテクチャで構築、ChatGPT・ClaudeでBLEメッシュ接続プロトコルを生成・デバッグした。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "指定緊急避難場所一覧（自治体標準オープンデータセット）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000382"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000382"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=2744",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

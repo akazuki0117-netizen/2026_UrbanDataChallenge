@@ -1,0 +1,57 @@
+{
+ "id": "6632806963124824387",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806963124824387/?year=2026",
+ "fetched_at": "2026-11-20T15:43:58+00:00",
+ "title": "かけこみ",
+ "team": "鴨池研究所",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「かけこみ」は、子どもの通学路の危険度を親に届けるアプリ。不審者情報が届いても具体的にどの道が危ないか分からず子どもに根拠を持って教えられない一方、アプリが子どもに直接危険を教え続けると自分で危険を察知する力が育たないという二重の課題に対応。「駆け込める場所の密度」×「犯罪危険度」という新しい指標をオープンデータから作り、駆け込み先が少なく犯罪リスクが高い区間を特定、子どもが実際に通った道を毎晩まとめて親に届ける。アプリは子どもに警告せず親が子どもに教える材料を渡す役割分担が特徴。Cloudflare Workers＋Hono＋D1のサーバーレス構成とし、Claudeで設計方針を、OpenCodeで実装反復を分担した。",
+ "open_data_items": [
+  {
+   "name": "犯罪（不審者・声かけ事案）",
+   "url": "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+  },
+  {
+   "name": "年齢別人口",
+   "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200524&tstat=000000090001"
+  },
+  {
+   "name": "町丁目境界（r2ka13.shp）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?type=2"
+  },
+  {
+   "name": "交番",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131091d0000000129-9b0af5607c5a310dc52c0dea0f678b52-0"
+  },
+  {
+   "name": "学校",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000176"
+  },
+  {
+   "name": "コンビニ",
+   "url": "https://www.sinfonica.or.jp"
+  },
+  {
+   "name": "駅乗降客数",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v2_3.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000176"
+ ],
+ "external_data_urls": [
+  "https://mail.keishicho.metro.tokyo.lg.jp/opendata/",
+  "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200524&tstat=000000090001",
+  "https://www.e-stat.go.jp/gis/statmap-search?type=2",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131091d0000000129-9b0af5607c5a310dc52c0dea0f678b52-0",
+  "https://www.sinfonica.or.jp",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v2_3.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3381",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "6632771831015344465",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632771831015344465/?year=2026",
+ "fetched_at": "2026-11-20T15:41:09+00:00",
+ "title": "RED SPACE",
+ "team": "RED SPACE",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「RED SPACE」は、生物のレッドリストに倣い失われつつある空間の多様性への警鐘と保全活動を促進するウェブサイト。電話ボックスやガソリンスタンド、銭湯等のインフラ空間は人口減少で急速に数を減らしているが撤去・転用が難しくそのまま放置されがちという課題に対応。100以上の空間を収集し個体数・減少率から算出した9つの評価指標で絶滅危険性を評価、地理情報データで減少地域の特定と予測も行う。誰もが編集可能なプラットフォームとして運用し関連する法律や転用事例を市民から収集・蓄積して用途変更の可能性を提示する。TypeScript、React、ViteとLeafletで構築し、Codex／ChatGPTでReact実装からリファクタリングまで活用した。",
+ "open_data_items": [
+  {
+   "name": "国勢調査 地域メッシュ統計 / 総務省・e-Stat / https://www.e-stat.go.jp/statistics/00200511 / 人口・世帯等を1kmメッシュ単位で取得。人口増減率や人口CAGRなどを映画館・銭湯の予測特徴量として使用",
+   "url": "https://www.e-stat.go.jp/statistics/00200511"
+  },
+  {
+   "name": "土地利用現況調査GISデータ / 東京都都市整備局 / https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019 / 建物GISからメッシュごとの建物更新状況・新築建物割合を算出。映画館モデルの精度改善検証で使用。",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019"
+  },
+  {
+   "name": "OpenStreetMap / OpenStreetMap contributors / https://www.openstreetmap.org / 映画館・銭湯・ガソリンスタンドの所在・施設数を取得。現況への予測スコア付与に使用。ガソリンスタンドでは周辺施設数も特徴量として使用。",
+   "url": "https://www.openstreetmap.org"
+  },
+  {
+   "name": "経済センサス 地域メッシュ統計 / 総務省・経済産業省・e-Stat / https://www.e-stat.go.jp/statistics/00200511 / 事業所数・従業者数などをメッシュ特徴量としてモデル候補の検証に使用。",
+   "url": "https://www.e-stat.go.jp/statistics/00200511"
+  },
+  {
+   "name": "地価公示データ（国土数値情報 L01） / 国土交通省 / https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html / 公示地価を1kmメッシュに集約し、地価水準・地価変化率としてモデル候補の検証や補助情報に使用。",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html"
+  },
+  {
+   "name": "人口集中地区データ（国土数値情報 A16） / 国土交通省 / https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A16.html / DIDと1kmメッシュを重ね、都市化度を表すDID面積割合・変化量としてモデル候補の検証に使用。",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A16.html"
+  },
+  {
+   "name": "全国道路・街路交通情勢調査（道路交通センサス） / 国土交通省 / https://www.mlit.go.jp/road/census/h27 / 道路区間ごとの24時間自動車類交通量と区間延長を1kmメッシュに集約し、交通量水準・交通量曝露（交通量×区間延長）・交通量÷GS数を算出。ガソリンスタンド確定モデル（G6C）の中核特徴量として採用。",
+   "url": "https://www.mlit.go.jp/road/census/h27"
+  },
+  {
+   "name": "商業統計調査（平成19年） / 経済産業省・e-Stat / https://www.e-stat.go.jp/statistics/00550020 /市区町村別の燃料小売業の事業所数・年間商品販売額等を取得し、事業所あたり販売額をガソリンスタンドの採算性proxyとして検証。",
+   "url": "https://www.e-stat.go.jp/statistics/00550020"
+  },
+  {
+   "name": "東京都市圏パーソントリップ調査 / 東京都市圏交通計画協議会 / https://www.tokyo-pt.jp/data/01_01 / 計画基本ゾーン別の私事目的着トリップ数を取得し、映画館の来訪需要proxyとして検証。",
+   "url": "https://www.tokyo-pt.jp/data/01_01"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/statistics/00200511",
+  "https://www.openstreetmap.org",
+  "https://www.e-stat.go.jp/statistics/00200511",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A16.html",
+  "https://www.mlit.go.jp/road/census/h27",
+  "https://www.e-stat.go.jp/statistics/00550020",
+  "https://www.tokyo-pt.jp/data/01_01"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": null,
+ "image_count": 3,
+ "notes": "提出作品URL なし; 動画URL なし"
+}

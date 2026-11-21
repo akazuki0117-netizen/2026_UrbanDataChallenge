@@ -1,0 +1,72 @@
+{
+ "id": "6632762821017146486",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632762821017146486/?year=2026",
+ "fetched_at": "2026-11-20T15:40:40+00:00",
+ "title": "TokyoDrifters",
+ "team": "TokyoDrifters",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyo Drifters」は、緑の多い道や安全な道など好みに合わせた新しい散歩コースを提案する散歩ナビ。いつもと違う道やテーマに沿った道を歩きたくても自分で一つひとつ調べてルートを選ぶのは手間がかかるという課題に対応。街路樹・緑被分布・犯罪統計・標高等オープンデータ31万件超をスコア化し、緑・安全・平坦・テーマの好みをスライダーで選ぶだけでルートを自動提案する。チャットで「パン屋を巡りたい」等の要望を伝えると生成AIがその場でルートに反映する仕組み。Next.js（TypeScript）で構築し、Anthropic Claude APIで自然言語をルート検索パラメータへの構造化出力に変換している。",
+ "open_data_items": [
+  {
+   "name": "都道の街路樹",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "緑のオープンデータ（緑被分布GIS）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "犯罪認知件数・町丁別（警視庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000034"
+  },
+  {
+   "name": "水飲み場（東京都水道局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "東京都指定文化財",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+  },
+  {
+   "name": "公衆トイレ一覧（各区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=公衆トイレ"
+  },
+  {
+   "name": "行政区域 N03（国交省）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html"
+  },
+  {
+   "name": "位置参照情報 ISJ（国交省）",
+   "url": "https://nlftp.mlit.go.jp/isj/index.html"
+  },
+  {
+   "name": "鉄道駅データ（ODPT）",
+   "url": "https://ckan.odpt.org/dataset"
+  },
+  {
+   "name": "AED設置箇所一覧（各区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=AED"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=公衆トイレ",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=AED"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html",
+  "https://nlftp.mlit.go.jp/isj/index.html",
+  "https://ckan.odpt.org/dataset"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=5018",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

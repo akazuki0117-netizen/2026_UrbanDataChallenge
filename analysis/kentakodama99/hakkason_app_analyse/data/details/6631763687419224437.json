@@ -1,0 +1,36 @@
+{
+ "id": "6631763687419224437",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631763687419224437/?year=2026",
+ "fetched_at": "2026-11-20T15:35:45+00:00",
+ "title": "CO2みえる化",
+ "team": "チームimg",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「CO₂みえる化」は、日々の移動によるCO₂排出量を可視化し環境貢献を実感できるWebアプリ。東京都のカーボンハーフ目標に対し2024年度時点で28.6%減にとどまり、企業向けのCO2削減ツールはあっても個人向けはほとんど見つからないという課題に対応。出発地・目的地・移動手段を入力すると移動距離からCO2排出量を算出し、東京都平均や自動車利用時との比較、削減量、樹木換算などを表示する。過去の移動履歴もグラフで振り返れる。HTML/CSS/JavaScriptでスマートフォン向けに構築し、OpenRouteService APIを利用、ChatGPTと構想・実装を細かいステップに分けながら進めた。",
+ "open_data_items": [
+  {
+   "name": "温室効果ガス2024年度速報値",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/2024sokuhou"
+  },
+  {
+   "name": "東京都の人口推計",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js266a0000.xlsx"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kankyo.metro.tokyo.lg.jp/documents/d/kankyo/2024sokuhou",
+  "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js266a0000.xlsx"
+ ],
+ "demo_url": "https://carbon-coach.tokyo-odh-066.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://carbon-coach.tokyo-odh-066.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3506",
+ "image_count": 3,
+ "notes": ""
+}

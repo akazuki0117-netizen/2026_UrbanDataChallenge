@@ -1,0 +1,47 @@
+{
+ "id": "6632805950428856186",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632805950428856186/?year=2026",
+ "fetched_at": "2026-11-20T15:43:40+00:00",
+ "title": "ライフコンパス東京",
+ "team": "浦安ライフ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ライフコンパス東京」は、日本・東京都の使える制度を示すことで自分の人生をどうしたいか描けるようにするWebアプリ。仕事・家庭・個人の生活すべてを大切にしたいと望む人が34%いる一方仕事を優先している人が32%おり、自分がどこまで制度を使えるかを知らないまま選択肢を狭めてしまうという課題に対応。結婚・妊娠・出産・育休等の予定を一つの時間軸に置き依存関係を保ったまま何度でも描き直せ、育休延長可能期間等の制度情報は国・東京都いずれの制度かを明示し出典付きで表示する。対話型AIも制度情報のみを根拠に答え平均値のような比較は行わない設計。将来のモバイル展開も見据えFlutterとFirebaseで構築し、GeminiのFunction Callingでタイムライン操作と制度情報照会を行う対話型AIを実装した。",
+ "open_data_items": [
+  {
+   "name": "男女雇用平等参画状況調査（令和7年度・東京都産業労働局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000056"
+  },
+  {
+   "name": "男女平等参画に関する世論調査（令和2年度・東京都）",
+   "url": "https://www.spt.metro.tokyo.lg.jp/tosei/hodohappyo/press/2021/03/29/01.html"
+  },
+  {
+   "name": "東京都不妊検査等助成事業（東京都福祉局）",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kodomo/kosodate/josei/funinkensa/gaiyou.html"
+  },
+  {
+   "name": "子育て支援制度レジストリ（東京デジタル2030ビジョン・東京都デジタルサービス局、参考出典）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000056",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [
+  "https://www.spt.metro.tokyo.lg.jp/tosei/hodohappyo/press/2021/03/29/01.html",
+  "https://www.fukushi.metro.tokyo.lg.jp/kodomo/kosodate/josei/funinkensa/gaiyou.html"
+ ],
+ "demo_url": "https://my-career-app-559fd.web.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://my-career-app-559fd.web.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4753",
+ "image_count": 3,
+ "notes": ""
+}

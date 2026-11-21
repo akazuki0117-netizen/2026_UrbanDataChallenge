@@ -1,0 +1,72 @@
+{
+ "id": "6628822313851554196",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628822313851554196/?year=2026",
+ "fetched_at": "2026-11-20T15:33:44+00:00",
+ "title": "みらい交通図（子アプリ: みらいナビ）",
+ "team": "Cyclix-Agents",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "東京全域の鉄道・都営バスを実時刻で動かす交通デジタルツイン。運行情報は事実の通知にとどまり、混雑表示も過去平均か直近実測で「これから」を予測できないという課題に対応。オープンデータを同化した全車両を1秒ごとに動かす物理シミュレーションで、運転見合わせを入れると待ち客が実在の乗換経路へ流れる「混雑の連鎖」を創発させ、数分後・十数分後の人数まで数字で算出する。子アプリ「みらいナビ」は混雑予測つきの経路案内で、震度5弱検知時には同じ画面のまま避難ナビへ自動切り替わり、浸水予想区域図から想定1m以上での駅閉鎖連鎖まで再現する。FastAPI+Redisで1秒周期の物理計算を処理し、開発の中核にはClaude Codeを用いた。",
+ "open_data_items": [
+  {
+   "name": "東京都交通局 都営バス・都営地下鉄オープンデータ（公共交通オープンデータセンター提供）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052"
+  },
+  {
+   "name": "公共交通オープンデータセンター（列車・バス位置、時刻表、乗降者数／ODPT API v4）",
+   "url": "https://ckan.odpt.org/dataset"
+  },
+  {
+   "name": "浸水予想区域図 浸水深・地盤高データ（東京都建設局・全14区域）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "災害時給水ステーション（給水拠点）一覧（東京都水道局）",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "指定緊急避難場所・指定避難所データ（国土地理院）",
+   "url": "https://hinanmap.gsi.go.jp/hinanjocp/hinanbasho/koukaidate.html"
+  },
+  {
+   "name": "国土数値情報 鉄道データ（N02・全国594路線10,164駅）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2022.html"
+  },
+  {
+   "name": "国土数値情報 駅別乗降客数データ（S12・7,435駅）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v3_1.html"
+  },
+  {
+   "name": "気象庁 防災情報（天気予報・警報／bosai JSON）",
+   "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+  },
+  {
+   "name": "P2P地震情報 API v2（気象庁発表の地震情報を中継",
+   "url": "https://api.p2pquake.net/v2/history"
+  },
+  {
+   "name": "国土交通省 交通量API（JARTIC オープン交通データ・5分値）",
+   "url": "https://www.jartic-open-traffic.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset",
+  "https://hinanmap.gsi.go.jp/hinanjocp/hinanbasho/koukaidate.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2022.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-v3_1.html",
+  "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+  "https://api.p2pquake.net/v2/history",
+  "https://www.jartic-open-traffic.org/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4026",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

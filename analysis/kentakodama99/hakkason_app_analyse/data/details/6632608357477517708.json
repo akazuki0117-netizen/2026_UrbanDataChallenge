@@ -1,0 +1,31 @@
+{
+ "id": "6632608357477517708",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632608357477517708/?year=2026",
+ "fetched_at": "2026-11-20T15:38:11+00:00",
+ "title": "AED SWEEPER",
+ "team": "といと",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "地図の上でマインスイーパーを遊ぶウェブアプリで、東京都オープンデータのAED設置場所を「地雷」に見立てたゲーム。AEDは多数設置されているが日常的に意識する機会がなく使い方も知らないという課題に対応。地雷を踏んでもゲームオーバーにはならずタイムペナルティとともにAEDの使い方チェックリストがポップアップ表示され、場所と使い方の両方を自然に覚えられる。CSV/Excelを読み込めば東京23区どこでも同じ仕組みで遊べる。HTML/CSS/JavaScriptの単一ファイルでLeaflet.jsとOpenStreetMapを用いて実装し、主にClaudeを使用した。",
+ "open_data_items": [
+  {
+   "name": "【江東区】AED設置箇所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000027"
+  },
+  {
+   "name": "【豊島区】AED設置箇所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131164d0000000001/resource/439359e4-3e78-403d-be52-81d271dbd91f"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000027",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131164d0000000001/resource/439359e4-3e78-403d-be52-81d271dbd91f"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3022",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

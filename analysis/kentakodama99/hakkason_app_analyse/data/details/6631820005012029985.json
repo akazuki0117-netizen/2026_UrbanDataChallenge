@@ -1,0 +1,67 @@
+{
+ "id": "6631820005012029985",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631820005012029985/?year=2026",
+ "fetched_at": "2026-11-20T15:35:52+00:00",
+ "title": "まもチャリ東京",
+ "team": "ねここねこ委員会",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まもチャリ東京」は、自転車向け候補ルートを最大3件提示し過去の事故地点との近接や駐輪場情報を同じ画面で比較できるWeb／iOSサービス。最短・最速の経路だけでは過去の事故傾向や到着後に停められる場所まで判断できず、事故・駐輪場情報は提供主体ごとに分かれ座標や形式も不揃いという課題に対応。警察庁の自転車等関与事故2,141件、座標を確認できた公営駐輪場87施設をOpenStreetMapの行政界と空間照合し、候補ごとに距離・所要時間・事故地点との近接数を並べる。現在は東京東部6区に対応し順次拡大予定。TypeScript/React/ViteとSwiftUIで構築し、OpenAI Codexで要件整理から実装まで活用した。",
+ "open_data_items": [
+  {
+   "name": "警察庁「交通事故統計情報のオープンデータ」2024年",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2024/opendata_2024.html"
+  },
+  {
+   "name": "江東区「公営駐輪場一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000013"
+  },
+  {
+   "name": "墨田区「公営駐輪場一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000140"
+  },
+  {
+   "name": "中央区「公営駐輪場一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000022"
+  },
+  {
+   "name": "台東区「公営駐輪場一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000388"
+  },
+  {
+   "name": "荒川区「公営駐輪場一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131181d0000000008"
+  },
+  {
+   "name": "葛飾区「公営駐輪場一覧・施設一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000013"
+  },
+  {
+   "name": "OpenStreetMap（道路・行政界）",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000013",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000140",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000022",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000388",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131181d0000000008",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000013"
+ ],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2024/opendata_2024.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://mamochari-tokyo.tokyo-odh-456.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mamochari-tokyo.tokyo-odh-456.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=878",
+ "image_count": 3,
+ "notes": ""
+}

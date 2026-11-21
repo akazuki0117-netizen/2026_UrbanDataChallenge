@@ -1,0 +1,46 @@
+{
+ "id": "6632811589688313172",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811589688313172/?year=2026",
+ "fetched_at": "2026-11-20T15:45:44+00:00",
+ "title": "かえりどき",
+ "team": "Optims",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「かえりどき」は、東京都内の大規模イベント終了後に発生する駅混雑を予測し安全な帰宅行動を支援するWebサービス。2023年隅田川花火大会には約103万人が来場し浅草駅で柵の破損や救急搬送も報じられたという課題に対応。イベント一覧から詳細を開くと駅ごとの混雑度と滞留人数を5分単位で地図上にアニメーション表示、目的地の路線・駅を選ぶと混雑を考慮した推奨駅・出発時刻と理由を提示する。退場カーブと待ち行列モデルで駅別混雑を5分単位で推計し人の集中を時間と場所の両面で分散させる設計。TypeScriptとMapLibre GL JS、Cloudflare Workersで構築した。",
+ "open_data_items": [
+  {
+   "name": "4-8 JRの駅別乗車人員",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2023/tn23qv040800.csv"
+  },
+  {
+   "name": "東京ビッグサイトのイベント情報（株式会社東京ビッグサイト／CC BY）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/tokyobigsight/tokyobigsighteventinformation.csv"
+  },
+  {
+   "name": "墨田区 行政基礎資料集（令和2年度版）11 観光（墨田区／CC BY）",
+   "url": "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/gyoseikisosiryo/20200401/11_kankou.files/11-4.xlsx"
+  },
+  {
+   "name": "4-14(2) 都営地下鉄の運輸成績（在籍車両数）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2023/tn23qv041402.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2023/tn23qv040800.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/tokyobigsight/tokyobigsighteventinformation.csv",
+  "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/gyoseikisosiryo/20200401/11_kankou.files/11-4.xlsx",
+  "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2023/tn23qv041402.csv"
+ ],
+ "demo_url": "https://kaeridoki.odh-crowd.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kaeridoki.odh-crowd.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=5252",
+ "image_count": 3,
+ "notes": ""
+}

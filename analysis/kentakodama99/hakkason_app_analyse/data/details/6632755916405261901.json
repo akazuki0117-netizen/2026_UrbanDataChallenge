@@ -1,0 +1,36 @@
+{
+ "id": "6632755916405261901",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632755916405261901/?year=2026",
+ "fetched_at": "2026-11-20T15:40:14+00:00",
+ "title": "都民のための浸水リスク＆避難ナビ - トウNavi",
+ "team": "Project トウNavi",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Project トウNavi」は、住所入力だけで浸水リスクと避難行動を案内するWebアプリ。ゲリラ雷雨等の頻発で水害リスクの把握と早期避難の必要性が高まる一方、従来のハザードマップでは切迫した状況下で自分の住所の浸水深や避難先を瞬時に判断できないという課題に対応。住所を入力するとピンポイントの浸水予想深や最寄りの避難場所をマップ上に可視化し、生成AIが浸水リスクに応じた具体的な避難行動アドバイスを自動生成する。避難直前チェックリストや共有機能も備える。単一HTML構成で通信混雑時でも高速表示できるようにし、Cloudflare Workers AIのLlama 3 8Bで行動アドバイスを生成した。",
+ "open_data_items": [
+  {
+   "name": "130001_evacuation_center.csv",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+  },
+  {
+   "name": "130001_evacuation_area.csv",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv"
+  },
+  {
+   "name": "shinsui_akikawa(2).csv",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R4/shinsui_akikawa(2).csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R4/shinsui_akikawa(2).csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2027",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

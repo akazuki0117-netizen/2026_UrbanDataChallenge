@@ -1,0 +1,31 @@
+{
+ "id": "6631355774826414134",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631355774826414134/?year=2026",
+ "fetched_at": "2026-11-20T15:35:31+00:00",
+ "title": "東京オープンデータサイトをチャットで壁打ち",
+ "team": "koikoi",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都オープンデータを対話形式で探索できる「コンシェルジュ型検索エージェント」。約7万件のデータセットは専門用語で整理されている一方、都民の困りごとは「夜道が暗い」等の抽象的な自然文で表現されるというギャップが課題。自然文で相談すると生成AIが意図を分析し必要に応じて逆質問しながら具体化、確定した意図でセマンティック検索とAPI検索を横断し出典付きで回答する。MCP接続でClaude等の外部AIチャットからも同じ探索体験を利用できる。対話で意図を絞り込むエージェント構成とし、生成AIを意図推定と逆質問の役割に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京オープンデータサイト",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/search"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://spec.api.metro.tokyo.lg.jp/spec/search"
+ ],
+ "demo_url": "https://hello-koi.koikoi345.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hello-koi.koikoi345.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=5259",
+ "image_count": 2,
+ "notes": ""
+}

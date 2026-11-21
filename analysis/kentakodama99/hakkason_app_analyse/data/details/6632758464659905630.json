@@ -1,0 +1,51 @@
+{
+ "id": "6632758464659905630",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632758464659905630/?year=2026",
+ "fetched_at": "2026-11-20T15:40:22+00:00",
+ "title": "交通空白マップ",
+ "team": "攻殻分析隊",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「交通空白マップ」は、自治体の交通担当者が居住地からバス停・鉄道駅までの徒歩到達性と影響人口を確認する意思決定支援ダッシュボード。停留所の位置図や人口分布だけでは道路のつながりや迂回を踏まえた「どの居住地から公共交通へ歩いて届きにくいか」を同じ基準で把握できないという課題に対応。250mメッシュの人口を建物へ配分し歩行可能道路上の最短徒歩時間を計算、10分超または到達不能な建物を交通空白と判定し人口加重で再集計して東京都全域・市区町村別に可視化する。未評価地域とデータ品質も分離表示する誠実な設計。Python 3.12でosmium・Shapely・NetworkXを用いたパイプラインを構築し、OpenAI Codexを要件整理からテストコードまで活用した。",
+ "open_data_items": [
+  {
+   "name": "国土数値情報 250mメッシュ別将来推計人口（2024年度作成・2025年推計）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh250r6.html"
+  },
+  {
+   "name": "国土数値情報 行政区域データ N03（2026年）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html"
+  },
+  {
+   "name": "国土数値情報 バス停留所データ P11（2022年、東京・隣接4県）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-2022.html"
+  },
+  {
+   "name": "国土数値情報 鉄道データ N02（2025年）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html"
+  },
+  {
+   "name": "OpenStreetMap／Geofabrik 関東地方PBF",
+   "url": "https://download.geofabrik.de/asia/japan/kanto.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh250r6.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-2022.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html",
+  "https://download.geofabrik.de/asia/japan/kanto.html"
+ ],
+ "demo_url": "https://tokyo-transport-gap.tokyo-odh-455.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-transport-gap.tokyo-odh-455.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4451",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,77 @@
+{
+ "id": "6632587616912138944",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632587616912138944/?year=2026",
+ "fetched_at": "2026-11-20T15:38:01+00:00",
+ "title": "Remotelife Tokyo",
+ "team": "Metropolitan(s)",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「RemoteLife Tokyo」は、リモートワークのしやすさで都内53市区町村を比較できる可視化地図サービス。リモートワーカーは近隣の騒音が仕事に響く、孤独を感じる等の悩みを抱えるが、静けさや人とつながる機会の差を示すデータは分散していたという課題に対応。しずけさ・いきぬき・しごとば・くらしのコスト・つながりの5軸で各自治体をスコア化し地図の色分けとランキングで示し、重みはスライダーで「静かさ重視」等ライフスタイルに合わせて変更できる。自治体を選ぶとスコア根拠の実数値と出典まで確認できる誠実な設計。Python（pandas, GeoPandas）で空間結合を実装し、Claude Codeに「欠損を0で埋めない」等の規約をCLAUDE.mdで課した。",
+ "open_data_items": [
+  {
+   "name": "自動車交通騒音調査結果（東京都環境局）平成20〜25年度",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d1900000003"
+  },
+  {
+   "name": "緑のオープンデータ（GISデータ）（東京都都市整備局）令和8年2月2日時点",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "土地利用細分メッシュ（国土数値情報 L03-b）（国土交通省）平成28年度",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L03-b.html"
+  },
+  {
+   "name": "PM2.5（微小粒子状物質）モニタリングデータ（1分値）（東京都環境局）2025年6月〜2026年5月",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000067"
+  },
+  {
+   "name": "「TOKYOテレワークアプリ」掲載サテライトオフィス一覧データ（東京都産業労働局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000019"
+  },
+  {
+   "name": "施設関連情報_図書館（東京都教育庁）令和3年3月",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000003"
+  },
+  {
+   "name": "地価公示（東京都分）（東京都財務局）令和8年地価公示",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d0000000004"
+  },
+  {
+   "name": "特定非営利活動法人（NPO法人）情報（東京都生活文化スポーツ局）月次更新",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000052"
+  },
+  {
+   "name": "東京都統計年鑑 令和5年 17 教育・文化・スポーツ（表17-8 社会教育事業数）（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001028"
+  },
+  {
+   "name": "東京都の人口（推計）（東京都総務局）令和8年6月1日現在",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001136"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d1900000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000067",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d0000000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000052",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001136"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L03-b.html"
+ ],
+ "demo_url": "https://tiny-surf-65f3.syut-htnk-dev.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tiny-surf-65f3.syut-htnk-dev.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2370",
+ "image_count": 3,
+ "notes": ""
+}

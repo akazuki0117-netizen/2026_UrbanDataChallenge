@@ -1,0 +1,77 @@
+{
+ "id": "6632810004229438306",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810004229438306/?year=2026",
+ "fetched_at": "2026-11-20T15:44:51+00:00",
+ "title": "奥多摩 空き家可視化プロジェクト",
+ "team": "奥多摩空き家ラボ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "奥多摩の空き家に法務省の登記所備付地図から位置情報を付与し土砂災害情報等を物件単位で統合・可視化するサービス。奥多摩には多くの空き家があるが所有者は「良く知らない人に売るのが嫌だ」と抵抗感を持ち、奥多摩が好きな買い手であれば売却に動くきっかけになるという着想に対応。地籍調査が終わっていない山間地域では住所検索だけでは正確な位置取得が難しいため登記所備付地図を位置特定基盤として採用し、釣り・キャンプ等の観光情報から近隣空き家へ誘導する。座標を共通キーに国・都の異なるデータを重ねる設計。ClaudeとChatGPTでコーディングし、Geminiや視覚対応言語モデルGemma4でデータ整備と物件特定・分類を自動化した。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）奥多摩町（2025年度）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13308-okutama-machi-2025"
+  },
+  {
+   "name": "西多摩郡奥多摩町（東京法務局西多摩支局）登記所備付地図データ",
+   "url": "https://www.geospatial.jp/ckan/dataset/houmusyouchizu-2026-1-729"
+  },
+  {
+   "name": "地震ハザード情報提供API",
+   "url": "https://www.j-shis.bosai.go.jp/api-pshm-meshinfo"
+  },
+  {
+   "name": "東京都土砂災害警戒区域等GISデータ",
+   "url": "https://d-keikai.metro.tokyo.lg.jp/MapKeikai"
+  },
+  {
+   "name": "国土地理院地図",
+   "url": "https://cyberjapandata.gsi.go.jp/"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口 令和8年1月",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26q10501.htm"
+  },
+  {
+   "name": "環境省 生物多様性センター「国立公園区域等」",
+   "url": "https://www.biodic.go.jp/nps_nwp_nca_cz.html"
+  },
+  {
+   "name": "奥多摩町下水道整備状況図(俯瞰図)",
+   "url": "https://www.town.okutama.tokyo.jp/1/kankyoka/zaiseijokyo/559.html"
+  },
+  {
+   "name": "不動産情報ライブラリ",
+   "url": "https://www.reinfolib.mlit.go.jp/help/apiManual/"
+  },
+  {
+   "name": "施設関連情報_奥多摩町",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000151/resource/0dee8484-a5f5-40bb-86a0-1115768e9593"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000151/resource/0dee8484-a5f5-40bb-86a0-1115768e9593"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-13308-okutama-machi-2025",
+  "https://www.geospatial.jp/ckan/dataset/houmusyouchizu-2026-1-729",
+  "https://www.j-shis.bosai.go.jp/api-pshm-meshinfo",
+  "https://d-keikai.metro.tokyo.lg.jp/MapKeikai",
+  "https://cyberjapandata.gsi.go.jp/",
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26q10501.htm",
+  "https://www.biodic.go.jp/nps_nwp_nca_cz.html",
+  "https://www.town.okutama.tokyo.jp/1/kankyoka/zaiseijokyo/559.html",
+  "https://www.reinfolib.mlit.go.jp/help/apiManual/"
+ ],
+ "demo_url": "https://okutama-fudosan.jp/tourist_spot/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://okutama-fudosan.jp/tourist_spot/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=4872",
+ "image_count": 2,
+ "notes": ""
+}

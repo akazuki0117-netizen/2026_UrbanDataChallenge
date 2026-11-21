@@ -1,0 +1,24 @@
+{
+ "id": "6631903210317972937",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631903210317972937/?year=2026",
+ "fetched_at": "2026-11-20T15:36:25+00:00",
+ "title": "東京くらしごとナビ",
+ "team": "Kirari-TokyoNodeB",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京くらしごとナビ」は、50代以上が住まい・仕事・生活上の相談先を探すための情報ナビ。年齢を重ねると住まいや仕事、生活の困りごとに関する相談先を見つけにくく情報が複数のサイトに分散しITに不慣れな人ほど負担が大きいという課題に対応。「住まいを探す」「お仕事を探す」「相談先を探す」の3入口から情報へ案内し、東京ささエール住宅や都の専門窓口へつなげる。文字入力が苦手なシニア向けに窓口向け問い合わせ例文を自動生成する。HTML/CSS/JSでCloudflareにデプロイし、Gemini・GitHub・manus等複数の生成AIをシニアの親しみやすさと公的窓口への正確な伝達の両立に活用した。",
+ "open_data_items": [],
+ "open_data_urls": [],
+ "external_data_urls": [],
+ "demo_url": "https://tokyo-kurashigoto-navi3.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-kurashigoto-navi3.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3452",
+ "image_count": 2,
+ "notes": "利用データ URL なし"
+}

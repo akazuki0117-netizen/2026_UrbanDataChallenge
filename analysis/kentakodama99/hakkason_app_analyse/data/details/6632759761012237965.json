@@ -1,0 +1,71 @@
+{
+ "id": "6632759761012237965",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632759761012237965/?year=2026",
+ "fetched_at": "2026-11-20T15:40:25+00:00",
+ "title": "通れるーと",
+ "team": "はせがわ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「通れるーと（PATHABLE）」は、塞がった道を避けて最寄り避難所や目的地まで歩ける経路を示すWebアプリ。既存の地図アプリは経路上の階段や歩道橋の有無を示さずそれらを回避した経路も提示できず、災害時の通行実績共有も車両プローブに依存し徒歩や車椅子で通れる道とは限らないという課題に対応。階段・急坂・歩道橋・地下道などの回避条件を選ぶとその人にとって通れるルートを提示し、現場で通行不能な区間を地図上で指定するとその場で迂回経路を再計算、写真付きで他利用者と共有できる。PLATEAU 3Dの学習版とOSMの簡易版を切り替えられる設計。MapLibre GL＋OpenFreeMapで構築し、Claudeでアイデア出しと先行事例調査、Cursorで実装を進めた。",
+ "open_data_items": [
+  {
+   "name": "PLATEAU 交通 LOD3（東京都複合 3D Tiles）",
+   "url": "https://api.plateauview.mlit.go.jp/datacatalog/3dtiles/13-tran-lod3-latest/tileset.json"
+  },
+  {
+   "name": "PLATEAU 建築物 LOD2（東京都複合 3D Tiles）",
+   "url": "https://api.plateauview.mlit.go.jp/datacatalog/3dtiles/13-bldg-lod2-notexture-latest/tileset.json"
+  },
+  {
+   "name": "OpenStreetMap（歩行ネットワーク）",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "OpenFreeMap（OSMベクタタイル）",
+   "url": "https://tiles.openfreemap.org/styles/liberty"
+  },
+  {
+   "name": "東京都 避難場所・避難所等",
+   "url": "https://github.com/taisukef/tokyo_evacuation"
+  },
+  {
+   "name": "指定緊急避難場所・避難所（埼玉・千葉・神奈川／国土地理院系）",
+   "url": "https://motohasystem.github.io/jp-shelter-api/"
+  },
+  {
+   "name": "国土地理院 標高API",
+   "url": "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php"
+  },
+  {
+   "name": "アドレス・ベース・レジストリ（ABR）",
+   "url": "https://www.digital.go.jp/policies/base_registry_address"
+  },
+  {
+   "name": "国土地理院 住所検索",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://api.plateauview.mlit.go.jp/datacatalog/3dtiles/13-tran-lod3-latest/tileset.json",
+  "https://api.plateauview.mlit.go.jp/datacatalog/3dtiles/13-bldg-lod2-notexture-latest/tileset.json",
+  "https://www.openstreetmap.org/",
+  "https://tiles.openfreemap.org/styles/liberty",
+  "https://github.com/taisukef/tokyo_evacuation",
+  "https://motohasystem.github.io/jp-shelter-api/",
+  "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php",
+  "https://www.digital.go.jp/policies/base_registry_address",
+  "https://msearch.gsi.go.jp/address-search/AddressSearch"
+ ],
+ "demo_url": "https://pathable.tokyo-odh-112.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://pathable.tokyo-odh-112.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3701",
+ "image_count": 3,
+ "notes": ""
+}

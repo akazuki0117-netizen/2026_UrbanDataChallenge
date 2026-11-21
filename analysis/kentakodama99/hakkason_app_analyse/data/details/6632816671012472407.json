@@ -1,0 +1,76 @@
+{
+ "id": "6632816671012472407",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632816671012472407/?year=2026",
+ "fetched_at": "2026-11-20T15:46:48+00:00",
+ "title": "となりの分別",
+ "team": "微々タル進捗",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都内33自治体のごみ分別オープンデータを突き合わせ、自治体をまたぐと出し方が変わる品目を一目で分かるようにするサービス。引っ越しで分類を覚え直す必要があるが本当に確認が必要なのは扱いが変わった品目だけで、2つの一覧を自分で突き合わせる負担が大きいという課題に対応。引っ越し前後の自治体を選ぶと差分だけを表示、実際の分別データを使った4択クイズで違いを学べる。品目名の表記ゆれを吸収する照合キーで33自治体の分別区分文字列817種を9つの共通クラスに寄せた。ブラウザ完結でPythonでデータ正規化を行い、ChatGPT(Codex)とClaudeをアイデア出しからライセンスチェックまで全面活用した。",
+ "open_data_items": [
+  {
+   "name": "千代田区 ゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d0000000010"
+  },
+  {
+   "name": "中央区 ゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000038"
+  },
+  {
+   "name": "港区 港区ごみと資源の分別品目",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000166"
+  },
+  {
+   "name": "新宿区 新宿区のゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000129"
+  },
+  {
+   "name": "文京区 ごみと資源の分別品目",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0110060002"
+  },
+  {
+   "name": "墨田区 ゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000142"
+  },
+  {
+   "name": "江東区 ゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000008"
+  },
+  {
+   "name": "品川区 ゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000161"
+  },
+  {
+   "name": "世田谷区 ごみの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d0000000012"
+  },
+  {
+   "name": "中野区 ごみ分別一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d0000000010",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000038",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000166",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000129",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0110060002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000142",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000008",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000161",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tokyo-odh-gomi-diff.tokyo-odh-332.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-odh-gomi-diff.tokyo-odh-332.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1416",
+ "image_count": 2,
+ "notes": ""
+}

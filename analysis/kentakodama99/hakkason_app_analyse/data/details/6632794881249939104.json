@@ -1,0 +1,62 @@
+{
+ "id": "6632794881249939104",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632794881249939104/?year=2026",
+ "fetched_at": "2026-11-20T15:42:27+00:00",
+ "title": "こしたら",
+ "team": "ちーむあらいず",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "引っ越し前後の住所と世帯構成を入力するとごみ出し・子育て支援・行政手続き・防災・公共施設について何が変わるかをBefore→Afterで示すスマホ向けWebサービス。引っ越すと情報が一斉に変わるが東京都オープンデータ・自治体データ・公式Webページに分散し名称・形式・更新頻度もバラバラで見落としが起きやすいという課題に対応。検証済みの公開データを自動で突き合わせ暮らしの変化点を提示し、役所への届出等やるべきことだけを抽出した「やること一覧」を示す。生成AIは事実を作らず追加質問の選定と重要な差分の選定に役割を限定する設計。React+ViteとPython+FastAPIで構築し、Claude Codeで生成AI駆動開発を高速化した。",
+ "open_data_items": [
+  {
+   "name": "江東区 資源回収・ごみ収集日一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000009"
+  },
+  {
+   "name": "世田谷区 ゴミ分別",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d3000000001/resource/78ebcea1-225f-4464-9134-c45168327606"
+  },
+  {
+   "name": "江東区 公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000024"
+  },
+  {
+   "name": "世田谷区 乳幼児健康診査・予防接種情報",
+   "url": "https://www.city.setagaya.lg.jp/documents/1201/1.pdf"
+  },
+  {
+   "name": "世田谷区 小学校学区データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/79520894-26c0-4455-9722-634e4b643821/resource/7bc10a2a-9898-4348-8169-4ab8436d6cec"
+  },
+  {
+   "name": "東京都防災マップ 避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/14110fe5-0415-4d07-86ef-ec9841f10896/resource/000e8e10-a6d7-4eb4-8a1e-b22f56aa8b02"
+  },
+  {
+   "name": "江東区 ゴミの分別方法一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000008"
+  },
+  {
+   "name": "江東区 出産手当・妊娠出産関連制度",
+   "url": "https://www.city.koto.lg.jp/260501/kodomo/ninshinshussan/ninshin/97552.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000009",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d3000000001/resource/78ebcea1-225f-4464-9134-c45168327606",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/79520894-26c0-4455-9722-634e4b643821/resource/7bc10a2a-9898-4348-8169-4ab8436d6cec",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/14110fe5-0415-4d07-86ef-ec9841f10896/resource/000e8e10-a6d7-4eb4-8a1e-b22f56aa8b02",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000008"
+ ],
+ "external_data_urls": [
+  "https://www.city.setagaya.lg.jp/documents/1201/1.pdf",
+  "https://www.city.koto.lg.jp/260501/kodomo/ninshinshussan/ninshin/97552.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4286",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

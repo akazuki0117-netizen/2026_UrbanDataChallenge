@@ -1,0 +1,77 @@
+{
+ "id": "6630328126706408234",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630328126706408234/?year=2026",
+ "fetched_at": "2026-11-20T15:34:21+00:00",
+ "title": "くらしの道しるべ",
+ "team": "ssuga",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "くらしの「どうすればいい？」に東京都のオープンデータからその場で答えを返すポータル。ごみの分別は区市町村ごとに別サイトで引っ越すたびに覚え直しが必要、バリアフリー情報も都の複数局が別々に公開しているなど、情報が住民の困りごとの形に束ねられていないという課題に対応。困りごとをそのまま入力するとAIがどの画面で答えるか判定し、ごみ分別・犯罪認知件数・施設案内・バリアフリー検索の4分野を横断的に提供、答えられないことは正直に伝えた上で担当の公式サービスへ案内する。出典・時点・カバー範囲を型として必須にし書き忘れるとコンパイルが通らない設計。Next.js 16とCloudflare Workers AIで構築し、AIには意図判定と品目名抽出のみを担わせ回答本文は行政の公開値そのものとした。",
+ "open_data_items": [
+  {
+   "name": "区市町村の町丁別、罪種別及び手口別認知件数（年累計）（警視庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/da5fcba7-a382-4851-9aca-e800e44ff25b"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和7年度更新版）（東京都福祉局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/9d221d80-1006-4ef1-8155-266f854a4b62"
+  },
+  {
+   "name": "東京都内の飲食店のバリアフリー情報（東京都産業労働局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/5c4d5397-35ff-4679-8ae0-568b79a420e7"
+  },
+  {
+   "name": "地下鉄関連情報 バリアフリー設備（東京都交通局・都営4線）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kotsu/subway_barrierfree_asakusa.csv"
+  },
+  {
+   "name": "施設関連情報_図書館（東京都教育庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/6d5ff83a-d21f-4c6f-9536-ab14fb5e5139"
+  },
+  {
+   "name": "施設関連情報_青少年施設（東京都教育庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/5c0136be-6f68-484b-9aed-71b875b6bb71"
+  },
+  {
+   "name": "ゴミの分別方法一覧（立川市）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/tachikawa/132021_tachikawashi_garbage_separate.csv"
+  },
+  {
+   "name": "ごみ分別一覧（中野区）",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_5000769.csv"
+  },
+  {
+   "name": "ごみの分別方法一覧（世田谷区）",
+   "url": "https://www.city.setagaya.lg.jp/documents/22308/n6_131121_garbage_separation.csv"
+  },
+  {
+   "name": "地理院タイル 淡色地図（国土地理院）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/da5fcba7-a382-4851-9aca-e800e44ff25b",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/9d221d80-1006-4ef1-8155-266f854a4b62",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/5c4d5397-35ff-4679-8ae0-568b79a420e7",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/6d5ff83a-d21f-4c6f-9536-ab14fb5e5139",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/5c0136be-6f68-484b-9aed-71b875b6bb71"
+ ],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/kotsu/subway_barrierfree_asakusa.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/tachikawa/132021_tachikawashi_garbage_separate.csv",
+  "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_5000769.csv",
+  "https://www.city.setagaya.lg.jp/documents/22308/n6_131121_garbage_separation.csv",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://tokyo-kurashi-portal.tokyo-odh-039.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-kurashi-portal.tokyo-odh-039.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1528",
+ "image_count": 3,
+ "notes": ""
+}

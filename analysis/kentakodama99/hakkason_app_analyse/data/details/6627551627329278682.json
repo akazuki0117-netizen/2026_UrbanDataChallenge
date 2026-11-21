@@ -1,0 +1,36 @@
+{
+ "id": "6627551627329278682",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627551627329278682/?year=2026",
+ "fetched_at": "2026-11-20T15:33:03+00:00",
+ "title": "kyufy",
+ "team": "kyufy",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "事業形態・業種・従業員数・所在地の4項目を答えるだけで、jGrants掲載の補助金3,744制度から「対象になりうる制度」を該当・要確認・非該当の3値で判定するサービス。中小企業は自分が対象かを知りたいのに3,744制度を読み切れず、要件は制度ごとに別々のPDF公募要領に埋もれ開くまで対象か分からないという課題に対応。jGrants APIが公開する5軸のみで機械的に突き合わせ、判定もプロンプト生成もLLM呼び出しゼロで構造化データからの決定的な処理とした点が特徴。該当の根拠は全件列挙し、構造化データにない要件は結論ではなく確認すべき問いとして提示、申請サポート用プロンプトも出力できる。開発にはClaude Codeを使ったが、製品自体からは意図的にAIを排除している。",
+ "open_data_items": [
+  {
+   "name": "Jグランツ（補助金電子申請システム）公開API — 補助金一覧取得API / 補助金詳細取得API V2（デジタル庁）",
+   "url": "https://developers.digital.go.jp/documents/jgrants/api/"
+  },
+  {
+   "name": "日本標準産業分類（令和5年7月改定・第14版）分類項目表（総務省）",
+   "url": "https://www.soumu.go.jp/toukei_toukatsu/index/seido/sangyo/R05index.htm"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://developers.digital.go.jp/documents/jgrants/api/",
+  "https://www.soumu.go.jp/toukei_toukatsu/index/seido/sangyo/R05index.htm"
+ ],
+ "demo_url": "https://kyufy.com",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kyufy.com"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2847",
+ "image_count": 3,
+ "notes": ""
+}

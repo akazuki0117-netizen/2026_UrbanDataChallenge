@@ -1,0 +1,26 @@
+{
+ "id": "6632814068212459065",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632814068212459065/?year=2026",
+ "fetched_at": "2026-11-20T15:46:39+00:00",
+ "title": "Ecological Network Map ―生きものの道を、しらべる・そだてる―",
+ "team": "Teruka",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都のオープンデータ・衛星データ・地図データをもとに、指定した場所が生態系ネットワークの「空白」か「橋渡し役」かを診断するWebツール。都市には小さな自然が点在するが実際につながっているかは分からず、行政の生態系ネットワークマップはPDFで静的なため自分の家や庭がどう関わるか知る手段がなかったという課題に対応。住所や現在地を指定するとイトトンボ等の選んだ生きものにとっての診断結果と、花壇や在来樹木などの推奨アクションを表示する。見つけた自然は「そだてる」ページから記録でき市民科学的にデータを蓄積する仕組みも備える。サーバー不要の単一HTMLで構築し、Claudeと対話しながら座標変換や既存データの限界の修正を進めた。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータ：河川・運河、上水・用水、湖沼、干潟、湧水、崖線、市民農園・農業施設、都立公園等、大規模公園、都市公園に準ずるもの、植物園・動物園・水族園、庭園",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=255",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

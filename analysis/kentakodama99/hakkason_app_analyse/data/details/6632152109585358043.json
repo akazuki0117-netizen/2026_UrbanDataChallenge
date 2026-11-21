@@ -1,0 +1,31 @@
+{
+ "id": "6632152109585358043",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632152109585358043/?year=2026",
+ "fetched_at": "2026-11-20T15:37:07+00:00",
+ "title": "TOKYO 23 MATCHING",
+ "team": "Fertile",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "引っ越す人や10~20代をターゲットに23区のアイコンを押し地図にピンをさすと周辺施設によって点数をつけるアプリ。中野区の空き家問題との相性を意識し、既存の類似作品はデータの読み込みが速いが2回目以降使いたいと思えなかったという課題認識から改善を試みた。23区の良さを理解しつつ会社近くの場所を数値化し特定の施設や空き家を評価する際に役立てる。React+JavaScript+PythonでCkanのAPIやCSVを活用し、Gemini、Claude、GitHub Copilotを演出やAPI読み込み、画面表示で活用した。",
+ "open_data_items": [
+  {
+   "name": "実データ",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t000029d0000000027-5f9fbc489673b28d0c53946c67ef9ad8-0#:~:text=https%3A//data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_open_data_list.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://spec.api.metro.tokyo.lg.jp/spec/t000029d0000000027-5f9fbc489673b28d0c53946c67ef9ad8-0#:~:text=https%3A//data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_open_data_list.csv"
+ ],
+ "demo_url": "https://late-scene-dbea.k022c0001.workers.dev/relocation-map",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://late-scene-dbea.k022c0001.workers.dev/relocation-map"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=1344",
+ "image_count": 2,
+ "notes": ""
+}

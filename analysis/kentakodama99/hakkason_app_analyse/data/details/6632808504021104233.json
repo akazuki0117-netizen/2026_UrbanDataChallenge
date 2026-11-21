@@ -1,0 +1,46 @@
+{
+ "id": "6632808504021104233",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808504021104233/?year=2026",
+ "fetched_at": "2026-11-20T15:44:19+00:00",
+ "title": "Mori — 不登校の子どもを多角的に支えるケースコーディネーション基盤",
+ "team": "The Catcher in the Rye",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Mori」は、不登校の子どもに関わる保護者・学校・専門機関をつなぎ情報の分断を解消するケースコーディネーション基盤。東京都の不登校児童生徒数は約2.7万人で過去最多を更新しているが保護者は一人で情報を集め学校・SC・SSW・医療機関との連携は電話や紙ベースで分断されているという課題に対応。保護者や子どもは匿名で相談を投稿でき、トリアージ担当が緊急度を判定、コーディネーターが仮説生成・支援計画を一元管理する。専門コラムで養護教諭・心理士等が各自の視点から記事を執筆し「誰の解釈か」を明示、AIは複数視点の整理を補助し判断は常に人間が行う設計。React 19 + Vite 8とnpm依存ゼロのHTTPサーバー、SQLiteで構築した。",
+ "open_data_items": [
+  {
+   "name": "公立学校統計調査報告書【東京都公立学校一覧】",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+  },
+  {
+   "name": "東京都児童相談センター・児童相談所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000336"
+  },
+  {
+   "name": "青少年施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000002"
+  },
+  {
+   "name": "子ども食堂",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d3100000001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000336",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d3100000001"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://mori.tokyo-odh-149.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mori.tokyo-odh-149.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=5379",
+ "image_count": 3,
+ "notes": ""
+}

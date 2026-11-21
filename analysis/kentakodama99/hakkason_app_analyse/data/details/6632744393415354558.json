@@ -1,0 +1,41 @@
+{
+ "id": "6632744393415354558",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632744393415354558/?year=2026",
+ "fetched_at": "2026-11-20T15:39:57+00:00",
+ "title": "都知事！　多分！ ここで人手不足です！",
+ "team": "松xR",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都の予算を「無駄探し」ではなく「解くべき課題に対して実行体制が追いついているか」を見るデータに変えるWebサイト。都民は予算書から施策が実際の支出・実施まで届いたかを横断的に追うのが難しく、未使用額を単純に「無駄」と見ると需要変動や繰越と本当に見直すべき箇所が混ざるという課題に対応。2024年度決算を款・項・目まで分解し2026年度予算・公金支出と接続、執行ギャップ額約5,619億円を抽出し年度内対応余地の高い事業を絞り込む。原本と支払件名まで掘り下げられる設計。TypeScript/Node.jsでCloudflare Workers＋R2に構築し、OpenCodeやChatGPTでデータ仕様整理やコード生成を支援としつつ金額の確定はAIに任せなかった。",
+ "open_data_items": [
+  {
+   "name": "令和６年度東京都各会計歳入歳出決算書及び東京都各会計歳入歳出決算附属書類等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d1700000017"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d0000000005"
+  },
+  {
+   "name": "公金支出情報（一般会計・特別会計）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d0000000005"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d1700000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d0000000005"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tokyo-budget-execution-2026.matsuxr.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-budget-execution-2026.matsuxr.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=265",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6631329658913474990",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631329658913474990/?year=2026",
+ "fetched_at": "2026-11-20T15:35:27+00:00",
+ "title": "通学路危険箇所マップ 　街に潜むキケンを発見せよ。 　通学路アップデート大作戦。",
+ "team": "Bunta3",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "生徒が主役となって作る「参加型通学路安全マップ」。従来の通学路安全マップは年1回の紙へのシール貼りが主流で更新性が低く、警察の事故記録には事故に至らない潜在的リスクが反映されにくいという課題に対応。警察庁の交通事故統計と生徒がスマホで撮影した「リアルな危険箇所」を地図上に統合し、投票機能で対策すべき箇所の優先順位をランキング化する。生徒を「守られる対象」から「守り手」に変える探究学習・シチズンシップ教育としての活用も想定。ReactとTypeScript、FirebaseでリアルタイムなUIを構築し、Gemini 3.1 Proで地図クラスタリングやセキュリティルール策定を対話的に進めた。",
+ "open_data_items": [
+  {
+   "name": "交通事故統計情報のオープンデータ　CC BY　を改変",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+ ],
+ "demo_url": "https://school-route-danger-map-hackathon001.ai.studio/?mode=student",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://school-route-danger-map-hackathon001.ai.studio/?mode=student"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2626",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6632700453411457473",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632700453411457473/?year=2026",
+ "fetched_at": "2026-11-20T15:39:03+00:00",
+ "title": "勝手にイベント生成AI - 主催者がいても、いなくても。",
+ "team": "ボルとも！",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "AIが自動でイベントを生成し続けるプラットフォームで、ボルダリングを題材にした「ボルとも！」を実装。都内の65歳以上の23.2%が一人暮らしで、単発イベントは企画から運営まで少数の主催者に依存し主催者が集まらないとイベント自体が生まれないという課題に対応。過去の参加実績から人が集まりやすいジム×時間帯をAIが予測し日時・会場・想定人数を決めた枠を毎月自動生成、ユーザーは参加ボタンを押すだけで幹事役が不要になる。東京都89件を含む1都3県187ジムに対応し実サービスとして稼働中。PHP 8.4／Laravel 12で構築し、Google Gemini APIを毎月自動実行してAI枠生成の中核機能に活用した。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap（OSM）",
+   "url": "https://www.openstreetmap.org/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": "https://borutomo.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://borutomo.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=3517",
+ "image_count": 2,
+ "notes": ""
+}

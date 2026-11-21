@@ -1,0 +1,47 @@
+{
+ "id": "6632722169239911355",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632722169239911355/?year=2026",
+ "fetched_at": "2026-11-20T15:39:18+00:00",
+ "title": "HIKAGE TOKYO",
+ "team": "ほぼ都民",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「HIKAGE TOKYO」は、猛暑日の徒歩移動における熱中症リスクを軽減するため日陰や休憩・給水場所を考慮してルートを提案するWebサービス。一般的な経路検索は距離・所要時間中心で日陰の多さや休憩できる場所は十分に示されないという課題に対応。出発地・目的地・出発時刻を入力すると複数ルートの日陰率を比較でき、長時間の日向区間を検知すると休憩できる地点やタイミングを提案する。PLATEAUの3D建物データと太陽位置から日陰を自動計算し、CesiumJSで3D可視化、Claude Codeでフロントエンド開発とデータ加工を行った。",
+ "open_data_items": [
+  {
+   "name": "Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "クーリングシェルター・TOKYO クールシェアスポットのリスト",
+   "url": "https://wbgt.metro.tokyo.lg.jp/effort/coolshare/search.html"
+  },
+  {
+   "name": "都市公園・都立公園一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d2025000003"
+  },
+  {
+   "name": "PLATEAU",
+   "url": "https://www.mlit.go.jp/plateau/"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/#map=5/35.59/134.38"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d2025000003"
+ ],
+ "external_data_urls": [
+  "https://wbgt.metro.tokyo.lg.jp/effort/coolshare/search.html",
+  "https://www.mlit.go.jp/plateau/",
+  "https://www.openstreetmap.org/#map=5/35.59/134.38"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1901",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

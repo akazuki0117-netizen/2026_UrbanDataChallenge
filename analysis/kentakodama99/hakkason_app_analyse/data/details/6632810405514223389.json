@@ -1,0 +1,36 @@
+{
+ "id": "6632810405514223389",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810405514223389/?year=2026",
+ "fetched_at": "2026-11-20T15:45:00+00:00",
+ "title": "そとどき",
+ "team": "そとどき",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「そとどき」は、乳幼児のいる家族に「今なら出かけやすい60分」と行き先を1件だけ提案するサービス。家事と育児に追われ出かけ先を調べる時間も気力もなく、暑さ指数や授乳室の有無、子どもの生活リズムを親が毎回一人で突き合わせているという課題に対応。子どもの月齢や帰りたい時刻を登録すると暑さ指数・アメダス・板橋区のバリアフリーマップを自動で突き合わせ「14時に出て15時に帰る」等分単位の内訳付きで1件の行き先を提案する。候補を並べず1件に絞り比較検討の時間を親に与えない設計。React Native（Expo）でモバイルアプリとして構築し、Workers AIを推薦理由の文章化のみに限定し施設有無や気象判定はルールエンジンで判定した。",
+ "open_data_items": [
+  {
+   "name": "いたばしバリアフリーマップ",
+   "url": "https://www.city.itabashi.tokyo.jp/"
+  },
+  {
+   "name": "WBGT実況・予測（環境省）",
+   "url": "https://www.wbgt.env.go.jp/"
+  },
+  {
+   "name": "降水ナウキャスト・アメダス（気象庁 防災情報）",
+   "url": "https://www.jma.go.jp/bosai/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.itabashi.tokyo.jp/",
+  "https://www.wbgt.env.go.jp/",
+  "https://www.jma.go.jp/bosai/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1266",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

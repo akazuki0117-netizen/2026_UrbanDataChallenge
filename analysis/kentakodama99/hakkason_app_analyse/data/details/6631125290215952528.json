@@ -1,0 +1,41 @@
+{
+ "id": "6631125290215952528",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631125290215952528/?year=2026",
+ "fetched_at": "2026-11-20T15:35:08+00:00",
+ "title": "on.pa 地域カード",
+ "team": "on.pa",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都・区市町村の公開データを地域タイムライン上で投票できる「地域カード」に変換するサービス。行政データの元資料は統計表・PDF等に分散し理解・選択・意見表明まで進みにくく、匿名SNSの反応はbotや多重アカウントを含み実在住民の声として扱いにくいという課題に対応。マイナンバーカードで居住地域を市区町村単位に判定し対象地域の実在住民だけが一人一票で回答、投票後は同じ議題内でコメントできる。物価や民泊ルール等の行政の「事実」と地域住民の「選択・理由」を結びつける設計。Flutter/Dartで既存on.paに地域カードを実装し、OpenAI Codexを公開データの確認からUI実装まで活用しつつ意見生成や投票誘導には使わなかった。",
+ "open_data_items": [
+  {
+   "name": "東京都総務局「東京の物価 令和8年7月分」",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/bukka/2026/bk2671data.htm"
+  },
+  {
+   "name": "千代田区住宅宿泊事業の実施に関する条例・ガイドライン",
+   "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/jutakushukuhakujigyo/jorei.html"
+  },
+  {
+   "name": "千代田区内の住宅宿泊事業法の届出住宅一覧",
+   "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/jutakushukuhakujigyo/todokedejutakuichiran.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/bukka/2026/bk2671data.htm",
+  "https://www.city.chiyoda.lg.jp/koho/kurashi/jutakushukuhakujigyo/jorei.html",
+  "https://www.city.chiyoda.lg.jp/koho/kurashi/jutakushukuhakujigyo/todokedejutakuichiran.html"
+ ],
+ "demo_url": "https://on.pa",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://on.pa"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=5256",
+ "image_count": 3,
+ "notes": ""
+}

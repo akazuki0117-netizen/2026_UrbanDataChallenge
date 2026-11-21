@@ -1,0 +1,26 @@
+{
+ "id": "6631810533817328273",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631810533817328273/?year=2026",
+ "fetched_at": "2026-11-20T15:35:48+00:00",
+ "title": "AED Navigator",
+ "team": "院外急変戦略室",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "院外心停止の「空白の4〜8分間」を埋めるアプリ。現役医師の開発者が屋外では「なんとなくAEDがある」ことは知っていてもどこにあるか指示できず、東京都のAEDオープンデータも機械可読な形で公開しているのは62自治体中約20にとどまるという課題に対応。有事モードではGPS×オープンデータで最寄りAEDを即特定しQR一発で周囲に搬送を依頼、同時に近隣医療従事者TOP10人へ自動応援要請する。平時モードではスタンプラリー形式で住民がAEDを実地確認し行政データの空白を\"生きたデータ\"で補完する。Next.js(App Router)+Tailwind CSSとLeafletで構築し、Gemini 2.0で住民の自由記述メモを25字程度に自動要約した。",
+ "open_data_items": [
+  {
+   "name": "AED設置箇所一覧",
+   "url": "https://www.city.chuo.lg.jp/documents/984/aed.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.chuo.lg.jp/documents/984/aed.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4087",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,76 @@
+{
+ "id": "6629648724772429423",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629648724772429423/?year=2026",
+ "fetched_at": "2026-11-20T15:34:00+00:00",
+ "title": "見守り隊 / CareRoute AI",
+ "team": "曽我部 雅明",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "カメラを置かず家電の消費電力だけで離れて暮らす高齢家族を見守るサービス。都内の熱中症救急搬送のうち56.6%が住居内で発生し65歳以上が半数を超えるが、常時カメラの見守りは本人が受け入れないという「見守られる」と「見張られる」の衝突が課題。市販スマートプラグ1個を挿すだけで工事不要、環境省の暑さ指数と冷房の稼働状況を掛け合わせ「屋外は厳重警戒なのに冷房が動いていない」室内熱中症の兆候を先回りしてLINEへ知らせる。本人は「エアコンつけて」と話すだけで操作でき、命に関わる判断は生成AIを通さない設計。.NET 10/Blazor Web AppとAzure SQLで判定を完結させ、Azure AI Foundryを自然言語の意図解釈のみに使用した。",
+ "open_data_items": [
+  {
+   "name": "暑さ指数（WBGT）予測値（東京）／環境省 熱中症予防情報サイト",
+   "url": "https://www.wbgt.env.go.jp/prev15WG/dl/yohou_tokyo.csv"
+  },
+  {
+   "name": "アメダス実況（気温・湿度）／気象庁",
+   "url": "https://www.jma.go.jp/bosai/amedas/data/latest_time.txt"
+  },
+  {
+   "name": "天気予報（東京 130000）／気象庁",
+   "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+  },
+  {
+   "name": "気象警報・注意報（東京 130000）／気象庁",
+   "url": "https://www.jma.go.jp/bosai/warning/data/warning/130000.json"
+  },
+  {
+   "name": "防災情報XML「随時」フィード（土砂災害警戒情報・線状降水帯）／気象庁",
+   "url": "https://www.data.jma.go.jp/developer/xml/feed/extra.xml"
+  },
+  {
+   "name": "地震情報一覧／気象庁",
+   "url": "https://www.jma.go.jp/bosai/quake/data/list.json"
+  },
+  {
+   "name": "熱中症による救急搬送 発生場所別（令和3年）／東京都福祉局",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/fukushihoken/R3/02_1.csv"
+  },
+  {
+   "name": "熱中症 65歳以上の初診時程度（令和3年）／東京都福祉局",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/fukushihoken/R3/02_2.csv"
+  },
+  {
+   "name": "熱中症搬送 時間帯別（令和3年）／東京都福祉局",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/fukushihoken/R3/02_3.csv"
+  },
+  {
+   "name": "熱中症搬送人員の過去5年推移／東京消防庁",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/shoubou/2024/1-3-4kako5nenkannonettyuusyounosuii.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.wbgt.env.go.jp/prev15WG/dl/yohou_tokyo.csv",
+  "https://www.jma.go.jp/bosai/amedas/data/latest_time.txt",
+  "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+  "https://www.jma.go.jp/bosai/warning/data/warning/130000.json",
+  "https://www.data.jma.go.jp/developer/xml/feed/extra.xml",
+  "https://www.jma.go.jp/bosai/quake/data/list.json",
+  "https://www.opendata.metro.tokyo.lg.jp/fukushihoken/R3/02_1.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/fukushihoken/R3/02_2.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/fukushihoken/R3/02_3.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/shoubou/2024/1-3-4kako5nenkannonettyuusyounosuii.csv"
+ ],
+ "demo_url": "https://app-mimamoritai-hack.azurewebsites.net/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://app-mimamoritai-hack.azurewebsites.net/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=5362",
+ "image_count": 3,
+ "notes": ""
+}

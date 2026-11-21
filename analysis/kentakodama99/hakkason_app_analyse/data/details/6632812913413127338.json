@@ -1,0 +1,31 @@
+{
+ "id": "6632812913413127338",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812913413127338/?year=2026",
+ "fetched_at": "2026-11-20T15:46:20+00:00",
+ "title": "緩い紐帯 チュータイ君",
+ "team": "ABC",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「チュータイ君」は、公共施設や地域の掲示板に貼られたイベント情報をスマホで撮影して登録・共有できるサービス。地域イベントの紙情報は検索や比較ができず特に引っ越してきた人には届きにくく、興味のある活動を見つけても一人で参加するハードルを感じるという課題に対応。画像から掲示物の範囲と文字を読み取りイベント名・日時・場所を整理し地図で検索、初参加の人同士でゆるく同行できる。知らない地域でも無理なく人や活動とつながるきっかけを作る設計。Next.js・ReactとFastAPIをCloudflare Workersに構築し、OpenAIの画像対応モデルでOCRとイベント情報の構造化を行い、CodexとClaude Codeで開発した。",
+ "open_data_items": [
+  {
+   "name": "清瀬市 市内掲示板一覧に関するオープンデータ",
+   "url": "https://www.city.kiyose.lg.jp/opendata/opendata/opendataichiran/1001614.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.kiyose.lg.jp/opendata/opendata/opendataichiran/1001614.html"
+ ],
+ "demo_url": "https://tyutai.manabeai.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tyutai.manabeai.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=4998",
+ "image_count": 1,
+ "notes": ""
+}

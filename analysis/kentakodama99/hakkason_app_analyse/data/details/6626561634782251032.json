@@ -1,0 +1,77 @@
+{
+ "id": "6626561634782251032",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626561634782251032/?year=2026",
+ "fetched_at": "2026-11-20T15:32:52+00:00",
+ "title": "学級アラート",
+ "team": "kumagaias",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「学級アラート」は、分散するオープンデータを子育て家庭の「今日の行動」につなげるサービス。感染症・暑さ指数・防犯・予防接種・支援制度など多岐にわたる情報を提供元も異なる中で確認する必要があり、都内約7,800件の子育て支援制度も「知りそびれ・申し込みそびれ」が課題として挙げられている。地域と子どもの年齢に合わせて情報を整理し「検温する」「外遊びを短めにする」など今日の行動を提案、重要な変化はプッシュ通知で届ける。AIは相談内容と関連が高い支援制度の整理に限定して使用。React Native/ExpoとExpress.jsで構築し、AGENTS.mdでライセンス確認等のルールを定めてノーコードで開発した。",
+ "open_data_items": [
+  {
+   "name": "感染症発生動向調査週報（IDWR）",
+   "url": "https://id-info.jihs.go.jp/surveillance/idwr/"
+  },
+  {
+   "name": "環境省 暑さ指数（WBGT）予測値",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "気象庁防災情報 XML",
+   "url": "https://www.data.jma.go.jp/developer/"
+  },
+  {
+   "name": "メールけいしちょう Open DATA",
+   "url": "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+  },
+  {
+   "name": "医療情報ネット オープンデータ",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html"
+  },
+  {
+   "name": "子育て支援制度レジストリ（東京都版）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "東京都・都内自治体の子育て関連施設データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "e-Stat 市区町村別定期予防接種者数",
+   "url": "https://www.e-stat.go.jp/stat-search/files?cycle=8&layout=datalist&month=0&stat_infid=000040423516&tclass1=000001241336&tclass2=000001241337&tclass3=000001241341&tclass4val=0&toukei=00450025&tstat=000001030884&year=20241"
+  },
+  {
+   "name": "警察庁 交通事故統計情報オープンデータ",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "東京都 PM2.5 モニタリングデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000067"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000067"
+ ],
+ "external_data_urls": [
+  "https://id-info.jihs.go.jp/surveillance/idwr/",
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://www.data.jma.go.jp/developer/",
+  "https://mail.keishicho.metro.tokyo.lg.jp/opendata/",
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html",
+  "https://www.e-stat.go.jp/stat-search/files?cycle=8&layout=datalist&month=0&stat_infid=000040423516&tclass1=000001241336&tclass2=000001241337&tclass3=000001241341&tclass4val=0&toukei=00450025&tstat=000001030884&year=20241",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+ ],
+ "demo_url": "https://gakkyu-alert.kumagaias.com",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://gakkyu-alert.kumagaias.com"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=774",
+ "image_count": 3,
+ "notes": ""
+}

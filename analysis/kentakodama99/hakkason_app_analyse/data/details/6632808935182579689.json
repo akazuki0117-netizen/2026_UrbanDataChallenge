@@ -1,0 +1,26 @@
+{
+ "id": "6632808935182579689",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808935182579689/?year=2026",
+ "fetched_at": "2026-11-20T15:44:26+00:00",
+ "title": "行政を探さなくていい。必要な東京がわたしに届く。　東京アプリマイページ機能拡充提案",
+ "team": "17",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "制度名を知らなくても東京アプリで日常の困りごとを声で話すだけでAIが状況を整理し使える制度・施設・相談先を横断探索するサービス。行政情報は制度・部局ごとに整備されている一方暮らしの悩みは分野をまたぎ、余裕がない人ほど制度名や行政用語を知らず検索の入口に立てないという「情報到達格差」に対応。整理前の一言を話すだけでAIが必要な確認を一問ずつ行い候補・根拠・連絡先を「次の一手」に絞って提示、匿名集約した未解決理由は行政サービス改善に還元し改善結果をアプリで返す循環を作る。スマートフォン向けWebアプリとブラウザ音声入力、RAGで構築した。",
+ "open_data_items": [
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3527",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,71 @@
+{
+ "id": "6614644825626120829",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6614644825626120829/?year=2026",
+ "fetched_at": "2026-11-20T15:31:47+00:00",
+ "title": "TOKYO QUEST",
+ "team": "もふもふ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "行政のオープンデータを「ゲームのクエスト」へ変換し市民の日常と地域施設をつなぐ参加型プラットフォーム「TOKYO QUEST」。行政の公共施設情報はCSVやPDFのまま置かれ10〜20代のSNS世代の日常に届かず、子育て環境を考えて引越しを検討する若年夫婦も周辺の魅力的な施設を把握できないという課題に対応。宝箱を探す感覚でマップ上の公共施設を訪れ認知・利用を深め、利用者が写真や口コミを投稿することで静的だった行政データが「生きたオープンデータ」へ成長する。LeafletとOpenStreetMapでCloudflare Pagesに構築し、Gemini・GitHub Copilot・OpenCodeでアイデア壁打ちから実装まで併用した。",
+ "open_data_items": [
+  {
+   "name": "保育園・認定こども園一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "子育て施設一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "保健所・病院・診療所一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "住区センター・児童館・悠々館一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "小学校・中学校・特別支援学校一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "図書館一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "文化教養施設一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "生涯学習センター・地域学習センター一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "公園一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  },
+  {
+   "name": "スポーツ施設一覧",
+   "url": "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html",
+  "https://www.city.adachi.tokyo.jp/shisetsu/index.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=10",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

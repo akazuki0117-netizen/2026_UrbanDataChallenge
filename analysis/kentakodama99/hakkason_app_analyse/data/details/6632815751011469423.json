@@ -1,0 +1,37 @@
+{
+ "id": "6632815751011469423",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632815751011469423/?year=2026",
+ "fetched_at": "2026-11-20T15:46:46+00:00",
+ "title": "はしごゆ",
+ "team": "Masa",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京の銭湯の経営を助ける利用者・番台・管理の3画面連携アプリ。人口減少で銭湯が急激に減少する中、東京が2100年に少子高齢化を強みに転換する「SILVERPUNK//2100」構想の一環として着目。利用者画面では目標人数に届いていない銭湯を優先的に案内する「はしご湯ルート」を提案、番台画面では目標客数まであと何人足りないかを大きく表示、管理画面ではすべての銭湯の達成状況をまとめて把握できる。計算ロジックを副作用のない純関数として分離しTypeScript strictとVitestで数値の正しさを担保、Claude CodeとCodexでコーディングした。",
+ "open_data_items": [
+  {
+   "name": "銭湯",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000033"
+  },
+  {
+   "name": "銭湯一覧",
+   "url": "https://www.city.koto.lg.jp/102040/sangyoshigoto/chusho/jigyo/7159.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000033"
+ ],
+ "external_data_urls": [
+  "https://www.city.koto.lg.jp/102040/sangyoshigoto/chusho/jigyo/7159.html"
+ ],
+ "demo_url": "https://hashigoyu.machikado-qr.workers.dev/demo.html",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hashigoyu.machikado-qr.workers.dev/demo.html"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=5389",
+ "image_count": 3,
+ "notes": ""
+}

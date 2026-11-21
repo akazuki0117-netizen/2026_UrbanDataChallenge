@@ -1,0 +1,31 @@
+{
+ "id": "6632049430806740613",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632049430806740613/?year=2026",
+ "fetched_at": "2026-11-20T15:36:47+00:00",
+ "title": "KUMU tabi",
+ "team": "贅沢すじこおにぎり",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「KUMU tabi」は、行き先と同行者の「できること・避けたいこと・優先したいこと」を入力すると一日の「おでかけしおり」を作るサービス。お出かけのアクセスや営業時間、トイレ等の情報は公式サイトや地図に分散し誰かと出かければ希望や条件の調整も加わるという課題に対応。しおりは時間軸で表示され各予定に理由と地図・公式サイトへのリンクが付き、公開情報で確認できない項目は「未確認」として残し任意で答えるとその場で反映される。葛西臨海公園を対象に友人3人と4世代家族の2パターンで同じ行き先でも条件の違いで別の一日になることを示した試作。HTML・CSS・JavaScriptの単一ファイルで外部依存ゼロに構築し、生成AIを企画整理からUI/UX設計、看護で用いる「その人の状態・希望・生活の流れを含めて捉える」視点の反映まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都「公共施設一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "江戸川区「公衆トイレ一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131237d0000000257"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131237d0000000257"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=4515",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

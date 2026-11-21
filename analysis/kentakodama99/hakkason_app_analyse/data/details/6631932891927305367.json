@@ -1,0 +1,72 @@
+{
+ "id": "6631932891927305367",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631932891927305367/?year=2026",
+ "fetched_at": "2026-11-20T15:36:31+00:00",
+ "title": "まちのめ",
+ "team": "VIZZIES 5.0",
+ "member_count": 10,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まちのめ」は、自治体ごとにバラバラな人口統計データの形式を正規化し統一データセットとして公開するサービス。東京都オープンデータカタログには「人口」を含むデータが853件あるが列名や表記が区ごとに異なり町丁目×年齢×性別×国籍×時系列で区を横断して見ようとすると使えないという課題に対応。自治体公開データをそのままの形で自動収集し下流で正規化、粒度が足りないデータは無理に補わず範囲を明示、原本を保存しどの数値がどのファイルに由来するか追跡できる。Cloudflare Workers/D1/R2で構築し、Claude（claude-sonnet-5）を列名対応表の定義生成のみに使い数値データには触れさせない設計とした。",
+ "open_data_items": [
+  {
+   "name": "住民基本台帳による東京都の世帯と人口(町丁別・年齢別) 　令和8年1月",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115"
+  },
+  {
+   "name": "住民基本台帳による世帯と人口",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukim/2026/jm26010000.htm"
+  },
+  {
+   "name": "TOKYO OPEN DATA API検索",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/search?organization=目黒区&q=町丁別+人口&sort=views_recent_desc"
+  },
+  {
+   "name": "データカタログ横断検索システム",
+   "url": "https://search.ckan.jp/"
+  },
+  {
+   "name": "目黒区オープンデータカタログサイト",
+   "url": "https://data.bodik.jp/organization/131105?groups=gr_0200"
+  },
+  {
+   "name": "千代田区 町丁別年齢別人口（住民基本台帳）",
+   "url": "https://www.city.chiyoda.lg.jp/koho/kuse/toke/cho-nenre/index.html"
+  },
+  {
+   "name": "中央区 町丁目別世帯数男女別人口",
+   "url": "https://www.city.chuo.lg.jp/kusei/gaiyou/toukeidate/jinkou/choubetsu/index.html"
+  },
+  {
+   "name": "港区 町丁別年齢5歳階級別人口表",
+   "url": "https://www.city.minato.tokyo.jp/toukeichousa/kuse/toke/jinko/chocho/nenrei/20220401.html"
+  },
+  {
+   "name": "新宿区 住民基本台帳人口　町丁別男女別人口（1歳階級）",
+   "url": "https://www.city.shinjuku.lg.jp/kusei/file02_00027.html"
+  },
+  {
+   "name": "文京区人口統計資料",
+   "url": "https://www.city.bunkyo.lg.jp/b011/p006255/index.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115"
+ ],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/juukim/2026/jm26010000.htm",
+  "https://spec.api.metro.tokyo.lg.jp/spec/search?organization=目黒区&q=町丁別+人口&sort=views_recent_desc",
+  "https://search.ckan.jp/",
+  "https://data.bodik.jp/organization/131105?groups=gr_0200",
+  "https://www.city.chiyoda.lg.jp/koho/kuse/toke/cho-nenre/index.html",
+  "https://www.city.chuo.lg.jp/kusei/gaiyou/toukeidate/jinkou/choubetsu/index.html",
+  "https://www.city.minato.tokyo.jp/toukeichousa/kuse/toke/jinko/chocho/nenrei/20220401.html",
+  "https://www.city.shinjuku.lg.jp/kusei/file02_00027.html",
+  "https://www.city.bunkyo.lg.jp/b011/p006255/index.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=10",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

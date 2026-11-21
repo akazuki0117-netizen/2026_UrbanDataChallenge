@@ -1,0 +1,26 @@
+{
+ "id": "6614609822994019378",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6614609822994019378/?year=2026",
+ "fetched_at": "2026-11-20T15:31:46+00:00",
+ "title": "R-Safe Tokyo",
+ "team": "朧白石（Long Baishi）",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「R-Safe Tokyo」は、介護・運動指導・理美容・鍼灸整体など地域現場で確認された体調変化を、緊急相談・計画的な医師評価・継続観察の3段階（R1〜R3）に整理する患者安全支援アプリのプロトタイプ。地域現場ではいつ相談し医療機関につなぐべきかが担当者の経験や勘に依存しやすいという課題に対応。架空症例に対しルールベースでR1/R2/R3を判定し、判定理由・次の行動・医師向け紹介メモを生成する。診断や治療方針の決定は行わず記録・相談・受診勧奨の支援にとどめる設計。React/TypeScript/Viteで画面ベースのプロトタイプとして実装し、ChatGPTとOpenCodeで画面設計やコード作成を補助した。",
+ "open_data_items": [
+  {
+   "name": "東京都保健医療局「救急医療機関一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000356"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000356"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=5377",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

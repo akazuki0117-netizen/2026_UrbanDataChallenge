@@ -1,0 +1,36 @@
+{
+ "id": "6632811596098653781",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811596098653781/?year=2026",
+ "fetched_at": "2026-11-20T15:45:46+00:00",
+ "title": "ビジョンストーリースタジオ",
+ "team": "東京mirAIシナリオ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "政策を「暮らし」に翻訳して住民と話し合うAIエージェント「ビジョンストーリースタジオ」。統計や制度説明だけでは政策の効果が「自分ごと」として伝わりにくいという課題に対応。オープンデータからペルソナを生成し政策あり/なしの2つの生活シナリオを作成、対比スライドを自動生成する各段階を人間が確認・修正できる「Human Gate」付きで実装した。新宿区の身寄りのない単身高齢者を例に、2027年施行の改正社会福祉法の有無で生活がどう変わるかを可視化するプロトタイプとした。Cloudflare Workers/D1/Workers AI（Qwen3 30B FP8）で構築し、ClaudeとOpenAI Codexで設計・実装を役割分担した。",
+ "open_data_items": [
+  {
+   "name": "令和5年住宅・土地統計調査 住宅及び世帯に関する基本集計（高齢世帯の状況）",
+   "url": "https://www.e-stat.go.jp/stat-search/database?page=1&layout=datalist&toukei=00200522&tstat=000001207800&cycle=0&tclass1=000001207808&tclass2=000001207809&statdisp_id=0004021820&tclass3val=0"
+  },
+  {
+   "name": "要介護等認定者数の推移（令和8年度）新宿区",
+   "url": "https://www.city.shinjuku.lg.jp/fukushi/file07_08_00031.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/stat-search/database?page=1&layout=datalist&toukei=00200522&tstat=000001207800&cycle=0&tclass1=000001207808&tclass2=000001207809&statdisp_id=0004021820&tclass3val=0",
+  "https://www.city.shinjuku.lg.jp/fukushi/file07_08_00031.html"
+ ],
+ "demo_url": "https://tokyo-mirai.tokyo-odh-220.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-mirai.tokyo-odh-220.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=10",
+ "image_count": 2,
+ "notes": ""
+}

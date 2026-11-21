@@ -1,0 +1,31 @@
+{
+ "id": "6631922508113095046",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631922508113095046/?year=2026",
+ "fetched_at": "2026-11-20T15:36:29+00:00",
+ "title": "TOKYO 3D Drone",
+ "team": "INVEST-AITech",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO 3D Drone」は、PLATEAUの3D都市モデルの上を自分で設計したカメラワークでドローンのように飛べるWebアプリ。世界屈指のオープンデータであるPLATEAUはCityGML等の専門形式でGISや開発の専門家にほぼ限られ、これから東京に来る人が街の骨格を空から掴む体験手段がないという課題に対応。地図クリックで最大50点の経由地を置き高度・俯角等を指定すると滑らかな飛行映像が再生され、「スカイツリーを旋回しながら上昇」等の自然言語を生成AIに渡せば構図JSONが返る。作った構図はURL1本で共有できる。CesiumJSでPLATEAUの3D Tilesを扱い、Python/FastAPIでタイル切り出しを行い、ClaudeやChatGPTに貼るだけで構図を生成できる仕組みとした。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）",
+   "url": "https://www.mlit.go.jp/plateau/open-data/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.mlit.go.jp/plateau/open-data/"
+ ],
+ "demo_url": "https://invest-aitech-tokyo-drone.web.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://invest-aitech-tokyo-drone.web.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=122",
+ "image_count": 1,
+ "notes": ""
+}

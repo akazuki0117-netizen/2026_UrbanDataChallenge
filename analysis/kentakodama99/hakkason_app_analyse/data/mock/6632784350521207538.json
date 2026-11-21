@@ -1,0 +1,17 @@
+{
+ "id": "6632784350521207538",
+ "group": "finalist",
+ "title": "夜間救命AED最適配置プランナー",
+ "demo_url": "https://yellow-night-e49d.tokyo-odh-229.workers.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632784350521207538.png",
+ "status": "動く",
+ "form": "ダッシュボード",
+ "clear_in_5s": "はい：地図＋予算スライダー＋救命期待数の増加量",
+ "n_features": 3,
+ "gen_ai": "なし",
+ "map_viz": "あり",
+ "maturity": "プロトタイプ",
+ "note": "予算を動かすと結果が変わる。実データ（渋谷区）"
+}

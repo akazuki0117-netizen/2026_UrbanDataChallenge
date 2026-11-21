@@ -1,0 +1,41 @@
+{
+ "id": "6632739560651758951",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632739560651758951/?year=2026",
+ "fetched_at": "2026-11-20T15:39:48+00:00",
+ "title": "先読みナビ",
+ "team": "山登り麻雀",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都の全道路370,545区間に、道路の作りから推定した年間期待事故件数を付けたスマホ向けナビアプリ。月1〜2回カーシェアを使う運転に不慣れなドライバーは、狭い一方通行や見通しの悪い交差点に入ってから慌てるが、既存の事故多発地点情報は過去に事故が集中した場所のみで、実際は直近5年間事故のなかった区間で全体の36.8%の事故が発生しているという課題に対応。制限速度や交差点の分岐数など事故が起きていない道にも存在する情報のみを使い、過去の事故件数を使わずに危険度を推定する。2019〜2022年のデータで学習した検証では、予測上位10%が2023〜2024年の事故区間の33.9%を捕捉した（当てずっぽうなら10%）。警察庁の事故統計や国土地理院の標高タイルをPythonで分析し、地図データは端末内に保持し通信不要とした。",
+ "open_data_items": [
+  {
+   "name": "交通事故統計情報オープンデータ",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "OpenStreetMap 道路データ（関東）",
+   "url": "https://download.geofabrik.de/asia/japan.html"
+  },
+  {
+   "name": "地理院タイル",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "国土数値情報（行政区域 N03）",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://download.geofabrik.de/asia/japan.html",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://nlftp.mlit.go.jp/ksj/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4591",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

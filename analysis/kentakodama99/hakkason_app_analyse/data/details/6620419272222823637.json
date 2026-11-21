@@ -1,0 +1,37 @@
+{
+ "id": "6620419272222823637",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6620419272222823637/?year=2026",
+ "fetched_at": "2026-11-20T15:31:57+00:00",
+ "title": "TOKYOりすくらべ",
+ "team": "AI使っちゃダメですか？",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYOりすくらべ」は、気になる地点の災害リスクを手軽に確認・比較できるWebサービス。自治体ごとに異なるハザードマップや意味の違う指標を読み解く作業は負担が大きく、複数候補を同じ条件で比べにくいという課題に対応。住所検索または地図で最大3地点を選ぶと関東1都6県の洪水浸水想定と東京都の地震総合危険度・建物倒壊危険度を同じ形式で比較でき、AIが表示中の公開データを分かりやすく説明する。区域外・対象外・判定不能を区別して示す誠実な設計。TypeScript／TanStack StartとMapLibre GL・国土地理院タイルで構築し、Codexデスクトップアプリで「grill-me」SKILLを用いて要件を洗い出してから開発した。",
+ "open_data_items": [
+  {
+   "name": "洪水浸水想定区域（想定最大規模）",
+   "url": "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）全町丁目（Shapefile・CSV）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+ ],
+ "external_data_urls": [
+  "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
+ ],
+ "demo_url": "https://risk-kurabe.tokyo-odh-044.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://risk-kurabe.tokyo-odh-044.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=3342",
+ "image_count": 3,
+ "notes": ""
+}

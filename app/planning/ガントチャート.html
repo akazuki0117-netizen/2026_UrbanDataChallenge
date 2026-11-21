@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UDC2026 ガントチャート</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --ink:#1d232b; --sub:#5b6570; --line:#e1e5ea; --grid:#eef1f4; --wkend:#f1f3f6;
+  --p0:#6b5b95; --p0-soft:#ebe7f3;   /* ⓪ マネジメント */
+  --p1:#2f7d6d; --p1-soft:#dcefea;   /* ① 企画・要件定義 */
+  --p2:#b23a6f; --p2-soft:#f6e1ea;   /* ② UI */
+  --p3:#2c5d9f; --p3-soft:#dfe9f6;   /* ③ 開発 */
+  --p4:#b5651d; --p4-soft:#f8e8d8;   /* ④ 本応募 */
+  --ms:#c0392b; --today:#d4352b; --off:#c9ced6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#13171c; --card:#1b2128; --ink:#e7ebef; --sub:#9aa5b1; --line:#2c343d; --grid:#222a32; --wkend:#1f262e;
+    --p0:#a99bd0; --p0-soft:#28243a; --p1:#5cc0a8; --p1-soft:#1b332e; --p2:#e480ac; --p2-soft:#3a1f2c;
+    --p3:#7aa8e6; --p3-soft:#1b2a3d; --p4:#e7a465; --p4-soft:#3a2b1d;
+    --ms:#f08a7e; --today:#ff6b5f; --off:#46505b;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#13171c; --card:#1b2128; --ink:#e7ebef; --sub:#9aa5b1; --line:#2c343d; --grid:#222a32; --wkend:#1f262e;
+  --p0:#a99bd0; --p0-soft:#28243a; --p1:#5cc0a8; --p1-soft:#1b332e; --p2:#e480ac; --p2-soft:#3a1f2c;
+  --p3:#7aa8e6; --p3-soft:#1b2a3d; --p4:#e7a465; --p4-soft:#3a2b1d;
+  --ms:#f08a7e; --today:#ff6b5f; --off:#46505b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"BIZ UDPGothic","Hiragino Sans","Yu Gothic",sans-serif;font-size:14px;line-height:1.6}
+main{max-width:1600px;margin:0 auto;padding:28px 16px 56px}
+h1{font-size:26px;margin:0 0 4px}
+.meta{color:var(--sub);margin:0 0 16px}
+.keys{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
+.keys li{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:13px}
+.keys b{display:block;font-size:15px}
+.team{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px;padding:0;list-style:none;font-size:13px}
+.team li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px}
+.team b{margin-right:6px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 10px;font-size:13px;color:var(--sub)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:16px;height:10px;border-radius:3px;display:inline-block}
+.legend i.lg-ms{width:9px;height:9px;transform:rotate(45deg);border-radius:1px;background:var(--ms);margin:0 8px 0 4px;flex:0 0 9px}
+.wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.gantt{display:grid;position:relative;min-width:max-content}
+.cell{border-bottom:1px solid var(--grid);height:34px}
+.lab{position:sticky;left:0;z-index:3;background:var(--card);border-right:1px solid var(--line);padding:0 10px;display:flex;align-items:center;gap:6px;white-space:nowrap;font-size:13px}
+.lab .who{color:var(--sub);font-size:12px;margin-left:auto;padding-left:8px}
+.lab .nm{overflow:hidden;text-overflow:ellipsis}
+@media (max-width:699px){ .lab .who{display:none} .lab{font-size:12px} }
+.lab.phase{font-weight:700;font-size:14px}
+.lab.phase.p0{color:var(--p0)} .lab.phase.p1{color:var(--p1)} .lab.phase.p2{color:var(--p2)} .lab.phase.p3{color:var(--p3)} .lab.phase.p4{color:var(--p4)}
+.hd{position:sticky;top:0;z-index:4;background:var(--card);font-size:11px;color:var(--sub);text-align:center;border-bottom:1px solid var(--line);height:auto;padding:4px 0;line-height:1.3}
+.hd.wk{background:var(--wkend)}
+.hd b{display:block;font-size:12px;color:var(--ink)}
+.day.wk{background:var(--wkend)}
+.bar{position:absolute;height:22px;border-radius:6px;font-size:12px;line-height:22px;padding:0 8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;z-index:2}
+.bar.p0{background:var(--p0)} .bar.p1{background:var(--p1)} .bar.p2{background:var(--p2)} .bar.p3{background:var(--p3)} .bar.p4{background:var(--p4)}
+.bar.soft.p0{background:var(--p0-soft);color:var(--p0);border:1px solid var(--p0)}
+.bar.soft.p1{background:var(--p1-soft);color:var(--p1);border:1px solid var(--p1)}
+.bar.soft.p2{background:var(--p2-soft);color:var(--p2);border:1px solid var(--p2)}
+.bar.soft.p3{background:var(--p3-soft);color:var(--p3);border:1px solid var(--p3)}
+.bar.soft.p4{background:var(--p4-soft);color:var(--p4);border:1px solid var(--p4)}
+.bar.off{background:repeating-linear-gradient(135deg,var(--off) 0 6px,transparent 6px 12px);color:var(--sub);border:1px dashed var(--sub)}
+.bar.done{opacity:.55}
+.ms{position:absolute;width:14px;height:14px;background:var(--ms);transform:rotate(45deg);z-index:2;border-radius:2px}
+.ms.tbd{background:transparent;border:2px solid var(--ms)}
+.mslab{position:absolute;font-size:12px;font-weight:700;color:var(--ms);white-space:nowrap;z-index:2;line-height:34px}
+.barlab{position:absolute;font-size:12px;color:var(--sub);white-space:nowrap;z-index:2;line-height:34px}
+.today{position:absolute;top:0;bottom:0;width:2px;background:var(--today);z-index:3}
+.today span{position:absolute;top:2px;left:4px;font-size:11px;color:var(--today);font-weight:700;white-space:nowrap;background:var(--card);padding:0 3px;border-radius:3px}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-top:18px}
+.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:13.5px}
+.note h2{font-size:15px;margin:0 0 6px}
+.note ul{margin:0;padding-left:1.2em}
+.note li{margin:3px 0}
+.note .ng{color:var(--ms);font-weight:700}
+footer{color:var(--sub);font-size:12px;margin-top:24px}
+@media print{ body{background:#fff} .wrap{overflow:visible} }
+</style>
+</head>
+<body>
+<main>
+<h1>UDC2026 ガントチャート（Politica）</h1>
+<p class="meta">2026-11-21 版（前回のハッカソンからの引継ぎと、11/21 の役割分担を反映・akazuki0117-netizen）。日程は <code>app/planning/ガントチャート.html</code> の <code>TASKS</code> を直すと引き直せる。白抜きの◇は「案」（まだ決まっていない日付）。</p>
+
+<ul class="keys">
+  <li><b>11/21（土）夕方か夜</b>アイデアの収束・要件定義・スコープの会議</li>
+  <li><b>11月末</b>要件定義・設計を固める</li>
+  <li><b>12月中ごろ〜</b>集中開発</li>
+  <li><b>12/27（日）23:59</b>作品本応募・作品提出の締切</li>
+</ul>
+
+<ul class="team">
+  <li><b>マネジメント</b>akazuki0117-netizen</li>
+  <li><b>分析・データ</b>Maci-as</li>
+  <li><b>デザイン・フロントエンド</b>k-masahiro116・yk2b0yuka-blip</li>
+  <li><b>開発（バックエンド）</b>kentakodama99・tmzwx4a-hub</li>
+</ul>
+
+<div class="legend">
+  <span><i style="background:var(--p0)"></i>⓪ マネジメント</span>
+  <span><i style="background:var(--p1)"></i>① 企画・要件定義・データ</span>
+  <span><i style="background:var(--p2)"></i>② デザイン・フロントエンド</span>
+  <span><i style="background:var(--p3)"></i>③ バックエンド・結合</span>
+  <span><i style="background:var(--p4)"></i>④ 本応募</span>
+  <span><i style="background:var(--p3-soft);border:1px solid var(--p3)"></i>薄い色＝並行・準備</span>
+  <span><i style="background:repeating-linear-gradient(135deg,var(--off) 0 4px,transparent 4px 8px);border:1px dashed var(--sub)"></i>動きにくい期間</span>
+  <span><i class="lg-ms"></i>マイルストーン（◇＝案）</span>
+</div>
+
+<div class="wrap"><div class="gantt" id="gantt"></div></div>
+
+<div class="notes">
+  <div class="note">
+    <h2>① 企画・要件定義・データ（〜12/20）</h2>
+    <ul>
+      <li>11/21 までに、各自が「未成年の政治参加」のアプリ案を <code>idea/&lt;自分&gt;/</code> に Markdown で用意する</li>
+      <li><b>11/21 の会議</b>で、アイデアを1つに収束し、スコープ（やること・やらないこと）を決める</li>
+      <li>11/22〜11/30 で要件定義（ペルソナ・機能一覧・画面一覧・使うオープンデータ）。入口の「18歳以下か」の設問は決定済み</li>
+      <li>機能案はakazuki0117-netizen・tmzwx4a-hub。既存サービスの調査はakazuki0117-netizen</li>
+      <li><b>データはMaci-as</b>：使えるオープンデータの洗い出し → データ作成・整備（アプリで使う形）→ データ分析（機能の根拠づくり）。動けるのは主に土日</li>
+    </ul>
+  </div>
+  <div class="note">
+    <h2>② デザイン・フロントエンド（11/23〜12/20）</h2>
+    <ul>
+      <li><b>k-masahiro116・yk2b0yuka-blip</b>が、デザインからフロントエンドの実装まで受け持つ。デザインのルール（色など）→ 画面の流れ → モック → 実装の順</li>
+      <li>ロゴ・コンセプトアートはyk2b0yuka-blip。UI・資料・デモ動画のレビューの関門はk-masahiro116</li>
+      <li>Kahoot! のように学校の授業で使える見た目・操作も意識する（データキッズ賞の可能性）</li>
+    </ul>
+  </div>
+  <div class="note">
+    <h2>③ バックエンド・結合（11/23〜12/24）</h2>
+    <ul>
+      <li>バックエンドは<b>kentakodama99・tmzwx4a-hub</b>。ホスティングは Cloudflare。開発は画面ごとではなく、フロントとバックエンドで分ける（前回の反省）</li>
+      <li>技術構成とデータベースの設計は 11月中に。DB はkentakodama99とtmzwx4a-hubで分担（kentakodama99 が動けない間は tmzwx4a-hub が進める）</li>
+      <li>技術要件（ディレクトリ・Cloudflare の構成・API・JSON の形）は 11月中に詰める。開発・テスト・ログが見られる環境も最初に整える</li>
+      <li>12/7〜 土台、<b>12/12〜 集中開発</b>（フロントとバックエンドを並行）、12/21〜 結合・テスト・公開</li>
+      <li>12/24 にコードフリーズ（案）。そのあとは直すのはバグだけ</li>
+    </ul>
+  </div>
+  <div class="note">
+    <h2>④ 本応募（〜12/27）</h2>
+    <ul>
+      <li>審査は<b>説明資料（.pptx か .pdf）が中心</b>。実用度・完成度・挑戦度を各200字で、数字のエビデンスつきで書く（<code>docs/提出物.md</code>）</li>
+      <li>実行サイトはブラウザだけで動く形で、審査期間中（2/21 まで）公開しておく。デモ動画は3分以内</li>
+      <li>12/25〜12/26 に全員で最終確認し、<b>12/27 23:59</b> までに出す。余裕をもって 12/26 中の提出を目指す</li>
+    </ul>
+  </div>
+  <div class="note">
+    <h2>注意・未確定</h2>
+    <ul>
+      <li class="ng">11/20 までは、別のコンテストの提出でakazuki0117-netizen・k-masahiro116・kentakodama99・yk2b0yuka-blipが手いっぱい。UDC は 11/21 から本格的に動く</li>
+      <li class="ng">kentakodama99 は 11/29〜12/5 ごろ動けない</li>
+      <li class="ng">tmzwx4a-hub は 11月は動きにくい</li>
+      <li>11/21 より後の会議の日付（◇）は案。11/21 の会議で決めて直す</li>
+      <li>最終審査会は 2027/2/20（土）（一次審査を通ったら）</li>
+    </ul>
+  </div>
+</div>
+
+<footer>チーム cocatrix ／ アーバンデータチャレンジ2026（教育・政治）。日程の出典：docs/contest.md、meeting/20261114_事前キックオフ/README.md</footer>
+</main>
+
+<script>
+(() => {
+  "use strict";
+  // ---- 表示する期間 ----
+  const START = "2026-11-14", END = "2026-12-28";
+  let NARROW, DAYW, LABW;
+
+  // ---- タスク（ここを直すと引き直せる）----
+  // type: "phase"＝見出し / "bar"＝作業 / "ms"＝マイルストーン。p: 0〜4 の段階。
+  // soft: 薄い色（並行・準備）。off: 動きにくい期間。done: 終わったもの。tbd: 日付が案のマイルストーン
+  const TASKS = [
+    { type: "phase", p: 0, name: "⓪ マネジメント" },
+    { type: "bar",   p: 0, name: "進み具合の管理・バックログ・会議と議事録", who: "akazuki0117-netizen", s: "2026-11-16", e: "2026-12-27", soft: true },
+    { type: "bar",   p: 0, name: "メンバーの声掛け・LINE グループ", who: "akazuki0117-netizen", s: "2026-11-15", e: "2026-11-21" },
+    { type: "bar",   p: 0, name: "別のコンテストの提出まで", who: "tmzwx4a-hub以外", s: "2026-11-14", e: "2026-11-20", off: true },
+    { type: "bar",   p: 0, name: "動けない期間", who: "kentakodama99", s: "2026-11-29", e: "2026-12-05", off: true },
+    { type: "bar",   p: 0, name: "動きにくい期間", who: "tmzwx4a-hub", s: "2026-11-14", e: "2026-11-30", off: true },
+
+    { type: "phase", p: 1, name: "① 企画・要件定義・データ" },
+    { type: "ms",    p: 1, name: "事前キックオフ", d: "2026-11-14" },
+    { type: "ms",    p: 1, name: "作品概要エントリー締切", d: "2026-11-15" },
+    { type: "bar",   p: 1, name: "各自のアプリ案（未成年の政治参加）", who: "全員", s: "2026-11-15", e: "2026-11-21" },
+    { type: "bar",   p: 1, name: "既存サービスの調査", who: "akazuki0117-netizen", s: "2026-11-16", e: "2026-11-28", soft: true },
+    { type: "bar",   p: 1, name: "使えるオープンデータの洗い出し", who: "Maci-as", s: "2026-11-21", e: "2026-11-29" },
+    { type: "ms",    p: 1, name: "アイデア収束・要件定義・スコープ", d: "2026-11-21" },
+    { type: "bar",   p: 1, name: "要件定義（ペルソナ・機能・画面・データ）", who: "akazuki0117-netizen・kentakodama99・tmzwx4a-hub", s: "2026-11-22", e: "2026-11-28" },
+    { type: "ms",    p: 1, name: "要件の確定（案）", d: "2026-11-28", tbd: true },
+    { type: "bar",   p: 1, name: "データ作成・データ整備（アプリで使う形に）", who: "Maci-as", s: "2026-11-29", e: "2026-12-13" },
+    { type: "bar",   p: 1, name: "データ分析（機能の根拠づくり）", who: "Maci-as", s: "2026-12-05", e: "2026-12-20", soft: true },
+
+    { type: "phase", p: 2, name: "② デザイン・フロントエンド" },
+    { type: "bar",   p: 2, name: "デザインのルール（色など）", who: "yk2b0yuka-blip・k-masahiro116", s: "2026-11-25", e: "2026-11-27" },
+    { type: "bar",   p: 2, name: "画面の流れ・ワイヤー（FigJam）", who: "yk2b0yuka-blip・k-masahiro116", s: "2026-11-23", e: "2026-12-04" },
+    { type: "bar",   p: 2, name: "画面のモック（Figma・HTML）", who: "yk2b0yuka-blip・k-masahiro116", s: "2026-12-01", e: "2026-12-11" },
+    { type: "bar",   p: 2, name: "ロゴ・コンセプトアート", who: "yk2b0yuka-blip", s: "2026-12-01", e: "2026-12-14", soft: true },
+    { type: "ms",    p: 2, name: "モックの確認（案）", d: "2026-12-12", tbd: true },
+    { type: "bar",   p: 2, name: "フロントエンドの実装（画面）", who: "k-masahiro116・yk2b0yuka-blip", s: "2026-12-12", e: "2026-12-20" },
+
+    { type: "phase", p: 3, name: "③ バックエンド・結合" },
+    { type: "bar",   p: 3, name: "技術要件（構成・ディレクトリ・API・JSON）", who: "kentakodama99・tmzwx4a-hub", s: "2026-11-23", e: "2026-11-28" },
+    { type: "bar",   p: 3, name: "データベースの設計", who: "tmzwx4a-hub・kentakodama99", s: "2026-11-30", e: "2026-12-09" },
+    { type: "bar",   p: 3, name: "開発・テスト・ログの環境を整える", who: "kentakodama99・k-masahiro116", s: "2026-11-30", e: "2026-12-06", soft: true },
+    { type: "ms",    p: 3, name: "開発キックオフ（案）", d: "2026-12-07", tbd: true },
+    { type: "bar",   p: 3, name: "土台（画面遷移・年齢確認・データ取り込み）", who: "kentakodama99・k-masahiro116", s: "2026-12-07", e: "2026-12-11" },
+    { type: "bar",   p: 3, name: "バックエンドの実装（API・データ）", who: "kentakodama99・tmzwx4a-hub", s: "2026-12-12", e: "2026-12-20" },
+    { type: "bar",   p: 3, name: "結合・テスト・Cloudflare に公開", who: "全員", s: "2026-12-21", e: "2026-12-23" },
+    { type: "ms",    p: 3, name: "コードフリーズ（案）", d: "2026-12-24", tbd: true },
+
+    { type: "phase", p: 4, name: "④ 本応募" },
+    { type: "ms",    p: 4, name: "本応募フォームの項目が分かった", d: "2026-11-21" },
+    { type: "bar",   p: 4, name: "評価のエビデンス集め（アンケート・データの数字）", who: "akazuki0117-netizen・Maci-as", s: "2026-12-12", e: "2026-12-24", soft: true },
+    { type: "bar",   p: 4, name: "説明資料の骨格（文章を先に）", who: "akazuki0117-netizen", s: "2026-12-04", e: "2026-12-13", soft: true },
+    { type: "bar",   p: 4, name: "説明資料の仕上げ（審査の中心）", who: "akazuki0117-netizen", s: "2026-12-14", e: "2026-12-24" },
+    { type: "bar",   p: 4, name: "デモ動画（3分以内）", who: "k-masahiro116・yk2b0yuka-blip", s: "2026-12-21", e: "2026-12-25" },
+    { type: "bar",   p: 4, name: "実行サイトの公開（2/21 まで・制限なし）", who: "kentakodama99・tmzwx4a-hub", s: "2026-12-22", e: "2026-12-24" },
+    { type: "bar",   p: 4, name: "最終確認・提出", who: "全員", s: "2026-12-25", e: "2026-12-26" },
+    { type: "ms",    p: 4, name: "本応募の締切 23:59", d: "2026-12-27" },
+  ];
+
+  // ---- 描画 ----
+  const day = s => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
+  const t0 = day(START), t1 = day(END);
+  const N = Math.round((t1 - t0) / 864e5) + 1;
+  const idx = s => Math.round((day(s) - t0) / 864e5);
+  const W = ["日", "月", "火", "水", "木", "金", "土"];
+  const g = document.getElementById("gantt");
+  let rows = [];
+
+  const el = (cls, html, style) => { const e = document.createElement("div"); e.className = cls; if (html != null) e.innerHTML = html; if (style) e.style.cssText = style; g.appendChild(e); return e; };
+
+  function build() {
+  NARROW = window.matchMedia("(max-width: 699px)").matches;
+  DAYW = NARROW ? 26 : 30; LABW = NARROW ? 170 : 390;
+  g.innerHTML = "";
+  rows = [];
+  g.style.gridTemplateColumns = `${LABW}px repeat(${N}, ${DAYW}px)`;
+
+
+  // 見出し（月・日）
+  el("hd lab", "");
+  for (let i = 0; i < N; i++) {
+    const d = new Date(t0); d.setDate(d.getDate() + i);
+    const wk = d.getDay() === 0 || d.getDay() === 6;
+    el("hd" + (wk ? " wk" : ""), `${d.getDate() === 1 || i === 0 ? (d.getMonth() + 1) + "月<br>" : "<br>"}<b>${d.getDate()}</b>${W[d.getDay()]}`);
+  }
+
+  // 行
+  TASKS.forEach(t => {
+    const lab = t.type === "phase"
+      ? el("cell lab phase p" + t.p, t.name)
+      : el("cell lab", `<span class="nm">${t.type === "ms" ? (t.tbd ? "◇ " : "◆ ") : ""}${t.name}</span>${t.who ? `<span class="who">${t.who}</span>` : ""}`);
+    for (let i = 0; i < N; i++) {
+      const d = new Date(t0); d.setDate(d.getDate() + i);
+      el("cell day" + (d.getDay() === 0 || d.getDay() === 6 ? " wk" : ""), "");
+    }
+    rows.push({ t, lab });
+  });
+  overlay();
+  }
+
+  // バー・マイルストーン・今日の線は、行の位置を測ってから重ねる
+  function overlay() {
+    g.querySelectorAll(".bar,.barlab,.ms,.mslab,.today").forEach(e => e.remove());
+    const gr = g.getBoundingClientRect();
+    rows.forEach(({ t, lab }) => {
+      const r = lab.getBoundingClientRect(), top = r.top - gr.top;
+      if (t.type === "bar") {
+        const x = LABW + idx(t.s) * DAYW + 2, w = (idx(t.e) - idx(t.s) + 1) * DAYW - 4;
+        const cls = t.off ? "bar off" : `bar p${t.p}${t.soft ? " soft" : ""}${t.done ? " done" : ""}`;
+        const bar = el(cls, t.name + (t.done ? "（完了）" : ""), `left:${x}px;top:${top + 6}px;width:${w}px`);
+        bar.title = `${t.name}（${t.s.slice(5)}〜${t.e.slice(5)}）${t.who ? "／" + t.who : ""}`;
+        if (bar.scrollWidth > bar.clientWidth + 1) {
+          // バーに入りきらない名前は、バーの外（右、右端に近ければ左）に出す
+          bar.textContent = "";
+          const ol = el("barlab", t.name, `top:${top}px`);
+          ol.style.left = (idx(t.e) > N - 10 ? x - ol.offsetWidth - 6 : x + w + 6) + "px";
+        }
+      } else if (t.type === "ms") {
+        const x = LABW + idx(t.d) * DAYW + DAYW / 2 - 7;
+        el("ms" + (t.tbd ? " tbd" : ""), "", `left:${x}px;top:${top + 10}px`).title = `${t.name}（${t.d.slice(5)}）`;
+        const lb = el("mslab", t.name, `top:${top}px`);
+        lb.style.left = (idx(t.d) > N - 10 ? x - lb.offsetWidth - 6 : x + 18) + "px";
+      }
+    });
+    const now = new Date(); now.setHours(0, 0, 0, 0);
+    const ti = Math.round((now - t0) / 864e5);
+    if (ti >= 0 && ti < N) {
+      el("today", `<span>今日 ${now.getMonth() + 1}/${now.getDate()}</span>`, `left:${LABW + ti * DAYW + DAYW / 2}px`);
+    }
+  }
+  build();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(build);
+  window.addEventListener("resize", build);
+})();
+</script>
+</body>
+</html>

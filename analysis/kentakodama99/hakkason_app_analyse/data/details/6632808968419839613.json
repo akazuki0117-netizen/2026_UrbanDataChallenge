@@ -1,0 +1,72 @@
+{
+ "id": "6632808968419839613",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808968419839613/?year=2026",
+ "fetched_at": "2026-11-20T15:44:30+00:00",
+ "title": "東京児童館マップ",
+ "team": "Care & Play",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京児童館マップ」は、休みの日に子どもと出かけたい保護者が自治体をまたいで児童館を探せるWebサービス。児童館情報は自治体や施設ごとのWebサイトに分散し6自治体96施設調査で日曜開館は約55%と施設ごとの確認の手間が保護者の負担になっているという課題に対応。23自治体271施設の情報を一覧と地図に表示し現在位置から近い順に並べ替え、開館時間が揃う児童館は「いま開いている施設」に絞って表示できる。全て静的情報でサーバーへのデータ保存は行わない設計。React、TypeScript、ViteとMapLibre GL JSで構築し、Claude CodeとCodexをオープンデータのリサーチから実装、壁打ちまで併用した。",
+ "open_data_items": [
+  {
+   "name": "児童館（文京区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213040002"
+  },
+  {
+   "name": "児童館_学童_キッズプラザ（中野区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000065"
+  },
+  {
+   "name": "児童館・こどもクラブ（台東区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000224"
+  },
+  {
+   "name": "児童館・学童クラブ等一覧（西東京市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132292d0000000013"
+  },
+  {
+   "name": "公共施設一覧（杉並区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131156d0000000198"
+  },
+  {
+   "name": "公共施設一覧（世田谷区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d0000000002"
+  },
+  {
+   "name": "どこでも誰でもおでかけマップオープンデータ（板橋区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000761"
+  },
+  {
+   "name": "公共施設一覧（葛飾区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000005"
+  },
+  {
+   "name": "東村山市公共施設一覧（東村山市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132136d3100000006"
+  },
+  {
+   "name": "国民の祝日について（内閣府）",
+   "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213040002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000065",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000224",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132292d0000000013",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131156d0000000198",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131121d0000000002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000761",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132136d3100000006"
+ ],
+ "external_data_urls": [
+  "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4341",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

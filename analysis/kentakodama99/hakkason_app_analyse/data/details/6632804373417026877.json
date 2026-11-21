@@ -1,0 +1,36 @@
+{
+ "id": "6632804373417026877",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632804373417026877/?year=2026",
+ "fetched_at": "2026-11-20T15:43:25+00:00",
+ "title": "こどもAI東京探検隊",
+ "team": "こどもAI東京探検隊",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「こどもAI東京探検隊」は、こどもが生成AIと東京都等のオープンデータを使い身近な地域課題を調べ提案する探究型サービス。こどもが生成AIを「答えを得る道具」として使うだけでは自分で問いを立て社会に参加する機会につながりにくいという課題に対応。AIを「問いを育てる伴走者」として設計し、こどもの質問に対しAIが目的や条件を問い返しながらオープンデータを検索・地図表示、最後にAIと一緒に「もっと東京を良くする提案」を作成する。回答には出典を表示し個人情報保護対策も行う。Webアプリとして構築し、生成AIを対話エンジン・問いを深める設計・開発支援の3つの用途に活用した。",
+ "open_data_items": [
+  {
+   "name": "都市公園・都立公園一覧（墨田区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/4398568d-0a2d-4309-b1b0-9e38f46b03d8/resource/1ad0fae1-b0e8-432f-93ee-8d759139ba64"
+  },
+  {
+   "name": "都市公園・都立公園一覧（世田谷区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/01608a29-306c-42e4-91e3-ad0c5a919d2c/resource/fda92ef2-7872-47c5-a8cb-7a0b1299ea29"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/4398568d-0a2d-4309-b1b0-9e38f46b03d8/resource/1ad0fae1-b0e8-432f-93ee-8d759139ba64",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/01608a29-306c-42e4-91e3-ad0c5a919d2c/resource/fda92ef2-7872-47c5-a8cb-7a0b1299ea29"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://la-bonheur.co.jp/kodomoopendata/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://la-bonheur.co.jp/kodomoopendata/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1653",
+ "image_count": 1,
+ "notes": ""
+}

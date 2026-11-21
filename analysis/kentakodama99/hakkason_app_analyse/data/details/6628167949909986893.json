@@ -1,0 +1,26 @@
+{
+ "id": "6628167949909986893",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628167949909986893/?year=2026",
+ "fetched_at": "2026-11-20T15:33:21+00:00",
+ "title": "かんたん議会ラボ",
+ "team": "議会ラボ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "世田谷区議会の議事録をRAGで検索できるAIチャットアプリ。地方政治の情報は非構造化かつ専門用語が多く必要な情報に辿り着くには高いハードルがあり、有権者は「なんとなく」の投票に留まっているという課題に対応。回答は必ず過去の議事録のみを根拠とし該当する記載がなければ「該当記載なし」と回答、独立した別のAIモデルが内容を再検証（LLM-as-Judge）しハルシネーションを防止する。自由入力ではなくシステム側から関心テーマを提示する設計。27年4月の統一地方選挙での活用も見据える。Next.js（TypeScript）とFastAPI（Python）で構築し、回答生成にDeepSeek APIを、独立検証にも別途DeepSeek APIをLLM-as-Judgeとして稼働させた。",
+ "open_data_items": [
+  {
+   "name": "世田谷会議会開示録",
+   "url": "https://kugi.city.setagaya.tokyo.jp/voices/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://kugi.city.setagaya.tokyo.jp/voices/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=973",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

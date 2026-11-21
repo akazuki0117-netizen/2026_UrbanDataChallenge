@@ -1,0 +1,41 @@
+{
+ "id": "6607716898916603923",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6607716898916603923/?year=2026",
+ "fetched_at": "2026-11-20T15:31:31+00:00",
+ "title": "UVかけいぼ",
+ "team": "チームみー",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "日陰のルートと日焼け対策を提案するサービス。日傘を毎日持たなければならず日焼け量や自分に合った対策が分からないという課題に対応。外出前は3D都市モデル・太陽の向き・雲量から日陰を考慮したルートを提案し、外出時は浴びた紫外線量を計測してリアルタイム通知、外出後は月末にUV量とケア効果を振り返り自分に合ったケアを見つける。日焼けが嫌で外出が億劫になる経済損失の回避と日焼け止めメーカーへのデータ提供も狙う。TypeScript＋MapLibre GL JS＋Cloudflare Workers/Pages/D1でPLATEAUの建物をベクタタイル化し太陽位置からのレイキャストを端末内判定、Claude Codeでプロトタイプを構築後実地検証を重ねた。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）ポータル",
+   "url": "https://front.geospatial.jp/plateau_portal_site/"
+  },
+  {
+   "name": "気象庁 紫外線情報（UVインデックス推移図）",
+   "url": "https://www.data.jma.go.jp/env/uvindex/uvtrans.html"
+  },
+  {
+   "name": "Open-Meteo",
+   "url": "https://open-meteo.com/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://front.geospatial.jp/plateau_portal_site/",
+  "https://www.data.jma.go.jp/env/uvindex/uvtrans.html",
+  "https://open-meteo.com/"
+ ],
+ "demo_url": "https://uv-kakeibo.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://uv-kakeibo.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4725",
+ "image_count": 3,
+ "notes": ""
+}

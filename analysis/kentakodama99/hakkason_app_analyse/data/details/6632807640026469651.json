@@ -1,0 +1,36 @@
+{
+ "id": "6632807640026469651",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632807640026469651/?year=2026",
+ "fetched_at": "2026-11-20T15:44:11+00:00",
+ "title": "Clinic Connect",
+ "team": "Clinic Connect",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Clinic Connect」は、日本語での電話予約が難しい外国人向けの医療機関予約支援サービス。「探す」ための多言語情報環境は整いつつあるが実際の受診には電話での受付確認が必要で日本語に不安がある外国人にはハードルという課題に対応。症状・初診再診・保険等を整理し公開データから希望に合う医療機関を提示、選択後は問い合わせ内容を定型日本語に変換しTwilioの音声で伝え医療機関は番号キーで回答できる。ソロハッカソンでChatGPTとのVibe Codingで実装し、OpenAI Codexを要件整理からセキュリティ確認まで活用した。",
+ "open_data_items": [
+  {
+   "name": "外国人患者を受け入れる医療機関の情報を取りまとめたリスト",
+   "url": "https://www.mhlw.go.jp/content/10800000/001733200.xlsx"
+  },
+  {
+   "name": "外国人のためのTOKYO医療情報サイト：症状に応じた診療科",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info/department"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/content/10800000/001733200.xlsx",
+  "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info/department"
+ ],
+ "demo_url": "https://hello-ran.hello-ran.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hello-ran.hello-ran.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1995",
+ "image_count": 3,
+ "notes": ""
+}

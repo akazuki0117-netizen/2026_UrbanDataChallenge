@@ -1,0 +1,26 @@
+{
+ "id": "6632759094221446888",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632759094221446888/?year=2026",
+ "fetched_at": "2026-11-20T15:40:24+00:00",
+ "title": "TAMA NAVI",
+ "team": "さこつ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "多摩地域の観光・居住促進を目的とした観光スポット・飲食店検索サービス「TAMA NAVI」。都市部の有名観光地に人気が集中する一方、多摩地域の魅力や都心からのアクセスの良さが十分に知られておらず移動時間や予算で比較できる機会が少ないという課題に対応。市区町村、ジャンル、予算、新宿からの所要時間、駐車場の有無等から検索でき、写真・特徴・アクセスをカード形式で比較できる。HTML、CSS、JavaScriptとPython・FastAPIで構築し、OpenAIのCodexでDB設計や実装、人気サービスの検索条件を参考にした情報設計を行った。",
+ "open_data_items": [
+  {
+   "name": "標準化フォーマットデータ（稲城市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/en/dataset/t132250d0000000047"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/en/dataset/t132250d0000000047"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2006",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

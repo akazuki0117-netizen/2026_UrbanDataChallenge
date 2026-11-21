@@ -1,0 +1,41 @@
+{
+ "id": "6632799408978276594",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632799408978276594/?year=2026",
+ "fetched_at": "2026-11-20T15:42:48+00:00",
+ "title": "拾ってGo",
+ "team": "クライアント・エンジニアリング",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「拾ってGo」は、休日の渋谷など混雑が激しい街で飲食店に入れないときに利用するサービス。混雑で来街者が食事や休憩をしたくても店に入れない一方、立地不利な飲食店には空席があり繁華街のポイ捨て問題も自治体には把握しづらいという別々の課題を一つの仕組みで結びつける。利用者は空席のある「街の美化協力店」を検索・予約し店までの移動中に小さな「街の美化タスク」を完了することで入店でき、利用者・飲食店・自治体の三者にメリットを生む。撮影写真・位置情報・利用履歴を公開データと組み合わせ自治体ダッシュボードで可視化し美化施策やルート最適化に活用する。Next.js＋React＋TypeScriptとLeaflet.js＋OSRMで構築し、Claude Sonnet 4.5のマルチモーダル機能で撮影画像からごみの有無や種類を判定した。",
+ "open_data_items": [
+  {
+   "name": "渋谷区『令和７年度 渋谷区ポイ捨てごみ実態把握調査』",
+   "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/cc75aa53299d49d58557198386d9860e/20251225_poisutegomi_report.pdf"
+  },
+  {
+   "name": "渋谷区『令和７年度 渋谷区路上散乱ごみ実態調査報告書』",
+   "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/f093bce05ef843928ef961d10c21b6f3/260306_%E6%B8%8B%E8%B0%B7%E5%8C%BA%E8%B7%AF%E4%B8%8A%E6%95%A3%E4%B9%B1%E3%81%93%E3%82%99%E3%81%BF%E5%AE%9F%E6%85%8B%E6%8A%8A%E6%8F%A1%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
+  },
+  {
+   "name": "東京都『令和６年 モバイルデータを活用した訪都旅行者動向調査ローデータ』",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/data/mobile/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/cc75aa53299d49d58557198386d9860e/20251225_poisutegomi_report.pdf",
+  "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/f093bce05ef843928ef961d10c21b6f3/260306_%E6%B8%8B%E8%B0%B7%E5%8C%BA%E8%B7%AF%E4%B8%8A%E6%95%A3%E4%B9%B1%E3%81%93%E3%82%99%E3%81%BF%E5%AE%9F%E6%85%8B%E6%8A%8A%E6%8F%A1%E8%AA%BF%E6%9F%BB%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+  "https://data.tourism.metro.tokyo.lg.jp/data/mobile/"
+ ],
+ "demo_url": "https://hirotte-go-test.ttdo.jp/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hirotte-go-test.ttdo.jp/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2881",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6632130117028162909",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632130117028162909/?year=2026",
+ "fetched_at": "2026-11-20T15:36:59+00:00",
+ "title": "Medi NAVI JAPAN",
+ "team": "Medi NAVI JAPAN",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「MediNavi JAPAN」は、訪日外国人が体調不良時に適切な医療機関へつながるための多言語医療ナビ。外国人患者を受け入れる病院は全体の52.7%にとどまり、症状に合わない診療科を受診してしまうケースが多いという、クリニック勤務での実体験に基づく課題に対応。現在地・症状・診療科・対応言語から受診先を検索し、地図表示・電話・Webサイトへのアクセスや、支払い方法・予約要否など受診前の不安を解消する情報も提供、緊急時は119や#7119への導線も備える。Webアプリとして実装しダウンロード不要で使え、開発にはClaude CodeとChatGPTを併用した。",
+ "open_data_items": [
+  {
+   "name": "医療情報ネット（ナビイ）",
+   "url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize"
+ ],
+ "demo_url": "https://medinavi-japan.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://medinavi-japan.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=3965",
+ "image_count": 2,
+ "notes": ""
+}

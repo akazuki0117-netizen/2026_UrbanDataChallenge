@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PROTOTYPE 政治タイプ診断（スマホUI）</title>
+<!--
+  PROTOTYPE（使い捨て）
+  ※ 上部の黒いバーで、トーク／結果の見せ方を前回の3案（A/B/C）から切り替えられる（?variant=A|B|C）。回答は切り替えても保持。
+  問い: 「下メニューつきのスマホアプリとして、診断→結果→AI政治解説をどう見せるか？」
+  - 1つの案だけ。下メニュー: トーク / 結果 / 解説 / 政党 / 投票
+  - 政党名・立場・AIの答えはすべてダミー（A党〜E党）。実在政党のデータではない。
+  - 自由回答の解釈はキーワードによるダミー（本番はJev）。AIの回答も事前に書いた固定文（本番はLLM＋事前データ）。
+  - 保存なし。状態はメモリのみ。
+-->
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{--c:#ff7a59;--c2:#fff3ee;--g:#f1f1f4;--t:#222;--s:#8a8a92}
+body{font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;background:#2b2d33;color:var(--t)}
+.phone{position:relative;max-width:420px;margin:0 auto;height:100vh;height:100dvh;background:#fff;display:flex;flex-direction:column;overflow:hidden}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input{font:inherit}
+.top{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #eee;min-height:56px}
+.top h1{font-size:17px}
+.sub{font-size:11px;color:var(--s)}
+.main{flex:1;overflow-y:auto;position:relative}
+.pad{padding:14px}
+/* 下メニュー */
+.nav{display:flex;border-top:1px solid #eee;background:#fff;padding-bottom:env(safe-area-inset-bottom)}
+.nav button{flex:1;padding:7px 0 6px;font-size:10px;color:var(--s);display:flex;flex-direction:column;align-items:center;gap:2px;position:relative}
+.nav button .i{font-size:21px;line-height:1}
+.nav button.on{color:var(--c);font-weight:700}
+.nav button .dot{position:absolute;top:5px;right:calc(50% - 16px);width:8px;height:8px;border-radius:50%;background:var(--c)}
+.nav button[disabled]{opacity:.35}
+/* トーク */
+.av{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#ff9a7a,#ffcf7a);display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;flex:none;font-size:14px}
+.msgs{padding:14px 12px;display:flex;flex-direction:column;gap:8px}
+.row{display:flex;gap:6px;align-items:flex-end}
+.row.me{justify-content:flex-end}
+.b{max-width:78%;padding:9px 12px;border-radius:18px;line-height:1.55;font-size:15px;white-space:pre-wrap}
+.bot .b{background:var(--g);border-top-left-radius:6px}
+.me .b{background:var(--c);color:#fff;border-top-right-radius:6px}
+.read{font-size:10px;color:#aaa}
+.note{font-size:11px;color:var(--s);text-align:center}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:8px 10px;border-top:1px solid #f3f3f3}
+.chip{flex:none;border:1px solid var(--c);color:var(--c);border-radius:16px;padding:7px 12px;font-size:13px;background:#fff}
+.inbar{display:flex;gap:6px;padding:8px 10px;background:#fff}
+.inbar input{flex:1;border:1px solid #ddd;border-radius:20px;padding:9px 14px;min-width:0}
+.send{background:var(--c);color:#fff;border-radius:20px;padding:0 16px}
+.typing span{display:inline-block;width:6px;height:6px;border-radius:50%;background:#aaa;margin:0 2px;animation:bl 1s infinite}
+.typing span:nth-child(2){animation-delay:.2s}.typing span:nth-child(3){animation-delay:.4s}
+@keyframes bl{50%{opacity:.2}}
+/* 共通 */
+.card{border:1px solid #eee;border-radius:16px;padding:14px;margin-bottom:12px;background:#fff}
+.bar{height:10px;background:#eee;border-radius:5px;overflow:hidden}
+.bar>i{display:block;height:100%}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;background:var(--g);color:#555;margin:2px 4px 2px 0}
+.seg{display:flex;background:var(--g);border-radius:12px;padding:3px;margin:10px 14px 0}
+.seg button{flex:1;padding:8px 0;border-radius:10px;font-size:13px;color:#666}
+.seg button.on{background:#fff;color:var(--t);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.h2{font-size:15px;font-weight:800;margin:4px 0 10px}
+.src{font-size:11px;color:#5b8def}
+.empty{text-align:center;color:var(--s);padding:60px 20px;line-height:1.8}
+.btn{display:block;width:100%;background:var(--c);color:#fff;border-radius:14px;padding:13px;font-weight:700;text-align:center}
+.sheet-bg{position:absolute;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:flex-end;z-index:5}
+.sheet{background:#fff;width:100%;border-radius:20px 20px 0 0;max-height:85%;overflow-y:auto;padding:8px 16px 20px}
+.grab{width:40px;height:4px;border-radius:2px;background:#ddd;margin:4px auto 12px}
+.ai{border-left:3px solid var(--c);padding:2px 0 2px 10px;margin:8px 0}
+.ai b{font-size:12px;color:var(--c);display:block}
+.other{background:#f4f7ff;border-radius:10px;padding:8px 10px;font-size:13px;margin-top:8px}
+.vbar{display:flex;gap:4px;padding:6px 8px;background:#111;border-bottom:2px solid #ffd400}
+.vbar small{color:#ffd400;font-size:10px;align-self:center;padding:0 4px;white-space:nowrap}
+.vbar button{flex:1;color:#ddd;background:#333;border-radius:8px;padding:6px 2px;font-size:11px;line-height:1.3}
+.vbar button.on{background:#ffd400;color:#111;font-weight:700}
+.state{font-size:10px;color:#bbb;text-align:center;padding:4px}
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="vbar" id="vbar"></div>
+  <div class="top" id="top"></div>
+  <div class="main" id="main"></div>
+  <div id="foot"></div>
+  <nav class="nav" id="nav"></nav>
+</div>
+
+<script>
+/* ===== ダミーデータ（実在政党ではない） ===== */
+const ISSUES=[
+ {id:'edu',name:'大学の学費無料化',icon:'🎓',q:'ねえ、大学の学費って全部タダにしたほうがいいと思う？',ex:'今は国立でも年50万円くらいかかるよ',
+  what:'大学に行くときのお金を、国がどこまで出すかという話。',
+  why:'お金がないせいで進学をあきらめる人をなくしたい、という声がある一方、税金で全員分を払うと毎年数兆円かかる。',
+  you:'無料になれば進学や一人暮らしの選択肢が広がる。そのぶん将来の税金や他の予算に影響が出るかも。'},
+ {id:'sns',name:'SNSの年齢制限',icon:'📱',q:'16歳未満はSNS禁止！みたいなルール、どう思う？',ex:'海外ではもう始めてる国もあるんだって',
+  what:'子どもがSNSを使える年齢を法律で決めるかどうかの話。',
+  why:'いじめや依存から守りたいという意見と、表現や情報に触れる自由を守りたいという意見がぶつかっている。',
+  you:'決まれば、今使っているアプリが年齢確認つきになったり、使えなくなったりする。'},
+ {id:'tax',name:'消費税の引き下げ',icon:'🛒',q:'消費税、下げてほしい？ そのぶん他の財源が必要になるけど…',ex:'今は10%（食べ物は8%）',
+  what:'買い物のときに払う税金の割合を下げるかどうかの話。',
+  why:'物価が上がって生活が苦しいから下げるべきという意見と、年金や医療のお金が足りなくなるという意見がある。',
+  you:'お菓子や服が少し安くなる。ただ、学校や医療に使うお金の出どころをどうするかが問題になる。'},
+];
+const PARTIES=[
+ {id:'a',name:'A党',color:'#5b8def',st:{edu:2,sns:-1,tax:1},want:'教育と子育てにお金を集中',change:'学費の負担が減る代わりに、他の予算は見直し'},
+ {id:'b',name:'B党',color:'#f0a33a',st:{edu:-1,sns:2,tax:-2},want:'財政を立て直して将来にツケを残さない',change:'税は下がらないが、将来の借金は増えにくい'},
+ {id:'c',name:'C党',color:'#4fb07a',st:{edu:1,sns:1,tax:2},want:'家計の負担を今すぐ軽くする',change:'買い物は安くなるが、財源の議論が必要'},
+ {id:'d',name:'D党',color:'#b46fd6',st:{edu:0,sns:-2,tax:0},want:'自由とネットの表現を守る',change:'SNSは今まで通り使える'},
+ {id:'e',name:'E党',color:'#e2607a',st:{edu:2,sns:0,tax:-1},want:'若者への投資を最優先',change:'奨学金や学費の支援が手厚くなる'},
+];
+const EFFECT={
+ edu:{scene:'🏫 進学',pos:{c:'大学の学費の負担が減る',g:'お金を理由に進学をあきらめる人が減る',w:'毎年数兆円の財源が必要'},neg:{c:'学費は今のまま。支援は困っている人に絞る',g:'税金を他の課題に回せる',w:'家の経済状況で進学の差が残る'}},
+ sns:{scene:'📱 スマホ',pos:{c:'16歳未満はSNSに年齢確認が必要になる',g:'いじめや依存から守られやすい',w:'情報や友達とのつながりが減る'},neg:{c:'SNSは今まで通り使える',g:'表現や情報の自由が守られる',w:'トラブルから守るしくみは自分たちで考える必要'}},
+ tax:{scene:'🛒 買い物',pos:{c:'お菓子や服が少し安くなる',g:'毎日の出費が減る',w:'年金や医療のお金をどこから出すか'},neg:{c:'消費税は今のまま',g:'年金や医療の財源が安定する',w:'物価高の負担は続く'}},
+};
+const eff=(iid,p)=>{const v=p.st[iid];return v>0?EFFECT[iid].pos:v<0?EFFECT[iid].neg:{c:'大きくは変えない方針',g:'急な変化による混乱が少ない',w:'今の問題がそのまま残るかも'};};
+const STANCE_TXT={2:'強く賛成',1:'賛成',0:'中立・言及なし','-1':'反対','-2':'強く反対'};
+const CHOICES=[{v:2,t:'めっちゃ賛成'},{v:1,t:'賛成かな'},{v:0,t:'どっちでもない'},{v:-1,t:'反対かな'},{v:-2,t:'めっちゃ反対'}];
+const LABEL=v=>(CHOICES.find(c=>c.v===v)||{t:'?'}).t;
+
+/* ダミーのAI回答（本番はLLM＋事前データのみ） */
+const AI_ANSWERS=[
+ {k:/投票|どこ.*(入れ|選)|おすすめ/,a:{refuse:true,text:'それはきみが決めることだから、ぼくからはどの党とは言わないよ🙏\nかわりに、きみが一番大事にしたい論点を一緒に整理しよっか？',chips:['大事な論点の選び方は？','論点ごとに近い党を見たい']}},
+ {k:/勝ったら|変わる/,a:{point:'A党の公約どおりに進むと、大学の学費が段階的に無料になる計画だよ。',change:'進学のお金の心配が減る。そのかわり、他の予算（公共事業など）を見直すと書いてある。',other:'「全員無料より、困っている人に絞って支援すべき」という意見もあるよ（B党など）。',src:['A党 公約 p.12（ダミー）']}},
+ {k:/学費|大学/,a:{point:'学費無料化には、A党・E党が強く賛成、B党は反対の立場だよ。',change:'無料になると年50万円くらいの負担がなくなる。',other:'財源として毎年数兆円が必要で、「その分を別の教育予算に回すべき」という意見もある。',src:['A党 公約 p.12（ダミー）','B党 公約 p.30（ダミー）']}},
+ {k:/SNS|スマホ/,a:{point:'SNSの年齢制限は、B党が賛成、D党が強く反対しているよ。',change:'決まると、16歳未満は年齢確認でSNSが使えなくなるかも。',other:'「禁止より、使い方を学ぶ授業を増やすべき」という意見もあるよ。',src:['B党 公約 p.8（ダミー）','D党 公約 p.5（ダミー）']}},
+ {k:/消費税|税/,a:{point:'消費税の引き下げには、C党が強く賛成、B党は強く反対だよ。',change:'下がると買い物は安くなる。でも年金や医療のお金をどこから出すかが問題になる。',other:'「下げるより、困っている家庭に直接お金を配るほうが効果的」という意見もある。',src:['C党 公約 p.3（ダミー）','B党 公約 p.31（ダミー）']}},
+ {k:/選び方|大事な論点/,a:{point:'まず「自分の生活に一番関係ありそうな論点」を1つ選んでみて。',change:'その論点で近い党と遠い党を見比べると、自分の考えがはっきりしてくるよ。',other:'1つの論点だけで決めず、他の論点もちらっと見るのがおすすめ。',src:[]}},
+];
+function aiAnswer(q){ return (AI_ANSWERS.find(x=>x.k.test(q))||{a:{unknown:true,text:'ごめん、それはぼくが持ってる公約データには書いてないんだ🙇\nわからないことは、わからないって言うね。',chips:['学費無料化ってどうなる？','SNSの年齢制限って？']}}).a; }
+
+/* ダミーの回答解釈器（本番はJev） */
+function interpret(t){
+  if(/すごく|めっちゃ|絶対/.test(t)&&/いい|賛成|ほしい|欲しい|下げ/.test(t))return 2;
+  if(/いい|賛成|ほしい|欲しい|あり/.test(t))return 1;
+  if(/やだ|嫌|反対|いらない|ダメ|だめ/.test(t))return /絶対|めっちゃ|すごく/.test(t)?-2:-1;
+  return null;
+}
+function match(ans){
+  return PARTIES.map(p=>{const per=ISSUES.map(i=>Math.round(100-Math.abs((ans[i.id]??0)-p.st[i.id])*25));
+    return {...p,per,total:Math.round(per.reduce((a,b)=>a+b,0)/per.length)}}).sort((x,y)=>y.total-x.total);
+}
+
+/* ===== 状態（メモリのみ） ===== */
+const S={tab:'talk',step:0,ans:{},interp:[],log:[],done:false,
+  exSeg:'issue',exIssue:'edu',aiLog:[],aiTyping:false,sheet:null,party:null,newResult:false,
+  v:(new URLSearchParams(location.search).get('variant')||'A'),cSlide:2,cFree:false,cStory:0,
+  ev:(new URLSearchParams(location.search).get('ex')||'A'),simParty:null,simOpen:null};
+if(!['A','B','C'].includes(S.ev))S.ev='A';
+{const t=new URLSearchParams(location.search).get('tab');if(['talk','explain','party','vote'].includes(t))S.tab=t;}
+if(!['A','B','C'].includes(S.v))S.v='A';
+function botSay(t){S.log.push({who:'bot',txt:t});}
+function meSay(t){S.log.push({who:'me',txt:t});}
+function ask(){const i=ISSUES[S.step];botSay(`（${S.step+1}/${ISSUES.length}）${i.q}`);S.log.push({who:'note',txt:'💡 '+i.ex});}
+function start(){Object.assign(S,{step:0,ans:{},interp:[],log:[],done:false,newResult:false});
+  botSay('やっほー！ミナトだよ😊\n5分くらいで、きみの考えが「どの政党タイプか」わかるよ。');
+  botSay('答えはどこにも保存されないから、思ったまま答えてね。');ask();}
+function answer(v,raw){
+  const i=ISSUES[S.step];
+  if(raw!==undefined){meSay(raw);const r=interpret(raw);S.interp.push({id:i.id,issue:i.name,raw,v:r??0,unsure:r===null});S.ans[i.id]=r??0;
+    botSay(r===null?'うんうん、迷うよね。「どっちでもない」にしとくね！あとで直せるよ':`なるほど、「${LABEL(r)}」って感じかな。いいね！`);}
+  else{meSay(LABEL(v));S.ans[i.id]=v;botSay(['いいね、その考え方もあるよね！','わかる〜','なるほど！ちゃんと考えてるね'][S.step%3]);}
+  S.step++;
+  if(S.step<ISSUES.length)ask();
+  else{S.done=true;S.newResult=true;botSay('おつかれ！結果が出たよ🎉\n下の「結果」タブを見てみてね👇');}
+}
+
+/* ===== 画面 ===== */
+const $=id=>document.getElementById(id);
+function render(){
+  const tabs=[['talk','💬','トーク'],['result','📊','結果'],['explain','📖','解説'],['party','🏛','政党'],['vote','🗳','投票']];
+  $('nav').innerHTML=tabs.map(([k,i,t])=>`<button class="${S.tab===k?'on':''}" data-k="${k}" ${k==='result'&&!S.done?'disabled':''}>
+    <span class="i">${i}</span>${t}${k==='result'&&S.newResult?'<span class="dot"></span>':''}</button>`).join('');
+  $('nav').querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.disabled)return;S.tab=b.dataset.k;if(S.tab==='result')S.newResult=false;S.sheet=null;render();});
+  const isEx=S.tab==='explain';
+  const VS=isEx?[['A','論点＋チャット'],['B','政党くらべ'],['C','もしも生活']]:[['A','トーク完結'],['B','論点ボード'],['C','1問＋ストーリー']];
+  const curV=isEx?S.ev:S.v;
+  $('vbar').innerHTML=`<small>${isEx?'解説の案':'診断の案'}</small>`+VS.map(([k,t])=>`<button class="${curV===k?'on':''}" data-v="${k}">${k}<br>${t}</button>`).join('');
+  $('vbar').querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    if(isEx){S.ev=b.dataset.v;S.simOpen=null;} else {S.v=b.dataset.v;S.cStory=0;S.cSlide=2;S.cFree=false;}
+    try{const u=new URL(location.href);u.searchParams.set(isEx?'ex':'variant',b.dataset.v);history.replaceState(null,'',u);}catch(e){} render();});
+  $('foot').innerHTML='';
+  ({talk:Talk,result:Result,explain:Explain,party:Party,vote:Vote})[S.tab]();
+}
+
+/* --- トーク（診断） --- */
+function Talk(){
+  if(S.v==='C'&&!S.done) return TalkC();
+  $('top').innerHTML=`<div class="av">ミ</div><div><h1>ミナト</h1><div class="sub">${S.done?'診断おわり':'オンライン'}</div></div>`;
+  let board='',inline='';
+  if(S.v==='B'){ // 案B: 論点ボードを上に固定
+    const m=match(S.ans);
+    board=`<div style="position:sticky;top:0;z-index:2;background:#fff7f3;padding:10px 12px;border-bottom:1px solid #f3d9cf">
+      <div style="display:flex;justify-content:space-between;font-size:12px;color:#a55"><b>論点ボード</b><span>${Object.keys(S.ans).length}/${ISSUES.length}</span></div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0">${ISSUES.map((i,k)=>{const a=S.ans[i.id],cur=k===S.step&&!S.done;
+        return `<div style="border-radius:10px;padding:6px;font-size:11px;text-align:center;background:${a!==undefined?'var(--c)':'#fff'};color:${a!==undefined?'#fff':'#999'};border:${cur?'2px dashed var(--c)':'1px solid #eee'}">${i.icon} ${i.name}<br><b>${a!==undefined?LABEL(a):cur?'いまここ':'—'}</b></div>`}).join('')}</div>
+      <div style="font-size:11px;color:#a55;margin-bottom:3px">いまの近さ（答えるたびに変わる）</div>
+      <div style="display:flex;height:10px;border-radius:5px;overflow:hidden">${m.map(p=>`<i style="flex:${p.total};background:${p.color}"></i>`).join('')}</div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;margin-top:2px">${m.map(p=>`<span style="color:${p.color}">${p.name}</span>`).join('')}</div></div>`;
+  }
+  if(S.v==='A'&&S.done){ // 案A: 結果もトークの中に届く
+    const m=match(S.ans),t=m[0];
+    inline=`<div class="row bot"><div class="av">ミ</div><div class="b" style="background:var(--c2);border:2px solid var(--c);max-width:84%;width:84%">
+      <div class="sub">きみのタイプ</div><div style="font-size:24px;font-weight:900;color:${t.color};margin:2px 0 6px">${t.name}タイプ</div>
+      ${m.map(p=>`<div style="font-size:12px;margin-top:6px">${p.name} ${p.total}%<div class="bar"><i style="width:${p.total}%;background:${p.color}"></i></div></div>`).join('')}</div></div>
+      <div style="display:flex;gap:8px;overflow-x:auto;padding:2px 0 2px 40px">${m.map(p=>`<div style="flex:none;width:190px;border:1px solid #eee;border-radius:14px;padding:10px;font-size:13px">
+        <b style="color:${p.color}">${p.name}</b><div style="margin:4px 0">🎯 ${p.want}</div><div>🔄 ${p.change}</div></div>`).join('')}</div>`;
+  }
+  $('main').innerHTML=board+`<div class="msgs">${S.log.map(m=>m.who==='note'?`<div class="note">${m.txt}</div>`:
+    `<div class="row ${m.who}">${m.who==='bot'?'<div class="av">ミ</div>':'<span class="read">既読</span>'}<div class="b">${m.txt}</div></div>`).join('')}${inline}</div>`;
+  if(S.done){
+    $('foot').innerHTML=`<div class="chips"><button class="chip" id="g1">📊 結果を見る</button><button class="chip" id="g2">📖 ミナトに質問する</button><button class="chip" id="g3">🔄 もう一回やる</button></div>`;
+    $('g1').onclick=()=>{S.tab='result';S.newResult=false;S.cStory=0;render();};
+    $('g2').onclick=()=>{S.tab='explain';S.exSeg='ask';render();};
+    $('g3').onclick=()=>{start();render();};
+  }else{
+    const btns=S.v==='B'
+      ?`<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:4px;padding:8px 10px;border-top:1px solid #f3f3f3">${CHOICES.map(c=>`<button class="chip" data-v="${c.v}" style="padding:8px 2px;font-size:11px;border-radius:10px">${c.t}</button>`).join('')}</div>`
+      :`<div class="chips">${CHOICES.map(c=>`<button class="chip" data-v="${c.v}">${c.t}</button>`).join('')}</div>`;
+    $('foot').innerHTML=btns+`<div class="inbar"><input id="tx" placeholder="自分の言葉で返信してもOK"><button class="send" id="go">送信</button></div>`;
+    $('foot').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{answer(+b.dataset.v);render();});
+    const go=()=>{const v=$('tx').value.trim();if(v){answer(null,v);render();}};
+    $('go').onclick=go;$('tx').onkeydown=e=>{if(e.key==='Enter')go();};
+  }
+  $('main').scrollTop=1e6;
+}
+/* 案C: いまの1問だけを大きく出し、スライダーで答える */
+function TalkC(){
+  const i=ISSUES[S.step];
+  const last=[...S.log].reverse().find(x=>x.who==='bot'&&!x.txt.startsWith('（'));
+  $('top').innerHTML=`<div style="display:flex;gap:4px;flex:1">${ISSUES.map((_,k)=>`<div style="flex:1;height:5px;border-radius:3px;background:${k<S.step?'var(--c)':k===S.step?'#ffc2b0':'#eee'}"></div>`).join('')}</div><span class="sub">${S.step+1}/${ISSUES.length}</span>`;
+  $('main').innerHTML=`<div style="min-height:100%;display:flex;flex-direction:column;justify-content:center;padding:20px">
+    ${S.step>0&&last?`<div class="sub" style="margin-bottom:18px">ミナト：${last.txt}</div>`:''}
+    <div style="display:flex;gap:10px;align-items:flex-start"><div class="av" style="width:48px;height:48px;font-size:20px">ミ</div>
+      <div class="b" style="background:var(--g);border-radius:6px 22px 22px 22px;font-size:19px;max-width:100%;padding:16px">${i.q}</div></div>
+    <div class="note" style="margin-top:12px;text-align:left;padding-left:58px">💡 ${i.ex}</div></div>`;
+  $('foot').innerHTML=`<div style="border-radius:22px 22px 0 0;box-shadow:0 -4px 20px rgba(0,0,0,.08);padding:16px 18px 10px">
+    ${S.cFree?`<div class="inbar" style="padding:0"><input id="tx" placeholder="思ったことをそのまま書いてね"><button class="send" id="go">送る</button></div>`:`
+    <div style="text-align:center;font-size:22px;font-weight:800;color:var(--c);margin-bottom:6px">${CHOICES[S.cSlide].t}</div>
+    <input id="sl" type="range" min="0" max="4" step="1" value="${S.cSlide}" style="width:100%;accent-color:#ff7a59">
+    <div style="display:flex;justify-content:space-between" class="sub"><span>めっちゃ賛成</span><span>めっちゃ反対</span></div>
+    <button class="btn" id="ok" style="margin-top:10px">これで送る</button>`}
+    <button id="mode" style="width:100%;margin-top:6px;color:#888;font-size:12px;padding:4px">${S.cFree?'← スライダーで答える':'✏️ 自分の言葉で答える'}</button></div>`;
+  const sl=$('sl'); if(sl) sl.oninput=()=>{S.cSlide=+sl.value;render();};
+  const ok=$('ok'); if(ok) ok.onclick=()=>{answer(CHOICES[S.cSlide].v);S.cSlide=2;render();};
+  $('mode').onclick=()=>{S.cFree=!S.cFree;render();};
+  const g=$('go'); if(g){const go=()=>{const v=$('tx').value.trim();if(v){answer(null,v);render();}};g.onclick=go;$('tx').onkeydown=e=>{if(e.key==='Enter')go();};}
+}
+
+/* --- 結果 --- */
+function Result(){
+  if(S.v==='C') return ResultStory();
+  const m=match(S.ans),top=m[0];
+  $('top').innerHTML=`<h1>診断結果</h1>`;
+  $('main').innerHTML=`<div class="pad">
+    <div class="card" style="text-align:center;background:var(--c2);border-color:#ffd8cb">
+      <div class="sub">きみのタイプ</div>
+      <div style="font-size:32px;font-weight:900;color:${top.color};margin:6px 0">${top.name}タイプ</div>
+      <div style="font-size:13px">マッチ率 <b>${top.total}%</b>　でも100%一致する党はないよ</div>
+    </div>
+    <div class="card"><div class="h2">全政党とのマッチ率</div>
+      ${m.map(p=>`<button class="pp" data-id="${p.id}" style="display:flex;align-items:center;gap:8px;width:100%;margin:9px 0;font-size:14px">
+        <span style="width:40px;text-align:left">${p.name}</span><div class="bar" style="flex:1"><i style="width:${p.total}%;background:${p.color}"></i></div><b style="width:42px;text-align:right">${p.total}%</b><span style="color:#ccc">›</span></button>`).join('')}
+      <div class="sub" style="margin-top:8px">計算方法：論点ごとに5段階の差から一致度を出し、単純平均。データは（ダミー）2026年2月時点の公約。</div>
+    </div>
+    <div class="card"><div class="h2">論点ごとの内訳</div>
+      ${ISSUES.map(i=>{const near=[...PARTIES].sort((a,b)=>Math.abs(S.ans[i.id]-a.st[i.id])-Math.abs(S.ans[i.id]-b.st[i.id]));
+        return `<div style="padding:10px 0;border-top:1px solid #f3f3f3"><div style="display:flex;justify-content:space-between"><b>${i.icon} ${i.name}</b><span style="color:var(--c);font-size:13px">${LABEL(S.ans[i.id])}</span></div>
+        <div style="font-size:12px;color:#666;margin-top:4px">近い：${near[0].name}・${near[1].name}　遠い：${near[near.length-1].name}</div>
+        <button class="ex" data-id="${i.id}" style="font-size:12px;color:var(--c);margin-top:4px">📖 この論点の解説を見る ›</button></div>`}).join('')}
+    </div>
+    <div class="card"><div class="h2">AIの解釈（自由回答）</div>
+      ${S.interp.length?S.interp.map(x=>`<div style="font-size:13px;padding:8px;background:var(--g);border-radius:10px;margin-bottom:6px">「${x.raw}」→ <b>${LABEL(x.v)}</b>${x.unsure?' <span style="color:#d77">⚠️判断できず</span>':''} <span style="float:right">✏️</span></div>`).join(''):'<div class="sub">自由回答はなかったよ</div>'}
+    </div>
+    <button class="btn" id="share">📤 スタンスをシェア（政党名は出ません）</button>
+    <div style="height:10px"></div>
+  </div>`;
+  $('main').querySelectorAll('.pp').forEach(b=>b.onclick=()=>{S.tab='party';S.party=b.dataset.id;render();});
+  $('main').querySelectorAll('.ex').forEach(b=>b.onclick=()=>{S.tab='explain';S.exSeg='issue';S.exIssue=b.dataset.id;render();});
+  $('share').onclick=()=>{S.sheet='share';Sheet();};
+}
+
+
+/* 案C: 結果をストーリー形式で1枚ずつ */
+function ResultStory(){
+  const m=match(S.ans),top=m[0];
+  const pages=[
+    `<div style="font-size:15px;opacity:.85">きみは…</div><div style="font-size:42px;font-weight:900;margin:12px 0">${top.name}<br>タイプ</div><div>マッチ率 ${top.total}%</div>`,
+    `<div style="font-size:18px;font-weight:800;margin-bottom:16px">でも100%一致する党はないんだ</div>${m.map(p=>`<div style="display:flex;align-items:center;gap:8px;margin:9px 0"><span style="width:40px">${p.name}</span><div style="flex:1;height:14px;background:rgba(255,255,255,.3);border-radius:7px"><div style="width:${p.total}%;height:100%;background:#fff;border-radius:7px"></div></div><b>${p.total}%</b></div>`).join('')}<div style="font-size:11px;opacity:.8;margin-top:10px">論点ごとの差から出した単純平均（ダミーデータ）</div>`,
+    `<div style="font-size:18px;font-weight:800;margin-bottom:12px">論点ごとに見ると</div>${ISSUES.map(i=>{const n=[...PARTIES].sort((a,b)=>Math.abs(S.ans[i.id]-a.st[i.id])-Math.abs(S.ans[i.id]-b.st[i.id]));return `<div style="margin:8px 0;text-align:left;background:rgba(255,255,255,.18);padding:10px;border-radius:12px;font-size:13px"><b>${i.icon} ${i.name}</b>：${LABEL(S.ans[i.id])}<br>近い：${n[0].name}　遠い：${n[n.length-1].name}</div>`}).join('')}`,
+    `<div style="font-size:18px;font-weight:800;margin-bottom:12px">${top.name}って何をしたいの？</div><div style="text-align:left;font-size:15px;line-height:1.8">🎯 ${top.want}<br>🔄 ${top.change}</div><div style="margin-top:14px;background:rgba(0,0,0,.25);border-radius:12px;padding:30px 0">▶ 公式動画（ダミー）</div>`,
+    `<div style="font-size:18px;font-weight:800;margin-bottom:16px">もっと知りたい？</div>
+     <button class="sb" data-a="explain" style="display:block;width:100%;background:#fff;color:var(--c);border-radius:14px;padding:12px;font-weight:700;margin-bottom:8px">📖 論点の解説を見る</button>
+     <button class="sb" data-a="ask" style="display:block;width:100%;background:#fff;color:var(--c);border-radius:14px;padding:12px;font-weight:700;margin-bottom:8px">💬 ミナトに質問する</button>
+     <button class="sb" data-a="share" style="display:block;width:100%;background:rgba(255,255,255,.2);color:#fff;border-radius:14px;padding:12px;font-weight:700">📤 スタンスをシェア（政党名なし）</button>`
+  ];
+  $('top').innerHTML=`<h1>診断結果</h1><span class="sub" style="margin-left:auto">${S.cStory+1}/${pages.length}</span>`;
+  $('main').innerHTML=`<div id="pg" style="min-height:100%;background:linear-gradient(160deg,#ff7a59,#ffb36b);color:#fff;display:flex;flex-direction:column;padding:14px 18px;text-align:center">
+    <div style="display:flex;gap:4px">${pages.map((_,k)=>`<div style="flex:1;height:3px;border-radius:2px;background:rgba(255,255,255,${k<=S.cStory?1:.35})"></div>`).join('')}</div>
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center">${pages[S.cStory]}</div>
+    <div style="font-size:11px;opacity:.75">左をタップで戻る ／ 右をタップで次へ</div></div>`;
+  $('pg').onclick=e=>{
+    const b=e.target.closest('.sb');
+    if(b){ if(b.dataset.a==='share'){Sheet();return;} S.tab='explain';S.exSeg=b.dataset.a==='ask'?'ask':'issue';render();return; }
+    const r=$('pg').getBoundingClientRect();S.cStory=Math.max(0,Math.min(pages.length-1,S.cStory+(e.clientX-r.left<r.width/3?-1:1)));render();
+  };
+}
+
+/* --- 解説（AI政治解説） --- */
+function Explain(){
+  if(S.ev==='B') return ExCompare();
+  if(S.ev==='C') return ExSim();
+  $('top').innerHTML=`<h1>AI解説</h1><span class="sub" style="margin-left:auto">公約データだけを使って解説</span>`;
+  $('main').innerHTML=`<div class="seg"><button class="${S.exSeg==='issue'?'on':''}" data-s="issue">論点を知る</button><button class="${S.exSeg==='ask'?'on':''}" data-s="ask">ミナトに聞く</button></div><div id="exb"></div>`;
+  $('main').querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{S.exSeg=b.dataset.s;render();});
+  S.exSeg==='issue'?ExIssue():ExAsk();
+}
+function ExIssue(){
+  const i=ISSUES.find(x=>x.id===S.exIssue);
+  $('exb').innerHTML=`
+   <div style="display:flex;gap:6px;overflow-x:auto;padding:12px 14px 4px">${ISSUES.map(x=>`<button class="chip is" data-id="${x.id}" style="${x.id===i.id?'background:var(--c);color:#fff':''}">${x.icon} ${x.name}</button>`).join('')}</div>
+   <div class="pad">
+    <div class="card">
+      <div style="font-size:20px;font-weight:900">${i.icon} ${i.name}</div>
+      <div class="ai"><b>ひとことで</b>${i.what}</div>
+      <div class="ai"><b>なんで議論になってるの？</b>${i.why}</div>
+      <div class="ai"><b>きみの生活にどう関係する？</b>${i.you}</div>
+      ${S.done?`<div class="other">🙋 きみの答え：<b>${LABEL(S.ans[i.id])}</b></div>`:''}
+    </div>
+    <div class="h2" style="margin-top:6px">各党はどう考えてる？</div>
+    ${[...PARTIES].sort((a,b)=>b.st[i.id]-a.st[i.id]).map(p=>`
+      <div class="card" style="padding:12px;border-left:4px solid ${p.color}">
+        <div style="display:flex;justify-content:space-between"><b>${p.name}</b><span class="tag">${STANCE_TXT[p.st[i.id]]}</span></div>
+        <div style="font-size:13px;margin-top:6px">${p.want}</div>
+        <div style="display:flex;justify-content:space-between;margin-top:6px"><span class="src">📄 出典：${p.name} 公約（ダミー）</span>
+        <button class="askp" data-q="${p.name}が勝ったら${i.name}はどう変わる？" style="font-size:12px;color:var(--c)">💬 ミナトに聞く</button></div>
+      </div>`).join('')}
+    <div class="sub" style="text-align:center">※ 解説はAIで下書きし、人がチェックしたものです（ダミー）</div>
+   </div>`;
+  $('exb').querySelectorAll('.is').forEach(b=>b.onclick=()=>{S.exIssue=b.dataset.id;render();});
+  $('exb').querySelectorAll('.askp').forEach(b=>b.onclick=()=>{S.exSeg='ask';sendAI(b.dataset.q);});
+}
+function ExAsk(){
+  const sug=S.aiLog.length?(S.aiLog[S.aiLog.length-1].a?.chips||['A党が勝ったら何が変わる？','消費税が下がるとどうなる？','どこに投票すればいい？']):
+    ['A党が勝ったら何が変わる？','学費無料化ってどうなる？','SNSの年齢制限って？','どこに投票すればいい？'];
+  $('exb').innerHTML=`<div class="msgs">
+    <div class="row bot"><div class="av">ミ</div><div class="b">政治のこと、なんでも聞いてね！\nぼくは各党の公約データだけを使って答えるよ。どの党に投票すべきかは言わないからね🙏</div></div>
+    ${S.aiLog.map(x=>x.q?`<div class="row me"><span class="read">既読</span><div class="b">${x.q}</div></div>`:AIBubble(x.a)).join('')}
+    ${S.aiTyping?'<div class="row bot"><div class="av">ミ</div><div class="b typing"><span></span><span></span><span></span></div></div>':''}
+  </div>`;
+  $('foot').innerHTML=`<div class="chips">${sug.map(t=>`<button class="chip sg">${t}</button>`).join('')}</div>
+    <div class="inbar"><input id="aq" placeholder="ミナトに質問する"><button class="send" id="ago">送信</button></div>`;
+  $('foot').querySelectorAll('.sg').forEach(b=>b.onclick=()=>sendAI(b.textContent));
+  const go=()=>{const v=$('aq').value.trim();if(v)sendAI(v);};
+  $('ago').onclick=go;$('aq').onkeydown=e=>{if(e.key==='Enter')go();};
+  $('main').scrollTop=1e6;
+}
+function AIBubble(a){
+  if(a.refuse||a.unknown) return `<div class="row bot"><div class="av">ミ</div><div class="b">${a.text}</div></div>`;
+  return `<div class="row bot"><div class="av">ミ</div><div class="b" style="background:#fff;border:1px solid #eee;max-width:86%">
+    <div class="ai" style="margin-top:0"><b>ポイント</b>${a.point}</div>
+    <div class="ai"><b>何が変わる？</b>${a.change}</div>
+    <div class="other">🔁 <b>別の見方</b><br>${a.other}</div>
+    ${a.src.length?`<div style="margin-top:8px">${a.src.map(s=>`<span class="src" style="display:block">📄 ${s}</span>`).join('')}</div>`:''}
+  </div></div>`;
+}
+function sendAI(q){
+  S.tab='explain';S.exSeg='ask';S.aiLog.push({q});S.aiTyping=true;render();
+  setTimeout(()=>{S.aiTyping=false;S.aiLog.push({a:aiAnswer(q)});if(S.tab==='explain')render();},700);
+}
+
+
+/* 解説 案B: 政党くらべ（論点を選ぶと、全政党が同じ項目で横に並ぶ。質問は下からシートで答える） */
+function ExCompare(){
+  const i=ISSUES.find(x=>x.id===S.exIssue);
+  $('top').innerHTML=`<h1>政党くらべ</h1><span class="sub" style="margin-left:auto">全党を同じ項目で</span>`;
+  const ps=[...PARTIES].sort((a,b)=>b.st[i.id]-a.st[i.id]);
+  $('main').innerHTML=`
+   <div style="display:flex;gap:6px;overflow-x:auto;padding:12px 14px 4px">${ISSUES.map(x=>`<button class="chip is" data-id="${x.id}" style="${x.id===i.id?'background:var(--c);color:#fff':''}">${x.icon} ${x.name}</button>`).join('')}</div>
+   <div style="padding:6px 14px;font-size:13px;color:#555">${i.what}${S.done?`　<b style="color:var(--c)">きみ：${LABEL(S.ans[i.id])}</b>`:''}</div>
+   <div style="display:flex;gap:10px;overflow-x:auto;padding:8px 14px 14px;scroll-snap-type:x mandatory;scroll-padding-left:14px">
+    ${ps.map(p=>{const e=eff(i.id,p);const near=S.done&&Math.abs(S.ans[i.id]-p.st[i.id])<=1;return `
+     <div style="flex:none;width:250px;scroll-snap-align:start;border:1px solid #eee;border-top:6px solid ${p.color};border-radius:16px;padding:14px;display:flex;flex-direction:column">
+      <div style="display:flex;justify-content:space-between;align-items:center"><b style="font-size:18px">${p.name}</b>${near?'<span class="tag" style="background:var(--c2);color:var(--c)">きみと近い</span>':''}</div>
+      <div style="margin:6px 0 2px"><span class="tag">${STANCE_TXT[p.st[i.id]]}</span></div>
+      <div class="ai"><b>何をしたい？</b>${p.want}</div>
+      <div class="ai"><b>何が変わる？</b>${e.c}</div>
+      <div style="font-size:13px;margin-top:6px">👍 ${e.g}</div>
+      <div style="font-size:13px;margin-top:4px">🤔 ${e.w}</div>
+      <div class="src" style="margin-top:8px">📄 ${p.name} 公約（ダミー）</div>
+      <button class="cmp" data-q="${p.name}が勝ったら${i.name}はどう変わる？" style="margin-top:auto;padding-top:10px;color:var(--c);font-size:13px;text-align:left">💬 ミナトにくわしく聞く</button>
+     </div>`}).join('')}
+   </div>
+   <div class="sub" style="text-align:center">← 横にスワイプして全政党を見てね →</div>
+   <div class="pad"><div class="card" style="background:#fafafa"><div class="h2">ミナトのひとこと</div><div style="font-size:14px;line-height:1.7">どの党にも「いいところ」と「心配なところ」があるよ。👍と🤔の両方を見て、きみが大事にしたいのはどっちか考えてみて！</div></div></div>`;
+  $('main').querySelectorAll('.is').forEach(b=>b.onclick=()=>{S.exIssue=b.dataset.id;render();});
+  $('main').querySelectorAll('.cmp').forEach(b=>b.onclick=()=>AskSheet(b.dataset.q));
+}
+function AskSheet(q){
+  const bg=document.createElement('div');bg.className='sheet-bg';
+  bg.innerHTML=`<div class="sheet"><div class="grab"></div><div class="row me" style="margin-bottom:8px"><div class="b">${q}</div></div>
+    <div id="ans"><div class="row bot"><div class="av">ミ</div><div class="b typing"><span></span><span></span><span></span></div></div></div>
+    <button class="btn" id="cl" style="margin-top:12px">閉じる</button>
+    <button id="more" style="width:100%;margin-top:8px;color:var(--c);font-size:13px">💬 チャットで続きを聞く</button></div>`;
+  document.querySelector('.phone').appendChild(bg);
+  setTimeout(()=>{const a=bg.querySelector('#ans');if(a)a.innerHTML=AIBubble(aiAnswer(q));},700);
+  bg.onclick=e=>{if(e.target===bg||e.target.id==='cl')bg.remove();
+    if(e.target.id==='more'){bg.remove();S.ev='A';sendAI(q);}};
+}
+
+/* 解説 案C: もしも生活シミュレーター（党を選ぶと、自分の生活の場面ごとに何が変わるか） */
+function ExSim(){
+  const order=S.done?match(S.ans):PARTIES;
+  if(!S.simParty) S.simParty=order[0].id;
+  const p=PARTIES.find(x=>x.id===S.simParty);
+  $('top').innerHTML=`<h1>もしも生活</h1><span class="sub" style="margin-left:auto">公約が実現したら？</span>`;
+  $('main').innerHTML=`
+   <div style="display:flex;gap:6px;overflow-x:auto;padding:12px 14px 4px">${order.map(x=>`<button class="chip sp" data-id="${x.id}" style="${x.id===p.id?`background:${x.color};border-color:${x.color};color:#fff`:`border-color:${x.color};color:${x.color}`}">${x.name}</button>`).join('')}</div>
+   <div style="margin:10px 14px;border-radius:18px;padding:18px;color:#fff;background:linear-gradient(150deg,${p.color},#333)">
+     <div style="font-size:12px;opacity:.85">もし</div><div style="font-size:22px;font-weight:900">${p.name}の公約が実現したら…</div>
+     <div style="font-size:13px;margin-top:6px;opacity:.9">${p.want}</div></div>
+   <div class="pad" style="padding-top:4px">
+    ${ISSUES.map(i=>{const e=eff(i.id,p),open=S.simOpen===i.id;return `
+     <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center"><b style="font-size:16px">${EFFECT[i.id].scene}</b><span class="tag">${i.name}</span></div>
+      <div style="display:flex;gap:8px;align-items:stretch;margin-top:10px;font-size:13px">
+        <div style="flex:1;background:var(--g);border-radius:10px;padding:8px"><div class="sub">いま</div>${i.ex}</div>
+        <div style="align-self:center;color:var(--c)">→</div>
+        <div style="flex:1;background:var(--c2);border-radius:10px;padding:8px"><div class="sub" style="color:var(--c)">もし${p.name}なら</div><b>${e.c}</b></div></div>
+      <div class="other">🔁 <b>別の見方</b>：${e.w}</div>
+      <div style="display:flex;justify-content:space-between;margin-top:8px"><span class="src">📄 ${p.name} 公約（ダミー）</span>
+       <button class="op" data-id="${i.id}" style="font-size:12px;color:var(--c)">${open?'閉じる':'他の党だと？ ›'}</button></div>
+      ${open?`<div style="margin-top:8px;border-top:1px solid #f3f3f3;padding-top:6px">${PARTIES.filter(x=>x.id!==p.id).map(x=>`<div style="font-size:12px;padding:4px 0"><b style="color:${x.color}">${x.name}</b>：${eff(i.id,x).c}</div>`).join('')}</div>`:''}
+     </div>`}).join('')}
+    <button class="btn" id="simask">💬 ${p.name}の場合をミナトに聞く</button>
+   </div>`;
+  $('main').querySelectorAll('.sp').forEach(b=>b.onclick=()=>{S.simParty=b.dataset.id;S.simOpen=null;render();});
+  $('main').querySelectorAll('.op').forEach(b=>b.onclick=()=>{S.simOpen=S.simOpen===b.dataset.id?null:b.dataset.id;render();});
+  $('simask').onclick=()=>{S.ev='A';sendAI(`${p.name}が勝ったら何が変わる？`);};
+}
+
+/* --- 政党 --- */
+function Party(){
+  const m=S.done?match(S.ans):PARTIES;
+  if(S.party){
+    const p=m.find(x=>x.id===S.party);
+    $('top').innerHTML=`<button id="bk" style="font-size:20px">‹</button><h1 style="color:${p.color}">${p.name}</h1>${S.done?`<span class="sub" style="margin-left:auto">マッチ率 ${p.total}%</span>`:''}`;
+    $('bk').onclick=()=>{S.party=null;render();};
+    $('main').innerHTML=`<div class="pad">
+      <div style="background:#000;color:#fff;border-radius:14px;height:190px;display:flex;align-items:center;justify-content:center;margin-bottom:12px">▶ 公式YouTube（埋め込み・ダミー）</div>
+      <div class="card"><div class="ai" style="margin-top:0"><b>何をしたい？</b>${p.want}</div><div class="ai"><b>何が変わる？</b>${p.change}</div></div>
+      <div class="card"><div class="h2">論点ごとの立場</div>
+        ${ISSUES.map(i=>`<div style="display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid #f3f3f3;font-size:14px"><span>${i.icon} ${i.name}</span>
+          <span><span class="tag">${STANCE_TXT[p.st[i.id]]}</span>${S.done?`<span class="sub">きみ：${LABEL(S.ans[i.id])}</span>`:''}</span></div>`).join('')}
+        <div class="src" style="margin-top:6px">📄 出典：${p.name} 公約（ダミー）</div></div>
+      <button class="btn" id="aq2">💬 ${p.name}についてミナトに聞く</button></div>`;
+    $('aq2').onclick=()=>sendAI(`${p.name}が勝ったら何が変わる？`);
+    return;
+  }
+  $('top').innerHTML=`<h1>政党</h1><span class="sub" style="margin-left:auto">${S.done?'マッチ率順':'並びはランダム'}</span>`;
+  $('main').innerHTML=`<div class="pad">${m.map(p=>`<button class="card pp" data-id="${p.id}" style="display:flex;width:100%;text-align:left;gap:12px;align-items:center">
+     <div style="width:44px;height:44px;border-radius:12px;background:${p.color};color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;flex:none">${p.name[0]}</div>
+     <div style="flex:1"><b>${p.name}</b>${S.done?` <span class="sub">${p.total}%</span>`:''}<div style="font-size:13px;color:#555">${p.want}</div></div><span style="color:#ccc">›</span></button>`).join('')}
+     <div class="sub" style="text-align:center">対象：国会に議席があり政党要件を満たす全政党（ダミー）</div></div>`;
+  $('main').querySelectorAll('.pp').forEach(b=>b.onclick=()=>{S.party=b.dataset.id;render();});
+}
+
+/* --- 投票 --- */
+function Vote(){
+  $('top').innerHTML=`<h1>投票まで</h1>`;
+  $('main').innerHTML=`<div class="pad">
+    <div class="card" style="text-align:center;background:var(--c2);border-color:#ffd8cb"><div class="sub">投票できるのは</div><div style="font-size:34px;font-weight:900;color:var(--c)">18歳から</div></div>
+    <div class="card"><div class="h2">📅 次の国政選挙</div><div style="font-size:15px">（ダミー）2028年7月ごろ</div></div>
+    <div class="card"><div class="h2">📘 選挙のしくみを1分で</div>
+      ${['選挙の案内ハガキが家に届く','投票所で名前を確認してもらう','候補者名や政党名を書いて投票箱へ','行けない日は「期日前投票」もできる'].map((t,k)=>`<div style="display:flex;gap:10px;padding:6px 0;font-size:14px"><b style="color:var(--c)">${k+1}</b>${t}</div>`).join('')}</div>
+  </div>`;
+}
+
+/* --- シェアのシート --- */
+function Sheet(){
+  const bg=document.createElement('div');bg.className='sheet-bg';
+  bg.innerHTML=`<div class="sheet"><div class="grab"></div><div class="h2">シェア画像のプレビュー</div>
+    <div style="background:linear-gradient(160deg,#ff7a59,#ffb36b);color:#fff;border-radius:16px;padding:18px">
+      <div style="font-size:12px;opacity:.85">わたしの政治スタンス</div>
+      ${ISSUES.map(i=>`<div style="display:flex;justify-content:space-between;margin-top:8px"><span>${i.icon} ${i.name}</span><b>${LABEL(S.ans[i.id])}</b></div>`).join('')}
+      <div style="font-size:11px;margin-top:12px;opacity:.85">#政治タイプ診断（仮）</div></div>
+    <div class="sub" style="margin:10px 0">政党名やマッチ率は載りません（未成年の選挙運動にあたらないように）</div>
+    <button class="btn" id="cl">閉じる</button></div>`;
+  document.querySelector('.phone').appendChild(bg);
+  bg.onclick=e=>{if(e.target===bg||e.target.id==='cl')bg.remove();};
+}
+
+start();render();
+</script>
+</body>
+</html>

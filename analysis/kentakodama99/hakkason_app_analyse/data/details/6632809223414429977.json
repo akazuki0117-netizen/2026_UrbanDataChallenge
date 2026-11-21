@@ -1,0 +1,26 @@
+{
+ "id": "6632809223414429977",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809223414429977/?year=2026",
+ "fetched_at": "2026-11-20T15:44:34+00:00",
+ "title": "moippo by AI",
+ "team": "AIの魔力は万能です",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "障害を持つ人向けに自己希望と求人情報のマッチ度を算出するサービス。求人に応募する際どれが自分に合うか分からず自分の希望も定まっていないという課題に対応、障害者雇用では特性や配慮事項に合わせた職場で働くことが離職率抑制に重要という支援機関からの示唆も踏まえた。フリーテキストで希望や求人情報を入力すると生成AIが分析しマッチ度を算出、ハローワークの求人情報を条件に合わせて自動取得できる。情報を丸投げせずタグを利用することで透明性・再現性を担保。Java/TypeScriptとSpring Boot、Gemini 3.1 Flash Liteで構築した。",
+ "open_data_items": [
+  {
+   "name": "ハローワークの求人",
+   "url": "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?action=initDisp&screenId=GECA110010"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.hellowork.mhlw.go.jp/kensaku/GECA110010.do?action=initDisp&screenId=GECA110010"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2719",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

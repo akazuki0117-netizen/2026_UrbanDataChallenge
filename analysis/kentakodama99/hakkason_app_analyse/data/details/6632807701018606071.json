@@ -1,0 +1,31 @@
+{
+ "id": "6632807701018606071",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632807701018606071/?year=2026",
+ "fetched_at": "2026-11-20T15:44:13+00:00",
+ "title": "WalDis",
+ "team": "ブルースコーピオン",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "目的地への最短経路ではなく道中の過程を楽しむ体験を実現する「WalDis」。散歩中に普段は気づかない文化財に出会い最短経路志向で道中の魅力に気づけないという課題に対応。目的地までの方角と距離だけを示すことに加え寄り道スポットを出現させ「寄り道」と「発見」を促す設計。Expo（React Native, SDK 54）／React 19／TypeScriptでiOS・Android・Webを1つのコードベースで開発し、Claude Codeにインタビュー形式で要件を聞かれることで実装したい機能を漏れなく要件定義書に落とし込んだ。",
+ "open_data_items": [
+  {
+   "name": "文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017"
+  },
+  {
+   "name": "東京都指定史跡データ一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000025/resource/6fb22ee3-5138-4fee-b611-e041f2e47351"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000025/resource/6fb22ee3-5138-4fee-b611-e041f2e47351"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2378",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

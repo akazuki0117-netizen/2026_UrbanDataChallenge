@@ -1,0 +1,17 @@
+{
+ "id": "6630478628913937447",
+ "group": "control",
+ "title": "スミハジメ 〜東京の新生活ToDo〜",
+ "demo_url": "https://app.sumihajime.workers.dev",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6630478628913937447.png",
+ "status": "動く",
+ "form": "Webアプリ",
+ "clear_in_5s": "はい：「東京への転入手続きを、やることリストに」",
+ "n_features": 5,
+ "gen_ai": "あり（チャット）",
+ "map_viz": "なし",
+ "maturity": "実用レベル",
+ "note": "独自ドメインへ転送。非公式である旨・保存範囲を明記"
+}

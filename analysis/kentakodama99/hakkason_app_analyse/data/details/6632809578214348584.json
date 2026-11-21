@@ -1,0 +1,47 @@
+{
+ "id": "6632809578214348584",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809578214348584/?year=2026",
+ "fetched_at": "2026-11-20T15:44:41+00:00",
+ "title": "いつもの道",
+ "team": "うに、実装中。",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "通学・通勤で使うルートを基準に東京都のオープンデータから自分に関係する情報だけを確認できる3D都市情報サービス「いつもの道」。地図や防災マップは多くの情報が表示され利用者が「自分の通学路に関係するのか」を探して判断する必要があり、防災情報は災害時に初めて確認することが多く日常生活と分断されているという課題に対応。道路工事や防災情報とルートの位置関係を照合しルートからの距離を計算、「いつもの道から18m」のように生活動線との関係を表示、平時は工事情報、防災時は浸水想定を同じ「いつもの道」を基準に3Dで確認できる。大妻女子大学千代田キャンパスの通学動線を実証エリアとし、東京都オープンデータMCPサーバーを活用し、ChatGPTとCodexで企画・実装を進めた。",
+ "open_data_items": [
+  {
+   "name": "国土交通省 PLATEAU",
+   "url": "https://www.mlit.go.jp/plateau/?utm_source=chatgpt.com"
+  },
+  {
+   "name": "東京都建設局「23区内 都道の路上工事情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028?utm_source=chatgpt.com"
+  },
+  {
+   "name": "Open-Meteo Forecast API",
+   "url": "https://open-meteo.com/en/docs?utm_source=chatgpt.com"
+  },
+  {
+   "name": "デジタル庁 Address Base Registry Geocoder（ABR Geocoder）",
+   "url": "https://github.com/digital-go-jp/abr-geocoder?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [
+  "https://www.mlit.go.jp/plateau/?utm_source=chatgpt.com",
+  "https://open-meteo.com/en/docs?utm_source=chatgpt.com",
+  "https://github.com/digital-go-jp/abr-geocoder?utm_source=chatgpt.com"
+ ],
+ "demo_url": "https://walk-route-3d-3.onrender.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://walk-route-3d-3.onrender.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=499",
+ "image_count": 3,
+ "notes": ""
+}

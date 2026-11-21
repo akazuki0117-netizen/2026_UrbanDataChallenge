@@ -1,0 +1,71 @@
+{
+ "id": "6625992927311898895",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625992927311898895/?year=2026",
+ "fetched_at": "2026-11-20T15:32:42+00:00",
+ "title": "多摩おでかけナビ — シルバーパス＆バリアフリー最適化MaaS",
+ "team": "ssuga",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "多摩地域の高齢者・移動困難者向けのおでかけナビ。東京都シルバーパスで無料になる路線があっても一般の乗換案内は運賃最安や最短時間を優先するため自分で調べるしかなく、多摩30市町村のバス標準データが東京都オープンデータに1件もないという課題に対応。出発地と行き先を選ぶとシルバーパスが使える路線を優先した経路を「安く／らくらく／はやく」の3通りで表示し、駅・停留所のバリアフリースコアも付ける。データが足りない部分は推測で埋めず信頼度を3層に分けてUIに必ず表示する誠実な設計。Next.js 16とCloudflare Workers（Hyperdrive経由でNeon）で構築し、Claude Codeで座標系変換のずれなど実データでの検証を重視した。",
+ "open_data_items": [
+  {
+   "name": "市民バス・コミュニティバス かわせみ号成瀬駅ルート停留所（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/a2acbcd5-77f8-402c-ab0c-35739fbe9b4a"
+  },
+  {
+   "name": "市民バス・コミュニティバス まちっこ相原ルート停留所（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/4a022a50-7f26-468a-8a83-bdbd22159d3d"
+  },
+  {
+   "name": "市民バス・コミュニティバス まちっこ公共施設巡回ルート停留所（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/beb541fb-e19b-439e-be9d-a8d34e35f24b"
+  },
+  {
+   "name": "市民バス・コミュニティバス 小山田桜台・多摩南部地域間運行小型バス停留所（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/8908aa2a-8905-491b-828f-5006c6d7ae7e"
+  },
+  {
+   "name": "市民バス・コミュニティバス 玉ちゃんバス北ルート停留所（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/25f38429-d8f8-434d-bb0d-86cbba72a739"
+  },
+  {
+   "name": "市民バス・コミュニティバス 玉ちゃんバス東ルート停留所（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/2a4ac89d-77da-4d29-9aa3-8d0d6bdd6ea4"
+  },
+  {
+   "name": "市民バス・コミュニティバス 玉ちゃんバス南ルート停留所（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/e53355ba-ab0a-443b-831e-6a7cbde6aa6c"
+  },
+  {
+   "name": "都内鉄道駅における車椅子使用者対応トイレのバリアフリー設備情報（東京都福祉局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/9d221d80-1006-4ef1-8155-266f854a4b62/resource/fa3df910-63cb-42db-b958-5d304ca700b1"
+  },
+  {
+   "name": "都立及び区市町村立施設等における車椅子使用者対応トイレのバリアフリー設備情報（東京都福祉局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/9d221d80-1006-4ef1-8155-266f854a4b62/resource/bf37b88c-c2ff-420f-8482-1fa4e7af0195"
+  },
+  {
+   "name": "町田市バリアフリーマップ（町田市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/fd0069e1-aac5-4f1e-a3d0-d9ff2c0ce14a/resource/f20a69ae-a7c9-4541-b876-7f81f613400c"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/a2acbcd5-77f8-402c-ab0c-35739fbe9b4a",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/4a022a50-7f26-468a-8a83-bdbd22159d3d",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/beb541fb-e19b-439e-be9d-a8d34e35f24b",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/8908aa2a-8905-491b-828f-5006c6d7ae7e",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/25f38429-d8f8-434d-bb0d-86cbba72a739",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/2a4ac89d-77da-4d29-9aa3-8d0d6bdd6ea4",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/dc03711e-60a9-47cf-8adb-19a74c294284/resource/e53355ba-ab0a-443b-831e-6a7cbde6aa6c",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/9d221d80-1006-4ef1-8155-266f854a4b62/resource/fa3df910-63cb-42db-b958-5d304ca700b1",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/9d221d80-1006-4ef1-8155-266f854a4b62/resource/bf37b88c-c2ff-420f-8482-1fa4e7af0195",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/fd0069e1-aac5-4f1e-a3d0-d9ff2c0ce14a/resource/f20a69ae-a7c9-4541-b876-7f81f613400c"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": null,
+ "image_count": 3,
+ "notes": "提出作品URL なし; 動画URL なし"
+}

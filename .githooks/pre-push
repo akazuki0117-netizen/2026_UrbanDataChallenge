@@ -1,0 +1,6 @@
+#!/bin/sh
+# push の前に、個人情報と秘密の値が入っていないかを調べる（docs/公開のルール.md）
+python skills/dev/public-check/scripts/check_public.py || {
+  echo "public-check で NG が出たので push を止めました。"
+  exit 1
+}

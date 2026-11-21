@@ -1,0 +1,46 @@
+{
+ "id": "6630062621414421678",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630062621414421678/?year=2026",
+ "fetched_at": "2026-11-20T15:34:11+00:00",
+ "title": "東京コンプリート",
+ "team": "yuu.dev",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都のオープンデータを実在する地図の「カード」（303か所）にし、実際に現地まで歩いてGETする位置ゲーム。防災アプリは普段開かれず頭に残らない一方、都内213か所の給水所を職員だけで毎日点検する人手も足りないという課題に対応。文化財・史跡めぐりの楽しさで毎日歩くうちに「命の水」である給水所の場所が体に覚えられ、カードから1タップで現況を報告でき市民の散歩が行政の点検記録に返る双方向の仕組みとした。LeafletとOSMでGPS判定を実装し、Cloudflare Workers（D1・Vectorize・Workers AI）のサーバーレス構成とし、オープンデータのみを根拠にするRAGでハルシネーションを遮断する対策をした。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータ「給水拠点一覧」（東京都水道局）213件",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv"
+  },
+  {
+   "name": "東京都オープンデータ「文化財・史跡一覧」（東京都教育庁）座標付き34件",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kyouiku/130001culturalproperty.csv"
+  },
+  {
+   "name": "台東区「名所・史跡」45件",
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.files/sisetu_30.csv"
+  },
+  {
+   "name": "中野区「平和史跡」11件",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_5000325.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kyouiku/130001culturalproperty.csv",
+  "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.files/sisetu_30.csv",
+  "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_5000325.csv"
+ ],
+ "demo_url": "https://tokyocomplete.tokyo-odh-228.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyocomplete.tokyo-odh-228.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4890",
+ "image_count": 3,
+ "notes": ""
+}

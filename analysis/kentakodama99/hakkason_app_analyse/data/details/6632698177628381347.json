@@ -1,0 +1,36 @@
+{
+ "id": "6632698177628381347",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632698177628381347/?year=2026",
+ "fetched_at": "2026-11-20T15:38:59+00:00",
+ "title": "Auritela",
+ "team": "MyriaMontis",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "iPhoneで再生中の音を解析し、耳元に届く音圧をリアルタイムで推定するアプリ。「自分がいま何dBで聴いているか」を知る手段がほとんどなく、ノイズキャンセリングが使えない屋外では音量を上げがちで、その自覚を持つ材料がないという課題に対応。東京都の道路交通騒音オープンデータ612地点と、ヘッドホンの遮音量を差し引いた再生音をエネルギー合成し、その場の実際の負担を数値化する。マイクで環境騒音も測定でき、公式測定点近くでは実測値に合わせて較正し、公式データの空白を端末が埋めていく。危険な音量が続くとNIOSH基準に基づき通知し、測定値はHealthKitに書き戻せる。iOSのHealthKitとReplayKitを活用し全工程でClaudeを使用した。",
+ "open_data_items": [
+  {
+   "name": "東京都環境局「令和５年度 自動車交通騒音・振動調査結果」常時監視測定地点",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/vehicle/noise/result/cyousakekka/reiwa5"
+  },
+  {
+   "name": "東京都環境局「令和５年度 自動車交通騒音・振動調査結果」要請限度測定地点",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/vehicle/noise/result/cyousakekka/reiwa5"
+  },
+  {
+   "name": "国土地理院 地名検索API",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kankyo.metro.tokyo.lg.jp/vehicle/noise/result/cyousakekka/reiwa5",
+  "https://www.kankyo.metro.tokyo.lg.jp/vehicle/noise/result/cyousakekka/reiwa5",
+  "https://msearch.gsi.go.jp/address-search/AddressSearch"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2080",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

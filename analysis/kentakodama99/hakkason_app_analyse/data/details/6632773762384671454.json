@@ -1,0 +1,31 @@
+{
+ "id": "6632773762384671454",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632773762384671454/?year=2026",
+ "fetched_at": "2026-11-20T15:41:17+00:00",
+ "title": "TOKYO +1",
+ "team": "Team SOMO",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO +1」は、東京旅行中の旅行者へまだ知らない東京を1件だけ返すWebサービス。訪問率が渋谷62.6%・池袋23.3%など地域差があるデータを新しい選択肢との出会いに活かすことに着目。本人が惹かれた特徴（写真の「路地」等）を手がかりに現在地と使える時間から行ける候補を確認し、東京都の地域別訪問データで順位を最大+0.15の範囲で限定的に調整することで、本人の興味を残しながらまだ知らない地域も選択肢にする。HTML/CSS/JavaScriptの軽量プロトタイプでCloudflare Workers＋Static Assetsに構築し、Codexで実装、12条件の検証で4件が変化することを確認した。",
+ "open_data_items": [
+  {
+   "name": "R6 国・地域別外国人旅行者行動特性調査・図表18「訪問した場所（複数回答）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tokyo-plus1.workers-ai-vision-poc.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-plus1.workers-ai-vision-poc.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2996",
+ "image_count": 3,
+ "notes": ""
+}

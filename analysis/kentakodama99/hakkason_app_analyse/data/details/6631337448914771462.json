@@ -1,0 +1,33 @@
+{
+ "id": "6631337448914771462",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631337448914771462/?year=2026",
+ "fetched_at": "2026-11-20T15:35:29+00:00",
+ "title": "みえる公共情報",
+ "team": "めとつながり",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [
+  "ソーシャルインパクト賞"
+ ],
+ "service_description": "バスの運転見合わせ・遅延・事故情報を市民が投稿・確認し文字情報として共有するサービス。ろう者・難聴者は音声アナウンスから状況を把握できず電光掲示板でも情報が十分でない場合があるという情報格差の課題に対応。現地の市民が路線や車内の状況を簡単に投稿でき位置情報と時刻を付与、他利用者の「確認した/していない」の反応から投稿の信頼性を推定する。公式情報と市民情報を分けて表示し公共情報を補完するリアルタイムデータを目指す。HTML/CSS/JavaScriptで都営バスのGTFS-Realtimeデータを解析し構築、Codexでソースコードを作成した。",
+ "open_data_items": [
+  {
+   "name": "東京都交通局バス位置情報(GTFS-RT形式)",
+   "url": "https://ckan.odpt.org/dataset/b_bus_gtfs_rt-toei"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset/b_bus_gtfs_rt-toei"
+ ],
+ "demo_url": "https://310d3a1b.mieru-public-data.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://310d3a1b.mieru-public-data.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3940",
+ "image_count": 3,
+ "notes": ""
+}

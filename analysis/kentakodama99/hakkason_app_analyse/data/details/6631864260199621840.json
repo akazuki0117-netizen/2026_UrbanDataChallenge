@@ -1,0 +1,47 @@
+{
+ "id": "6631864260199621840",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631864260199621840/?year=2026",
+ "fetched_at": "2026-11-20T15:36:10+00:00",
+ "title": "UTAHA防災",
+ "team": "UTAHA",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "住所と家族構成を入力すると東京都のオープンデータを基に「あなたの家の場合」の災害リスクを約3分で行動計画に変えるWebアプリ。ハザードマップは地図を開き凡例と照合する必要があり地震・液状化・浸水が別々の地図に分かれ自宅の複合リスクを理解するのは困難という課題に対応。50mメッシュ単位で震度8シナリオ・液状化5シナリオ・洪水浸水を定量評価し最寄りの避難所と経路を地図に表示、生成AIが家族構成や要配慮事項に合わせ避難判断の目安・優先行動・備蓄リストを個別生成する。データが無い場所は「わからない」と正直に返す安全側の設計。BigQueryのGISクエリで大規模データを空間クエリで即時合成し、Vertex AI Geminiは「数値を行動に翻訳する」役割に限定した。",
+ "open_data_items": [
+  {
+   "name": "令和4年度 首都直下地震等による東京の被害想定結果（震度分布・液状化）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390"
+  },
+  {
+   "name": "浸水予想区域図（東京都）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "国土数値情報 洪水浸水想定区域データ（A31・想定最大規模）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31-v3_0.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31-v3_0.html"
+ ],
+ "demo_url": "https://hazard-app-103175005729.asia-northeast1.run.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hazard-app-103175005729.asia-northeast1.run.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4155",
+ "image_count": 3,
+ "notes": ""
+}

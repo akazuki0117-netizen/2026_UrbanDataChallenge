@@ -1,0 +1,46 @@
+{
+ "id": "6627835361185667650",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627835361185667650/?year=2026",
+ "fetched_at": "2026-11-20T15:33:19+00:00",
+ "title": "ひなタグ｜NFCタグをかざして、避難メモにオフラインアクセス",
+ "team": "うめ組",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ひなタグ」は、災害時にNFCカードをスマートフォンへかざすだけで防災情報にアクセスできるサービス。発災時は通信障害やアクセス集中が起きやすく、混乱した状況でどのアプリを開くか判断すること自体が負担になり、端末の故障・紛失・電池切れで事前準備した情報にアクセスできなくなる課題に対応。平時に避難所やオフライン地図、家族との集合場所などをNFCタグへ保存しておくことで通信障害時でも利用でき、電池・充電も不要。自分の端末が使えない場合は周囲の人の端末にカードをかざして本人向け情報を確認でき、高齢者や子どもなど操作が難しい人も家族や避難所スタッフが代理確認できる。NFCとネイティブアプリ（Kotlin, iOS）で開発した。",
+ "open_data_items": [
+  {
+   "name": "東京くらし防災｜東京都",
+   "url": "https://www.bousai.metro.tokyo.lg.jp/_res/projects/default_project/_page_/001/028/233/all.pdf"
+  },
+  {
+   "name": "東京防災｜東京都",
+   "url": "https://www.bousai.metro.tokyo.lg.jp/content/pdf2023/tb2023.pdf"
+  },
+  {
+   "name": "一時（いっとき）集合所、広域避難場所、避難所等一覧｜世田谷区",
+   "url": "https://www.city.setagaya.lg.jp/02049/5455.html"
+  },
+  {
+   "name": "洪水浸水想定区域データ（河川単位）｜国土交通省",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31-v2_2.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.bousai.metro.tokyo.lg.jp/_res/projects/default_project/_page_/001/028/233/all.pdf",
+  "https://www.bousai.metro.tokyo.lg.jp/content/pdf2023/tb2023.pdf",
+  "https://www.city.setagaya.lg.jp/02049/5455.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31-v2_2.html"
+ ],
+ "demo_url": "https://drive.google.com/drive/folders/1LZXE-aKvpgMPAg_-UynfYJVpf9yrq_cd?usp=drive_link",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/drive/folders/1LZXE-aKvpgMPAg_-UynfYJVpf9yrq_cd?usp=drive_link"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1337",
+ "image_count": 3,
+ "notes": ""
+}

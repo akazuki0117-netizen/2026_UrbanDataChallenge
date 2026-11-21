@@ -1,0 +1,19 @@
+{
+ "id": "6632810134622806633",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810134622806633/?year=2026",
+ "fetched_at": "2026-11-20T15:44:56+00:00",
+ "title": "CARE LOG",
+ "team": "チームのぶ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "窓口に相談へ行く前にAIとの対話で必要な情報を匿名のまま事前整理できるサービス。働きながら家族を介護するビジネスケアラーは2030年に約318万人と試算され、情報が病院・地域包括支援センター・ケアマネジャー・区役所に分断され家族は何度も同じ説明を繰り返すという課題に対応。病名・薬・食事や歩行の様子等を答えるとA4の紙2枚が完成し窓口で見せれば状況説明の代わりになる。分からないことはどの窓口で聞けばよいかとともに一覧化される。氏名や連絡先は入力せず会話も保存されずQRコードで次回の続きから話せる設計。Cloudflare Pages＋Workers＋Workers AI（gemma）でDBを持たずブラウザメモリのみで管理し、日常動作の自立度評価に医療・介護現場で広く使われる評価尺度を活用した。",
+ "open_data_items": [],
+ "open_data_urls": [],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=856",
+ "image_count": 2,
+ "notes": "提出作品URL なし; 利用データ URL なし"
+}

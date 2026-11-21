@@ -1,0 +1,57 @@
+{
+ "id": "6626775551813304671",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626775551813304671/?year=2026",
+ "fetched_at": "2026-11-20T15:32:56+00:00",
+ "title": "母子シェルターナビ -Boshevi-",
+ "team": "Safety Lab",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Boshevi」は、妊婦や乳幼児を育てる家庭向けに「今の自分に最適な避難所」を提示する防災サービス。妊娠期は階段の上り下りで思うように動けず、出産後は子どもを抱えながらの移動の難しさから、災害時に本当に避難できるのか強い不安を感じるという実体験の課題に対応。避難所ごとの粉ミルクやおむつ、授乳室等の母子向け設備の有無、産婦人科までの距離、地震・水害等のハザード情報をスコア化し、ライフステージに応じた「おすすめ避難所Top3」をレコメンドする。地震速報や大雨警報をトリガーに危険度を再計算し、アプリを開いていなくても避難先をポップアップで案内する仕組みも備える。フロントはJavaScript/React、バックエンドはPython/FastAPIで構築した。",
+ "open_data_items": [
+  {
+   "name": "地震に対する備え",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/seikatubunka/R3/jisinsonae.csv"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+  },
+  {
+   "name": "医療情報ネットのオープンデータ",
+   "url": "https://data.e-gov.go.jp/data/dataset/321fdf20-5f6a-49e5-bcab-35d81d652c65/resource/f8c2a615-878f-4e88-9c26-8f2e23ec5548/download/e-gov20250601.zip"
+  },
+  {
+   "name": "板橋区避難所別物資一覧",
+   "url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.city.itabashi.tokyo.jp%2F_res%2Fprojects%2Fdefault_project%2F_page_%2F001%2F005%2F690%2Fr80401bitikuitiran1.xlsx"
+  },
+  {
+   "name": "洪水ハザードマップ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d1700000011"
+  },
+  {
+   "name": "震度分布・液状化（令和4年度首都直下型地震等による東京の被害想定結果）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d1700000011",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390"
+ ],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/seikatubunka/R3/jisinsonae.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv",
+  "https://data.e-gov.go.jp/data/dataset/321fdf20-5f6a-49e5-bcab-35d81d652c65/resource/f8c2a615-878f-4e88-9c26-8f2e23ec5548/download/e-gov20250601.zip",
+  "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.city.itabashi.tokyo.jp%2F_res%2Fprojects%2Fdefault_project%2F_page_%2F001%2F005%2F690%2Fr80401bitikuitiran1.xlsx"
+ ],
+ "demo_url": "https://boshevi-frontend.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://boshevi-frontend.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4849",
+ "image_count": 3,
+ "notes": ""
+}

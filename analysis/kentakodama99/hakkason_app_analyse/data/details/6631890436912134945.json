@@ -1,0 +1,31 @@
+{
+ "id": "6631890436912134945",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631890436912134945/?year=2026",
+ "fetched_at": "2026-11-20T15:36:19+00:00",
+ "title": "TOKYO Youth Canvas AI",
+ "team": "ディアンド",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO Youth Canvas AI」は、若者が東京の街を未来を試す場にする完全匿名の24時間対応Webサービス。既存の若者施策は困っている若者への支援が中心で、深刻な悩みはないが「何かに挑戦したい」という若者が試せる場が不足しているという課題に対応。若者がつぶやくと、オープンデータから生成された東京の職人など30名の大人AIエージェントが多角的にアドバイスし、自宅から1時間圏内で挑戦できる「街のミッション」を提案する。単一AIの画一的な指導ではなく異なる世代・職業のペルソナを持つ複数AIを議論させる設計とし、Difyのマルチエージェント基盤を採用した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログ（国勢調査・職業大分類別データ検索ページ)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=%E5%9B%BD%E2%81%B7%E8%AA%BF%E6%9F%BB+%E8%81%B7%E6%A5%AD"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=%E5%9B%BD%E2%81%B7%E8%AA%BF%E6%9F%BB+%E8%81%B7%E6%A5%AD"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://udify.app/chat/mWXtpAktJDaRFcB2",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://udify.app/chat/mWXtpAktJDaRFcB2"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=4742",
+ "image_count": 3,
+ "notes": ""
+}

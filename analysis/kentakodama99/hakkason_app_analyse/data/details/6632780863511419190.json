@@ -1,0 +1,31 @@
+{
+ "id": "6632780863511419190",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632780863511419190/?year=2026",
+ "fetched_at": "2026-11-20T15:41:36+00:00",
+ "title": "HoikuLens",
+ "team": "おーたに",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「HoikuLens」は、年度途中で保育園入所を検討する保護者向けの検索・比較サービス。自治体は年齢別の募集人数・申込人数を公開しているが園の場所や保育時間等は別ページやPDFに分散し、転居や急な就業で短期間に園を探す際の情報収集負担が大きいという課題に対応。自宅や最寄り駅を起点に通園可能な範囲を指定し、募集状況を見ながら距離・募集人数・参考申込倍率・保育条件を横並びで比較できる。Python・Streamlit・DuckDBで自治体PDFの整形から可視化まで一貫して実装し、Codexで募集人数・申込者数の抽出を行った。",
+ "open_data_items": [
+  {
+   "name": "三鷹市の保育園基本情報",
+   "url": "https://www.city.mitaka.lg.jp/c_service/074/074098.html"
+  },
+  {
+   "name": "三鷹市の月次募集情報",
+   "url": "https://www.city.mitaka.lg.jp/c_service/118/attached/attach_118737_5.pdf"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.mitaka.lg.jp/c_service/074/074098.html",
+  "https://www.city.mitaka.lg.jp/c_service/118/attached/attach_118737_5.pdf"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4649",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

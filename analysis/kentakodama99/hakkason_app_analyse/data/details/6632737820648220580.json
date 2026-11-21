@@ -1,0 +1,41 @@
+{
+ "id": "6632737820648220580",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632737820648220580/?year=2026",
+ "fetched_at": "2026-11-20T15:39:40+00:00",
+ "title": "支援制度ファインダー",
+ "team": "チームド素人",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都の自治体が公開する支援制度（給付金）情報を自治体をまたいで検索できるWebサイト。都内で支援制度をオープンデータで公開しているのは3自治体だけでその約60項目のうち「収入条件」等の記入率は0%で自分が対象か絞り込めないという課題に対応。公式ページをAIに読ませ未登録だった229件を発見（世田谷区では公式データ0件から615件を作成）、空欄の受給条件を復元し132件を補完、リンク切れ36件や受付終了55件を検出して末尾に回す。公式データの「欠け方」自体を絞り込み条件にした点が特徴で4自治体1,179件を掲載。Python標準ライブラリ中心で構築し、Google GeminiとCloudflare Workers AI（OpenCode経由のgpt-oss-20b、qwen3-30b）で公式ページ本文の解析を行った。",
+ "open_data_items": [
+  {
+   "name": "小金井市「支援制度（給付金）情報」",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koganei/22_support_system.csv"
+  },
+  {
+   "name": "東村山市「支援制度（給付金）情報」",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/higashimurayama/20240619_support_system.csv"
+  },
+  {
+   "name": "中野区「支援制度（給付金）情報」（中野区データマップ）",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_57001324.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/koganei/22_support_system.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/higashimurayama/20240619_support_system.csv",
+  "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_57001324.csv"
+ ],
+ "demo_url": "https://maoum-cmd.github.io/shien-seido-finder/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://maoum-cmd.github.io/shien-seido-finder/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2129",
+ "image_count": 3,
+ "notes": ""
+}

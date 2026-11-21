@@ -1,0 +1,47 @@
+{
+ "id": "6632617983526847295",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632617983526847295/?year=2026",
+ "fetched_at": "2026-11-20T15:38:16+00:00",
+ "title": "AI読（アイドク）",
+ "team": "正直パンマン",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「AI読」は、自治体サイトの手続きページが「AIに読めるか」を実測し読めない箇所と直す文面まで返すツール。住民が自分のAIエージェントに手続きの調べ物を任せる流れが始まる中、東京23区の転入届ページを実測したところ4項目すべてを持ち帰れたのは港区だけだったという課題に対応。地図から区を押すと必要書類・窓口・期限・手数料の4項目についてAIが読み取れたかを項目ごとに示し、読めなかった項目には追記する文面の型を提示、AIは書かれていない項目を推測で埋めず「記載がない」と答える誠実な設計。Python標準ライブラリのみで実装しrobots.txtを遵守、Claude（claude-p）でページの読解と採点を行い人が必須要素をあらかじめ定めて採点を安定化させた。",
+ "open_data_items": [
+  {
+   "name": "東京都住民基本台帳人口移動報告（時系列）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000561"
+  },
+  {
+   "name": "東京都区市町村清掃事業年報（ごみ排出量（収集量+持込量））",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d0000000014"
+  },
+  {
+   "name": "歴史的行政区域データセットβ版（CODH作成・CC BY 4.0）",
+   "url": "https://geoshape.ex.nii.ac.jp/city/"
+  },
+  {
+   "name": "都道府県コード及び市区町村コード（総務省）",
+   "url": "https://www.soumu.go.jp/denshijiti/code.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000561",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d0000000014"
+ ],
+ "external_data_urls": [
+  "https://geoshape.ex.nii.ac.jp/city/",
+  "https://www.soumu.go.jp/denshijiti/code.html"
+ ],
+ "demo_url": "https://shoujiki-panman.github.io/aidoku/web/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://shoujiki-panman.github.io/aidoku/web/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=139",
+ "image_count": 3,
+ "notes": ""
+}

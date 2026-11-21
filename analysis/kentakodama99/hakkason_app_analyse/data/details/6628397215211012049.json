@@ -1,0 +1,47 @@
+{
+ "id": "6628397215211012049",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628397215211012049/?year=2026",
+ "fetched_at": "2026-11-20T15:33:28+00:00",
+ "title": "CoolPark",
+ "team": "Inspire Tokyo Smart",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「CoolPark」は、涼しさ度合いを可視化し猛暑日でも子供が安全に遊べる公園を提案するサービス。猛暑日の増加で屋外遊具が50〜60℃以上に達するやけどの危険がある一方、どの公園のどこに日陰があるかの情報が乏しく保護者や保育士が経験や勘に頼らざるを得ないという課題に対応。気温・緑被率・日陰率を統合した独自の「涼しさ指数」（0-100点）を算出し、緑・オレンジ・赤の3色で直感的に地図表示する。OpenStreetMapの建物データから時間帯別の日陰ポリゴンを生成して日陰率を出す工夫がある。Pythonで開発しCloudflareのサービスをデータサイズに応じて使い分けた。",
+ "open_data_items": [
+  {
+   "name": "港区の公共施設情報 - 公園・児童遊園・緑地",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131032d0000000014/resource/89f8f6fa-d253-4040-993f-32be804be1e7"
+  },
+  {
+   "name": "港区みどりの実態調査（第10次）公園緑地緑被状況一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/c218c85b-fd40-4549-8926-e587ba1a0ad6/resource/993bc15c-babb-402e-bac1-34f6c5613501"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "Open-Meteo",
+   "url": "https://open-meteo.com/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131032d0000000014/resource/89f8f6fa-d253-4040-993f-32be804be1e7",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/c218c85b-fd40-4549-8926-e587ba1a0ad6/resource/993bc15c-babb-402e-bac1-34f6c5613501"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/",
+  "https://open-meteo.com/"
+ ],
+ "demo_url": "https://cool-park-map.tokyo-odh-232.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://cool-park-map.tokyo-odh-232.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3882",
+ "image_count": 1,
+ "notes": ""
+}

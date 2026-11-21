@@ -1,0 +1,42 @@
+{
+ "id": "6632779885327730320",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632779885327730320/?year=2026",
+ "fetched_at": "2026-11-20T15:41:34+00:00",
+ "title": "CoolRoute Tokyo",
+ "team": "闇夜が君臨",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「CoolRoute Tokyo」は、東京の高温歩行環境向けに最短・バランス・涼しさ優先の3種類の歩行ルートを比較できるWebアプリ。都民アンケートで距離優先の経路しか選べず道ごとの暑さの違いを把握できていないことが明らかになったという課題に対応。暑熱曝露モデルと建物データから推計した影の範囲を経路評価に活用し、3種類のルートを生成、影の分布や周辺の給水スポットも地図上に可視化する。Reactのコンポーネント指向で短期間での機能追加・修正を可能にし、OpenAI Codexでオープンデータ収集やエラー分析を、DeepSeekも併用して開発した。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "国土交通省 Project PLATEAU 建築物モデル",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+  },
+  {
+   "name": "東京都「緑のオープンデータ（GISデータ）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "東京都水道局「Tokyowater Drinking Station」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/",
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=4200",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

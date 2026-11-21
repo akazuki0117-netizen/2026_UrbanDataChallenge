@@ -1,0 +1,41 @@
+{
+ "id": "6632758312319065605",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632758312319065605/?year=2026",
+ "fetched_at": "2026-11-20T15:40:20+00:00",
+ "title": "フィールドノート",
+ "team": "united-commune",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「フィールドノート」は、「人間の気づき」をワンタップで記録できるノートアプリ。外出先でメモアプリを起動して場所を書き足すと観察が中断され、既存の地図アプリのメモも各サービスに分散してまとめて見返せないという課題に対応。ホーム画面のスタンプボタンを押すだけで時刻・現在地・気象データ等のメタデータ付き記録が残り、後から書き込める。オープンデータから生成した地図データの候補から必要なものだけをメタデータ付きノートとして作成することも可能。ノートはMarkdownファイルとして手元に残り、SNSに書きづらい気づきも安心して記録・共有できる。Swiftのウィジェット機能とiCloud DriveでE2E暗号化しプライバシーを確保。",
+ "open_data_items": [
+  {
+   "name": "府中市オープンデータ",
+   "url": "https://www.city.fuchu.tokyo.jp/gyosei/opendata/index.html"
+  },
+  {
+   "name": "アメダス（気象庁）",
+   "url": "https://www.jma.go.jp/jma/index.html"
+  },
+  {
+   "name": "地理院タイル（国土交通省 国土地理院）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "位置参照情報ダウンロードサービス（国土交通省 ）",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.fuchu.tokyo.jp/gyosei/opendata/index.html",
+  "https://www.jma.go.jp/jma/index.html",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://nlftp.mlit.go.jp/isj/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2630",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "6632806512249701106",
+ "group": "finalist",
+ "title": "TOKYO NEXT",
+ "demo_url": "https://tokyo-next.vercel.app/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632806512249701106.png",
+ "status": "動く",
+ "form": "Webアプリ（スマホ向け）",
+ "clear_in_5s": "はい：「今日は、どの東京へ寄り道しよう。」＋写真",
+ "n_features": 3,
+ "gen_ai": "画面上は不明",
+ "map_viz": "なし",
+ "maturity": "プロトタイプ",
+ "note": "日英対応"
+}

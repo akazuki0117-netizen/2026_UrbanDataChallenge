@@ -1,0 +1,72 @@
+{
+ "id": "6632787387911493543",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632787387911493543/?year=2026",
+ "fetched_at": "2026-11-20T15:41:53+00:00",
+ "title": "Komatta",
+ "team": "Aveaxis",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Komatta」は、新宿のような「立体都市」専用のナビ。新宿駅は鉄道・地下街・商業施設・バスターミナルが何層にも重なる立体都市で階・改札・出口を間違えると別の空間へ入り込み戻ることさえ難しいという課題に対応。出発地と目的地を入れると通る階・改札・出口・上下移動・目印を一続きに表示し、最短・迷いにくい・階段回避等から比較してその人に合う一本を案内する。東京都の多階層歩行ネットワークと3D都市モデルを統合し「現在階→目印→上下移動→必須の改札・出口→目的地」に経路を分解する設計。TypeScript・React・ViteとCesiumJSでPLATEAUの3D Tilesを描画し、Web Workerで日陰や階層移動を含むPareto探索を実装した。",
+ "open_data_items": [
+  {
+   "name": "Project PLATEAU 新宿区",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13104-shinjuku-ku-2025"
+  },
+  {
+   "name": "西新宿歩行者移動支援ネットワーク",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007"
+  },
+  {
+   "name": "新宿駅周辺の施設情報等・駅構内ナビゲーションデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000037"
+  },
+  {
+   "name": "新宿駅周辺屋内地図データ（国土交通省・R2年度）",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-indoor-shinjuku-r2"
+  },
+  {
+   "name": "警察庁 交通事故統計情報オープンデータ（PDL 1.0）",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "警視庁 犯罪発生情報（東京都オープンデータカタログ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000034"
+  },
+  {
+   "name": "気象庁 東京地方・地域時系列予報（PDL 1.0）",
+   "url": "https://www.jma.go.jp/bosai/jmatile/data/wdist/VPFD/130010.json"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "東京水飲み栓（Tokyowater Drinking Station）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000037",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-13104-shinjuku-ku-2025",
+  "https://www.geospatial.jp/ckan/dataset/mlit-indoor-shinjuku-r2",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://www.jma.go.jp/bosai/jmatile/data/wdist/VPFD/130010.json"
+ ],
+ "demo_url": "https://komatta-shinjuku.tokyo-odh-454.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://komatta-shinjuku.tokyo-odh-454.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=136",
+ "image_count": 3,
+ "notes": ""
+}

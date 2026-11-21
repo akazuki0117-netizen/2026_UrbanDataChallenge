@@ -1,0 +1,56 @@
+{
+ "id": "6631862871016148037",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631862871016148037/?year=2026",
+ "fetched_at": "2026-11-20T15:36:08+00:00",
+ "title": "WORD QUEST",
+ "team": "Kirari-TokyoNodeB",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「考えはあるのに文章にできない」悩みを解決するアプリで、ワーキングメモリが弱く言葉を文章に出せない中学生の母親からの相談を出発点とする。AIに任せると本人の個性や気持ちが消えてしまうという課題に対応し、WORD QUESTでは浮かんだ言葉をカード化しAIが意味を変えずに整えて「自分の言葉」を確認できるようにし、DATA QUESTでは東京都のオープンデータを使ったクイズで社会を知り自分の意見を深める。ゼロからの文章化を求めず「言葉の欠片」を集める形式とし、AIは補佐に徹して最後の確認は本人が行う設計。Cloudflare Workers上にHonoで構築し、Llama 3.3 70Bと3.1 8Bを用途に応じて使い分けている。",
+ "open_data_items": [
+  {
+   "name": "都市公園・都立公園一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/ota/131113_otaku_toshitoritukouen.csv"
+  },
+  {
+   "name": "ごみ分別一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/setagaya/131121_setagayaku_garbage_separate.csv"
+  },
+  {
+   "name": "公共施設",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/shinagawa/kokyoshisetsu.csv"
+  },
+  {
+   "name": "東京都公立図書館調査（令和6年度）",
+   "url": "https://www.library.metro.tokyo.lg.jp/lib_info_tokyo/uploads/R6_koutochou_ippan_1.csv"
+  },
+  {
+   "name": "新宿御苑の自然・庭園",
+   "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/"
+  },
+  {
+   "name": "食中毒統計調査・2024年",
+   "url": "https://data.e-gov.go.jp/data/dataset/mhlw_20260624_2024"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/ota/131113_otaku_toshitoritukouen.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/setagaya/131121_setagayaku_garbage_separate.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/shinagawa/kokyoshisetsu.csv",
+  "https://www.library.metro.tokyo.lg.jp/lib_info_tokyo/uploads/R6_koutochou_ippan_1.csv",
+  "https://policies.env.go.jp/national-garden/shinjukugyoen/",
+  "https://data.e-gov.go.jp/data/dataset/mhlw_20260624_2024"
+ ],
+ "demo_url": "https://word-quest.tokyo-odh-036.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモデモ",
+   "url": "https://word-quest.tokyo-odh-036.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2740",
+ "image_count": 1,
+ "notes": ""
+}

@@ -1,0 +1,63 @@
+{
+ "id": "6632742521025822288",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632742521025822288/?year=2026",
+ "fetched_at": "2026-11-20T15:39:52+00:00",
+ "title": "放課後Hub",
+ "team": "SuDX",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [
+  "学生賞"
+ ],
+ "service_description": "学生が放課後や自由時間に参加できる近隣の課外活動や地域イベントを探せるWebサイト「Hub」。地域のイベント情報がチラシや掲示板、Webサイトに分散し、学生が興味のある活動を見つけるのに多くの時間がかかるという課題に対応。イベント情報を一か所に集約し、知識グラフ風の画面でイベント同士のつながりを円で可視化、活動の種類ごとの色分けで比較や準備確認をしやすくする。フレームワークを使わずHTML/CSS/JavaScriptとPython標準ライブラリでシンプルに構築し、開発にはOpenCodeとChatGPTを活用した。",
+ "open_data_items": [
+  {
+   "name": "羽村市イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132276d0000000001"
+  },
+  {
+   "name": "イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132187d0000000001"
+  },
+  {
+   "name": "イベント情報（オープンデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000141"
+  },
+  {
+   "name": "東京都青梅市におけるイベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132055d0000000007"
+  },
+  {
+   "name": "イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000041"
+  },
+  {
+   "name": "イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000136"
+  },
+  {
+   "name": "イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132128d3000000010"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132276d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132187d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000141",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132055d0000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000041",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000136",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132128d3000000010"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://sudx.houkago-hub.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sudx.houkago-hub.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=1471",
+ "image_count": 3,
+ "notes": ""
+}

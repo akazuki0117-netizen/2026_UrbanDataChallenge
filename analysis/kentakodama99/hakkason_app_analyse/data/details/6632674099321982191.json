@@ -1,0 +1,62 @@
+{
+ "id": "6632674099321982191",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632674099321982191/?year=2026",
+ "fetched_at": "2026-11-20T15:38:42+00:00",
+ "title": "Sumaiクエリ",
+ "team": "palm7",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Sumaiクエリ」は、東京都を約500m四方の区画に分け人口・駅・学校・医療機関・公園・地価・洪水などの公開データを組み合わせて検索できるWebサービス。引っ越し先を探す人が必要な条件を考えて地域を選びたくても情報が別々のサイトに公開されブラックボックスなおすすめランキングに頼らざるを得ないという課題に対応。複数条件を一つの画面で指定すると条件に合う地域を地図と一覧で表示し、条件を変えると件数・一覧・地図がすぐに更新される。React・TypeScriptとMapLibreで地図表示し、OpenSearchで複数条件の高速検索を実現、Codexを開発に利用した。",
+ "open_data_items": [
+  {
+   "name": "令和2年国勢調査 地域メッシュ統計（500mメッシュ、JGD2011）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?aggregateUnitForBoundary=A&page=1&type=2"
+  },
+  {
+   "name": "国土数値情報 駅別乗降客数データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "国土数値情報 洪水浸水想定区域（想定最大規模）",
+   "url": "https://www.reinfolib.mlit.go.jp/help/contents/"
+  },
+  {
+   "name": "厚生労働省「医療情報ネット（ナビイ）」全国公開データ",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html"
+  },
+  {
+   "name": "東京都「緑のオープンデータ（GISデータ）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "不動産情報ライブラリ",
+   "url": "https://www.reinfolib.mlit.go.jp/help/contents/"
+  },
+  {
+   "name": "警視庁 公開統計（町丁別・罪種別認知件数）",
+   "url": "https://www.keishicho.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "国土交通省 位置参照情報",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/gis/statmap-search?aggregateUnitForBoundary=A&page=1&type=2",
+  "https://nlftp.mlit.go.jp/ksj/",
+  "https://www.reinfolib.mlit.go.jp/help/contents/",
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html",
+  "https://www.reinfolib.mlit.go.jp/help/contents/",
+  "https://www.keishicho.metro.tokyo.lg.jp/",
+  "https://nlftp.mlit.go.jp/isj/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4827",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

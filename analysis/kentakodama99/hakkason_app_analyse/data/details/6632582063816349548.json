@@ -1,0 +1,66 @@
+{
+ "id": "6632582063816349548",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632582063816349548/?year=2026",
+ "fetched_at": "2026-11-20T15:37:53+00:00",
+ "title": "まちのこそだて便",
+ "team": "TMU OLD BOYS",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まちのこそだて便」は、妊娠から6歳までの子育て支援を探しに行くのではなくまちから受け取るサービス。東京都の共働き率は66.7%で1日10時間前後が仕事・家事育児で埋まり探す時間が残っていない一方、受給要件は63自治体それぞれの自由文で書かれ自分が対象か読み解けないという課題に対応。区と子どもの生年月日を入れると使える給付・助成が期限順に並び締切通知が届き、申請書はPDFとExcelで自動生成される。AIが自治体ごとにばらばらな制度の説明文を読み解き「何歳まで何が使えるか」の形にそろえる役割。Vercel＋SupabaseとNext.jsで構築し、Claude Codeで実装と検証の速度を担保しつつ制度判定ロジックの設計は人間が担った。",
+ "open_data_items": [
+  {
+   "name": "子育て支援制度レジストリ 東京デジタル2030ビジョン（こどもDX）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "保育園",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206080001"
+  },
+  {
+   "name": "幼稚園",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213010001"
+  },
+  {
+   "name": "児童館",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213040002"
+  },
+  {
+   "name": "病児・病後児保育ルーム",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070004"
+  },
+  {
+   "name": "キッズルーム（一時保育）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070002"
+  },
+  {
+   "name": "地域子育て支援拠点（子育てひろば等）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070001"
+  },
+  {
+   "name": "子ども食堂一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d3100000001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206080001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213010001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213040002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d3100000001"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://hackathon-tokyo-2026.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hackathon-tokyo-2026.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3599",
+ "image_count": 3,
+ "notes": ""
+}

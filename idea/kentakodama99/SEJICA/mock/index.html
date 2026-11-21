@@ -1,0 +1,32 @@
+<!doctype html>
+<!--
+  PROTOTYPE（使い捨て）— 政治家になれる「SEJICA」の画面案
+  問い：「この画面はどう見えるべきか？」
+  構造の違う3案を ?variant=A|B|C で切り替える。
+    A トーク … LINE 風のチャットで議論する。結果は1枚の長いレポート
+    B 討論ステージ … 政治家と1対1で向き合い、最新の発言だけを大きく出す。結果は1枚ずつめくる
+    C 論点ボード … あなたと政治家の発言を左右2列の表に並べ、使える統計も横に出す。結果はタブで切り替える
+  場面は ?phase=entry|theme|chara|debate|result|type。
+  下の黒いバーの ← → （またはキーボードの ← →）で案を切り替える。
+  AI は呼ばず、台本どおりに返す。政党名・統計・マニフェストのページはすべて架空のサンプル。
+-->
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEJICA 画面案（PROTOTYPE）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone" id="app"></div>
+
+  <div class="proto-bar" id="proto-bar">
+    <button type="button" data-proto="prev" aria-label="前の案">←</button>
+    <span class="proto-label" id="proto-label"></span>
+    <button type="button" data-proto="next" aria-label="次の案">→</button>
+    <select id="proto-phase" aria-label="場面"></select>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

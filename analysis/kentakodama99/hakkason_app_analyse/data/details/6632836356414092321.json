@@ -1,0 +1,76 @@
+{
+ "id": "6632836356414092321",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632836356414092321/?year=2026",
+ "fetched_at": "2026-11-20T15:47:02+00:00",
+ "title": "みちくさ オープンデータマップ",
+ "team": "みちくさ オープンデータマップ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「みちくさ」は、都民と来訪者のスマホカメラでまちのオープンデータを新しくつくるサービス。東京都のオープンデータ9,656件のうち「ベンチ」の検索結果はわずか1件で位置データではなく、行政にはまちを歩いて測る手段がないという課題に対応。写真を1枚撮ると位置・時刻・種別が構造化された1行のデータになりその場で地図に反映され、収集データはCC BY 4.0でCSV・GeoJSON公開し東京都に還元する。まず需要が明確な「ひとやすみ」（ベンチ・日陰・水・トイレ）から始め東京ポイントで還元し継続を促す。単一HTMLで完結し通信が細くなる災害時にも動く設計とし、Geminiで企画からデモ動画収録まで全工程を活用した。",
+ "open_data_items": [
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（東京都福祉局）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "公衆トイレ一覧(板橋区)",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000005"
+  },
+  {
+   "name": "給水拠点一覧データ（東京都水道局）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "都立公園・庭園案内（東京都建設局）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000007"
+  },
+  {
+   "name": "オープンデータカタログ CKAN API（デジタルサービス局）",
+   "url": "catalog.data.metro.tokyo.lg.jp/api/3/action/package_search"
+  },
+  {
+   "name": "地下鉄関連情報　トイレ（東京都交通局）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000029"
+  },
+  {
+   "name": "バリアフリー移動支援情報の整備（東京都デジタルサービス局）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007"
+  },
+  {
+   "name": "AED設置箇所一覧（文京区）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t131059d0000000002"
+  },
+  {
+   "name": "緊急避難場所・避難所（文京区）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t131059d0502060001"
+  },
+  {
+   "name": "わらしことベンチ（江戸川区）",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t131237d0000000056"
+  }
+ ],
+ "open_data_urls": [
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000005",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000007",
+  "catalog.data.metro.tokyo.lg.jp/api/3/action/package_search",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000029",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t131059d0000000002",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t131059d0502060001",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t131237d0000000056"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://michikusa-opendata-map.netlify.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://michikusa-opendata-map.netlify.app"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1773",
+ "image_count": 1,
+ "notes": ""
+}

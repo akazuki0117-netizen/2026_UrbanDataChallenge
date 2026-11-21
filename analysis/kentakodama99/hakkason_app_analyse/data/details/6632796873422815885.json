@@ -1,0 +1,42 @@
+{
+ "id": "6632796873422815885",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632796873422815885/?year=2026",
+ "fetched_at": "2026-11-20T15:42:38+00:00",
+ "title": "JOB X-RAY",
+ "team": "JOB X-RAY",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「JOB X-RAY」は、求人票のURL・文章・画像から給与や休日などの条件を抽出し、曖昧・未記載項目を可視化するWebサービス。求人情報は求人票・法人情報・行政データに分散し条件表現も曖昧なため、応募前に給与や残業の認識違いが起きやすいという課題に対応（東京都の労働相談は令和7年度で5万件超、前年比12.5%増）。AIが条件を構造化し、GビズINFOや東京都オープンデータ等と横断確認して「確認できた事実」と「求人票の主張」を分けて表示、確認できない情報は推測せず面接用の確認質問に変換する。約30秒で応募前のミスマッチ予防につなげる設計。React/vinextで構築し、Alibaba Cloud Model StudioのQwenで条件抽出や質問生成を行っている。",
+ "open_data_items": [
+  {
+   "name": "令和7年東京都の労働相談の状況",
+   "url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/data/koyou/soudan/r7"
+  },
+  {
+   "name": "東京都オープンデータカタログ CKAN API",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search"
+  },
+  {
+   "name": "厚生労働省 職場情報総合サイト「しょくばらぼ」",
+   "url": "https://shokuba.mhlw.go.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search"
+ ],
+ "external_data_urls": [
+  "https://www.sangyo-rodo.metro.tokyo.lg.jp/data/koyou/soudan/r7",
+  "https://shokuba.mhlw.go.jp/"
+ ],
+ "demo_url": "https://job-x-ray.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://job-x-ray.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1931",
+ "image_count": 3,
+ "notes": ""
+}

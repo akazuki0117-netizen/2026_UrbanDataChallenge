@@ -1,0 +1,52 @@
+{
+ "id": "6632738012711255368",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632738012711255368/?year=2026",
+ "fetched_at": "2026-11-20T15:39:44+00:00",
+ "title": "HANABI VIEW",
+ "team": "土木も夜空を見上げたい",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "隅田川花火大会の帰り道の混雑を花火開始2時間前から2時間後まで1枚の地図で再生できるWebアプリ。隅田川花火大会には93万人が訪れ7割以上が道路で花火を見て帰りは1時間に集中し密集度は1平方メートルあたり7人に達するが、観覧者にはどこが混むか事前に知る手段がないという課題に対応。花火の見えやすさ・混雑・階段の重みを変えると帰り道が引き直され花火視聴時間と危険域通行距離を100点で採点、計画者モードでは通行止め等の効果を比較できる。イベント単位のリアルタイム混雑データが存在しないため物理モデルで推定し重い計算は前処理でサーバー不要な設計。ViteとMapLibre GL JSでダイクストラ法をブラウザ内実行し、Claude Code（Opus）で歩行空間ネットワークの未整備を突き止めOSM＋PLATEAUのハイブリッドへ切り替えた。",
+ "open_data_items": [
+  {
+   "name": "東京都統計年鑑 駅別乗降人員（東京都）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/tnenkan/tn-index.htm"
+  },
+  {
+   "name": "3D都市モデル PLATEAU（国土交通省 / G空間情報センター）",
+   "url": "https://www.mlit.go.jp/plateau/open-data/"
+  },
+  {
+   "name": "公衆トイレ一覧（墨田区・台東区）",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "地理院タイル（国土地理院）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "OpenStreetMap／ODbL 1.0",
+   "url": "https://www.openstreetmap.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/tnenkan/tn-index.htm",
+  "https://www.mlit.go.jp/plateau/open-data/",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": "https://hanabi-view.structuralengine.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hanabi-view.structuralengine.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=510",
+ "image_count": 3,
+ "notes": ""
+}

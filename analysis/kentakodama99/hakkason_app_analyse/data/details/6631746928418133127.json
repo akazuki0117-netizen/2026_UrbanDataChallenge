@@ -1,0 +1,37 @@
+{
+ "id": "6631746928418133127",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631746928418133127/?year=2026",
+ "fetched_at": "2026-11-20T15:35:43+00:00",
+ "title": "とうきょう子育て制度ナビ",
+ "team": "えん",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "子どもの生年月日と自治体を選ぶだけで今使える子育て支援制度が一覧で出る1ページWebアプリ。制度は申請主義で存在を知らなければ調べられず、年齢で対象になる制度も対象になった瞬間に誰も教えてくれず引っ越しでの変化も見えないという課題に対応。東京都と62区市町村の制度7,812件を収録し、月齢で対象になるものだけを表示、「今後1年で変わること」パネルでこれから対象になる制度と対象を過ぎる制度を先読みして示す。外部通信のない自己完結HTML1ファイルで生年月日等が端末外に出ない設計。PythonでCKAN APIから制度レジストリを構築し、対象年齢が自由記述だった制度はGemini APIで一括構造化した。",
+ "open_data_items": [
+  {
+   "name": "子育て支援制度レジストリ（東京都・0-6歳制度 7,812件／東京都デジタルサービス局・GovTech東京／CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "同 リソース：0-6歳子育て支援制度JSON（実際に取り込んだデータ本体）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+  },
+  {
+   "name": "同 リソース：README（対象者・内容分類のコード表／値の正規化に使用）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_README.pdf"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json",
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_README.pdf"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1766",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "6632715420975895749",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632715420975895749/?year=2026",
+ "fetched_at": "2026-11-20T15:39:09+00:00",
+ "title": "そなえみち",
+ "team": "株式会社サナリィ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「そなえみち」は、浸水・地震・土砂災害の危険を避けて最寄りの避難所へ向かう徒歩ルートを示すアプリ。浸水害の危険が迫った瞬間スマホの地図アプリは輻輳や停電で圏外になり、東京都のハザードデータは都管理河川のみが対象で荒川等の国管理河川の氾濫は「安全」に見えてしまうという2つの見落としに着目。都と国の浸水データを10mグリッド単位で合成し国管理河川の危険も反映、地図・避難所・道路網データを事前にスマホへ保存し経路計算も端末単体で完結させることで通信途絶時も浸水を避けたルートを表示できる。平常時はマスコット「ミズチ」が日常的に避難経路確認へ誘導する。React+TypeScript+ViteのPWAで構築し、経路探索の中核をRustで実装、Claude Codeでオフライン動作前提のアーキテクチャ設計を行った。",
+ "open_data_items": [
+  {
+   "name": "浸水予想区域図",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "洪水浸水想定区域データ A31a",
+   "url": "nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html"
+  },
+  {
+   "name": "避難場所・避難所一覧",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "給水拠点一覧",
+   "url": "catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "行政区域データ（N03）",
+   "url": "nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html"
+  },
+  {
+   "name": "道路網・建物データ",
+   "url": "download.geofabrik.de/asia/japan/kanto.html"
+  },
+  {
+   "name": "住所検索API",
+   "url": "msearch.gsi.go.jp/address-search/AddressSearch"
+  }
+ ],
+ "open_data_urls": [
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [
+  "nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html",
+  "nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html",
+  "download.geofabrik.de/asia/japan/kanto.html",
+  "msearch.gsi.go.jp/address-search/AddressSearch"
+ ],
+ "demo_url": "https://offline-evac-navi.tokyo-odh-391.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://offline-evac-navi.tokyo-odh-391.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4390",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,77 @@
+{
+ "id": "6632272237117782129",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632272237117782129/?year=2026",
+ "fetched_at": "2026-11-20T15:37:30+00:00",
+ "title": "Tokyo Capital Bridge",
+ "team": "Chattso-GPT",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京の資金を「海外投資家→上場企業→中小企業→都民」の四層に分けて可視化し連関を255か月の月次データで実測するWebサービス。東証プライムの売買代金の66.2%を海外投資家が占める一方、中小企業3,875社の業況DIは255か月間ゼロを超えたことがなく、住民税負担額も区市町村で7.9倍の開きがあり市場の活況が事業者や家計に届いていないという課題に対応。金利と業況DIの相関を24か月ずらすとr=−0.54になるなど金利効果が2年遅れて効いていることを発見、都民向け「入口チェッカー」で使える制度と年間節税額を、事業者向けに金融機関へ出せる相談メモを生成する。外部ライブラリを一切使わない単一HTMLで手書きSVGのチャートを実装し、Claude（Anthropic）で景況調査の母集団検証など「AIに疑わせる」開発を徹底した。",
+ "open_data_items": [
+  {
+   "name": "東京都中小企業の景況（月次・調査対象3,875社）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000087"
+  },
+  {
+   "name": "東京都中小企業の景況 付帯調査（回答企業の概要／事業資金に関する調査）",
+   "url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/data/chushou/keikyou"
+  },
+  {
+   "name": "東京都統計年鑑 令和5年 15金融（銀行・信用金庫・信用保証協会・株式取引・企業倒産）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001026"
+  },
+  {
+   "name": "東京都統計年鑑 令和5年 14家計（勤労者世帯の収入と支出）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001025"
+  },
+  {
+   "name": "東京都統計年鑑 令和5年 21財政（地域別個人住民税負担額）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001034"
+  },
+  {
+   "name": "市町村税課税状況等の調（令和5年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000352"
+  },
+  {
+   "name": "東京都財務局 都債IR情報「個人向け都債 発行予定/実績」",
+   "url": "https://www.zaimu.metro.tokyo.lg.jp/bond/tosai_hakkoujouken/saisei"
+  },
+  {
+   "name": "財務省 国債金利情報",
+   "url": "https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm"
+  },
+  {
+   "name": "日本取引所グループ 投資部門別売買状況／海外投資家地域別株券売買状況",
+   "url": "https://www.jpx.co.jp/markets/statistics-equities/investor-type/00-02.html"
+  },
+  {
+   "name": "日本銀行 為替相場（東京市場 ドル・円 スポット 月中平均）",
+   "url": "https://www.stat-search.boj.or.jp/ssi/mtshtml/fm08_m_1.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000087",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001026",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001025",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000352"
+ ],
+ "external_data_urls": [
+  "https://www.sangyo-rodo.metro.tokyo.lg.jp/data/chushou/keikyou",
+  "https://www.zaimu.metro.tokyo.lg.jp/bond/tosai_hakkoujouken/saisei",
+  "https://www.mof.go.jp/jgbs/reference/interest_rate/index.htm",
+  "https://www.jpx.co.jp/markets/statistics-equities/investor-type/00-02.html",
+  "https://www.stat-search.boj.or.jp/ssi/mtshtml/fm08_m_1.html"
+ ],
+ "demo_url": "https://tokyo-capital-bridge.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-capital-bridge.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3570",
+ "image_count": 3,
+ "notes": ""
+}

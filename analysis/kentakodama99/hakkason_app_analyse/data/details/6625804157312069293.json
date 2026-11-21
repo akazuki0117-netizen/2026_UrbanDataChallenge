@@ -1,0 +1,76 @@
+{
+ "id": "6625804157312069293",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625804157312069293/?year=2026",
+ "fetched_at": "2026-11-20T15:32:32+00:00",
+ "title": "小1の壁対策ナビ（学童保育空き見込みナビ）",
+ "team": "ssuga",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "小学校入学を控えた保護者向けに、学童保育の空き見込みを自治体をまたいで調べられるWebサービス。都内57自治体の学童クラブで待機児童は合計3,524人にのぼる「小1の壁」問題がある一方、学童保育を横断的に調べられるサービスはほとんど存在しないという課題に対応。区市町村別の需給統計と施設定員を突き合わせ空き見込みを4段階で推定し地図上で色分け、混雑が見込まれる地域では近隣の民間学童を距離順に自動提案する。入所児童数と定員の経年推移から「小1の壁」の進み方も可視化する。Next.jsをCloudflare Workers上に構築し、Claude Codeでデータ取り込みスクリプトや判定ロジックのSQLビュー化を行った。",
+ "open_data_items": [
+  {
+   "name": "学童保育クラブ（目黒区）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131105d0000000039-ee6454910012c245cf0ecb91ac038f5c-0"
+  },
+  {
+   "name": "子育て施設一覧 児童館等・学童クラブ（杉並区）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131156d0000000202-06101f62d4c7a0d7085a9b3cd81a9204-0"
+  },
+  {
+   "name": "学童クラブ 単独学童クラブ（練馬区）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131202d0000000079-aba352edae4252b63973afe0dd7f79d3-0"
+  },
+  {
+   "name": "学童クラブ 児童館等の併設学童クラブ（練馬区）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131202d0000000079-2a36db8a8437726d853f980e2a338e81-0"
+  },
+  {
+   "name": "子育て施設一覧（学童クラブ）（清瀬市）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t132217d0000000003-6db9a1f2d7cad6457ce2ae4a7bfb153a-0"
+  },
+  {
+   "name": "学童保育クラブ一覧（町田市）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t132098d0000000096-b3af6a556b1179fd65ee33adeb9099ee-0"
+  },
+  {
+   "name": "学童保育所・児童館一覧（小金井市）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t132101d0000000005-472e871ece96bc7c56e6992d4e933ae6-0"
+  },
+  {
+   "name": "民間学童クラブ施設一覧（練馬区）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131202d0000000031-5e8f690da7e4a4c86189214e626651dc-0"
+  },
+  {
+   "name": "私立学童クラブ一覧（江東区）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131083d0000000037-f8ac59e943ea4c2d0b5cdff35ae6f9ea-0"
+  },
+  {
+   "name": "学童クラブ事業の区市町村別実施状況（東京都福祉局）",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t000054d0000000344-9831b1a40303a28bd09109dfbc7b01c4-0"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131105d0000000039-ee6454910012c245cf0ecb91ac038f5c-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131156d0000000202-06101f62d4c7a0d7085a9b3cd81a9204-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131202d0000000079-aba352edae4252b63973afe0dd7f79d3-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131202d0000000079-2a36db8a8437726d853f980e2a338e81-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t132217d0000000003-6db9a1f2d7cad6457ce2ae4a7bfb153a-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t132098d0000000096-b3af6a556b1179fd65ee33adeb9099ee-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t132101d0000000005-472e871ece96bc7c56e6992d4e933ae6-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131202d0000000031-5e8f690da7e4a4c86189214e626651dc-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131083d0000000037-f8ac59e943ea4c2d0b5cdff35ae6f9ea-0",
+  "https://spec.api.metro.tokyo.lg.jp/spec/t000054d0000000344-9831b1a40303a28bd09109dfbc7b01c4-0"
+ ],
+ "demo_url": "https://gakudou-navi.tokyo-odh-039.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://gakudou-navi.tokyo-odh-039.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2683",
+ "image_count": 3,
+ "notes": ""
+}

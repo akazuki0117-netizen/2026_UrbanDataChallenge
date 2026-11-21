@@ -1,0 +1,41 @@
+{
+ "id": "6632810678219562070",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810678219562070/?year=2026",
+ "fetched_at": "2026-11-20T15:45:10+00:00",
+ "title": "ハナビミエル",
+ "team": "Daisuki Nekochan Galaxy",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ハナビミエル」は、花火大会をどこから見るかを決めるための地図。花火大会では打ち上げ地点周辺に人が集中し雑踏事故のリスクが高まるが、隅田川花火大会では地上1階から花火が全部見える場所はわずか11.8%しかないなど「どこから見えるか」を誰も知らないことが混雑の原因という課題に対応。PLATEAUの建物形状と実測高さを使い観測点から打ち上げ地点への視線を5m刻みで追跡、「全部見える／上だけ見える／見えない」を三色で塗り分け、観測する階（1〜20階）で可視率が11.8%から89.0%に変わることを体感できる。地点クリックで一人称視点の見え方も再現。HTML/CSS/JavaScriptのみでCanvas 2D APIと自作protobufパーサで構築し、生成AIとの壁打ちで花火を「球状に開く」と補正する仮定検証を行った。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）東京都23区 建築物（Building-MVT 2020年度）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-building-mvt-2020"
+  },
+  {
+   "name": "地理院タイル（淡色地図）／ 国土地理院",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "住所検索API ／ 国土地理院",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-building-mvt-2020",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://msearch.gsi.go.jp/address-search/AddressSearch"
+ ],
+ "demo_url": "http://shuriikeno.github.io/tokyo_hanabi_hackathon/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "http://shuriikeno.github.io/tokyo_hanabi_hackathon/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1513",
+ "image_count": 2,
+ "notes": ""
+}

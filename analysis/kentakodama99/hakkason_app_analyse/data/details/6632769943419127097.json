@@ -1,0 +1,46 @@
+{
+ "id": "6632769943419127097",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632769943419127097/?year=2026",
+ "fetched_at": "2026-11-20T15:41:00+00:00",
+ "title": "Cool Tokyo",
+ "team": "Kizashi",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京の気温と暑さ指数を表示し近くの涼めるスポット（コンビニ・公園・給水地点）を探せるアプリ。東京の気温と暑さ指数の上昇で夏の熱中症患者数が急増しているという課題に対応。ユーザーの位置情報から涼めるスポットを表示し、街路樹データ等をもとに通常ルートに代わる涼しいルートを提案、WBGTの状況を取得して熱中症予防と対処法のセクションも備える。Python・Shell・JavaScript・TypeScriptとGeopandas、OSMnx、Shapely、NetworkXで構築し、Claude AIをコーディング支援に活用した。",
+ "open_data_items": [
+  {
+   "name": "Trees, Drinking Stations, Parks of Tokyo",
+   "url": "https://odhackathon.metro.tokyo.lg.jp/issues/c05/clusters/"
+  },
+  {
+   "name": "Convenience Stores of Tokyo",
+   "url": "https://overpass-turbo.eu/"
+  },
+  {
+   "name": "WBGT Historical Data",
+   "url": "https://www.wbgt.env.go.jp/wbgt_data_download.php"
+  },
+  {
+   "name": "Heatstroke Data",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/lfe/nichijo/heat/toukei.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://odhackathon.metro.tokyo.lg.jp/issues/c05/clusters/",
+  "https://overpass-turbo.eu/",
+  "https://www.wbgt.env.go.jp/wbgt_data_download.php",
+  "https://www.tfd.metro.tokyo.lg.jp/lfe/nichijo/heat/toukei.html"
+ ],
+ "demo_url": "https://tokyo-map-cool-route.tausif3003.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-map-cool-route.tausif3003.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=10",
+ "image_count": 3,
+ "notes": ""
+}

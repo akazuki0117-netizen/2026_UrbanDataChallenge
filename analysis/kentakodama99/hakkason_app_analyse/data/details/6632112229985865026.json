@@ -1,0 +1,47 @@
+{
+ "id": "6632112229985865026",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632112229985865026/?year=2026",
+ "fetched_at": "2026-11-20T15:36:53+00:00",
+ "title": "TOKYO UPTIME — 東京の裏路線図",
+ "team": "LI WEILUN",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "エレベーターの点検時刻と鉄道ネットワークを重ね、階段を使えない日に「行ける」だけでなく「帰れる」かを時刻別に確認するサービス。都内鉄道駅の98.0%で段差解消が進んでいるが唯一の無段差経路の設備が点検に入ると同じ駅でも時間によって移動できず、現在の案内は往復可能性が見えないという課題に対応。駅・設備・点検時刻を時間依存グラフ化し往路と復路を同時判定、帰れない場合は代替駅候補を確認済み地下鉄区間と次に確認する地上区間に分けて示す。交通事業者には先に代替動線を確認すべき駅を提示する。ブラウザだけで動く軽量構成でCloudflare Workersへ拡張可能とし、AI Access Compilerでオープンデータから設備ID等を抽出する仕組みを構築した。",
+ "open_data_items": [
+  {
+   "name": "都営地下鉄各駅エレベーター点検・工事日程",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kotsu/130001_bureau-of-transportation.csv"
+  },
+  {
+   "name": "都営地下鉄駅基本情報",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kotsu/080_001b.csv"
+  },
+  {
+   "name": "地下鉄関連情報 バリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "地下鉄関連情報 各駅乗降人員一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000030"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000030"
+ ],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/kotsu/130001_bureau-of-transportation.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kotsu/080_001b.csv"
+ ],
+ "demo_url": "https://tokyo-uptime.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-uptime.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4770",
+ "image_count": 3,
+ "notes": ""
+}

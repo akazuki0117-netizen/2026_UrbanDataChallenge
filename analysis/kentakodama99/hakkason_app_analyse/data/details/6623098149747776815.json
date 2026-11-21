@@ -1,0 +1,47 @@
+{
+ "id": "6623098149747776815",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6623098149747776815/?year=2026",
+ "fetched_at": "2026-11-20T15:32:15+00:00",
+ "title": "BAKUworld",
+ "team": "Team BAKU",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「BAKUworld」は「もったいない」「おんがえし」を基盤にした未成年向けの安全な教育＆コミュニケーションプラットフォーム。既存SNSは検索・拡散・評価という成年向け構造を前提にしており未成年の想像力と好奇心を制限してきたという課題に対応。毎日の出来事を入力するだけで好奇心と自己表現を育成し、悪意ある拡散・検索・評価を遮断、AIがメンタルヘルス悪化を検知して連携機関へ通知する。多言語対応と国際的な個人情報保護法準拠で世界の未成年者を保護する構想。VercelとReact-Next.js/Pythonで構築し、OpenAIのtext-embedding-3-smallとgpt-4o-miniで意味解釈と心理変容検知を行っている。",
+ "open_data_items": [
+  {
+   "name": "家庭等における青少年の携帯電話・スマートフォン等の利用等に関する調査",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000002d0000000030"
+  },
+  {
+   "name": "公立学校統計調査報告書【東京都公立学校一覧】",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+  },
+  {
+   "name": "児童生徒の問題行動・不登校等生徒指導上の諸課題に関する調査",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/delinquency"
+  },
+  {
+   "name": "教育庁トップ 組織情報 統計・調査",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research"
+  },
+  {
+   "name": "令和7年度「教師不足」に関する実態調査",
+   "url": "https://www.mext.go.jp/a_menu/shotou/kyoin/mext_00018.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000002d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+ ],
+ "external_data_urls": [
+  "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/delinquency",
+  "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research",
+  "https://www.mext.go.jp/a_menu/shotou/kyoin/mext_00018.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2384",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

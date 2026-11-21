@@ -1,0 +1,26 @@
+{
+ "id": "6632773640468917918",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632773640468917918/?year=2026",
+ "fetched_at": "2026-11-20T15:41:15+00:00",
+ "title": "OpenZeus",
+ "team": "v&w brother",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「OpenZeus」は、専門家AIを月額で雇うグローバルAI Agentプラットフォーム。中小企業には専門実務が十分届かず、既存の生成AIも回答止まりで実務を完遂できないという二つの壁に着目。入管・税務・労務等の専門業務を、利用者の自然言語の依頼だけでAgentが調査・作成・確認まで自律実行し、監査ログ付きの成果物を届ける。各国の専門実務を蓄積するExperts Marketと、複数LLMを動的編成するMulti-LLM Parallel Councilを核とする。TypeScript／Pythonで構築し、GPT・Claude・Gemini・DeepSeek・Qwen等を役割ごとに使い分けて推論品質とコストを両立させている。",
+ "open_data_items": [
+  {
+   "name": "e-Stat 政府統計の総合窓口",
+   "url": "e-stat.go.jp/stat-search/database?"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "e-stat.go.jp/stat-search/database?"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=988",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}
