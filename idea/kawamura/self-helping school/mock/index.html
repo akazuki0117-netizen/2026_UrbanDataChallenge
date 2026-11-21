@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#3b5bdb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>学校は私たちで守る（モック）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="app">
+      <!-- 上部バー -->
+      <header class="app-bar">
+        <button class="icon-btn" id="back-btn" aria-label="戻る" hidden>‹</button>
+        <h1 id="app-title">Self-Helping School</h1>
+        <button class="avatar" id="avatar-btn" aria-label="アカウント"></button>
+      </header>
+
+      <main class="screen" id="screen">
+        <!-- ホーム -->
+        <section class="view active" id="view-home" data-title="学校は私たちで守る">
+          <div class="stats">
+            <div class="stat"><span class="stat-num" id="stat-posts">0</span><span>投稿</span></div>
+            <div class="stat"><span class="stat-num" id="stat-likes">0</span><span>共感</span></div>
+            <div class="stat"><span class="stat-num" id="stat-done">0/0</span><span>改定済の公約</span></div>
+          </div>
+          <button class="banner" data-go="election">
+            <span class="banner-label">生徒会長選挙</span>
+            <span id="stat-election">投票受付中</span>
+            <span class="chev">›</span>
+          </button>
+          <h2 class="section-title">いま共感が多い課題</h2>
+          <ul id="home-top" class="list"></ul>
+          <h2 class="section-title">最新テックアラート</h2>
+          <div id="home-alert"></div>
+        </section>
+
+        <!-- 目安箱 -->
+        <section class="view" id="view-box" data-title="目安箱">
+          <div class="chips" id="box-chips">
+            <button class="chip active" data-cat="all">すべて</button>
+            <button class="chip" data-cat="校則">校則</button>
+            <button class="chip" data-cat="SNSトラブル">SNSトラブル</button>
+            <button class="chip" data-cat="AI活用">AI活用</button>
+            <button class="chip" data-cat="学習環境">学習環境</button>
+          </div>
+          <div class="segmented" id="box-sort">
+            <button class="seg active" data-sort="likes">共感が多い順</button>
+            <button class="seg" data-sort="new">新しい順</button>
+          </div>
+          <ul id="post-list" class="list"></ul>
+          <button class="fab" id="open-post" aria-label="投稿する">＋</button>
+        </section>
+
+        <!-- 生徒会選挙 -->
+        <section class="view" id="view-election" data-title="生徒会選挙">
+          <div class="card">
+            <span class="badge" id="election-period"></span>
+            <p class="hint">人気投票や見た目のバイアスを防ぐため、立候補者は名前のみを表示しています（顔写真・学年・クラス・部活は非表示）。</p>
+          </div>
+          <div id="candidate-list"></div>
+
+          <div class="card" data-role="candidate">
+            <h2>マニフェストを作成</h2>
+            <p class="hint">目安箱の課題を選び、「私はこのように解決します」と回答してください。</p>
+            <form id="manifesto-form">
+              <label for="manifesto-issue">解決する課題</label>
+              <select id="manifesto-issue"></select>
+              <label for="manifesto-text">私はこのように解決します</label>
+              <textarea id="manifesto-text" rows="3"></textarea>
+              <button type="submit" class="primary block">マニフェストに追加</button>
+            </form>
+          </div>
+
+          <div class="card">
+            <h2>投票する</h2>
+            <p class="hint">1人1票の無記名投票です。教員・管理者でも誰が誰に投票したかは分かりません。</p>
+            <form id="vote-form">
+              <div id="vote-options" class="vote-options"></div>
+              <button type="submit" class="primary block">投票する</button>
+            </form>
+            <p class="done-msg" id="vote-done" hidden></p>
+          </div>
+
+          <div class="card">
+            <h2>開票結果</h2>
+            <div id="result"></div>
+            <button id="close-election" class="outline block" data-role="officer">投票を締め切る（選挙管理委員）</button>
+          </div>
+        </section>
+
+        <!-- 公約トラッカー -->
+        <section class="view" id="view-tracker" data-title="公約トラッカー">
+          <p class="hint pad">選挙で終わらせない。当選した生徒会役員が実行状況を更新・公開します。</p>
+          <div class="legend">
+            <span class="status s0">未着手</span>
+            <span class="status s1">検討中</span>
+            <span class="status s2">教員と協議中</span>
+            <span class="status s3">ルール改定完了</span>
+          </div>
+          <ul id="tracker-list" class="list"></ul>
+        </section>
+
+        <!-- メニュー -->
+        <section class="view" id="view-menu" data-title="メニュー">
+          <div class="card account">
+            <div class="avatar large" id="menu-avatar"></div>
+            <div>
+              <div class="account-role" id="menu-role"></div>
+              <div class="hint">学生ID：<span id="session-id"></span><br>GIGA端末のSSO連携でログイン（想定）</div>
+            </div>
+          </div>
+          <label class="pad" for="role-select">ロールを切り替える（モック用）</label>
+          <div class="pad">
+            <select id="role-select">
+              <option value="student">一般学生</option>
+              <option value="candidate">立候補者</option>
+              <option value="officer">生徒会役員（選挙管理委員）</option>
+              <option value="teacher">校内教員・教育委員会</option>
+            </select>
+          </div>
+          <ul class="menu-list">
+            <li><button data-go="rules"><span class="menu-icon">📘</span>校内デジタル憲章<span class="chev">›</span></button></li>
+            <li><button data-go="alerts"><span class="menu-icon">📡</span>テックアラート<span class="chev">›</span></button></li>
+            <li data-role="teacher"><button data-go="admin"><span class="menu-icon">🛡️</span>モデレーション<span class="chev">›</span></button></li>
+          </ul>
+          <p class="hint pad">UDC2026 アイデアモック（河村）／データはすべて架空です。</p>
+        </section>
+
+        <!-- デジタル憲章 -->
+        <section class="view" id="view-rules" data-title="デジタル憲章" data-parent="menu">
+          <div class="card">
+            <p class="hint">議論の結果決まった、校内のSNS・AI利用ガイドラインです。</p>
+            <ol id="rule-list" class="rule-list"></ol>
+          </div>
+          <h2 class="section-title">改定履歴</h2>
+          <ul id="rule-history" class="history"></ul>
+        </section>
+
+        <!-- テックアラート -->
+        <section class="view" id="view-alerts" data-title="テックアラート" data-parent="menu">
+          <div class="card" data-role="officer">
+            <h2>アラートを配信（テック担当）</h2>
+            <form id="alert-form">
+              <label for="alert-title">タイトル</label>
+              <input id="alert-title" type="text">
+              <label for="alert-body">内容</label>
+              <textarea id="alert-body" rows="3"></textarea>
+              <button type="submit" class="primary block">配信する</button>
+            </form>
+          </div>
+          <ul id="alert-list" class="alert-list"></ul>
+        </section>
+
+        <!-- モデレーション（教員） -->
+        <section class="view" id="view-admin" data-title="モデレーション" data-parent="menu" data-role="teacher">
+          <h2 class="section-title">承認待ちの投稿</h2>
+          <p class="hint pad">公開前に確認し、いじめの火種が全校に広がる前に止めます。</p>
+          <ul id="pending-list" class="list"></ul>
+
+          <div class="card">
+            <h2>投稿者IDの照会</h2>
+            <p class="hint">照会には校長と教育委員会の2者承認が必要です。照会はすべて監査ログに記録されます。</p>
+            <form id="lookup-form">
+              <label for="lookup-post">対象の投稿</label>
+              <select id="lookup-post"></select>
+              <label for="lookup-reason">照会理由</label>
+              <input id="lookup-reason" type="text" placeholder="例：いじめの疑いがある投稿のため">
+              <label class="check"><input type="checkbox" id="approve-principal"> 校長の承認</label>
+              <label class="check"><input type="checkbox" id="approve-board"> 教育委員会の承認</label>
+              <button type="submit" class="danger block">照会を実行</button>
+            </form>
+            <p class="lookup-result" id="lookup-result" hidden></p>
+          </div>
+
+          <h2 class="section-title">監査ログ（改ざん不可の想定）</h2>
+          <ul id="audit-log" class="history"></ul>
+        </section>
+      </main>
+
+      <!-- 下部タブバー -->
+      <nav class="tab-bar" id="tab-bar">
+        <button class="tab active" data-view="home"><span class="tab-icon">🏠</span>ホーム</button>
+        <button class="tab" data-view="box"><span class="tab-icon">📮</span>目安箱</button>
+        <button class="tab" data-view="election"><span class="tab-icon">🗳️</span>選挙</button>
+        <button class="tab" data-view="tracker"><span class="tab-icon">📈</span>公約</button>
+        <button class="tab" data-view="menu"><span class="tab-icon">☰</span>メニュー</button>
+      </nav>
+
+      <!-- 投稿ボトムシート -->
+      <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+      <div class="sheet" id="post-sheet" aria-hidden="true">
+        <div class="sheet-handle"></div>
+        <div class="sheet-head">
+          <h2>目安箱に投稿</h2>
+          <button class="icon-btn" id="close-post" aria-label="閉じる">✕</button>
+        </div>
+        <form id="post-form">
+          <label for="post-category">カテゴリ</label>
+          <select id="post-category">
+            <option>校則</option>
+            <option>SNSトラブル</option>
+            <option>AI活用</option>
+            <option>学習環境</option>
+          </select>
+
+          <label for="post-text">悩み・課題</label>
+          <textarea id="post-text" rows="4" placeholder="例：BeRealの通知で授業中に撮影が始まってしまう"></textarea>
+          <p class="hint">個人名・グループ名・電話番号・誹謗中傷は自動で検知され、投稿できません。</p>
+          <p class="filter-msg" id="filter-msg" hidden></p>
+
+          <fieldset class="consent">
+            <legend>投稿前の確認事項</legend>
+            <label><input type="checkbox" class="consent-check"> <span><b>学生間では匿名です</b>：ログインには個人IDが必要ですが、他の生徒には誰が書いたか表示されません。</span></label>
+            <label><input type="checkbox" class="consent-check"> <span><b>教員・教育委員会は確認できます</b>：いじめや不適切な投稿では投稿者を特定し、指導や処罰の対象となることがあります。</span></label>
+            <label><input type="checkbox" class="consent-check"> <span><b>履歴は転校しても引き継がれます</b>：投稿履歴はシステム上に記録され、他校へ転校しても保持されます。</span></label>
+            <label><input type="checkbox" class="consent-check"> <span><b>外部への提供はしませんが、リスクはゼロではありません</b>：進学先や就職先へ履歴を提供することはありません。ただし不正アクセス等による漏洩リスクはゼロではないため、個人情報や誹謗中傷は書かないでください。</span></label>
+          </fieldset>
+
+          <button type="submit" id="post-submit" class="primary block" disabled>投稿する（教員の承認後に公開）</button>
+        </form>
+      </div>
+
+      <div class="toast" id="toast" hidden></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

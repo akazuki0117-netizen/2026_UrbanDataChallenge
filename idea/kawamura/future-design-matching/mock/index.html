@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#5f3dc4">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>AIと考える将来設計と政治マッチング（モック）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="app">
+      <!-- 上部バー -->
+      <header class="app-bar">
+        <button class="icon-btn" id="back-btn" aria-label="戻る" hidden>‹</button>
+        <h1 id="app-title">人生設計 × 政治マッチング</h1>
+        <button class="icon-btn" id="undo-btn" aria-label="元に戻す" title="元に戻す" hidden>↶</button>
+      </header>
+
+      <main class="screen" id="screen">
+        <!-- ===== オンボーディング ===== -->
+        <section class="view" id="view-onboard" data-title="はじめに">
+          <div class="steps" id="steps">
+            <span class="step-dot active"></span><span class="step-dot"></span><span class="step-dot"></span><span class="step-dot"></span>
+          </div>
+
+          <!-- 1. ようこそ -->
+          <div class="ob-step active" data-step="0">
+            <div class="hero">
+              <p class="hero-label">AI人生設計 × 政治マッチング</p>
+              <p class="catch">あなたの人生、諦めるにはまだ早い。<br>あなたに合わない世界は間違っている。</p>
+            </div>
+            <div class="card">
+              <h2>このアプリでできること</h2>
+              <ol class="flow-list">
+                <li><b>やりたいこと</b>を入力する（分からなくてもAIと話して見つけられます）</li>
+                <li>AIが<b>人生設計の叩き台</b>を作り、年表とお金の推移で見える化</li>
+                <li>その人生と関わる<b>政党のマニフェスト・自治体の制度</b>を一覧で確認</li>
+              </ol>
+              <p class="hint">特定の政党や候補者をすすめるアプリではありません。メリットと財源・デメリットを並べて表示します。</p>
+            </div>
+            <button class="primary block" data-ob-next>はじめる</button>
+          </div>
+
+          <!-- 2. やりたいこと -->
+          <div class="ob-step" data-step="1">
+            <h2 class="q">死ぬまでに、やりたいことは？</h2>
+            <p class="hint">当てはまるものを選ぶか、自由に書いてください（いくつでも）。</p>
+            <div class="chips wrap" id="wish-chips"></div>
+            <label for="wish-free">自由に書く</label>
+            <textarea id="wish-free" rows="2" placeholder="例：地元でカフェを開きたい、世界中の絶景を見たい"></textarea>
+            <button class="link-btn" id="to-hearing">やりたいことが分からない → AIと話して見つける ›</button>
+            <div class="ob-nav">
+              <button class="outline" data-ob-prev>戻る</button>
+              <button class="primary" data-ob-next>次へ</button>
+            </div>
+          </div>
+
+          <!-- 3. 価値観 -->
+          <div class="ob-step" data-step="2">
+            <h2 class="q">人生で大事にしたいことは？</h2>
+            <p class="hint">「私の人生における成功とは何か」を考えるヒントになります。上位2つまで選べます。</p>
+            <div class="value-grid" id="value-grid"></div>
+            <label for="success-free">あなたにとっての「成功」をひとことで（任意）</label>
+            <input id="success-free" type="text" placeholder="例：好きな人と、好きな場所で、好きな仕事をしている">
+            <div class="ob-nav">
+              <button class="outline" data-ob-prev>戻る</button>
+              <button class="primary" data-ob-next>次へ</button>
+            </div>
+          </div>
+
+          <!-- 4. 基本プロフィール -->
+          <div class="ob-step" data-step="3">
+            <h2 class="q">基本プロフィール（任意）</h2>
+            <p class="hint">お金の試算と自治体の制度マッチングの精度が上がります。入力しなくても使えます。</p>
+            <div class="card form-card">
+              <label for="p-age">現在の年齢</label>
+              <input id="p-age" type="number" min="15" max="40" value="20">
+              <label for="p-grade">学年・職業</label>
+              <select id="p-grade">
+                <option>高校生</option>
+                <option>専門学校生</option>
+                <option selected>大学生</option>
+                <option>大学院生</option>
+                <option>社会人</option>
+              </select>
+              <label for="p-area">現在の居住地</label>
+              <input id="p-area" type="text" placeholder="例：東京都">
+              <label for="p-hope">希望居住エリア</label>
+              <select id="p-hope">
+                <option value="city">都市部</option>
+                <option value="local">地元・地方</option>
+                <option value="any" selected>こだわらない</option>
+              </select>
+              <label class="check"><input type="checkbox" id="p-scholar"> 貸与型の奨学金を利用している</label>
+              <div id="scholar-amount-wrap" hidden>
+                <label for="p-scholar-amount">借入総額（万円）</label>
+                <input id="p-scholar-amount" type="number" min="0" step="10" value="300">
+              </div>
+            </div>
+            <p class="hint">年収見込み・奨学金・政治的関心は機微な情報のため、暗号化して保存する想定です（モックでは端末内にのみ保存）。</p>
+            <div class="ob-nav">
+              <button class="outline" data-ob-prev>戻る</button>
+              <button class="primary" id="generate-btn">AIに叩き台を作ってもらう</button>
+            </div>
+          </div>
+
+          <!-- 生成中 -->
+          <div class="ob-step" data-step="loading">
+            <div class="loading">
+              <div class="spinner"></div>
+              <p id="loading-text">やりたいことを年表に並べています…</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== 人生設計 ===== -->
+        <section class="view" id="view-plan" data-title="私の人生設計">
+          <div class="card success-card">
+            <span class="badge" id="plan-version">v1</span>
+            <p class="success-label">私にとっての成功</p>
+            <p class="success-text" id="success-text"></p>
+            <div class="tag-row" id="plan-values"></div>
+          </div>
+
+          <div class="alert-card" id="tight-card"></div>
+
+          <div class="section-head">
+            <h2 class="section-title">人生の年表</h2>
+            <div class="toolbar">
+              <button class="mini" id="add-event-btn">＋ 予定</button>
+              <button class="mini" id="history-btn">履歴</button>
+            </div>
+          </div>
+          <p class="hint pad">← 左右にスワイプで将来まで。予定をタップすると直接編集できます。</p>
+
+          <div class="timeline-wrap" id="timeline-wrap">
+            <div class="timeline" id="timeline"></div>
+          </div>
+
+          <div class="legend pad">
+            <span><i class="lg lg-line"></i>貯蓄残高</span>
+            <span><i class="lg lg-applied"></i>施策を反映した場合</span>
+            <span><i class="lg lg-tight"></i>一番厳しい時期</span>
+          </div>
+
+          <h2 class="section-title">節目ごとのお金（↓スクロール）</h2>
+          <ul class="money-list" id="money-list"></ul>
+
+          <button class="match-cta" id="match-cta">
+            <span class="match-cta-icon">🗳️</span>
+            <span><b>政治マッチング</b><small>この人生設計と関わる政策・制度を見る</small></span>
+            <span class="chev">›</span>
+          </button>
+
+          <p class="disclaimer">資金シミュレーションは概算で、金融アドバイスではありません。数値はすべてモック用の仮定です。</p>
+        </section>
+
+        <!-- ===== AIと話す ===== -->
+        <section class="view chat-view" id="view-chat" data-title="AIと話す">
+          <div class="segmented" id="chat-mode">
+            <button class="seg active" data-mode="hearing">やりたいことを見つける</button>
+            <button class="seg" data-mode="edit">人生設計を直す</button>
+          </div>
+          <div class="chat-log" id="chat-log"></div>
+          <div class="quick-replies" id="quick-replies"></div>
+          <form class="chat-input" id="chat-form">
+            <input id="chat-text" type="text" placeholder="メッセージを入力" autocomplete="off">
+            <button type="submit" class="send" aria-label="送信">➤</button>
+          </form>
+        </section>
+
+        <!-- ===== 政治マッチング ===== -->
+        <section class="view" id="view-match" data-title="政治マッチング">
+          <div class="match-empty" id="match-empty">
+            <p class="hint center">人生設計をもとに、関わる政策・制度を探します。</p>
+            <button class="match-btn" id="run-match">
+              <span class="match-btn-icon">🗳️</span>
+              政治マッチング
+            </button>
+          </div>
+
+          <div id="match-result" hidden>
+            <div class="card neutral-card">
+              <b>⚖️ 中立性について</b>
+              <p class="hint">「関連度」は、あなたの人生設計にどれだけ関わるかの目安で、投票先のおすすめではありません。財源・デメリットも必ず確認してください。</p>
+            </div>
+
+            <div class="segmented" id="match-tabs">
+              <button class="seg active" data-mtab="party">政党</button>
+              <button class="seg" data-mtab="law">法律・法案</button>
+              <button class="seg" data-mtab="people">議員・候補者</button>
+              <button class="seg" data-mtab="local">自治体</button>
+            </div>
+
+            <div class="mtab active" id="mtab-party"></div>
+            <div class="mtab" id="mtab-law"></div>
+            <div class="mtab" id="mtab-people"></div>
+            <div class="mtab" id="mtab-local"></div>
+
+            <p class="disclaimer">政党・候補者・自治体・数値はすべて架空のモック用データです。AIによる政治情報の要約には誤りが含まれる可能性があります。必ず出典の一次情報を確認してください。</p>
+          </div>
+        </section>
+
+        <!-- ===== シェア ===== -->
+        <section class="view" id="view-share" data-title="シェア">
+          <p class="hint pad">年収・奨学金などの個人情報は、初期状態では画像に含めません。</p>
+          <div class="share-card" id="share-card"></div>
+          <div class="card">
+            <h2>画像に含める内容</h2>
+            <label class="switch"><input type="checkbox" id="sh-money"> <span>お金の数値（年収・貯蓄）</span></label>
+            <label class="switch"><input type="checkbox" id="sh-theme" checked> <span>関わりが強い政策テーマ</span></label>
+            <label class="switch"><input type="checkbox" id="sh-party"> <span>関連度が最も高い政党名</span></label>
+            <p class="hint">政党名は初期状態ではオフです。特定政党の宣伝に見えないよう、表示する場合も「関連度」と明記します。</p>
+          </div>
+          <button class="primary block" id="share-btn">画像にしてシェア</button>
+        </section>
+
+        <!-- ===== マイページ ===== -->
+        <section class="view" id="view-mypage" data-title="マイページ">
+          <div class="card account">
+            <div class="avatar-lg">🙂</div>
+            <div>
+              <div class="account-name" id="account-name">ゲスト</div>
+              <div class="hint" id="account-sub">ログインすると人生設計をクラウドに保存できます</div>
+            </div>
+          </div>
+          <button class="primary block" id="login-btn">ログイン / 会員登録（モック）</button>
+
+          <h2 class="section-title">データ</h2>
+          <ul class="menu-list">
+            <li><button id="edit-profile"><span class="menu-icon">👤</span>プロフィール・やりたいことを入力し直す<span class="chev">›</span></button></li>
+            <li><button id="open-history"><span class="menu-icon">🕘</span>人生設計の履歴<span class="chev">›</span></button></li>
+            <li><button id="reset-btn"><span class="menu-icon">🗑️</span>データをすべて削除<span class="chev">›</span></button></li>
+          </ul>
+
+          <h2 class="section-title">ポリシー</h2>
+          <div class="card policy-card">
+            <details>
+              <summary>政治的中立性のポリシー</summary>
+              <p>AIが特定の政党や候補者に誘導・偏向しないよう、プロンプトと評価基準を中立に保ちます。政策は必ずメリット・財源・デメリットを並べて表示します。並び順は関連度順で、投票先の推奨ではありません。</p>
+            </details>
+            <details>
+              <summary>データの更新</summary>
+              <p>マニフェストは選挙ごと、法改正・自治体の補助金は定期的に反映します（公的API連携・運用による更新を想定）。各情報に「いつ時点のデータか」を表示します。</p>
+              <p class="hint">モックのデータ時点：2026年11月（架空）</p>
+            </details>
+            <details>
+              <summary>プライバシー・セキュリティ</summary>
+              <p>年収見込み・奨学金・政治的関心は機微な個人情報として暗号化して保存し、本人の同意なく第三者へ提供しません。</p>
+            </details>
+            <details>
+              <summary>免責事項</summary>
+              <p>資金シミュレーションは概算であり、金融アドバイスではありません。AIによる政治情報の要約には誤りが含まれる可能性があります。</p>
+            </details>
+          </div>
+          <p class="hint pad">UDC2026 アイデアモック（河村）／データはすべて架空です。</p>
+        </section>
+      </main>
+
+      <!-- 下部タブバー -->
+      <nav class="tab-bar" id="tab-bar" hidden>
+        <button class="tab active" data-view="plan"><span class="tab-icon">🗓️</span>人生設計</button>
+        <button class="tab" data-view="chat"><span class="tab-icon">💬</span>AIと話す</button>
+        <button class="tab" data-view="match"><span class="tab-icon">🗳️</span>マッチング</button>
+        <button class="tab" data-view="share"><span class="tab-icon">📤</span>シェア</button>
+        <button class="tab" data-view="mypage"><span class="tab-icon">👤</span>マイページ</button>
+      </nav>
+
+      <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+
+      <!-- 予定の編集シート -->
+      <div class="sheet" id="event-sheet" aria-hidden="true">
+        <div class="sheet-handle"></div>
+        <div class="sheet-head">
+          <h2 id="event-sheet-title">予定を編集</h2>
+          <button class="icon-btn" data-close-sheet aria-label="閉じる">✕</button>
+        </div>
+        <form id="event-form">
+          <label for="ev-name">予定の名前</label>
+          <input id="ev-name" type="text" required>
+          <label for="ev-cat">種類</label>
+          <select id="ev-cat">
+            <option value="work">仕事・キャリア</option>
+            <option value="life">家族・暮らし</option>
+            <option value="money">お金</option>
+            <option value="dream">やりたいこと</option>
+          </select>
+          <div class="row2">
+            <div>
+              <label for="ev-start">開始（歳）</label>
+              <input id="ev-start" type="number" min="15" max="80" required>
+            </div>
+            <div>
+              <label for="ev-end">終了（歳）</label>
+              <input id="ev-end" type="number" min="15" max="80" required>
+            </div>
+          </div>
+          <div class="row2">
+            <div>
+              <label for="ev-cost">開始時のお金（万円）</label>
+              <input id="ev-cost" type="number" min="0" step="10">
+            </div>
+            <div>
+              <label for="ev-yearly">毎年のお金（万円）</label>
+              <input id="ev-yearly" type="number" step="5">
+            </div>
+          </div>
+          <p class="hint">開始時のお金は開始の年に1回だけ。毎年のお金は期間中ずっとかかり、支出はプラス、収入はマイナスで入力します。</p>
+          <p class="ev-kind" id="ev-kind"></p>
+          <div class="preview" id="ev-preview"></div>
+          <div class="row2 sheet-actions">
+            <button type="button" class="danger-outline" id="ev-delete">削除</button>
+            <button type="submit" class="primary">保存</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- 履歴シート -->
+      <div class="sheet" id="history-sheet" aria-hidden="true">
+        <div class="sheet-handle"></div>
+        <div class="sheet-head">
+          <h2>人生設計の履歴</h2>
+          <button class="icon-btn" data-close-sheet aria-label="閉じる">✕</button>
+        </div>
+        <p class="hint">AIの修正が気に入らなければ、過去の版にワンタップで戻せます。</p>
+        <ul class="history" id="history-list"></ul>
+      </div>
+
+      <!-- 政策の詳細シート -->
+      <div class="sheet" id="policy-sheet" aria-hidden="true">
+        <div class="sheet-handle"></div>
+        <div class="sheet-head">
+          <h2 id="policy-title"></h2>
+          <button class="icon-btn" data-close-sheet aria-label="閉じる">✕</button>
+        </div>
+        <div id="policy-body"></div>
+      </div>
+
+      <div class="toast" id="toast" hidden></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
