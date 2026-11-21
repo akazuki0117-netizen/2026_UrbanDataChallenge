@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>人生ルート逆算（モック）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <p class="badge">モック・数字はすべて仮</p>
+  <h1>その人生、いくらかかる？<br><span>どのルートで行く？</span></h1>
+  <p class="lead">送りたい人生の条件を選ぶと、必要な年収と、そこに届く業界のルートを逆算します。</p>
+</header>
+
+<main>
+  <section class="card" aria-labelledby="h-step1">
+    <h2 id="h-step1"><span class="num">1</span>送りたい人生の条件を選ぶ</h2>
+    <div id="conditions" class="conditions"></div>
+  </section>
+
+  <section class="card" aria-labelledby="h-step2">
+    <h2 id="h-step2"><span class="num">2</span>業界のルートを選ぶ</h2>
+    <div id="routes" class="chips" role="radiogroup" aria-label="業界のルート"></div>
+    <p class="note">年収の伸び方は、業界ごとの平均の目安（仮）。本番は賃金構造基本統計調査・EDINET から出す。</p>
+  </section>
+
+  <section class="card result" aria-labelledby="h-step3" aria-live="polite">
+    <h2 id="h-step3"><span class="num">3</span>あなたの人生ルート</h2>
+    <div id="summary" class="summary"></div>
+    <div id="timeline" class="timeline"></div>
+    <div id="compare" class="compare"></div>
+  </section>
+
+  <section class="card policy" aria-labelledby="h-step4">
+    <h2 id="h-step4"><span class="num">4</span>制度があると、ルートはどう変わる？</h2>
+    <p class="note">政党ではなく「制度」で見る。オン・オフを切り替えると、上のルートが変わる。</p>
+    <div id="policies" class="policies"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  UDC2026 アイデアモック（akazuki0117-netizen）／数字はすべて仮。本番は 国土交通省 不動産情報ライブラリ・e-Stat・EDINET・文部科学省「子供の学習費調査」などから作る
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
