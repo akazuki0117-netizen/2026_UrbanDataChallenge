@@ -12,6 +12,7 @@
 | [中高生向け 選挙・政党紹介アプリ「ミライの選択」（仮）](政治紹介アプリ/README.md) | 気になる話題から政党・候補者の主張と「どう変わるとされているか」をやさしく読み、「気になる」でみんなの関心と見比べる | 仕様あり（[spec.md](政治紹介アプリ/spec.md)）・用語集・ADRあり | [mirai-no-sentaku-prototype.html](政治紹介アプリ/mirai-no-sentaku-prototype.html) |
 | [支持者ワードウルフ（仮）](支持者ワードウルフ/README.md) | ランダムにマッチングした3〜8人が、配られた政党の支持者カードを手にボイスで主張しあい、一人だけ違う党の支持者を見抜く | 仕様あり（[spec.md](支持者ワードウルフ/spec.md)） | [mock/index.html](支持者ワードウルフ/mock/index.html)（3案） |
 | [政治家になれる「SEJICA」（仮）](SEJICA/README.md) | ランダムに出るテーマで140字の主張をし、性格の違う AI政治家と3ターン議論して、主張点数・話し方のタイプ・全政党との近さを知る | 仕様あり（[spec.md](SEJICA/spec.md)） | [mock/index.html](SEJICA/mock/index.html)（3案） |
+| [推しセン！](推しセン！/README.md) | 候補者の人柄から「この人に日本を預けたい」と思える推しを見つけ、理由を言葉にして、投票日に「託しに行く」までを推し活にする | 仕様あり（[spec.md](推しセン！/spec.md)）・[場合分け](推しセン！/場合分け.md)あり | [PROTOTYPE-oshisen.html](推しセン！/PROTOTYPE-oshisen.html) |
 
 ## コンセプト画像
 
@@ -34,3 +35,7 @@
 ### [政治家になれる「SEJICA」（仮）](SEJICA/README.md)
 
 ![SEJICAのコンセプト画像](SEJICA/concept.svg)
+
+### [推しセン！](推しセン！/README.md)
+
+![推しセン！のコンセプト画像](推しセン！/concept.svg)
