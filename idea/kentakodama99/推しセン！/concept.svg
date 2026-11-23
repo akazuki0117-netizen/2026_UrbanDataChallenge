@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic UI','Meiryo',sans-serif">
+  <title>推しセン！ コンセプト</title>
+  <rect width="1200" height="675" fill="#FFF9F5"/>
+  <circle cx="1140" cy="30" r="200" fill="#FFE6F2" opacity=".8"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#E4007F"/>
+
+  <!-- 左：コピー -->
+  <rect x="64" y="66" width="356" height="36" rx="18" fill="#FFE6F2"/>
+  <text x="242" y="90" font-size="15" font-weight="700" fill="#E4007F" text-anchor="middle">18〜29歳向け　人柄から推しを見つける選挙アプリ</text>
+
+  <text x="60" y="184" font-size="68" font-weight="900" fill="#1D1A26">推しセン<tspan fill="#E4007F">！</tspan></text>
+  <text x="64" y="240" font-size="26" font-weight="800" fill="#1D1A26">選挙は「行く」から「応援する」へ。</text>
+  <text x="64" y="278" font-size="18" fill="#6F6A7A">「この人に日本を預けたい」と思える推しに、託しに行く。</text>
+
+  <!-- 3つの特徴 -->
+  <g transform="translate(64,322)" font-size="16" fill="#1D1A26">
+    <g>
+      <rect width="440" height="58" rx="12" fill="#fff" stroke="#ECE6EA" stroke-width="1.5"/>
+      <rect width="8" height="58" rx="4" fill="#E4007F"/>
+      <text x="28" y="26" font-weight="700">政策ではなく、人柄から推しと出会う</text>
+      <text x="28" y="46" font-size="13" fill="#6F6A7A">AIが公開発言から人柄を読み取る。根拠の発言つき</text>
+    </g>
+    <g transform="translate(0,70)">
+      <rect width="440" height="58" rx="12" fill="#fff" stroke="#ECE6EA" stroke-width="1.5"/>
+      <rect width="8" height="58" rx="4" fill="#E4007F"/>
+      <text x="28" y="26" font-weight="700">投票日は「参戦日」</text>
+      <text x="28" y="46" font-size="13" fill="#6F6A7A">参戦チケットと投票所の案内、投票後の「託した」バッジ</text>
+    </g>
+    <g transform="translate(0,140)">
+      <rect width="440" height="58" rx="12" fill="#fff" stroke="#ECE6EA" stroke-width="1.5"/>
+      <rect width="8" height="58" rx="4" fill="#1D1A26"/>
+      <text x="28" y="26" font-weight="700">数字で煽らない</text>
+      <text x="28" y="46" font-size="13" fill="#6F6A7A">見せるのは「誰が人気か」ではなく「どこが推されているか」</text>
+    </g>
+  </g>
+
+  <!-- 中央：スマホ（推しの詳細） -->
+  <g transform="translate(560,64)">
+    <rect width="250" height="500" rx="34" fill="#1D1A26"/>
+    <rect x="9" y="9" width="232" height="482" rx="26" fill="#FFF9F5"/>
+    <rect x="9" y="9" width="232" height="52" rx="26" fill="#E4007F"/>
+    <rect x="9" y="36" width="232" height="25" fill="#E4007F"/>
+    <text x="125" y="42" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">推し</text>
+
+    <circle cx="44" cy="104" r="22" fill="#2F7DD1"/>
+    <text x="44" y="111" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">青</text>
+    <text x="76" y="100" font-size="15" font-weight="700" fill="#1D1A26">青葉 ミナト</text>
+    <text x="76" y="119" font-size="10" fill="#6F6A7A">あおぞら党（架空）</text>
+    <text x="228" y="106" font-size="26" font-weight="900" fill="#E4007F" text-anchor="end">69<tspan font-size="13">%</tspan></text>
+    <text x="228" y="122" font-size="9" fill="#6F6A7A" text-anchor="end">あなただけ</text>
+
+    <text x="24" y="156" font-size="12" font-weight="700" fill="#6F6A7A">発言から読み取った人柄</text>
+    <g transform="translate(20,166)">
+      <rect width="210" height="98" rx="10" fill="#fff" stroke="#ECE6EA"/>
+      <text x="12" y="22" font-size="13" font-weight="700" fill="#1D1A26">質問をはぐらかさない</text>
+      <rect x="12" y="31" width="186" height="42" rx="8" fill="#FAF7F8"/>
+      <text x="20" y="48" font-size="11" fill="#1D1A26">「できていません。</text>
+      <text x="20" y="64" font-size="11" fill="#1D1A26">　理由は3つあります」</text>
+      <text x="12" y="89" font-size="10" fill="#2451B7">国会の議事録 ・ 元の発言を見る</text>
+    </g>
+    <g transform="translate(20,270)" font-size="13" font-weight="700" fill="#1D1A26">
+      <rect width="210" height="38" rx="10" fill="#fff" stroke="#ECE6EA"/>
+      <text x="12" y="24">データより現場の話が多い</text>
+      <path d="M192 13 l6 6 l-6 6" fill="none" stroke="#6F6A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(20,314)" font-size="13" font-weight="700" fill="#1D1A26">
+      <rect width="210" height="38" rx="10" fill="#fff" stroke="#ECE6EA"/>
+      <text x="12" y="24">一度言ったことを変えない</text>
+      <path d="M192 13 l6 6 l-6 6" fill="none" stroke="#6F6A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect x="20" y="366" width="210" height="46" rx="23" fill="#E4007F"/>
+    <text x="125" y="395" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">この人を推しにする</text>
+
+    <line x1="9" y1="438" x2="241" y2="438" stroke="#ECE6EA"/>
+    <g font-size="11" text-anchor="middle" fill="#6F6A7A">
+      <text x="34" y="466">診断</text>
+      <text x="80" y="466" font-weight="700" fill="#E4007F">推し</text>
+      <text x="125" y="466">理由</text>
+      <text x="170" y="466">参戦</text>
+      <text x="216" y="466">みんな</text>
+    </g>
+  </g>
+
+  <path d="M818 314 h18 M830 306 l8 8 l-8 8" fill="none" stroke="#E4007F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 右：参戦チケットと託したバッジ -->
+  <g transform="translate(850,96)">
+    <rect width="290" height="236" rx="18" fill="#1D1A26"/>
+    <text x="22" y="38" font-size="12" font-weight="700" fill="#FF8CC6" letter-spacing="3">参戦チケット</text>
+    <text x="22" y="86" font-size="40" font-weight="900" fill="#fff">12.13 SUN</text>
+    <text x="22" y="116" font-size="13" fill="#fff">7:00 – 20:00　第三小学校 体育館（架空）</text>
+    <text x="22" y="144" font-size="13" fill="#fff">託す相手：<tspan font-weight="700">青葉 ミナト</tspan></text>
+    <line x1="14" y1="170" x2="276" y2="170" stroke="#5A546B" stroke-width="2" stroke-dasharray="6 6"/>
+    <circle cx="0" cy="170" r="11" fill="#FFF9F5"/>
+    <circle cx="290" cy="170" r="11" fill="#FFF9F5"/>
+    <text x="22" y="198" font-size="12" fill="#D9D4E3">期日前投票：12/2〜12/12　区役所 1階</text>
+    <text x="22" y="218" font-size="12" fill="#D9D4E3">8:30 – 20:00</text>
+
+    <g transform="translate(0,256)">
+      <rect width="290" height="180" rx="18" fill="#fff" stroke="#ECE6EA" stroke-width="1.5"/>
+      <circle cx="78" cy="90" r="56" fill="#E4007F"/>
+      <circle cx="78" cy="90" r="48" fill="none" stroke="#fff" stroke-width="2"/>
+      <text x="78" y="96" font-size="22" font-weight="900" fill="#fff" text-anchor="middle">託した</text>
+      <text x="78" y="116" font-size="10" fill="#fff" text-anchor="middle">2026 冬</text>
+      <text x="152" y="70" font-size="14" font-weight="800" fill="#1D1A26">投票したら、</text>
+      <text x="152" y="92" font-size="14" font-weight="800" fill="#1D1A26">推し活の証。</text>
+      <text x="152" y="120" font-size="11" fill="#6F6A7A">お金や物とは</text>
+      <text x="152" y="137" font-size="11" fill="#6F6A7A">交換できません</text>
+    </g>
+  </g>
+
+  <!-- フッター -->
+  <rect x="0" y="600" width="1200" height="75" fill="#1D1A26"/>
+  <g font-size="16" font-weight="700" fill="#fff">
+    <text x="64" y="644">診断する</text>
+    <text x="140" y="644" fill="#FF8CC6">→</text>
+    <text x="172" y="644">推しと出会う</text>
+    <text x="280" y="644" fill="#FF8CC6">→</text>
+    <text x="312" y="644">預けたい理由を書く</text>
+    <text x="468" y="644" fill="#FF8CC6">→</text>
+    <text x="500" y="644">託しに行く</text>
+    <text x="592" y="644" fill="#FF8CC6">→</text>
+    <text x="624" y="644">開票を見守る</text>
+  </g>
+  <text x="1136" y="644" font-size="12" fill="#BDB8C9" text-anchor="end">※候補者・政党・数字はすべて架空のサンプル</text>
+</svg>

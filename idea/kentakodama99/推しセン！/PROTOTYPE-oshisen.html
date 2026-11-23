@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE 推しセン！（フェーズ×年齢のルールを触って確かめる）</title>
+<!--
+  PROTOTYPE（使い捨て）
+  問い: 「診断 → 推し → 預けたい理由 → 参戦 → 開票 の流れを、選挙フェーズと年齢を切り替えながら通したとき、
+        spec.md の『指標の開示ルール』『投稿ルール』は体験として無理がないか？」
+  前提: /prototype は引数なしで呼ばれたので、spec がルール表中心であることから「ロジック／状態モデル」の問いと判断した。
+        見た目の案比べ（UI 3案）ではない。見た目は1案だけ。
+  - 候補者・政党・発言・数字・投票所はすべてダミー。実在の人物・団体のデータではない。
+  - AI（人柄抽出・投稿チェック）は固定データとキーワード一致のダミー。
+  - 保存なし。状態はメモリのみ。リロードで消える。
+  - ルール本体は下の <script> 先頭の OshiSen モジュール（DOM に触らない純粋な関数）。本実装に持っていくならそこだけ。
+-->
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--p:#E4007F;--p2:#FFE6F2;--ink:#1D1A26;--sub:#6F6A7A;--line:#ECE6EA;--bg:#FFF9F5;--ok:#0A7A4B;--ng:#B3261E}
+body{font-family:-apple-system,"Hiragino Sans","Yu Gothic UI","Noto Sans JP",sans-serif;background:#E8E6EC;color:var(--ink);font-size:14px;line-height:1.6}
+button{font:inherit;color:inherit;cursor:pointer;border:none;background:none}
+button:disabled{cursor:not-allowed;opacity:.4}
+textarea{font:inherit}
+.proto{background:#16141C;color:#fff;padding:12px 16px;display:flex;flex-direction:column;gap:8px}
+.proto h1{font-size:14px}
+.proto p{font-size:12px;color:#BDB8C9}
+.proto .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.proto .lbl{font-size:11px;color:#BDB8C9;width:64px;flex:none}
+.proto button{font-size:12px;padding:6px 12px;border-radius:16px;background:#2E2A3A;color:#fff}
+.proto button.on{background:#fff;color:#16141C;font-weight:700}
+.proto button.scn{background:transparent;border:1px solid #5A546B}
+.stage{display:flex;gap:20px;justify-content:center;align-items:flex-start;padding:20px 12px;flex-wrap:wrap}
+.phone{width:390px;max-width:100%;height:780px;background:var(--bg);border-radius:28px;box-shadow:0 10px 40px rgba(0,0,0,.18);overflow:hidden;display:flex;flex-direction:column}
+.top{height:54px;flex:none;display:flex;align-items:center;gap:8px;padding:0 14px;background:#fff;border-bottom:1px solid var(--line)}
+.top b{font-size:17px;flex:1;letter-spacing:.02em}
+.top b i{color:var(--p);font-style:normal}
+.pill{font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;background:var(--p2);color:var(--p)}
+.pill.g{background:#EFEDF2;color:var(--sub)}
+.main{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:12px}
+.nav{flex:none;display:grid;grid-template-columns:repeat(5,1fr);background:#fff;border-top:1px solid var(--line)}
+.nav button{padding:10px 0 12px;font-size:12px;color:var(--sub);border-top:3px solid transparent}
+.nav button.on{color:var(--p);font-weight:700;border-top-color:var(--p)}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:8px}
+h2{font-size:16px}
+h3{font-size:13px;color:var(--sub);font-weight:700}
+.s{font-size:12px;color:var(--sub)}
+.btn{min-height:44px;border-radius:22px;background:var(--p);color:#fff;font-weight:700;padding:0 18px}
+.btn.gh{background:#fff;color:var(--ink);border:1px solid #CFC8D3;font-weight:400}
+.ab{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ab button{min-height:76px;border:1px solid #CFC8D3;border-radius:14px;background:#fff;padding:10px;font-weight:700}
+.ab button:hover{border-color:var(--p);background:var(--p2)}
+.cand{display:flex;gap:12px;align-items:center;text-align:left;width:100%}
+.av{width:48px;height:48px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px}
+.cand .n{font-weight:700;font-size:15px}
+.pct{margin-left:auto;text-align:right;flex:none}
+.pct b{font-size:22px;color:var(--p)}
+.bar{display:grid;grid-template-columns:76px 1fr 38px;gap:8px;align-items:center;font-size:12px}
+.bar .t{height:8px;border-radius:4px;background:#F1EDF0;overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--p);border-radius:4px}
+details{border-top:1px solid var(--line);padding-top:8px}
+details:first-of-type{border-top:none;padding-top:0}
+summary{font-weight:700;cursor:pointer}
+.ev{margin-top:6px;padding:8px 10px;background:#FAF7F8;border-radius:10px;font-size:12px}
+.ev a{color:#2451B7}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tags button{padding:6px 14px;border-radius:16px;border:1px solid #CFC8D3;background:#fff;font-size:13px}
+.tags button.on{background:var(--p);border-color:var(--p);color:#fff;font-weight:700}
+textarea{width:100%;min-height:72px;border:1px solid #CFC8D3;border-radius:12px;padding:10px;resize:vertical;font-size:14px}
+.note{border-radius:12px;padding:10px 12px;font-size:12px;background:#EFEDF2}
+.note.ok{background:#E6F4EC;color:var(--ok)}
+.note.ng{background:#FCE9E7;color:var(--ng)}
+.post{border-top:1px solid var(--line);padding-top:8px;font-size:13px}
+.post:first-of-type{border-top:none;padding-top:0}
+.ticket{background:var(--ink);color:#fff;border-radius:18px;overflow:hidden}
+.ticket .a{padding:16px;display:flex;flex-direction:column;gap:4px}
+.ticket .a small{color:#FF8CC6;font-weight:700;letter-spacing:.15em;font-size:11px}
+.ticket .a .d{font-size:26px;font-weight:700}
+.ticket .b{border-top:2px dashed #5A546B;padding:12px 16px;font-size:12px;color:#D9D4E3;display:flex;flex-direction:column;gap:2px}
+.badge{align-self:center;width:120px;height:120px;border-radius:50%;background:var(--p);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:700;font-size:20px;border:5px double #fff;box-shadow:0 0 0 3px var(--p)}
+.badge small{font-size:10px;font-weight:400}
+.lock{text-align:center;padding:18px 10px;color:var(--sub)}
+.side{width:340px;max-width:100%;display:flex;flex-direction:column;gap:12px}
+.side .card{font-size:12px}
+.kv{display:grid;grid-template-columns:84px 1fr;gap:2px 8px}
+.kv dt{color:var(--sub)}
+.vis{display:grid;grid-template-columns:20px 1fr;gap:2px 6px}
+.vis .o{color:var(--ok);font-weight:700}.vis .x{color:var(--ng);font-weight:700}
+.side ul{padding-left:16px;display:flex;flex-direction:column;gap:4px}
+</style>
+</head>
+<body>
+<div class="proto">
+  <h1>PROTOTYPE 推しセン！ — フェーズと年齢を切り替えて、ルールが体験として無理ないかを確かめる</h1>
+  <p>下のスマホが推しセン！のアプリ（1案）。この黒い帯と右のパネルはアプリの外にある確認用の道具です。候補者・発言・数字はすべてダミー。</p>
+  <div class="row" id="phases"></div>
+  <div class="row" id="ages"></div>
+  <div class="row" id="scns"></div>
+</div>
+<div class="stage">
+  <div class="phone">
+    <div class="top"><b>推しセン<i>！</i></b><span class="pill" id="phasePill"></span><span class="pill g" id="agePill"></span></div>
+    <div class="main" id="main"></div>
+    <div class="nav" id="nav"></div>
+  </div>
+  <div class="side" id="side"></div>
+</div>
+
+<script>
+/* ============================================================
+   OshiSen: ルール本体（純粋な関数だけ。DOM に触らない）
+   ============================================================ */
+const OshiSen = (() => {
+  const PHASES = ['平常時', '公示前', '選挙期間', '投票日当日', '開票後'];
+
+  // 人柄の軸。回答も候補者も +1 = a 側、-1 = b 側
+  const AXES = [
+    { key: 'consist', a: '約束を守りぬく人', b: '状況を見て柔軟に変える人' },
+    { key: 'field',   a: '現場の話をする人', b: 'データで語る人' },
+    { key: 'listen',  a: 'じっくり聞く人',   b: 'ぐいぐい引っ張る人' },
+    { key: 'frank',   a: 'はっきり言い切る人', b: '慎重に言葉を選ぶ人' },
+    { key: 'bold',    a: '新しいことに挑む人', b: '今あるものを守る人' },
+  ];
+
+  // 指標の開示ルール（spec の表そのまま）
+  const METRICS = {
+    match:         { label: '自分との相性（%）',               who: 'self', when: 'always' },
+    tagBreakdown:  { label: '推しが推されている理由の内訳',     who: 'all',  when: 'always' },
+    appReasons:    { label: 'アプリ全体の「預ける理由」の割合', who: 'all',  when: 'always' },
+    districtTrend: { label: '選挙区の推しポイントの傾向',       who: 'all',  when: 'always' },
+    youthVoice:    { label: '選挙区で若者の声が届いている度合い', who: 'all', when: 'always' },
+    supportShare:  { label: '候補者ごとの応援の割合',           who: 'all',  when: 'afterCount' },
+    ranking:       { label: '応援数・ランキング・当選予想',     who: 'none' },
+    voteWeight:    { label: '1票の重さの比較',                 who: 'none' },
+  };
+
+  function canSee(metric, { phase, isSelf = true }) {
+    const m = METRICS[metric];
+    if (m.who === 'none') return false;
+    if (m.who === 'self' && !isSelf) return false;
+    if (m.when === 'afterCount') return phase === '開票後';
+    return true;
+  }
+
+  // 投稿ルール（フェーズ × 年齢）。post: 'none' | 'like' | 'reason'
+  function postRule({ phase, adult }) {
+    if (!adult) return { post: 'none', share: false, why: '18歳未満は選挙運動ができないので、どのフェーズでも閲覧だけです。' };
+    if (phase === '選挙期間') return { post: 'reason', share: true, why: '選挙期間（公示日〜投票日の前日）：「預けたい理由」の投稿とSNSシェアができます。' };
+    if (phase === '投票日当日') return { post: 'none', share: false, why: '投票日当日は選挙運動ができないので、閲覧だけです。' };
+    return { post: 'like', share: false, why: phase + '：推しの人柄への「好き」だけ投稿できます。票の呼びかけはできません。' };
+  }
+
+  // 投稿チェック（本番はAI。ここはキーワード一致のダミー）
+  const SOLICIT = ['投票して', '投票を', '投票お願い', '投票よろしく', '一票', '1票', '１票', '入れて', '入れよう', '当選させ', '清き'];
+  const ABUSE = ['嘘つき', '無能', '最悪', '辞めろ', 'やめろ', 'バカ', 'クソ'];
+  function checkPost(text, { phase, adult, oshiId, candidates }) {
+    const rule = postRule({ phase, adult });
+    if (rule.post === 'none') return { ok: false, by: 'ルール', reason: rule.why };
+    const oshi = candidates.find(c => c.id === oshiId);
+    const others = candidates.filter(c => c.id !== oshiId);
+    const words = [...others.map(c => c.family), ...others.map(c => c.party).filter(p => p !== '無所属' && p !== oshi.party)];
+    const hit = words.find(w => text.includes(w));
+    if (hit) return { ok: false, by: 'AIチェック', reason: '他の候補者・政党（「' + hit + '」）にふれています。推しの話だけにしましょう。' };
+    const bad = ABUSE.find(w => text.includes(w));
+    if (bad) return { ok: false, by: 'AIチェック', reason: '人を傷つける表現（「' + bad + '」）が入っています。' };
+    const sol = SOLICIT.find(w => text.includes(w));
+    if (rule.post === 'like' && sol) return { ok: false, by: 'AIチェック', reason: '「' + sol + '」は票の呼びかけになります。公示日より前はできません（事前運動）。人柄の好きなところだけ書きましょう。' };
+    return { ok: true, kind: rule.post };
+  }
+
+  // 相性：回答した軸のうち、候補者の人柄が分かっている軸だけで平均する
+  function match(answers, cand) {
+    const used = AXES.filter(x => answers[x.key] != null && cand.vec[x.key] != null);
+    if (!used.length) return null;
+    const avg = used.reduce((s, x) => s + (1 - Math.abs(answers[x.key] - cand.vec[x.key]) / 2), 0) / used.length;
+    return { pct: Math.round(avg * 100), used: used.length, total: AXES.length };
+  }
+
+  // 根拠の発言がない特徴は出さない
+  const visibleTraits = cand => cand.traits.filter(t => t.evidence && t.evidence.length > 0);
+
+  // 投票（期日前は選挙期間、当日は投票日）。18歳未満は不可
+  const canVote = ({ phase, adult }) => adult && (phase === '選挙期間' || phase === '投票日当日');
+  // 託したバッジを見られる人
+  const badgeAudience = phase => (phase === '投票日当日' ? '自分だけ' : '推し仲間にも');
+
+  return { PHASES, AXES, METRICS, canSee, postRule, checkPost, match, visibleTraits, canVote, badgeAudience };
+})();
+
+/* ============================================================
+   ダミーデータ（すべて架空）
+   ============================================================ */
+const ev = (kind, date, quote) => ({ kind, date, quote, url: '#dummy' });
+const CANDS = [
+  { id: 'aoba', family: '青葉', name: '青葉 ミナト', party: 'あおぞら党', status: '現職', inDistrict: true, color: '#2F7DD1',
+    vec: { consist: .8, field: .6, listen: -.2, frank: .7, bold: -.4 },
+    traits: [
+      { label: '質問をはぐらかさない', evidence: [ev('国会の議事録', '2026-03-12', '「できていません。理由は3つあります」'), ev('国会の議事録', '2026-05-20', '「その数字は私の認識が違っていました」')] },
+      { label: 'データより現場の話が多い', evidence: [ev('街頭演説', '2026-06-01', '「先週、商店街の八百屋さんで聞いた話をします」')] },
+      { label: '一度言ったことを変えない', evidence: [ev('SNS', '2026-04-08', '「3年前に言ったことと同じことを今日も言います」')] },
+      { label: '面倒見がいい', evidence: [] },
+    ] },
+  { id: 'hiiragi', family: '柊', name: '柊 サクラ', party: 'こもれび党', status: '現職', inDistrict: true, color: '#2E9E6B',
+    vec: { consist: -.5, field: -.7, listen: .8, frank: .2, bold: .6 },
+    traits: [
+      { label: '反対意見を最後まで聞く', evidence: [ev('国会の議事録', '2026-02-18', '「いまのご指摘、もう少し詳しく聞かせてください」')] },
+      { label: '数字で説明する', evidence: [ev('国会の議事録', '2026-04-22', '「この5年で件数は1.4倍です。資料の3ページを」')] },
+      { label: '考えを変えたら理由を言う', evidence: [ev('SNS', '2026-05-02', '「以前は反対でした。調査を読んで考えを変えました」')] },
+    ] },
+  { id: 'narumi', family: '鳴海', name: '鳴海 レン', party: '無所属', status: '新人', inDistrict: true, lowInfo: true, color: '#E0762B',
+    vec: { field: .9, bold: .8 },
+    traits: [
+      { label: '現場に足を運ぶ', evidence: [ev('経歴', '2025-10-01', '「訪問介護の現場で8年働いた」')] },
+      { label: '新しいやり方を試す', evidence: [ev('演説動画', '2026-06-10', '「前例がないなら、最初の例になります」')] },
+    ] },
+  { id: 'hinata', family: '日向', name: '日向 ハル', party: 'あおぞら党', status: '現職（比例）', inDistrict: false, color: '#5C6BC0',
+    vec: { consist: .3, field: -.2, listen: .9, frank: -.3, bold: .1 },
+    traits: [
+      { label: '相手の話を言い直して確かめる', evidence: [ev('国会の議事録', '2026-03-03', '「つまり、こういうご趣旨でよろしいですか」')] },
+      { label: '言葉を慎重に選ぶ', evidence: [ev('SNS', '2026-05-15', '「まだ言い切れないので、分かったことだけ書きます」')] },
+    ] },
+];
+const TAGS = ['誠実さ', '行動力', '聞く力', '情熱', '冷静さ'];
+const SEED = [
+  ['aoba', '誠実さ', '分からないことを分からないと言うところ。'], ['aoba', '誠実さ', '答えにくい質問にも正面から答える。'],
+  ['aoba', '行動力', '商店街に毎週来てる。'], ['aoba', '情熱', '演説の声がまっすぐ。'], ['aoba', '誠実さ', '言うことが昔から同じ。'],
+  ['hiiragi', '聞く力', '反対の人の話も最後まで聞いてる。'], ['hiiragi', '冷静さ', '数字で話してくれるから分かりやすい。'],
+  ['hiiragi', '聞く力', '考えを変えた理由をちゃんと言う。'], ['hiiragi', '誠実さ', 'ごまかさない感じ。'],
+  ['narumi', '行動力', '現場で働いてきた人。'], ['narumi', '情熱', '最初の例になる、がかっこいい。'], ['narumi', '行動力', 'とにかく動く。'],
+  ['hinata', '聞く力', '聞き方がていねい。'], ['hinata', '冷静さ', '言い切らないところが信用できる。'],
+].map(([cand, tag, text]) => ({ cand, tags: [tag], text, mine: false }));
+const APP_REASONS = [['誠実さ', 34], ['聞く力', 24], ['行動力', 21], ['冷静さ', 12], ['情熱', 9]];
+const DISTRICT_TREND = [['行動力', 31], ['誠実さ', 29], ['聞く力', 18], ['情熱', 13], ['冷静さ', 9]];
+const RESULT = { winner: 'hiiragi', share: [['柊 サクラ', 38], ['青葉 ミナト', 34], ['鳴海 レン', 28]] };
+const PRESET = { consist: 1, field: 1, listen: -1, frank: 1, bold: 1 };
+
+/* ============================================================
+   ここから下は画面（使い捨て）
+   ============================================================ */
+const init = () => ({ phase: '平常時', adult: true, tab: 'diag', answers: {}, oshi: null, detail: null, tags: [], draft: '', posts: [], voted: false, flash: null, log: '開始。まず診断に答えてください。' });
+let S = init();
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const cand = id => CANDS.find(c => c.id === id);
+const ctx = () => ({ phase: S.phase, adult: S.adult });
+const answered = () => Object.keys(S.answers).length;
+const bars = rows => rows.map(([l, p]) => `<div class="bar"><span>${l}</span><span class="t"><i style="width:${p}%"></i></span><span>${p}%</span></div>`).join('');
+const allPosts = id => [...S.posts.filter(p => p.cand === id), ...SEED.filter(p => p.cand === id)];
+function breakdown(id) {
+  const n = {}; let sum = 0;
+  allPosts(id).forEach(p => p.tags.forEach(t => { n[t] = (n[t] || 0) + 1; sum++; }));
+  return Object.entries(n).sort((a, b) => b[1] - a[1]).map(([t, c]) => [t, Math.round(c / sum * 100)]);
+}
+
+const SCNS = [
+  ['公示前に「投票して」と書く', () => ({ ...init(), phase: '公示前', answers: PRESET, oshi: 'aoba', tab: 'reason', tags: ['誠実さ'], draft: '青葉さんにみんな投票してください！', log: 'シナリオ：公示前に票を呼びかける文。「投稿する」を押してみてください。' })],
+  ['他の候補者にふれる', () => ({ ...init(), phase: '選挙期間', answers: PRESET, oshi: 'aoba', tab: 'reason', tags: ['誠実さ'], draft: '柊さんより青葉さんのほうが誠実だと思う。', log: 'シナリオ：選挙期間でも他の候補者への言及は止まる。「投稿する」を押してみてください。' })],
+  ['17歳で選挙期間', () => ({ ...init(), phase: '選挙期間', adult: false, answers: PRESET, oshi: 'aoba', tab: 'reason', log: 'シナリオ：18歳未満。診断と閲覧はできるが、投稿・シェア・参戦はできない。' })],
+  ['投票日当日に託す', () => ({ ...init(), phase: '投票日当日', answers: PRESET, oshi: 'aoba', tab: 'ticket', log: 'シナリオ：投票日当日。「託してきた」を押して、バッジが誰に見えるかを確かめてください。' })],
+  ['開票後・推しが落選', () => ({ ...init(), phase: '開票後', answers: PRESET, oshi: 'aoba', voted: true, tab: 'all', log: 'シナリオ：開票後。ここで初めて候補者ごとの応援の割合が出る。' })],
+  ['新人（情報少なめ）の相性', () => ({ ...init(), answers: PRESET, tab: 'oshi', detail: 'narumi', log: 'シナリオ：新人は2項目だけで相性が出る。現職（5項目）と同じ並びで比べてよいか？' })],
+];
+
+function viewDiag() {
+  const n = answered();
+  if (n < OshiSen.AXES.length) {
+    const x = OshiSen.AXES[n];
+    return `<div class="card"><h3>人柄の好み診断 ${n + 1} / ${OshiSen.AXES.length}</h3><h2>日本を預けるなら、どっちの人？</h2>
+      <div class="ab"><button data-a="ans" data-v="${x.key}:1">${x.a}</button><button data-a="ans" data-v="${x.key}:-1">${x.b}</button></div>
+      <p class="s">政治の知識はいりません。直感で選んでください。</p></div>`;
+  }
+  const persona = OshiSen.AXES.map(x => (S.answers[x.key] > 0 ? x.a : x.b));
+  return `<div class="card"><h3>あなたが預けたい人物像</h3>${persona.map(p => `<h2>・${p}</h2>`).join('')}
+    <button class="btn" data-a="tab" data-v="oshi">相性のいい候補者を見る</button><button class="btn gh" data-a="redo">診断をやり直す</button></div>
+    <p class="s">※ 政策の質問（任意）と選挙区の登録は、このプロトタイプでは省略。選挙区は「ダミー9区」で固定。</p>`;
+}
+
+function candRow(c) {
+  const m = OshiSen.canSee('match', { phase: S.phase, isSelf: true }) ? OshiSen.match(S.answers, c) : null;
+  return `<div class="card"><button class="cand" data-a="open" data-v="${c.id}">
+    <span class="av" style="background:${c.color}">${c.family[0]}</span>
+    <span><span class="n">${c.name}</span>${S.oshi === c.id ? ' <span class="pill">推し</span>' : ''}<br><span class="s">${c.party}・${c.status}</span>${c.lowInfo ? ' <span class="pill g">情報少なめ</span>' : ''}</span>
+    ${m ? `<span class="pct"><b>${m.pct}</b>%<br><span class="s">${m.used}/${m.total}項目</span></span>` : ''}</button></div>`;
+}
+
+function viewOshi() {
+  if (S.detail) return viewDetail(cand(S.detail));
+  if (!answered()) return `<div class="card lock">まず診断に答えると、相性のいい候補者が出ます。<button class="btn" data-a="tab" data-v="diag">診断へ</button></div>`;
+  const list = CANDS.filter(c => c.inDistrict).map(c => ({ c, m: OshiSen.match(S.answers, c) })).sort((a, b) => (b.m ? b.m.pct : 0) - (a.m ? a.m.pct : 0));
+  return `<h3>ダミー9区の候補者（あなたとの相性順）</h3>${list.map(x => candRow(x.c)).join('')}
+    <p class="s">相性の数字はあなたにだけ見えます。候補者ごとの応援者数や人気の順位は、どこにも出ません。</p>`;
+}
+
+function viewDetail(c) {
+  const m = OshiSen.match(S.answers, c);
+  const traits = OshiSen.visibleTraits(c);
+  const mates = CANDS.filter(o => o.party === c.party && o.id !== c.id && c.party !== '無所属');
+  return `<button class="s" data-a="back" style="text-align:left">← 一覧にもどる</button>
+    <div class="card"><div class="cand"><span class="av" style="background:${c.color}">${c.family[0]}</span>
+      <span><span class="n">${c.name}</span><br><span class="s">${c.party}・${c.status}</span></span>
+      ${m ? `<span class="pct"><b>${m.pct}</b>%<br><span class="s">あなただけに表示</span></span>` : ''}</div>
+      ${c.lowInfo ? `<div class="note"><b>情報少なめ</b>：公開されている発言がまだ少ない候補者です。人柄が薄いという意味ではありません。相性は ${m ? m.used : 0}/${OshiSen.AXES.length} 項目だけで計算しています。</div>` : ''}
+      ${S.oshi === c.id ? `<button class="btn gh" data-a="unoshi">推しを解除する</button>` : `<button class="btn" data-a="oshi" data-v="${c.id}">${S.oshi ? '推しをこの人に変える' : 'この人を推しにする'}</button>`}
+    </div>
+    <div class="card"><h3>発言から読み取った人柄（AI）</h3>
+      ${traits.map(t => `<details><summary>${t.label}</summary>${t.evidence.map(e => `<div class="ev">${esc(e.quote)}<br><a href="${e.url}" onclick="return false">${e.kind}・${e.date}（元の発言を見る）</a></div>`).join('')}</details>`).join('')}
+      <p class="s">特徴をタップすると、元になった発言が出ます。根拠の発言がない特徴は表示しません。</p></div>
+    <div class="card"><h3>みんなが推しているところ</h3>${bars(breakdown(c.id))}<p class="s">人数ではなく、理由の内訳だけを出しています。</p></div>
+    <div class="card"><h3>推しのいる箱</h3>${c.party === '無所属' ? `<p>箱なし（無所属）。比例代表の投票先は別に考えます。</p>` :
+      `<p><b>${c.party}</b>　比例代表ではこの箱の名前を書けます。</p>${mates.map(o => `<button class="btn gh" data-a="open" data-v="${o.id}">同じ箱の ${o.name} を見る</button>`).join('') || '<p class="s">同じ箱のほかの候補者はダミーデータにいません。</p>'}`}</div>`;
+}
+
+function postHtml(p) {
+  return `<div class="post">${p.tags.map(t => `<span class="pill">${t}</span>`).join(' ')} ${p.mine ? '<span class="pill g">あなた</span>' : ''}<br>${esc(p.text)}</div>`;
+}
+
+function viewReason() {
+  if (!S.oshi) return `<div class="card lock">推しを決めると、ここで理由を書いたり読んだりできます。<button class="btn" data-a="tab" data-v="oshi">推しをさがす</button></div>`;
+  const c = cand(S.oshi), rule = OshiSen.postRule(ctx());
+  const title = rule.post === 'reason' ? `${c.name} に預けたい理由` : `${c.name} の好きなところ`;
+  const mine = S.posts.filter(p => p.cand === c.id);
+  const flash = S.flash ? `<div class="note ${S.flash.ok ? 'ok' : 'ng'}">${S.flash.ok ? '' : `<b>${S.flash.by}で止まりました：</b>`}${esc(S.flash.reason)}</div>` : '';
+  const form = rule.post === 'none' ? '' : `
+      <div class="tags">${TAGS.map(t => `<button data-a="tag" data-v="${t}" class="${S.tags.includes(t) ? 'on' : ''}">${t}</button>`).join('')}</div>
+      <textarea id="draft" placeholder="${rule.post === 'reason' ? 'この人に預けたい理由をひとこと' : '人柄の好きなところをひとこと'}">${esc(S.draft)}</textarea>
+      <button class="btn" data-a="post" ${S.tags.length ? '' : 'disabled'}>投稿する</button>${S.tags.length ? '' : '<p class="s">推しポイントタグを1つ以上選んでください。</p>'}`;
+  return `<div class="card"><h2>${title}</h2><div class="note">${rule.why}</div>${form}${flash}
+      <button class="btn gh" data-a="share" ${rule.share && mine.length ? '' : 'disabled'}>SNSにシェアする</button>
+      ${rule.share ? (mine.length ? '' : '<p class="s">投稿するとシェアできます。</p>') : '<p class="s">シェアは18歳以上が選挙期間にだけできます。</p>'}</div>
+    <div class="card"><h3>推し仲間の声</h3>${allPosts(c.id).map(postHtml).join('')}</div>`;
+}
+
+function viewTicket() {
+  if (!S.oshi) return `<div class="card lock">推しを決めると、参戦チケットが出ます。<button class="btn" data-a="tab" data-v="oshi">推しをさがす</button></div>`;
+  const c = cand(S.oshi);
+  if (!S.adult) return `<div class="card lock"><h2>参戦チケットは18歳から</h2><p>有権者になったら、${c.name} に託しに行くチケットがここに出ます。それまでは推しを知る時間です。</p></div>`;
+  const can = OshiSen.canVote(ctx());
+  const when = { '平常時': '次の選挙が決まるとチケットが出ます。', '公示前': '公示日になると期日前投票が始まります。', '選挙期間': '期日前投票ができます。当日は12月13日。', '投票日当日': '今日が参戦日です。', '開票後': 'この選挙の投票は終わりました。' }[S.phase];
+  const ticket = S.phase === '平常時' ? `<div class="card lock">いまは選挙がない時期です。選挙が近づいたらお知らせします。</div>` : `
+    <div class="ticket"><div class="a"><small>参戦チケット</small><span class="d">12.13 SUN</span><span>7:00 – 20:00　ダミー第三小学校 体育館</span><span>託す相手：<b>${c.name}</b>（${c.party}）</span></div>
+      <div class="b"><span>期日前投票：12/2〜12/12　8:30–20:00　ダミー区役所 1階</span><span>持ちもの：投票所入場券（なくても投票できます）</span></div></div>`;
+  const badge = S.voted ? `<div class="card"><div class="badge">託した<small>2026 冬</small></div>
+      <div class="note">このバッジはいま <b>${OshiSen.badgeAudience(S.phase)}</b> 見えます。${S.phase === '投票日当日' ? '投票日当日は選挙運動にならないよう、自分にだけ表示します。' : ''}お金や物とは交換できません。</div></div>` : '';
+  return `${ticket}<div class="card"><p>${when}</p><button class="btn" data-a="vote" ${can && !S.voted ? '' : 'disabled'}>${S.voted ? '託しました' : '託してきた（投票した）'}</button>
+      <p class="s">投票したかどうかは自己申告です。誰に入れたかはアプリは聞きません。</p></div>${badge}`;
+}
+
+function viewAll() {
+  const see = m => OshiSen.canSee(m, { phase: S.phase });
+  let count;
+  if (see('supportShare')) {
+    const w = cand(RESULT.winner), mine = S.oshi ? cand(S.oshi) : null;
+    const msg = !mine ? '' : mine.id === w.id ? `<div class="note ok">あなたの推し ${mine.name} は当選しました。ここからが本番、推し活は続きます。</div>`
+      : `<div class="note">あなたの推し ${mine.name} は今回は届きませんでした。次の選挙まで、推し活は続けられます。</div>`;
+    count = `<div class="card"><h3>開票結果（ダミー9区）</h3><h2>当選：${w.name}</h2>${msg}</div>
+      <div class="card"><h3>振り返り：推しセン！ユーザーの応援の割合</h3>${bars(RESULT.share)}<p class="s">開票が終わったので、ここで初めて表示しています。</p></div>`;
+  } else {
+    count = `<div class="card lock"><h3>開票見守り</h3><p>候補者ごとの応援の割合は、開票が終わるまで誰にも表示しません。<br>開票日に、推し仲間といっしょに結果を見守れます。</p></div>`;
+  }
+  return `${count}
+    <div class="card"><h3>いま「預ける理由」として重視されている人柄（アプリ全体）</h3>${bars(APP_REASONS)}</div>
+    <div class="card"><h3>ダミー9区で重視されている推しポイント</h3>${bars(DISTRICT_TREND)}</div>
+    <div class="card"><h3>ダミー9区で、20代の声はどれくらい届いている？</h3>${bars([['有権者のうち', 12], ['投票者のうち', 6]])}<p>20代は有権者の12%なのに、投票した人の中では6%。行けば、届く声が増えます。</p></div>`;
+}
+
+function renderSide() {
+  const rule = OshiSen.postRule(ctx());
+  const hidden = CANDS.reduce((n, c) => n + c.traits.length - OshiSen.visibleTraits(c).length, 0);
+  $('side').innerHTML = `
+    <div class="card"><h3>直前のできごと</h3><p>${esc(S.log)}</p></div>
+    <div class="card"><h3>いまの状態</h3><dl class="kv">
+      <dt>フェーズ</dt><dd>${S.phase}</dd><dt>年齢</dt><dd>${S.adult ? '18歳以上' : '18歳未満'}</dd>
+      <dt>診断</dt><dd>${answered()} / ${OshiSen.AXES.length} 問</dd><dt>推し</dt><dd>${S.oshi ? cand(S.oshi).name : 'まだいない'}</dd>
+      <dt>自分の投稿</dt><dd>${S.posts.length} 件</dd><dt>投票</dt><dd>${S.voted ? '託した（バッジ：' + OshiSen.badgeAudience(S.phase) + '）' : 'まだ'}</dd>
+      <dt>投稿</dt><dd>${{ none: 'できない（閲覧だけ）', like: '「好き」だけ', reason: '「預けたい理由」' }[rule.post]}</dd>
+      <dt>SNSシェア</dt><dd>${rule.share ? 'できる' : 'できない'}</dd>
+      <dt>投票の申告</dt><dd>${OshiSen.canVote(ctx()) ? 'できる' : 'できない'}</dd></dl></div>
+    <div class="card"><h3>いま見られる指標</h3><div class="vis">${Object.entries(OshiSen.METRICS).map(([k, m]) => {
+      const ok = OshiSen.canSee(k, { phase: S.phase });
+      return `<span class="${ok ? 'o' : 'x'}">${ok ? '○' : '×'}</span><span>${m.label}${m.who === 'self' ? '（本人だけ）' : ''}</span>`;
+    }).join('')}</div><p class="s">根拠の発言がなくて隠している人柄の特徴：${hidden} 件</p></div>
+    <div class="card"><h3>作りながら見つかった、spec のあいまいなところ</h3><ul>
+      <li>18歳未満は推し仲間の理由を<b>読める</b>のか。ストーリー25は「18歳以上として読みたい」、投稿ルールの表は「閲覧だけ」。ここでは読める側にしている。</li>
+      <li>新人は分かっている項目だけで相性を出すと、少ない項目で高い%が出やすい（シナリオ「新人」）。現職と同じ並びで比べてよいか。</li>
+      <li>期日前投票をした人の「託した」バッジは、選挙期間中に推し仲間へ見せてよいか。ここでは見える。</li>
+      <li>選挙期間に書いた「預けたい理由」は、投票日当日と開票後も表示されたままでよいか。ここでは残る。</li>
+      <li>推しを変えたとき、前の推しへの投稿はどうなるか。ここでは前の推しの側に残る。</li>
+      <li>投票したかは自己申告しかない。バッジの意味はそれで足りるか。</li>
+    </ul></div>`;
+}
+
+function render() {
+  $('phases').innerHTML = '<span class="lbl">フェーズ</span>' + OshiSen.PHASES.map(p => `<button data-a="phase" data-v="${p}" class="${S.phase === p ? 'on' : ''}">${p}</button>`).join('');
+  $('ages').innerHTML = '<span class="lbl">年齢</span>' + [['1', '18歳以上'], ['', '18歳未満']].map(([v, l]) => `<button data-a="age" data-v="${v}" class="${!!v === S.adult ? 'on' : ''}">${l}</button>`).join('');
+  $('scns').innerHTML = '<span class="lbl">シナリオ</span>' + SCNS.map((s, i) => `<button class="scn" data-a="scn" data-v="${i}">${s[0]}</button>`).join('') + '<button class="scn" data-a="scn" data-v="-1">最初から</button>';
+  $('phasePill').textContent = S.phase;
+  $('agePill').textContent = S.adult ? '18歳以上' : '18歳未満';
+  $('main').innerHTML = { diag: viewDiag, oshi: viewOshi, reason: viewReason, ticket: viewTicket, all: viewAll }[S.tab]();
+  $('nav').innerHTML = [['diag', '診断'], ['oshi', '推し'], ['reason', '理由'], ['ticket', '参戦'], ['all', 'みんな']].map(([k, l]) => `<button data-a="tab" data-v="${k}" class="${S.tab === k ? 'on' : ''}">${l}</button>`).join('');
+  renderSide();
+}
+
+document.addEventListener('input', e => { if (e.target.id === 'draft') S.draft = e.target.value; });
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-a]'); if (!b || b.disabled) return;
+  const a = b.dataset.a, v = b.dataset.v;
+  if (a !== 'tag') S.flash = null;
+  if (a === 'phase') { S.log = `フェーズを「${S.phase}」→「${v}」に変えた。`; S.phase = v; }
+  else if (a === 'age') { S.adult = !!v; S.log = `年齢を「${S.adult ? '18歳以上' : '18歳未満'}」に変えた。`; }
+  else if (a === 'scn') { S = v === '-1' ? init() : SCNS[v][1](); }
+  else if (a === 'tab') { S.tab = v; S.detail = null; }
+  else if (a === 'ans') { const [k, n] = v.split(':'); S.answers = { ...S.answers, [k]: +n }; S.log = `診断に答えた（${answered()}/${OshiSen.AXES.length}）。`; }
+  else if (a === 'redo') { S.answers = {}; S.log = '診断をやり直した。相性は出し直しになる（推しはそのまま）。'; }
+  else if (a === 'open') { S.tab = 'oshi'; S.detail = v; }
+  else if (a === 'back') { S.detail = null; }
+  else if (a === 'oshi') { S.log = `${cand(v).name} を推しにした${S.oshi ? '（' + cand(S.oshi).name + ' から変更）' : ''}。`; S.oshi = v; S.tags = []; S.draft = ''; }
+  else if (a === 'unoshi') { S.log = `${cand(S.oshi).name} の推しを解除した。`; S.oshi = null; }
+  else if (a === 'tag') { S.tags = S.tags.includes(v) ? S.tags.filter(t => t !== v) : [...S.tags, v]; }
+  else if (a === 'post') {
+    const r = OshiSen.checkPost(S.draft, { ...ctx(), oshiId: S.oshi, candidates: CANDS });
+    if (r.ok) {
+      S.posts = [{ cand: S.oshi, tags: S.tags, text: S.draft || '（ひとことなし）', kind: r.kind, mine: true }, ...S.posts];
+      S.flash = { ok: true, reason: r.kind === 'reason' ? '「預けたい理由」を投稿しました。推しの理由の内訳にも入ります。' : '「好き」を投稿しました。推しの理由の内訳にも入ります。' };
+      S.log = `投稿が通った（種類：${r.kind === 'reason' ? '預けたい理由' : '好き'}）。`; S.draft = ''; S.tags = [];
+    } else { S.flash = r; S.log = `投稿が止まった（${r.by}）。`; }
+  }
+  else if (a === 'share') { S.flash = { ok: true, reason: 'SNSにシェアしました（ダミー。実際には何も送っていません）。' }; S.log = 'SNSシェアをした。'; }
+  else if (a === 'vote') { S.voted = true; S.log = `「託した」バッジを受け取った。いまは${OshiSen.badgeAudience(S.phase)}見える。`; }
+  render();
+});
+render();
+</script>
+</body>
+</html>
