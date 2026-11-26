@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 160" role="img" aria-labelledby="title">
+  <title id="title">食料品の入った買い物かご</title>
+  <g stroke-linejoin="round">
+    <path d="M54 78c-12-16-6-38 7-41 7-20 27-20 32-5 18-10 28 6 25 20 9 10 2 25-9 30z" fill="#72c96e"/>
+    <path d="M80 82c2-21 11-34 17-42" fill="none" stroke="#43a761" stroke-width="4" stroke-linecap="round"/>
+    <path d="M108 77V37h27v40z" fill="#f3fbff" stroke="#91c5dd" stroke-width="2"/><path d="M108 38l7-10h17l4 10z" fill="#4c9bc4"/>
+    <path d="M133 81l7-38 18 4 9 37z" fill="#dba760"/><path d="M140 43l-2-12 12 8 8-5-1 13" fill="#f2f8fc"/>
+    <circle cx="93" cy="76" r="15" fill="#ef6356"/><path d="M85 65l8 4 6-7" fill="none" stroke="#3e9b67" stroke-width="4"/>
+    <path d="M23 77h139l-13 59c-1 5-5 8-10 8H45c-5 0-9-3-10-8z" fill="#1683c7"/><path d="M23 77h139v12H23z" fill="#29a9d8"/>
+    <path d="M59 101l3 27m22-27 1 27m21-27-1 27m22-27-3 27" stroke="#a9e0f0" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

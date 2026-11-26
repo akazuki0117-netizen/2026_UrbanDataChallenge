@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="'Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif">
+  <title>政策を選ぶ体験ゲーム（仮） アイデア概要</title>
+  <rect width="1200" height="675" fill="#f6faf8"/>
+  <circle cx="1140" cy="25" r="210" fill="#dcefe7"/>
+  <circle cx="35" cy="600" r="145" fill="#f8edc9"/>
+
+  <rect x="58" y="54" width="302" height="36" rx="18" fill="#31856c"/>
+  <text x="209" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">政策を選ぶ体験ゲーム（仮）</text>
+  <text x="58" y="154" font-size="39" font-weight="800" fill="#202b29">もし、自分が</text>
+  <text x="58" y="208" font-size="39" font-weight="800" fill="#202b29"><tspan fill="#31856c">決める側</tspan>だったら？</text>
+  <text x="58" y="252" font-size="17" fill="#596b65">選択を重ねて任期を進み、その先を振り返る。</text>
+
+  <g transform="translate(58 300)">
+    <rect width="500" height="68" rx="15" fill="#fff" stroke="#d1e7de" stroke-width="2"/>
+    <circle cx="35" cy="34" r="19" fill="#31856c"/><text x="35" y="41" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">1</text>
+    <text x="67" y="29" font-size="18" font-weight="700" fill="#202b29">立場と、最初に重視する政策を選ぶ</text>
+    <text x="67" y="51" font-size="14" fill="#72817b">首相や市長など、架空のシナリオから開始</text>
+  </g>
+  <g transform="translate(58 380)">
+    <rect width="500" height="68" rx="15" fill="#fff" stroke="#d1e7de" stroke-width="2"/>
+    <circle cx="35" cy="34" r="19" fill="#31856c"/><text x="35" y="41" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">2</text>
+    <text x="67" y="29" font-size="18" font-weight="700" fill="#202b29">出来事に対応し、議会でまた選ぶ</text>
+    <text x="67" y="51" font-size="14" fill="#72817b">時間が進み、限られた予算で決定を重ねる</text>
+  </g>
+  <g transform="translate(58 460)">
+    <rect width="500" height="68" rx="15" fill="#fff" stroke="#d1e7de" stroke-width="2"/>
+    <circle cx="35" cy="34" r="19" fill="#31856c"/><text x="35" y="41" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">3</text>
+    <text x="67" y="29" font-size="18" font-weight="700" fill="#202b29">任期終了後、結果と類似事例を見る</text>
+    <text x="67" y="51" font-size="14" fill="#72817b">複数の観点・市民の立場から振り返る</text>
+  </g>
+
+  <!-- 右：画面のイメージ。選択・結果は架空の説明用 -->
+  <rect x="628" y="108" width="246" height="396" rx="28" fill="#20312d"/>
+  <rect x="637" y="117" width="228" height="378" rx="21" fill="#fff"/>
+  <path d="M658 117h186a21 21 0 0 1 21 21v38H637v-38a21 21 0 0 1 21-21z" fill="#31856c"/>
+  <text x="654" y="153" font-size="16" font-weight="700" fill="#fff">あなたは市長</text>
+  <text x="654" y="204" font-size="12" fill="#6d7e78">任期中 ／ 架空の出来事</text>
+  <text x="654" y="237" font-size="18" font-weight="700" fill="#20312d">何に対応する？</text>
+  <text x="654" y="263" font-size="12" fill="#6d7e78">限られた予算で選びます</text>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="654" y="288" width="194" height="44" rx="10" fill="#e8f4ee" stroke="#8ebead"/><text x="751" y="316" fill="#276f59">地域の移動を支える</text>
+    <rect x="654" y="342" width="194" height="44" rx="10" fill="#fff" stroke="#bdd7cc"/><text x="751" y="370" fill="#47675b">公共施設を維持する</text>
+    <rect x="654" y="396" width="194" height="44" rx="10" fill="#fff" stroke="#bdd7cc"/><text x="751" y="424" fill="#47675b">暮らしの支援を広げる</text>
+  </g>
+  <path d="M885 305h29m-9-9 9 9-9 9" fill="none" stroke="#31856c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="929" y="130" width="220" height="359" rx="20" fill="#fff" stroke="#d1e7de" stroke-width="2"/>
+  <text x="1039" y="163" text-anchor="middle" font-size="14" font-weight="700" fill="#20312d">任期の流れ</text>
+  <g font-size="13" fill="#36594d" text-anchor="middle">
+    <rect x="949" y="180" width="180" height="35" rx="9" fill="#e8f4ee"/><text x="1039" y="203">政策の優先順位を選ぶ</text>
+    <text x="1039" y="232" fill="#839a90">↓ 時間経過</text>
+    <rect x="949" y="242" width="180" height="35" rx="9" fill="#f7f9f7" stroke="#d1e7de"/><text x="1039" y="265">出来事が発生・対応</text>
+    <text x="1039" y="294" fill="#839a90">↓ 次の議会でまた選ぶ</text>
+    <rect x="949" y="304" width="180" height="35" rx="9" fill="#f7f9f7" stroke="#d1e7de"/><text x="1039" y="327">出来事・選択を繰り返す</text>
+    <text x="1039" y="357" fill="#839a90">↓ 任期終了</text>
+    <rect x="949" y="369" width="180" height="56" rx="9" fill="#e8f4ee"/><text x="1039" y="392" font-weight="700">複数の観点で振り返る</text><text x="1039" y="412">現実の類似事例を知る</text>
+  </g>
+  <text x="1039" y="459" text-anchor="middle" font-size="12" fill="#72817b">※ゲーム内の結果は架空</text>
+  <text x="628" y="538" font-size="12" fill="#72817b">※画面・選択肢は企画段階のイメージ</text>
+
+  <rect x="0" y="590" width="1200" height="85" fill="#20312d"/>
+  <g fill="#fff" font-size="15" font-weight="700">
+    <circle cx="67" cy="632" r="5" fill="#f3c85b"/><text x="82" y="638">知識がなくても始められる</text>
+    <circle cx="388" cy="632" r="5" fill="#f3c85b"/><text x="403" y="638">正解を決めずに考える</text>
+    <circle cx="696" cy="632" r="5" fill="#f3c85b"/><text x="711" y="638">ゲーム内の政策・結果は架空</text>
+  </g>
+</svg>
