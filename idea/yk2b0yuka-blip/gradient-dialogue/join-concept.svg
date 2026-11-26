@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="900" viewBox="0 0 480 900" font-family="'Yu Gothic UI','Meiryo',sans-serif">
+  <title>グラデーションの広場 グループ参加画面の案</title>
+  <rect width="480" height="900" fill="#f6f9fc"/>
+  <text x="28" y="54" font-size="16" font-weight="700" fill="#1261bd">グラデーションの広場（仮）</text>
+  <text x="28" y="120" font-size="29" font-weight="800" fill="#122a4b">グループに参加</text>
+  <text x="28" y="153" font-size="15" fill="#61798a">表示名を選んで、参加方法を選びます。</text>
+
+  <rect x="24" y="184" width="432" height="246" rx="20" fill="#fff" stroke="#dce8f0" stroke-width="2"/>
+  <text x="45" y="225" font-size="17" font-weight="700" fill="#153e58">アバターを選ぶ</text>
+  <g transform="translate(59 246)">
+    <!-- くだもの：選択中 -->
+    <circle cx="36" cy="36" r="35" fill="#fff0f1" stroke="#159395" stroke-width="3"/>
+    <path d="M36 23c-11-8-23 0-22 14 1 12 9 19 22 19s21-7 22-19c1-14-11-22-22-14z" fill="#f57f83"/>
+    <path d="M36 24c0-7 4-12 10-13-1 7-4 11-10 13z" fill="#64b885"/><path d="M36 24c-1-5-3-8-5-10" fill="none" stroke="#457c68" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="29" cy="37" r="2" fill="#173b54"/><circle cx="43" cy="37" r="2" fill="#173b54"/><path d="M32 43q4 4 8 0" fill="none" stroke="#173b54" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="42" r="2.5" fill="#ffafb2"/><circle cx="48" cy="42" r="2.5" fill="#ffafb2"/>
+    <!-- ことり -->
+    <circle cx="120" cy="36" r="35" fill="#eaf5fb" stroke="#d0e2ef" stroke-width="2"/>
+    <path d="M98 39c0-13 10-22 22-22s22 9 22 22-8 19-22 19-22-6-22-19z" fill="#76b8dc"/>
+    <path d="M102 47c5-4 8-3 10 1-3 5-6 6-10 5m36-6c-5-4-8-3-10 1 3 5 6 6 10 5" fill="#569ec7"/>
+    <circle cx="113" cy="36" r="2" fill="#173b54"/><circle cx="127" cy="36" r="2" fill="#173b54"/><path d="M117 42h6l-3 4z" fill="#efa55c"/><circle cx="108" cy="42" r="2.3" fill="#f4b6b3"/><circle cx="132" cy="42" r="2.3" fill="#f4b6b3"/>
+    <!-- はな -->
+    <circle cx="204" cy="36" r="35" fill="#f2f0fb" stroke="#deddf1" stroke-width="2"/>
+    <g fill="#b9a4e3"><circle cx="204" cy="20" r="9"/><circle cx="218" cy="28" r="9"/><circle cx="215" cy="45" r="9"/><circle cx="193" cy="45" r="9"/><circle cx="190" cy="28" r="9"/></g>
+    <circle cx="204" cy="35" r="13" fill="#fce59d"/><circle cx="199" cy="34" r="1.8" fill="#173b54"/><circle cx="209" cy="34" r="1.8" fill="#173b54"/><path d="M201 39q3 3 6 0" fill="none" stroke="#173b54" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <text x="45" y="350" font-size="15" font-weight="700" fill="#153e58">表示名</text>
+  <rect x="45" y="364" width="390" height="46" rx="11" fill="#f8fbfd" stroke="#cbdde8"/>
+  <text x="59" y="393" font-size="14" fill="#8a9eab">好きな名前を入力</text>
+
+  <rect x="24" y="447" width="432" height="174" rx="20" fill="#fff" stroke="#dce8f0" stroke-width="2"/>
+  <text x="45" y="488" font-size="17" font-weight="700" fill="#153e58">友達と参加する場合</text>
+  <rect x="45" y="504" width="390" height="52" rx="11" fill="#f8fbfd" stroke="#cbdde8"/>
+  <text x="59" y="536" font-size="14" fill="#8a9eab">友達から届いたコード</text>
+  <text x="45" y="591" font-size="13" fill="#71899a">同じコードを入力してグループに入ります。</text>
+
+  <rect x="24" y="651" width="432" height="58" rx="13" fill="#1261bd"/>
+  <text x="240" y="687" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">コードで参加</text>
+  <rect x="24" y="723" width="432" height="55" rx="13" fill="#fff" stroke="#b9d3e5" stroke-width="2"/>
+  <text x="240" y="757" text-anchor="middle" font-size="16" font-weight="700" fill="#165a9b">グループを作る</text>
+  <rect x="24" y="792" width="432" height="55" rx="13" fill="#fff" stroke="#81bec5" stroke-width="2"/>
+  <text x="240" y="816" text-anchor="middle" font-size="16" font-weight="700" fill="#147b83">ほかの人と参加</text>
+  <text x="240" y="835" text-anchor="middle" font-size="11" fill="#718d97">招待コードなしで参加</text>
+  <text x="240" y="881" text-anchor="middle" font-size="12" fill="#8195a3">※ 画面のイメージです。参加方法は検討中。</text>
+</svg>
