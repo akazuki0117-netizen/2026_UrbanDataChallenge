@@ -69,8 +69,8 @@ def target_files(all_files):
 def unpushed_authors():
     upstream = git("rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}").strip()
     rng = (upstream + "..HEAD") if upstream else "HEAD"
-    out = git("log", "--format=%h%x09%an%x09%ae%x09%cn%x09%ce", rng)
-    return [l.split("\t") for l in out.splitlines() if l.strip()]
+    out = git("log", "--format=%h%x09%an%x09%ae%x09%cn%x09%ce%x09%B%x1e", rng)
+    return [r.strip("\n").split("\t", 5) for r in out.split("\x1e") if r.strip()]
 
 
 def main():
@@ -111,9 +111,13 @@ def main():
                     if w in line:
                         ng.append((f, n, f"登録した語（実名など）：{w}"))
 
-    for h, an, ae, cn, ce in unpushed_authors():
+    for h, an, ae, cn, ce, msg in unpushed_authors():
+        for w in words:
+            if w in msg:
+                ng.append((f"commit {h}", 0, f"コミットのメッセージに登録した語：{w}"))
         for who, addr in (("作者", ae), ("コミッター", ce)):
-            if not addr.endswith("@users.noreply.github.com"):
+            # GitHub の画面でマージしたコミットは、コミッターが noreply@github.com になる（個人情報ではない）
+            if not (addr.endswith("@users.noreply.github.com") or addr == "noreply@github.com"):
                 ng.append((f"commit {h}", 0, f"{who}のメールアドレスが noreply ではない：{addr}"))
         for w in words:
             if w in an or w in cn:
