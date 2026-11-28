@@ -1,0 +1,32 @@
+{
+ "id": "6625759634117103515",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625759634117103515/?year=2026",
+ "fetched_at": "2026-11-20T15:32:27+00:00",
+ "title": "ココイル",
+ "team": "湘南ハウス",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ココイル」は、指定避難所の外にいる被災者（在宅避難・車中泊・帰宅困難者）の状況把握と物資支援を一元化する災害時支援システム。避難所単位の対応を前提とした従来の枠組みでは避難所外の被災者の需要把握や要支援者への優先配慮が手薄になりがちという課題に対応。被災者はスマホで避難状況と必要物資を登録し、災害対策本部は地図上でリアルタイムに需要を把握し地域本部単位に配送ルートを自動設計、巡回担当者端末で配布物資の内訳を確認しながら配送できる。Vite＋React＋react-leafletで被災者アプリ・管理者ポータル・巡回担当者端末の3画面を構築し、Claude Codeで要件整理から実装、オープンデータの著作権確認まで対話的に進めた。",
+ "open_data_items": [
+  {
+   "name": "避難所情報（新宿区）",
+   "url": "https://data.odp.jig.jp/viewcsv/jp/tokyo/shinjuku/715.csv"
+  },
+  {
+   "name": "東京都地域防災計画　震災編（平成26年修正）別冊資料",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d1700000030"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d1700000030"
+ ],
+ "external_data_urls": [
+  "https://data.odp.jig.jp/viewcsv/jp/tokyo/shinjuku/715.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=139",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

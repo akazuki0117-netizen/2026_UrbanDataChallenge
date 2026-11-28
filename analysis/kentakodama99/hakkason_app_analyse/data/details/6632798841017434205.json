@@ -1,0 +1,56 @@
+{
+ "id": "6632798841017434205",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632798841017434205/?year=2026",
+ "fetched_at": "2026-11-20T15:42:46+00:00",
+ "title": "まちミッケ",
+ "team": "WebHawkEye",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まちミッケ」は、東京都の避難場所オープンデータに残る「未確認の空欄」を、近くにいる市民がスキマ時間で確認し、更新候補として公開元に還元するWebアプリ。避難時に支援を要する人が56万人超いる一方、点字ブロックやスロープ等の入口設備情報は大部分が空欄という課題に対応。現地で3択に回答してもらい、異なる2人の回答が一致した場合のみ候補化することで精度を担保する。Cloudflare Workers＋D1で構築し、匿名Cookieのみを使いGPSは保存しない、プライバシーに配慮した設計とした。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和7年度更新版）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "都民参加による面的・持続的なバリアフリー移動支援情報の整備",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007"
+  },
+  {
+   "name": "地下鉄関連情報　バリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "東京都内の飲食店のバリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063"
+  },
+  {
+   "name": "AED設置場所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000108"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000108"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://machimikke.tokyo-odh-274.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://machimikke.tokyo-odh-274.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3280",
+ "image_count": 3,
+ "notes": ""
+}

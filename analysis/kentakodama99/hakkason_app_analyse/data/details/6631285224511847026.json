@@ -1,0 +1,41 @@
+{
+ "id": "6631285224511847026",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631285224511847026/?year=2026",
+ "fetched_at": "2026-11-20T15:35:20+00:00",
+ "title": "スムトコ",
+ "team": "チームスムトコ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "AIとオープンデータで東京23区の居住エリア選びを支援するWebサービス「スムトコ」。既存の住まい探しサービスは物件単位の情報提供に特化しエリア単位での比較検討がしづらく、住み始めてから治安等のミスマッチに気づくケースが多いという課題に対応。治安・生活利便施設・駅などの情報をもとにAIチャットに条件を伝えるとおすすめエリアを提案し、駅マーカーをクリックすると周辺環境のAI要約も表示する。上京する大学生を主なターゲットとした設計。Leaflet.jsで静的サイトを構築し、Google Cloud Functions + Gemini APIでAIチャットと駅要約機能をサーバーレスで実現した。",
+ "open_data_items": [
+  {
+   "name": "区市町村の町丁別、罪種別及び手口別認知件数",
+   "url": "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.html"
+  },
+  {
+   "name": "国勢調査 小地域（町丁・字等）境界データ",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2020&serveyId=B002005212020&prefCode=13&coordsys=1&format=shape&datum=2000"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://wiki.openstreetmap.org/wiki/Overpass_API"
+  },
+  {
+   "name": "Google Places API",
+   "url": "https://developers.google.com/maps/documentation/places/web-service/overview?hl=ja"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.keishicho.metro.tokyo.lg.jp/about_mpd/jokyo_tokei/jokyo/ninchikensu.html",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2020&serveyId=B002005212020&prefCode=13&coordsys=1&format=shape&datum=2000",
+  "https://wiki.openstreetmap.org/wiki/Overpass_API",
+  "https://developers.google.com/maps/documentation/places/web-service/overview?hl=ja"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3809",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

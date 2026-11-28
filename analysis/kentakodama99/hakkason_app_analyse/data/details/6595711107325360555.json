@@ -1,0 +1,77 @@
+{
+ "id": "6595711107325360555",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6595711107325360555/?year=2026",
+ "fetched_at": "2026-11-20T15:31:27+00:00",
+ "title": "だれでも避難ナビ TOKYO",
+ "team": "宇宙ポテト",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "災害時、要配慮者（車椅子/高齢/乳幼児連れ/視覚聴覚障害/外国語等）にとって「最寄り」が「行ける」避難先とは限らないという課題に対応するサービス。江東5区は陸域の約7割がゼロメートル地帯で避難行動要支援者約5,800人がいるが「その人が行ける避難先」を示すサービスがなく当事者が自力で情報を突き合わせるしかないという課題に対応。自然文で状況を伝えるとAIが配慮属性と想定災害を抽出し、避難所をバリアフリー×災害種別適否×距離×当事者要件で決定論的に再ランキング、なぜ1位か・より近いのに見送った理由まで根拠提示する。AIは抽出のみに限定し順位付けは説明可能・再現可能な決定論スコアリングで行う。Next.js 16/ReactとMapLibre GLで構築し、Geminiを自然文の読み取りのみに使用した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和7年度更新版）（東京都福祉局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "災害時給水ステーション（給水拠点）一覧（東京都水道局）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv"
+  },
+  {
+   "name": "公衆無線LAN（FREE Wi-Fi & TOKYO）アクセスポイント（東京都デジタルサービス局）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_wireless_lan_20240901.csv"
+  },
+  {
+   "name": "東京都交通局 バス関連情報（都営バス GTFS-JP・停留所）／公共交通オープンデータ協議会",
+   "url": "https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」（東京都デジタルサービス局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "都立の一時滞在施設（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）（東京都）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm"
+  },
+  {
+   "name": "令和2年国勢調査 小地域集計 第3表 年齢別人口／小地域境界（総務省統計局・e-Stat）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search/data?dlserveyId=A002005212020&code=13&coordSys=1&format=shape&downloadType=5"
+  },
+  {
+   "name": "ハザードマップポータルサイト 洪水/高潮/津波/土砂 タイル（国土交通省）",
+   "url": "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055"
+ ],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_wireless_lan_20240901.csv",
+  "https://ckan.odpt.org/dataset/b_bus_gtfs_jp-toei",
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm",
+  "https://www.e-stat.go.jp/gis/statmap-search/data?dlserveyId=A002005212020&code=13&coordSys=1&format=shape&downloadType=5",
+  "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
+ ],
+ "demo_url": "https://hinan-navi-sceyw5h4sq-an.a.run.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hinan-navi-sceyw5h4sq-an.a.run.app"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3062",
+ "image_count": 3,
+ "notes": ""
+}

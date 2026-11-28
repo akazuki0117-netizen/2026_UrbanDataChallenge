@@ -1,0 +1,52 @@
+{
+ "id": "6632673382421010335",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632673382421010335/?year=2026",
+ "fetched_at": "2026-11-20T15:38:40+00:00",
+ "title": "MachiVoice",
+ "team": "300%",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「MachiVoice」は、東京都内の議会・行政オープンデータをAIで分かりやすく届け市民の反応を行政側に還元するプラットフォーム。会議録は数百ページに及び専門用語も多く市民が内容を把握するには大きな時間と労力が必要で行政情報が「公開されているだけ」になりがちという課題に対応。会議録を発言者・日時・内容ごとに構造化し議題単位でAIが要約、元議事録の出典も確認できる。市民は「賛成」「気になる」をワンタップで送信でき議員・行政向けダッシュボードに反応が集約される。Next.js／TypeScriptとSupabaseで構築し、正規表現で発言者等を事前に構造化してから生成AIへ処理させることで精度と再現性を確保した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログサイト / 東京都議会 ・URL",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "各市区町村の公開会議録システム(代表例 新宿区):",
+   "url": "https://ssp.kaigiroku.net/tenant/shinjuku/"
+  },
+  {
+   "name": "渋谷区議会 会議録検索システム ・URL:",
+   "url": "https://ssp.kaigiroku.net/tenant/shibuya/"
+  },
+  {
+   "name": "全国地方公共団体コード（東京都 区市町村マスタ） ・URL:",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000003"
+  },
+  {
+   "name": "東京都 区市町村別の世帯と人口（統計オープンデータ）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000003"
+ ],
+ "external_data_urls": [
+  "https://ssp.kaigiroku.net/tenant/shinjuku/",
+  "https://ssp.kaigiroku.net/tenant/shibuya/",
+  "https://www.toukei.metro.tokyo.lg.jp/"
+ ],
+ "demo_url": "https://giji-raku-frontend.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://giji-raku-frontend.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=4633",
+ "image_count": 3,
+ "notes": ""
+}

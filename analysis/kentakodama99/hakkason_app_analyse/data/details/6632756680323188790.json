@@ -1,0 +1,46 @@
+{
+ "id": "6632756680323188790",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632756680323188790/?year=2026",
+ "fetched_at": "2026-11-20T15:40:16+00:00",
+ "title": "KOGOTO TOKYO｜小言を、しあわせな行動に。",
+ "team": "Fairy",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都等のオープンデータと家族構成・年齢・予定・希望をAIでマッチングし「情報」を家族一人ひとりの「今日やること」に変換するFamily AI。防災・医療・教育・イベント等の情報は公開されていても検索・記憶・判断・伝達という「見えない情報労働」が母親等に偏りがちという課題に3児の母である開発者自身の実体験から対応。大雨なら洗濯物の取り込みや早期帰宅、発熱時は休日診療先を家族の誰に関係するか判断して本人へ直接届け、「ママの小言」を楽しいFAMILY QUESTへ変換する。匿名化した家庭の困りごとを社会改善に活かす循環も構想。Replit上でWebプロトタイプを実装し、ChatGPT等を企画・プロトタイプ開発に活用した。",
+ "open_data_items": [
+  {
+   "name": "気象概況",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/11333263-600e-4f39-9198-3fe6ae1e7e4c/resource/ee5a9833-e1ff-4b07-960c-38a25c6eaecf"
+  },
+  {
+   "name": "イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/ab761006-4493-4003-abce-0be382372005/resource/08920071-6868-4697-81cc-980006569d4f"
+  },
+  {
+   "name": "給付金",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046"
+  },
+  {
+   "name": "公共職業紹介状況 (2) 規模，産業別一般求人充足状況",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/408b769c-40bd-4f3b-9069-bf36c72f8bec/resource/298528e1-597f-4e45-89ce-7e818f659fff"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/11333263-600e-4f39-9198-3fe6ae1e7e4c/resource/ee5a9833-e1ff-4b07-960c-38a25c6eaecf",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/ab761006-4493-4003-abce-0be382372005/resource/08920071-6868-4697-81cc-980006569d4f",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/408b769c-40bd-4f3b-9069-bf36c72f8bec/resource/298528e1-597f-4e45-89ce-7e818f659fff"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://kogoto-tokyo-demoapuri.replit.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kogoto-tokyo-demoapuri.replit.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=885",
+ "image_count": 3,
+ "notes": ""
+}

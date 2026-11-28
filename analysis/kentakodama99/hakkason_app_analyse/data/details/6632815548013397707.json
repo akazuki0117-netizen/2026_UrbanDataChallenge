@@ -1,0 +1,57 @@
+{
+ "id": "6632815548013397707",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632815548013397707/?year=2026",
+ "fetched_at": "2026-11-20T15:46:45+00:00",
+ "title": "交通・移動",
+ "team": "HOHABA",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「横断歩道の健康診断」サービス。交差点に置いたセンサーが信号と同期し「赤に変わった瞬間まだ渡っている人が何人いるか」等の渡り方を匿名で計測、映像はその場で破棄し集計値だけを保存する。信号の青時間は一律だが高齢者や小学生、ベビーカーにとって負担になる交差点があり事故未満のサインはどこにも記録されないまま消えているという課題に対応。学校・病院・事故・坂等のオープンデータと重ねた「交差点カルテ」を自動生成し行政が調べるべき場所・時間帯を絞り込め、施策後は同じ指標で再計測して効果を確認する。素のHTML/CSS/JavaScript単一ファイルで実装し、Claude Codeで過去5回の全作品を調査し「測って行政の判断につなぐ」新規性を確認した。",
+ "open_data_items": [
+  {
+   "name": "交通事故統計情報のオープンデータ（警察庁）",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "高度化PICS整備交差点（警察庁）",
+   "url": "https://www.npa.go.jp/bureau/traffic/seibi2/annzen-shisetu/utms/pics.html"
+  },
+  {
+   "name": "東京都デジタルツイン実現プロジェクト 区部点群データ（東京都デジタルサービス局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024"
+  },
+  {
+   "name": "東京都交通局 都営バス・都営地下鉄オープンデータ（東京都交通局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052"
+  },
+  {
+   "name": "医療機関等台帳（東京都保健医療局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612"
+  },
+  {
+   "name": "公立学校統計調査報告書「東京都公立学校一覧」（東京都教育庁）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+ ],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://www.npa.go.jp/bureau/traffic/seibi2/annzen-shisetu/utms/pics.html"
+ ],
+ "demo_url": "https://246design.com/hohaba/hohaba-demo/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://246design.com/hohaba/hohaba-demo/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2637",
+ "image_count": 2,
+ "notes": ""
+}

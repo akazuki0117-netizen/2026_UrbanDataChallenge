@@ -1,0 +1,37 @@
+{
+ "id": "6632802120915799030",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632802120915799030/?year=2026",
+ "fetched_at": "2026-11-20T15:43:05+00:00",
+ "title": "TOKYO First Response",
+ "team": "CSE",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO First Response」は、救急現場に遭遇した人を119番通報から救急隊到着まで支援するWebシステム。突然人が倒れた場面で何を伝え何をすべきか分からず戸惑うという課題に対応。通報時には現在地や周辺の目印を自動提示し指令員への回答を補助、通報後は指示を救護タスクに整理してQRコードで周囲と役割分担する。AED担当には近くのAEDとルートを、胸骨圧迫担当には方法とテンポを提示し、City ModeではAEDへの到達時間可視化から新規設置の効果検討もできる。React/TypeScriptでWebアプリとして開発し、ChatGPTやGitHub Copilotで企画から実装まで活用した。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/#map=5/35.59/134.38"
+  },
+  {
+   "name": "港区の公共施設情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014"
+  },
+  {
+   "name": "港区のAED設置場所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000241"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000241"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/#map=5/35.59/134.38"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4980",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

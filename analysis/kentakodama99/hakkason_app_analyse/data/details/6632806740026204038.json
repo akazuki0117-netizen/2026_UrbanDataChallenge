@@ -1,0 +1,36 @@
+{
+ "id": "6632806740026204038",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806740026204038/?year=2026",
+ "fetched_at": "2026-11-20T15:43:51+00:00",
+ "title": "FamiView - ガンになった1人親家族の未来を、いま見通す。",
+ "team": "キジムナー",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「FamiView」は、ガンと診断された東京都の1人親が治療で働き方が変わっても生活を続けられるかを3分・匿名・スマホで見通すWebサービス。東京都には多くの公的支援があるが制度がバラバラで探しにくく対象条件や金額が分からず「自分の家に何が使えるか」が見えにくいという課題に対応。家庭・仕事・家計を入力すると使える制度、家族の経済・生活継続リスク、今日やること3つを表示し、スライダーで休職期間や収入を動かすとその場で未来が再計算される(What-if)。受給判定・金額・シミュレーションはすべて決定論ロジックで計算しAIには判定させずハルシネーションを回避する設計。Next.js/React/TypeScriptでCloudflare Workersに構築した。",
+ "open_data_items": [
+  {
+   "name": "医療・保健_患者の声相談窓口",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000544"
+  },
+  {
+   "name": "社会福祉施設等一覧（令和6年5月1日時点）子供家庭支援センター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000356"
+  },
+  {
+   "name": "令和2年国勢調査 東京都区市町村町丁別報告 第3表 世帯の家族類型別一般世帯数（東京都）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000626"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000544",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000356",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000626"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1021",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

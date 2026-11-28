@@ -1,0 +1,31 @@
+{
+ "id": "6632804419811349165",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632804419811349165/?year=2026",
+ "fetched_at": "2026-11-20T15:43:27+00:00",
+ "title": "PedaPath",
+ "team": "剣道部",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「PedaPath」は、自転車で安全に移動するための経路検索サービス。地図アプリが示す「速く着く道」で事故が多いかは分からず、同じ道を毎日走る人ほど危険な交差点を繰り返し通ることになるが東京都の事故公開データが経路選択の場面で使える形になっていないという課題に対応。東京都の交通事故オープンデータ8,270件を経路区間ごとに突き合わせ安全・注意・警戒の3段階で色分け、危険な区間を選ぶとそこを通らない経路を引き直せる。国土地理院の標高データから勾配も反映し「事故が少なく坂の負担が小さい道」を選べる。OSRMを自前構築し自転車プロファイルをLuaで書き換え、Claude Codeで設計からデプロイまで対話しながら進めた。",
+ "open_data_items": [
+  {
+   "name": "TOKYO_OPEN_DATA_ヒヤリハットマップ情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000116"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000116"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://pedapath.tokyo-odh-487.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://pedapath.tokyo-odh-487.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2969",
+ "image_count": 3,
+ "notes": ""
+}

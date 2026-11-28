@@ -1,0 +1,37 @@
+{
+ "id": "6632095625232298796",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632095625232298796/?year=2026",
+ "fetched_at": "2026-11-20T15:36:49+00:00",
+ "title": "ひみつの学生証",
+ "team": "niikun",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ひみつの学生証」は、秘密鍵を明かさずに本人性を証明するゼロ知識証明(Schnorr識別プロトコル)と属性を選択的に開示するMerkle包含証明を組み合わせたWebサービス。通学定期や図書館利用登録で氏名・住所等本来不要な個人情報まで開示する必要があり、都立高校生だけで約12.5万人がこの構造的課題に直面しているという課題に対応。生徒がスマホでQRを表示し検証者がスキャンするだけで専用アプリなしに完結、氏名・住所・電話番号は収集・送信されず検証者はキャッシュ済みroot値と照合するだけで外部データベースへの問い合わせも不要。RustでCloudflare Workers上にエッジ実行し、Claude Codeとのペア開発で暗号プロトコルの設計比較や図書館・私立高校生数の一次資料検証を行った。",
+ "open_data_items": [
+  {
+   "name": "令和7年度 公立学校統計調査報告書【東京都公立学校一覧】",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/list_of_public_school/school_lists2025"
+  },
+  {
+   "name": "足立区公立図書館情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131211d3100000005"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131211d3100000005"
+ ],
+ "external_data_urls": [
+  "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/list_of_public_school/school_lists2025"
+ ],
+ "demo_url": "https://niikun.net/zk_school/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://niikun.net/zk_school/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2263",
+ "image_count": 3,
+ "notes": ""
+}

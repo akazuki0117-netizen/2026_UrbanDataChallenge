@@ -1,0 +1,71 @@
+{
+ "id": "6632811464343747869",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811464343747869/?year=2026",
+ "fetched_at": "2026-11-20T15:45:37+00:00",
+ "title": "しるトクTOKYO",
+ "team": "Flash CAP",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都の支援制度を「制度から探す」のではなく「あなたの状況から逆算する」診断サービス。制度が福祉局・産業労働局等の縦割りで状況をまとめて相談できる窓口がなく、専門用語で条件が書かれ自分が対象か判断できないという課題に対応。年齢・世帯・住まいなど11の質問に約1分で答えると9つの診断タイプと対象になりうる制度が適合度つきで表示され、「なぜあなたが対象なのか」と在職中でも使える等の思い込みを崩すヒントを添える。登録不要で入力内容は端末内のみで処理される設計。TypeScript+Viteの静的サイトとし、Claude Codeで制度条件文の構造化から9つの診断タイプ定義、判定ロジックまで開発した。",
+ "open_data_items": [
+  {
+   "name": "支援制度（給付金）情報（小金井市）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000045"
+  },
+  {
+   "name": "東村山市支援制度（給付金）情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132136d3100000020"
+  },
+  {
+   "name": "生活困窮者自立支援制度に関する情報（東京都福祉局・全区市町村の相談窓口一覧）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000045"
+  },
+  {
+   "name": "多胎児家庭の家事育児支援助成時間と申請期限（品川区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000033"
+  },
+  {
+   "name": "台東区行政資料集　台東区奨学資金",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000308"
+  },
+  {
+   "name": "支援制度_給付金_情報（中野区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046"
+  },
+  {
+   "name": "東京都青梅市における支援制度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132055d0000000019"
+  },
+  {
+   "name": "貸付金の種類の助成限度額（品川区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000040"
+  },
+  {
+   "name": "産後の家事育児支援助成時間と申請期限（品川区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000032"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000045",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132136d3100000020",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000045",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000033",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000308",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132055d0000000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000040",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000032"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://open-data-hackathon-pi.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://open-data-hackathon-pi.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3253",
+ "image_count": 1,
+ "notes": ""
+}

@@ -1,0 +1,17 @@
+{
+ "id": "6632737540318502491",
+ "group": "finalist",
+ "title": "TOKYO WATER SOMMELIER AI 東京の水で、いちばんおいしい一杯を。",
+ "demo_url": "https://tokyo-water-sommelier.tokyo-odh-200.workers.dev",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632737540318502491.png",
+ "status": "動く",
+ "form": "Webアプリ",
+ "clear_in_5s": "はい：「東京の水で、いちばんおいしい一杯を。」＋住所選択",
+ "n_features": 2,
+ "gen_ai": "画面上は不明",
+ "map_viz": "なし",
+ "maturity": "実用レベル",
+ "note": "5 言語対応。入力 3 つだけ"
+}

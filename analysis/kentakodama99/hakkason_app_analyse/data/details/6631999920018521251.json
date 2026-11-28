@@ -1,0 +1,31 @@
+{
+ "id": "6631999920018521251",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631999920018521251/?year=2026",
+ "fetched_at": "2026-11-20T15:36:39+00:00",
+ "title": "人生ボトルシップ",
+ "team": "yoshi.",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自治体の補助制度情報で人生のロードマップを具体化し同じ未来を見ている人と縁を結ぶマッチングサービス。出会いを求める人は多いが婚姻率上昇につながらず、生活を左右する価値観のミスマッチが出会いの場では切り出せず何年も経ってから発覚するという課題に着目。ライフスタイル・結婚・仕事観・介護等5セグメントに答えると暮らしがガラス瓶の情景として組み上がり、東京都と区市町村のオープンデータでその暮らしが成立するか検算し住むのに向いた地区と使える支援制度を提示する。マッチングは「一致度×受容度」で測る。Pythonでデータ取得・正規化を行いHTML/CSS/JavaScriptでプロトタイプを実装した。",
+ "open_data_items": [
+  {
+   "name": "全４１データと膨大な種類を利用したのでここでは省略します",
+   "url": "https://catalog.data.metro.tokyo.lg.jp"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://yoshidotfun.github.io/jinsei/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yoshidotfun.github.io/jinsei/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2825",
+ "image_count": 3,
+ "notes": ""
+}

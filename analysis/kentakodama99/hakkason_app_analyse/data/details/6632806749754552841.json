@@ -1,0 +1,41 @@
+{
+ "id": "6632806749754552841",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806749754552841/?year=2026",
+ "fetched_at": "2026-11-20T15:43:57+00:00",
+ "title": "保育園相談ナビ",
+ "team": "Soitto",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "区・子どもの年齢・相談内容を選ぶと、認可保育園の空き状況を表示するWebサービス。オープンデータの「更新日」が複数あり、カタログ上4月26日更新でも中身は8月17日現在だったなど、古い情報を「最新」と誤認しかねないという課題に対応。カタログ更新日・CSV内の日付・確認日を分けて表示し、鮮度に応じて通常表示から公式確認のみへ案内を切り替える。プログラムが事実・日付・案内範囲を確定し、生成AIは個別状況をその範囲内で整理するのみで、公開空き数を入園可能性へ読み替えないよう配慮している。GitHub Actionsで日次取得しTypeScriptで鮮度判定を行う構成。",
+ "open_data_items": [
+  {
+   "name": "区立・私立保育園空き状況",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000001/resource/236ca376-d7ca-48d1-b7c9-76b42b29b2bc"
+  },
+  {
+   "name": "令和7年4月入所1次利用調整における入所者最低指数",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000001/resource/3788ae21-2308-4e86-bfc4-510e9c503b2b"
+  },
+  {
+   "name": "港区内認可保育園等一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000001/resource/a38692db-3d12-46b3-b1af-78e085d4b885"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000001/resource/236ca376-d7ca-48d1-b7c9-76b42b29b2bc",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000001/resource/3788ae21-2308-4e86-bfc4-510e9c503b2b",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000001/resource/a38692db-3d12-46b3-b1af-78e085d4b885"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://hoiku-navi.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://hoiku-navi.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=757",
+ "image_count": 3,
+ "notes": ""
+}

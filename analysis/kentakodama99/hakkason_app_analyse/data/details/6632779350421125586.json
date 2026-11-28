@@ -1,0 +1,42 @@
+{
+ "id": "6632779350421125586",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632779350421125586/?year=2026",
+ "fetched_at": "2026-11-20T15:41:28+00:00",
+ "title": "よりみちさんぽ",
+ "team": "あにけん生成AI部",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「よりみちさんぽ」は、現在地や地名検索から出発地を決め、空き時間に合う周回散歩ルートを提案するスマホ向けWebアプリ。既存の案内は固定コース中心で「今いる場所から30分だけ歩きたい」といった日常の使い方に合わず、公式データが回遊につながっていないという課題に対応。公式ウォーキングコースを優先しつつオープンデータのスポットや水辺を寄り道として加え、階段回避や現在地追従、複数案の比較にも対応する。HTML/CSS/JavaScriptとLeafletで軽量に実装し、ルート算出自体は生成AIに依存させず、架空のルート案内のリスクを排除している。",
+ "open_data_items": [
+  {
+   "name": "TOKYO WALKING MAP（東京都保健医療局、公式ウォーキングコース）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "Wikipedia日本語版 / Wikimedia Commons（任意の写真・説明補完）",
+   "url": "https://ja.wikipedia.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/copyright",
+  "https://ja.wikipedia.org/"
+ ],
+ "demo_url": "https://sanpo.tokyo-odh-426.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sanpo.tokyo-odh-426.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1393",
+ "image_count": 3,
+ "notes": ""
+}

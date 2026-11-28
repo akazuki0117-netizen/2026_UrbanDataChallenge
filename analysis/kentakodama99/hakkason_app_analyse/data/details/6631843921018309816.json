@@ -1,0 +1,61 @@
+{
+ "id": "6631843921018309816",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631843921018309816/?year=2026",
+ "fetched_at": "2026-11-20T15:35:58+00:00",
+ "title": "ヤタガラス",
+ "team": "DD",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "住所を入れると2秒でわが家に合わせた防災計画が分かるPWA。首都直下地震が起きたらどこへ行けばよいか即答できる都民は多くなく、特に木密地域に暮らす要配慮者ほど自分が避難所に入れるか分からないという課題が最も重くのしかかる。東京都オープンデータ7種を統合し町丁目単位で建物倒壊・火災・総合の危険度を表示、家族構成を登録すると避難場所から生活避難所、福祉避難所、災害拠点病院までを1枚のカードにまとめ持ち出し品リストも生成する。判定は端末内で完結し住所や家族構成を外部送信しない設計。ほぼ全工程でClaude Codeを使い、AIの出力は公式資料と必ず照合し裏を取ることを重視した。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査 地域危険度一覧（第9回・令和4年9月公表）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "東京消防庁 消火栓及び防火水槽等（公設消火栓情報）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000007"
+  },
+  {
+   "name": "浸水予想区域図（洪水・内水）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "津波浸水分布（令和4年度首都直下地震等による東京の被害想定結果）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/9b0b7ada-9273-4395-a019-b1833101e677"
+  },
+  {
+   "name": "高潮浸水想定区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/483b4d88-bdbd-4c4f-9959-e55770addd50"
+  },
+  {
+   "name": "東京都の災害拠点病院等（拠点病院・連携病院リスト）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000357"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/9b0b7ada-9273-4395-a019-b1833101e677",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/483b4d88-bdbd-4c4f-9959-e55770addd50",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000357"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://yata-guide.pages.dev/",
+ "submission_items": [
+  {
+   "name": "",
+   "url": "https://yata-guide.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1657",
+ "image_count": 3,
+ "notes": ""
+}

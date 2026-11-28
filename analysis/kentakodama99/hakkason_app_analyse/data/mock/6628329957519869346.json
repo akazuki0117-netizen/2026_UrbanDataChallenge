@@ -1,0 +1,17 @@
+{
+ "id": "6628329957519869346",
+ "group": "finalist",
+ "title": "さんぽの一歩",
+ "demo_url": "https://togire.pages.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6628329957519869346.png",
+ "status": "動く",
+ "form": "Webアプリ（スマホ向け）",
+ "clear_in_5s": "はい：「今日は、どこまで行こう。体調に合わせて…」",
+ "n_features": 3,
+ "gen_ai": "なし",
+ "map_viz": "最初の画面には無し",
+ "maturity": "プロトタイプ",
+ "note": "ボタン 1 つに絞った最初の画面"
+}

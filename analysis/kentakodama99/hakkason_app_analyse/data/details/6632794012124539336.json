@@ -1,0 +1,47 @@
+{
+ "id": "6632794012124539336",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632794012124539336/?year=2026",
+ "fetched_at": "2026-11-20T15:42:21+00:00",
+ "title": "72hours",
+ "team": "カタリスト",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "大田区の公的オープンデータとCloudflare Workers AIを組み合わせ「今の備蓄で家族が何時間生き延びられるか」を可視化する防災アプリ。3日分の食料を備蓄できていない人は40.3%にのぼり水害・地震のリスクは町丁目単位で大きく異なるが個人には最適化が難しいという課題に対応。GPSから地域を特定し222町丁目分のオープンデータで最もリスクが高い災害シナリオを自動診断、AIカメラで撮影するだけで備蓄品を自動登録し72時間のタイムラインで残量推移と心身への影響を段階的に可視化する。不足物資はECサイトへワンタップで買い足せる設計。Cloudflare Workers・D1・Workers AIで構築し、Vision対応LLM（Llama 3.2 Vision）で食品パッケージから品名・賞味期限をJSON形式で自動抽出した。",
+ "open_data_items": [
+  {
+   "name": "浸水予想区域図（想定最大規模降雨）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査地域危険度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "土砂災害危険度情報関連データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000033"
+  },
+  {
+   "name": "大田区町丁目境界・住所データ",
+   "url": "https://nlftp.mlit.go.jp/cgi-bin/isj/dls/_download_files.cgi"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000033"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/cgi-bin/isj/dls/_download_files.cgi"
+ ],
+ "demo_url": "https://disaster-prevention-app.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://disaster-prevention-app.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3138",
+ "image_count": 3,
+ "notes": ""
+}

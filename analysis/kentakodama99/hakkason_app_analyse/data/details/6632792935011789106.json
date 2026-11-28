@@ -1,0 +1,56 @@
+{
+ "id": "6632792935011789106",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632792935011789106/?year=2026",
+ "fetched_at": "2026-11-20T15:42:13+00:00",
+ "title": "イマノウチ・ヨリミチ",
+ "team": "SMOOTH WORLD",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "平時にしか使われない防災アプリの限界を、LINEミニアプリ上の「デュアルモード」体験で解決するサービス。行政データは施設位置等の基本情報に留まり、要配慮者に不可欠な段差やトイレ仕様等のミクロデータが不足しているという課題に対応。散歩のついでに避難所へチェックインし3択アンケートに答えるだけで、行政が持たない情報を収集。写真はAIが解析し、別利用者の確認を重ねた二段階検証で信頼性を担保する。取込時はClaude Opus 5、利用時は軽量モデルと役割分担し、有事にはプレイ記憶をもとに最適な避難先へ導く。",
+ "open_data_items": [
+  {
+   "name": "避難所一覧データ（東京都総務局）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+  },
+  {
+   "name": "AED設置場所（港区）",
+   "url": "https://opendata.city.minato.tokyo.jp/dataset/a67952bc-b318-4ab4-a797-187607c4ecf4/resource/3ccd1270-9ea7-481b-a97a-19ca80d22d05/download/minato_aed.json"
+  },
+  {
+   "name": "Tokyo Water Drinking Station（東京都水道局）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R8/tokyowaterdrinkingstation_260227.csv"
+  },
+  {
+   "name": "公衆便所一覧（千代田区）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/chiyoda/131016_13public_toilet.csv"
+  },
+  {
+   "name": "国勢調査 小地域（町丁・字等別）境界データ（政府統計の総合窓口 e-Stat）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?type=2"
+  },
+  {
+   "name": "ハザードマップポータルサイト 洪水浸水想定区域・高潮浸水想定区域（国土交通省）",
+   "url": "https://disaportal.gsi.go.jp/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv",
+  "https://opendata.city.minato.tokyo.jp/dataset/a67952bc-b318-4ab4-a797-187607c4ecf4/resource/3ccd1270-9ea7-481b-a97a-19ca80d22d05/download/minato_aed.json",
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R8/tokyowaterdrinkingstation_260227.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/chiyoda/131016_13public_toilet.csv",
+  "https://www.e-stat.go.jp/gis/statmap-search?type=2",
+  "https://disaportal.gsi.go.jp/"
+ ],
+ "demo_url": "https://lcdp002.enebular.com/imanouchi/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://lcdp002.enebular.com/imanouchi/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=10",
+ "image_count": 3,
+ "notes": ""
+}

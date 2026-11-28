@@ -1,0 +1,62 @@
+{
+ "id": "6631176061228706857",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631176061228706857/?year=2026",
+ "fetched_at": "2026-11-20T15:35:16+00:00",
+ "title": "Tokyo Guide Match",
+ "team": "codist",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "訪日外国人と都民をマッチングするWebアプリ。ガイド側に語学力を求めず双方向翻訳で日本語のまま案内でき、訪日客の満足度調査で下位項目のほとんどが外国語コミュニケーションや情報提供という課題に対応（最下位41.1%）。都内非正規労働者231.6万人の6割が年収200万円未満という収入面の課題にも対応し、語学力不要で案内する側に回れることで収入機会を作る。東京都オープンデータカタログ471件を取り込みリクエストの文からAIが11条件を判定して候補を出し、案内後は旅行者がチップを送れる。CloudflareのPages/Workers/D1/Durable Objectsで完結させ、Workers AI（gpt-oss-20b/120b）で候補選定と翻訳を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都内の飲食店のバリアフリー情報（東京都産業労働局／CC BY・210件／11条件で絞り込み、会話に貼付）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063"
+  },
+  {
+   "name": "ムスリムの文化に関する情報（港区／CC BY・飲食店27件＋礼拝所7件／同上）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000035"
+  },
+  {
+   "name": "公衆トイレ一覧（中央区／CC BY・83件／同上）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000036"
+  },
+  {
+   "name": "新宿区の公衆トイレ一覧（新宿区／CC BY・144件／同上）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123"
+  },
+  {
+   "name": "東京ビッグサイトのイベント情報（株式会社東京ビッグサイト／CC BY・120件／お知らせの自動掲示に使用）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t001001d0000000001"
+  },
+  {
+   "name": "国・地域別外国人旅行者行動特性調査（東京都産業労働局／CC BY・課題設定の根拠。満足度12項目の最下位＝外国語でのコミュニケーション41.1%）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+  },
+  {
+   "name": "都民の就業構造（令和4年就業構造基本調査 東京都分／東京都総務局統計部／課題設定の根拠。非正規の61.5%が年収200万円未満・追加就業希望者84.9万人）",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/syugyouk/2022/sk22tf0000.pdf"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000035",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000036",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t001001d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+ ],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/syugyouk/2022/sk22tf0000.pdf"
+ ],
+ "demo_url": "https://tokyo-guide-match.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-guide-match.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=2373",
+ "image_count": 3,
+ "notes": ""
+}

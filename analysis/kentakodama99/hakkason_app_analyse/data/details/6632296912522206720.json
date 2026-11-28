@@ -1,0 +1,66 @@
+{
+ "id": "6632296912522206720",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632296912522206720/?year=2026",
+ "fetched_at": "2026-11-20T15:37:36+00:00",
+ "title": "マチマド",
+ "team": "稲福　龍之",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "役所の窓口で相談する代わりになるサービス「街の窓口 マチマド」。子育て支援や助成・手当は自治体ごとに制度が分かれ名称や条件も異なるため「自分が何を利用できるのか」が分かりにくいという課題に対応。相談内容をAIが解析し居住自治体・家族構成に応じたオープンデータ・公式情報から支援制度を整理して提示、制度概要・対象条件・支援額の目安・公式情報への導線を1画面で確認できる。役所窓口を置き換えず相談前の情報整理をAIが支援する位置づけ。Next.js/TypeScriptとJava/Spring Bootで構築し、開発ではPM・実装・レビュー・QAをAI Agent化した。",
+ "open_data_items": [
+  {
+   "name": "子育て施設一覧（保育園）",
+   "url": "https://www.city.kiyose.lg.jp/opendata/opendata/opendataichiran/1001604.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "清瀬市オープンデータ一覧",
+   "url": "https://www.city.kiyose.lg.jp/opendata/opendata/opendataichiran/index.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "転入（市外から引っ越してきたとき）",
+   "url": "https://www.city.kiyose.lg.jp/kurashi/todoke_shoumei/1003476/1003478.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "児童手当",
+   "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/jidouteate/index.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "子どもの医療費助成",
+   "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/1005266/index.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "保育園等の入園案内",
+   "url": "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/hoikuen/1016325.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "各種変更手続き・転入学関連",
+   "url": "https://www.city.kiyose.lg.jp/kurashi/todoke_shoumei/1003476/1003484.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "018サポート",
+   "url": "https://018support.metro.tokyo.lg.jp/?utm_source=chatgpt.com"
+  },
+  {
+   "name": "児童手当制度のご案内",
+   "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai/?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.kiyose.lg.jp/opendata/opendata/opendataichiran/1001604.html?utm_source=chatgpt.com",
+  "https://www.city.kiyose.lg.jp/opendata/opendata/opendataichiran/index.html?utm_source=chatgpt.com",
+  "https://www.city.kiyose.lg.jp/kurashi/todoke_shoumei/1003476/1003478.html?utm_source=chatgpt.com",
+  "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/jidouteate/index.html?utm_source=chatgpt.com",
+  "https://www.city.kiyose.lg.jp/kosodatekyouiku/kosodatehojo/jidouhojo/1005266/index.html?utm_source=chatgpt.com",
+  "https://www.city.kiyose.lg.jp/kosodatekyouiku/hoikusyoyouchien/hoikuen/1016325.html?utm_source=chatgpt.com",
+  "https://www.city.kiyose.lg.jp/kurashi/todoke_shoumei/1003476/1003484.html?utm_source=chatgpt.com",
+  "https://018support.metro.tokyo.lg.jp/?utm_source=chatgpt.com",
+  "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai/?utm_source=chatgpt.com"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1585",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

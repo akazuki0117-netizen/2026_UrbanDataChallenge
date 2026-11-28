@@ -1,0 +1,24 @@
+{
+ "id": "6632812183057738171",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812183057738171/?year=2026",
+ "fetched_at": "2026-11-20T15:46:06+00:00",
+ "title": "街予報",
+ "team": "街予報",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「街予報」は、予定・時刻・同行人数・人混みの苦手さを普段の言葉で入力すると周辺イベントの人流影響を照合し「何時にどの道で動くか」を一案で返す都市行動エージェント。地図サービスは最短・最安経路には強くても土地勘のない人が周辺イベント終了後の人流まで読んで予定を調整するのは難しいという実体験の課題に対応。予定を生成AIで構造化しイベント時刻・歩行網・公共交通経路を時空間で重ね、影響の少ない出発時刻・経路を根拠と不確実性とともに提案する。不足データは0扱いせず仮定・未較正を画面上で区別する誠実な設計。TypeScript、React、ViteとCloudflare Workers/Honoで構築し、Workers AIのLlama 3.1 8Bで自然文予定をJSON化した。",
+ "open_data_items": [],
+ "open_data_urls": [],
+ "external_data_urls": [],
+ "demo_url": "https://machi-yohou.taiki-msw.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://machi-yohou.taiki-msw.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4947",
+ "image_count": 3,
+ "notes": "利用データ URL なし"
+}

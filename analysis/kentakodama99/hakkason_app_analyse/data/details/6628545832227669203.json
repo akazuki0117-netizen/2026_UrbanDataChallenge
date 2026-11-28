@@ -1,0 +1,31 @@
+{
+ "id": "6628545832227669203",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628545832227669203/?year=2026",
+ "fetched_at": "2026-11-20T15:33:32+00:00",
+ "title": "ペット同行避難サポート",
+ "team": "honey",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "災害時に飼い主とペットが安全に避難できるよう日頃の備えを支援するサービス。飼い主は避難所の受け入れ可否や条件を事前に確認できず避難計画を立てにくく、自治体ごとに公開情報の項目や詳しさに差があるという課題に対応。5問のクイズで同行避難の基礎知識や必要な備えを学び、避難所確認フォームで所在地・受け入れ可否・飼養場所などを整理、家族で共有して避難行動計画の作成につなげる。将来的には登録情報をQRコードで避難所と共有しペーパーレス化を目指す。Reactで初挑戦しながら構築し、Microsoft Copilotで初期プロトタイプを作成後、生成AIでは処理しきれない箇所は手作業で調整した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所一覧データ",
+   "url": "ps://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "ps://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+ ],
+ "demo_url": "https://evawithpet.tokyo-odh-335.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://evawithpet.tokyo-odh-335.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4202",
+ "image_count": 1,
+ "notes": ""
+}

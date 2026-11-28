@@ -1,0 +1,41 @@
+{
+ "id": "6630375627129513340",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630375627129513340/?year=2026",
+ "fetched_at": "2026-11-20T15:34:23+00:00",
+ "title": "Tokyo育児なび（月齢特化型パーソナライズ育児支援プラットフォーム）",
+ "team": "kurihara",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "子育て世代の情報探しの負担をゼロにする月齢特化型アプリ。乳幼児期の保護者は育児と寝不足に追われ複雑な行政手続きや地域イベントを調べる時間的余裕がなく、情報が分散し月齢に今必要な情報にたどり着くのが困難という課題に対応。子どもの月齢を設定するだけで行政手続きや健診、地域の育児教室をタイムラインに自動ピックアップし、先輩パパママのコツや民間イベント情報も可視化する。ノーコードのGlideとGoogle Sheetsで爆速プロトタイピングし、Geminiを企画立案からデータ設計まで全工程で活用した。",
+ "open_data_items": [
+  {
+   "name": "子育て支援施設・小児科医療機関データ（位置・施設情報）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "行政手続き・助成金申請・乳幼児健診データ（対象時期・必要書類）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "地域育児イベント・教室案内データ（開催日時・対象月齢）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t131237"
+  },
+  {
+   "name": "赤ちゃんの駅・子育て関連施設データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t131237"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t131237",
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t131237"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1089",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

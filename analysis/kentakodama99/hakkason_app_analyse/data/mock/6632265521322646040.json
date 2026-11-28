@@ -1,0 +1,17 @@
+{
+ "id": "6632265521322646040",
+ "group": "finalist",
+ "title": "たぶんかコンパス",
+ "demo_url": "https://review-sknehl.tokyo-odh-193.workers.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632265521322646040.png",
+ "status": "動く",
+ "form": "地図アプリ",
+ "clear_in_5s": "はい：カテゴリのタブ＋絞り込み＋地図で一覧",
+ "n_features": 5,
+ "gen_ai": "あり（チャット検索）",
+ "map_viz": "あり",
+ "maturity": "実用レベル",
+ "note": "353 件の実データ、3 言語、出典・データ更新日を明記"
+}

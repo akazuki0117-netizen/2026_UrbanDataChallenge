@@ -4,11 +4,12 @@
 
 | フォルダ | 担当 | 内容 |
 |---|---|---|
-| [`akimoto/`](akimoto/README.md) | 秋元 | |
-| [`kawamura/`](kawamura/README.md) | 河村 | |
-| [`kodama/`](kodama/README.md) | 兒玉 | |
-| [`tamazawa/`](tamazawa/README.md) | 玉澤 | |
-| [`kanakubo/`](kanakubo/README.md) | 金久保 | |
+| [`kazy/`](kazy/README.md) | akazuki0117-netizen | [課題一覧（若者と政治教育）](kazy/課題一覧_若者と政治教育.md) |
+| [`k-masahiro116/`](k-masahiro116/README.md) | k-masahiro116 | |
+| [`kentakodama99/`](kentakodama99/README.md) | kentakodama99 | |
+| [`tmzwx4a-hub/`](tmzwx4a-hub/README.md) | tmzwx4a-hub | |
+| [`yk2b0yuka-blip/`](yk2b0yuka-blip/README.md) | yk2b0yuka-blip | |
+| [`Maci-as/`](Maci-as/README.md) | Maci-as | データ作成・データ整備・データ分析 |
 
 ## カテゴリー別インデックス
 

@@ -1,0 +1,77 @@
+{
+ "id": "6627022870027486713",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627022870027486713/?year=2026",
+ "fetched_at": "2026-11-20T15:32:59+00:00",
+ "title": "TOKYO OPEN DATA COMPASS",
+ "team": "全員欠席",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京オープンデータコンパス」は、都民とオープンデータを会話と地図でつなぐAIサービスの第1フェーズ。都民一人ひとりの課題は千差万別で、少数の意見に基づくテーマ設定では個々の課題に届くオープンデータの価値が伝わらないという課題意識から出発。音声・文字で23区の地図、避難所、浸水想定、防災情報、気象、交通、河川カメラ、東京の歴史などを表示・説明し、GPSによる現在地表示やオープンデータカタログ検索からの一時地図化、匿名意見収集にも対応する。防災という共通課題を入口にオープンデータへの理解を広げ、将来的には都民一人ひとりに最適化したAI「TOKI」への発展を構想する。ReactとMapLibre GL、Three.jsで構築し、Cloudflare Workers AIのGLM-4.7-flashとGPT-OSS-120Bを役割分担して使用した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログサイト",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "3D都市モデル PLATEAU・東京都23区CityGML（国土交通省）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-citygml-2020"
+  },
+  {
+   "name": "鉄道運行情報、都営地下鉄列車位置、都営バスGTFS-Realtime、羽田空港発着情報（公共交通オープンデータ協議会・東京都交通局・航空事業者）",
+   "url": "https://www.odpt.org/"
+  },
+  {
+   "name": "東京都防災マップ「避難所・避難場所一覧」（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "浸水予想区域図・浸水深データ（東京都建設局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査（東京都都市整備局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "河川監視カメラ位置情報（東京都建設局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000028"
+  },
+  {
+   "name": "給水拠点一覧（東京都水道局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "河川水位観測情報（東京都水防災総合情報システム）",
+   "url": "https://www.kasen-suibo.metro.tokyo.lg.jp/im/uryosuii/tsim0102g.html"
+  },
+  {
+   "name": "東京都防災ホームページ新着情報RSS・避難情報（東京都総務局）",
+   "url": "https://www.bousai.metro.tokyo.lg.jp/ev/pc/tlist.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-citygml-2020",
+  "https://www.odpt.org/",
+  "https://www.kasen-suibo.metro.tokyo.lg.jp/im/uryosuii/tsim0102g.html",
+  "https://www.bousai.metro.tokyo.lg.jp/ev/pc/tlist.html"
+ ],
+ "demo_url": "https://tokyo-converge.tokyo-converge-worker.workers.dev/?ui=v2",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-converge.tokyo-converge-worker.workers.dev/?ui=v2"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=605",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,47 @@
+{
+ "id": "6632803899811588979",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632803899811588979/?year=2026",
+ "fetched_at": "2026-11-20T15:43:19+00:00",
+ "title": "Resilience Quest",
+ "team": "Team-DF",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Resilience Quest」は、スマホのセンサーとオープンデータで「今ここで被災したら」を体感させるリアルタイム防災シミュレーター。新宿歌舞伎町ビル火災では階段の煙による一酸化炭素中毒で44名が犠牲になり「知識としての防災」と「いざという時に体が動くか」の乖離が課題という課題に対応。地震火災・津波等6シナリオを加速度センサー連動の姿勢操作、心拍ハプティクス、環境音、視界狭窄で体験しスタミナと血中CO濃度を1秒ごとに演算、実在避難所2,252件から最寄りを表示しGPSチェックインで防災ポイントが貯まる。恐怖→納得→日常の行動というループを設計。Flutter（Dart）でセンサー・GPS・ハプティクスを統合し、Claude Code（Opus/Fable）とAntigravity、opencodeを併用し「本番想定・ダミーデータ禁止」の方針を徹底した。",
+ "open_data_items": [
+  {
+   "name": "東京都避難所・避難場所データ（東京都オープンデータカタログサイト）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "内閣府「災害教訓の継承に関する専門調査会」報告書",
+   "url": "https://www.bousai.go.jp/kyoiku/kyokun/kyoukunnokeishou/index.html"
+  },
+  {
+   "name": "気象庁「災害をもたらした気象事例」",
+   "url": "https://www.data.jma.go.jp/stats/data/bosai/report/index_1989.html"
+  },
+  {
+   "name": "東京消防庁「火災の実態」",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/hp-kouhouka/pdf/kasaijittai.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://www.bousai.go.jp/kyoiku/kyokun/kyoukunnokeishou/index.html",
+  "https://www.data.jma.go.jp/stats/data/bosai/report/index_1989.html",
+  "https://www.tfd.metro.tokyo.lg.jp/hp-kouhouka/pdf/kasaijittai.html"
+ ],
+ "demo_url": "https://62605ef5.resilience-quest.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://62605ef5.resilience-quest.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4878",
+ "image_count": 3,
+ "notes": ""
+}

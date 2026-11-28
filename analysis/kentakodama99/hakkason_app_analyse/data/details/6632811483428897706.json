@@ -1,0 +1,76 @@
+{
+ "id": "6632811483428897706",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811483428897706/?year=2026",
+ "fetched_at": "2026-11-20T15:45:39+00:00",
+ "title": "公助整理券",
+ "team": "公助整理券",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "住所を入れると町丁目に公助が回ってくる順番の遠さを「整理券番号」（都内5,192町丁目の相対順位）として返すWebサービス。住民が受け取るのは「ランク5です」というどの街でも変わらない言葉になりがちで、需要側と供給側（消防署所・避難場所収容力）を突き合わせた形は見当たらなかったという課題に対応。番号は危険度・到達困難・収容不足・希釈の4つの内訳順位から合成しどのデータかを1行ずつ添える。世帯構成を選ぶと備蓄必要量が都の推奨値から算出され「東京備蓄ナビ」へつながり、行政向けには同じ順位を裏返した「先に手当てすべき街」も提供する。予測モデルは作らず順位と収容率のみを出す設計。Cloudflare（Workers/D1/R2）で構築し、Claude Codeでオープンデータの所在調査等を並列エージェントで行った。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）地域危険度一覧 | 東京都都市整備局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "建物被害・人的被害（令和4年度首都直下型地震等による東京の被害想定結果） | 東京都総務局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393"
+  },
+  {
+   "name": "交通インフラ・ライフライン・生活への影響（令和4年度首都直下型地震等による東京の被害想定結果） | 東京都総務局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000391"
+  },
+  {
+   "name": "震災時火災における避難場所等の一覧（第9回） | 東京都都市整備局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000013"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ | 東京都総務局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "東京消防庁 本部及び消防署所在一覧 | 東京消防庁",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000001"
+  },
+  {
+   "name": "第77回 東京消防庁統計書（令和6年） | 東京消防庁",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000070"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）令和8年1月 | 東京都総務局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115"
+  },
+  {
+   "name": "東京都の災害拠点病院等 | 東京都保健医療局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000357"
+  },
+  {
+   "name": "給水拠点一覧データ | 東京都水道局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000391",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000013",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000070",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000357",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://kojo-seiriken-web.kojo-api.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kojo-seiriken-web.kojo-api.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=869",
+ "image_count": 3,
+ "notes": ""
+}

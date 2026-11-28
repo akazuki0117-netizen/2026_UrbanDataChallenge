@@ -1,0 +1,37 @@
+{
+ "id": "6632671799381934597",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632671799381934597/?year=2026",
+ "fetched_at": "2026-11-20T15:38:38+00:00",
+ "title": "サギのカギ",
+ "team": "チーム鍵っ子",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "家の扉から次々と現れる詐欺師を会話の中からキーワードを3つ見つけて撃退する体験型の防犯シミュレーションゲーム。東京都の特殊詐欺被害は令和元年から6年で認知件数が約3倍、被害総額が約10倍に膨らみ新しい手口が生まれ続けているという課題に対応。「騙る」「急かす」等の手口を実際の会話形式で見抜く練習ができ、撃退した手口は「サギのカギ辞典」に記録され振り返って学べる。失敗しても何度でも挑戦できる設計で恐怖心ではなく達成感で学ぶ。React（JSX）でビルド不要にし、Claude Chat・Claude Codeで壁打ちから実装、ドット絵素材の合成、デプロイまで一貫して進めた。",
+ "open_data_items": [
+  {
+   "name": "犯罪発生情報（メールけいしちょうオープンデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000033"
+  },
+  {
+   "name": "警視庁-特殊詐欺の認知・検挙状況等について",
+   "url": "https://www.npa.go.jp/bureau/criminal/souni/tokusyusagi/hurikomesagi_toukei2026.xlsx"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000033"
+ ],
+ "external_data_urls": [
+  "https://www.npa.go.jp/bureau/criminal/souni/tokusyusagi/hurikomesagi_toukei2026.xlsx"
+ ],
+ "demo_url": "https://sagi-yohou-game.game-prototype.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sagi-yohou-game.game-prototype.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2269",
+ "image_count": 1,
+ "notes": ""
+}

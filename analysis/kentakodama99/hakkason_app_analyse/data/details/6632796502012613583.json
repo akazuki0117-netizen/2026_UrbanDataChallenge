@@ -1,0 +1,46 @@
+{
+ "id": "6632796502012613583",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632796502012613583/?year=2026",
+ "fetched_at": "2026-11-20T15:42:32+00:00",
+ "title": "税金はどこへ行った？",
+ "team": "同級生",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都62市区町村の財政を自分の税金として読めるWebサービス。財政データは公開されているが探すコストと読み解くコストが高すぎ、英国発の同種サービスも日本版も更新が10年以上止まっているという課題に対応。自治体・年収・扶養人数を入力すると納めた住民税が何にいくら使われたかを表示、大項目10・小項目39すべてに使い道の解説を用意し自治体担当者の決算説明文をAIで要約し費目ごとに理由を示す。生成AIチャットは実データ取得ツールのみ与え推測を禁じ参照元と年度を必ず提示する。CSVから静的JSONを生成しDB不要の運用とし、Amazon BedrockのClaude Haiku 4.5を対話に、担当者コメント要約に別モデルを使い分けた。",
+ "open_data_items": [
+  {
+   "name": "Japan Dashboard 地方財政(市町村ごと)",
+   "url": "https://www.digital.go.jp/resources/japandashboard/municipal-finance"
+  },
+  {
+   "name": "東京都 市区町村境界(TopoJSON)",
+   "url": "https://github.com/smartnews-smri/japan-topography"
+  },
+  {
+   "name": "地方財政状況調査",
+   "url": "https://www.soumu.go.jp/iken/kessan_jokyo_2.html"
+  },
+  {
+   "name": "国土数値情報 行政区域データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.digital.go.jp/resources/japandashboard/municipal-finance",
+  "https://github.com/smartnews-smri/japan-topography",
+  "https://www.soumu.go.jp/iken/kessan_jokyo_2.html",
+  "https://nlftp.mlit.go.jp/ksj/"
+ ],
+ "demo_url": "https://tokyo.spending.achroma.co.jp",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo.spending.achroma.co.jp"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=1489",
+ "image_count": 3,
+ "notes": ""
+}

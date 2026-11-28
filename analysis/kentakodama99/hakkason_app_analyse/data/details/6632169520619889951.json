@@ -1,0 +1,57 @@
+{
+ "id": "6632169520619889951",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632169520619889951/?year=2026",
+ "fetched_at": "2026-11-20T15:37:11+00:00",
+ "title": "東京おでかけコンパス",
+ "team": "BLUE WALKER",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都営交通が0円になるパスや一日乗車券・入場券8種を持っている本人が使える範囲を分からないという課題に対応するサービス。窓口でもその日どこへ行けるかは範囲の説明で終わり、乗換案内は行き先を決めた人の道具で行き先を探す道具がないという課題に着目。持っているパスを選ぶだけでその日行ける場所を地図と一覧で返し、運賃・所要時間・0円か入場料だけかを色と記号で区別、行き先を3つまで選ぶと1日の行程を組める。パスがなければいくらかかるかも示す。Cloudflare Workers 1つで画面もAPIも配信し、Workers AIの埋め込みモデルと生成モデルで話し言葉での絞り込みや行程見直しを行っている。",
+ "open_data_items": [
+  {
+   "name": "シェアサイクルの空き（GBFS）",
+   "url": "https://api-public.odpt.org/api/v4/gbfs/hellocycling/gbfs.json"
+  },
+  {
+   "name": "公共施設一覧（28自治体）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/（CKAN API /api/3/action/package_search"
+  },
+  {
+   "name": "自転車走行空間について（自転車推奨ルート）https://catalog.data.metro.tokyo.lg.jp/（",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/（"
+  },
+  {
+   "name": "有料公園・施設の入園料",
+   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/yuryou"
+  },
+  {
+   "name": "無料入園日のお知らせ",
+   "url": "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/muryounyuuen"
+  },
+  {
+   "name": "東京都シルバーパスの発行・負担額",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kourei/shakai_shien/s_pass/hakkou"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/（CKAN API /api/3/action/package_search",
+  "https://catalog.data.metro.tokyo.lg.jp/（"
+ ],
+ "external_data_urls": [
+  "https://api-public.odpt.org/api/v4/gbfs/hellocycling/gbfs.json",
+  "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/yuryou",
+  "https://www.kensetsu.metro.tokyo.lg.jp/park/kouenannai/muryounyuuen",
+  "https://www.fukushi.metro.tokyo.lg.jp/kourei/shakai_shien/s_pass/hakkou"
+ ],
+ "demo_url": "https://bluewalker.tokyo-odh-242.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://bluewalker.tokyo-odh-242.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1149",
+ "image_count": 3,
+ "notes": ""
+}

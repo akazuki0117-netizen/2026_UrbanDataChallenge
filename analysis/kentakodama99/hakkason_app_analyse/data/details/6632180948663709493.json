@@ -1,0 +1,47 @@
+{
+ "id": "6632180948663709493",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632180948663709493/?year=2026",
+ "fetched_at": "2026-11-20T15:37:13+00:00",
+ "title": "MACHIMORI -街守-",
+ "team": "smile",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "宝の持ち腐れ状態のオープンデータを集め都市の異常を検知・通知するダッシュボード。開発者はNISCで国家インフラ防衛に携わった経験からサイバー空間は自動防衛化が進む一方物理空間の防衛は手動・アナログに依存しているというギャップに着目し、東京都のオープンデータが機関ごとに分断され宝の持ち腐れになっているという課題に対応。AIを「分析装置」ではなく「次にインフラをどう動かすか考える現場監督」として活用し「アンダーパス冠水」ならドローン出動を画面上で指示するシミュレーションを行う。色は3色・文字は2サイズのみのシンプルなUIで子供から高齢者まで直感的に伝わる設計。HTML5/CSS/Vanilla JSの軽量構成とし、GeminiProを複雑な仕様書を読み込ませた高度な思考パートナーとして活用した。",
+ "open_data_items": [
+  {
+   "name": "警視庁（東京都オープンデータカタログサイト） / 犯罪発生状況・重点取締場所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t000022"
+  },
+  {
+   "name": "国土交通省（G空間情報センター） / PLATEAU 3D都市モデル新宿区",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13104-shinjuku-ku-2023"
+  },
+  {
+   "name": "東京消防庁（東京都オープンデータカタログサイト） / 救急搬送データ等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t000017"
+  },
+  {
+   "name": "東京都交通局（公共交通オープンデータセンター） / 都営バス・地下鉄オープンデータ（ODPT）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t000022",
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-13104-shinjuku-ku-2023"
+ ],
+ "demo_url": "https://5e051fad.chian-checker.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://5e051fad.chian-checker.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3209",
+ "image_count": 3,
+ "notes": ""
+}

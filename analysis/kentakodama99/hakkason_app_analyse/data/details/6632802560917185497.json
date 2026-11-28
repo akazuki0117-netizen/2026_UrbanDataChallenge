@@ -1,0 +1,51 @@
+{
+ "id": "6632802560917185497",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632802560917185497/?year=2026",
+ "fetched_at": "2026-11-20T15:43:06+00:00",
+ "title": "Yorimi",
+ "team": "Nexus",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Yorimi」は、日常の予定や地域イベントをきっかけに近くの人と一緒に行動できる地域コミュニティサービス。単身者は近くの活動に興味があっても誰が参加するか分からず参加をためらい、同じ興味を持つ人がいても知るきっかけが少ないという課題に対応。散歩や運動などの活動、時間帯、活動エリア、興味・共通点をもとに同行相手を提案し、自治体のオープンデータを活用して双方が行きやすい公園や図書館などの場所も提案する。地域イベントのオープンデータも取り込み、近くの活動や参加予定者を確認できる。Next.js 16とSupabaseで構築し、OpenAI Codexで推薦・マッチングロジックの矛盾や境界ケースの確認に活用した。",
+ "open_data_items": [
+  {
+   "name": "江戸川区イベントカレンダー",
+   "url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi"
+  },
+  {
+   "name": "江戸川区スポーツ施設一覧",
+   "url": "https://www.city.edogawa.tokyo.jp/documents/4408/20251211_sports.csv"
+  },
+  {
+   "name": "江戸川区図書館一覧",
+   "url": "https://www.city.edogawa.tokyo.jp/documents/4408/20251121_library.csv"
+  },
+  {
+   "name": "江戸川区公園一覧",
+   "url": "https://www.city.edogawa.tokyo.jp/documents/4408/20251211_kouen.csv"
+  },
+  {
+   "name": "江戸川区レクリエーション施設等一覧",
+   "url": "https://www.city.edogawa.tokyo.jp/documents/4408/20251211_reku.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi",
+  "https://www.city.edogawa.tokyo.jp/documents/4408/20251211_sports.csv",
+  "https://www.city.edogawa.tokyo.jp/documents/4408/20251121_library.csv",
+  "https://www.city.edogawa.tokyo.jp/documents/4408/20251211_kouen.csv",
+  "https://www.city.edogawa.tokyo.jp/documents/4408/20251211_reku.csv"
+ ],
+ "demo_url": "https://tomoni-app-oo3z.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tomoni-app-oo3z.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1257",
+ "image_count": 3,
+ "notes": ""
+}

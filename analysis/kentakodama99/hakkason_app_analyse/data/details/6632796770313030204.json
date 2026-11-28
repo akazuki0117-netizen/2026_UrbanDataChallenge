@@ -1,0 +1,61 @@
+{
+ "id": "6632796770313030204",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632796770313030204/?year=2026",
+ "fetched_at": "2026-11-20T15:42:36+00:00",
+ "title": "おわかれてびき",
+ "team": "おわかれてびき",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「おわかれてびき」は、家族を亡くした直後の人が死亡日と郵便番号を入れるだけで、必要な行政手続きの一覧と期限、窓口、国の管轄を確認できるサービス。死亡届や相続登記など手続きの期限は7日から10か月までばらばらで提出先も複数に分かれ、誰がどこまで終えたかを追う手立てがないという課題に対応（東京都の年間死亡数は14万人超で6年で17.7%増）。3つの質問で必要な手続きを絞り込み、家族の中から責任者と協力者を割り当てて期限順のカレンダーで進捗を追え、共有リンクで家族全員が同じ一覧を見られる。全手続きに出典と法令名を付け、東京都62区市町村に対応する。単一HTMLでフレームワークなしのMVPとし、仕様書からClaude CodeとCodexにSPEC駆動でコードを生成させた。",
+ "open_data_items": [
+  {
+   "name": "行政手続等の棚卸調査結果（デジタル庁）",
+   "url": "https://www.digital.go.jp/resources/procedures-survey-results"
+  },
+  {
+   "name": "郵便番号データ KEN_ALL 東京都版（日本郵便）",
+   "url": "https://www.post.japanpost.jp/zipcode/dl/kogaki-zip.html"
+  },
+  {
+   "name": "税務署の管轄区域（国税庁）",
+   "url": "https://www.nta.go.jp/about/organization/tokyo/location/besshi/chiyoda-chuo.htm"
+  },
+  {
+   "name": "年金事務所の管轄（日本年金機構）",
+   "url": "https://www.nenkin.go.jp/section/soudan/kankatsu/kankatsu_tokyo.html"
+  },
+  {
+   "name": "法務局・出張所の管轄区域（東京法務局）",
+   "url": "https://houmukyoku.moj.go.jp/tokyo/table/shikyokutou/all/hokyokutouki.html"
+  },
+  {
+   "name": "家庭裁判所の管轄（裁判所）",
+   "url": "https://www.courts.go.jp/about/sosiki/kankatu/tokyo/index.html"
+  },
+  {
+   "name": "相続税の申告事績（国税庁）",
+   "url": "https://www.nta.go.jp/information/release/kokuzeicho/2024/sozoku_shinkoku/index.htm"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.digital.go.jp/resources/procedures-survey-results",
+  "https://www.post.japanpost.jp/zipcode/dl/kogaki-zip.html",
+  "https://www.nta.go.jp/about/organization/tokyo/location/besshi/chiyoda-chuo.htm",
+  "https://www.nenkin.go.jp/section/soudan/kankatsu/kankatsu_tokyo.html",
+  "https://houmukyoku.moj.go.jp/tokyo/table/shikyokutou/all/hokyokutouki.html",
+  "https://www.courts.go.jp/about/sosiki/kankatu/tokyo/index.html",
+  "https://www.nta.go.jp/information/release/kokuzeicho/2024/sozoku_shinkoku/index.htm"
+ ],
+ "demo_url": "https://owakare-tebiki.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://owakare-tebiki.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4613",
+ "image_count": 3,
+ "notes": ""
+}

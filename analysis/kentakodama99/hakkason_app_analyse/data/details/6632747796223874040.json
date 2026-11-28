@@ -1,0 +1,72 @@
+{
+ "id": "6632747796223874040",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632747796223874040/?year=2026",
+ "fetched_at": "2026-11-20T15:40:01+00:00",
+ "title": "東京 歩道カルテ",
+ "team": "あきたねこ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都道2,186km・20,985区間を暑さ・歩きやすさ・点字ブロックの途切れの3テーマで診る「道路のカルテ」。歩道の暑さは天気予報より局所的で建物の影に左右されるが歩行空間の公的実測は都道の4.06%にとどまり95.9%は測られていないという課題に対応。現在地から最寄り区間を呼び出すと「いつ歩くと厳しいか」を1枚で返し、行政向けには直す順番の一覧と日陰を増やした場合の順位変動試算を提供する。連合学習を同梱し個人の体感は端末外へ出さず数値1個だけを送る設計で、実測・デモ・想定の区別を画面上に常に明示する。Next.js静的書き出しとCloudflare Pagesで構築し、PLATEAU建物への約50万本のレイキャストをPythonで前処理した。",
+ "open_data_items": [
+  {
+   "name": "歩行空間ネットワークデータ",
+   "url": "https://www.hokonavi.go.jp/"
+  },
+  {
+   "name": "街路樹データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "クーリングシェルター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016"
+  },
+  {
+   "name": "給水スポット",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "都立庭園",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000007"
+  },
+  {
+   "name": "墨田区 涼み処・クールスポット",
+   "url": "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/index.html"
+  },
+  {
+   "name": "N03 行政区域データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html"
+  },
+  {
+   "name": "PLATEAU 3D都市モデル",
+   "url": "https://www.mlit.go.jp/plateau/"
+  },
+  {
+   "name": "地理院タイル",
+   "url": "https://open-meteo.com/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000007"
+ ],
+ "external_data_urls": [
+  "https://www.hokonavi.go.jp/",
+  "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/index.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html",
+  "https://www.mlit.go.jp/plateau/",
+  "https://open-meteo.com/"
+ ],
+ "demo_url": "https://tokyo-odh-205.pages.dev/contents/hodou-karte/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-odh-205.pages.dev/contents/hodou-karte/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=4264",
+ "image_count": 3,
+ "notes": ""
+}

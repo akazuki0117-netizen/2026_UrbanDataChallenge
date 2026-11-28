@@ -19,3 +19,13 @@ node_modules/
 
 # Claude Code の個人設定
 .claude/settings.local.json
+
+#mcp
+.playwright-mcp
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 実名など、公開チェックで探す語の一覧（各自の手元にだけ置く）
+.private-words.txt

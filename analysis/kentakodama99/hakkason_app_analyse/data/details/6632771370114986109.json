@@ -1,0 +1,42 @@
+{
+ "id": "6632771370114986109",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632771370114986109/?year=2026",
+ "fetched_at": "2026-11-20T15:41:03+00:00",
+ "title": "水たまりゼロ東京",
+ "team": "Third N",
+ "member_count": 7,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "雨の日に靴や裾が濡れやすい地点を避けて歩ける経路を提案するWebアプリ。既存の経路案内は距離と時間しか最適化せず、水たまりのできやすい場所を教えてくれないという課題に対応。国土地理院の5mメッシュ標高から窪地や雨水の流域・傾斜を計算し、下水道局の浸水予想を重ねて危険地点を推定、危険な区間を長い道として扱うダイクストラ法で最短ルートと回避ルートを並べて表示する。対象地域内400経路の検証では72.5%で危険度が10ポイント以上下がり、遠回りは中央値1分程度に収まった。フロントはReact+TypeScript+Vite、地図はMapLibre GL JS、バックエンドはPython+FastAPI+NumPyで地形解析を実装。",
+ "open_data_items": [
+  {
+   "name": "基盤地図情報 数値標高モデル DEM5A（標高タイル）／国土地理院",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "浸水予想区域図（改定）浸水深・地盤高／東京都下水道局",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000020d0000000043"
+  },
+  {
+   "name": "OpenStreetMap（道路・施設データ）",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000020d0000000043"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://third-n.github.io/puddle/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://third-n.github.io/puddle/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=3337",
+ "image_count": 2,
+ "notes": ""
+}

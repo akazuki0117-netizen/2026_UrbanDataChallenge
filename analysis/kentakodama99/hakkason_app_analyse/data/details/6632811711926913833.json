@@ -1,0 +1,47 @@
+{
+ "id": "6632811711926913833",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811711926913833/?year=2026",
+ "fetched_at": "2026-11-20T15:45:55+00:00",
+ "title": "防災0区",
+ "team": "一般社団法人 社会構想デザイン機構（ISVD）",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "町丁目の名前を選ぶと耐震助成から水害、高齢者見守りまで防災12テーマの「うちの町のいま」が1画面で分かるサービス。区の防災ページも議会の会議録も区全体の単位で書かれ町の名前では引けず、4区議会の防災発言13,898件のうち町丁目名が出る発言はわずか6.1%で639町のうち347町は6年間一度も名前が出ていないという課題に対応。地域危険度と避難所のオープンデータに町名で拾い直した議会記録を重ね、名前が出ていない347の町も「まだ読めていない」と「出ていない」を区別して正直に表示する。調べた事実は区へ出す意見の下書きと家族に手渡せる印刷用の1枚になる。Next.jsで静的サイトとして構築し、Claude Codeで生活者と行政の言葉を接続する対応表とパイプラインを開発した。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査（第 9 回）／東京都都市整備局／CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ／東京都総務局／CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別）令和 8 年 1 月／東京都／CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001088"
+  },
+  {
+   "name": "区議会 会議録（千代田区議会・世田谷区議会・北区議会・板橋区議会、2020〜2026 年）／各議会が公式に公開する会議録／著作権法 第 40 条第 1 項（公開の政治上の陳述）に基づき利用し、第 48 条により会議名・原文リンクで出所を明示",
+   "url": "https://ssp.kaigiroku.net/tenant/kita/SpTop.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001088"
+ ],
+ "external_data_urls": [
+  "https://ssp.kaigiroku.net/tenant/kita/SpTop.html"
+ ],
+ "demo_url": "https://bosai0.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://bosai0.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=4352",
+ "image_count": 3,
+ "notes": ""
+}

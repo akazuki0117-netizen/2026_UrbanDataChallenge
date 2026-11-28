@@ -1,0 +1,47 @@
+{
+ "id": "6630644508737130488",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630644508737130488/?year=2026",
+ "fetched_at": "2026-11-20T15:34:35+00:00",
+ "title": "CROWD WEATHER　-イベント予報-",
+ "team": "CROWD WEATHER　-イベント予報-",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都内イベントの増加と温暖化を背景に、会場の暑熱・混雑を時間・エリア別に予測し来場者の快適な体験と主催者の運営を支援するツール。夏祭り等では待機列や日陰不足と局所的な混雑・暑熱の重なりが事故リスクを高める一方、現場対応が経験則に依存し開催前に危険度を判断する材料が不足しているという課題に対応。開催日・天候・販売枚数・会場情報から場内人数や混雑密度、日陰率、WBGTを予測し、来場者にはリアルタイムで空いている時間・入口・給水場所・避難先を、主催者には運用計画やスタッフ配置を、現場スタッフには優先対応を通知する。気象情報はOpen-Meteo APIから取得し独自の太陽位置計算等と組み合わせて算出している。",
+ "open_data_items": [
+  {
+   "name": "都市の3Dデジタルマップ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017"
+  },
+  {
+   "name": "都市・気象データ",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2024/tn24q3i001.htm"
+  },
+  {
+   "name": "給水拠点データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/39b22696-a621-4b34-b8c1-5ae88dcd319d/resource/d9ceee13-ff63-4fd8-a344-06353bb8980e"
+  },
+  {
+   "name": "指定緊急避難場所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/39b22696-a621-4b34-b8c1-5ae88dcd319d/resource/d9ceee13-ff63-4fd8-a344-06353bb8980e",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/tnenkan/2024/tn24q3i001.htm"
+ ],
+ "demo_url": "https://crowd-weather-v5-77taka777.vercel.app/?view=plan",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://crowd-weather-v5-77taka777.vercel.app/?view=plan"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1987",
+ "image_count": 2,
+ "notes": ""
+}

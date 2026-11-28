@@ -1,0 +1,43 @@
+{
+ "id": "6632737540318502491",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632737540318502491/?year=2026",
+ "fetched_at": "2026-11-20T15:39:38+00:00",
+ "title": "TOKYO WATER SOMMELIER AI 東京の水で、いちばんおいしい一杯を。",
+ "team": "GLIQ",
+ "member_count": 2,
+ "is_finalist": true,
+ "awards": [
+  "サービスデザイン賞"
+ ],
+ "service_description": "東京の水道水の水質からその地域の水に合わせたコーヒー抽出レシピを出すウェブサービス。都内総硬度は29.9〜82.4mg/Lと2.8倍の幅があり同じ豆を同じように淹れても地域が違えば同じ味にならないが、水道局が測定した水質データは安全確認の役目で終わっているという課題に対応。住所を選ぶと給水栓の実測水質と都内126地点の中での位置を示し、豆・焙煎度・器具を選ぶと豆量・湯量・湯温・挽き目・抽出時間を提示する。水質を見るだけでも使え5言語対応。Cloudflare Workers 1つで静的配信とAPIを同居させ、Workers AIのllama-3.3-70bを決定的な変換式の後の言語化に限定して使用した。",
+ "open_data_items": [
+  {
+   "name": "配水系統～ご家庭の水道水情報（住所と給水栓・浄水場の対応表。丁目単位5,105件）",
+   "url": "https://www.waterworks.metro.tokyo.lg.jp/suigen/keitou"
+  },
+  {
+   "name": "給水栓別 水質検査結果（令和7年度）（126地点の総硬度・カルシウム硬度・マグネシウム硬度・pH・水温・残留塩素ほか）",
+   "url": "https://www.waterworks.metro.tokyo.lg.jp/suigen/data"
+  },
+  {
+   "name": "水質年報（令和6年度）第5 給水栓の水質（アルカリ度・硫酸イオン）",
+   "url": "https://www.waterworks.metro.tokyo.lg.jp/suigen/nempo_r06"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.waterworks.metro.tokyo.lg.jp/suigen/keitou",
+  "https://www.waterworks.metro.tokyo.lg.jp/suigen/data",
+  "https://www.waterworks.metro.tokyo.lg.jp/suigen/nempo_r06"
+ ],
+ "demo_url": "https://tokyo-water-sommelier.tokyo-odh-200.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-water-sommelier.tokyo-odh-200.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=4226",
+ "image_count": 3,
+ "notes": ""
+}

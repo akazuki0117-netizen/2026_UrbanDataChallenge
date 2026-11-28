@@ -1,0 +1,47 @@
+{
+ "id": "6632736047616533365",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632736047616533365/?year=2026",
+ "fetched_at": "2026-11-20T15:39:36+00:00",
+ "title": "備災散歩―覗ける地図めぐり",
+ "team": "MmeRodin",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「備災散歩」は、身近な街の坂・駅・工事・水の道を地図から覗き、平時に「もし、ここで」を考えるWebサービス。散歩中に工事へ出会っても目的や街の変化が分からず、坂や川、駅の安全対策情報も行政・交通事業者のサイトに分散していて、防災情報を日常の道と結びつけて考える機会が少ないという課題に対応。地図の地点や町丁目を選ぶと、駅の事業者や工事の目的、水の流れや対策を確認でき、標高地図と連続音を同期させた「坂を聴く」機能で高さを体感できる。推定・未確認情報は明示した上で公的なハザードマップや事業者の安全情報へ誘導する。Next.js 16とLeafletでログイン不要のスマホ向けWebアプリとして実装した。",
+ "open_data_items": [
+  {
+   "name": "データ名 URL 23区内 都道の路上工事情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028"
+  },
+  {
+   "name": "地理院タイル・標高タイル",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "国土数値情報 鉄道データ（N02）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html"
+  },
+  {
+   "name": "OpenStreetMap（河川・水路等）",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://bisai-diorama.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://bisai-diorama.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=5137",
+ "image_count": 3,
+ "notes": ""
+}

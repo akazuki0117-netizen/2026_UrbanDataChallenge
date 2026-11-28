@@ -1,0 +1,31 @@
+{
+ "id": "6632574456226309556",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632574456226309556/?year=2026",
+ "fetched_at": "2026-11-20T15:37:51+00:00",
+ "title": "データを、点から疑似体験へ",
+ "team": "ひっきー",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "警察庁の交通事故オープンデータを東京都デジタルツイン上の3D都市空間に写像し事故現場を疑似体験できる3Dシミュレーションに変換。2024年の東京都で0〜24歳が当事者Bとなった交通事故は3,733件にのぼるが、地図上の点だけでは坂道や見通し、時間帯等その場で何が起きたかを子どもが具体的に想像しにくいという課題に対応。緯度・経度・発生時刻・衝突部位を3D都市空間に重ね坂の途中であることや建物の影による見え方まで疑似体験できる形に変換し、学校・自治体・警察の交通安全教材での活用を想定する。車両・人物はGLB、時系列の動きはCZMLで表現し、ChatGPTを事故状況の推定やCZML生成に、Meshy AIを3Dモデル生成に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都デジタルツイン実現プロジェクト",
+   "url": "https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "交通事故統計情報のオープンデータ",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3269",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

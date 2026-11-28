@@ -1,0 +1,36 @@
+{
+ "id": "6632807634314250750",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632807634314250750/?year=2026",
+ "fetched_at": "2026-11-20T15:44:09+00:00",
+ "title": "よるの窓口",
+ "team": "Bleed",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "夜間・休日の医療アクセス支援サービス。体調急変時にどの病院・何科・救急車を呼ぶべきか判断に悩んだ実体験や、土地に馴染みのない観光客も安心して受診できる支援が必要という課題に対応。現在地・時間・症状を入力すると候補病院と地図が出力され受診までの意思決定を見える化する。外国語話者向けに症状やアレルギーを事前入力できる8か国語対応の「多言語受付シート」機能も搭載、症状が重篤な場合は質問ステップを省き119へ直接誘導する。HTML/CSS/JavaScriptとGoogleマップで構築し、ChatGPTとGeminiでプロトタイプ助言と専門知識整理を行った。",
+ "open_data_items": [
+  {
+   "name": "休日・全夜間診療事業参画医療機関一覧",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/080401shiteiniji"
+  },
+  {
+   "name": "外国人患者受入れ医療機関認証制度（JMIP）認証医療機関一覧（東京都）（R8.6時点）",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/gaikokujin/area"
+  },
+  {
+   "name": "外国人患者を受け入れる拠点的な医療機関一覧（東京都）（R8.6時点）",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/gaikokujin/area"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/080401shiteiniji",
+  "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/gaikokujin/area",
+  "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/gaikokujin/area"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1745",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

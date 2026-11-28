@@ -1,0 +1,31 @@
+{
+ "id": "6632812503826221943",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812503826221943/?year=2026",
+ "fetched_at": "2026-11-20T15:46:10+00:00",
+ "title": "キッチンバトン",
+ "team": "キッチンバトン",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "子ども食堂を始めたい人と社員食堂・空き家・公民館等「使っていない場所」を貸したい人をマッチングする地図アプリ。活動場所の確保に苦労する開設希望者がいる一方、使われていない場所が都内に多く存在するが両者が出会う手段がないという課題に対応。子ども食堂798件・公民館等627件を地図上に可視化し、区市町村ごとの子どもの人口と食堂数を掛け合わせ不足度が高い地域（新宿区・墨田区等25件）を可視化する。場所を貸したい人はGoogleフォームから登録でき相談ひろば機能も備える。ReactとLeaflet（react-leaflet）でクラスタリング表示を導入し、Claude Codeで住所ジオコーディングや空白地域分析のデータパイプラインを構築した。",
+ "open_data_items": [
+  {
+   "name": "日野市",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/hino/132128_hinoshi_kodomosyokudo.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/hino/132128_hinoshi_kodomosyokudo.csv"
+ ],
+ "demo_url": "https://kitchen-baton.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kitchen-baton.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3586",
+ "image_count": 1,
+ "notes": ""
+}

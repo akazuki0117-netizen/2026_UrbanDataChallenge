@@ -1,0 +1,47 @@
+{
+ "id": "6632286215818832149",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632286215818832149/?year=2026",
+ "fetched_at": "2026-11-20T15:37:34+00:00",
+ "title": "こどもぼうさいナビ",
+ "team": "魚香肉絲",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京23区の避難所1,538か所と広域避難場所764か所への道の状況を、道路1本ごとに色分けするWebマップ。既存の地図アプリは距離と時間しか見ておらず、幅の狭い道や地震時に倒壊で塞がる恐れのある道を実際に通れるかは分からないという課題に対応（23区の高齢者・乳幼児・妊婦は人口の約25%）。道幅・地震時の倒壊閉塞リスク・勾配の3指標を切り替えて表示し、避難所ごとのスロープやエレベーター有無も確認できる。避難所を多始点としたダイクストラ法で平常時・地震時両方の到達時間を算出する。LeafletとOpenStreetMapタイルで軽量に構築し、Claudeで指標の設計とコーディングを行った。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "区市町村が「妊婦や乳幼児に配慮した避難所」として想定している避難所の種類",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/efe9115c-11b4-47ab-9a2d-63df45a2fb27/resource/95201bbf-576f-46ec-b546-a98455ed0cb4"
+  },
+  {
+   "name": "都内区市町村の妊婦・乳幼児に関連した防災対策調査結果",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000064"
+  },
+  {
+   "name": "基盤地図情報",
+   "url": "https://service.gsi.go.jp/kiban/app/map/?search=base#10/35.66684064069902/139.6875"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/efe9115c-11b4-47ab-9a2d-63df45a2fb27/resource/95201bbf-576f-46ec-b546-a98455ed0cb4",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000064"
+ ],
+ "external_data_urls": [
+  "https://service.gsi.go.jp/kiban/app/map/?search=base#10/35.66684064069902/139.6875"
+ ],
+ "demo_url": "https://youtu.be/58-UbrvUl8E?si=eUJyTYYxs-4z37lz",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://youtu.be/58-UbrvUl8E?si=eUJyTYYxs-4z37lz"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3448",
+ "image_count": 3,
+ "notes": ""
+}

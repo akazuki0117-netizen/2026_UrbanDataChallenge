@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic UI','Meiryo',sans-serif">
+  <title>政治タイプ診断アプリ（仮） コンセプト</title>
+  <rect width="1200" height="675" fill="#fff7f3"/>
+  <circle cx="1130" cy="40" r="210" fill="#ffd8cb" opacity=".55"/>
+  <circle cx="60" cy="660" r="150" fill="#ffd400" opacity=".22"/>
+
+  <!-- 左：コピー -->
+  <rect x="64" y="64" width="330" height="36" rx="18" fill="#ff7a59"/>
+  <text x="229" y="88" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">中高生向け　政治タイプ診断アプリ（仮）</text>
+
+  <text x="64" y="168" font-size="40" font-weight="800" fill="#222">友達とトークするだけで、</text>
+  <text x="64" y="224" font-size="40" font-weight="800" fill="#222"><tspan fill="#ff7a59">「〇〇党タイプ」</tspan>がわかる。</text>
+  <text x="64" y="270" font-size="18" fill="#55555c">身近な論点に答えると、全政党とのマッチ率まで。</text>
+
+  <!-- ステップ -->
+  <g font-size="18" fill="#222">
+    <g transform="translate(64,318)">
+      <rect width="520" height="64" rx="16" fill="#fff" stroke="#ffd8cb" stroke-width="2"/>
+      <circle cx="34" cy="32" r="18" fill="#ff7a59"/>
+      <text x="34" y="39" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+      <text x="66" y="29" font-weight="700">友達キャラ「ミナト」とトークする</text>
+      <text x="66" y="51" font-size="14" fill="#8a8a92">全15問・10論点、5分くらい。ボタンでも自由入力でも</text>
+    </g>
+    <g transform="translate(64,396)">
+      <rect width="520" height="64" rx="16" fill="#fff" stroke="#ffd8cb" stroke-width="2"/>
+      <circle cx="34" cy="32" r="18" fill="#ff7a59"/>
+      <text x="34" y="39" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+      <text x="66" y="29" font-weight="700">タイプと、全政党とのマッチ率がわかる</text>
+      <text x="66" y="51" font-size="14" fill="#8a8a92">論点別の内訳と計算方法も見られる</text>
+    </g>
+    <g transform="translate(64,474)">
+      <rect width="520" height="64" rx="16" fill="#fff" stroke="#ffd8cb" stroke-width="2"/>
+      <circle cx="34" cy="32" r="18" fill="#ff7a59"/>
+      <text x="34" y="39" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+      <text x="66" y="29" font-weight="700">政党の「何をしたい？」を知り、18歳の投票へ</text>
+      <text x="66" y="51" font-size="14" fill="#8a8a92">公約の出典つきの解説と、選挙のしくみの案内</text>
+    </g>
+  </g>
+
+  <!-- 中央：スマホ（トーク画面） -->
+  <g transform="translate(632,70)">
+    <rect width="236" height="470" rx="34" fill="#222"/>
+    <rect x="9" y="9" width="218" height="452" rx="26" fill="#fff"/>
+    <rect x="9" y="9" width="218" height="50" rx="26" fill="#ff7a59"/>
+    <rect x="9" y="35" width="218" height="24" fill="#ff7a59"/>
+    <circle cx="38" cy="34" r="13" fill="#ffd400"/>
+    <text x="60" y="40" font-size="15" font-weight="700" fill="#fff">ミナト</text>
+
+    <circle cx="30" cy="92" r="11" fill="#ffd400"/>
+    <rect x="48" y="74" width="158" height="58" rx="16" fill="#f1f1f4"/>
+    <text x="60" y="98" font-size="13" fill="#222">学校にスマホ、自由に</text>
+    <text x="60" y="118" font-size="13" fill="#222">持ち込めたらいい？</text>
+
+    <rect x="104" y="146" width="108" height="36" rx="16" fill="#ff7a59"/>
+    <text x="158" y="169" font-size="13" fill="#fff" text-anchor="middle">いいと思う！</text>
+
+    <circle cx="30" cy="214" r="11" fill="#ffd400"/>
+    <rect x="48" y="196" width="150" height="58" rx="16" fill="#f1f1f4"/>
+    <text x="60" y="220" font-size="13" fill="#222">なるほど〜。じゃあ</text>
+    <text x="60" y="240" font-size="13" fill="#222">バイトの時給は？</text>
+
+    <rect x="20" y="300" width="196" height="38" rx="19" fill="#fff3ee" stroke="#ff7a59" stroke-width="1.5"/>
+    <text x="118" y="324" font-size="13" font-weight="700" fill="#ff7a59" text-anchor="middle">上げてほしい</text>
+    <rect x="20" y="346" width="196" height="38" rx="19" fill="#fff3ee" stroke="#ff7a59" stroke-width="1.5"/>
+    <text x="118" y="370" font-size="13" font-weight="700" fill="#ff7a59" text-anchor="middle">どちらともいえない</text>
+    <rect x="20" y="392" width="196" height="38" rx="19" fill="#fff3ee" stroke="#ff7a59" stroke-width="1.5"/>
+    <text x="118" y="416" font-size="13" font-weight="700" fill="#ff7a59" text-anchor="middle">今のままでいい</text>
+  </g>
+
+  <!-- 矢印 -->
+  <path d="M880 300 h22" stroke="#ff7a59" stroke-width="4" stroke-linecap="round"/>
+  <path d="M898 290 l12 10 l-12 10" fill="none" stroke="#ff7a59" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 右：結果カード -->
+  <g transform="translate(922,110)">
+    <rect width="226" height="390" rx="22" fill="#fff" stroke="#ffd8cb" stroke-width="2"/>
+    <text x="113" y="40" font-size="13" fill="#8a8a92" text-anchor="middle">診断結果</text>
+    <text x="113" y="72" font-size="16" fill="#222" text-anchor="middle">あなたは</text>
+    <rect x="22" y="86" width="182" height="52" rx="14" fill="#ff7a59"/>
+    <text x="113" y="120" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">〇〇党タイプ</text>
+
+    <text x="22" y="174" font-size="13" font-weight="700" fill="#222">全政党とのマッチ率</text>
+    <g font-size="13" fill="#222">
+      <text x="22" y="204">A党</text><rect x="62" y="193" width="110" height="12" rx="6" fill="#f1f1f4"/><rect x="62" y="193" width="90" height="12" rx="6" fill="#ff7a59"/><text x="204" y="204" text-anchor="end">82%</text>
+      <text x="22" y="234">B党</text><rect x="62" y="223" width="110" height="12" rx="6" fill="#f1f1f4"/><rect x="62" y="223" width="70" height="12" rx="6" fill="#ffb36b"/><text x="204" y="234" text-anchor="end">64%</text>
+      <text x="22" y="264">C党</text><rect x="62" y="253" width="110" height="12" rx="6" fill="#f1f1f4"/><rect x="62" y="253" width="56" height="12" rx="6" fill="#ffb36b"/><text x="204" y="264" text-anchor="end">51%</text>
+      <text x="22" y="294">D党</text><rect x="62" y="283" width="110" height="12" rx="6" fill="#f1f1f4"/><rect x="62" y="283" width="41" height="12" rx="6" fill="#ffb36b"/><text x="204" y="294" text-anchor="end">37%</text>
+    </g>
+    <line x1="22" y1="316" x2="204" y2="316" stroke="#f1f1f4" stroke-width="2"/>
+    <text x="113" y="342" font-size="12" fill="#8a8a92" text-anchor="middle">全政党を同じ形式で表示</text>
+    <text x="113" y="362" font-size="12" fill="#8a8a92" text-anchor="middle">※数字はイメージです</text>
+  </g>
+
+  <!-- フッター -->
+  <rect x="0" y="600" width="1200" height="75" fill="#222"/>
+  <g font-size="16" fill="#fff" font-weight="700">
+    <circle cx="92" cy="638" r="5" fill="#ffd400"/><text x="106" y="644">ログイン不要</text>
+    <circle cx="282" cy="638" r="5" fill="#ffd400"/><text x="296" y="644">回答はサーバーに保存しない</text>
+    <circle cx="582" cy="638" r="5" fill="#ffd400"/><text x="596" y="644">投票先はすすめない</text>
+    <circle cx="822" cy="638" r="5" fill="#ffd400"/><text x="836" y="644">シェア画像に政党名は載せない</text>
+  </g>
+</svg>

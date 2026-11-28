@@ -1,0 +1,26 @@
+{
+ "id": "6632812902415402894",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812902415402894/?year=2026",
+ "fetched_at": "2026-11-20T15:46:18+00:00",
+ "title": "トイレSOS",
+ "team": "まにあえ隊",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "子どもの突然の「おしっこ！」に親子で対応するサポートアプリ。高速道路運転中に尿意を我慢した経験から「トイレまで気を紛らわせるものが欲しい」と着想し、子どもの外出時にも同じ困りごとがあるという実体験の課題に対応。GPSとオープンデータで現在地から近いトイレや設備情報を検索・案内し、その間子どもは年齢に合わせたしりとり等の音声会話で気を紛らわせる。利用者からの設備情報フィードバックも反映する。ChatGPTでコード作成をサポートしてもらい実装した。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/#map=5/35.59/134.38"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/#map=5/35.59/134.38"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=254",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

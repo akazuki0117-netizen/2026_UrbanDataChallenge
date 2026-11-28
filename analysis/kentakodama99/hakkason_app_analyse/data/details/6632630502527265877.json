@@ -1,0 +1,56 @@
+{
+ "id": "6632630502527265877",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632630502527265877/?year=2026",
+ "fetched_at": "2026-11-20T15:38:22+00:00",
+ "title": "みちまもる — 子どもが主役のフィールドワーク安全マップ",
+ "team": "放課後キャンパスクラブ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「みちまもる」は、子どもが主役の通学路安全マップ。子どもは大人より低い目線と遅い歩き方で道を見ているのに、その気づきは大人中心の点検には上がりにくく「気のせい」で終わりがちという課題に対応。授業のフィールドワークで子ども自身が危ないと感じた場所を写真とともに記録し地図に集約、同じ地点に声が重なる様子も見える。過去の事故発生箇所と突き合わせることで事故データに出ないヒヤリハットも可視化し、学校は記録を根拠に自治体への改善提案まで進められる。ブラウザ完結でFastAPI・htmxの軽い構成とし、Claude Codeを実装・修正に使いつつ生成コードは必ず自分で確認する運用とした。",
+ "open_data_items": [
+  {
+   "name": "小中学校通学区域情報｜練馬区",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/school_district.html"
+  },
+  {
+   "name": "避難拠点｜練馬区",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/bosai/hinankyoten.html"
+  },
+  {
+   "name": "公園トイレ一覧｜練馬区",
+   "url": "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/matidukuri/public_toilet.html"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）練馬区",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13120-nerima-ku-2025"
+  },
+  {
+   "name": "政府統計の総合窓口（e-Stat）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2020&serveyId=A002005212020&prefCode=13&coordsys=1&format=shape&datum=2000"
+  },
+  {
+   "name": "交通事故統計情報｜警察庁",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2024/opendata_2024.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/kosodate/school_district.html",
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/bosai/hinankyoten.html",
+  "https://www.city.nerima.tokyo.jp/kusei/tokei/opendata/opendatasite/matidukuri/public_toilet.html",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13120-nerima-ku-2025",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2020&serveyId=A002005212020&prefCode=13&coordsys=1&format=shape&datum=2000",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/2024/opendata_2024.html"
+ ],
+ "demo_url": "https://michimamoru.onrender.com",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://michimamoru.onrender.com"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4366",
+ "image_count": 3,
+ "notes": ""
+}

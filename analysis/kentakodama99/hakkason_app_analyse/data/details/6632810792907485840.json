@@ -1,0 +1,46 @@
+{
+ "id": "6632810792907485840",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810792907485840/?year=2026",
+ "fetched_at": "2026-11-20T15:45:15+00:00",
+ "title": "防災コンパス",
+ "team": "シャドウガールズ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都の防災オープンデータ11種と利用者の住所・居住階・家族構成を組み合わせ「何を優先して行動すべきか」を提示する災害時意思決定支援Webアプリ。データは目的別に分散しCSV・Excel・PDF・SHPとばらばらで、取るべき行動は居住階や家族構成によって変わるが結局その人が考えるしかないという課題に対応。想定浸水深3〜5mでも5階なら「上階へ移動」1階なら「区域外へ立ち退き」等、平常時の「今やること」と警戒レベル発動時の「そのときの行動」を分けて示す。一般家庭向けと企業向けの2モード。Python（FastAPI）＋Next.js／TypeScriptでgeopandas・shapelyのSHP点内包判定を実装した。",
+ "open_data_items": [
+  {
+   "name": "浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "土砂災害警戒区域・特別警戒区域",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000033/resource/9992cac4-8844-42e5-a2f8-e405ba171db3"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査地域危険度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "都立の一時滞在施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/407c0171-c283-415c-9ac0-8e2514b58585/resource/12ab61f7-d8af-4b38-848e-5436e3d27985"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000033/resource/9992cac4-8844-42e5-a2f8-e405ba171db3",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/407c0171-c283-415c-9ac0-8e2514b58585/resource/12ab61f7-d8af-4b38-848e-5436e3d27985"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2807",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "6632813627019098583",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632813627019098583/?year=2026",
+ "fetched_at": "2026-11-20T15:46:35+00:00",
+ "title": "ふらっと",
+ "team": "(自認)東京都CTO",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自分が訪れた場所・施設・イベント・コミュニティの「体験」を記録し傾向を分析しておすすめを提案することで「心の故郷」を見つける手助けをするサービス。転勤勢や上京勢等が東京の地域への帰属意識を持てず孤独を感じる人が多いという課題に対応。訪れた先の場所・コミュニティが持つ属性要素と本人の自覚/無自覚の興味を組み合わせて提案し、体験記録→提案を繰り返し「心の故郷」に巡り合ってもらう。ReactでのSPA構成でスマホブラウザからの利用を想定した。",
+ "open_data_items": [
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3512",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

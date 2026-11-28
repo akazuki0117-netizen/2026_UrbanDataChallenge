@@ -1,0 +1,52 @@
+{
+ "id": "6632812950848825343",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812950848825343/?year=2026",
+ "fetched_at": "2026-11-20T15:46:22+00:00",
+ "title": "TOKYO CONTEXT LENS",
+ "team": "くわだてカンパニー",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO CONTEXT LENS」は、Webページ上の東京都内の住所を選ぶだけで用途地域や建ぺい率、防火地域、災害情報をその場に表示するChrome拡張。都市計画や災害情報を確認するには複数の公式地図やデータサイトを開き同じ住所を入力し直す手間があり、座標精度や境界・欠損の意味も分かりにくいという課題に対応。1回の住所選択操作で複数のオープンデータを地点単位で照合し、位置精度や欠損、出典も併せて表示する。同じ検索基盤を申請・アクセストークン不要の公開MCPとしても提供しAIアプリからも呼び出せる。デジタル庁のABRジオコーダーを採用し、Google AntigravityとOpenAI Codexを実装支援とレビューに活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都都市整備局「都市計画決定情報GISデータ」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000028"
+  },
+  {
+   "name": "東京都都市整備局「第9回 地震に関する地域危険度測定調査」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "東京消防庁「第10回 地震時における地域別延焼危険度測定」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000005"
+  },
+  {
+   "name": "データ名：東京都建設局「浸水予想区域図」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "データ名：デジタル庁「アドレス・ベース・レジストリ」",
+   "url": "https://www.digital.go.jp/policies/base_registry_address"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+ ],
+ "external_data_urls": [
+  "https://www.digital.go.jp/policies/base_registry_address"
+ ],
+ "demo_url": "https://app-d4d2a277-be39-45d0-9815-7fa222b060c5.ingress.apprun.sakura.ne.jp/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://app-d4d2a277-be39-45d0-9815-7fa222b060c5.ingress.apprun.sakura.ne.jp/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=269",
+ "image_count": 2,
+ "notes": ""
+}

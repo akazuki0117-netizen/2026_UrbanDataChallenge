@@ -1,0 +1,57 @@
+{
+ "id": "6632730155017238563",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632730155017238563/?year=2026",
+ "fetched_at": "2026-11-20T15:39:28+00:00",
+ "title": "ひといき",
+ "team": "ASH",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "個人の位置情報とWBGTを基に熱中症の危険度を体力ゲージに見立て可視化しミッション形式で対策を促すアプリ。親が家族の熱中症対策を日々確認・促進することが大変で相手が聞いてくれない煩わしさがあるという課題に対応。危険度指数をミッション形式にすることで子どもでも楽しみながらゲーム感覚で健康管理が行える。React NativeとTypeScript、Google Maps SDKでAndroid・iOS共通実装を実現し、Copilot、Gemini、OpenCode + Cloudflare Workers AIをメンバー全員で壁打ちやデータ調査に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都水道局 / Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "給水拠点一覧データ - データセット - 東京都オープンデータカタログ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "OpenStreetMap Overpass API",
+   "url": "https://wiki.openstreetmap.org/wiki/Overpass_API"
+  },
+  {
+   "name": "環境省「熱中症予防情報サイト」WBGT電子情報提供API",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "東京都水道局 災害時給水ステーション一覧CSV",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv"
+  },
+  {
+   "name": "東京都建設局 河川監視カメラ位置CSV",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R4/130001_river-monitoring-cameras.csv"
+  },
+  {
+   "name": "調布市 公衆トイレ一覧CSV",
+   "url": "https://www.city.chofu.lg.jp/documents/13850/132080_public_toilet.csv"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [
+  "https://wiki.openstreetmap.org/wiki/Overpass_API",
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/R4/130001_river-monitoring-cameras.csv",
+  "https://www.city.chofu.lg.jp/documents/13850/132080_public_toilet.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4640",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

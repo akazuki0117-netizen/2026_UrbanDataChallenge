@@ -1,0 +1,47 @@
+{
+ "id": "6632808652029408105",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808652029408105/?year=2026",
+ "fetched_at": "2026-11-20T15:44:24+00:00",
+ "title": "におい予報マップ（SMELL HOMES）",
+ "team": "SmellHomes",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "街や電車の「におい」を天気のように予報し地図で可視化するWebサービス。においに敏感な人は満員電車や繁華街の臭いで体調を崩し途中下車することがあるが、公的データは発生源の位置や苦情件数どまりで「どこでいつどんなにおいがどれだけ強いか」を誰も地図にしていないという課題に対応。気象データとオープンデータから「におい指数」を予報しカテゴリ別ヒートマップで可視化、混雑×においの「快適乗車ナビ」やLINEでの前夜アラート、行政向けダッシュボードまでを一体化する。市民投稿で公的に存在しないデータを可視化する点が特徴。Cloudflare Workers（Hono）+D1のサーバーレス構成とし、Claude Codeと対話しながら開発した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータ・カタログサイト：公衆トイレ一覧（新宿区・中央区・千代田区・台東区・豊島区）、公共喫煙所一覧（江東区）／ライセンス：CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000019"
+  },
+  {
+   "name": "東京都交通局「地下鉄関連情報 混雑の見える化」（都営浅草・三田・新宿・大江戸線）／CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031"
+  },
+  {
+   "name": "国土交通省「都市鉄道の混雑率調査（令和6年度実績）」（JR・私鉄17路線の最混雑区間）／政府標準利用規約2.0（CC BY互換）",
+   "url": "https://www.mlit.go.jp/report/press/tetsudo04_hh_000138.html"
+  },
+  {
+   "name": "Open-Meteo（気象：気温・湿度・降水・気圧）／CC BY 4.0",
+   "url": "https://open-meteo.com/"
+  },
+  {
+   "name": "国土地理院 標高API",
+   "url": "https://maps.gsi.go.jp/development/elevation_s.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031"
+ ],
+ "external_data_urls": [
+  "https://www.mlit.go.jp/report/press/tetsudo04_hh_000138.html",
+  "https://open-meteo.com/",
+  "https://maps.gsi.go.jp/development/elevation_s.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3491",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

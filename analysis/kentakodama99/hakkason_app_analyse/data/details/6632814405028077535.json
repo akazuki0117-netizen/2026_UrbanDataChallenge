@@ -1,0 +1,24 @@
+{
+ "id": "6632814405028077535",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632814405028077535/?year=2026",
+ "fetched_at": "2026-11-20T15:46:41+00:00",
+ "title": "ライフ・アクト・ナビ(LifeActNavi)",
+ "team": "KIE",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "ライフステージや日常生活の行動に合わせて必要な情報を提供しナビゲートするパーソナルアシスタント「LifeActNavi」。検診情報やイベント情報を必要な時にキャッチできず回覧やLINE更新を見ても利用できていないという課題に対応。利用者の属性情報をCookieに保存しライフステージに合わせた情報を提供、子供や家族の情報を調べたい場合は個人情報を一時変更して検索することもできる。Cloudflare WorkerとOpenCodeで構築し、サーバーサイドの課金を避けるためクライアント側の個人利用AIとの連携を検討中。",
+ "open_data_items": [],
+ "open_data_urls": [],
+ "external_data_urls": [],
+ "demo_url": "https://LifeActNavi.kie0jp.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://LifeActNavi.kie0jp.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=613",
+ "image_count": 2,
+ "notes": "利用データ URL なし"
+}

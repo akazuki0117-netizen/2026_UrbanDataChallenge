@@ -1,0 +1,46 @@
+{
+ "id": "6632782773246180377",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632782773246180377/?year=2026",
+ "fetched_at": "2026-11-20T15:41:45+00:00",
+ "title": "サギカモ",
+ "team": "三井正相",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "不審な電話・メール・SNSの文面を貼るだけで生成AIが詐欺の手口の型を見立て、警視庁のオープンデータから実際の認知件数を根拠に次の行動を案内する詐欺被害防止サービス。手口の注意喚起はあふれていても不審な連絡を受け取った瞬間に「これは危ないのか」を確かめられる相手がいないという課題に対応（東京都の詐欺認知件数は令和8年6月累計で6,611件）。文面の貼り付け・写真撮影・電話の3経路で入力し、危険度に応じて電話を切る・#9110・188への行動を案内、判定結果を「まもるカード」として画像化しLINEで家族に共有できる。62区市町村のリスク指数を地図化した地域リスクマップも提供。ReactのPWA構成とCloudflare Workers/KVで構築し、判定は断定表現が出ない構造化出力とし地域件数はデータ層で結合、Claude Codeで実装した。",
+ "open_data_items": [
+  {
+   "name": "区市町村の町丁別、罪種別及び手口別認知件数（月累計）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d1700000021"
+  },
+  {
+   "name": "犯罪発生情報（年計）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000034"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115"
+  },
+  {
+   "name": "高齢者等の異変等に気付いた際の区市町村連絡先",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000379"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d1700000021",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000379"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://sagikamo.sagikanchi.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sagikamo.sagikanchi.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=634",
+ "image_count": 3,
+ "notes": ""
+}

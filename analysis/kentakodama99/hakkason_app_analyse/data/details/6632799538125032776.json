@@ -1,0 +1,36 @@
+{
+ "id": "6632799538125032776",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632799538125032776/?year=2026",
+ "fetched_at": "2026-11-20T15:42:52+00:00",
+ "title": "調布パスポート",
+ "team": "CTR",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「調布パスポート」は、映画のロケ地等有名な「入口スポット」を起点に徒歩で街を巡るデジタルパスポート。調布市の来街者調査では「周遊ルートは特にない」が78.8%でロケ地訪問者が一地点で帰る「点の観光」になりやすい一方、コロナ前水準に達していない事業者が52.2%という課題に対応。テーマと滞在時間を選び質問に答えるとコース候補が2〜3本提示され、現地チェックインで場所同士の関係や観察ポイントが解放され次の行き先を2〜3件から選べる。所要時間はコース構成スポットだけから算出し「90〜120分で歩ける」約束が崩れない構造。Next.js 16.3／React 19で構築し、Codex CLIとClaude Codeで企画の反証検討や独立意見の相互反論を行い「訪問数だけでは価値にならない」をKPI設計へ反映した。",
+ "open_data_items": [
+  {
+   "name": "02.文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001964"
+  },
+  {
+   "name": "01.公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001963"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001964",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001963"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://soft-flower-c64b.tokyo-odh-156.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://soft-flower-c64b.tokyo-odh-156.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2116",
+ "image_count": 3,
+ "notes": ""
+}

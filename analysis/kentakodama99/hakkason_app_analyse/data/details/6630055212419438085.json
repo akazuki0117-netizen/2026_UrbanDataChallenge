@@ -1,0 +1,41 @@
+{
+ "id": "6630055212419438085",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630055212419438085/?year=2026",
+ "fetched_at": "2026-11-20T15:34:07+00:00",
+ "title": "Umbila｜産後の気持ちと支援をつなぐサービス",
+ "team": "Team Umbila",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Umbila（アンビラ）」は、産後のママが「これくらいで相談していいのかな」と抱え込む段階から必要な支援につながるWebサービス。産後の母親は孤独や不安を感じてもためらい、支援制度や相談窓口を知らず、情報を探す余力もないという課題に対応。AIとの対話を通してママ自身の気持ちや困りごとを整理し、AIが診断や答えを出すのではなく分散している地域の相談窓口や産後ケア情報を分かりやすく提示することで、必要な支援につながる「入口」をつくる。フロントはTypeScript/React/Vite、バックエンドはPython/FastAPI/LangGraphで構築し、開発体制ではコード規約をリポジトリに集約し複数エージェント開発でも設計が崩れない工夫をした。",
+ "open_data_items": [
+  {
+   "name": "産後ケア事業者一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000058"
+  },
+  {
+   "name": "非定型一時保育（子育てサポート一時保育）実施施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000033"
+  },
+  {
+   "name": "児童館一時保育サービス実施施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/8febb3fd-4bac-463e-818d-1f5a64506e6f/resource/3d701009-444a-4874-9ee0-d63f51d1d6a5"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000058",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000033",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/8febb3fd-4bac-463e-818d-1f5a64506e6f/resource/3d701009-444a-4874-9ee0-d63f51d1d6a5"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://umbila-frontend.umbila-ui-mock.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://umbila-frontend.umbila-ui-mock.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4989",
+ "image_count": 3,
+ "notes": ""
+}

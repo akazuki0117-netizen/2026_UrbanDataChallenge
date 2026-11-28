@@ -1,0 +1,31 @@
+{
+ "id": "6631920841011092953",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631920841011092953/?year=2026",
+ "fetched_at": "2026-11-20T15:36:27+00:00",
+ "title": "ぬい巡礼",
+ "team": "Little Busters",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ぬい巡礼」は、推しのぬいぐるみを連れてアニメ聖地を巡り、GPSチェックインで御朱印を集める記録アプリ。訪日客のアニメ聖地訪問は倍増した一方、ファンは非公式の口コミで場所を探すしかなく、シーン粒度で商用可ライセンスの構造化データが世界に存在しないという課題に対応。参拝はGPSで100m以内のみ成立させ、チェックイン自体を検証の証拠とし、他ファンの参拝で聖地データが未検証から検証済みへ段階的に昇格する。育ったデータはCC BY 4.0のCSV/GeoJSONとして自治体等が自由に使える形で書き出せる。React+TypeScript+ViteのPWAとし、Claudeと共同で実質3日で主要機能を実装した。",
+ "open_data_items": [
+  {
+   "name": "Wikidata",
+   "url": "https://www.wikidata.org/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.wikidata.org/"
+ ],
+ "demo_url": "https://nui-junrei.valkyria0407.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://nui-junrei.valkyria0407.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4145",
+ "image_count": 3,
+ "notes": ""
+}

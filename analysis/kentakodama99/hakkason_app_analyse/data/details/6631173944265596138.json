@@ -1,0 +1,42 @@
+{
+ "id": "6631173944265596138",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631173944265596138/?year=2026",
+ "fetched_at": "2026-11-20T15:35:14+00:00",
+ "title": "デジタル契約ノート",
+ "team": "NobuMac",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "サブスクや保険等本人しか把握していない契約情報を整理し将来家族へ引き継ぐアプリ「デジタル契約ノート」。入院や認知機能低下、死亡が起きた際に家族がどの契約が残っているか分からず、特に自動更新契約は本人以外が気づきにくく請求が続く原因になるという課題に対応。契約名・支払日・自動更新・解約方法・家族への共有可否を記録し、パスワードや口座番号など機密情報は入力・保存しない安全設計とした。ダッシュボードで引継ぎ準備度や家族が把握していない契約数を表示。HTML/CSS/JavaScriptでGitHub Pagesに公開し、ChatGPTで課題整理からUI文言まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都消費生活総合センター 相談窓口案内・センター所在地",
+   "url": "https://www.shouhiseikatu.metro.tokyo.lg.jp/center/madoguchi/"
+  },
+  {
+   "name": "東京都内消費生活相談窓口一覧（23区）",
+   "url": "https://www.shouhiseikatu.metro.tokyo.lg.jp/link/mado_ku.html"
+  },
+  {
+   "name": "高齢者等の異変等に気付いた際の区市町村連絡先",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000054d0000000379"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000054d0000000379"
+ ],
+ "external_data_urls": [
+  "https://www.shouhiseikatu.metro.tokyo.lg.jp/center/madoguchi/",
+  "https://www.shouhiseikatu.metro.tokyo.lg.jp/link/mado_ku.html"
+ ],
+ "demo_url": "https://baseline-nobu.github.io/keiyaku-note/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://baseline-nobu.github.io/keiyaku-note/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=3265",
+ "image_count": 1,
+ "notes": ""
+}

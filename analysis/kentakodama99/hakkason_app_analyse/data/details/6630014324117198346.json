@@ -1,0 +1,79 @@
+{
+ "id": "6630014324117198346",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630014324117198346/?year=2026",
+ "fetched_at": "2026-11-20T15:34:05+00:00",
+ "title": "Queria",
+ "team": "Queria",
+ "member_count": 3,
+ "is_finalist": true,
+ "awards": [
+  "技術賞"
+ ],
+ "service_description": "「Queria」は、オープンデータをそのまま集計できるデータベースとして公開するデータカタログ。今のオープンデータは前処理・横断活用・更新の手間が多すぎ、発見性・機械可読性・相互運用性の低さが利活用を妨げているという課題に対応。データをファイルではなくデータベースとして公開しメタデータを一元化することで前処理なしで提供元をまたいだ検索やブラウザでの探索的分析ができ、CSV/Excel等でも出力可能。型と意味が揃うためMCP/CLIでAIエージェントも分析できる設計。集計サーバーを持たずDuckLake形式（Parquet+DuckDB）をR2に置きクエリを利用者側に寄せることで運用費を抑え、Claude CodeとClaude Designで開発した。",
+ "open_data_items": [
+  {
+   "name": "東京都自治体標準オープンデータセット",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/search/?size=10&tags=%E8%87%AA%E6%B2%BB%E4%BD%93%E6%A8%99%E6%BA%96%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88"
+  },
+  {
+   "name": "e-Stat 統計データ",
+   "url": "https://www.e-stat.go.jp/"
+  },
+  {
+   "name": "不動産情報ライブラリ",
+   "url": "https://www.reinfolib.mlit.go.jp/"
+  },
+  {
+   "name": "gBizINFO 法人活動情報",
+   "url": "https://info.gbiz.go.jp/"
+  },
+  {
+   "name": "アドレス・ベース・レジストリ",
+   "url": "https://dataset.address-br.digital.go.jp/"
+  },
+  {
+   "name": "日本の暦データ",
+   "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+  },
+  {
+   "name": "郵便番号データ",
+   "url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf-zip.html"
+  },
+  {
+   "name": "全国地方公共団体コード",
+   "url": "https://www.soumu.go.jp/denshijiti/code.html"
+  },
+  {
+   "name": "国土地理院",
+   "url": "https://www.gsi.go.jp/bousaichiri/hinanbasho.html"
+  },
+  {
+   "name": "EDINET",
+   "url": "https://disclosure2.edinet-fsa.go.jp/WEEK0010.aspx"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/search/?size=10&tags=%E8%87%AA%E6%B2%BB%E4%BD%93%E6%A8%99%E6%BA%96%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/",
+  "https://www.reinfolib.mlit.go.jp/",
+  "https://info.gbiz.go.jp/",
+  "https://dataset.address-br.digital.go.jp/",
+  "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+  "https://www.post.japanpost.jp/service/search/zipcode/download/utf-zip.html",
+  "https://www.soumu.go.jp/denshijiti/code.html",
+  "https://www.gsi.go.jp/bousaichiri/hinanbasho.html",
+  "https://disclosure2.edinet-fsa.go.jp/WEEK0010.aspx"
+ ],
+ "demo_url": "https://queria.io",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://queria.io"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1483",
+ "image_count": 3,
+ "notes": ""
+}

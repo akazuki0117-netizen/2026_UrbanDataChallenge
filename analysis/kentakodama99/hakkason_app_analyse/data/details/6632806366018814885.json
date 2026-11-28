@@ -1,0 +1,26 @@
+{
+ "id": "6632806366018814885",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806366018814885/?year=2026",
+ "fetched_at": "2026-11-20T15:43:46+00:00",
+ "title": "Michi+",
+ "team": "P-Space",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Michi+」は、移動時間や距離だけでは見つけにくい一人ひとりの状況に合った徒歩ルートを提案するアプリ。子育て中の父親から聞いた「ベビーカーがあると最短ルートでも歩きにくい」という一言から、経路検索は距離や所要時間中心でトイレやバリアフリー設備を含めて道を選ぶことは容易ではないという課題に着目。バリアフリー、トイレ、子連れ等の条件と行政オープンデータを組み合わせ複数の徒歩ルート候補をスコアリングし理由とともに比較、フィードバックを蓄積してサービス改善につなげる。SwiftUIとGoogle Maps Platformで構築し、CodexやClaude等複数のAIレビューと人による確認を重ねて精度向上を図った。",
+ "open_data_items": [
+  {
+   "name": "都立及び区市町村立施設等における車椅子使用者対応トイレのバリアフリー設備情報",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/fukushi/R07/01/3_koukyoshisetsu_barieer_free_wc.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/fukushi/R07/01/3_koukyoshisetsu_barieer_free_wc.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=1216",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

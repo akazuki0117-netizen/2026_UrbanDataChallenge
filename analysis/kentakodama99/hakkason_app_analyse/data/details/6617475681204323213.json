@@ -1,0 +1,42 @@
+{
+ "id": "6617475681204323213",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6617475681204323213/?year=2026",
+ "fetched_at": "2026-11-20T15:31:49+00:00",
+ "title": "朝と夕方の育児お手伝い～ファミリーサポート拡張ツールの提案～",
+ "team": "ほいくママ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自治体のファミリーサポート事業を発展させる近隣子育てサポート・マッチングアプリ。現行のファミリーサポート事業は手続きが煩雑で急な依頼が間に合わず、子育てが一段落した中高年女性も気軽に始められる仕事が少ないという課題に対応。保護者は4ステップ約1分で送迎や見守りを依頼でき、認定サポーターを「ご近所度」スコアで優先表示、世田谷区GISデータの児童館26施設を最寄りの受け渡し拠点として提案する。ボランティアではなく有償の仕事として中高年女性に働く場を提供する設計。Cloudflare Workersで会話1つでコード編集からデプロイまで完結させ、マッチングスコアや需要予測のロジックをWorker上に集約した。",
+ "open_data_items": [
+  {
+   "name": "ファミリーサポートセンター事業実施状況",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t000054d0000000062-4e2717fe385f2be2e4e19a4e4f656fe5-0"
+  },
+  {
+   "name": "区市町村統計表（人口・世帯数・小学校児童数）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000338"
+  },
+  {
+   "name": "児童館・保育園等の施設一覧（世田谷区）",
+   "url": "setagaya.opendata.arcgis.com/datasets/a13ad398483f4144b04cff780cad8917_0"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000338"
+ ],
+ "external_data_urls": [
+  "https://spec.api.metro.tokyo.lg.jp/spec/t000054d0000000062-4e2717fe385f2be2e4e19a4e4f656fe5-0",
+  "setagaya.opendata.arcgis.com/datasets/a13ad398483f4144b04cff780cad8917_0"
+ ],
+ "demo_url": "https://gonkin-nunu-app.tokyo-odh-128.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://gonkin-nunu-app.tokyo-odh-128.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=3101",
+ "image_count": 3,
+ "notes": ""
+}

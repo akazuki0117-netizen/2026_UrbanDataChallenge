@@ -1,0 +1,76 @@
+{
+ "id": "6632809961019356567",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809961019356567/?year=2026",
+ "fetched_at": "2026-11-20T15:44:49+00:00",
+ "title": "もしもストック",
+ "team": "Alleeks",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "世帯構成・居住地・住居形態・現在の備蓄を入力すると首都直下地震後に在宅避難が何日続けられるかを世帯ごとに算出する防災Webアプリ。既存の備蓄目安は「最低3日、推奨1週間」という一般論にとどまり「自分の場合何がどれだけ必要か」を判断しにくいという課題に対応。東京都の町丁目別震度・液状化、電気・水道・ガスの停止と復旧見通し、給水拠点等を統合し発災後の状況をタイムラインで確認、備蓄スコアや品目別の不足量・買い物リストを出典・確度とともに提示する。TypeScriptを全層で採用し判定・経路探索を純粋関数として実装、判定はブラウザ内で完結する設計とし、Claude CodeとCodexを開発工程全体で活用した。",
+ "open_data_items": [
+  {
+   "name": "地域危険度測定調査（第9回）",
+   "url": "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/download/all2.csv"
+  },
+  {
+   "name": "地域危険度測定調査（第9回）町丁目界データ",
+   "url": "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/download/all2.zip"
+  },
+  {
+   "name": "避難場所一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv"
+  },
+  {
+   "name": "避難所一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+  },
+  {
+   "name": "災害時給水拠点一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv"
+  },
+  {
+   "name": "OpenStreetMap 道路データ",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "電力：全想定地震（配電設備被害による停電率）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/6_dennryoku_zennsouteijisinn.csv"
+  },
+  {
+   "name": "通信：全想定地震（不通率）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/7_tuusinn_zennsouteijisinn.csv"
+  },
+  {
+   "name": "上水道：全想定地震（断水率）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/8_jyousuidou_zennsouteijisinn.csv"
+  },
+  {
+   "name": "下水道：全想定地震（管きょ被害率）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/9_gesuidou_zennsouteijisinn.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/download/all2.csv",
+  "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/download/all2.zip",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_area.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv",
+  "https://www.openstreetmap.org/copyright",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/6_dennryoku_zennsouteijisinn.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/7_tuusinn_zennsouteijisinn.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/8_jyousuidou_zennsouteijisinn.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/9_gesuidou_zennsouteijisinn.csv"
+ ],
+ "demo_url": "https://moshimo-stock.tokyo-odh-159.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://moshimo-stock.tokyo-odh-159.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3086",
+ "image_count": 1,
+ "notes": ""
+}

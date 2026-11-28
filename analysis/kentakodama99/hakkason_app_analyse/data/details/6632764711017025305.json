@@ -1,0 +1,76 @@
+{
+ "id": "6632764711017025305",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632764711017025305/?year=2026",
+ "fetched_at": "2026-11-20T15:40:44+00:00",
+ "title": "都民健康ナビ",
+ "team": "STUDIO ROBIN",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都民が自身の健診結果を読み込むだけで弱点数値に合った都の健康サービスを瞬時に提案するアプリ。都内49自治体で年間約1,300件の健康サポート事業が提供されているが十分に届いておらず、都民は「要改善」の通知を受けても具体的にどうすればよいか分からず放置してしまうという課題に対応。健診結果をローカル端末内でOCR解析し基準値と照合、特徴的な数値の検査項目と居住地から行政の健康サービスと自動マッチングする。外部にプライバシー情報を一切送信しない設計。Flutterでクロスプラットフォーム開発し、LLMとの壁打ちで設計書を作成後、記号論理学の記法で論理的矛盾を洗い出す工夫をした。",
+ "open_data_items": [
+  {
+   "name": "健康ステーション_栄養・食生活（食生活を改善しましょう！）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000515"
+  },
+  {
+   "name": "糖尿病対策ヘルシーレシピを作成しました_バランスの良い献立例",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000469"
+  },
+  {
+   "name": "禁煙外来マップ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132098d0000000007"
+  },
+  {
+   "name": "肝炎ウイルス検査実施医療機関一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000052"
+  },
+  {
+   "name": "薬局一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000273"
+  },
+  {
+   "name": "かかりつけ薬局トップページ_健康サポート薬局について",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000593"
+  },
+  {
+   "name": "薬局についての相談窓口・検索_各区保健所等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000594"
+  },
+  {
+   "name": "薬局についての相談窓口・検索_多摩地区各保健所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000595"
+  },
+  {
+   "name": "健康・福祉施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000099"
+  },
+  {
+   "name": "急医療救護所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/b6095e49-f0fa-499c-8c5b-3316ab8b756e/resource/46d3d991-b2f5-48ad-b87f-2089c0e10ccd"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000515",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000469",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132098d0000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000052",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000273",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000593",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000594",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000595",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000099",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/b6095e49-f0fa-499c-8c5b-3316ab8b756e/resource/46d3d991-b2f5-48ad-b87f-2089c0e10ccd"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://drive.google.com/drive/folders/1Kfwn8Io1lMTGZk9Y0wA4zowjPenCkiiV?usp=drive_link",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/drive/folders/1Kfwn8Io1lMTGZk9Y0wA4zowjPenCkiiV?usp=drive_link"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=3767",
+ "image_count": 1,
+ "notes": ""
+}

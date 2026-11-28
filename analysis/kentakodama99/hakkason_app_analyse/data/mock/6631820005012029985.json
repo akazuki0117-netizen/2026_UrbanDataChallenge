@@ -1,0 +1,17 @@
+{
+ "id": "6631820005012029985",
+ "group": "control",
+ "title": "まもチャリ東京",
+ "demo_url": "https://mamochari-tokyo.tokyo-odh-456.workers.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6631820005012029985.png",
+ "status": "動く",
+ "form": "地図アプリ",
+ "clear_in_5s": "はい：ルート検索と候補 3 件の比較",
+ "n_features": 3,
+ "gen_ai": "なし",
+ "map_viz": "あり",
+ "maturity": "プロトタイプ",
+ "note": "対応 6 区と明記"
+}

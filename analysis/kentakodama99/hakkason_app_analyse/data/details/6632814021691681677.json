@@ -1,0 +1,26 @@
+{
+ "id": "6632814021691681677",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632814021691681677/?year=2026",
+ "fetched_at": "2026-11-20T15:46:37+00:00",
+ "title": "そだつみち",
+ "team": "ミセスミヤギ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「妊娠中でも歩きやすい道で、少し遠回りでも人通りのある道を通りたい」等の一文からその人の事情に合った歩行ルートを提案するサービス。既存の経路検索はユーザーが身体属性をあらかじめ登録する設計だが配慮が必要なのは恒常的な属性ではなくその日その時の状況で、複数条件が重なると既存サービスはどれか一つにしか応えられないという課題に対応。国土交通省の歩行空間ネットワークデータの屋根の有無・段差・勾配等に太陽位置から推定した日射の受けやすさを加え自然言語をコストに変換する。生成AIは経路計算自体は行わず入力文の解釈と選定理由の説明のみを担当。重み付きダイクストラ法を自前実装し、歩いた後のフィードバックを次回の重み付けに反映する設計とした。",
+ "open_data_items": [
+  {
+   "name": "歩行空間ネットワークデータ（東京都渋谷区・渋谷駅、 千駄ヶ谷駅周辺／東京都新宿区・新宿駅周辺） 国土交通省／ほこナビDP オープンデータカタログサイト",
+   "url": "https://ckan.hokonavi.go.jp/dataset/nwd_shibuya_sendagaya_shinjuku"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://ckan.hokonavi.go.jp/dataset/nwd_shibuya_sendagaya_shinjuku"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3325",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

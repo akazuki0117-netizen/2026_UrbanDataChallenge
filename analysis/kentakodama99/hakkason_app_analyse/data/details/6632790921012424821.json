@@ -1,0 +1,46 @@
+{
+ "id": "6632790921012424821",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632790921012424821/?year=2026",
+ "fetched_at": "2026-11-20T15:42:04+00:00",
+ "title": "TIUC: Today is under construction.",
+ "team": "TIUC: Today is under construction.",
+ "member_count": 5,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "「TIUC」は、街なかの誤った外国語表記を市民の力で直すシビックテックアプリ。AI翻訳をそのまま印刷した「変な外国語表記」が街に溢れ、誰かが気づかない限り誤訳が残り続けるという課題に対応。誰でも表記を撮影・投稿でき、その言語のネイティブが違和感の有無を判定、精通者が修正と解説を付ける3段階の参加型キュレーションで、確定した翻訳は店舗に還元される。Cloudflare（Workers・D1・R2・Workers AI）を採用し画像配信コストを抑制。生成AIは投稿画像の不適切判定などの下ごしらえに限定し、翻訳の正誤判断は人が担う。",
+ "open_data_items": [
+  {
+   "name": "出入国在留管理庁「令和7年末現在における在留外国人数について」",
+   "url": "https://www.moj.go.jp/isa/publications/press/13_00062.html"
+  },
+  {
+   "name": "東京都の統計「外国人人口」",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/gaikoku/ga-index.htm"
+  },
+  {
+   "name": "東京都観光データカタログ（訪都外国人旅行者データ）",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "OpenStreetMap（地図表示）© OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.moj.go.jp/isa/publications/press/13_00062.html",
+  "https://www.toukei.metro.tokyo.lg.jp/gaikoku/ga-index.htm",
+  "https://data.tourism.metro.tokyo.lg.jp/",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://tiuc.tokyo-odh-135.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tiuc.tokyo-odh-135.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4134",
+ "image_count": 3,
+ "notes": ""
+}

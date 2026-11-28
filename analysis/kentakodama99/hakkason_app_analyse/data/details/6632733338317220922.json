@@ -1,0 +1,31 @@
+{
+ "id": "6632733338317220922",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632733338317220922/?year=2026",
+ "fetched_at": "2026-11-20T15:39:32+00:00",
+ "title": "おうち安全ウォーク",
+ "team": "オッポレ乳幼児を守り隊",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "0〜5歳の保護者向け事故予防Webアプリ「おうち安全ウォーク」。東京消防庁の事故データは事故名（「落ちる」「やけど」等）で分かれているため椅子が関係する事故を知るには複数の表を横断する必要があるという課題に対応。年齢を選びリビング等5つの場所を見て回りながら家にある物を選ぶと、東京消防庁の救急搬送データで上位要因になった事故と搬送人数を逆引きし今日実行する対策を1件選ぶ。確認項目は全56問、緊急時は119・#7119・#8000へ案内し個人情報は保存しない。令和4年の公式XLSX8ファイルを年齢×事故9種×上位要因154行の索引に変換し、保護者5名中3名が24時間以内に実際に家の中を変えた実証結果を持つ。",
+ "open_data_items": [
+  {
+   "name": "救急搬送データからみる日常生活の事故（令和4年）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://ouchi-safety-walk.tokyo-odh-173.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://ouchi-safety-walk.tokyo-odh-173.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2594",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+ "id": "6632776769651696336",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632776769651696336/?year=2026",
+ "fetched_at": "2026-11-20T15:41:23+00:00",
+ "title": "TOKYO Local Concierge",
+ "team": "box4443",
+ "member_count": 7,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「地域生活コンシェルジュ」は、転入者・居住者を対象に言葉で質問するだけで施設・公衆便所・ごみ分別等の地域情報を案内するAIチャットサービス。東京都は若年層人口が多いがその後定住する人の割合は限られ、地域への繋がり・愛着の薄さが要因の一つという課題に対応。複数のWebサイトに分散した情報を質問内容に応じて検索しオープンデータに基づく候補と出典を提示する。Phase2ではプッシュ型情報提供、Phase3では利用状況の匿名分析を行政施策へフィードバックする循環を構想。Vue 3、TypeScript、HonoでCloudflare Workers/D1/Workers AIに構築し、OpenAI Codexを開発パートナーとして活用した。",
+ "open_data_items": [
+  {
+   "name": "地域のイベント会場（貸出可能施設）一覧",
+   "url": "https://www.city.shinjuku.lg.jp/seikatsu/community01_000104.html"
+  },
+  {
+   "name": "新宿区の避難所情報",
+   "url": "https://data.odp.jig.jp/viewcsv/jp/tokyo/shinjuku/715.csv"
+  },
+  {
+   "name": "新宿区「ごみの分別方法一覧」新宿区のゴミの分別方法一覧",
+   "url": "https://www.city.shinjuku.lg.jp/content/000420404.csv"
+  },
+  {
+   "name": "公衆トイレ一覧（自治体標準データセット）",
+   "url": "https://www.city.shinjuku.lg.jp/content/000399974.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.shinjuku.lg.jp/seikatsu/community01_000104.html",
+  "https://data.odp.jig.jp/viewcsv/jp/tokyo/shinjuku/715.csv",
+  "https://www.city.shinjuku.lg.jp/content/000420404.csv",
+  "https://www.city.shinjuku.lg.jp/content/000399974.csv"
+ ],
+ "demo_url": "https://regional-life-concierge-main-production.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://regional-life-concierge-main-production.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1621",
+ "image_count": 3,
+ "notes": ""
+}

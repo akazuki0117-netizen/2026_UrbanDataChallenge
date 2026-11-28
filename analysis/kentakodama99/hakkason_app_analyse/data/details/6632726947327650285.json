@@ -1,0 +1,56 @@
+{
+ "id": "6632726947327650285",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632726947327650285/?year=2026",
+ "fetched_at": "2026-11-20T15:39:24+00:00",
+ "title": "みんなの安心樹木マップ",
+ "team": "ミキシルベ",
+ "member_count": 7,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "木の位置・樹種・注意情報をデジタルツインで表示し自然を見ることを促進するサービス。高度経済成長期に集中植栽された樹木が老木・大木化し年5000本以上の倒木が発生する一方、樹木医や管理者が1本1本管理するのは数千本以上ある公園では大変という課題に対応。公園樹木オープンデータや健全性データにPLATEAU等を重ね2D/3Dのデジタルツイン表示を実現、市民が特定樹木を登録・共有できる「マイツリーマップ」機能で市民参加による情報の透明性向上とリスク管理の補完を狙う。React + TypeScript（Vite）とAWSのサーバーレスサービスで構築し、GeminiやNotebookLMをサービス案の計画に利用しつつアプリ内では生成AIを使わない設計とした。",
+ "open_data_items": [
+  {
+   "name": "代々木公園点群データ",
+   "url": "https://3dview.tokyo-digitaltwin.metro.tokyo.lg.jp/#share=s-f0FzKfPuz9dZLAL1"
+  },
+  {
+   "name": "上野恩賜公園 点群データ",
+   "url": "https://3dview.tokyo-digitaltwin.metro.tokyo.lg.jp/#share=s-dajDVk1BVADgsUfj"
+  },
+  {
+   "name": "東京都都市整備局　緑のオープンデータ　ファイル一覧",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/green_filelist.pdf"
+  },
+  {
+   "name": "玉川上水旧水路緑道 点群データ",
+   "url": "https://3dview.tokyo-digitaltwin.metro.tokyo.lg.jp/#share=s-ajD3vGX5RySq7KDm"
+  },
+  {
+   "name": "街路樹（都道：多摩地域）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_tama_gairoju.csv"
+  },
+  {
+   "name": "街路樹（都道：23区）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv"
+  },
+  {
+   "name": "3D都市モデル(Project PLATEAU)",
+   "url": "https://front.geospatial.jp/plateau_portal_site/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://3dview.tokyo-digitaltwin.metro.tokyo.lg.jp/#share=s-f0FzKfPuz9dZLAL1",
+  "https://3dview.tokyo-digitaltwin.metro.tokyo.lg.jp/#share=s-dajDVk1BVADgsUfj",
+  "https://data.storage.data.metro.tokyo.lg.jp/toshiseibi/green_filelist.pdf",
+  "https://3dview.tokyo-digitaltwin.metro.tokyo.lg.jp/#share=s-ajD3vGX5RySq7KDm",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_tama_gairoju.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv",
+  "https://front.geospatial.jp/plateau_portal_site/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=1490",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

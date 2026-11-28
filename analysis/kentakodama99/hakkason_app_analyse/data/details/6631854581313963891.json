@@ -1,0 +1,31 @@
+{
+ "id": "6631854581313963891",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631854581313963891/?year=2026",
+ "fetched_at": "2026-11-20T15:36:04+00:00",
+ "title": "トイレナビ",
+ "team": "便利屋",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "体調を崩した際にいますぐトイレを探すツールと、外国人が緊急で救急車を呼びたい場合に多言語対応で119番に伝えられるサービス。急な体調不良時に最寄りトイレを今すぐ探したい悩みと、多国籍の人でも119番にかけた際に対応できるサービスが必要という課題に対応。アプリを開いた瞬間に半径1.5km内の最短トイレを探し、119番にかけた後に聞かれる内容を選択すると自動的に日本語音声を出す。GoogleMapSearchAPIとGeocodingAPIでPythonでオープンデータを収集しCloudflare Workerで構築、claude codeで開発した。",
+ "open_data_items": [
+  {
+   "name": "東京都のトイレデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search?q=%E3%83%88%E3%82%A4%E3%83%AC&rows=100"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search?q=%E3%83%88%E3%82%A4%E3%83%AC&rows=100"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://toire-navi.opendatahackathon2026.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://toire-navi.opendatahackathon2026.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=5339",
+ "image_count": 2,
+ "notes": ""
+}

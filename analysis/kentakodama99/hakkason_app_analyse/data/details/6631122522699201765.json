@@ -1,0 +1,31 @@
+{
+ "id": "6631122522699201765",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631122522699201765/?year=2026",
+ "fetched_at": "2026-11-20T15:35:06+00:00",
+ "title": "cueflag（キューフラグ）",
+ "team": "RAMMY",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「cueflag」は住んでいる地区と家族情報から今使える制度を調べて案内する子育て支援ナビ。0歳児でも居住区が違えば使える制度は変わり、制度を知っていても「申請する時間がない」「方法が複雑」と感じて利用に至らない人がいるという課題に対応。簡単入力で情報を入れると足りない分だけ1〜2問聞き返して候補を出し、各制度に申請所要時間や必要書類を表示、「実際に申請した先輩家庭の声」も添えて共有できる。こどもDX子育て支援制度レジストリの0〜6歳向け7,812件をまとめ全件に出典URLと更新日を付け毎晩公式ページを巡回する。判定は間違えられないためSQLだけで行いAIは入口の自然文読み取りと出口の説明文に限定、Cloudflare Workers AI（gpt-oss-20b）で条件抽出・説明文作成・巡回ページ読み取りを行った。",
+ "open_data_items": [
+  {
+   "name": "こどもDX 子育て支援制度レジストリ（東京都・0〜6歳）JSON",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+ ],
+ "demo_url": "https://cueflag-voices.cueflag-voices.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://cueflag-voices.cueflag-voices.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=894",
+ "image_count": 3,
+ "notes": ""
+}

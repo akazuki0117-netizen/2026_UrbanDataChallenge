@@ -1,0 +1,72 @@
+{
+ "id": "6630239824527870588",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630239824527870588/?year=2026",
+ "fetched_at": "2026-11-20T15:34:19+00:00",
+ "title": "Tokyo Life ROI",
+ "team": "トーキョーララライフ",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京で暮らす人が「今日どう過ごすか」を自分の価値観で選ぶための意思決定支援サービス「Tokyo Life ROI」。検索やランキングで見つかるのは「多くの人に人気」「近い」「安い」といった共通の正解であり、本当の正解は子ども連れか疲れているかなど日によって変わるという課題に対応。自然な言葉で希望を入力するとAIが時間・費用・混雑・疲労等の重みに整理し844件のオープンデータ候補を評価、My ROI（効率）とMy QOL（満足）で特徴の異なる3案を提示する。体験後の満足度を次回へ反映し使うほど個人最適化される仕組み。Angular 21/TypeScriptで構築し、Cloudflare Workers AI（Qwen3 30B A3B）で嗜好抽出や推薦理由整理を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都 公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "東京の公立図書館情報 東京都公立図書館オールガイド",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000016"
+  },
+  {
+   "name": "TOKYO WALKING MAP",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "都立文化施設におけるエレベーターのバリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000034"
+  },
+  {
+   "name": "文京区 スポーツ施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d3100000004"
+  },
+  {
+   "name": "文京区 児童館",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213040002"
+  },
+  {
+   "name": "国土交通省 街区レベル位置参照情報",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  },
+  {
+   "name": "板橋区 イベント情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000141"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000016",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t313360d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d3100000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0213040002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131199d0000000141"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/isj/"
+ ],
+ "demo_url": "https://demo.tokyo-life-roi.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://demo.tokyo-life-roi.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=490",
+ "image_count": 3,
+ "notes": ""
+}

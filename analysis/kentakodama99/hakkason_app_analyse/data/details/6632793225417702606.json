@@ -1,0 +1,46 @@
+{
+ "id": "6632793225417702606",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632793225417702606/?year=2026",
+ "fetched_at": "2026-11-20T15:42:15+00:00",
+ "title": "トスポコ",
+ "team": "けーぞう",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「トスポコ」は、小中高生が放課後や休日の単発スポーツ体験を地図で探しワンコイン500円で参加できるプラットフォーム。部活の減少で運動機会が減る一方、既存の地域移行支援は親の負担が大きく公的イベントも一元で見れず区や施設から個別に探す必要があるという課題に対応。学校やスポーツ施設の空き時間データを一元化し指導者がイベントを作成、子どもが地図から発見し保護者が1タップ決済、QRチェックインで見守りできる。指導者にはボランティア依存を脱却し最低賃金に即した報酬を検討する持続可能な設計。HTML/CSS/JavaScriptとMapLibre GL JSで構築し、Cursor・GitHub Copilot・Google Geminiを地図描画やコード実装に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都における公立スポーツ施設(令和7年度版）",
+   "url": "https://www.sports-tokyo-info.metro.tokyo.lg.jp/seisaku/sports_facility_r4/data/sports_facility_r07_01.pdf"
+  },
+  {
+   "name": "東京都公立スポー ツ施設令和7年度版",
+   "url": "https://www.sports-tokyo-info.metro.tokyo.lg.jp/seisaku/sports_facility_r4/data/sports_facility_r07_01.pdf"
+  },
+  {
+   "name": "東京都公立小学校住所一覧",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_shougakkou_address"
+  },
+  {
+   "name": "東京都公立中学校住所一覧",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_chuugakkou_address"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.sports-tokyo-info.metro.tokyo.lg.jp/seisaku/sports_facility_r4/data/sports_facility_r07_01.pdf",
+  "https://www.sports-tokyo-info.metro.tokyo.lg.jp/seisaku/sports_facility_r4/data/sports_facility_r07_01.pdf",
+  "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_shougakkou_address",
+  "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_chuugakkou_address"
+ ],
+ "demo_url": "https://main.tospoko.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://main.tospoko.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=640",
+ "image_count": 3,
+ "notes": ""
+}

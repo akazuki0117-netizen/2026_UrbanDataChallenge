@@ -1,0 +1,52 @@
+{
+ "id": "6632808174851233358",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808174851233358/?year=2026",
+ "fetched_at": "2026-11-20T15:44:15+00:00",
+ "title": "TANZAKU こそだて",
+ "team": "uni",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TANZAKUこそだて」は、転入日と子の生年月日を入れるだけで使える支援制度と申請の締切を示し窓口まで伴走するAIエージェント。東京の子育て支援は約7,800制度あるが前の区は管轄外で新しい区は前歴を把握できず、現状の制度レジストリでAIが期限を読めるのは1.1%にとどまるという課題に対応。国の制度規則をベースに置くことでレジストリに期限がなくても61自治体すべてで期限を返し伴走する。調べなくて済んだ制度と浮いた時間を画面に表示し続ける「手取り時間」の実感を作る。答えられなかった質問は「短冊」として記録し都へ報告する。Cloudflare Workers＋D1＋Assetsで個人情報をサーバに預けない設計とし、OpenCodeとClaude Codeで期限文の起点・日数抽出等を実装した。",
+ "open_data_items": [
+  {
+   "name": "東京都子育て支援制度レジストリ（0-6歳・JSON）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json"
+  },
+  {
+   "name": "東京都子育て支援制度レジストリ（0-6歳・XLSX）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.xlsx"
+  },
+  {
+   "name": "東京都子育て支援制度レジストリ スキーマ定義（README）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_README.pdf"
+  },
+  {
+   "name": "東京都子育て支援制度レジストリ（7-18歳・XLSX）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_7-18_tokyo.xlsx"
+  },
+  {
+   "name": "東京都オープンデータカタログ CKAN API（organization_list）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/api/3/action/organization_list"
+  },
+  {
+   "name": "東京都オープンデータカタログ CKAN API（package_search／子育て関連）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/api/3/action/organization_list",
+  "https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search"
+ ],
+ "external_data_urls": [
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.json",
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.xlsx",
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_README.pdf",
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_7-18_tokyo.xlsx"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=262",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

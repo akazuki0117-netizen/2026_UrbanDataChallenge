@@ -1,0 +1,67 @@
+{
+ "id": "6632800281711646586",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632800281711646586/?year=2026",
+ "fetched_at": "2026-11-20T15:42:55+00:00",
+ "title": "どこ育Tokyo",
+ "team": "ばいきん",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「どこ育Tokyo」は、東京で住む場所を決める人のためのツール。保育所待機児童は減ったが問題は小学校入学時の学童需要に移っただけで、都内48自治体で学童需要が5.9%増える一方受け皿が追いつかず、待機児童数だけでは49自治体中19がゼロで順位が付かないという課題に対応。生まれ年月を選ぶと小1になる年度の東京49自治体を比較でき、主指標を待機児童数から顕在需要率（登録＋待機÷児童数）に替えることで連続的な順位付けを可能にした。サーバーもDBもAPIキーも持たずすべての計算がブラウザ内で完結。React19＋TypeScript＋Viteで構築し、Claude Codeに全自治体を集計させたところ主指標の欠陥が判明したという検証プロセスを持つ。",
+ "open_data_items": [
+  {
+   "name": "学童クラブ事業の区市町村別実施状況",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000344"
+  },
+  {
+   "name": "教育人口等推計（令和7年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000193"
+  },
+  {
+   "name": "教育人口等推計（令和6年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000189"
+  },
+  {
+   "name": "教育人口等推計（令和5年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000178"
+  },
+  {
+   "name": "公立学校統計調査報告書【東京都公立学校一覧】（令和7年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191"
+  },
+  {
+   "name": "公立学校統計調査報告書【東京都公立学校一覧】（令和6年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000186"
+  },
+  {
+   "name": "公立学校統計調査報告書【東京都公立学校一覧】（令和5年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000176"
+  },
+  {
+   "name": "国土数値情報（行政区域データ）",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000344",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000193",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000189",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000178",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000191",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000186",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000176"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/"
+ ],
+ "demo_url": "https://tokyo-od-hackathon-2026.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-od-hackathon-2026.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=887",
+ "image_count": 3,
+ "notes": ""
+}

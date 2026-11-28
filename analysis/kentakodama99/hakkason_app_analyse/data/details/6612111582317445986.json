@@ -1,0 +1,62 @@
+{
+ "id": "6612111582317445986",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6612111582317445986/?year=2026",
+ "fetched_at": "2026-11-20T15:31:44+00:00",
+ "title": "東京48ネット（転んだ夜、48時間以内に手術できる病院へ）",
+ "team": "骨折治療センター",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "救急搬送の医療機関区分に「骨折」を加える提言型プロダクト。東京では年6万人超の高齢者が転倒で救急搬送され、大腿骨近位部骨折は48時間以内の手術がその後の歩行機能を左右するが、現実には手術まで平均3.2日かかり救急搬送先の区分に骨折の項目がないという課題に対応。国の緊急整復固定加算の届出病院62施設を抽出して地図化し、心臓・脳卒中と同じ型で新制度も新予算も不要な「区分の1行追加」を提案する。救急隊端末に早期手術可否の列を表示するだけのシンプルな実装案。施設基準の条文や搬送先分類の一次資料調査にClaudeを活用し、複数ソースでの一致確認を徹底した。",
+ "open_data_items": [
+  {
+   "name": "東京消防庁「救急搬送データからみる日常生活の事故（令和2年）」（東京都オープンデータカタログ・CC BY）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000012"
+  },
+  {
+   "name": "関東信越厚生局「保険医療機関等の施設基準の届出受理状況（届出受理医療機関名簿・東京都）」",
+   "url": "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/chousa/kijyun.html"
+  },
+  {
+   "name": "厚生労働省「令和6年度DPCの評価・検証等に係る調査（退院患者調査）結果報告」",
+   "url": "https://www.mhlw.go.jp/stf/shingi2/newpage_00203.html"
+  },
+  {
+   "name": "東京消防庁「救急隊による救急搬送先医療機関の分類、リスト及び選定基準」",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/kouhyou/seido/syobyo_besshi.html"
+  },
+  {
+   "name": "東京都CCU連絡協議会「東京都CCUネットワーク加盟施設一覧」",
+   "url": "https://www.ccunet-tokyo.jp/ccu/affiliation"
+  },
+  {
+   "name": "厚生労働省「NDBオープンデータ」（東京都の手術件数1.7万件・加算算定率の実測に使用）",
+   "url": "https://www.mhlw.go.jp/ndb/opendatasite/index.html"
+  },
+  {
+   "name": "英国 data.gov.uk「National Hip Fracture Database annual report 2024」（海外前例）",
+   "url": "https://www.data.gov.uk/dataset/4726da8e-72ad-4e34-9180-d7b7c2fa261e/national-hip-fracture-database-annual-report-2024"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000012"
+ ],
+ "external_data_urls": [
+  "https://kouseikyoku.mhlw.go.jp/kantoshinetsu/chousa/kijyun.html",
+  "https://www.mhlw.go.jp/stf/shingi2/newpage_00203.html",
+  "https://www.tfd.metro.tokyo.lg.jp/kouhyou/seido/syobyo_besshi.html",
+  "https://www.ccunet-tokyo.jp/ccu/affiliation",
+  "https://www.mhlw.go.jp/ndb/opendatasite/index.html",
+  "https://www.data.gov.uk/dataset/4726da8e-72ad-4e34-9180-d7b7c2fa261e/national-hip-fracture-database-annual-report-2024"
+ ],
+ "demo_url": "https://egawa-48net-2026.surge.sh",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://egawa-48net-2026.surge.sh"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4412",
+ "image_count": 3,
+ "notes": ""
+}

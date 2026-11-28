@@ -1,0 +1,62 @@
+{
+ "id": "6632812324613171273",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812324613171273/?year=2026",
+ "fetched_at": "2026-11-20T15:46:08+00:00",
+ "title": "こかげ",
+ "team": "SG-DAN",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「こかげ」は、ベビーカーで移動する赤ちゃんと親のためのナビアプリ。地面に近い赤ちゃんの高さの気温は大人より7℃高く日なたのベビーカー内は50℃に達するが、天気予報の気温や親の体感とは別物という課題に対応。PLATEAUの3D都市モデルと太陽位置から時刻別の建物影を計算し独自指標「ベビーカー気温」で街路ごとの暑熱負担をA〜Eで表示、階段や2cm超の段差を避けるルートも提案し「日なた予測時間」を最短ルートとの違いとして数字で示す。授乳・おむつ替えスポットの立ち寄り提案も実装。TypeScript・React・ViteとMapLibre GL JSで構築し、codex(5.6 sol)で実装しClaude Design(Fable5)でスライドを制作した。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）北区（2025年度）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13117-kita-ku-2025"
+  },
+  {
+   "name": "歩行空間ネットワークデータ（赤羽駅周辺）",
+   "url": "https://ckan.hokonavi.go.jp/dataset/nwd_akabane_station"
+  },
+  {
+   "name": "暑さ指数（WBGT）予測値等 電子情報提供サービス／実況値・予測値ダウンロード",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "赤ちゃん・ふらっと一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000347"
+  },
+  {
+   "name": "OpenStreetMapデータ",
+   "url": "https://www.openstreetmap.org/export"
+  },
+  {
+   "name": "東京都デジタルツイン点群データ（区部・多摩・島しょ）",
+   "url": "区部: https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024 ; 多摩: https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000020 ; 島しょ: https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000019"
+  },
+  {
+   "name": "基盤地図情報 数値標高モデル（DEM）",
+   "url": "https://service.gsi.go.jp/kiban/app/help/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000347",
+  "区部: https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024 ; 多摩: https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000020 ; 島しょ: https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000019"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-13117-kita-ku-2025",
+  "https://ckan.hokonavi.go.jp/dataset/nwd_akabane_station",
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://www.openstreetmap.org/export",
+  "https://service.gsi.go.jp/kiban/app/help/"
+ ],
+ "demo_url": "https://kokage-frontend.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kokage-frontend.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1514",
+ "image_count": 1,
+ "notes": ""
+}

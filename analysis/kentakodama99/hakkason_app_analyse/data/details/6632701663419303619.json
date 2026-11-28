@@ -1,0 +1,42 @@
+{
+ "id": "6632701663419303619",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632701663419303619/?year=2026",
+ "fetched_at": "2026-11-20T15:39:05+00:00",
+ "title": "猫から異議あり",
+ "team": "Asterism",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「猫から異議あり。」は、猫と暮らす人向けの対話型防災セルフチェックサービス。飼い主は避難所がペットを受け入れるか、フードが何日分必要かなど自分と猫に置き換えた具体的な備えができておらず、防災情報は普段自分ごととして触れる機会が少ないという課題に対応。「避難所まで行ける？」「ごはんは足りる？」という3つの問いを猫の視点から投げかけ、回答に応じて猫が皮肉やほっとした反応を返すことで防災を自分事として考えるきっかけを作る。診断後は避難所ルート確認やフード備蓄確認など今日できる行動をひとつ選べる。React・TypeScript・ViteでCloudflare Pagesに配信し、防災情報の解釈自体は生成AIに任せず静的JSON化して外部API障害の影響を抑えている。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "国土数値情報 行政区域データ（N03）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "日本郵便 住所の郵便番号",
+   "url": "https://www.post.japanpost.jp/service/search/zipcode/download/utf-zip.html?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html?utm_source=chatgpt.com",
+  "https://www.post.japanpost.jp/service/search/zipcode/download/utf-zip.html?utm_source=chatgpt.com"
+ ],
+ "demo_url": "https://neko-igi.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://neko-igi.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4721",
+ "image_count": 3,
+ "notes": ""
+}

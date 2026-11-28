@@ -1,0 +1,36 @@
+{
+ "id": "6632779563415452445",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632779563415452445/?year=2026",
+ "fetched_at": "2026-11-20T15:41:30+00:00",
+ "title": "KUMA ALERT TOKYO",
+ "team": "SANKARA33",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "クマによる人身・農作物被害防止のため、出没履歴×時間×天候×地形×人の移動×周辺施設のデータから「今この場所はクマに遭遇する可能性が高いか」を判定するアプリ。「クマを探すアプリ」ではなく生ごみや放置果実などクマを人里に近づける原因を住民に知らせ「クマを人里に近づけないアプリ」を目指すという課題設定。時間帯ごとのリスクを予測し「今日のクマ予報」として提示することで、過去の出没情報の閲覧にとどまらない予防的な案内を行う。スマートフォンの位置情報とオープンデータを統合しAI分析と組み合わせる構成とし、開発にはCursorを用いた。",
+ "open_data_items": [
+  {
+   "name": "東京都ツキノワグマ目撃等情報マップ ～TOKYOくまっぷ～",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/nature/animals_plants/bear/data"
+  },
+  {
+   "name": "気象庁・気象データ",
+   "url": "https://www.data.jma.go.jp/risk/obsdl/index.php"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kankyo.metro.tokyo.lg.jp/nature/animals_plants/bear/data",
+  "https://www.data.jma.go.jp/risk/obsdl/index.php"
+ ],
+ "demo_url": "https://it-social.net/kuma/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://it-social.net/kuma/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=511",
+ "image_count": 2,
+ "notes": ""
+}

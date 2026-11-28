@@ -1,0 +1,31 @@
+{
+ "id": "6625982127319341426",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625982127319341426/?year=2026",
+ "fetched_at": "2026-11-20T15:32:40+00:00",
+ "title": "行政手続き「書かせない度」可視化ランキング",
+ "team": "ssuga",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "練馬区が公開する行政手続情報オープンデータから361件の手続きを取得し、必要書類数・窓口数・オンライン申請可否で採点して面倒な順に並べ替えるWebアプリ。練馬区の手続きのうち電子申請対応は7.8%にとどまり、どの手続きにどれだけ手間がかかるかは区のサイトを1ページずつ開くまで分からないという課題に対応。カテゴリを選ぶと各手続きがS〜Dの難易度ランクで一覧表示され、持ち物リストと同カテゴリ平均との比較グラフも見られる。行政担当者には同カテゴリで書類が少ない手続きを簡素化の手本として自動提示する。生成AIを使わずスコア計算根拠をすべてコード上で公開している点が特徴。Next.jsのISR構成でデータベースを持たない設計とし、Claude Codeを実装に使った。",
+ "open_data_items": [
+  {
+   "name": "行政手続情報（練馬区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000117"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000117"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://kakasenai-do-ranking.tokyo-odh-039.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kakasenai-do-ranking.tokyo-odh-039.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2559",
+ "image_count": 3,
+ "notes": ""
+}

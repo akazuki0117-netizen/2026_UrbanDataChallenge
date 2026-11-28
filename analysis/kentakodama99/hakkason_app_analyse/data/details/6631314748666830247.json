@@ -1,0 +1,52 @@
+{
+ "id": "6631314748666830247",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631314748666830247/?year=2026",
+ "fetched_at": "2026-11-20T15:35:22+00:00",
+ "title": "みずのみち",
+ "team": "ヤマノウチ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都内836か所の給水スポットと街区ごとの暑さの濃淡を重ねて表示するWebアプリ。都は給水スポットを整備しているが猛暑日に外を歩く人がそれを知り向かう判断をする手段がなく、既存の熱中症情報は「危険です」と伝えるだけで次にどこへ向かうべきかを示さないという課題に対応。環境省の暑さ指数（都内4〜6地点の観測値）をPLATEAUの建物密度・高さ・空地から街区ごとに補正し「どの道を通って向かうか」を判断できるようにする。皇居周辺は涼しく密集市街地は暑いと可視化される結果を確認。Cloudflare WorkersでHonoを用いて暑さ指数のプロキシ・キャッシュを構築し、Claudeで設計・実装を相談しつつ数値検証を徹底した。",
+ "open_data_items": [
+  {
+   "name": "Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "実況値CSV",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "情報提供地点マスタ",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "国土交通省「PLATEAU」3D都市モデル 東京都千代田区 2023年度",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2023"
+  },
+  {
+   "name": "国土地理院「地理院タイル（淡色地図）」",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+ ],
+ "external_data_urls": [
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2023",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://tokyo-mizu-map.aoki-dev.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-mizu-map.aoki-dev.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3318",
+ "image_count": 3,
+ "notes": ""
+}

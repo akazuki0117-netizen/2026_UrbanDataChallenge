@@ -1,0 +1,47 @@
+{
+ "id": "6632788861013445796",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632788861013445796/?year=2026",
+ "fetched_at": "2026-11-20T15:41:58+00:00",
+ "title": "今通れる東京",
+ "team": "今通れる東京",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "現在地からの避難場所提案、QRコードでの集合場所共有、災害状況投稿の3機能を持つアプリ。上京した身として慣れていない土地での災害時避難への不安と、東日本大震災の際に想定避難経路の安全が保障されるとは限らないと経験したことに着目。リアルタイムの状況共有と現在地をもとにした避難場所提案を行う。Vite+JavaScript+MapLibre GL JSと地理院タイルで地図描画からデータまでオープンな技術で統一し、経路計算は実績あるOSSのOpenRouteServiceに任せた。",
+ "open_data_items": [
+  {
+   "name": "地理院タイル(淡色地図)",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "指定緊急避難場所データ(千代田区・震災)",
+   "url": "https://hinanmap.gsi.go.jp/"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査(第9回)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "令和2年国勢調査小地域(町丁目)境界データ",
+   "url": "https://www.e-stat.go.jp/gis"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://hinanmap.gsi.go.jp/",
+  "https://www.e-stat.go.jp/gis"
+ ],
+ "demo_url": "https://ima-tooreru-tokyo.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://ima-tooreru-tokyo.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=1949",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,52 @@
+{
+ "id": "6628273578715937058",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628273578715937058/?year=2026",
+ "fetched_at": "2026-11-20T15:33:25+00:00",
+ "title": "地域可視化システムの開発と高校の副教材としての利用の提案",
+ "team": "CLUP Lab.",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "日本語の指示だけで地域のオープンデータを3D地図上に可視化できる地域可視化システム。生産年齢人口の急減で地域の担い手不足が進む一方、高校の必修科目「地理総合」の授業では決められた観点での地図読み取りに留まりがちで、地元の魅力を多面的に議論する機会を得にくいという課題に対応。利用者が「〇〇を表示して」と自然文で指示するだけで人口・土地利用・交通・防災等のデータを自由に重ね合わせて探索でき、浮いた時間を地元の魅力発見や将来を議論するグループ討議に充てられる。SaaSと出張授業の二形態で提供し、データはS3上にApache Icebergで保持、日本語指示をLLMでSQLに変換する。",
+ "open_data_items": [
+  {
+   "name": "緑のオープンデータ（GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "土地利用現況調査GISデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019"
+  },
+  {
+   "name": "都市計画決定情報GISデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000028"
+  },
+  {
+   "name": "国土数値情報（行政区域データ）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html"
+  },
+  {
+   "name": "国土数値情報（鉄道データ）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html"
+  },
+  {
+   "name": "国土数値情報（バスルートデータ）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N07-2022.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000028"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N07-2022.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2233",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

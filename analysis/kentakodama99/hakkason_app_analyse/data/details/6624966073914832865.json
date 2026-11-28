@@ -1,0 +1,66 @@
+{
+ "id": "6624966073914832865",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6624966073914832865/?year=2026",
+ "fetched_at": "2026-11-20T15:32:23+00:00",
+ "title": "国や自治体の政策や財政を分かりやすく可視化",
+ "team": "東京予算ラボ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京予算ラボ」は、令和8年度東京都一般会計当初予算をもとに、9分野の配分を総額固定のまま操作し、政策の優先順位とトレードオフを体験する非公式Webサービス。約10兆円規模の予算は公開されていても、増額には何を減らす必要があるかを自分事として捉えにくく、予算資料・議会資料・意見募集・請願陳情がそれぞれ別に存在し理解から参加までに距離があるという課題に対応。ある分野を増やせば別の分野を減らす必要がある設計で財源の限界を体感でき、一次資料に基づく編成過程の確認や、検討した意見を整理して意見募集・請願窓口へ進める導線も備える。予算額や所管・窓口はAIの回答のみで確定せず、原資料を人が確認し出典と確認日を記録している。",
+ "open_data_items": [
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／一般会計 歳入歳出予算",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/56252f28-9d24-4f06-b251-68ce7128d0f6"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／一般歳出 目的別内訳",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/af972922-9ecd-4986-b199-2def37489306"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／一般会計歳出予算 性質別内訳",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/d1ce62ab-46a1-49a7-9f4b-60b93d0c0d3c"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／一般会計 歳入内訳",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/b792a843-3092-4ca3-ba8d-5d383eb333d3"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／都税内訳（当初予算）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/f85e20f6-7b29-4033-bd29-6d8197203978"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／基金の残高推移（普通会計ベース）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/d9443721-6f64-49df-9d88-96789f01300b"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／基金の積立・取崩状況",
+   "url": "ttps://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/a2b28c74-04f3-4411-a1ea-62c69671739c"
+  },
+  {
+   "name": "TOKYO予算見える化ボード データ一覧／都債発行額と都債残高の推移",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/05919d82-1788-4e56-9050-1f299905be87"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/56252f28-9d24-4f06-b251-68ce7128d0f6",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/af972922-9ecd-4986-b199-2def37489306",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/d1ce62ab-46a1-49a7-9f4b-60b93d0c0d3c",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/b792a843-3092-4ca3-ba8d-5d383eb333d3",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/f85e20f6-7b29-4033-bd29-6d8197203978",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/d9443721-6f64-49df-9d88-96789f01300b",
+  "ttps://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/a2b28c74-04f3-4411-a1ea-62c69671739c",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/f6fdbdff-dba0-4028-ab98-0b6979288e17/resource/05919d82-1788-4e56-9050-1f299905be87"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tokyobudget.page/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyobudget.page/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3128",
+ "image_count": 3,
+ "notes": ""
+}

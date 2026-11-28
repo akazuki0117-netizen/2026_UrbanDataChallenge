@@ -1,0 +1,62 @@
+{
+ "id": "6632340472392124106",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632340472392124106/?year=2026",
+ "fetched_at": "2026-11-20T15:37:42+00:00",
+ "title": "そだちマップ",
+ "team": "そだちラボ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「そだちマップ」は、東京への転入・都内転居を考える妊娠中〜5歳児の家庭に子育てしやすい地域を提案するWebサービス。未就学児家庭1,012人への調査で47.4%が「引越し前にもっと調べればよかった」と回答し、駅・家賃・物件を先に絞るため複数地域を家族の同じ条件で比較できないという課題に対応。4-5つの質問に答えると中野区85地域を一括比較し公園・小児科等が徒歩・自転車何分でそろうかを算出、条件達成状況が一目で分かり物件検索に進める。家探しの順序を「駅・物件→周辺確認」から「家族の希望→周辺確認→駅・物件」へ反転した設計。HTML・CSS・JavaScriptで構築し、Codexを「作るAI」、Claudeを「疑うAI」として役割分担した。",
+ "open_data_items": [
+  {
+   "name": "中野区 子育て施設及び入所最低指数一覧（138件）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000058"
+  },
+  {
+   "name": "中野区 医療機関一覧（83件・小児科の抽出に使用）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000127"
+  },
+  {
+   "name": "中野区 公園配置図（180件）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000151"
+  },
+  {
+   "name": "中野区 児童館・学童・キッズプラザ（74件・親子の居場所として使用）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000065"
+  },
+  {
+   "name": "中野区 赤ちゃんほっとスペース（131件・授乳／おむつ替え場所）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000055"
+  },
+  {
+   "name": "国土数値情報 鉄道データ2025年度版（最寄り駅14駅を抽出）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html"
+  },
+  {
+   "name": "OpenStreetMap（地図タイル）",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000058",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000127",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000151",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000065",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000055"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://sodachimap.tokyo-odh-127.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sodachimap.tokyo-odh-127.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2187",
+ "image_count": 3,
+ "notes": ""
+}

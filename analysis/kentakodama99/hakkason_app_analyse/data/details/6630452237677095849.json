@@ -1,0 +1,56 @@
+{
+ "id": "6630452237677095849",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630452237677095849/?year=2026",
+ "fetched_at": "2026-11-20T15:34:27+00:00",
+ "title": "福祉SOSコンシェルジュ「TOKYO バティ」",
+ "team": "Tokyo Buddy",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "LINEアカウント「TOKYOバディ」で都民が「悩み」と「住んでいる場所」を送るだけで相談が開始できる福祉SOSコンシェルジュ。社会福祉サービスを本来受けるべき人が自力でアクセスできず困り果ててしまい、特にヤングケアラー等自分が支援対象と気づかない層は早期発見が重要という課題に対応。AIが状況を整理し制度・窓口・NPO・施設を統合検索してLINE上で案内、貧困家庭には子ども食堂、生活困窮者には住居確保給付金等を紹介する。緊急度が高い場合は自治体職員やNPOへ即時接続する設計。LINE Messaging APIを採用し既存の利用習慣の中で気軽に相談できる点を重視、生成AIを一次相談の分類と最適な支援先の特定に活用した。",
+ "open_data_items": [
+  {
+   "name": "子供家庭支援センター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/5a4bea66-364f-4a75-9e4e-720b5fa65b11"
+  },
+  {
+   "name": "老人福祉センター（Ａ型）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/bdda8bc7-3aed-4b10-b996-bb0e7f985538"
+  },
+  {
+   "name": "児童相談所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/d7146cba-3783-48e4-bef6-9392f3320d4c"
+  },
+  {
+   "name": "児童養護施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/cf11e8ce-2fdf-4605-b50f-08a922bb5c1a"
+  },
+  {
+   "name": "心身障害者福祉センター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/6b730047-f1bc-4635-bca7-0befa9ac7dbc#"
+  },
+  {
+   "name": "子ども食堂一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d3100000001/resource/584e8089-2e30-4f39-a88e-2600a33e808a"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/5a4bea66-364f-4a75-9e4e-720b5fa65b11",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/bdda8bc7-3aed-4b10-b996-bb0e7f985538",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/d7146cba-3783-48e4-bef6-9392f3320d4c",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/cf11e8ce-2fdf-4605-b50f-08a922bb5c1a",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374/resource/6b730047-f1bc-4635-bca7-0befa9ac7dbc#",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131229d3100000001/resource/584e8089-2e30-4f39-a88e-2600a33e808a"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://lin.ee/v1SHimT",
+ "submission_items": [
+  {
+   "name": "デモ（LINE）",
+   "url": "https://lin.ee/v1SHimT"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3905",
+ "image_count": 3,
+ "notes": ""
+}

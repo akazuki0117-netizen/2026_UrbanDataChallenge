@@ -1,0 +1,42 @@
+{
+ "id": "6630809951519908396",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630809951519908396/?year=2026",
+ "fetched_at": "2026-11-20T15:34:39+00:00",
+ "title": "Tokyo Urban Forest",
+ "team": "TUF",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyo Urban Forest」は、街路樹の環境データを可視化し民・官・企業で自然資産として育てるデジタル自然図鑑アプリ。樹木が持つ木陰効果や脱炭素等の自然資産が見えず、地球温暖化への関わりを身近に持つ機会がないため都民も企業も具体的アクションが取りづらいという課題に対応。街路樹オープンデータから木陰面積・CO2固定・雨水保有などを1本ごとに算出しマップ上に可視化、ストリートビューで実在する1本の木として出会える体験を設計した。国総研式・i-Tree Eco論文の原単位を用いて樹種・樹高から算出。Vite+React+TypeScriptにMapLibre GL+deck.glで約14.4万本を滑らかに描画し、Claude CodeとChatGPT+Figma MCPで体験設計と開発を進めた。",
+ "open_data_items": [
+  {
+   "name": "街路樹（都道：23区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029/resource/8bdb63d0-911f-4e88-845f-14f6cab691a4"
+  },
+  {
+   "name": "都市緑化樹木のCO2固定量の算出",
+   "url": "www.nilim.go.jp/lab/ddg/naiyo/co2/co2.html"
+  },
+  {
+   "name": "川崎市川崎区を事例としたi-Tree Ecoによる街路樹の生態系サービスおよびその貨幣価値の推定",
+   "url": "www.jstage.jst.go.jp/article/jjsrt/42/1/42_44/_article/-char/ja/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029/resource/8bdb63d0-911f-4e88-845f-14f6cab691a4"
+ ],
+ "external_data_urls": [
+  "www.nilim.go.jp/lab/ddg/naiyo/co2/co2.html",
+  "www.jstage.jst.go.jp/article/jjsrt/42/1/42_44/_article/-char/ja/"
+ ],
+ "demo_url": "https://tokyo-urban-forest.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-urban-forest.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=5150",
+ "image_count": 3,
+ "notes": ""
+}

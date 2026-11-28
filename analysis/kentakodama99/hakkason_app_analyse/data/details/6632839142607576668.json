@@ -1,0 +1,24 @@
+{
+ "id": "6632839142607576668",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632839142607576668/?year=2026",
+ "fetched_at": "2026-11-20T15:47:04+00:00",
+ "title": "社会参加",
+ "team": "チームあんのん",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "アンケートと1200字の自由記述からAIが熱意・切実度・妥当性等のパラメータを付与しグラフや3D表示で視覚化するアプリ。政治意見が錯綜し思いや妥当な提言、熱意などが無視されていると感じ、好きに喋るだけで終わらず自分の思考が社会に調和する様を体験できるサービスを目指した。自由記述からトピックをピックしノードとして生成し記述者の社会的属性ともリンクさせる。webアプリとローカルLLMをPython/jsで構築し、Cloudflare D1で統合管理、生成AIを解析・学習・プログラム記述に活用した。",
+ "open_data_items": [],
+ "open_data_urls": [],
+ "external_data_urls": [],
+ "demo_url": "https://seiseki-api-staging.tokyo-odh-129.workers.dev/app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://seiseki-api-staging.tokyo-odh-129.workers.dev/app"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=130",
+ "image_count": 3,
+ "notes": "利用データ URL なし"
+}

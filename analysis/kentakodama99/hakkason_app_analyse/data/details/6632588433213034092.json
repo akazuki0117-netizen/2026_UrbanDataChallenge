@@ -1,0 +1,42 @@
+{
+ "id": "6632588433213034092",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632588433213034092/?year=2026",
+ "fetched_at": "2026-11-20T15:38:03+00:00",
+ "title": "Re;Whttps://re-work.cf-smoke-test.workers.dev/ork",
+ "team": "yakiniku",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Re;Work」は、病気やけがのあとに働き方を変える人が、経験を次の仕事へ「翻訳」するWebサービス。病名や氏名を聞かず「今の仕事」と「難しくなったこと」の2つだけを入力する。都内の入院は年間約2万3千人にのぼり、病名は違っても「前と同じには働けない」ことは共通なのに、自分に何ができ、どこに相談すべきかを考えられる仕組みが足りないという課題に対応。412職業から条件に合う候補へ絞り込み、共通点や負荷の変化とともに提示、転職だけでなく今の職場で続ける道も同じ高さで示し、都内1,995か所の相談窓口や職業訓練まで具体化する。計算はすべてブラウザ内で完結させ入力内容をサーバーに送信しないプライバシー設計。生成AIは入力整理と説明文生成に限定し、候補選定には関与させない。",
+ "open_data_items": [
+  {
+   "name": "障害者就労実態調査（東京都福祉局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000143"
+  },
+  {
+   "name": "job tag 職業情報データベース version 6.01.01（労働政策研究・研修機構）",
+   "url": "https://shigoto.mhlw.go.jp/User/ArchiveData"
+  },
+  {
+   "name": "障害福祉サービス等情報公表システム オープンデータ（福祉医療機構）",
+   "url": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/"
+  },
+  {
+   "name": "がん診療連携拠点病院 現況報告データ（国立がん研究センター）",
+   "url": "https://hospdb.ganjoho.jp/kyoten/kyotensearch"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000143"
+ ],
+ "external_data_urls": [
+  "https://shigoto.mhlw.go.jp/User/ArchiveData",
+  "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
+  "https://hospdb.ganjoho.jp/kyoten/kyotensearch"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2462",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

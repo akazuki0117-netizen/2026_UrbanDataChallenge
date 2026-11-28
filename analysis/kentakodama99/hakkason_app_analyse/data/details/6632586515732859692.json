@@ -1,0 +1,41 @@
+{
+ "id": "6632586515732859692",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632586515732859692/?year=2026",
+ "fetched_at": "2026-11-20T15:37:59+00:00",
+ "title": "生活安全AIナビ東京",
+ "team": "ローマンテック",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都や区市町村のオープンデータと災害情報を統合し現在地周辺の危険エリア・警察・病院・避難場所・混雑状況を一つの地図に表示する生活安全支援サービス。災害時には必要な情報が複数のWebサイトに分散し外出中は現在地周辺の危険箇所を短時間で把握するのが難しいという課題に対応。分散している災害情報を集約し危険エリアを明示、安全な移動ルートを提示することで利用者が複数サイトを調べる必要をなくす。HTML／CSS／JavaScriptでブラウザ動作のWebアプリとして実装し、ChatGPTやGemini等の生成AIをサービス設計からナレーション原稿作成まで活用した。",
+ "open_data_items": [
+  {
+   "name": "避難場所・避難所等の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "警察署・交番等の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000128"
+  },
+  {
+   "name": "医療機関・病院等の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612"
+  },
+  {
+   "name": "公園・公共施設等の位置情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000128",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=750",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

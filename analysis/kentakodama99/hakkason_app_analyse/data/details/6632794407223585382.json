@@ -1,0 +1,41 @@
+{
+ "id": "6632794407223585382",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632794407223585382/?year=2026",
+ "fetched_at": "2026-11-20T15:42:25+00:00",
+ "title": "ARch",
+ "team": "ラマルガ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ARch」は、助けが必要な人がスマホから支援を求め近くのサポーターが駆け付けられるようにするアプリ。ヘルプマークは「助けが必要かもしれない」ことしか伝えられず、どんな助けが必要か分からず声をかけられない人が多いという課題に対応。求援者は「道案内をしてほしい」等の必要なことを選んで発報しUWB（超広帯域無線）とARにより屋内や人混みでも相手の方向と場所を視覚的に把握できる。駆けつけ中は接遇ガイドラインに基づく対応カードが表示され、対応完了とともに情報が消える設計。SwiftとARKit/RealityKit、UWB（Nearby Interaction）で空間固定のAR誘導を実現し、Claude Code×Codexの2エージェント体制で独立案を相互レビューさせて開発した。",
+ "open_data_items": [
+  {
+   "name": "合理的配慮等具体例データ集（合理的配慮サーチ）内閣府対応ガイド",
+   "url": "https://www8.cao.go.jp/shougai/suishin/jirei/"
+  },
+  {
+   "name": "国土交通省「公共交通事業者に向けた接遇ガイドライン」",
+   "url": "https://www.mlit.go.jp/sogoseisaku/barrierfree/sosei_barrierfree_tk_000143.html"
+  },
+  {
+   "name": "観光庁「高齢の方・障害のある方などをお迎えするための接遇マニュアル」",
+   "url": "https://www.mlit.go.jp/kankocho/content/001845446.pdf"
+  },
+  {
+   "name": "救急告示医療機関一覧（東京都保健医療局）",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/kyuukyuu/kyukyu_shinryo/kyuukyuuitiran"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www8.cao.go.jp/shougai/suishin/jirei/",
+  "https://www.mlit.go.jp/sogoseisaku/barrierfree/sosei_barrierfree_tk_000143.html",
+  "https://www.mlit.go.jp/kankocho/content/001845446.pdf",
+  "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/kyuukyuu/kyukyu_shinryo/kyuukyuuitiran"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=735",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

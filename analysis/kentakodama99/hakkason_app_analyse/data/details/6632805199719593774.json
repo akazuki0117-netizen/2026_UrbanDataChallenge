@@ -1,0 +1,77 @@
+{
+ "id": "6632805199719593774",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632805199719593774/?year=2026",
+ "fetched_at": "2026-11-20T15:43:31+00:00",
+ "title": "東京おでかけプランナー",
+ "team": "Tokyo Flash",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "会話しながら東京のおでかけプランを組み立てる地図連動のWebアプリ。ベビーカーや車椅子利用者は段差や多目的トイレの有無、坂道の情報を各施設サイトから探す必要があり、行き先も「前に行った場所」に固定され選択肢が狭まるという課題に対応。「車椅子で入れるカフェ」等を会話するだけで絞り込め、経路や到着予定時刻を表示し現地の注意点をチャットで教える。点字ブロックや授乳室の有無など具体的な数値で判断できる誠実な設計。Claudeのtool useで複合条件の検索を判断させ、所要時間や検索結果の計算は全てバックエンドが行いClaudeには不確定情報を生成させない構成とした。",
+ "open_data_items": [
+  {
+   "name": "だれでも東京（東京都デジタルサービス局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "東京都内の飲食店のバリアフリー情報（東京都産業労働局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063"
+  },
+  {
+   "name": "宿泊施設（旅館台帳）（千代田区ほか計12区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/search/?size=10&q=%E6%97%85%E9%A4%A8%E5%8F%B0%E5%B8%B3"
+  },
+  {
+   "name": "位置参照情報（国土交通省）",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  },
+  {
+   "name": "国土数値情報 鉄道データ（N02）（国土交通省）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html"
+  },
+  {
+   "name": "標高API（国土地理院）",
+   "url": "https://maps.gsi.go.jp/development/elevation_s.html"
+  },
+  {
+   "name": "予報API（気象庁）",
+   "url": "https://www.jma.go.jp/bosai/forecast/"
+  },
+  {
+   "name": "OpenStreetMap (OpenStreetMap contributors)",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "Wikidata (Wikimedia Foundation)",
+   "url": "https://www.wikidata.org/?uselang=ja"
+  },
+  {
+   "name": "Wikivoyage (Wikimedia Foundation)",
+   "url": "https://ja.wikivoyage.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000063",
+  "https://catalog.data.metro.tokyo.lg.jp/search/?size=10&q=%E6%97%85%E9%A4%A8%E5%8F%B0%E5%B8%B3"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/isj/",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html",
+  "https://maps.gsi.go.jp/development/elevation_s.html",
+  "https://www.jma.go.jp/bosai/forecast/",
+  "https://www.openstreetmap.org/copyright",
+  "https://www.wikidata.org/?uselang=ja",
+  "https://ja.wikivoyage.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+ ],
+ "demo_url": "https://travel-planner-77n4.onrender.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://travel-planner-77n4.onrender.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=3224",
+ "image_count": 2,
+ "notes": ""
+}

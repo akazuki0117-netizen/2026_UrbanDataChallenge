@@ -1,0 +1,41 @@
+{
+ "id": "6632809758173571896",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632809758173571896/?year=2026",
+ "fetched_at": "2026-11-20T15:44:43+00:00",
+ "title": "福祉・地域共生",
+ "team": "H3Y",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Sotto Tokyo Lab」は、高齢者の暮らしを「体調の変化」と「住まいの危険」の両面から支える試作サービス。離れて暮らす高齢の親を心配する家族は小さな変化が緊急か判断しにくく、65歳以上の「ころぶ」による救急搬送は年6万人超で発生場所の多くが住宅等という課題に対応。「Sotto Link Tokyo」は暑さと活動低下の兆しを本人→家族→地域支援へ段階的につなぎ、「おうち安全AI Tokyo」は室内写真から転倒につながる物を示し直す順番を提案する。本人は常時監視されず地域の相談先や水飲栓も表示、医療診断や自動緊急通報は行わない設計。TypeScript、React、Next.js（Vinext）で構築し、ChatGPT/Codexを要件整理からテスト支援まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都福祉局「高齢者等の異変等に気付いた際の区市町村連絡先」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000379"
+  },
+  {
+   "name": "東京都水道局「Tokyowater Drinking Station 一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "東京消防庁「救急搬送データからみる日常生活の事故（令和4年）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000379",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://sotto-tokyo-lab.hirotama.chatgpt.site",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sotto-tokyo-lab.hirotama.chatgpt.site"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=1362",
+ "image_count": 2,
+ "notes": ""
+}

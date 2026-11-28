@@ -1,0 +1,36 @@
+{
+ "id": "6632109542417644477",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632109542417644477/?year=2026",
+ "fetched_at": "2026-11-20T15:36:51+00:00",
+ "title": "もやにわ",
+ "team": "安藤ゼミ",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "接客アルバイト経験者チームが開発した、理不尽なクレーム等「バイトのもやもや」を一人で抱え込む学生を助けるサービス。カスハラ被害率は35.5%という調査結果があるが体感との乖離が大きく、多くの学生が被害を認識されないまま経験しているという課題に対応。大学メールでのみ登録できる匿名コミュニティで、アルバイト体験を「たね」として投稿し他ユーザーの共感で「花」を咲かせる仕組みとし、匿名化・分類した投稿を行政や企業へのオープンデータとして還元する。Cloudflare WorkerとOpenCodeで開発初心者チームがシンプルな構成で構築し、Geminiで花の画像を生成した。",
+ "open_data_items": [
+  {
+   "name": "令和2年国勢調査 東京都区市町村町丁別報告",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000626"
+  },
+  {
+   "name": "令和2年国勢調査による東京都の昼間人口（従業地・通学地による人口）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000627"
+  },
+  {
+   "name": "東京都女性活躍推進計画",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/a936aabb-9b4a-4c70-a9e6-9613fcffee86"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000626",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000627",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/a936aabb-9b4a-4c70-a9e6-9613fcffee86"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=386",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

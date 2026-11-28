@@ -1,0 +1,42 @@
+{
+ "id": "6632794981011218688",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632794981011218688/?year=2026",
+ "fetched_at": "2026-11-20T15:42:29+00:00",
+ "title": "Cool Spot Tokyo",
+ "team": "すずみ場",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京の「地表面が暑くなる場所」と「涼める場所」を1枚の地図に重ねて表示するWebアプリ。天気予報が伝えるのは気温であって地表面温度ではなく東京全体で一つの数字のためどの通りが暑いか分からないという課題に対応、特に訪日客は日本語の注意喚起も読めず健康を損ないやすい。衛星の熱赤外が測った地表面温度の上位20%にあたる区画をヒートスポット145地点として、公園・緑地12,601件と給水スポット836地点を重ねて表示する。生成AIは実行系に入れず値の捏造を避け、開発側では日本語のみのデータ列の解読に活用した。LeafletとOpenStreetMap、Nominatimの住所検索でCloudflare Workers上の静的配信として構築した。",
+ "open_data_items": [
+  {
+   "name": "緑のオープンデータ（GISデータ）／東京都都市整備局 — 公園・緑地等および民間開発・公共施設・条例指定などの緑地シェープファイル（4レイヤ3,872件をGeoJSONへ変換して使用）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "Tokyowater Drinking Station一覧／東京都水道局 — 公共の給水スポット836地点を地図上に描画（2026-02-27版・CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003/resource/b91ceadc-75bd-4935-b4e1-6fe06ff5fba6"
+  },
+  {
+   "name": "Landsat Collection 2 Level-2（Landsat 8-9 OLI/TIRS）地表面温度プロダクト／U.S. Geological Survey — ヒートスポット145地点の抽出元。無償・オープンだがダウンロードにUSGSアカウント登録が必要なため、データセット直リンクではなく配布元 EarthExplorer を記載",
+   "url": "https://earthexplorer.usgs.gov/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003/resource/b91ceadc-75bd-4935-b4e1-6fe06ff5fba6"
+ ],
+ "external_data_urls": [
+  "https://earthexplorer.usgs.gov/"
+ ],
+ "demo_url": "https://urban-green-tokyo.galiusha.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://urban-green-tokyo.galiusha.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4704",
+ "image_count": 1,
+ "notes": ""
+}

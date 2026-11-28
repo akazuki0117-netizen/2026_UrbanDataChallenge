@@ -1,0 +1,17 @@
+{
+ "id": "6632340472392124106",
+ "group": "control",
+ "title": "そだちマップ",
+ "demo_url": "https://sodachimap.tokyo-odh-127.workers.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632340472392124106.png",
+ "status": "動く",
+ "form": "紹介ページ＋地図デモ",
+ "clear_in_5s": "はい：「引越しを、子育て起点に。」",
+ "n_features": 2,
+ "gen_ai": "なし",
+ "map_viz": "あり",
+ "maturity": "プロトタイプ",
+ "note": "課題の数字（47.4%）を紹介ページに掲載。中野区のみ"
+}

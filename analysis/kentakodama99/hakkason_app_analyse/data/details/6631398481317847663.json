@@ -1,0 +1,72 @@
+{
+ "id": "6631398481317847663",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631398481317847663/?year=2026",
+ "fetched_at": "2026-11-20T15:35:35+00:00",
+ "title": "ゆかりマチ",
+ "team": "primeRØ｜プリメロ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都全47自治体が公開する姉妹・友好都市一覧を統合し、自分の街を選ぶだけで提携先が地図に展開されるWebアプリ。東京都の姉妹・友好都市提携は267件あり大半が地方自治体との関係だが、住民のほとんどは自分の街の提携先を言えず、子ども向け交流事業も自由記述欄に埋もれて検索・比較できないという課題に対応。47自治体がばらばらの形式で公開するCSVを名寄せ・正規化して1つの統合データセットにまとめ、自由記述の子ども向け事業もキーワード分類してフィルタ化した。記録のない自治体は正直に「ない」と表示しデータの空白も可視化する。ビルド不要の静的サイトとして実装し、フレームワーク非依存で長く動き続ける構成とした。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログサイト（各区市町村「姉妹・友好都市一覧」47自治体分を横断利用）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "港区 姉妹・友好都市一覧",
+   "url": "https://opendata.city.minato.tokyo.jp/dataset/f0051a53-ae42-42ec-8b89-459dd9643cbd/resource/9186c6a3-4c94-46ff-9bd1-29e71248bd5b/download/131032_minatoku_shimaitoshi.csv"
+  },
+  {
+   "name": "台東区 姉妹・友好都市一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/taitou/131067_taitoku_shimaitoshi.csv"
+  },
+  {
+   "name": "杉並区 姉妹・友好都市一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suginami/131156_suginamiku_shimaitoshi.csv"
+  },
+  {
+   "name": "武蔵野市 姉妹・友好都市一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/musashino/132039_musashinoshi_shimaitoshi.csv"
+  },
+  {
+   "name": "三鷹市 【事業案内】姉妹都市や友好都市等の一覧",
+   "url": "https://www.city.mitaka.lg.jp/c_service/111/attached/attach_111838_1.csv"
+  },
+  {
+   "name": "墨田区 姉妹・友好都市一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_sumidaku_shimaitoshi.csv"
+  },
+  {
+   "name": "目黒区 姉妹・友好都市一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/meguro/131105_meguroku_shimaitoshi.csv"
+  },
+  {
+   "name": "足立区 姉妹・友好都市一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/adachi/131211_adachiku_shimaitoshi.csv"
+  },
+  {
+   "name": "西東京市 姉妹・友好都市一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_nishitokyoshi_shimaitoshi.csv"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://opendata.city.minato.tokyo.jp/dataset/f0051a53-ae42-42ec-8b89-459dd9643cbd/resource/9186c6a3-4c94-46ff-9bd1-29e71248bd5b/download/131032_minatoku_shimaitoshi.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/taitou/131067_taitoku_shimaitoshi.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/suginami/131156_suginamiku_shimaitoshi.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/musashino/132039_musashinoshi_shimaitoshi.csv",
+  "https://www.city.mitaka.lg.jp/c_service/111/attached/attach_111838_1.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_sumidaku_shimaitoshi.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/meguro/131105_meguroku_shimaitoshi.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/adachi/131211_adachiku_shimaitoshi.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_nishitokyoshi_shimaitoshi.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3383",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

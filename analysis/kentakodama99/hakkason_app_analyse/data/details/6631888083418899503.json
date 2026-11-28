@@ -1,0 +1,76 @@
+{
+ "id": "6631888083418899503",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631888083418899503/?year=2026",
+ "fetched_at": "2026-11-20T15:36:16+00:00",
+ "title": "涼道ナビTOKYO",
+ "team": "chicaLab",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「涼道ナビTOKYO」は、公園・街路樹・給水スポット・クーリングシェルター等のオープンデータを統合し「涼しさ」を考慮した徒歩ルートを提案するサービス。猛暑日の増加で熱中症リスクが高まる一方、暑さを避けるための資源は公開されていても利用者が移動中に見つけにくく徒歩移動の意思決定に活用できていないという課題に対応。点在する暑熱対策資源の位置情報を統合し独自の涼道スコアを生成、距離や時間だけでなく「暑さを避けながら歩けるか」を基準にルートを比較できる。OpenRouteServiceで経路探索を行い東京都オープンデータとPLATEAUで建物情報を統合、OpenCodeとMicrosoft Copilotでオープンデータの組み合わせを検討した。",
+ "open_data_items": [
+  {
+   "name": "クーリングシェルター一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koto/131083_202_cooling_shelter.csv"
+  },
+  {
+   "name": "都道の街路樹",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv"
+  },
+  {
+   "name": "区立公園",
+   "url": "https://www.city.koto.lg.jp/012107/documents/131083_kotocity_public_facility-17_parks.csv"
+  },
+  {
+   "name": "Tokyowater Drinking Station",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/tokyowaterdrinkingstation_250917.csv"
+  },
+  {
+   "name": "暑さ指数（WBGT）",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "PLATEAU 建物データ",
+   "url": "https://assets.cms.plateau.reearth.io/assets/4d/ba6c87-3dd2-496e-8091-a1aa32bb83cc/13108_koto-ku_pref_2025_citygml_1_op_bldg_3dtiles_13108_koto-ku_lod1/tileset.json"
+  },
+  {
+   "name": "OpenStreetMap タイル",
+   "url": "https://operations.osmfoundation.org/policies/tiles/"
+  },
+  {
+   "name": "OpenRouteService Directions API",
+   "url": "https://openrouteservice.org/restrictions/"
+  },
+  {
+   "name": "Nominatim",
+   "url": "https://operations.osmfoundation.org/policies/nominatim/"
+  },
+  {
+   "name": "Overpass API",
+   "url": "https://overpass-api.de/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/koto/131083_202_cooling_shelter.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv",
+  "https://www.city.koto.lg.jp/012107/documents/131083_kotocity_public_facility-17_parks.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/tokyowaterdrinkingstation_250917.csv",
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://assets.cms.plateau.reearth.io/assets/4d/ba6c87-3dd2-496e-8091-a1aa32bb83cc/13108_koto-ku_pref_2025_citygml_1_op_bldg_3dtiles_13108_koto-ku_lod1/tileset.json",
+  "https://operations.osmfoundation.org/policies/tiles/",
+  "https://openrouteservice.org/restrictions/",
+  "https://operations.osmfoundation.org/policies/nominatim/",
+  "https://overpass-api.de/"
+ ],
+ "demo_url": "https://ryodo-navi-tokyo.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://ryodo-navi-tokyo.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=255",
+ "image_count": 2,
+ "notes": ""
+}

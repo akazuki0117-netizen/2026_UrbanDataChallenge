@@ -1,0 +1,72 @@
+{
+ "id": "6632824232617309257",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632824232617309257/?year=2026",
+ "fetched_at": "2026-11-20T15:46:58+00:00",
+ "title": "MachiTo（マチト）",
+ "team": "チーム風見鶏",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京に住む外国人住民のための生活情報アプリ「MachiTo（マチト）」。ごみの収集日は町丁ごとに違い分別区分も区ごとに別々なのに案内は日本語中心で、多言語資料があっても「自分の区の、いま必要な1件」にたどり着けないという課題に対応。区を選ぶだけでごみ分別・災害情報・避難所・言葉の通じる病院を引け、転入届等の手続きは入管庁のガイドブックと法令条文を根拠に示す。14言語対応で主要4言語は画面すべてを人手で翻訳、23区のオープンデータ45,920件を提供元・ライセンス付きで収録した。API・DB・生成AIまでCloudflareで完結させ、Workers AI（qwen3-30b）のRAGで区の実データと国の公式ガイドブックのみを根拠に回答する誠実な設計とした。",
+ "open_data_items": [
+  {
+   "name": "災害時帰宅支援ステーション／東京都防災マップ 避難所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t000003"
+  },
+  {
+   "name": "診療・検査医療機関の一覧／災害拠点病院等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t000055"
+  },
+  {
+   "name": "ごみの分別方法一覧（千代田・中央・港・新宿・文京・墨田・江東・品川・世田谷・渋谷・中野・杉並・板橋・荒川・葛飾）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=ごみ+分別"
+  },
+  {
+   "name": "気象庁",
+   "url": "https://www.jma.go.jp/bosai/warning/"
+  },
+  {
+   "name": "医療機関一覧",
+   "url": "https://www.city.shinjuku.lg.jp/content/000399984.csv"
+  },
+  {
+   "name": "生活・就労ガイドブック（第8版）",
+   "url": "https://www.moj.go.jp/isa/support/portal/guidebook_all.html"
+  },
+  {
+   "name": "給水拠点一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t000019"
+  },
+  {
+   "name": "無料低額診療施設一覧",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "法令API v2（手続き6件の根拠法令・条文リンク）",
+   "url": "https://laws.e-gov.go.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t000003",
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t000055",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=ごみ+分別",
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t000019"
+ ],
+ "external_data_urls": [
+  "https://www.jma.go.jp/bosai/warning/",
+  "https://www.city.shinjuku.lg.jp/content/000399984.csv",
+  "https://www.moj.go.jp/isa/support/portal/guidebook_all.html",
+  "https://www.fukushi.metro.tokyo.lg.jp/",
+  "https://laws.e-gov.go.jp/"
+ ],
+ "demo_url": "https://tokyo-life.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-life.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2014",
+ "image_count": 3,
+ "notes": ""
+}

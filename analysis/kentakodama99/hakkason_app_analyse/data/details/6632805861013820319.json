@@ -1,0 +1,37 @@
+{
+ "id": "6632805861013820319",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632805861013820319/?year=2026",
+ "fetched_at": "2026-11-20T15:43:38+00:00",
+ "title": "都民の声総合窓口のDX化",
+ "team": "THG",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都民の声をフォームへ入力するとAIが判断し自動で必要な管轄へ通知するシステム。区役所職員の悩みとして「電話・窓口」での意見が手書きやWordメモのまま孤立し、関係局への伝達コストが大きいという課題に対応。誰でも簡単に「都民の声」として登録でき、データが1つのデータベースに集約され、AIがオープンデータを使い関係局へ自動通知する。該当管轄は「確認を実施」「対応完了」等をボタンで素早く入力できる。Java/Servlet & JSP/Gemini APIで自治体システムの堅牢性とLGWAN環境を想定して構築し、Gemini APIを組織所掌規則等のルールベース検索と組み合わせるハイブリッド設計とした。",
+ "open_data_items": [
+  {
+   "name": "会計管理局へ寄せられた都民の声",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d1700000002"
+  },
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "全国地方公共団体コード",
+   "url": "https://www.soumu.go.jp/denshijiti/code.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d1700000002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+ ],
+ "external_data_urls": [
+  "https://www.soumu.go.jp/denshijiti/code.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=727",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,77 @@
+{
+ "id": "6632806988325867445",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806988325867445/?year=2026",
+ "fetched_at": "2026-11-20T15:44:00+00:00",
+ "title": "八丈フィールドガイド",
+ "team": "チーム八丈島",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "八丈島を含む東京都の諸島に計画を決めていなくても安全に旅行できるガイド。外国人観光客には言語が通じない問題、視覚障害者には観光表示等が完備されていないという課題に対応。サイト全体を4言語対応にし音声表示・音声検索も可能にした。TypeScript／React（vinext）とCloudflare Sites+D1で構築し、ChatGPT／Codexを公開情報調査・4言語翻訳・アクセシビリティ監査まで活用し海亀ガイド「カメノワ」をOpenAI Responses APIに接続可能な設計とした。",
+ "open_data_items": [
+  {
+   "name": "八丈島の主な観光スポット一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t134015d0000000002"
+  },
+  {
+   "name": "八丈町営温泉一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t134015d0000000001"
+  },
+  {
+   "name": "食品関係営業台帳",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000361"
+  },
+  {
+   "name": "津波浸水分布（令和4年度被害想定）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000392"
+  },
+  {
+   "name": "津波浸水分布（令和4年度被害想定・大島）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000392"
+  },
+  {
+   "name": "土砂災害警戒区域データ（令和7年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A33-2025.html"
+  },
+  {
+   "name": "土砂災害警戒区域データ（令和7年度・大島）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A33-2025.html"
+  },
+  {
+   "name": "八丈島火山ハザードマップGISデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000121"
+  },
+  {
+   "name": "伊豆大島火山防災マップGISデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000121"
+  },
+  {
+   "name": "OpenStreetMap標準タイル",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t134015d0000000002",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t134015d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000361",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000392",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000392",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000121",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000121"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A33-2025.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A33-2025.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://imaginates.biz/projects/land/hachijo_field_guide_index.html",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://imaginates.biz/projects/land/hachijo_field_guide_index.html"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=5129",
+ "image_count": 3,
+ "notes": ""
+}

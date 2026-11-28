@@ -1,0 +1,76 @@
+{
+ "id": "6630478628913937447",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630478628913937447/?year=2026",
+ "fetched_at": "2026-11-20T15:34:29+00:00",
+ "title": "スミハジメ 〜東京の新生活ToDo〜",
+ "team": "しがないVibeCoder",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「スミハジメ」は、転入先の区・引越し日・世帯構成を選ぶだけで、転入届からマイナンバー、国保、児童手当まで必要手続きを期限順のチェックリストにする無料Webサービス。同じ手続きでも区ごとに期限がばらばらで、子ども医療費助成の申請期限だけでも6通りに分かれ、非公式まとめサイトは情報が古く根拠も不明という課題に対応。該当判定はLLMではなく人手レビューで承認した332件の一次ソース台帳と宣言的ルールエンジンで行い、誤案内が構造的に起きない設計とした。AIチャットは承認済み公式情報のみを根拠に出典付きで回答し、根拠不足なら正直に保留する。23区179問の自動評価で誤答0件を確認済み。",
+ "open_data_items": [
+  {
+   "name": "世田谷区 資源・ごみ収集曜日一覧(令和8年度)",
+   "url": "https://www.city.setagaya.lg.jp/documents/416/27-08-26.csv"
+  },
+  {
+   "name": "江東区 ごみ収集日一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koto/131083_201_kotocity_waste_recycle_collectionday.csv"
+  },
+  {
+   "name": "新宿区 GIF施設一覧",
+   "url": "https://www.city.shinjuku.lg.jp/content/000399981.csv"
+  },
+  {
+   "name": "品川区 ごみの分別辞典(50音別)",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/shinagawa/131091_garbage_separation.csv"
+  },
+  {
+   "name": "杉並区 ごみの分別方法一覧(令和6年4月時点)",
+   "url": "https://www.city.suginami.tokyo.jp/documents/713/a2.csv"
+  },
+  {
+   "name": "板橋区 ごみの分別辞書",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/itabashi/131199_itabashiku_garbage_separate.csv"
+  },
+  {
+   "name": "中野区 ごみ分別一覧",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_5000769.csv"
+  },
+  {
+   "name": "荒川区 公共施設一覧",
+   "url": "https://www.city.arakawa.tokyo.jp/documents/23112/131181_public_facility.csv"
+  },
+  {
+   "name": "墨田区 公共施設一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_public_facility.csv"
+  },
+  {
+   "name": "渋谷区の施設・事業所(渋谷区オープンデータ)",
+   "url": "https://city-shibuya-data.opendata.arcgis.com/api/download/v1/items/7b6a2843c05a44038c8970652270ac42/csv?layers=0"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.city.setagaya.lg.jp/documents/416/27-08-26.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/koto/131083_201_kotocity_waste_recycle_collectionday.csv",
+  "https://www.city.shinjuku.lg.jp/content/000399981.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/shinagawa/131091_garbage_separation.csv",
+  "https://www.city.suginami.tokyo.jp/documents/713/a2.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/itabashi/131199_itabashiku_garbage_separate.csv",
+  "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_5000769.csv",
+  "https://www.city.arakawa.tokyo.jp/documents/23112/131181_public_facility.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_public_facility.csv",
+  "https://city-shibuya-data.opendata.arcgis.com/api/download/v1/items/7b6a2843c05a44038c8970652270ac42/csv?layers=0"
+ ],
+ "demo_url": "https://app.sumihajime.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://app.sumihajime.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=758",
+ "image_count": 3,
+ "notes": ""
+}

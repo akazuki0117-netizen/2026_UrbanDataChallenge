@@ -1,0 +1,76 @@
+{
+ "id": "6630199167911334037",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630199167911334037/?year=2026",
+ "fetched_at": "2026-11-20T15:34:17+00:00",
+ "title": "カームダウン・クールダウンスペース 設置優先度マップ（calmgap-tokyo）",
+ "team": "monoimi",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京23区を250m四方の9,507区画に分け「カームダウン・クールダウンスペースをどこに検討すべきか」を公開データだけで比較できる地図。作者自身が発達障害当事者で、既存の設置は施設単位で検討され東京全体を同じ地図で比較する材料がなかったという課題に対応。障害福祉事業所の定員等の需要と用途地域・騒音等の負荷を掛け合わせ優先度の高い上位50区画を出す。需要が高いのに徒歩700mに公共施設が1件もない148区画を発見。重みはスライダーで動かせ唯一の正解は出さない設計。PythonのETLとTypeScript+MapLibre GLでCloudflare Workersに静的配信し、Claude Code（Opus）で「AIに検算をさせない」方針を徹底し全件NaNのバグを人が発見した。",
+ "open_data_items": [
+  {
+   "name": "国土数値情報 N03 行政区域（2024年）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html"
+  },
+  {
+   "name": "WAM NET 障害福祉サービス等事業所一覧（2026年3月）",
+   "url": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/"
+  },
+  {
+   "name": "国土数値情報 P29 学校（2023年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-2023.html"
+  },
+  {
+   "name": "東京都教育委員会 公立学校統計調査報告書（学校別在籍者数・令和7年度）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/list_of_public_school/school_lists2025/report2025_csv"
+  },
+  {
+   "name": "国土数値情報 P14 福祉施設（2022年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-v2_1.html"
+  },
+  {
+   "name": "国土数値情報 P04 医療機関（2020年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P04-v3_0.html"
+  },
+  {
+   "name": "国土数値情報 S12 駅別乗降客数（2024年値）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-2024.html"
+  },
+  {
+   "name": "国土数値情報 A29 用途地域（2019年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29-v2_1.html"
+  },
+  {
+   "name": "東京都環境局 自動車交通騒音 常時監視・要請限度測定地点（令和元〜5年度）",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/vehicle/noise/result/cyousakekka"
+  },
+  {
+   "name": "自動車騒音の常時監視結果（環境GIS＋・国立環境研究所。令和6年度分のみ）",
+   "url": "https://data.e-gov.go.jp/data/dataset/env_20200813_0001"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html",
+  "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-2023.html",
+  "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/list_of_public_school/school_lists2025/report2025_csv",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P14-v2_1.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P04-v3_0.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-2024.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A29-v2_1.html",
+  "https://www.kankyo.metro.tokyo.lg.jp/vehicle/noise/result/cyousakekka",
+  "https://data.e-gov.go.jp/data/dataset/env_20200813_0001"
+ ],
+ "demo_url": "https://calmgap-tokyo.hiroaki-kuwabara.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://calmgap-tokyo.hiroaki-kuwabara.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=5387",
+ "image_count": 2,
+ "notes": ""
+}

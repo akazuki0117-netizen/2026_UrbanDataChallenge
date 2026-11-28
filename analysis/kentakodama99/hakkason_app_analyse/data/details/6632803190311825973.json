@@ -1,0 +1,57 @@
+{
+ "id": "6632803190311825973",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632803190311825973/?year=2026",
+ "fetched_at": "2026-11-20T15:43:16+00:00",
+ "title": "ソナエグセ",
+ "team": "おさ7じみ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "不定期な通知で「今いる場所からの避難先」を出題し防災訓練を日常の習慣に変えるアプリ。防災アプリは災害の時にしか開かれず平時に使われないシステムは有事にも機能しないという課題に対応、BeReal的な予測できない通知の仕組みを応用。今いる場所にチューニングされた問いに答えると正解時にマップ上のピンがハイライトされ自分だけの防災マップが完成、忘れかけた知識ほど優先的に再出題される間隔反復で町丁目×災害種別のカバレッジとして蓄積される。友人の回答も見られ有事の安否確認としても機能。Expo(React Native)とEAS経由のネイティブpush通知で構築し、サーバーには町丁目コードのみ送信するプライバシー設計とし、Claude Code（Sonnet 5/Opus 5）を中心に開発した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "震災時給水ステーション",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv"
+  },
+  {
+   "name": "Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "AED設置施設一覧",
+   "url": "https://www.city.shibuya.tokyo.jp/bosai/bosai/bosai-shisetsu/aed.html"
+  },
+  {
+   "name": "令和2年国勢調査 小地域境界データ",
+   "url": "https://www.e-stat.go.jp/stat-search/files?tstat=000001136464&toukei=00200521&cycle=0&tclass1=000001136472&tclass2=000001159886&layout=datalist&page=1&tclass3val=0"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査",
+   "url": "https://www.funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+ ],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/suidou/R7/kyoten_20251211.csv",
+  "https://www.city.shibuya.tokyo.jp/bosai/bosai/bosai-shisetsu/aed.html",
+  "https://www.e-stat.go.jp/stat-search/files?tstat=000001136464&toukei=00200521&cycle=0&tclass1=000001136472&tclass2=000001159886&layout=datalist&page=1&tclass3val=0",
+  "https://www.funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/"
+ ],
+ "demo_url": "https://youtu.be/-6CCNdphvdw",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://youtu.be/-6CCNdphvdw"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=5262",
+ "image_count": 1,
+ "notes": ""
+}

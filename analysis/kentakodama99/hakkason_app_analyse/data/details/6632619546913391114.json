@@ -1,0 +1,32 @@
+{
+ "id": "6632619546913391114",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632619546913391114/?year=2026",
+ "fetched_at": "2026-11-20T15:38:18+00:00",
+ "title": "SafeCycle TOKYO",
+ "team": "SafeCycle",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「SafeCycle TOKYO」は、都の事故オープンデータを活用した自転車向け音声安全＆事故証拠保全アプリ。開発者の娘が自転車事故に遭った際、目撃者がおらず原因究明がうやむやになったという実体験の課題に対応（2024年11月の「ながら運転」厳罰化にも対応）。画面注視不要のVoice-First設計でBGM再生中でも警告音声を明瞭に届けるAudio Ducking技術で事故多発地点への接近を警告、50Hz高精度センサーで転倒・衝突を検知し事故時は直前30秒の走行ログを含む「デジタル事故証明書」を自動生成し過失割合の立証を支援する。Flutter/Dartでクロスプラットフォームに構築し、Google GeminiとClaudeで警察庁事故データのGIS解析等を行った。",
+ "open_data_items": [
+  {
+   "name": "交通事故統計情報（警察庁公式サイトより）",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "自転車推奨ルート（東京都オープンデータカタログより）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026/resource/82ca4986-e1eb-42a6-b515-b46da4eb2b3e"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026/resource/82ca4986-e1eb-42a6-b515-b46da4eb2b3e"
+ ],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4862",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

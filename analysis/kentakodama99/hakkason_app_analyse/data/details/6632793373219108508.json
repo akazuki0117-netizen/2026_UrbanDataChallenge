@@ -1,0 +1,42 @@
+{
+ "id": "6632793373219108508",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632793373219108508/?year=2026",
+ "fetched_at": "2026-11-20T15:42:17+00:00",
+ "title": "TSUGI / つぎ",
+ "team": "Island Boys",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "TSUGIは東京都民が支援制度を見つけ申請し進捗を追跡できるサービス。住民は政府サイトを横断して自分が対象となる支援を見つけ必要書類を全て準備するのが困難で、行政側も脱落理由や制度の隙間について適時なフィードバックが得られないという課題に対応。LLMがオープンデータカタログを解析し住民を制度にマッチングする適格性ルールの作成を支援し、住民は自由形式の質問で個別支援を求められる。申請データと住民の苦情を日次で集計し行政ダッシュボードに反映する。TypeScriptとReact/Next.jsでバイリンガルサイトを構築し、gpt-oss-20bで住民の自由記述から必要な支援を特定している。",
+ "open_data_items": [
+  {
+   "name": "東京都 子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "世田谷区の児童手当",
+   "url": "https://www.city.setagaya.lg.jp/02413/18187.html"
+  },
+  {
+   "name": "Nakano support-program",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/c329093c-f68d-4067-9a6f-79ec184828e2"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/c329093c-f68d-4067-9a6f-79ec184828e2"
+ ],
+ "external_data_urls": [
+  "https://www.city.setagaya.lg.jp/02413/18187.html"
+ ],
+ "demo_url": "https://tsugi.tokyo-odh-373.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tsugi.tokyo-odh-373.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3007",
+ "image_count": 3,
+ "notes": ""
+}

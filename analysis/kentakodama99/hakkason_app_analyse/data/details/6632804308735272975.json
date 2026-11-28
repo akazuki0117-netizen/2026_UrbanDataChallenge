@@ -1,0 +1,36 @@
+{
+ "id": "6632804308735272975",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632804308735272975/?year=2026",
+ "fetched_at": "2026-11-20T15:43:23+00:00",
+ "title": "ことばのバトン",
+ "team": "宝船",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "外国人労働者と地域住民の双方が使える多言語コミュニケーションアプリ。日本語の読み書きに困難を抱える外国人労働者は行政手続きやごみ出し情報へのアクセスに苦労し、職場以外で人間関係を構築する機会も乏しく孤立しやすいという課題に対応。日本語・英語・母国語・ピクトグラムの4言語レイヤーを場面に応じて切り替えられ、「くらし」カテゴリで大田区のごみ収集日程や避難所情報を確認できる。サークル機能で地域の交流グループとチャットし防災訓練等での出会いを後押しする。1人体制でHTML/CSS/JavaScriptで実装しレンタルサーバーで公開、オープンデータのCSV/XLS構造解析にAIを活用した。",
+ "open_data_items": [
+  {
+   "name": "不燃ごみ収集曜日グループ別収集日一覧(大田区)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000025"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000025",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://kirinomiya.sakura.ne.jp/kotoba-no-baton_demo.html",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kirinomiya.sakura.ne.jp/kotoba-no-baton_demo.html"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2217",
+ "image_count": 3,
+ "notes": ""
+}

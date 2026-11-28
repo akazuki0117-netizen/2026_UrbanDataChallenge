@@ -1,0 +1,52 @@
+{
+ "id": "6631157230627568374",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631157230627568374/?year=2026",
+ "fetched_at": "2026-11-20T15:35:10+00:00",
+ "title": "macroxmicro.com",
+ "team": "opspapa",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "公共政策や災害等の「社会の動き」を個人の家計へ紐づける将来設計シミュレーター。行政は防災・年金・物価等のオープンデータを大量公開するが形式・分量が膨大で自分の未来にとってどんな損得やリスクがあるかピンとこず意思決定に結びつかないという課題に対応。郵便番号に紐づく東京都の被害想定データをAIに投入し地域特性を反映したシナリオを生成、インフレを加味した実質表示やモンテカルロ法による確率的ストレステストで家計がどこまで耐えられるかを検証できる。Cloudflare（Pages/Workers/D1/Vectorize）で構築し、gpt-oss-120bでシナリオ生成と行政文書要約を行った。",
+ "open_data_items": [
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）地域危険度一覧(令和4年9月公表)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "震度分布・液状化（令和4年度首都直下型地震等による東京の被害想定結果）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390"
+  },
+  {
+   "name": "東京都のオープンデータをクロールし、参考にしてAIにて要点をまとめたサマリー400件程度",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "e-Stat（政府統計：人口動態、労働・賃金、家計調査等）",
+   "url": "https://www.e-stat.go.jp/"
+  },
+  {
+   "name": "FRED（米国連邦準備銀行：為替、金利、インフレ指標等）",
+   "url": "https://fred.stlouisfed.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390",
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/",
+  "https://fred.stlouisfed.org/"
+ ],
+ "demo_url": "https://macroxmicro.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://macroxmicro.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=5263",
+ "image_count": 3,
+ "notes": ""
+}

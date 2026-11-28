@@ -1,0 +1,72 @@
+{
+ "id": "6632737831224972447",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632737831224972447/?year=2026",
+ "fetched_at": "2026-11-20T15:39:42+00:00",
+ "title": "いけるカモメ",
+ "team": "IWATE-Design",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「いけるカモメ」は、車いす・白杖・ベビーカー等「きょうのわたし」の状態を選び行き先を入力すると「いける/条件付き/むずかしいかも」を根拠つきで判断する動的バリアマップ。バリアは時間で変わるのに地図が静的で、ベンチや街灯等のオープンデータには空白があるという課題に対応。案内中の「ここ、つらい」をワンタップ投稿するとオープンデータで提供されていないバリアの空白が埋まり匿名統計として行政計画に還元される。AIは「言葉の解釈」だけに使い「判断」には使わない設計。静的WEB（HTML+JS）で実装し、Workers AI上のLlama 3.1 8Bを実在805施設のIDカタログからの選択のみに制約し実在しない場所を返さないようにした。",
+ "open_data_items": [
+  {
+   "name": "歩行空間ネットワークデータ",
+   "url": "https://www.geospatial.jp/ckan/dataset/0401"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kiban/machizukuri/bf_data.html"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」7分類",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "Tokyowater Drinking Station一覧(給水スポット/東京都水道局)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "都道の街路樹(東京都建設局)",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv"
+  },
+  {
+   "name": "都営地下鉄各駅エレベーター点検・工事日程データ(東京都交通局)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051"
+  },
+  {
+   "name": "都市公園・都立公園一覧(新宿区)",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/shinjyuku/131041_shinjukuku_toshitoritukouen.csv"
+  },
+  {
+   "name": "暑さ指数(WBGT)データ提供API 実況値・予測値(環境省)",
+   "url": "https://www.wbgt.env.go.jp/"
+  },
+  {
+   "name": "OpenStreetMap 歩行者道路網・照明(lit)・鉄道駅(OSM contributors/ODbL)",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "地理院タイル・住所検索API(国土地理院)",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000051"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/0401",
+  "https://www.fukushi.metro.tokyo.lg.jp/kiban/machizukuri/bf_data.html",
+  "https://www.opendata.metro.tokyo.lg.jp/kensetsu/tokyo_gairoju.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/shinjyuku/131041_shinjukuku_toshitoritukouen.csv",
+  "https://www.wbgt.env.go.jp/",
+  "https://www.openstreetmap.org/copyright",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2013",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

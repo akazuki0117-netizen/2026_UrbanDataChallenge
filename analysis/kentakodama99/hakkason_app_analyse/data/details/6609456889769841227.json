@@ -1,0 +1,72 @@
+{
+ "id": "6609456889769841227",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6609456889769841227/?year=2026",
+ "fetched_at": "2026-11-20T15:31:40+00:00",
+ "title": "RISQ 365 お部屋の地震・子どもの事故リスクを見つけて、ドラゴンを封印！",
+ "team": "RISQ Lab",
+ "member_count": 8,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "「RISQ 365」は、部屋の写真から家具の位置関係をVision AIで把握し地震時の家具転倒リスクと子どもの事故リスクを可視化するサービス。地震の家具対策は命にかかわるが子育て家庭は日々忙しく後回しにしがちで、SNSや生成AIの情報には根拠が不明確なものも混在するという課題に対応。自分の部屋の写真を解析し過去に死亡・負傷原因となった家具の種類と位置関係からリスクを可視化、対策は公的オープンデータや研究データを根拠に提示する。リスクを「ドラゴン」として可視化し対策すると封印できる仕組みで楽しみながら行動を促す設計。JavaScript/HTML/CSSでCloudflare WorkersとWorkers AIの画像解析で構築し、ChatGPTで開発、画像生成AIでドラゴンのイラストを制作した。",
+ "open_data_items": [
+  {
+   "name": "【都民向け】防災に関するアンケート・データ定義書",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/5971d96b-888a-4007-9081-665bd0f39058/resource/ae145a09-9b21-4198-97b5-11fccb60f3f3"
+  },
+  {
+   "name": "乳幼児の事故防止教育ハンドブック",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000063"
+  },
+  {
+   "name": "地震における「家具転」由来の死者数とその傾向： 阪神・淡路大震災から30年間の事例分析",
+   "url": "https://www.jstage.jst.go.jp/article/jisss/47/0/47_1/_pdf/-char/en?utm_source=chatgpt.com"
+  },
+  {
+   "name": "浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "東京都子どもの事故データベース",
+   "url": "https://kodomo-safety-db.metro.tokyo.lg.jp"
+  },
+  {
+   "name": "損害保険料率算出機構統計集",
+   "url": "https://www.giroj.or.jp/publication/statistics/statistics_2024_4.pdf#view=fitV"
+  },
+  {
+   "name": "防災対策事業",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/5971d96b-888a-4007-9081-665bd0f39058/resource/ae145a09-9b21-4198-97b5-11fccb60f3f3"
+  },
+  {
+   "name": "大阪府北部地震、北海道地震における負傷原因別割合(1)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/ac6d9d32-02f7-4232-82ed-8d37bccac52e/resource/f07706db-95ae-4939-a99a-662adc81cdc2"
+  },
+  {
+   "name": "東京消防庁　家具類の転倒・落下・移動防止対策ハンドブック",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/learning/elib/kagutenhandbook.html"
+  },
+  {
+   "name": "国立研究開発法人　防災科学技術研究所　E-ディフェンス　実験映像",
+   "url": "https://e-defense.bosai.go.jp/movie/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/5971d96b-888a-4007-9081-665bd0f39058/resource/ae145a09-9b21-4198-97b5-11fccb60f3f3",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000063",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/5971d96b-888a-4007-9081-665bd0f39058/resource/ae145a09-9b21-4198-97b5-11fccb60f3f3",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/ac6d9d32-02f7-4232-82ed-8d37bccac52e/resource/f07706db-95ae-4939-a99a-662adc81cdc2"
+ ],
+ "external_data_urls": [
+  "https://www.jstage.jst.go.jp/article/jisss/47/0/47_1/_pdf/-char/en?utm_source=chatgpt.com",
+  "https://kodomo-safety-db.metro.tokyo.lg.jp",
+  "https://www.giroj.or.jp/publication/statistics/statistics_2024_4.pdf#view=fitV",
+  "https://www.tfd.metro.tokyo.lg.jp/learning/elib/kagutenhandbook.html",
+  "https://e-defense.bosai.go.jp/movie/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=4485",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

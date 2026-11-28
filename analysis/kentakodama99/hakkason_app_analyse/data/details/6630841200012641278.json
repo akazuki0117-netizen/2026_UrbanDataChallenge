@@ -1,0 +1,72 @@
+{
+ "id": "6630841200012641278",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630841200012641278/?year=2026",
+ "fetched_at": "2026-11-20T15:34:41+00:00",
+ "title": "Tokyo Disaster Navigator",
+ "team": "株式会社ソニックス",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyo Disaster Navigator」は、東京の土地勘・防災知識が十分でない外国人に対しSTAY／MOVE／GET HELPを個別提案する防災ナビ。外国人は警報や避難所情報を得ても土地勘や防災知識がないと「留まるか移動するか」を自分の状況に当てはめて判断できず誤った移動は混雑や二次災害につながるという課題に対応。オープンデータと利用者の現在地・身体条件・同行者情報からSafety Decision EngineでSTAY／MOVE／GET HELPを個別提示し移動時は危険区域・バリアフリー情報を踏まえた安全なルートを案内する。SwiftまたはKotlinのネイティブアプリとCloudflare Workers/D1/R2で構築し、iOSのFoundation ModelsやAndroidのML Kit GenAIでオンデバイスAIによる判断支援を実装した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査 地域危険度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "地震時における地域別延焼危険度測定",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000005"
+  },
+  {
+   "name": "クーリングシェルター（指定暑熱避難施設）一覧（江東区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016"
+  },
+  {
+   "name": "都立一時滞在施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055"
+  },
+  {
+   "name": "東京消防庁 消防署一覧",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/fs/index.html"
+  },
+  {
+   "name": "東京消防庁 消防署一覧",
+   "url": "https://www.tfd.metro.tokyo.lg.jp/fs/index.html"
+  },
+  {
+   "name": "防災公園の指定状況（避難場所・ヘリコプター離着陸場候補地）",
+   "url": "https://www.tokyo-park.or.jp/special/bousai/address/index.html"
+  },
+  {
+   "name": "中野区防災広場一覧",
+   "url": "https://www.city.tokyo-nakano.lg.jp/bosai/jishin-sonae/jijyo-kyojyo/bosaikai.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055"
+ ],
+ "external_data_urls": [
+  "https://www.tfd.metro.tokyo.lg.jp/fs/index.html",
+  "https://www.tfd.metro.tokyo.lg.jp/fs/index.html",
+  "https://www.tokyo-park.or.jp/special/bousai/address/index.html",
+  "https://www.city.tokyo-nakano.lg.jp/bosai/jishin-sonae/jijyo-kyojyo/bosaikai.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1152",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

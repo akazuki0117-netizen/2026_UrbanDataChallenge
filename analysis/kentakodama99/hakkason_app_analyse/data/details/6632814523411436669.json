@@ -1,0 +1,26 @@
+{
+ "id": "6632814523411436669",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632814523411436669/?year=2026",
+ "fetched_at": "2026-11-20T15:46:43+00:00",
+ "title": "ウェルビーイングなフェーズフリールート「Welloute（うぇるーと）」",
+ "team": "けあてっく",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "Wellouteは、日常では要配慮者の目線に立ったルート検索を行い、災害時には災害モードに切り替えて避難対応ができる1つの経路探索エンジン。既存の経路検索は最短距離を優先し要配慮者が必要とする日陰や休憩場所を見落としがちで、防災訓練は年に一度の非日常イベントとして参加率も低く実際の災害時に活きる地理感覚が育ちにくいという課題に対応。平常時は配慮ルート・日陰ルートで日常の外出を後押しし、平常時のうちに災害モードへ切り替えて歩く「避難訓練散歩」機能で日々の散歩そのものが自然な防災訓練として積み重なるフェーズフリー設計。サーバーやデータベースを持たないクライアントサイド完結型でLeafletとブラウザ内Dijkstraで構築した。",
+ "open_data_items": [
+  {
+   "name": "東京のツキノワグマ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d2000000060"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4081",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

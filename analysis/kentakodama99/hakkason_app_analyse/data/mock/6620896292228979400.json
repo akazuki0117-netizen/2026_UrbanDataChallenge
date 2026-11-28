@@ -1,0 +1,17 @@
+{
+ "id": "6620896292228979400",
+ "group": "finalist",
+ "title": "土地プライス",
+ "demo_url": "https://landprice.jp/odhackathon2026/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6620896292228979400.png",
+ "status": "動く",
+ "form": "地図アプリ",
+ "clear_in_5s": "はい：地図と「土地をクリックすると推定地価」の一文だけ",
+ "n_features": 2,
+ "gen_ai": "なし",
+ "map_viz": "あり",
+ "maturity": "実用レベル",
+ "note": "独自ドメイン。筆界ポリゴンが実データで表示され、説明なしで使える"
+}

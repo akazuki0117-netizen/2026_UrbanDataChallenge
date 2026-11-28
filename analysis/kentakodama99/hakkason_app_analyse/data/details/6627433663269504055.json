@@ -1,0 +1,62 @@
+{
+ "id": "6627433663269504055",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627433663269504055/?year=2026",
+ "fetched_at": "2026-11-20T15:33:01+00:00",
+ "title": "タダ楽東京",
+ "team": "東京旅人",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「今週末どこ行く」にお金のかからない答えを返すサービスで、東京の無料公共イベントを自動収集したデータベース。生活困難層の子どもほど費用を理由に文化的体験ができていない一方、無料の公共イベント情報は62自治体の広報紙やサイトに散在し広報紙を読む習慣のある人にしか届かないという課題に対応。自治体標準フォーマットのCSVや公式サイト、広報紙等からイベントを自動抽出し、完全無料か要申込か実費ありかを機械判定して無料を保証、会場名も実在確認済みのもののみ公開する。抽出データは自治体標準フォーマットのCSVで公開しCC0で提供側に還元する。当初はLLMで非構造ページから抽出していたが会場名の捏造を確認したため日次実行系からLLMを完全に除いた。",
+ "open_data_items": [
+  {
+   "name": "地域のイベント会場（貸出可能施設）一覧（38自治体・自治体標準オープンデータセット）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=title:%22%E5%9C%B0%E5%9F%9F%E3%81%AE%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%22"
+  },
+  {
+   "name": "公共施設一覧（29自治体・東京都を含む／都立図書館・文化施設・公園など）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=title:%22%E5%85%AC%E5%85%B1%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7%22"
+  },
+  {
+   "name": "イベント一覧（自治体標準オープンデータセット・墨田区／豊島区／練馬区／台東区／江戸川区／江東区／府中市／中央区ほか）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=title:%22%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%B8%80%E8%A6%A7%22"
+  },
+  {
+   "name": "広報紙（区報・市報）のHTML／PDF（小金井市・清瀬市・日野市・青梅市・狛江市・昭島市・調布市）",
+   "url": "https://www.city.koganei.lg.jp/shisei/461/530/kohokotyo/"
+  },
+  {
+   "name": "公共施設の公式サイト（東京芸術劇場・東京文化会館・練馬区文化振興協会・豊島区立芸術文化劇場・江東区文化コミュニティ財団・すみだトリフォニーホール・世田谷パブリックシアター）",
+   "url": "https://www.geigeki.jp/performance/"
+  },
+  {
+   "name": "区市公式サイトのイベント欄（足立区・千代田区・中央区・江戸川区・府中市ほか・同一CMS系統をまとめて処理）",
+   "url": "https://www.city.chiyoda.lg.jp/cgi-bin/event_cal_multi/calendar.cgi"
+  },
+  {
+   "name": "子供の生活実態調査（東京都福祉局）— 文化的体験の格差を示す一次エビデンスとして課題定義に使用",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/about/soshiki/koko/kikaku/oshirase/kodomoseikatsujittaityousakekka"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=title:%22%E5%9C%B0%E5%9F%9F%E3%81%AE%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%22",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=title:%22%E5%85%AC%E5%85%B1%E6%96%BD%E8%A8%AD%E4%B8%80%E8%A6%A7%22",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=title:%22%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%B8%80%E8%A6%A7%22"
+ ],
+ "external_data_urls": [
+  "https://www.city.koganei.lg.jp/shisei/461/530/kohokotyo/",
+  "https://www.geigeki.jp/performance/",
+  "https://www.city.chiyoda.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
+  "https://www.fukushi.metro.tokyo.lg.jp/about/soshiki/koko/kikaku/oshirase/kodomoseikatsujittaityousakekka"
+ ],
+ "demo_url": "https://d3piamd005gtzq.cloudfront.net",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://d3piamd005gtzq.cloudfront.net"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1678",
+ "image_count": 3,
+ "notes": ""
+}

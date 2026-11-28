@@ -1,0 +1,26 @@
+{
+ "id": "6632748353719159748",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632748353719159748/?year=2026",
+ "fetched_at": "2026-11-20T15:40:03+00:00",
+ "title": "からだ元気ログ",
+ "team": "からだログ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自分で歩ける施設入居高齢者を対象とした介護予防アプリ。介護施設では自分で歩ける人は身体介護を受けることが少なく施設が情報を収集する機会も限られ、館内は歩けているからと本人も周囲も筋力低下に気づかないまま急な転倒で重度化するという課題に対応。毎日の宿題運動と食事管理を10秒で記録し、活動レポートをケアマネ・主治医・家族に見せることでアセスメント資料やコミュニケーションのきっかけにする。非エンジニアの開発者がGeminiやClaudeに相談を繰り返しVS Codeでアプリを作成した。",
+ "open_data_items": [
+  {
+   "name": "2022（令和４）年　国民生活基礎調査　統計表",
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-tyosa/k-tyosa22/dl/06.pdf"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/toukei/saikin/hw/k-tyosa/k-tyosa22/dl/06.pdf"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1213",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

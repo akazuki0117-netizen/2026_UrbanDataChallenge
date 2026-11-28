@@ -1,0 +1,42 @@
+{
+ "id": "6632680259016479360",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632680259016479360/?year=2026",
+ "fetched_at": "2026-11-20T15:38:46+00:00",
+ "title": "TOKYOまつりマップ",
+ "team": "Four plus design",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京の町会・自治会や商店街の小さなお祭りを地図から探せるサービス。告知が紙のポスターと回覧板で完結し転入世帯には届かず、中野区の公式電子掲示板でさえ町会のお祭りは1件もなかったという課題に対応。中野・新宿・渋谷3区でお祭り会場となる公園・神社等802件をオープンデータからそろえ、町会が地域の掲示板に貼っているポスターを通りかかった人が撮って送るとAIが祭り名・日付・会場を読み取り人が確認してから地図に反映される。主催者への入力作業を求めない設計。LeafletとCloudflare Pages/Pages Functionsで構築し、ポスター読み取りをWorkers AI（Llama 4 Scout）とQwen3 30Bに分業させた。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap（神社・公園・集会施設・広場の位置／ODbL）",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "国税庁 法人番号公表サイト（商店街振興組合・宗教法人の名称と所在地）",
+   "url": "https://www.houjin-bangou.nta.go.jp/"
+  },
+  {
+   "name": "中野区お知らせ板一覧（掲示板の位置／東京都オープンデータカタログサイト・CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000011"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000011"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/",
+  "https://www.houjin-bangou.nta.go.jp/"
+ ],
+ "demo_url": "https://matsuri-map.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://matsuri-map.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1466",
+ "image_count": 3,
+ "notes": ""
+}

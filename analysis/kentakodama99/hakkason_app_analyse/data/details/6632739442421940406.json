@@ -1,0 +1,56 @@
+{
+ "id": "6632739442421940406",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632739442421940406/?year=2026",
+ "fetched_at": "2026-11-20T15:39:46+00:00",
+ "title": "Trait Compass",
+ "team": "CivicUnknot",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "ブラウザで完結する発達特性セルフチェックサービスで、30問への回答から10領域のレーダーチャートと、診断名ではなく6分類の「相談分野タグ」を提示する。発達特性に気づき始めた本人・家族は医療機関受診のハードルが高い一方、公的相談窓口の情報は都の広域機関と区市町村で管理が分かれCSV・PDF等形式もばらばらで、自力でたどり着くのが難しいという課題に対応。セルフチェックの傾向をタグ化し、ライフステージと居住区市町村を選ぶだけで、形式の異なる相談窓口・施設情報を共通スキーマに正規化して地図とリストで一覧できる。回答は端末内（ブラウザ）で処理・保存しサーバーへ送信しないプライバシー設計。生成AIは診断や制度可否の判断はせず、検証済みfactデータを根拠にした解説生成に限定している。",
+ "open_data_items": [
+  {
+   "name": "保健施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000229"
+  },
+  {
+   "name": "保育施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000225"
+  },
+  {
+   "name": "児童館・こどもクラブ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000224"
+  },
+  {
+   "name": "区役所・分庁舎・区民事務所・地区センター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000223"
+  },
+  {
+   "name": "子ども家庭支援センター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000227"
+  },
+  {
+   "name": "福祉施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000231"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000229",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000225",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000224",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000223",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000227",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000231"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://trait-compass.trait-compass.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://trait-compass.trait-compass.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=2484",
+ "image_count": 3,
+ "notes": ""
+}

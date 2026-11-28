@@ -1,0 +1,17 @@
+{
+ "id": "6631741092419438587",
+ "group": "finalist",
+ "title": "Wild Alert",
+ "demo_url": "https://staging.wild-alert-commercial-stg.pages.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6631741092419438587.png",
+ "status": "動く",
+ "form": "Webアプリ",
+ "clear_in_5s": "はい：「野生動物の気配をすばやく共有」＋公開情報 91 件",
+ "n_features": 4,
+ "gen_ai": "なし",
+ "map_viz": "あり",
+ "maturity": "プロトタイプ",
+ "note": "URL が staging 環境。自治体管理メニューあり"
+}

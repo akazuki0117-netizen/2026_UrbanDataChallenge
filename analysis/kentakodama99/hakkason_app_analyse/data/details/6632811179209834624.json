@@ -1,0 +1,31 @@
+{
+ "id": "6632811179209834624",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811179209834624/?year=2026",
+ "fetched_at": "2026-11-20T15:45:23+00:00",
+ "title": "市場の目利き（いちばのめきき）",
+ "team": "Koo",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都中央卸売市場の日報データから青果の卸売価格71万行を分析し「今週買うべき食材」を提案するWebサービス。食品の値上がりが続く中「代わりに何が手頃か」を教えてくれるものがなかったという課題に対応。直近7営業日の単価を過去5年の同時期と比較し今が手頃な食材を推薦、品目ごとに12か月の価格カレンダーも表示する。元料理人14年の知見を判定検証に活かし端境期の僅少取引による見かけ上の安値を自動除外、判定はAIのブラックボックスではなく説明可能な統計で行う誠実な設計。React+Vite+TypeScriptとDuckDBでサーバーレス構成とし、Claude（対話）とClaude Codeを開発補助として利用しデータ品質検証とロジック設計は応募者自身が判断した。",
+ "open_data_items": [
+  {
+   "name": "東京都中央卸売市場日報 販売結果（青果）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://mekiki-preview.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mekiki-preview.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3335",
+ "image_count": 1,
+ "notes": ""
+}

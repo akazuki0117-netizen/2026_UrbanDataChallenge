@@ -1,0 +1,77 @@
+{
+ "id": "6628613343614944792",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628613343614944792/?year=2026",
+ "fetched_at": "2026-11-20T15:33:36+00:00",
+ "title": "食料循環アプリ「農と備蓄」",
+ "team": "Kirari-TokyoNodeB",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "農業の余剰野菜を非常食として循環させ家庭・地域・自治体をつなぐ食料備蓄アプリ。農家は豊作時の余剰野菜が値崩れや食品ロスにつながり、家庭では非常食の備蓄管理が難しく、自治体も備蓄の全体像を把握しづらく期限間近の非常食を効率的に循環できないという複合課題に対応。家庭ではローリングストックを見える化して自助の備えを習慣化し、学区や避難所ではストック状況を共有、自治体は都内の備蓄を一元把握して期限間近の非常食を学校・福祉・病院へ効率的に払い出す。農家の余剰は加工業者により長期保存食へ転換される。Codex・GitHub Copilotで開発し、家庭の備蓄リストから献立を自動生成する機能にCloudflare AIを活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "指定緊急避難場所・指定避難所データ（国土地理院／東京都分）",
+   "url": "https://hinanmap.gsi.go.jp/hinanjocp/hinanbasho/koukaidate.html"
+  },
+  {
+   "name": "東京都避難マップ（データ可視化）",
+   "url": "https://portal.data.metro.tokyo.lg.jp/visualization/evacuation-map/"
+  },
+  {
+   "name": "農林水産 統計・調査（産業労働局）",
+   "url": "https://www.sangyo-rodo.metro.tokyo.lg.jp/data/nourin"
+  },
+  {
+   "name": "卸売市場別 入荷量・価格（ベジ探／ALIC）",
+   "url": "https://vegetan.alic.go.jp/vegetan/sch7.do?outPutKbn=1"
+  },
+  {
+   "name": "都内の食品ロス発生量（環境局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d0000000024"
+  },
+  {
+   "name": "食品ロス都内発生量調査（環境局・報告書）",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/resource/recycle/tokyo_torikumi/other-past-businesses/amount-survey"
+  },
+  {
+   "name": "公立学校統計調査【東京都公立学校一覧】",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000186"
+  },
+  {
+   "name": "東京都における学校給食の実態",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000014"
+  },
+  {
+   "name": "社会福祉施設等一覧（東京都福祉局）",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kiban/fukushi_shisetsu/shs_list/202510"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://portal.data.metro.tokyo.lg.jp/visualization/evacuation-map/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000009d0000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000186",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d0000000014"
+ ],
+ "external_data_urls": [
+  "https://hinanmap.gsi.go.jp/hinanjocp/hinanbasho/koukaidate.html",
+  "https://www.sangyo-rodo.metro.tokyo.lg.jp/data/nourin",
+  "https://vegetan.alic.go.jp/vegetan/sch7.do?outPutKbn=1",
+  "https://www.kankyo.metro.tokyo.lg.jp/resource/recycle/tokyo_torikumi/other-past-businesses/amount-survey",
+  "https://www.fukushi.metro.tokyo.lg.jp/kiban/fukushi_shisetsu/shs_list/202510"
+ ],
+ "demo_url": "https://municipal-stock.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://municipal-stock.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4570",
+ "image_count": 3,
+ "notes": ""
+}

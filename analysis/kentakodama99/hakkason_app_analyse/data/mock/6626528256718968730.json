@@ -1,0 +1,17 @@
+{
+ "id": "6626528256718968730",
+ "group": "control",
+ "title": "マンション防災カルテ",
+ "demo_url": "https://mansion-bousai.tokyo-odh-039.workers.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6626528256718968730.png",
+ "status": "動く",
+ "form": "Webアプリ",
+ "clear_in_5s": "はい：「自宅の危険度を知り、在宅避難に備える。」",
+ "n_features": 3,
+ "gen_ai": "なし",
+ "map_viz": "なし",
+ "maturity": "プロトタイプ",
+ "note": "最初の画面は紹介"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "6629448670129602546",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629448670129602546/?year=2026",
+ "fetched_at": "2026-11-20T15:33:54+00:00",
+ "title": "妊娠出産の申請みまもりカメだよ！",
+ "team": "申請みまもりカメだよ！",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「なにがあった？」しかない画面で、妊娠した・保育園に落ちたなどをひとこと入れると東京都のオープンデータから住んでいる街の制度だけを集め期限を逆算し書類の下書きまで用意するサービス。日本の行政手続きは申請主義で制度を知らない人には何も始まらず、児童手当は出生後15日以内など締切つきの制度が並列に押し寄せる一方相手も会社・行政・病院に分かれるという課題に対応。出産予定日から逆算した実日付で締切を示し、誰に何を頼むかまで案内、期限は条文にあたってから記載する誠実な設計。Cloudflare Pagesの静的アプリで、生成にWorkers AIのQwen3-30B-A3Bを使い「集める」だけをさせ「決める」はさせない方針とした。",
+ "open_data_items": [
+  {
+   "name": "こどもDX 子育て支援制度レジストリ（東京都・CC BY 4.0）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t134211d0000000001"
+  },
+  {
+   "name": "医療情報ネットのオープンデータ（厚生労働省・公共データ利用規約PDL1.0）",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html"
+  },
+  {
+   "name": "医療機関等台帳（東京都保健医療局・CC BY）",
+   "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/iryokikan-zenshisetsu-4"
+  },
+  {
+   "name": "e-Gov法令検索（デジタル庁・期限の条文確認に使用）",
+   "url": "https://laws.e-gov.go.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t134211d0000000001"
+ ],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html",
+  "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/iryokikan-zenshisetsu-4",
+  "https://laws.e-gov.go.jp/"
+ ],
+ "demo_url": "https://mkame.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mkame.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=1548",
+ "image_count": 3,
+ "notes": ""
+}

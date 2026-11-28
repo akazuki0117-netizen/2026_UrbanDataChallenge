@@ -1,0 +1,26 @@
+{
+ "id": "6632685789012888416",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632685789012888416/?year=2026",
+ "fetched_at": "2026-11-20T15:38:48+00:00",
+ "title": "サギシールド",
+ "team": "六本木WestGatePark",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「サギシールド」は、防犯ボランティア団体が高齢者に模擬オレオレ詐欺電話をかけ本番そっくりの詐欺電話を安全に体験させるWebアプリ。東京都の特殊詐欺被害は令和7年に282億円に拡大し86%がオレオレ詐欺だが、高齢者は詐欺電話が人生でほぼ初体験で手口も毎月更新され知識が本番の緊張下での行動に結びつかないという課題に対応。警視庁「メール警視庁」の最新手口情報からAIが台本を自動生成し団体員が読み上げ架電、通話を録音し音声認識とLLMで応答を解析、危険度スコアと改善点を提示する。都内3,548団体の防犯ボランティアを架電役とする普及設計。Python/FastAPIとNext.js 15で構築した。",
+ "open_data_items": [
+  {
+   "name": "特殊詐欺犯人からの架電情報",
+   "url": "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3068",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

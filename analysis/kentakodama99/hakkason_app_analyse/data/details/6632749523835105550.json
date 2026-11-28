@@ -1,0 +1,41 @@
+{
+ "id": "6632749523835105550",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632749523835105550/?year=2026",
+ "fetched_at": "2026-11-20T15:40:07+00:00",
+ "title": "Life Choice Tokyo",
+ "team": "ぴよプロジェクト",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "障害福祉を必要とする人が自分が望む暮らしから東京都62自治体を比較できるWebサービス。障害福祉制度は複雑で当事者や家族が本当に知りたいのは「自分の場合何が利用できるのか」だが情報は制度・自治体・事業所ごとに分散し比較が困難という課題に対応。「自宅で暮らしたい」等の希望と優先度を入力するとオープンデータから生成した福祉KPIをもとに自分に合いそうな街と適合度、理由を表示する。現在は3KPIでマッチングし将来拡張する41KPIの枠組みも構想。PythonとPostgreSQL、TypeScript + Cloudflare Workersで構築し、ChatGPT / OpenAIモデルを課題整理からUX改善まで役割別のAIエージェントで活用した。",
+ "open_data_items": [
+  {
+   "name": "障害福祉サービス等情報公表システムデータのオープンデータ(居宅介護,重度訪問介護,共同生活援助)",
+   "url": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口(町丁別・年齢別) 　令和8年1月",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26qv0100.csv"
+  },
+  {
+   "name": "東京都福祉局「福祉・衛生行政統計」",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/nenpou/2024"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/2026/jy26qv0100.csv",
+  "https://www.fukushi.metro.tokyo.lg.jp/kiban/chosa_tokei/nenpou/2024"
+ ],
+ "demo_url": "https://life-choice-tokyo.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://life-choice-tokyo.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=1128",
+ "image_count": 3,
+ "notes": ""
+}

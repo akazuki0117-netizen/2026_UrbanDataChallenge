@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>生徒裁判（試作）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: 緊張感のある放課後の教室。真剣だけど怖くない
+   IDEA: 黒板とチョーク。議論は黒板の上で戦われる
+   PICTURE: 6人の論者が円形に並ぶ3Dの裁判場。発言者にカメラが回り込む
+   COLOUR and TYPE: 黒板の深緑、チョークの白、判を押す朱色。見出しは Dela Gothic One
+   LAYOUT: 縦画面。上半分が舞台、下半分がテキストと操作 */
+:root{--board:#1d2b24;--board2:#24372e;--chalk:#f3f1e8;--dim:#a9b8ae;--red:#e4572e;--pro:#f2a541;--con:#5fb3d9;--line:rgba(243,241,232,.18)}
+*{box-sizing:border-box;min-width:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{margin:0;background:#0f1713;color:var(--chalk);font:16px/1.6 "Zen Kaku Gothic New",system-ui,"Hiragino Sans",sans-serif;overflow:hidden}
+#phone{position:relative;max-width:430px;height:100%;max-height:900px;margin:0 auto;background:radial-gradient(120% 70% at 50% 0%,var(--board2),var(--board));overflow:hidden;display:flex;flex-direction:column}
+.tag{position:absolute;top:8px;left:10px;font-size:11px;color:var(--dim);z-index:20}
+h1,.disp{font-family:"Dela Gothic One",system-ui,sans-serif;font-weight:400}
+button{font:inherit;color:inherit;cursor:pointer}
+.btn{min-height:48px;padding:10px 18px;border-radius:12px;border:2px solid var(--chalk);background:transparent;font-weight:700;font-size:16px}
+.btn.solid{background:var(--chalk);color:var(--board)}
+.btn.red{background:var(--red);border-color:var(--red);color:#fff}
+.btn:disabled{opacity:.35;cursor:default}
+.screen{flex:1;display:flex;flex-direction:column;padding:44px 20px 24px;gap:16px}
+.center{justify-content:center;align-items:center;text-align:center}
+.title{font-size:46px;line-height:1.05;margin:0;letter-spacing:.04em}
+.sub{color:var(--dim);font-size:14px}
+.box{background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.talk{min-height:120px;font-size:17px;cursor:pointer;position:relative}
+.talk .who{font-size:13px;font-weight:700;margin-bottom:4px}
+.talk .more{position:absolute;right:12px;bottom:8px;font-size:12px;color:var(--dim)}
+.motion{font-family:"Dela Gothic One";font-size:26px;line-height:1.3;text-align:center;padding:18px 8px;border-top:2px solid var(--chalk);border-bottom:2px solid var(--chalk)}
+/* 捜査 */
+.map{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.room{min-height:84px;border-radius:12px;border:2px dashed var(--line);background:rgba(243,241,232,.05);display:flex;flex-direction:column;justify-content:center;align-items:center;font-weight:700;gap:2px}
+.room.got{border-style:solid;border-color:var(--chalk);background:rgba(243,241,232,.12)}
+.room small{font-weight:400;color:var(--dim);font-size:12px}
+.room.wide{grid-column:span 2}
+.people{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.chip{flex:none;display:flex;align-items:center;gap:6px;padding:6px 10px 6px 6px;border-radius:99px;border:1px solid var(--line);background:rgba(0,0,0,.2);font-size:13px}
+.dot{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;color:var(--board)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+/* 裁判場 */
+#stage{position:relative;height:46%;flex:none;perspective:700px;perspective-origin:50% 35%;overflow:hidden;border-bottom:1px solid var(--line)}
+.floor{position:absolute;left:50%;top:62%;width:520px;height:520px;margin:-260px 0 0 -260px;border-radius:50%;background:radial-gradient(circle,#2f4a3d 0 40%,#1a2a22 70%);transform:rotateX(80deg)}
+#ring{position:absolute;left:50%;top:58%;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.6,.05,.3,1)}
+.pod{position:absolute;left:-55px;top:-150px;width:110px;height:170px;backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:flex-end}
+.head{width:46px;height:46px;border-radius:50%;margin-bottom:-4px;position:relative;z-index:1}
+.body{width:76px;height:60px;border-radius:30px 30px 6px 6px}
+.desk{width:110px;height:46px;background:#3b2b20;border-top:4px solid #5a4231;border-radius:4px;display:grid;place-items:center;font-size:13px;font-weight:700}
+.pod.on .head{box-shadow:0 0 0 3px var(--chalk)}
+.side{position:absolute;top:10px;right:12px;font-size:12px;padding:2px 10px;border-radius:99px;font-weight:700;z-index:3}
+#stamp{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;z-index:10}
+#stamp span{font-family:"Dela Gothic One";font-size:44px;color:#fff;background:var(--red);padding:6px 18px;transform:rotate(-6deg) scale(.4);opacity:0;transition:.25s}
+#stamp.show span{transform:rotate(-6deg) scale(1);opacity:1}
+.lower{flex:1;display:flex;flex-direction:column;gap:10px;padding:12px 16px 18px;overflow:auto}
+.weakline{color:#ffd9cc}
+.hint{font-size:14px;color:#ffd9cc;border:1px dashed #ffd9cc;border-radius:10px;padding:6px 10px}
+.progress{display:flex;gap:6px;align-items:center;font-size:12px;color:var(--dim)}
+.progress i{width:22px;height:6px;border-radius:3px;background:var(--line)}
+.progress i.ok{background:var(--chalk)}
+.shake{animation:shake .35s}
+@keyframes shake{25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+/* 証拠のシート・ポップアップ */
+.sheet{position:absolute;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:flex-end;z-index:30}
+.sheet .panel{width:100%;background:var(--chalk);color:var(--board);border-radius:18px 18px 0 0;padding:18px 16px 22px;max-height:80%;overflow:auto}
+.sheet.mid{align-items:center;padding:20px}
+.sheet.mid .panel{border-radius:16px}
+.card{border:2px solid var(--board);border-radius:12px;padding:10px 12px;margin-top:8px;text-align:left;width:100%;background:#fff}
+.card b{display:block}
+.card span{font-size:14px}
+.src{font-size:12px;color:#5d6b63}
+/* 投票・エンディング */
+.votes{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.votes .btn{min-height:72px;font-size:20px}
+.meter{height:28px;border-radius:8px;overflow:hidden;display:flex;font-size:13px;font-weight:700}
+.meter div{display:grid;place-items:center;color:var(--board)}
+a{color:#ffd9cc}
+@media (prefers-reduced-motion:reduce){#ring{transition:none}#stamp span{transition:none}.shake{animation:none}}
+</style>
+</head>
+<body>
+<div id="phone">
+  <div class="tag">試作版・シナリオは仮</div>
+  <div id="stage" hidden>
+    <div class="floor"></div>
+    <div id="ring"></div>
+    <div id="sideTag" class="side"></div>
+    <div id="stamp"><span>根拠を示せ！</span></div>
+  </div>
+  <div id="app" style="flex:1;display:flex;flex-direction:column;min-height:0"></div>
+</div>
+
+<script>
+{
+/* ===== シナリオ（仮。本番ではシナリオ担当が実際の資料に差し替える） ===== */
+const SC = {
+  motion: "部活動を廃止して、外部のクラブに任せるか",
+  intro: [
+    "この学園では、大事なことは生徒による「裁判」で決める。",
+    "賛成と反対の論者が主張をぶつけ合い、最後にひとりひとりが投票する。",
+    "あなたは検証役。どちらの味方もしない。根拠のない主張を、証拠で崩すのが役目だ。",
+    "今回の議案は――",
+  ],
+  order: ["hayase","nanjo","shiraishi","kimura","tono","hinata"],
+  debaters: {
+    hayase:{name:"早瀬",side:"賛成",stance:"先生の負担を訴える",color:"#f2a541",talk:"先生たち、毎日夜まで部活で大変なんだよ。休みの日もずっと学校にいる。"},
+    nanjo:{name:"南條",side:"賛成",stance:"専門的な指導を受けたい",color:"#f6c177",talk:"うちの顧問、競技の経験がないんだ。ちゃんと教えられる人に習いたい。"},
+    shiraishi:{name:"白石",side:"賛成",stance:"生徒会の財政担当",color:"#e8955a",talk:"部活の予算は毎年足りてないの。外に任せたほうが回るかもしれない。"},
+    kimura:{name:"木村",side:"反対",stance:"家庭の費用負担を心配する",color:"#5fb3d9",talk:"お金がかかるようになったら、うちは続けられないかもしれない。"},
+    tono:{name:"遠野",side:"反対",stance:"地域にクラブがない地区から通う",color:"#7cc6b4",talk:"うちの地区、近くにクラブなんてないよ。どうやって通えっていうの。"},
+    hinata:{name:"日向",side:"反対",stance:"部活が居場所になっている",color:"#8aa6e8",talk:"教室だと話せる人がいない。部活があるから学校に来られてるんだ。"},
+  },
+  rooms: [
+    {id:"staffroom",label:"職員室",ev:"survey"},
+    {id:"gym",label:"体育館",ev:"coaches"},
+    {id:"council",label:"生徒会室",ev:"fee"},
+    {id:"library",label:"図書室",ev:"guideline"},
+    {id:"board",label:"昇降口の掲示板",ev:"rate",wide:true},
+  ],
+  evidence: {
+    survey:{name:"先生へのアンケート",text:"部活の指導に「やりがいを感じる」と答えた先生は約6割。",src:"仮データ"},
+    coaches:{name:"指導者の確保の資料",text:"地域のクラブでは指導者が足りず、確保が課題になっている。",src:"仮データ"},
+    fee:{name:"会費の試算",text:"外部クラブの会費は月数千円程度の想定。家計が苦しい家庭への補助も検討中。",src:"仮データ"},
+    guideline:{name:"国のガイドライン",text:"まず休日の部活動を地域に移すことが中心。平日の進め方は地域ごとに選べる。",src:"文部科学省の資料をもとにした要約"},
+    rate:{name:"部活の加入率の推移",text:"中学生の部活加入率は、ここ10年でゆるやかに下がっている。",src:"仮データ"},
+  },
+  claims: [
+    {lines:[
+      {by:"hayase",t:"先生たちは毎日、夜遅くまで部活の指導をしてる。"},
+      {by:"hayase",t:"先生はみんな、部活の指導を嫌がっているんです！",weak:true},
+      {by:"hinata",t:"でも、部活が好きな先生だっているはずだよ…。"}],
+     answer:"survey",flaw:"一部の声を、全体の声のように言っていた。",
+     hints:["先生たち自身は、部活をどう感じているんだろう？","職員室で見つけた証拠を思い出そう。"]},
+    {lines:[
+      {by:"nanjo",t:"外部のクラブなら、その競技の経験者が教えてくれる。"},
+      {by:"nanjo",t:"外部のクラブなら、全員がプロに教えてもらえる！",weak:true},
+      {by:"tono",t:"そんなに都合よく、教える人が集まるのかな。"}],
+     answer:"coaches",flaw:"理想を、もう決まった事実のように言っていた。",
+     hints:["教える人は、本当に足りている？","体育館で見つけた証拠を思い出そう。"]},
+    {lines:[
+      {by:"kimura",t:"外部のクラブは、会費を払わないといけないんだよ。"},
+      {by:"kimura",t:"外部のクラブになったら、毎月何万円もかかるんだよ！",weak:true},
+      {by:"shiraishi",t:"それ、本当にその金額なの？"}],
+     answer:"fee",flaw:"数字を大げさに言っていた。",
+     hints:["実際の会費は、いくらくらいの見込み？","生徒会室で見つけた証拠を思い出そう。"]},
+    {lines:[
+      {by:"hinata",t:"部活があるから学校に来られている子もいるんだ。"},
+      {by:"hinata",t:"国は部活を全部なくそうとしてるんだ！",weak:true},
+      {by:"hayase",t:"全部…？ そこまで決まってたっけ。"}],
+     answer:"guideline",flaw:"国の決まりの範囲を取り違えていた。",
+     hints:["国が決めたのは、いつの部活のこと？","図書室で見つけた証拠を思い出そう。"]},
+  ],
+  sound: {
+    "賛成":"先生の長時間労働は深刻で、今のままでは続けられない。",
+    "反対":"近くにクラブがない地区の生徒は、活動そのものができなくなるおそれがある。",
+  },
+  tally: {"賛成":128,"反対":117},
+};
+
+/* ===== ゲーム進行（画面に依存しない） ===== */
+const init = () => ({phase:"title",introIdx:0,evidence:[],claim:0,line:0,hint:0,mistakes:0,vote:null,tally:{...SC.tally},popup:null,last:null});
+function reduce(s, a){
+  switch(a.type){
+    case "START": return {...init(),phase:"intro"};
+    case "NEXT_INTRO": return s.introIdx+1 < SC.intro.length ? {...s,introIdx:s.introIdx+1} : {...s,phase:"motion"};
+    case "TO_INVESTIGATE": return {...s,phase:"investigate"};
+    case "INVESTIGATE": {
+      const r = SC.rooms.find(x=>x.id===a.room);
+      const has = s.evidence.includes(r.ev);
+      return {...s,evidence:has?s.evidence:[...s.evidence,r.ev],popup:{kind:has?"again":"evidence",ev:r.ev,room:r.label}};
+    }
+    case "TALK": return {...s,popup:{kind:"talk",who:a.who}};
+    case "CLOSE": return {...s,popup:null};
+    case "TO_TRIAL": return s.evidence.length===SC.rooms.length ? {...s,phase:"trial",claim:0,line:0,hint:0,popup:null,last:null} : s;
+    case "NEXT_LINE": return {...s,line:(s.line+1)%SC.claims[s.claim].lines.length,last:null};
+    case "PRESENT": {
+      const c = SC.claims[s.claim], ln = c.lines[s.line];
+      if (ln.weak && a.ev===c.answer) return {...s,phase:"broken",popup:null,last:"hit"};
+      return {...s,line:0,hint:Math.min(s.hint+1,c.hints.length),mistakes:s.mistakes+1,popup:null,last:"miss"};
+    }
+    case "CONTINUE": return s.claim+1 < SC.claims.length ? {...s,phase:"trial",claim:s.claim+1,line:0,hint:0,last:null} : {...s,phase:"vote"};
+    case "VOTE": return {...s,phase:"ending",vote:a.side,tally:{...s.tally,[a.side]:s.tally[a.side]+1}};
+    case "SKIP_TO_TRIAL": return {...init(),phase:"trial",evidence:SC.rooms.map(r=>r.ev)};
+  }
+  return s;
+}
+
+/* ===== 画面 ===== */
+let S = init();
+let turn = 0;
+const app = document.getElementById("app"), stage = document.getElementById("stage"), ring = document.getElementById("ring");
+const D = k => SC.debaters[k];
+const dot = k => `<span class="dot" style="background:${D(k).color}">${D(k).name[0]}</span>`;
+const go = a => { const prev = S; S = reduce(S,a); render(prev); };
+
+const R = 230;
+ring.innerHTML = SC.order.map((k,i)=>`<div class="pod" id="pod-${k}" style="transform:rotateY(${i*60}deg) translateZ(${R}px)"><div class="head" style="background:${D(k).color}"></div><div class="body" style="background:${D(k).color};opacity:.75"></div><div class="desk">${D(k).name}</div></div>`).join("");
+
+function focus(who){
+  const target = SC.order.indexOf(who)*60;
+  let cur = ((turn % 360)+360)%360, diff = ((target - cur + 540) % 360) - 180;
+  turn += diff;
+  ring.style.transform = `translateZ(-${R}px) rotateY(${-turn}deg)`;
+  document.querySelectorAll(".pod").forEach(p=>p.classList.toggle("on",p.id==="pod-"+who));
+  const t = document.getElementById("sideTag");
+  t.textContent = D(who).side+"側"; t.style.background = D(who).side==="賛成"?"var(--pro)":"var(--con)"; t.style.color = "var(--board)";
+}
+function stamp(){ const el=document.getElementById("stamp"); el.classList.add("show"); setTimeout(()=>el.classList.remove("show"),900); }
+
+function popupHTML(){
+  const p = S.popup; if(!p) return "";
+  if(p.kind==="talk"){ const d=D(p.who); return `<div class="sheet mid" data-a="CLOSE"><div class="panel"><div style="display:flex;gap:8px;align-items:center">${dot(p.who)}<b>${d.name}</b><span class="src">${d.side}・${d.stance}</span></div><p style="margin:10px 0 14px">「${d.talk}」</p><button class="btn solid" style="width:100%;background:var(--board);color:var(--chalk)" data-a="CLOSE">閉じる</button></div></div>`; }
+  if(p.kind==="evidence"||p.kind==="again"){ const e=SC.evidence[p.ev]; return `<div class="sheet mid" data-a="CLOSE"><div class="panel"><div class="src">${p.room}</div><b style="font-size:18px">${p.kind==="evidence"?"証拠を手に入れた！":"もう調べた場所だ"}</b><div class="card"><b>${e.name}</b><span>${e.text}</span><div class="src">出典：${e.src}</div></div><button class="btn" style="width:100%;margin-top:14px;background:var(--board);color:var(--chalk)" data-a="CLOSE">OK</button></div></div>`; }
+  if(p.kind==="pick"){ return `<div class="sheet" data-a="CLOSE"><div class="panel"><b>どの証拠で崩す？</b><div class="src">いま表示されている発言に突きつけます</div>${S.evidence.map(k=>`<button class="card" data-a="PRESENT" data-ev="${k}"><b>${SC.evidence[k].name}</b><span>${SC.evidence[k].text}</span></button>`).join("")}<button class="btn" style="width:100%;margin-top:12px;border-color:var(--board)" data-a="CLOSE">やめる</button></div></div>`; }
+  if(p.kind==="bag"){ return `<div class="sheet" data-a="CLOSE"><div class="panel"><b>集めた証拠（${S.evidence.length}/5）</b>${S.evidence.map(k=>`<div class="card"><b>${SC.evidence[k].name}</b><span>${SC.evidence[k].text}</span></div>`).join("")||'<p class="src">まだない</p>'}<button class="btn" style="width:100%;margin-top:12px;border-color:var(--board)" data-a="CLOSE">閉じる</button></div></div>`; }
+  return "";
+}
+
+function progress(){ return `<div class="progress">崩した主張 ${SC.claims.map((_,i)=>`<i class="${i<S.claim||S.phase==="broken"&&i===S.claim?"ok":""}"></i>`).join("")}</div>`; }
+
+function view(){
+  switch(S.phase){
+    case "title": return `<div class="screen center"><div class="sub">投票権を持つ前のきみへ</div><h1 class="title">生徒<br>裁判</h1><div class="sub" style="max-width:260px">議案を裁くのは、きみたちだ。</div><div style="height:12px"></div><button class="btn solid" data-a="START">はじめる</button><button class="btn" style="border-width:1px;font-size:13px;min-height:40px" data-a="SKIP_TO_TRIAL">（デモ用）裁判から始める</button></div>`;
+    case "intro": return `<div class="screen" style="justify-content:flex-end"><div class="box talk" data-a="NEXT_INTRO"><div class="who">ナレーション</div>${SC.intro[S.introIdx]}<span class="more">タップで進む ▼</span></div></div>`;
+    case "motion": return `<div class="screen center"><div class="sub">今回の議案</div><div class="motion">${SC.motion}</div><div class="sub">裁判の前に、学園を調べて証拠を集めよう。</div><button class="btn solid" data-a="TO_INVESTIGATE">捜査を始める</button></div>`;
+    case "investigate": {
+      const n = S.evidence.length, all = n===SC.rooms.length;
+      return `<div class="screen" style="gap:14px"><div class="bar"><h1 style="margin:0;font-size:22px">捜査</h1><button class="btn" style="min-height:40px;font-size:14px;padding:6px 12px" data-a="BAG">証拠 ${n}/5</button></div>
+      <div class="sub" style="margin-top:-8px">気になる場所をタップして調べよう</div>
+      <div class="map">${SC.rooms.map(r=>`<button class="room ${S.evidence.includes(r.ev)?"got":""} ${r.wide?"wide":""}" data-a="INVESTIGATE" data-room="${r.id}">${r.label}<small>${S.evidence.includes(r.ev)?"調べた":"まだ"}</small></button>`).join("")}</div>
+      <div><div class="sub" style="margin-bottom:6px">論者の話を聞く</div><div class="people">${SC.order.map(k=>`<button class="chip" data-a="TALK" data-who="${k}">${dot(k)}${D(k).name}<span class="src" style="color:var(--dim)">${D(k).side}</span></button>`).join("")}</div></div>
+      <div style="flex:1"></div>
+      <button class="btn ${all?"red":""}" ${all?"":"disabled"} data-a="TO_TRIAL">${all?"裁判へ向かう":"証拠を集めよう（"+n+"/5）"}</button></div>`;
+    }
+    case "trial": {
+      const c = SC.claims[S.claim], ln = c.lines[S.line], d = D(ln.by);
+      return `<div class="lower">${progress()}
+        ${S.hint?`<div class="hint">ヒント：${c.hints[S.hint-1]}</div>`:""}
+        ${S.last==="miss"?`<div class="sub" style="color:#ffd9cc">その証拠では崩せなかった…。議論を最初から聞き直そう。</div>`:""}
+        <div class="box talk ${S.last==="miss"?"shake":""}" data-a="NEXT_LINE"><div class="who" style="color:${d.color}">${d.name}（${d.side}）</div><span class="${ln.weak?"weakline":""}">「${ln.t}」</span><span class="more">タップで次の発言 ▼ ${S.line+1}/${c.lines.length}</span></div>
+        <button class="btn red" data-a="PICK">この発言に証拠を突きつける</button></div>`;
+    }
+    case "broken": {
+      const c = SC.claims[S.claim], e = SC.evidence[c.answer];
+      return `<div class="lower">${progress()}<div class="box"><div class="disp" style="font-size:20px;color:var(--red);margin-bottom:6px">主張を崩した！</div><div class="sub">突きつけた証拠</div><b>${e.name}</b><div style="font-size:14px;margin-bottom:8px">${e.text}</div><div class="sub">おかしかった点</div><div>${c.flaw}</div></div>
+        <button class="btn solid" data-a="CONTINUE">${S.claim+1<SC.claims.length?"次の議論へ":"投票へ"}</button></div>`;
+    }
+    case "vote": return `<div class="screen" style="justify-content:center"><div class="sub">根拠のない主張は、すべて崩れた。それでも残った主張がある。</div>
+      <div class="box"><div style="color:var(--pro);font-weight:700;font-size:13px">賛成側</div>${SC.sound["賛成"]}</div>
+      <div class="box"><div style="color:var(--con);font-weight:700;font-size:13px">反対側</div>${SC.sound["反対"]}</div>
+      <div class="motion" style="font-size:20px">${SC.motion}</div><div class="sub" style="text-align:center">正解はない。きみの判断で選んでほしい。</div>
+      <div class="votes"><button class="btn" style="border-color:var(--pro);color:var(--pro)" data-a="VOTE" data-side="賛成">賛成</button><button class="btn" style="border-color:var(--con);color:var(--con)" data-a="VOTE" data-side="反対">反対</button></div></div>`;
+    case "ending": {
+      const t = S.tally, sum = t["賛成"]+t["反対"], p = Math.round(t["賛成"]/sum*100);
+      return `<div class="screen" style="overflow:auto"><div class="sub">きみの投票</div><div class="disp" style="font-size:30px;color:${S.vote==="賛成"?"var(--pro)":"var(--con)"}">${S.vote}</div>
+      <div><div class="sub" style="margin-bottom:6px">みんなの投票結果（${sum}票・試作では仮の数字）</div><div class="meter"><div style="width:${p}%;background:var(--pro)">賛成 ${p}%</div><div style="width:${100-p}%;background:var(--con)">反対 ${100-p}%</div></div></div>
+      <div class="box"><div class="disp" style="font-size:18px;margin-bottom:6px">実はこの議案……</div>全国の市議会で、いま本当に話し合われている「部活動の地域展開」がもとになっている。国は、休日の部活動から地域のクラブに移していく方針を示している。<div style="margin-top:6px"><a href="https://www.mext.go.jp/content/20260710-mxt_syoto01-000050978_03.pdf" target="_blank" rel="noopener">文部科学省の資料を見る</a></div></div>
+      <div class="box"><div style="font-weight:700;margin-bottom:4px">きみの市の議会でも、話されているかも</div><div style="font-size:14px">市議会のウェブサイトの「会議録検索」で「部活動」と調べてみよう。議会は、中高生でも傍聴できる。</div></div>
+      <button class="btn solid" data-a="START">もう一度遊ぶ</button></div>`;
+    }
+  }
+}
+
+function render(prev){
+  const inTrial = S.phase==="trial"||S.phase==="broken";
+  stage.hidden = !inTrial;
+  if (inTrial){ const c = SC.claims[S.claim]; focus(c.lines[S.line].by); }
+  if (prev && prev.phase==="trial" && S.phase==="broken") stamp();
+  app.innerHTML = view() + popupHTML();
+}
+
+app.addEventListener("click", e => {
+  const el = e.target.closest("[data-a]"); if(!el) return;
+  if (el.classList.contains("sheet") && e.target!==el) return;
+  const a = el.dataset.a;
+  if (a==="PICK"){ S = {...S,popup:{kind:"pick"}}; return render(S); }
+  if (a==="BAG"){ S = {...S,popup:{kind:"bag"}}; return render(S); }
+  go({type:a,room:el.dataset.room,who:el.dataset.who,ev:el.dataset.ev,side:el.dataset.side});
+});
+
+render();
+}
+</script>
+</body>
+</html>

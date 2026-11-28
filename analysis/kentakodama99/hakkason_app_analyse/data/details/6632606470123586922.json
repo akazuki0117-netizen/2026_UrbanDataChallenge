@@ -1,0 +1,77 @@
+{
+ "id": "6632606470123586922",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632606470123586922/?year=2026",
+ "fetched_at": "2026-11-20T15:38:09+00:00",
+ "title": "RakuWalk",
+ "team": "RakuWalk",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「RakuWalk」は、暑い日の徒歩移動で「どの道を歩くか」を選べるルート検索サービス。2025年の熱中症救急搬送は全国10万510人と統計開始以来初めて10万人を超え、一般的な地図アプリは「最短・最速」ルートのみを提示するという課題に対応。「最速」「日陰優先」「屋内・日陰優先」の3つのルートと所要時間・暑さを比較でき、暑さ指数（WBGT）・クーリングシェルター・給水地点も地図上に表示する。日本語・英語切替対応で観光客も利用しやすい設計。React・TypeScript・ViteとMapLibre GL JS、Python・FastAPIで構築し、ChatGPT CodexとClaude Codeの出力をそのまま信用せず論理的に確認する開発姿勢を徹底した。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap 関東地方データ（Geofabrik）",
+   "url": "https://download.geofabrik.de/asia/japan/kanto.html"
+  },
+  {
+   "name": "環境省 暑さ指数（WBGT）",
+   "url": "https://www.wbgt.env.go.jp/data_service.php"
+  },
+  {
+   "name": "環境省 熱中症警戒アラート",
+   "url": "https://www.wbgt.env.go.jp/alert.php"
+  },
+  {
+   "name": "PLATEAU 3D都市モデル（東京都23区）",
+   "url": "https://www.mlit.go.jp/plateau/open-data/"
+  },
+  {
+   "name": "Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "江東区 クーリングシェルター一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016"
+  },
+  {
+   "name": "墨田区 クールスポット・クーリングシェルター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000189"
+  },
+  {
+   "name": "東京都 緑のオープンデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "新宿駅西部 歩行空間ネットワークデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007"
+  },
+  {
+   "name": "東京都デジタルツイン 区部点群データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d3100000016",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000189",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000007",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024"
+ ],
+ "external_data_urls": [
+  "https://download.geofabrik.de/asia/japan/kanto.html",
+  "https://www.wbgt.env.go.jp/data_service.php",
+  "https://www.wbgt.env.go.jp/alert.php",
+  "https://www.mlit.go.jp/plateau/open-data/"
+ ],
+ "demo_url": "https://rakuwalk-staging.tokyo-odh-386.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://rakuwalk-staging.tokyo-odh-386.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2847",
+ "image_count": 1,
+ "notes": ""
+}

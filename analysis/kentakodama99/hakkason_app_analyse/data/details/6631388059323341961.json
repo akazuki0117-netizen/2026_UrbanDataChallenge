@@ -1,0 +1,51 @@
+{
+ "id": "6631388059323341961",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631388059323341961/?year=2026",
+ "fetched_at": "2026-11-20T15:35:33+00:00",
+ "title": "SkyScope 〜見るべき範囲を確保し、見えない保証を光学で与える〜",
+ "team": "Team Mirai Prototype SkyScope",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「SkyScope」は、防犯カメラをどこに、どの仕様で設置すべきかを三次元都市モデルから決めるシステム。危険な場所に見守りの目を置きたい要望がある一方「うちの窓が映るのは困る」という声もあり、見守りを増やしたい人と映されたくない人が同じ地域の住民という板挟みの課題に対応。地図上で候補地点を選ぶと新たに映る面積が出て、「これを外したら」で影響が分かり建物ごと・階ごとにも照会できる。被写体1メートルあたりの画素数の下限・上限という二重の制約を満たす配置を三次元都市モデルから自動選定し、小金井駅前では候補79箇所のうち47箇所が住宅を映しすぎるため除外された。可視領域算出にXDraw法（厳密解との一致率99.1%）を採用し、Claude（Anthropic）と協働し配置決定と住民向け照会の標本点生成を別々の関数で生成し相互検証する工夫をした。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）小金井市（2025年度）建築物・道路・公園モデル／国土交通省 都市局",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13210-koganei-shi-2025"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）新宿区（2025年度）建築物・道路・公園モデル／国土交通省 都市局",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13104-shinjuku-ku-2025"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）奥多摩町（2025年度）建築物・道路モデル／国土交通省 都市局",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13308-okutama-machi-2025"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）檜原村（2025年度）建築物・道路モデル／国土交通省 都市局",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13307-hinohara-mura-2025"
+  },
+  {
+   "name": "3D都市モデル（Project PLATEAU）大島町（2024年度）建築物・道路モデル／国土交通省 都市局",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13361-oshima-machi-2024"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-13210-koganei-shi-2025",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13104-shinjuku-ku-2025",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13308-okutama-machi-2025",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13307-hinohara-mura-2025",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13361-oshima-machi-2024"
+ ],
+ "demo_url": "https://mp-skyscope.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mp-skyscope.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=144",
+ "image_count": 3,
+ "notes": ""
+}

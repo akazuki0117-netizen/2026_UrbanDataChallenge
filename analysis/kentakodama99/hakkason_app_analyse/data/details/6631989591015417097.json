@@ -1,0 +1,77 @@
+{
+ "id": "6631989591015417097",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631989591015417097/?year=2026",
+ "fetched_at": "2026-11-20T15:36:37+00:00",
+ "title": "Tokyo Safe First",
+ "team": "焼き小籠包",
+ "member_count": 12,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京で暮らす・滞在する外国人が、地震・火災・洪水等の災害時に「今、何をすべきか」を短時間で判断できる多言語Webサービス。都内在留外国人は約77.5万人、訪日外国人は年間約4,268万人にのぼる一方、日本語の警戒情報や避難ルールを理解できず短時間の判断が難しいという課題に対応。現在地・言語・災害状況に応じて「身を守る」「危険な場所から離れる」等いま取るべき行動を簡潔に提示し、平常時は対話形式で避難場所や備蓄、家族との連絡方法を案内する。Next.js・Cloudflare Workers＋Honoで構築し、緊急文は確認済み固定翻訳、自由入力のみCloudflare Workers AI（M2M100）とGemini 2.5 Flashで多言語翻訳する設計。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "震災時火災における避難場所等の一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000013"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査地域危険度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "津波浸水分布（令和4年度首都直下型地震等による東京の被害想定結果）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000392"
+  },
+  {
+   "name": "都立の一時滞在施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055"
+  },
+  {
+   "name": "給水拠点一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "気象庁防災情報XML 地震火山情報（高頻度フィード）",
+   "url": "https://www.data.jma.go.jp/developer/xml/feed/eqvol.xml"
+  },
+  {
+   "name": "気象庁防災情報XML 随時情報（高頻度フィード）",
+   "url": "https://www.data.jma.go.jp/developer/xml/feed/extra.xml"
+  },
+  {
+   "name": "気象庁 多言語辞書データ",
+   "url": "https://www.data.jma.go.jp/developer/multilingual.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000013",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000392",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [
+  "https://www.data.jma.go.jp/developer/xml/feed/eqvol.xml",
+  "https://www.data.jma.go.jp/developer/xml/feed/extra.xml",
+  "https://www.data.jma.go.jp/developer/multilingual.html"
+ ],
+ "demo_url": "https://front-japan-disaster-relief.tokyo-odh-108.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://front-japan-disaster-relief.tokyo-odh-108.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=3752",
+ "image_count": 3,
+ "notes": ""
+}

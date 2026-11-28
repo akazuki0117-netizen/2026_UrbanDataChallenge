@@ -1,0 +1,36 @@
+{
+ "id": "6631741092419438587",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631741092419438587/?year=2026",
+ "fetched_at": "2026-11-20T15:35:41+00:00",
+ "title": "Wild Alert",
+ "team": "NDS",
+ "member_count": 2,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "クマやイノシシなどの野生動物による被害・遭遇リスクを減らす地域安全サービス「Wild Alert」。出没情報は自治体サイトやニュース等に分散し情報を探していない人には届かない一方、自治体側も複数情報の整理と注意喚起に負担があるという課題に対応。過去の出没情報を地図に表示し気象等のオープンデータと組み合わせて今後のリスクを予測マップとして可視化、近隣で出没が確認された際はスマホへ通知する。将来は住民投稿や自治体の注意喚起にも活用する構想。React・TypeScript・Vite、MapLibre GL JS、Cloudflare Workers/D1で構築し、ChatGPTを要件整理から実装まで幅広く活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都ツキノワグマ目撃等情報マップ ～TOKYOくまっぷ～　ダウンロードデータ",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/nature/animals_plants/bear/data"
+  },
+  {
+   "name": "過去の気象データ・ダウンロード",
+   "url": "https://www.data.jma.go.jp/risk/obsdl/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kankyo.metro.tokyo.lg.jp/nature/animals_plants/bear/data",
+  "https://www.data.jma.go.jp/risk/obsdl/"
+ ],
+ "demo_url": "https://staging.wild-alert-commercial-stg.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://staging.wild-alert-commercial-stg.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2765",
+ "image_count": 2,
+ "notes": ""
+}

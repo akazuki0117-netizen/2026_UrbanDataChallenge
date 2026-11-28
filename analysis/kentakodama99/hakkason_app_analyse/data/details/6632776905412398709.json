@@ -1,0 +1,41 @@
+{
+ "id": "6632776905412398709",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632776905412398709/?year=2026",
+ "fetched_at": "2026-11-20T15:41:25+00:00",
+ "title": "まちたん！",
+ "team": "UXデザイン",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まちたん！」は、小学校の「まちたんけん」を授業準備・現地記録・家庭での振り返り・地域への共有まで一続きにする学習支援サービス。まちたんけんの発見がワークシート内で完結し家庭や地域へ継続的につながりにくく、地域安全は「危険な場所」に偏りがちで「困ったときに頼れる人・場所」まで知る機会が十分でないという課題に対応。先生が地図上で訪問先・質問を準備し子どもは現地で発見を記録、確認した内容だけを校区・町会・交通事故等のオープンデータと重ねた「みんなの地図」に公開する。React＋TypeScriptとLeaflet／React Leafletで構築し、ChatGPTを課題整理からデバッグ支援まで活用した。",
+ "open_data_items": [
+  {
+   "name": "国土数値情報「小学校区」2023年度",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-2023.html"
+  },
+  {
+   "name": "警察庁「交通事故統計情報のオープンデータ」2024年",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "台東区「震災時における避難所施設一覧」",
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/bousai/hinanjyo.html"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://openstreetmap.jp/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-2023.html",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://www.city.taito.lg.jp/kusei/online/opendata/bousai/hinanjyo.html",
+  "https://openstreetmap.jp/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=2243",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

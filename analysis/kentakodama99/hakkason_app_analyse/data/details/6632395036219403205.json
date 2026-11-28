@@ -1,0 +1,46 @@
+{
+ "id": "6632395036219403205",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632395036219403205/?year=2026",
+ "fetched_at": "2026-11-20T15:37:44+00:00",
+ "title": "「命を守る」QRランナー Network X 〜走れheroes〜",
+ "team": "Urban Generation",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "デイゼロや発災直後の通信途絶下で「紙とペン」の手作業を解消する自律分散型の統合防災システム。ウクライナ在住時の厳冬下での水道・電気停止経験が原点で、災害や攻撃による基地局障害時スマホは一瞬で圏外となり現場の安否確認は「紙とペン」の名簿へ先祖返りし救助の72時間で致命的ロスが生じるという課題に対応。既存オフラインチャットのP2Pメッシュ技術を応用しWi-Fi/BLEすれ違い通信で周囲の安否・SOSを端末操作不要で自動収集、動く人・車が安否情報をバケツリレーし通信復帰地点からクラウドへ一括送信、対策本部ではAIが緊急度を自動トリアージする。Web/PWAとFlutter（ネイティブ）の2段階構成とし、Cloudflare Workers AI（Qwen等）で非構造化SOSテキストの緊急度分類を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都 避難所・広域避難場所データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "東京都 応急給水拠点・給水所データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000000d0000000067"
+  },
+  {
+   "name": "東京都土砂災害危険箇所情報関連データ・浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "区民避難場所・福祉避難所情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/76ddb7a3-02f6-4837-85b2-93f7a1285e72/resource/887a2e85-ef3b-424b-b8e7-c35a14f15e06"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000000d0000000067",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/76ddb7a3-02f6-4837-85b2-93f7a1285e72/resource/887a2e85-ef3b-424b-b8e7-c35a14f15e06"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://qr-network.qr-network.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://qr-network.qr-network.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4381",
+ "image_count": 3,
+ "notes": ""
+}

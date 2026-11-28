@@ -1,0 +1,47 @@
+{
+ "id": "6631159328809728386",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631159328809728386/?year=2026",
+ "fetched_at": "2026-11-20T15:35:12+00:00",
+ "title": "都涼路（とりょろ）",
+ "team": "フォーサイト",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「都涼路（とりょろ）」は、酷暑の東京でも涼しく迷わず目的地へ着ける経路案内サービス。約9割のビジネスパーソンが「暑さが仕事に影響する」と回答する一方、既存の日陰ルートサービスは地上の日陰ルートを歩いて地下に入った瞬間に現在地を見失うなど地上と地下の体験が分断されているという課題に対応。3D都市モデルと街路樹台帳から時刻別の日陰を計算し日陰と地下道を優先する「涼感ルート」を提案、GPSが届きにくい地下では周りの風景を撮影するだけで現在地を特定できる。地上から地下道を経て再び地上へ出るまで一続きで涼感ルートを歩き通せる点が特徴。Turf.js・SunCalcで日陰計算しOpenStreetMapと組み合わせ、OpenAI Codexで要件整理から実装・検証まで進めた。",
+ "open_data_items": [
+  {
+   "name": "OpenStreetMap タイルレイヤ",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "OSM Overpass API （道路・歩道・施設名称）",
+   "url": "https://overpass-api.de/"
+  },
+  {
+   "name": "屋内地図データ （東京駅周辺）",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-indoor-tokyo"
+  },
+  {
+   "name": "建築物データ （千代田区）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2023"
+  },
+  {
+   "name": "街路樹データ （都道・23区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/",
+  "https://overpass-api.de/",
+  "https://www.geospatial.jp/ckan/dataset/mlit-indoor-tokyo",
+  "https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2023"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1717",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

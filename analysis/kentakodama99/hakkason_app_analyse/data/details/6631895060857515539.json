@@ -1,0 +1,31 @@
+{
+ "id": "6631895060857515539",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631895060857515539/?year=2026",
+ "fetched_at": "2026-11-20T15:36:23+00:00",
+ "title": "Sasae Link / ささえリンク",
+ "team": "たかたく",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Sasae Link」は、一つの避難所を一つのクローズドなコミュニティとして避難者と職員の協調を生むWebアプリ。避難者は物資残量や確認中の事項が見えないと同じ質問を繰り返し、職員も限られた人員の中で個別対応に追われるという課題に対応。職員が確認・登録した情報を情報源と確認時刻付きで避難者画面と館内サイネージへ同じ内容で反映し、未回答の質問は職員の確認タスクとなり回答後は次の同種質問にも再利用される。緊急・安全質問はAIより先に判定し119番や職員への直接連絡へ誘導する設計。Cloudflare Workers AIのglm-4.7-flashは曖昧な質問の分類のみに使い、回答本文は生成させない。",
+ "open_data_items": [
+  {
+   "name": "給水拠点一覧データ（東京都水道局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://sasae-link.tokyo-odh-354.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sasae-link.tokyo-odh-354.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4487",
+ "image_count": 3,
+ "notes": ""
+}

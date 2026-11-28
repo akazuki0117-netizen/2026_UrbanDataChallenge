@@ -1,0 +1,39 @@
+{
+ "id": "6632803203416697322",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632803203416697322/?year=2026",
+ "fetched_at": "2026-11-20T15:43:18+00:00",
+ "title": "HEART2NFC",
+ "team": "OSEI_1320",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [
+  "アイデア賞"
+ ],
+ "service_description": "「HEART2NFC」は、ヘルプマーク利用者と支援者双方のための機能を実現するサービス。現在のヘルプマークは静的な意思表示で緊急の支援要請には機能せず、突然話しかけられることが利用者・支援者双方にネガティブな結果をもたらしているという課題に対応。ヘルプマークに内蔵されたNFCタグが利用者のスマホを通じて支援要請の信号を発信し、パートナー登録した近隣の支援者へ通知が届く。スマホをかざすだけの迅速な支援要請を可能にする。PWAでストア公開を経ずに擬似的なネイティブアプリ機能を実現し、NFC ToolsとFirebaseで通知配信を実装、OpenCodeとClaude Codeを役割分担して開発を止めない体制を作った。",
+ "open_data_items": [
+  {
+   "name": "AED設置場所データ",
+   "url": "https://aed-navi.jp/home.html"
+  },
+  {
+   "name": "東京都 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "「だれでも東京」バリアフリー施設情報",
+   "url": "https://www.daredemo-tokyo.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://aed-navi.jp/home.html",
+  "https://www.daredemo-tokyo.metro.tokyo.lg.jp/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3022",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

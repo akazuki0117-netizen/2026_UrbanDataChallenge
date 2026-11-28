@@ -1,0 +1,47 @@
+{
+ "id": "6632217039423775935",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632217039423775935/?year=2026",
+ "fetched_at": "2026-11-20T15:37:19+00:00",
+ "title": "東京今昔八景 / Tokyo Then & Now: Eight Views",
+ "team": "モモンガインターナショナル",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "スマホカメラ越しに場所の昔の風景を見る観光PWA。訪都外国人の観光ガイド充実への評価は7.2%にとどまり伝統建築や街並みは期待外れという回答が期待以上を上回る一方、新宿では語るべき風景そのものが現存せず歴史が見えづらいという課題に対応。新宿8か所でスライダーを動かすと江戸・明治・昭和・現在がクロスフェードで入れ替わり、狐の語り部が4言語の字幕で土地の歴史を語る。写真の残らない時代は古地図・古写真から条件付き生成し必ず「再現イメージ」と明示、出典未登録の画像は表示されない誠実な設計。WebXRのiOS非対応を避けPWAで疑似AR方式を採用し、Vertex AIのNano Bananaで画像生成を行い時代別NGリストで機械判定した。",
+ "open_data_items": [
+  {
+   "name": "国土地理院「地理院タイル（年代別の写真）」",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "東京都立中央図書館「TOKYOアーカイブ」（パブリックドメイン公開資料）",
+   "url": "https://archive.library.metro.tokyo.lg.jp/da/top"
+  },
+  {
+   "name": "国土交通省「国土数値情報 土地利用細分メッシュデータ」(L03-b)",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "東京都産業労働局「R6国・地域別外国人旅行者行動特性調査」（CC BY）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000012d0000000081"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://archive.library.metro.tokyo.lg.jp/da/top",
+  "https://nlftp.mlit.go.jp/ksj/"
+ ],
+ "demo_url": "https://konjaku-hakkei.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://konjaku-hakkei.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1527",
+ "image_count": 3,
+ "notes": ""
+}

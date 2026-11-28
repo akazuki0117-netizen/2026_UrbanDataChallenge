@@ -1,0 +1,26 @@
+{
+ "id": "6632626995671933468",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632626995671933468/?year=2026",
+ "fetched_at": "2026-11-20T15:38:21+00:00",
+ "title": "Tokyo one",
+ "team": "kmd",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都のオープンデータをAIが横断的に活用し一人ひとりに必要な情報を届ける「都市OS」。子ども向けイベントに注視して開発、住宅事情の違いで子ども同士が家で気軽に遊ぶ機会が限られ学校や習い事が主な交流の場となり家庭の経済状況で体験に差が生まれやすいという課題に対応。イベント・施設・支援情報を年齢や興味に応じて検索・提案しAIが本人に合う候補を整理することで経済状況や情報収集力に左右されにくい参加機会を増やす。将来は街の設備が応答する都市体験への発展を構想。React・TypeScript・ViteとCloudflare Workers/D1で構築した。",
+ "open_data_items": [
+  {
+   "name": "イベント一覧 イベント一覧",
+   "url": "https://spec.api.metro.tokyo.lg.jp/spec/t131075d0000000136-d97c9fdbf7d4a3ad38c0cac25c78beb3-0"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://spec.api.metro.tokyo.lg.jp/spec/t131075d0000000136-d97c9fdbf7d4a3ad38c0cac25c78beb3-0"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=1609",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

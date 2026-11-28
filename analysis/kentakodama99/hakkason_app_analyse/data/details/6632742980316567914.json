@@ -1,0 +1,47 @@
+{
+ "id": "6632742980316567914",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632742980316567914/?year=2026",
+ "fetched_at": "2026-11-20T15:39:54+00:00",
+ "title": "つたい",
+ "team": "たかたく",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "視覚障害のある方が壁や塀を手がかりに歩く「伝い歩き」で、手がかりが途切れる候補地点をオープンデータから抽出し接近を音声で予告するプロトタイプ。バリアフリー基準適合は新設・改築時のみ義務でその他道路は努力義務にとどまり、伝い歩きに必要な粒度の公開障害物データも不足しているという課題に対応。地理院ベクトルタイルの建築物外周線と道路縁から歩行線候補を生成し、都の260のウォーキングコースにも同じ指標を適用したところ手がかりが基準内にある区間が5割超のコースは8本だった。事前計算に振り切りアプリサーバーもデータベースも不要な軽量設計とし、Claude Codeで検証を反復し3件の重大な誤りを開発中に発見した。",
+ "open_data_items": [
+  {
+   "name": "地理院タイル（淡色地図・標準地図・空中写真）",
+   "url": "https://github.com/gsi-cyberjapan/vector-tile-experiment"
+  },
+  {
+   "name": "TOKYO WALKING MAP",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "歩行空間ネットワークデータ",
+   "url": "https://ckan.hokonavi.go.jp/dataset/nwd_shibuya_sendagaya_shinjuku"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+ ],
+ "external_data_urls": [
+  "https://github.com/gsi-cyberjapan/vector-tile-experiment",
+  "https://ckan.hokonavi.go.jp/dataset/nwd_shibuya_sendagaya_shinjuku",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://tsutai.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tsutai.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=3851",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6632018646327773641",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632018646327773641/?year=2026",
+ "fetched_at": "2026-11-20T15:36:41+00:00",
+ "title": "子育て申請ボード",
+ "team": "たかうそ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「子育て申請ボード」は、子育て支援制度を家庭ごとの申請案件に変換して管理するWebアプリ。児童手当等の制度が複数の窓口・Webページに分散し出生・転入直後は手続きが重なり申請漏れや期限見落としが起きやすいという課題に対応。自治体・年齢・出生日等を入力すると東京都62自治体の制度レジストリを検索し利用できる可能性のある制度を一覧化、必要書類・申請目安日・進捗をボードとカレンダーで管理する。世帯条件と進捗はブラウザのlocalStorageに保存し個人情報をサーバーへ保存しないMVP設計。React 19+TypeScript+Viteで構築し、OpenAI Codexを要件整理からアクセシビリティ確認まで活用しつつ受給資格の判定はAIにさせない。",
+ "open_data_items": [
+  {
+   "name": "東京都こどもDX_子育て支援制度レジストリ_0-6歳制度_2025年8月20日時点",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/e1bc60ca-5cd8-4143-bb50-b66c7ca6c5a3/resource/bdbd64ed-4e35-4599-8034-a3c0969fa3de"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/e1bc60ca-5cd8-4143-bb50-b66c7ca6c5a3/resource/bdbd64ed-4e35-4599-8034-a3c0969fa3de"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://kosodate-shinsei-board.kosodate-shinsei-board.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kosodate-shinsei-board.kosodate-shinsei-board.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3254",
+ "image_count": 3,
+ "notes": ""
+}

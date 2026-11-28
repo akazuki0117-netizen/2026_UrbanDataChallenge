@@ -1,0 +1,41 @@
+{
+ "id": "6632770490874888395",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632770490874888395/?year=2026",
+ "fetched_at": "2026-11-20T15:41:01+00:00",
+ "title": "CareNode Agent",
+ "team": "チーム共通点ゼロ",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「CareNode Agent」は、災害時に人工呼吸器等を使う在宅患者を守る訪問看護ステーション向け安否連携エージェント。発災時、訪問看護現場では数十名の患者へ一件ずつ電話で安否確認を行う運用が主流で家族との連絡もすれ違いやすく初動の遅れが命を脅かすリスクになるという課題に対応。浸水想定・避難所のオープンデータと患者台帳（医療機器の有無、予備電源残量等）をリアルタイムに紐づけ、危険エリアの要支援者を自動抽出、個別の安否確認文をAIが生成して家族へ一斉送信する。家族の返信に応じて救助優先度を自動更新し行政向け被害報告書のAI起草まで一気通貫で行う。Next.js（App Router）とTailwind CSSで構築し、Gemini API (Flash3.6)を中核に据えた。",
+ "open_data_items": [
+  {
+   "name": "【東京都都市整備局】地震に関する地域危険度測定調査地域危険度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "【東京都総務局】東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "【東京都建設局】浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://anpi-agent-demo.vercel.app/disaster-safety",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://anpi-agent-demo.vercel.app/disaster-safety"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4524",
+ "image_count": 3,
+ "notes": ""
+}

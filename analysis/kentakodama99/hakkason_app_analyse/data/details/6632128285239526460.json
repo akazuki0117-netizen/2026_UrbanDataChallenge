@@ -1,0 +1,52 @@
+{
+ "id": "6632128285239526460",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632128285239526460/?year=2026",
+ "fetched_at": "2026-11-20T15:36:57+00:00",
+ "title": "あんしんつうがくナビ",
+ "team": "niikun",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自宅・学校の位置をマップにピン留めするだけで通学路沿いの過去の交通事故を自動集計・可視化するサービス。小学1年生の歩行中死者数は6年生の8.0倍と特に低学年のリスクが高いが保護者は「なんとなくの感覚」でしか安全性を判断できず、まだ事故が記録されていない「隠れた危険地帯」は統計だけでは見つけられないという課題に対応。独自学習のCNNモデルが地図画像から未記録の危険な場所も推定し、Claudeが事故データや信号・横断歩道の実地点情報をもとに保護者・子どもにもわかるやさしい言葉で対話形式で説明する。HTML/CSS/Vanilla JS + Leaflet.jsとPython/PyTorch（MobileNetV2転移学習）で構築し、Claude API（Tool Use）を対話バックエンドとして活用した。",
+ "open_data_items": [
+  {
+   "name": "都内15区教育機関一覧(東京都オープンデータカタログサイト、CC BY 4.0)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset?q=%E6%95%99%E8%82%B2%E6%A9%9F%E9%96%A2%E4%B8%80%E8%A6%A7"
+  },
+  {
+   "name": "警察庁 交通事故統計情報オープンデータ",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "国土地理院 地理院タイル(std/pale)",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "国土数値情報(行政区域N03・鉄道駅N02、国土交通省)",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "PLATEAU(3D都市モデル、国土交通省)",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-citygml-2020"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset?q=%E6%95%99%E8%82%B2%E6%A9%9F%E9%96%A2%E4%B8%80%E8%A6%A7"
+ ],
+ "external_data_urls": [
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://nlftp.mlit.go.jp/ksj/",
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-citygml-2020"
+ ],
+ "demo_url": "https://niikun.net/traffic_accident/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://niikun.net/traffic_accident/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4266",
+ "image_count": 3,
+ "notes": ""
+}

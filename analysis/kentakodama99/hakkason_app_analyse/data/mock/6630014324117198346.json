@@ -1,0 +1,17 @@
+{
+ "id": "6630014324117198346",
+ "group": "finalist",
+ "title": "Queria",
+ "demo_url": "https://queria.io",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6630014324117198346.png",
+ "status": "動く",
+ "form": "Webアプリ（データカタログ＋AIチャット）",
+ "clear_in_5s": "はい：「根拠のある数字を、AIに聞いて集計できる」＋回答例",
+ "n_features": 4,
+ "gen_ai": "あり",
+ "map_viz": "あり",
+ "maturity": "実用レベル",
+ "note": "独自ドメイン。ログイン・新規登録あり（閲覧と集計はログイン不要と明記）"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "6632735270612326021",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632735270612326021/?year=2026",
+ "fetched_at": "2026-11-20T15:39:34+00:00",
+ "title": "「地下鉄関連情報 混雑の見える化」 と 「時間資産をプランニング」 を実現するアプリケーション・プロダクト名「もっと東京Morning!」",
+ "team": "Mr.saskai",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都営地下鉄の混雑データを活用し、朝の移動を「時間資産」に変えるオフピーク通勤・朝活支援アプリ。満員電車による経済損失は年間約3,240億円にのぼり、時差通勤を呼びかけても「早起きの負担」と捉えられ行動変容が進まないという課題に対応。列車・時間帯ごとの混雑予測から空いている移動を提示し、混雑回避で生まれたゆとり時間を読書や勉強などの使い道別に記録、月ごとの「時間資産の成長」としてグラフ化する。行動経済学のナッジで「時間資産が貯まる達成感」を提供し自発的なオフピーク通勤と朝の混雑緩和を狙う。React Native／Expoで開発し、混雑オープンデータはローカルにスコア化して活用している。",
+ "open_data_items": [
+  {
+   "name": "地下鉄関連情報混乱の見える化",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=5204",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

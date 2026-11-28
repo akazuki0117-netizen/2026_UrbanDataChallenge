@@ -1,0 +1,31 @@
+{
+ "id": "6631230439896826683",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631230439896826683/?year=2026",
+ "fetched_at": "2026-11-20T15:35:18+00:00",
+ "title": "これ今日出せる？",
+ "team": "LangGenius",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "捨て方に迷うごみをスマホで撮るだけで案内するAIサービス。東京都の外国人住民は増え続けごみ出しでつまずきやすく、分別は素材・大きさ・区によって扱いが変わり物の名前が分かっても捨て方は分からないという課題に対応。写真と区・町丁目を入力するとAIが物品の名称・素材・サイズを読み取り自治体の分別ルール・収集日データと照合、多言語対応で日本語の分別ページを読めない外国人住民でも「何ごみか」「今日出せるか」が分かる。運用主体を自治体にすることを想定しDifyのWorkflowで処理の流れを可視化し引き継ぎやすい設計とした。多言語対応は日本語翻訳後にRAGを行う工夫をした。",
+ "open_data_items": [
+  {
+   "name": "ゴミの分類区分_八王子市",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/hachioji/132012_hachiojishi_garbage_separate_rule.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/hachioji/132012_hachiojishi_garbage_separate_rule.csv"
+ ],
+ "demo_url": "https://udify.app/workflow/T2ZYGQnPPSA2YHGD",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://udify.app/workflow/T2ZYGQnPPSA2YHGD"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=893",
+ "image_count": 2,
+ "notes": ""
+}

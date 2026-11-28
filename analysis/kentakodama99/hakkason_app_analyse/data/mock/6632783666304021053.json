@@ -1,0 +1,17 @@
+{
+ "id": "6632783666304021053",
+ "group": "finalist",
+ "title": "Family Compass（ファミリーコンパス）",
+ "demo_url": "https://od-hackathon-2026.od-hackathon-2026.workers.dev/ja",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632783666304021053.png",
+ "status": "動く",
+ "form": "Webアプリ",
+ "clear_in_5s": "はい：「家族のこと、何から考えればいいか分からないときに。」",
+ "n_features": 3,
+ "gen_ai": "あり（判断はさせない旨を明記）",
+ "map_viz": "なし",
+ "maturity": "実用レベル",
+ "note": "「無料・匿名でも利用できます」「AIが離婚の判断をするサービスではありません」と最初の画面に明記"
+}

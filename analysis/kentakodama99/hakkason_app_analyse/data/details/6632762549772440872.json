@@ -1,0 +1,31 @@
+{
+ "id": "6632762549772440872",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632762549772440872/?year=2026",
+ "fetched_at": "2026-11-20T15:40:37+00:00",
+ "title": "偏なエキマエ",
+ "team": "AXデザイン企画",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「偏なエキマエ」は、東京各地の駅前にある飲食店の「偏り」を可視化し街の個性を発見できるWebサービス。街が発展し効率化が進むほど景色が似通い「その街らしさ」が見えにくくなる一方、口コミや人気ランキングでは長く愛されてきた個店の魅力に気づきにくいという課題に対応。駅500m圏内で都内一店舗だけの飲食店の割合を「個店指数」として算出し、飲食店の「暖簾」をモチーフに営業年数や店舗数を暖簾の柄や長さで直感的に可視化する。人気順ではなく「その街らしさ」を基準に訪れる駅を選べる設計。食品営業許可台帳と駅データを重ね合わせて構築した。",
+ "open_data_items": [
+  {
+   "name": "中野区オープンデータカタログサイト 食品等営業許可_届出一覧",
+   "url": "https://www2.wagmap.jp/nakanodatamap/OpenData?mids=40&pno=1"
+  },
+  {
+   "name": "駅データ",
+   "url": "https://ekidata.jp/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www2.wagmap.jp/nakanodatamap/OpenData?mids=40&pno=1",
+  "https://ekidata.jp/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=5389",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

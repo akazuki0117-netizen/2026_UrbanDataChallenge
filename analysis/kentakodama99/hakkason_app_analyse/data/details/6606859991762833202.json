@@ -1,0 +1,46 @@
+{
+ "id": "6606859991762833202",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6606859991762833202/?year=2026",
+ "fetched_at": "2026-11-20T15:31:29+00:00",
+ "title": "まるっと病児保育",
+ "team": "えくぼ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まるっと病児保育」は、利用できる病児保育施設を見つけ手続きを確認できるWebアプリ。自治体をまたいで自分が利用できる施設をまとめて探す手段がなく、施設ごとに事前登録や必要書類も異なるという実体験に基づく課題に対応。居住地・在園先・勤務地・生年月日を入力すると条件に合う施設を一覧化し、施設ごとの事前登録要否や予約方法、必要書類を整理してTODOとして提示する。「元気モード」で平時の準備を、「不調モード」で通院・予約・利用までを順に案内する。Vue.js（TypeScript）とAWSで構築し、ChatGPTとCodexで設計・実装・テストを行った。",
+ "open_data_items": [
+  {
+   "name": "港区　学校教育・子どもの施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014/resource/ab555267-dd55-4d50-8275-5759a7bab3a5"
+  },
+  {
+   "name": "文京区　病児・病後児保育ルーム",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070004/resource/7d77f19d-394d-4fe8-bd8e-c7c97db02d56"
+  },
+  {
+   "name": "江東区　病児・病後児保育実施施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000035/resource/0e344cab-22f4-4a55-9ca4-6087e82351f1"
+  },
+  {
+   "name": "中野区　病児病後児保育実施施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000064/resource/d1bbb40c-901f-4487-8c1d-edea45ee6446"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000014/resource/ab555267-dd55-4d50-8275-5759a7bab3a5",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0206070004/resource/7d77f19d-394d-4fe8-bd8e-c7c97db02d56",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000035/resource/0e344cab-22f4-4a55-9ca4-6087e82351f1",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000064/resource/d1bbb40c-901f-4487-8c1d-edea45ee6446"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://marutto-byoji.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://marutto-byoji.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=732",
+ "image_count": 3,
+ "notes": ""
+}

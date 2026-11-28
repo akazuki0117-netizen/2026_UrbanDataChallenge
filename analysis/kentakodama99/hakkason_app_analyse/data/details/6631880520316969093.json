@@ -1,0 +1,59 @@
+{
+ "id": "6631880520316969093",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631880520316969093/?year=2026",
+ "fetched_at": "2026-11-20T15:36:14+00:00",
+ "title": "みちよみ（michiyomi）",
+ "team": "レイヤード",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [
+  "都知事杯"
+ ],
+ "service_description": "「みちよみ」は、街路が「どう見えるか」を言語で引けるオープンデータ基盤。道路台帳には道の形（線形・幅員）は整っているが「状態」（白線の摩耗、歩ける幅等）は誰も記録しておらず、区市町村道の目視点検の人手は限られているという課題に対応。市民が撮った街路画像（Mapillary）をVLMが言語化した588,220地点・13年分を座標×テキストのレイヤーとして配信、人は地図で色分けレンズ4種で読み、AIはAPIとMCPで同じデータを引く。街路樹51,649本等と同一地図に重ねられ、経年変化の仮説を別セッションが反証を試みる裁定にかけ通過した2,522件のみ収録という検証プロセスを持つ。Cloudflare Workers+D1で配信し、ローカルVLM（Qwen3.8-27B）で純粋視覚方針を用いて幻覚を抑制した。",
+ "open_data_items": [
+  {
+   "name": "Mapillary 街路画像・メタデータ（Meta Platforms、CC BY-SA 4.0、民間オープンデータ）",
+   "url": "https://www.mapillary.com/"
+  },
+  {
+   "name": "国土数値情報 学校データ（P29）（国土交通省）",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "国土交通省 位置参照情報（街区レベル・大字町丁目レベル）",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  },
+  {
+   "name": "国土地理院 地理院地図API（住所検索・ジオコーディング）",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  },
+  {
+   "name": "OpenStreetMap Nominatim（© OpenStreetMap contributors、ODbL、地名解決の補完）",
+   "url": "https://nominatim.openstreetmap.org/"
+  },
+  {
+   "name": "東京都オープンデータカタログ 緊急輸送道路等（東京都建設局、利用予定）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.mapillary.com/",
+  "https://nlftp.mlit.go.jp/ksj/",
+  "https://nlftp.mlit.go.jp/isj/",
+  "https://msearch.gsi.go.jp/address-search/AddressSearch",
+  "https://nominatim.openstreetmap.org/"
+ ],
+ "demo_url": "https://michiyomi.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://michiyomi.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1094",
+ "image_count": 3,
+ "notes": ""
+}

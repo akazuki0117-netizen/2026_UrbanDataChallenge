@@ -1,0 +1,43 @@
+{
+ "id": "6632806743562514559",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632806743562514559/?year=2026",
+ "fetched_at": "2026-11-20T15:43:53+00:00",
+ "title": "風土記",
+ "team": "風土記編纂室",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [
+  "データ活用賞"
+ ],
+ "service_description": "「風土記（fudoki）」は、東京都内の自治体の予算・決算を事業単位まで構造化し標準形式で配布するデータ基盤。自治体の予算は公開されていてもほとんどPDFでCSVでも形式が揃わず「この市はこの事業にいくら使っているか」の内訳が読み取れないという課題に対応。米国のOpen States（州議会情報の標準化配布サービス）の自治体財政版として、国際標準フォーマット（Fiscal Data Package、COFOG）で各自治体データを統合しAPI・MCPサーバでAIからも使える形に整備する。個別の課題解決プロダクトはこの土台の上に作る構想。Parquet + DuckDBとdbtでデータパイプラインを実装しOSSとして公開、AIが読める構造化データ基盤としてMCPサーバを提供する設計。",
+ "open_data_items": [
+  {
+   "name": "【予算・決算】予算情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132047d0000000010"
+  },
+  {
+   "name": "決算書歳入データ（2023）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000216"
+  },
+  {
+   "name": "決算書歳出データ（2023）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000217"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132047d0000000010",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000216",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000217"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://fudoki.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://fudoki.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=2140",
+ "image_count": 2,
+ "notes": ""
+}

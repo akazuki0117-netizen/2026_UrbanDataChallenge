@@ -1,0 +1,56 @@
+{
+ "id": "6621543443779398365",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6621543443779398365/?year=2026",
+ "fetched_at": "2026-11-20T15:32:03+00:00",
+ "title": "TokyoLog, TokyoLog Park",
+ "team": "La Porte",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TokyoLog」は、東京都のオープンデータや歴史・自然・文化情報を時間と場所の両方から探索できる時空間プラットフォーム。データ解析には専門知識が必要で、課題に集中しすぎると周辺状況が見えなくなるという課題意識から、地震・遺跡・地形・都市開発など異なる分野のデータを「いつ」「どこで」という一つのルールで三次元空間に自動配置し、3D空間内を移動しながら同じ場所の時代ごとの変化や同時代の出来事を体験できるようにした。教育・観光・防災・地域学習への活用を想定し、ChronoMap Projectという共通基盤により他地域への展開も見据える。FlutterとServerpodで構成し、オープンデータの抽出・整形にChatGPTを活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都文化財",
+   "url": "https://nlftp.mlit.go.jp/index.html"
+  },
+  {
+   "name": "1919年以降の観測所別震度月報",
+   "url": "https://www.data.jma.go.jp/eqdb/data/shindo/"
+  },
+  {
+   "name": "東京都内の遺跡一覧",
+   "url": "https://github.com/kotdijian/JASOSR"
+  },
+  {
+   "name": "自分でつくる色別標高図",
+   "url": "https://maps.gsi.go.jp/#11/35.528594/138.310661/&ls=relief_free&disp=1&lcd=relief_free&vs=c0g1j0h0k0l0u0t0z0r0s0m0f1&reliefdata=35G00CCFFGAG00EEFFG32G00FFCCG64G00FF1EG1F4GCCFF00G5DCGE1FF00GGFFFF00"
+  },
+  {
+   "name": "海底地形図",
+   "url": "https://www.gebco.net"
+  },
+  {
+   "name": "鉄道時系列データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N05-2025.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/index.html",
+  "https://www.data.jma.go.jp/eqdb/data/shindo/",
+  "https://github.com/kotdijian/JASOSR",
+  "https://maps.gsi.go.jp/#11/35.528594/138.310661/&ls=relief_free&disp=1&lcd=relief_free&vs=c0g1j0h0k0l0u0t0z0r0s0m0f1&reliefdata=35G00CCFFGAG00EEFFG32G00FFCCG64G00FF1EG1F4GCCFF00G5DCGE1FF00GGFFFF00",
+  "https://www.gebco.net",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N05-2025.html"
+ ],
+ "demo_url": "https://tokyologpark.web.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyologpark.web.app"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1516",
+ "image_count": 3,
+ "notes": ""
+}

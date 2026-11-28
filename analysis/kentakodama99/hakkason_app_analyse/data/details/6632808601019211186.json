@@ -1,0 +1,51 @@
+{
+ "id": "6632808601019211186",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632808601019211186/?year=2026",
+ "fetched_at": "2026-11-20T15:44:22+00:00",
+ "title": "まち安心シグナル",
+ "team": "村の仲間たち",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "自治体等のオープンデータと住民の投稿を組み合わせエリア別に街の状況を確認できるサービス。オープンデータは更新頻度や集計単位の都合で「今その場所で何が起きているか」を把握するには限界があり、個人の気づきはSNS等に分散しているという課題に対応。客観的なオープンデータを基礎情報としつつSNSのような匿名投稿機能を設け、混雑・騒音・照明等の日々の変化を共有、公式データと利用者投稿を明確に区別する。自治体向け管理画面で投稿傾向を確認できる。TypeScript、React Native、Expoでスマホ・Web共通のUIを構築し、ChatGPTとCodexでコーディング補助や画像生成素材の作成を行った。",
+ "open_data_items": [
+  {
+   "name": "国土交通省国土政策局",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P20.html"
+  },
+  {
+   "name": "国土数値情報「警察署」",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P18.html"
+  },
+  {
+   "name": "東京都 町字マスター",
+   "url": "https://dataset.address-br.digital.go.jp/documents/00fec452419a4b2699eb05d51490309f"
+  },
+  {
+   "name": "東京都 町字マスター位置参照拡張",
+   "url": "https://dataset.address-br.digital.go.jp/documents/dc990fbff86440dcaf050670cf2a0474/about"
+  },
+  {
+   "name": "犯罪発生情報（メールけいしちょうオープンデータ）",
+   "url": "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P20.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P18.html",
+  "https://dataset.address-br.digital.go.jp/documents/00fec452419a4b2699eb05d51490309f",
+  "https://dataset.address-br.digital.go.jp/documents/dc990fbff86440dcaf050670cf2a0474/about",
+  "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+ ],
+ "demo_url": "https://machi-anshin-signal.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://machi-anshin-signal.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=1117",
+ "image_count": 2,
+ "notes": ""
+}

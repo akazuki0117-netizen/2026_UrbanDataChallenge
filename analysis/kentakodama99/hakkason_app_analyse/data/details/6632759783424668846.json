@@ -1,0 +1,26 @@
+{
+ "id": "6632759783424668846",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632759783424668846/?year=2026",
+ "fetched_at": "2026-11-20T15:40:27+00:00",
+ "title": "Tokyo Civic Co-Pilot (TCCP) 〜誰も置いていかない、都民アレルギーフリー型オープンデータ多重調律AIプラットフォーム〜",
+ "team": "Project You",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都民の曖昧・感情的・多言語な生の声を東京都のオープンデータと自動突合し即座にパーソナライズされた「今日やることシート」としてスマホへ届けるAIプラットフォーム。専門用語や検索リテラシーがなくても真に支援を必要とする層ほど行政データにアクセスできない「見えないガラスの壁」があるという課題に対応。感情・文脈を解読するAI、データ逆引きAI、アクションシート化AIの3層オーケストレーションで、都民の不完全な入力を意図・状況へ自動補正しオープンデータを逆引き・照合して具体的アクションを1枚のシートに凝縮する。API連携とプロンプト・オーケストレーションを中核としたアジャイル構成とし、Gemini APIで感情的な入力から真の行政ニーズを2秒で構造化した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログサイト（公共施設一覧、防災・避難所情報、各種行政手続き・サービス一覧オープンデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=610",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

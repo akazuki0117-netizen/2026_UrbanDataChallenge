@@ -1,0 +1,57 @@
+{
+ "id": "6632810767517073309",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810767517073309/?year=2026",
+ "fetched_at": "2026-11-20T15:45:13+00:00",
+ "title": "日陰レーダー",
+ "team": "altimix",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "地図上で今と数時間後の日陰の位置を確認できるWebサービス。猛暑日に屋外を歩く人は目的地までの距離だけでなく途中で日陰に入れるかも知りたいが、一般的な地図では建物の影が時間とともにどこへ移るかは分からないという課題に対応。建物の形と日時から日陰を計算し地図上に表示、時刻を動かして現在と数時間後を比較できる。東京23区の建物モデルによる広域表示と西新宿の検証済みデータを試作版として公開し、将来は日陰優先の徒歩ルート比較にも対応予定。ReactとMapLibreでCloudflare Workers上に構築し、ClaudeとCodexを要件整理からテスト追加まで活用しつつ日陰の計算結果自体は東京都や国土地理院のデータに基づかせた。",
+ "open_data_items": [
+  {
+   "name": "東京都「都市の3Dデジタルマップ」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017"
+  },
+  {
+   "name": "東京都デジタルツイン 区部点群データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024"
+  },
+  {
+   "name": "国土地理院 最適化ベクトルタイル",
+   "url": "https://gsi-cyberjapan.github.io/optimal_bvmap/"
+  },
+  {
+   "name": "環境省 暑さ指数（WBGT）実況・予測",
+   "url": "https://www.wbgt.env.go.jp/sp/data_service.php"
+  },
+  {
+   "name": "東京都水道局 Tokyowater Drinking Station",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "国土数値情報 鉄道データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+ ],
+ "external_data_urls": [
+  "https://gsi-cyberjapan.github.io/optimal_bvmap/",
+  "https://www.wbgt.env.go.jp/sp/data_service.php",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2025.html"
+ ],
+ "demo_url": "https://cool-map-tokyo.altimix.jp/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://cool-map-tokyo.altimix.jp/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2874",
+ "image_count": 2,
+ "notes": ""
+}

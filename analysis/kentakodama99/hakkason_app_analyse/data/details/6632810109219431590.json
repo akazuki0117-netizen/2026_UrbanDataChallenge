@@ -1,0 +1,26 @@
+{
+ "id": "6632810109219431590",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810109219431590/?year=2026",
+ "fetched_at": "2026-11-20T15:44:54+00:00",
+ "title": "tokyo+",
+ "team": "ボンゴ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「tokyo+」は「都市が人を理解する」というコンセプトのAIエージェントサービス。天候・暑さ・交通・工事・防災などの情報は複数のサービスに分散し利用者は何度もアプリを開き重要度を判断する負担があり、情報が見つかっても次に何をすべきか分かりにくいという課題に対応。利用シーンや関心、現在地と天候等の情報を組み合わせ複数のシナリオから最も重要な行動判断を1件に絞りアプリへ表示、朝の設定時刻や条件成立時にはプッシュ通知で届ける。「検索する都市」から「判断してくれる都市」へのシフトを目指す設計。SwiftとSwiftUIのiOSネイティブアプリでCloudflare Workers/D1のバックエンドを構築し、Cloudflare Workers AIで正規化済みデータから理由・注意点を添えた行動判断を生成した。",
+ "open_data_items": [
+  {
+   "name": "府県天気予報（R1）",
+   "url": "https://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=TenkiYoh\t暑さ指数（WBGT）予測値等電子情報提供サービス\thttps://www.wbgt.env.go.jp/sp/data_service2.php\t東京都交通局 運行情報（ODPT提供）\thttps://developer.odpt.org/\t23区内 都道の路上工事情報\thttps://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028\t地震情報（震源・震度に関する情報）\thttps://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=Jishin\t\t\t\t\t\t\t\t\t\t"
+  }
+ ],
+ "open_data_urls": [
+  "https://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=TenkiYoh\t暑さ指数（WBGT）予測値等電子情報提供サービス\thttps://www.wbgt.env.go.jp/sp/data_service2.php\t東京都交通局 運行情報（ODPT提供）\thttps://developer.odpt.org/\t23区内 都道の路上工事情報\thttps://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000028\t地震情報（震源・震度に関する情報）\thttps://www.data.jma.go.jp/suishin/cgi-bin/catalogue/make_product_page.cgi?id=Jishin\t\t\t\t\t\t\t\t\t\t"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=1599",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

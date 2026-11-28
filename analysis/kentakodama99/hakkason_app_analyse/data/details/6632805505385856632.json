@@ -1,0 +1,67 @@
+{
+ "id": "6632805505385856632",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632805505385856632/?year=2026",
+ "fetched_at": "2026-11-20T15:43:35+00:00",
+ "title": "かよえる",
+ "team": "Zabota",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「かよえる」は、保育園に入れない家庭・園児が集まらない園・資格を持ちながら働いていない保育士のすれ違いをなくし、集まるデータを街づくりに返すサービス。待機児童数は統計上減っているが国の定義が狭く落選し育休延長した家庭等は集計から外れ実態が見えないという課題に対応。子の生年月・入園希望月・最寄り駅を入れると各区の空き情報を統一形式で地図表示し、園の保育士数と定員から「保育士1人増で何人受け入れられるか」を計算して復職したい保育士とマッチングする。落選報告や検索記録を需要データとして蓄積し自治体・事業者に還元する。TypeScriptで統一しNext.jsとCloudflare Pagesで構築、Claude Codex、Codex、Grokで開発した。",
+ "open_data_items": [
+  {
+   "name": "目黒区「区内保育施設の空き状況（例月）」",
+   "url": "https://data.bodik.jp/dataset/131105_available_child_care"
+  },
+  {
+   "name": "保育の統計資料",
+   "url": "https://www.city.setagaya.lg.jp/02243/1624.html"
+  },
+  {
+   "name": "調布市「市内保育園数、保育士数、定員及び児童数」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132085d0000000xxx"
+  },
+  {
+   "name": "区立公園",
+   "url": "https://data.bodik.jp/dataset/9f7d70e4-d41f-4199-a180-eb2e3de6e728"
+  },
+  {
+   "name": "児童遊園",
+   "url": "https://data.bodik.jp/dataset/c02fe749-426d-408e-bed5-8486bf979120"
+  },
+  {
+   "name": "遊び場・防災広場等",
+   "url": "https://data.bodik.jp/dataset/52cd2c4e-6154-43d3-a625-032d71e41dc1"
+  },
+  {
+   "name": "交通事故統計情報のオープンデータ（本票・2024年）",
+   "url": "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html"
+  },
+  {
+   "name": "洪水浸水想定区域（想定最大規模）ラスタタイル",
+   "url": "https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/copyright/opendata.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132085d0000000xxx"
+ ],
+ "external_data_urls": [
+  "https://data.bodik.jp/dataset/131105_available_child_care",
+  "https://www.city.setagaya.lg.jp/02243/1624.html",
+  "https://data.bodik.jp/dataset/9f7d70e4-d41f-4199-a180-eb2e3de6e728",
+  "https://data.bodik.jp/dataset/c02fe749-426d-408e-bed5-8486bf979120",
+  "https://data.bodik.jp/dataset/52cd2c4e-6154-43d3-a625-032d71e41dc1",
+  "https://www.npa.go.jp/publications/statistics/koutsuu/opendata/index_opendata.html",
+  "https://disaportal.gsi.go.jp/hazardmapportal/hazardmap/copyright/opendata.html"
+ ],
+ "demo_url": "https://kayoeru-web.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://kayoeru-web.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2513",
+ "image_count": 3,
+ "notes": ""
+}

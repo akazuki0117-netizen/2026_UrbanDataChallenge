@@ -1,0 +1,37 @@
+{
+ "id": "6631844085123963945",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631844085123963945/?year=2026",
+ "fetched_at": "2026-11-20T15:36:00+00:00",
+ "title": "それ、詐欺かも。",
+ "team": "LUMINA",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "不審なSMS・メール・SNSメッセージを画像またはテキストで入力するだけでAIが自動分析するWebサービス。高齢者や在日外国人は不審なメッセージを受け取った際「これは本物か詐欺か」をその場で判断しにくく、判断までに時間がかかりその隙に被害につながる可能性があるという課題に対応。危険度を「高・注意・低・判断不能」の4段階で表示し判定理由と今すべき行動を簡潔に示し、高リスク時は家族への共有や公式窓口への誘導も行う。多言語対応。Cloudflare Pages/WorkersでOCRによる画像テキスト化とURL・個人情報抽出を実装し、Cloudflare Workers AI経由のLLMをメッセージの意味理解と判定理由生成に活用しつつ個人情報はマスキングした。",
+ "open_data_items": [
+  {
+   "name": "犯罪発生情報（メールけいしちょうオープンデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000033"
+  },
+  {
+   "name": "メールけいしちょうOpen DATA",
+   "url": "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000000033"
+ ],
+ "external_data_urls": [
+  "https://mail.keishicho.metro.tokyo.lg.jp/opendata/"
+ ],
+ "demo_url": "https://lumina.tokyo-odh-460.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://lumina.tokyo-odh-460.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=264",
+ "image_count": 3,
+ "notes": ""
+}

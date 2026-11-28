@@ -1,0 +1,61 @@
+{
+ "id": "6625785377312457284",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6625785377312457284/?year=2026",
+ "fetched_at": "2026-11-20T15:32:30+00:00",
+ "title": "学びのパレット",
+ "team": "ssuga",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "子どもの興味から学校外の学び場を探せる地図アプリ。児童館・図書館・文化施設の情報は自治体ごとのサイトに分散し区をまたいだ横断検索ができず、家庭の情報収集力が子どもの機会格差につながるという課題に対応。8つの興味タグを選ぶと東京都12自治体の施設316か所と体験イベント148件を横断して絞り込め、地図とカレンダーを切り替えて確認できる。元データにないタグは施設種別やイベント名から機械的に付与している。Next.jsとMapLibre GL JS（APIキー不要）で構築し、Claude Codeでオープンデータカタログを横断調査し行政手続情報をAPI公開しているのが練馬区のみという事実も洗い出した。",
+ "open_data_items": [
+  {
+   "name": "板橋区 CAP'S(児童館)一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/2c695637-a786-485f-971f-eac6e6ad4cfe/resource/a2e1fa01-33fb-4bcc-b48e-c669108b8e24"
+  },
+  {
+   "name": "文京区 児童館",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/d8ca53a5-e416-4dd1-86f2-f524ce1d763e/resource/9695707a-b2d5-434d-9595-76e5191193c7"
+  },
+  {
+   "name": "台東区 児童館・こどもクラブ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/94479cf4-7416-4f7b-b36a-e8b18b854955/resource/95634bb5-1146-404f-b691-507ba8ac4b27"
+  },
+  {
+   "name": "中野区 児童館_学童_キッズプラザ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/9f577921-0525-40c1-9b7d-2c93e67554aa/resource/46dbc1d8-4cc9-4fcf-84b7-e27ef11e1183"
+  },
+  {
+   "name": "中野区 文化施設",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/22b80155-b4e9-439b-8390-1942a3199689/resource/f157337f-efab-4324-87f6-9f1426e3ebb2"
+  },
+  {
+   "name": "大田区 図書館一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/c1efcf46-360d-4344-9f43-a2f5a31a0d74/resource/b73e2be9-5f66-4539-9449-e2b2e3d06f31"
+  },
+  {
+   "name": "墨田区 公立図書館情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/669f7623-7177-490b-8734-2ac71e339fc3/resource/5f12c575-326b-4e3e-a4fa-33fcc1a02dea"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/2c695637-a786-485f-971f-eac6e6ad4cfe/resource/a2e1fa01-33fb-4bcc-b48e-c669108b8e24",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/d8ca53a5-e416-4dd1-86f2-f524ce1d763e/resource/9695707a-b2d5-434d-9595-76e5191193c7",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/94479cf4-7416-4f7b-b36a-e8b18b854955/resource/95634bb5-1146-404f-b691-507ba8ac4b27",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/9f577921-0525-40c1-9b7d-2c93e67554aa/resource/46dbc1d8-4cc9-4fcf-84b7-e27ef11e1183",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/22b80155-b4e9-439b-8390-1942a3199689/resource/f157337f-efab-4324-87f6-9f1426e3ebb2",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/c1efcf46-360d-4344-9f43-a2f5a31a0d74/resource/b73e2be9-5f66-4539-9449-e2b2e3d06f31",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/669f7623-7177-490b-8734-2ac71e339fc3/resource/5f12c575-326b-4e3e-a4fa-33fcc1a02dea"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://manabiba.tokyo-odh-039.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://manabiba.tokyo-odh-039.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4898",
+ "image_count": 3,
+ "notes": ""
+}

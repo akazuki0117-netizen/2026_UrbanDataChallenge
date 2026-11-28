@@ -1,0 +1,46 @@
+{
+ "id": "6632796738227621857",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632796738227621857/?year=2026",
+ "fetched_at": "2026-11-20T15:42:34+00:00",
+ "title": "中央区バリアフリー観光マップ",
+ "team": "D.O.",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "障害のある家族と外出する家庭が混雑を避けて快適に屋外活動できる場所を選べる地図アプリ。バリアフリー対応の有無が観光情報に併記されていないことが多く多目的トイレの場所もまとまって公開されていないため外出をためらう要因になっているという課題に対応。JARTICの交通量APIから道路交通量傾向をマーカー色で可視化し、OpenRouteServiceのwheelchairプロファイルで段差やスロープを考慮したルートを検索、ルート沿いのトイレも自動ハイライト表示する。色覚特性に配慮したOkabe-Itoパレットも採用。PythonとNext.jsでAWS上に構築し、Claude Codeでアイデア出しから開発まで幅広く活用した。",
+ "open_data_items": [
+  {
+   "name": "OpenRouteService",
+   "url": "https://openrouteservice.org/"
+  },
+  {
+   "name": "JARTIC 交通量API",
+   "url": "https://www.jartic-open-traffic.org/"
+  },
+  {
+   "name": "国土地理院",
+   "url": "https://cyberjapandata.gsi.go.jp/"
+  },
+  {
+   "name": "【中央区】観光施設一覧",
+   "url": "https://www.city.chuo.lg.jp/documents/984/kankoushisetu.csv"
+  },
+  {
+   "name": "【中央区】公衆トイレ一覧",
+   "url": "https://www.city.chuo.lg.jp/documents/984/kousyuutoilet.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://openrouteservice.org/",
+  "https://www.jartic-open-traffic.org/",
+  "https://cyberjapandata.gsi.go.jp/",
+  "https://www.city.chuo.lg.jp/documents/984/kankoushisetu.csv",
+  "https://www.city.chuo.lg.jp/documents/984/kousyuutoilet.csv"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3951",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "6630879318327144765",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630879318327144765/?year=2026",
+ "fetched_at": "2026-11-20T15:34:51+00:00",
+ "title": "POLAIS™",
+ "team": "ATL-POLAIS",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「POLAIS™」は、データと生成AIを組み合わせ施策の立案・改善を支援するシステム。令和7年度に都へ寄せられた提言・意見等は128,756件と都民約1,400万人の0.9%にとどまり届く声が偏りがちで、効果の薄い事業でもやめる根拠を示せずやめられないという自治体職員の課題に対応。統計・アンケートデータから属性を持つ都民ペルソナ群を生成し賛否・効用・受益性・必要性の観点で事業案を評価、パブコメでは届かないサイレントマジョリティの声を仮説として検討段階に反映する。法令をRAGで検索できる機能も備える。Next.js（React）とFastAPI、Azure OpenAI（gpt-5.6-terra）で構築し、Claude Codeで開発を行った。",
+ "open_data_items": [
+  {
+   "name": "墨田区「住民意識調査（第28回・令和6年度）」個票・集計表・報告書",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000118"
+  },
+  {
+   "name": "令和2年国勢調査 小地域集計 第6-1表（世帯の家族類型）東京都",
+   "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032163279"
+  },
+  {
+   "name": "令和2年国勢調査 小地域集計 第7-1表（住宅の所有関係）東京都",
+   "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032163282"
+  },
+  {
+   "name": "東京都「住民基本台帳による世帯と人口」令和8年1月（町丁別）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001088"
+  },
+  {
+   "name": "墨田区「町丁別年齢別人口」令和8年7月1日現在",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000096"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000118",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001088",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000096"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032163279",
+  "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032163282"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=1822",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

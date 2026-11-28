@@ -1,0 +1,42 @@
+{
+ "id": "6632811817512347652",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811817512347652/?year=2026",
+ "fetched_at": "2026-11-20T15:45:59+00:00",
+ "title": "めぐろ犬さんぽ",
+ "team": "team_dcr",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "目黒区を中心に犬との散歩に向いている公園・緑道・広場を探せるWebアプリ。Google Mapsでは公園の場所は分かっても犬が入れるか、リードが必要か、水場や日陰があるかといった犬連れに必要な情報を一度に比較できないという課題に対応。起点・徒歩圏・犬同伴条件を選ぶと候補を地図とカードで一覧表示し、犬同伴可否・リード・水場・日陰・ドッグラン等を同じ画面で比較できる。技術者でない開発者がHTML・CSS・JavaScriptで短期間にスマートフォン向け画面を構築し、Cloudflare Workersに公開、生成AIを要件整理から公開手順の確認まで幅広く活用した。",
+ "open_data_items": [
+  {
+   "name": "目黒区 公園・緑道・広場等の施設データ（施設名・所在地・座標）",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "大田区 公園等の施設データ（利用範囲に含める場合）",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "Google Maps Platform（地図表示・徒歩ルート計算）",
+   "url": "https://developers.google.com/maps/documentation"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/",
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://developers.google.com/maps/documentation"
+ ],
+ "demo_url": "https://osampo-dog-v2.hello-akari.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://osampo-dog-v2.hello-akari.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=3380",
+ "image_count": 1,
+ "notes": ""
+}

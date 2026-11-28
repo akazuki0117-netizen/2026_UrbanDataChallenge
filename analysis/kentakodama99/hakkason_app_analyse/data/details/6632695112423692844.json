@@ -1,0 +1,66 @@
+{
+ "id": "6632695112423692844",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632695112423692844/?year=2026",
+ "fetched_at": "2026-11-20T15:38:50+00:00",
+ "title": "ガチャガチャ商売",
+ "team": "IGNI",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "人数・予算・時間・場所・対象等を入力すると553種類の仕事・1678案から実行可能な商売をガチャ形式で提示するアプリ。商売や地域イベントに挑戦したい学生・若者はアイデアがあっても予算や許可、採算を一度に考える必要があり最初の一歩を踏み出せないという課題に対応。東京都の人口・施設・イベント・観光データを根拠に価格・原価・必要人数・販売場所を表示し、選んだ後は法務確認から集客、収支比較、在庫・販売記録まで同じ画面で管理できる。最初の売上「FIRST ¥1」や「元とれた！」の自動判定も備える。Next.js、React、TypeScriptで型付きドメイン処理に分離して構築し、生成AIは選択済み案件を改善する相談役として利用者の質問と現在条件のみを渡し変更可能な項目を限定したJSON差分を返す設計とした。",
+ "open_data_items": [
+  {
+   "name": "町丁別・年齢別・男女 別人口　江東区",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d3100000017"
+  },
+  {
+   "name": "地域・年齢別人口",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d0000000025"
+  },
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d0000000024"
+  },
+  {
+   "name": "イベント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d0000000017"
+  },
+  {
+   "name": "東京ビッグサイトのイ ベント情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/d ataset/t001001d0000000001"
+  },
+  {
+   "name": "観光施設一覧（地域ご とに CKAN 検索）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/d ataset/?groups=c023&license_id=CC- BY- 4.0&q=%E6%B1%9F%E6%9D%B1%E5% 8C%BA"
+  },
+  {
+   "name": "東京都オープンデータ カタログ（交通系を地 域検索）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東京都オープンデータ カタログ（商業・事業 所系を地域検索）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d3100000017",
+  "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d0000000025",
+  "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d0000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/d ataset/t131083d0000000017",
+  "https://catalog.data.metro.tokyo.lg.jp/d ataset/t001001d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/d ataset/?groups=c023&license_id=CC- BY- 4.0&q=%E6%B1%9F%E6%9D%B1%E5% 8C%BA",
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://gacha-business-20260820.yumihiro.chatgpt.site/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://gacha-business-20260820.yumihiro.chatgpt.site/"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4744",
+ "image_count": 3,
+ "notes": ""
+}

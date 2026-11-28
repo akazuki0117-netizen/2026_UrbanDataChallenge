@@ -1,0 +1,52 @@
+{
+ "id": "6632133876311498994",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632133876311498994/?year=2026",
+ "fetched_at": "2026-11-20T15:37:03+00:00",
+ "title": "そなえる",
+ "team": "solo leveling",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「そなえる」は、高齢者や車椅子利用者など避難行動要支援者のための個別避難計画づくりを支援するWebサービス。東日本大震災の死者の約6割は高齢者で「最も近い避難所」が「入れる避難所」とは限らず、東京都の避難所オープンデータもバリアフリー情報が約3割で空欄という課題に対応。住んでいる場所を選ぶと最も近い避難所が実際に入れるかを判定し入れない場合は確認済みの避難先を提案、そこまでの徒歩ルートの地震危険度をシミュレーションしAIが本人向けの避難計画書を自動作成する。判定・計算・選択はすべてコードが担いAIは文章化のみという設計を貫いた。約7,700件をCloudflare D1に格納し、Workers AI（Llama 3.3）を計画文の生成のみに限定した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査（第9回）",
+   "url": "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/home.htm"
+  },
+  {
+   "name": "墨田区 避難所バリアフリー情報",
+   "url": "https://www.city.sumida.lg.jp/"
+  },
+  {
+   "name": "国土地理院 地理院地図（逆ジオコーディング）",
+   "url": "https://www.gsi.go.jp/"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://www.toshiseibi.metro.tokyo.lg.jp/bosai/chousa_6/home.htm",
+  "https://www.city.sumida.lg.jp/",
+  "https://www.gsi.go.jp/",
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": "https://sonaeru-6ku.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://sonaeru-6ku.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=136",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6631876171014652467",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631876171014652467/?year=2026",
+ "fetched_at": "2026-11-20T15:36:12+00:00",
+ "title": "チョコットソン",
+ "team": "ミエルダンサ / MIERU DANSA",
+ "member_count": 4,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「チョコットソン」は、高齢者がスマホやAIの「ちょっと困った」を、家族以外の第三者に1回15分・1対1で相談できるサービス。家族に何度もスマホの質問をして負担をかけてしまうという実体験から生まれ、気軽に第三者へ相談できる仕組みが必要という課題に対応。相談は1回15分500円の予約制1対1とし、大学生など若い世代が答えを代行せず、本人が画面を操作しながら一緒に解決することで、次第に自分でできることを増やしていく。相談内容は個人が特定されない形で蓄積し、つまずきの傾向を可視化して高齢者のデジタル支援改善につなげる将来像も持つ。Next.jsを採用し、開発メンバーの知見を活かして短期間で構築した。",
+ "open_data_items": [
+  {
+   "name": "行政サービス・手続デジタル化等に関する都民意識調査（2023年度）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000023"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000023"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://drive.google.com/file/d/1Bd8CUfV0EsarOWw7btjiZpGaTQzNQFWw/view?usp=sharing",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/file/d/1Bd8CUfV0EsarOWw7btjiZpGaTQzNQFWw/view?usp=sharing"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=3998",
+ "image_count": 3,
+ "notes": ""
+}

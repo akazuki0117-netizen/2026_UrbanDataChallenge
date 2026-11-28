@@ -1,0 +1,36 @@
+{
+ "id": "6632823065416310133",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632823065416310133/?year=2026",
+ "fetched_at": "2026-11-20T15:46:56+00:00",
+ "title": "MIZUNAVI",
+ "team": "MIZUNAVI",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「MIZUNAVI」は、豪雨時に浸水リスクの高い地下鉄出口や低地を避ける安全な徒歩経路を案内するWebサービス。豪雨時に普段使っている出口が浸水しやすい場所かをその場で判断するのは難しく既存のハザードマップは具体的な移動判断に結びつけるには手間があるという課題に対応。出発地・目的地を指定すると浸水想定区域と地下鉄出口リスクを重ねた地図上に経路を表示し、経路がリスク区域へ近づく場合は警告を表示する。日本語・英語対応。MapLibreとOpenStreetMap/CARTOで構築し、ChatGPTで企画・要件整理、CursorとOpenCodeで実装支援を行った。",
+ "open_data_items": [
+  {
+   "name": "国土数値情報 洪水浸水想定区域データ（A31a・東京都・想定最大規模）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html"
+  },
+  {
+   "name": "OpenStreetMap 地下鉄出入口データ",
+   "url": "https://www.openstreetmap.org/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html",
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": "https://mizunavi.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mizunavi.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=2277",
+ "image_count": 3,
+ "notes": ""
+}

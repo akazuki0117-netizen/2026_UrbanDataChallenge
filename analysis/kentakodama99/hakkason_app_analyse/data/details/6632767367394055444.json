@@ -1,0 +1,67 @@
+{
+ "id": "6632767367394055444",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632767367394055444/?year=2026",
+ "fetched_at": "2026-11-20T15:40:50+00:00",
+ "title": "よみとまち",
+ "team": "江戸前企画",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「よみとまち」は、図書館で借りた本のNDC分類を鍵に区民開放されている大学図書館の専門書、公開講座、大学の研究課題までを一本の線でつなぐWebサービス。文京区の学びの情報は区のイベントカレンダー等に分断され7大学の図書館開放も対象・条件が館ごとに異なり一覧できず15〜18歳は制度の狭間に落ちやすいという課題に対応。区立図書館のNDC分類を共通の鍵に大学図書館の専門書（CiNii Books）・地域講座・研究課題（KAKEN）を自動接続し、年齢・就学区分で実際に利用できる情報だけに絞り込む。文京区・生命科学分野でMVPを実証。サーバーを持たない構成でカーリルAPIとCiNii Booksを利用し、Claude（Anthropic）で文京区の公開情報を横断調査しながら課題設定を詰めた。",
+ "open_data_items": [
+  {
+   "name": "公共施設一覧（都立図書館・文化施設・公園）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000033"
+  },
+  {
+   "name": "だれでも東京（施設情報ポータル／バリアフリー情報）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "NPO法人情報",
+   "url": "https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/data/"
+  },
+  {
+   "name": "カーリル図書館API（蔵書検索・在架確認）",
+   "url": "https://calil.jp/doc/api_ref.html"
+  },
+  {
+   "name": "CiNii Books（大学図書館の所蔵検索）",
+   "url": "https://support.nii.ac.jp/ja/cib/api/b_opensearch"
+  },
+  {
+   "name": "KAKEN（科学研究費助成事業データベース、研究課題の取得）",
+   "url": "https://support.nii.ac.jp/ja/kaken/api/api_outline"
+  },
+  {
+   "name": "区市町村別施設一覧（生涯学習関連情報）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d1700000025"
+  },
+  {
+   "name": "東京都イベント一覧（総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000027"
+  },
+  {
+   "name": "区立図書館・区立博物館・文京ふるさと歴史館 等（文京区独自ポータル）",
+   "url": "https://www.city.bunkyo.lg.jp/b004/p006286.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000033",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d1700000025",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000027"
+ ],
+ "external_data_urls": [
+  "https://www.seikatubunka.metro.tokyo.lg.jp/houjin/npo_houjin/data/",
+  "https://calil.jp/doc/api_ref.html",
+  "https://support.nii.ac.jp/ja/cib/api/b_opensearch",
+  "https://support.nii.ac.jp/ja/kaken/api/api_outline",
+  "https://www.city.bunkyo.lg.jp/b004/p006286.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=986",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

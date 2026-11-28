@@ -1,0 +1,46 @@
+{
+ "id": "6628701347942543570",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628701347942543570/?year=2026",
+ "fetched_at": "2026-11-20T15:33:42+00:00",
+ "title": "防災コンパス",
+ "team": "Xappli",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "GPSと方位センサーだけで動作する通信不要のオフライン防災アプリ。災害時に通信インフラが途絶えると地図アプリは使えなくなり、パニック状態で複雑な地図操作ができない人にとって最寄りの避難所等がどこにあるか分からないことは命に関わるという課題に対応。避難所・AED・給水拠点等5カテゴリのオープンデータをアプリ内に静的データとして同梱し矢印1本だけで最寄り施設への直線方位を示すミニマル設計、家族間では8桁のGeohashコードでサーバーを介さず集合地点を共有できる。港区のオープンデータ572件を使用。React Native/Expoでexpo-locationとexpo-sensorsを用い、Claude Codeで文字コード不統一のCSV/GeoJSONクレンジングと5カテゴリへの統一スキーマ変換を行った。",
+ "open_data_items": [
+  {
+   "name": "区民避難場所・福祉避難所情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/76ddb7a3-02f6-4837-85b2-93f7a1285e72/resource/887a2e85-ef3b-424b-b8e7-c35a14f15e06"
+  },
+  {
+   "name": "港区AED設置場所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/0644b8c7-9ece-4975-9664-87e15e51e08d/resource/07bea2be-020e-4528-9399-80a8b8935fa7"
+  },
+  {
+   "name": "給水拠点一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/39b22696-a621-4b34-b8c1-5ae88dcd319d/resource/d9ceee13-ff63-4fd8-a344-06353bb8980e"
+  },
+  {
+   "name": "特設災害時公衆電話事前設置場所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/76ddb7a3-02f6-4837-85b2-93f7a1285e72/resource/3c64698e-b0f0-49b2-b164-8e705dfaf6d5"
+  },
+  {
+   "name": "港区公衆無線ＬＡＮアクセスポイント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000022"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/76ddb7a3-02f6-4837-85b2-93f7a1285e72/resource/887a2e85-ef3b-424b-b8e7-c35a14f15e06",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/0644b8c7-9ece-4975-9664-87e15e51e08d/resource/07bea2be-020e-4528-9399-80a8b8935fa7",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/39b22696-a621-4b34-b8c1-5ae88dcd319d/resource/d9ceee13-ff63-4fd8-a344-06353bb8980e",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/76ddb7a3-02f6-4837-85b2-93f7a1285e72/resource/3c64698e-b0f0-49b2-b164-8e705dfaf6d5",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000022"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=258",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

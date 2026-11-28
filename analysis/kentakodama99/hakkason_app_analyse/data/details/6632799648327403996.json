@@ -1,0 +1,42 @@
+{
+ "id": "6632799648327403996",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632799648327403996/?year=2026",
+ "fetched_at": "2026-11-20T15:42:54+00:00",
+ "title": "東京ライフクエスト(防災編)",
+ "team": "未来創造 Quest Makers",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京ライフクエスト」は、日常の移動を防災行動へ変えるゲーミフィケーション型アプリ。避難所やAEDの場所を知っているだけでは、実際に迷わず行動できるとは限らないという課題に着目し、現在地とオープンデータを活用して近隣の避難所・AED等を「クエスト」として提示。利用者が実際に歩いて現地を確認・チェックインすることで、防災知識を知るだけでなく行動して身につける体験を提供する。ポイントやレベルなどのゲーム要素で継続的な行動を促す設計。Flutterを採用しiOS・Android展開を見据えた共通コード基盤とした。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ（東京都総務局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093?utm_source=chatgpt.com"
+  },
+  {
+   "name": "地理情報（オープンデータ）「防災避難所」（板橋区）",
+   "url": "https://www.city.itabashi.tokyo.jp/kusei/joho/sisetsu/1031246.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "OpenStreetMap（地図データ）",
+   "url": "https://www.openstreetmap.org/?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [
+  "https://www.city.itabashi.tokyo.jp/kusei/joho/sisetsu/1031246.html?utm_source=chatgpt.com",
+  "https://www.openstreetmap.org/?utm_source=chatgpt.com"
+ ],
+ "demo_url": "https://drive.google.com/file/d/1nBkSqqpWT3VjlF29XDilP54oGBtsnqFD/view?usp=drive_link",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://drive.google.com/file/d/1nBkSqqpWT3VjlF29XDilP54oGBtsnqFD/view?usp=drive_link"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=5221",
+ "image_count": 3,
+ "notes": ""
+}

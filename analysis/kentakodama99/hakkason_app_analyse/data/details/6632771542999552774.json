@@ -1,0 +1,72 @@
+{
+ "id": "6632771542999552774",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632771542999552774/?year=2026",
+ "fetched_at": "2026-11-20T15:41:07+00:00",
+ "title": "まちぴた診断 ― 家族にぴったりの街が見つかる",
+ "team": "Team A.I.",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まちぴた診断」は、物件を探す前に家族の暮らしに合う街を見つける住まい選び支援サービス。家選びでは治安・通勤・保育・医療・防災を同時に確認する必要があるが必要な情報は自治体サイトや地図に分散し土地勘がない人には収集・比較が難しいという課題に対応。家族構成を選び子育て・通勤・医療・防災・治安の重視度を星で設定すると東京都等のオープンデータを活用し街の特徴を整理、診断結果を「とても良い」〜「要検討」で提示し生成AI相談室が施設数や距離、評価の背景をデータに基づいて説明する。TypeScript、React／Next.jsとMapLibre GL JSで構築し、Microsoft CopilotとExcel・PowerPoint Copilotを課題調査からUI設計まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログ：浸水予想区域図",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029"
+  },
+  {
+   "name": "東京都オープンデータカタログ：東京都防災マップ 避難所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093/resource/4d800809-d51c-41e1-8311-f708a488978e"
+  },
+  {
+   "name": "東京都オープンデータカタログ：社会福祉施設等一覧 認可保育所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000373/resource/39b23f94-0a13-403f-a6e0-ea06f2a624a1"
+  },
+  {
+   "name": "目黒区オープンデータ：区内保育施設の空き状況（2026年5月1日）",
+   "url": "https://data.bodik.jp/dataset/131105_available_child_care"
+  },
+  {
+   "name": "東京都オープンデータカタログ：公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030"
+  },
+  {
+   "name": "東京都オープンデータカタログ：東京都の学校",
+   "url": "https://portal.data.metro.tokyo.lg.jp/visualization/schools-in-tokyo/"
+  },
+  {
+   "name": "東京都オープンデータカタログ：医療機関等台帳",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612"
+  },
+  {
+   "name": "東京都オープンデータカタログ：地下鉄関連情報 混雑の見える化",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031"
+  },
+  {
+   "name": "東京都オープンデータカタログ：区市町村の町丁別、罪種別及び手口別認知件数（年累計）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000100001"
+  },
+  {
+   "name": "東京都オープンデータカタログ：住民基本台帳による東京都の世帯と人口（町丁別・年齢別）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093/resource/4d800809-d51c-41e1-8311-f708a488978e",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000373/resource/39b23f94-0a13-403f-a6e0-ea06f2a624a1",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030",
+  "https://portal.data.metro.tokyo.lg.jp/visualization/schools-in-tokyo/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000031",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000022d0000100001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001115"
+ ],
+ "external_data_urls": [
+  "https://data.bodik.jp/dataset/131105_available_child_care"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=4007",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

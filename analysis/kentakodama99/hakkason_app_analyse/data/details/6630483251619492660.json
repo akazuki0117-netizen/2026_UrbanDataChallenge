@@ -1,0 +1,31 @@
+{
+ "id": "6630483251619492660",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630483251619492660/?year=2026",
+ "fetched_at": "2026-11-20T15:34:31+00:00",
+ "title": "東京 空き時間MAP",
+ "team": "さび猫",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京 空き時間MAP」は、街に眠る空いている時間を誰かの居場所に変えるサービス。カフェや個人コワーキング等の空き時間情報はSNSや施設サイトに分散し見つけにくい一方、施設側にも「今日だけ数時間貸したい」というニーズがあり両者がつながっていないという課題に対応。施設・店舗は開放したい時間帯を数タップで登録すると即座に地図へ反映され、利用者は東京都の公共施設オープンデータにリアルタイムの空き情報を重ねた地図から「今から使える場所」を発見できる。東京都公式アプリの一機能とすることで幅広い都民が同じ情報にアクセスできる仕組みを目指す。React+TypeScriptとLeafletで構築し、Figma MakeでUIプロトタイプを作成、Claude Codeで実装した。",
+ "open_data_items": [
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/316016a7-8946-48ea-a1a6-75bec9c8600c/resource/27d1ce20-9023-4690-944c-5da47ed1427e"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/316016a7-8946-48ea-a1a6-75bec9c8600c/resource/27d1ce20-9023-4690-944c-5da47ed1427e"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tokyo-akijikan-map.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-akijikan-map.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=1897",
+ "image_count": 3,
+ "notes": ""
+}

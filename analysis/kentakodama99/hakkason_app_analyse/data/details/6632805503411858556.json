@@ -1,0 +1,26 @@
+{
+ "id": "6632805503411858556",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632805503411858556/?year=2026",
+ "fetched_at": "2026-11-20T15:43:33+00:00",
+ "title": "就活OS ― 誰もがフェアに就活できる社会への一歩",
+ "team": "AN",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「就活OS」は、就活に必要な情報や支援を一つの入口から扱えるようにする基盤。就活の情報や支援はハローワークや転職エージェント、求人サービスに分散し、情報を探し理解しサービスを選ぶ「就活する能力」によって機会に差が生まれるという課題に対応。プロトタイプでは異なる求人情報を共通形式で蓄積・表示するデータベースとWebサイトを制作、職務経歴書等から情報を抽出し利用可能なデータへ変換する流れも検討する。既存サービスを置き換えず併用できる土台を目指す設計。HTML・CSS・JavaScriptとPython・FastAPIで構築し、生成AIを経歴やスキルの整理からキャリアの方向性提案に活用した。",
+ "open_data_items": [
+  {
+   "name": "job tag：日本版O-NET",
+   "url": "https://shigoto.mhlw.go.jp/User/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://shigoto.mhlw.go.jp/User/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2751",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

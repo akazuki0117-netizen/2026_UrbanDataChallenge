@@ -1,0 +1,76 @@
+{
+ "id": "6626525366508675611",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626525366508675611/?year=2026",
+ "fetched_at": "2026-11-20T15:32:48+00:00",
+ "title": "東京いちばん図鑑",
+ "team": "システムエンジニア友の会",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京いちばん図鑑」は、小学校3・4年生の社会科で使う郷土学習・統計学習サイト。多くの子が「うちの町にはなんにもない」と言う一方、統計183指標を3通りの正規化で全自動走査すると59自治体が統計だけで「いちばん」が成立し残る3自治体も個別の事実で補えたという発見に基づく。自分の町を選ぶと「1位はどこだと思う？」の3択クイズから始まり2位・3位との差、統計名と年、出典URLを開ける流れで「本当にいちばんなの？」を確かめられる。見に行く・聞いてみる・本で調べる・ネットで調べるの4段階の確かめ方も提示。配信物は静的ファイルのみでHTMLをダブルクリックするだけで動く設計とし、2名がClaude Codeのセッションを持ち同じGitHubリポジトリでIssueとPull Requestを通じて並行開発した。",
+ "open_data_items": [
+  {
+   "name": "SSDSE-A-2026 教育用標準データセット（市区町村）",
+   "url": "https://www.nstac.go.jp/use/literacy/ssdse/"
+  },
+  {
+   "name": "統計でみる市区町村のすがた2026",
+   "url": "https://www.stat.go.jp/data/s-sugata/index.html"
+  },
+  {
+   "name": "国土数値情報 行政区域データ（N03）",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "令和7年度 公立学校統計調査報告書【東京都公立学校一覧】小学校",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_shougakkou_address"
+  },
+  {
+   "name": "令和7年度 公立学校統計調査報告書【東京都公立学校一覧】義務教育学校",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_gimu_address"
+  },
+  {
+   "name": "令和7年度 公立学校統計調査報告書【東京都公立学校一覧】高等学校",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_koutougakkou_address"
+  },
+  {
+   "name": "東京都私立小学校一覧（令和8年4月1日現在）",
+   "url": "https://www.seikatubunka.metro.tokyo.lg.jp/shigaku/ninka/0000000140.html"
+  },
+  {
+   "name": "施設関連情報 図書館一覧（東京都教育庁）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_1.csv"
+  },
+  {
+   "name": "施設関連情報 公民館一覧（東京都教育庁）",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv"
+  },
+  {
+   "name": "全国地方公共団体コード（総務省）",
+   "url": "https://www.soumu.go.jp/denshijiti/code.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.nstac.go.jp/use/literacy/ssdse/",
+  "https://www.stat.go.jp/data/s-sugata/index.html",
+  "https://nlftp.mlit.go.jp/ksj/",
+  "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_shougakkou_address",
+  "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_gimu_address",
+  "https://www.kyoiku.metro.tokyo.lg.jp/documents/d/kyoiku/r7_koutougakkou_address",
+  "https://www.seikatubunka.metro.tokyo.lg.jp/shigaku/ninka/0000000140.html",
+  "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_1.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/kyouiku/R3/skshubetu_4.csv",
+  "https://www.soumu.go.jp/denshijiti/code.html"
+ ],
+ "demo_url": "https://tokyo-one.vx-xv.com",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-one.vx-xv.com"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=4777",
+ "image_count": 3,
+ "notes": ""
+}

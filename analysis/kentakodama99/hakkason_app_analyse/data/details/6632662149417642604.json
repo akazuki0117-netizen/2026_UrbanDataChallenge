@@ -1,0 +1,41 @@
+{
+ "id": "6632662149417642604",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632662149417642604/?year=2026",
+ "fetched_at": "2026-11-20T15:38:34+00:00",
+ "title": "まちの継ぎ目（MachiTsugi）",
+ "team": "MachiTsugi",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "地図上で食料品店を選び閉店を仮定したときに、新たに徒歩圏外となる人口（全体・高齢者別）と代替店舗までの時間を可視化するWebアプリ。地元の小さなスーパーが閉店し親が買い物に困った実体験から、閉店後でなければ影響が見えづらく商店会や行政が支援を先回りできないという課題に着目。実人口・実在店舗・道路網を重ね、任意店舗の閉店で生じるアクセス空白を年齢別に人数と地図で示し、閉店前→増加分→閉店後を比較できる。徒歩10分圏（3段階）と行政参考基準の直線500mを切り替えられる設計。Next.js/TypeScriptで構築し、ChatGPT・Claude Code・Codexを要件整理からテスト設計まで活用した。",
+ "open_data_items": [
+  {
+   "name": "e-Stat 令和2年国勢調査 250mメッシュ（人口及び世帯／5歳階級別人口）",
+   "url": "https://www.e-stat.go.jp/help/data-definition-information/about-recorded-data"
+  },
+  {
+   "name": "OpenStreetMap 店舗データ",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "国土地理院 地理院タイル（淡色地図）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/help/data-definition-information/about-recorded-data",
+  "https://www.openstreetmap.org/",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://machitsugi.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://machitsugi.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1871",
+ "image_count": 3,
+ "notes": ""
+}

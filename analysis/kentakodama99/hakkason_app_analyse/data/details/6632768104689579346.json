@@ -1,0 +1,57 @@
+{
+ "id": "6632768104689579346",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632768104689579346/?year=2026",
+ "fetched_at": "2026-11-20T15:40:54+00:00",
+ "title": "イケル（行ける・生ける）",
+ "team": "合同会社ラジオペンチ",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「イケル」は、東京都のオープンデータをもとに行動範囲を制限する要因を考慮した行動範囲マップ。車椅子対応トイレは都内7,149施設あるが介助ベッドがあるのは12%だけで、江東区の高齢者が介助ベッド付きトイレを徒歩圏に持つ割合は300mで19.5%まで下がるという課題に対応。福祉局のトイレデータ上で未使用の要配慮者の需要を最大化する施設を貪欲法アルゴリズムで選定し「次に整備すべき施設」を「何人の徒歩圏を広げるか」とともに示す。江東区の例では砂町図書館に1台足すだけで6,348人の徒歩圏をカバーできると算出。PythonとFastAPIでshapely等を用いた空間処理を実装し、Claude CodeをGitHub・Slackと連携させSlackの議論を自動でIssueに整理させて実装するシステムを構築した。",
+ "open_data_items": [
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和７年度更新版）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "地震に関する地域危険度測定調査地域危険度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+  },
+  {
+   "name": "町丁別年齢別人口（墨田区）",
+   "url": "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/population_data/machibetu_data.html"
+  },
+  {
+   "name": "地理院タイル",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "OpenStreetMap 歩行者道路網",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000012"
+ ],
+ "external_data_urls": [
+  "https://www.city.sumida.lg.jp/kuseijoho/sumida_info/opendata/opendata_ichiran/population_data/machibetu_data.html",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://tochiji-cup.radiopench.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tochiji-cup.radiopench.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=1832",
+ "image_count": 3,
+ "notes": ""
+}

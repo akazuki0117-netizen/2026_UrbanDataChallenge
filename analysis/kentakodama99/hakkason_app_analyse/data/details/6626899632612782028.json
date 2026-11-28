@@ -1,0 +1,41 @@
+{
+ "id": "6626899632612782028",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626899632612782028/?year=2026",
+ "fetched_at": "2026-11-20T15:32:57+00:00",
+ "title": "KAWAYA(カワヤ)",
+ "team": "チームT",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "公衆トイレや民間店舗のトイレにIoTロックを後付けし1回100円で決済した人だけが入れるトイレに変えるWebサービス。トイレが使える状態かは行ってみないと分からず、無料のため清掃を増やす原資がなく汚れが放置されやすい構造という課題に対応（訪都外国人旅行者は2025年約2,865万人）。IoTロックの開閉状態を青（空き）/赤（使用中）で地図表示し、決済すると15分間有効な入室PINが発行される。売上は清掃・維持の原資として店舗やオーナーにも分配される仕組み。Next.js+Prisma+PostgreSQLでトランザクションと行ロックを扱い、決済はStripeのゲスト決済、Claude Code（Opus 5）を実装の相棒として使った。",
+ "open_data_items": [
+  {
+   "name": "新宿区の公衆トイレ一覧(新宿区 / CC BY)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123"
+  },
+  {
+   "name": "公衆トイレ一覧(中央区 / CC BY)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000036"
+  },
+  {
+   "name": "公衆トイレ一覧(千代田区 / CC BY)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d0000000005"
+  },
+  {
+   "name": "公衆トイレ一覧(豊島区 / CC BY)",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131164d0000000009"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131024d0000000036",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131016d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131164d0000000009"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4216",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

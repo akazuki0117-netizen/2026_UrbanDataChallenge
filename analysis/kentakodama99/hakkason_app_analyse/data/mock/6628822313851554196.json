@@ -1,0 +1,17 @@
+{
+ "id": "6628822313851554196",
+ "group": "finalist",
+ "title": "みらい交通図（子アプリ: みらいナビ）",
+ "demo_url": null,
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": null,
+ "status": "デモURLなし",
+ "form": "-",
+ "clear_in_5s": "-",
+ "n_features": 0,
+ "gen_ai": "-",
+ "map_viz": "-",
+ "maturity": "判定不能",
+ "note": "詳細ページに提出作品 URL が無い"
+}

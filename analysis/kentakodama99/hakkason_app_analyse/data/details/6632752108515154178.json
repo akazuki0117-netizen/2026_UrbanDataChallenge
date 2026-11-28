@@ -1,0 +1,62 @@
+{
+ "id": "6632752108515154178",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632752108515154178/?year=2026",
+ "fetched_at": "2026-11-20T15:40:09+00:00",
+ "title": "大島スマートコース — AIが読める伊豆大島の交通・観光ナレッジ",
+ "team": "SBC.情報通信技術部特別班",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "大島バスのGTFS-JPと現地特有の交通事情を生成AIが参照しやすいナレッジに整備しWebアプリで有効性を実証。時刻表はPDF、GTFSはzip提供で一般の生成AIが安定して参照しにくく、存在しないバス便を含む旅程を提案してしまうという課題に対応。日付・港・荷物・コースを選ぶと実在する53便だけで時刻入り旅程を生成、AIには「表にない便を作らない」「帰りの船から逆算」というルールを設定し、全便に検証マークと便IDを表示する。GTFS変換はPython標準ライブラリのみでODPTの実データから再生成でき、Cloudflare Workersで構築、ChatGPT・Claude・Claude Codeを活用しつつAIにはGTFS由来の旅程JSONだけを渡し便の追加・変更をさせない設計とした。",
+ "open_data_items": [
+  {
+   "name": "大島バス GTFS-JP（全路線）／公共交通オープンデータセンター",
+   "url": "https://ckan.odpt.org/dataset/oshima_bus_all_lines"
+  },
+  {
+   "name": "気象庁 天気予報JSON（東京都・伊豆諸島北部／週間予報）",
+   "url": "https://www.jma.go.jp/bosai/forecast/"
+  },
+  {
+   "name": "伊豆諸島・小笠原諸島観光客入込実態調査／東京都観光データカタログ",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/data/tosho-irekomi/"
+  },
+  {
+   "name": "OpenStreetMap（地図タイル・スポット座標 © OpenStreetMap contributors）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "東京都オープンデータカタログ（大島町関連の確認に使用）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "東海汽船 時刻表（民間）",
+   "url": "https://www.tokaikisen.co.jp/boarding/timetable/"
+  },
+  {
+   "name": "大島バス 路線バス時刻表・手荷物規定（民間）",
+   "url": "http://www.oshima-bus.com/rosen-bus.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://ckan.odpt.org/dataset/oshima_bus_all_lines",
+  "https://www.jma.go.jp/bosai/forecast/",
+  "https://data.tourism.metro.tokyo.lg.jp/data/tosho-irekomi/",
+  "https://www.openstreetmap.org/copyright",
+  "https://www.tokaikisen.co.jp/boarding/timetable/",
+  "http://www.oshima-bus.com/rosen-bus.html"
+ ],
+ "demo_url": "https://izu-oshima-smart-tourism.kotaroshimada38.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://izu-oshima-smart-tourism.kotaroshimada38.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=996",
+ "image_count": 3,
+ "notes": ""
+}

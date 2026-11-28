@@ -1,0 +1,17 @@
+{
+ "id": "6632330018211034772",
+ "group": "control",
+ "title": "SUTECO(ステコ)",
+ "demo_url": "https://www.suteco.jp/ja",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6632330018211034772.png",
+ "status": "動く",
+ "form": "Webアプリ",
+ "clear_in_5s": "はい：「撮るだけで、分別方法と今行ける場所がわかります」",
+ "n_features": 3,
+ "gen_ai": "あり",
+ "map_viz": "なし（結果画面で地図）",
+ "maturity": "実用レベル",
+ "note": "独自ドメイン、日英、Demo 用サンプルあり"
+}

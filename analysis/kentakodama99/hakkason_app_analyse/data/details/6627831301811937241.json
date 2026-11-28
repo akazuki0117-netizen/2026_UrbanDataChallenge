@@ -1,0 +1,72 @@
+{
+ "id": "6627831301811937241",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627831301811937241/?year=2026",
+ "fetched_at": "2026-11-20T15:33:17+00:00",
+ "title": "Baby Navigation -べビナビ-​",
+ "team": "おでかけサポーターズ",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ベビナビ」は、赤ちゃん連れの外出で起きる見えない詰まりをなくすベビーカー特化ナビ。既存ナビの最短経路は階段や急坂を強いることがあり、現地で初めて「この道では進めない」と気づいてしまうという課題に対応。階段や急な坂道を避けた平坦な経路を距離・所要時間とあわせて提示し、授乳室やおむつ替えスペースなどの赤ちゃんスポット、駅出口のエレベーター有無も地図に統合する。利用者の「通れなかった」という写真報告を集約し、使うほど経路精度が改善する仕組み。pnpm＋Turborepoのモノレポで型を共有し、Cloudflare Workers＋D1等で構築、投稿写真の障害分類にはGemini 2.5 Flash Liteを用いつつ公式データとの矛盾判定はルールベースで行う。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータカタログ「車椅子使用者対応トイレのバリアフリー情報（令和7年度更新版）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "東京都「避難所、避難場所データ オープンデータ」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "区市町村の「赤ちゃんの駅」等 子育て施設オープンデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "国土数値情報 鉄道データ（N02-24）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/data/N02/N02-24/N02-24_GML.zip"
+  },
+  {
+   "name": "国土交通省 歩行空間ネットワークデータ（ほこナビDP／公共データ利用規約第1.0版）",
+   "url": "https://ckan.hokonavi.go.jp/dataset/"
+  },
+  {
+   "name": "OpenStreetMap / OpenFreeMap（© OpenStreetMap contributors／ODbL）",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "name": "国土地理院 住所検索API",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  },
+  {
+   "name": "Geofabrik 提供 OpenStreetMap 関東データ（kanto-latest.osm.pbf／ODbL）",
+   "url": "https://download.geofabrik.de/asia/japan/kanto.html"
+  },
+  {
+   "name": "公共交通オープンデータセンター（ODPT）一般API v4",
+   "url": "https://developer.odpt.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/data/N02/N02-24/N02-24_GML.zip",
+  "https://ckan.hokonavi.go.jp/dataset/",
+  "https://www.openstreetmap.org/copyright",
+  "https://msearch.gsi.go.jp/address-search/AddressSearch",
+  "https://download.geofabrik.de/asia/japan/kanto.html",
+  "https://developer.odpt.org/"
+ ],
+ "demo_url": "https://baby-navi.tokyo",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://baby-navi.tokyo"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=647",
+ "image_count": 3,
+ "notes": ""
+}

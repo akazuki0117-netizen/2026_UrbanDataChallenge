@@ -1,0 +1,46 @@
+{
+ "id": "6632805095222786258",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632805095222786258/?year=2026",
+ "fetched_at": "2026-11-20T15:43:29+00:00",
+ "title": "受診リレー東京",
+ "team": "pomelo makes",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「受診リレー東京」は、公的相談から医療機関確認、電話、受付、診察までをつなぐ受診ナビ。急な体調不良時、公的な相談サービスを使ってもその後の電話や受付での説明は利用者に委ねられ、家族の代理対応や高齢者では服薬・アレルギー等を何度も説明する負担があるという課題に対応。東京都の公開データから医療機関情報を確認し電話確認から受診情報入力、引継ぎカードまで一連の流れをつなぎ、患者・家族プロフィールで繰り返し情報の再入力を減らす。診断・緊急度判定は行わず判断が必要な場面は#7119等へつなぐ。React+TypeScript+ViteのWebアプリで実装し、ChatGPTとCodexを課題整理からロゴ案作成まで活用した。",
+ "open_data_items": [
+  {
+   "name": "休日・全夜間診療事業実施医療機関一覧（東京都指定二次救急医療機関一覧）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000354?utm_source=chatgpt.com"
+  },
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t134211d0000000001?utm_source=chatgpt.com"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093?utm_source=chatgpt.com"
+  },
+  {
+   "name": "給水拠点一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000354?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t134211d0000000001?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://jushin-relay-tokyo-next.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://jushin-relay-tokyo-next.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=514",
+ "image_count": 3,
+ "notes": ""
+}

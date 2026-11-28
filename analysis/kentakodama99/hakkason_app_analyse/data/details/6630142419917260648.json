@@ -1,0 +1,67 @@
+{
+ "id": "6630142419917260648",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630142419917260648/?year=2026",
+ "fetched_at": "2026-11-20T15:34:13+00:00",
+ "title": "こかげ",
+ "team": "こかげ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "暑い夏に3〜5歳の子どもと出かける親向けに、出発時刻・行き先・道順を提案するサービス。約7割の親が外遊びをさせたい一方、約6割が外遊びできる機会が減ったと回答しているという課題に対応。環境省の暑さ指数と3D都市モデルから算出した建物・高架の日陰を重ね合わせ、時刻ごとに屋外遊びの可否を判定、往復と遊びでの水分損失が少ない公園を3箇所提案し、日陰の多い歩道側も案内する。暑さ指数31以上の時間帯は屋内施設のみを提案する設計。PythonのCityGML解析等の全工程でClaudeを活用した。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）豊島区（2025年度）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-13116-toshima-ku-2025"
+  },
+  {
+   "name": "歩行空間ネットワークデータ（池袋駅周辺）",
+   "url": "https://ckan.hokonavi.go.jp/dataset/nwd_ikebukuro"
+  },
+  {
+   "name": "公共施設一覧",
+   "url": "https://www.city.toshima.lg.jp/020/kuse/electronic/open-data/1511041608.html"
+  },
+  {
+   "name": "赤ちゃん・ふらっと一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000347"
+  },
+  {
+   "name": "暑さ指数(WBGT)の実況値・予測値",
+   "url": "https://www.wbgt.env.go.jp/wbgt_data_download.php"
+  },
+  {
+   "name": "都道の街路樹",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  },
+  {
+   "name": "アメダス観測データ",
+   "url": "https://www.data.jma.go.jp/risk/obsdl/"
+  },
+  {
+   "name": "緑のオープンデータ（GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000347",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-13116-toshima-ku-2025",
+  "https://ckan.hokonavi.go.jp/dataset/nwd_ikebukuro",
+  "https://www.city.toshima.lg.jp/020/kuse/electronic/open-data/1511041608.html",
+  "https://www.wbgt.env.go.jp/wbgt_data_download.php",
+  "https://www.data.jma.go.jp/risk/obsdl/"
+ ],
+ "demo_url": "https://marurin-0424.github.io/kokage1/kokage-v1c-mobile.html",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://marurin-0424.github.io/kokage1/kokage-v1c-mobile.html"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1273",
+ "image_count": 2,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6632721081223188906",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632721081223188906/?year=2026",
+ "fetched_at": "2026-11-20T15:39:17+00:00",
+ "title": "MAMOROOM",
+ "team": "TTW",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「MAMOROOM」は、高齢者宅の部屋写真から転倒・転落につながる危険箇所をAIが検出し改善優先度を提示するWebサービス。離れて暮らす子世代は実家の段差やコードを目にしていても自分にとっては難なくまたげるため親にとっての危険と結びつかないという課題に対応。段差・カーペット・電源コード等5種類を画像AIが判定し、東京消防庁の救急搬送データと照合して改善優先度「高／中／低」を提示、危険箇所は写真上に枠で強調表示し費用と作業時間の目安まで示す。65歳以上の転倒事故搬送は年間6万人超という統計で説得力を持たせる設計。Workers AIのMoondreamを2段階で呼び分け、自然言語で危険を問い座標を検出する仕組みとした。",
+ "open_data_items": [
+  {
+   "name": "東京消防庁「救急搬送データからみる日常生活の事故（令和4年）」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d1700000064"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://home-safety-ai.tokyo-odh-446.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://home-safety-ai.tokyo-odh-446.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=859",
+ "image_count": 3,
+ "notes": ""
+}

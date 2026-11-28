@@ -1,0 +1,37 @@
+{
+ "id": "6632796188127299871",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632796188127299871/?year=2026",
+ "fetched_at": "2026-11-20T15:42:30+00:00",
+ "title": "最涼コンパス",
+ "team": "コントラスト",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "夏の猛暑から街を歩く人の命と健康を守るナビゲーションアプリ。既存の地図アプリは最短距離しか提示せず、日本の猛暑に不慣れな外国人観光客やベビーカー利用者にとって日中の移動自体が熱中症リスクになっているという課題に対応。東京都の3D都市モデル（PLATEAU）を利用したリアルタイムの日陰シミュレーションと地下歩行空間、冷房施設（クーリングシェルター）のデータを統合し、直射日光を避けて安全に移動できる「最涼ルート」を提案する。First Stageでは実際に動くシステムより「最短ルートと最涼ルートの違い」というアイデアの面白さを伝えることを優先し、HTML/CSS/Tailwind CSSで構築した。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）東京都23区",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+  },
+  {
+   "name": "歩行者空間ネットワークデータ（東京都",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "クーリングシェルター（指定暑熱避難施設）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/",
+  "https://catalog.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=5851",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

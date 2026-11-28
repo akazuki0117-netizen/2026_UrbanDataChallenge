@@ -1,0 +1,31 @@
+{
+ "id": "6631861820941604984",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631861820941604984/?year=2026",
+ "fetched_at": "2026-11-20T15:36:06+00:00",
+ "title": "親子でつくる、今日のおでかけ",
+ "team": "しばしば",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "子どもの「やりたい！」と親の「今日の条件」を組み合わせ東京都のオープンデータからおでかけ候補を提案するWebサービス。子どもに「どこに行きたい？」と聞いても施設名だけでは何ができる場所か分からず「どこでもいい」となりがちで、行き先選びが親任せになるという課題に対応。子どもは「みる・まなぶ」「そとあそび」など興味から選択でき、施設情報も子どもに伝わりやすい形で表示、遠出したくない・お金をかけたくない日でも無理のない行き先を一緒に決められる。React/TypeScriptでオープンデータをCSVから読み込み構築し、OpenCodeで対話的にUI実装やデバッグを進めた。",
+ "open_data_items": [
+  {
+   "name": "公共施設一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/suisyoudataset/130001_public_facility.csv"
+ ],
+ "demo_url": "https://oyako-odekake.tokyo-odh-416.workers.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://oyako-odekake.tokyo-odh-416.workers.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3388",
+ "image_count": 3,
+ "notes": ""
+}

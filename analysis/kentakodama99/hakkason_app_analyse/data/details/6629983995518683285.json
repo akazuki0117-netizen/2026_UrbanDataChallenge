@@ -1,0 +1,37 @@
+{
+ "id": "6629983995518683285",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629983995518683285/?year=2026",
+ "fetched_at": "2026-11-20T15:34:04+00:00",
+ "title": "MACHIARUKI",
+ "team": "あいえむ",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東京都公式の散歩コース254本を収録したまち歩きアプリ「MACHIARUKI」。都は良質な散歩コースを254本も公開しているがほとんど知られておらず、ただ歩くだけでは楽しみが乏しく三日坊主になりがちという課題に対応。コースを完歩するとコース専用のファンファーレとスタンプを獲得でき、東京や日本の名物パズル（全77枚）が集まるガチャ要素も備える。参加者全員で東京の形のドットマップを塗りつぶす「みんなでリレー制覇」により、旅行者が1コース歩いただけでも全体の制覇に貢献できる共同ミッションとした。React＋ViteとLeafletで構築し、Replit Agentと対話しながらKMLデータの文字化け復元などを実現した。",
+ "open_data_items": [
+  {
+   "name": "TOKYO WALKING MAP",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/copyright"
+ ],
+ "demo_url": "https://im-lab.kimura-naoto5.workers.dev/works/af78f1fe6f27/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://im-lab.kimura-naoto5.workers.dev/works/af78f1fe6f27/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=4468",
+ "image_count": 3,
+ "notes": ""
+}

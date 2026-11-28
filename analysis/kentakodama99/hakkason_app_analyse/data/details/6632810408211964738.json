@@ -1,0 +1,41 @@
+{
+ "id": "6632810408211964738",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810408211964738/?year=2026",
+ "fetched_at": "2026-11-20T15:45:02+00:00",
+ "title": "Meet Kyo - ミーキョー -",
+ "team": "橋は語る",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "街を歩きながら身近な橋を「観る・話す・知る」インフラ対話アプリ。橋梁の老朽化が進む一方、小規模自治体では人員・予算が限られ日常的な見守りが困難で、市民は橋の名前や年齢、役割をほとんど知らないという課題に対応。地図から近くの橋を発見するとオープンデータをもとにAIとの対話で橋の年齢や構造を楽しく知り、写真や「いつも通り/気になる」を残すことで散歩や観光が地域インフラを見守る観察データになる。「点検する人」を増やすのではなく「まちを見る目」を増やす市民参加型予防保全の設計。HTML/CSS/JavaScriptで実装し、生成AIを橋梁データの一人称説明や質問応答に活用した。",
+ "open_data_items": [
+  {
+   "name": "奥多摩町「橋梁長寿命化修繕計画」（令和7年2月改定）：管理橋梁一覧、橋梁名、架設年度、構造形式、橋長、有効幅員等",
+   "url": "comet-extension://oemmndcbldboiebfnladdacbdfmadadm/https://www.town.okutama.tokyo.jp/material/files/group/9/kyouryouchoujumyoukakeikakusakuteiitaku.pdf?utm_source=chatgpt.com"
+  },
+  {
+   "name": "国土交通省「国土数値情報」",
+   "url": "https://www.mlit.go.jp/tochi_fudousan_kensetsugyo/chirikukannjoho/tochi_fudousan_kensetsugyo_tk17_000001_00028.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "OpenStreetMap",
+   "url": "https://www.openstreetmap.org/?utm_source=chatgpt.com#map=5/35.59/134.38"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "comet-extension://oemmndcbldboiebfnladdacbdfmadadm/https://www.town.okutama.tokyo.jp/material/files/group/9/kyouryouchoujumyoukakeikakusakuteiitaku.pdf?utm_source=chatgpt.com",
+  "https://www.mlit.go.jp/tochi_fudousan_kensetsugyo/chirikukannjoho/tochi_fudousan_kensetsugyo_tk17_000001_00028.html?utm_source=chatgpt.com",
+  "https://www.openstreetmap.org/?utm_source=chatgpt.com#map=5/35.59/134.38"
+ ],
+ "demo_url": "https://www.figma.com/proto/SYiSCRpTcdlq0QEbJ2Gsqf/Meet-Kyo?node-id=6-4574&viewport=804%2C-713%2C0.45&t=aCNC6l3nlZsDFNEj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=6%3A4574&page-id=0%3A1",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://www.figma.com/proto/SYiSCRpTcdlq0QEbJ2Gsqf/Meet-Kyo?node-id=6-4574&viewport=804%2C-713%2C0.45&t=aCNC6l3nlZsDFNEj-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=6%3A4574&page-id=0%3A1"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=10",
+ "image_count": 3,
+ "notes": ""
+}

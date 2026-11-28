@@ -1,0 +1,47 @@
+{
+ "id": "6631081750227014966",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631081750227014966/?year=2026",
+ "fetched_at": "2026-11-20T15:35:02+00:00",
+ "title": "みんなの歩行しるべ",
+ "team": "PASCO GeoLab",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「みんなの歩行しるべ」は、住民がスマホで街の歩行環境を撮影して投稿し歩行空間オープンデータと突き合わせて地図で共有するWebアプリ。点字ブロックの損傷や放置自転車の状況は現地へ行かなければ把握しにくく管理主体も分かれ一元的な把握には人手が必要という課題に対応。中央区・千代田区等の歩行空間ネットワークとバリアフリー施設データに投稿を重ね、視覚障害者向けに周辺状況を端末内音声合成で読み上げる機能も実装、自治体は管理画面で対応ステータスを管理しCSV出力できる。Next.js、TypeScript、ReactとMapLibre GL JSで構築し、MediaPipeで人物・車両の写り込みを端末内判定しLLMで企画整理から実装まで活用した。",
+ "open_data_items": [
+  {
+   "name": "地理院タイル「淡色地図」",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "歩行空間ネットワークデータ",
+   "url": "https://www.hokoukukan.go.jp/top.html"
+  },
+  {
+   "name": "バリアフリー施設情報「だれでも東京」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  },
+  {
+   "name": "都内における駅前放置自転車の現況と対策",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000002d2000000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000002d2000000003"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://www.hokoukukan.go.jp/top.html"
+ ],
+ "demo_url": "https://demo01.taomsa8401.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://demo01.taomsa8401.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=3645",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,37 @@
+{
+ "id": "6632813081118182726",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632813081118182726/?year=2026",
+ "fetched_at": "2026-11-20T15:46:26+00:00",
+ "title": "Tokyo Alive",
+ "team": "トーキョー・シカケデザイン",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyo Alive」は、「ちょっと時間が空いたな」から生み出されるイベントルーティングサービス。地域イベントの情報はWebサイトやSNSに分散し日本語のみで発信されることも多く、従来の検索は名称や目的地を決めて探すことが前提で存在を知らないイベントに出会えないという課題に対応。現在地と時間を起点にジャンル横断で周辺イベントを地図に集約・可視化し多言語で提供、興味を持ったイベントを空き時間に合わせて自由に組み合わせて訪問ルートをデザインできる。TypeScript／Reactとvinext、MapLibre GL＋OpenStreetMapで構築し、OpenAIとClaudeのAPIを設計から実装、テスト作成まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京ビッグサイトのイベント情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t001001d0000000001"
+  },
+  {
+   "name": "港区イベント情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131032d0000000003"
+  },
+  {
+   "name": "OpenStreetMap 地図・地点データ",
+   "url": "https://www.openstreetmap.org/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t001001d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t131032d0000000003"
+ ],
+ "external_data_urls": [
+  "https://www.openstreetmap.org/"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4961",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

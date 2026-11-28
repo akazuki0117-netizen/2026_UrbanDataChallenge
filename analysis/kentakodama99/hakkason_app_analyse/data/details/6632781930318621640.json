@@ -1,0 +1,37 @@
+{
+ "id": "6632781930318621640",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632781930318621640/?year=2026",
+ "fetched_at": "2026-11-20T15:41:43+00:00",
+ "title": "TOKYO発進",
+ "team": "TOKYO発進~Urbs Navigation~",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO発進」は、出発する駅・使える時間・気分の3つを選ぶだけでその日歩けるコースを提案するWebアプリ。段差やトイレの近さ、座れる場所など、外出で「どこまで行けるか」を左右する情報が公園・トイレ・施設のデータに別々に散らばり一緒に確認できないという課題に対応。公開データを空間結合し、車椅子対応トイレまでの距離を最近傍探索で補完、駅・時間・気分から距離とトイレ・休憩のしやすさで採点したコースを提示する。天気と連動し雨天時は屋根のある場所を優先。Cloudflare WorkersとD1で完結させ、提案理由文はLlama 3.3 70Bで生成しつつ元データ外の数値や断定表現を機械的に検証する。",
+ "open_data_items": [
+  {
+   "name": "東京都オープンデータ・カタログサイト",
+   "url": "https://portal.data.metro.tokyo.lg.jp/"
+  },
+  {
+   "name": "Open-Meteo",
+   "url": "open-meteo.com/"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/"
+ ],
+ "external_data_urls": [
+  "open-meteo.com/"
+ ],
+ "demo_url": "https://urbs-navigation.chori39.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://urbs-navigation.chori39.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=2345",
+ "image_count": 1,
+ "notes": ""
+}

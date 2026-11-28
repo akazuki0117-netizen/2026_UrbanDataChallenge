@@ -17,6 +17,7 @@
 
 | スキル | 分類 | いつ使うか |
 |---|---|---|
+| [`dev/public-check/`](dev/public-check/SKILL.md) | 開発 | **push の前に毎回**。個人情報（実名・メールアドレスなど）と秘密の値（API キー・.env）が入っていないかを調べる |
 | [`meeting/gijiroku/`](meeting/gijiroku/SKILL.md) | 会議 | 議事録を `meeting/` の形式で書く（OneNote・トランスクリプトから） |
 | [`meeting/agenda/`](meeting/agenda/SKILL.md) | 会議 | アジェンダ・進行表を、判定シート（入力フォーム）つきの HTML で作る |
 | [`product/persona-usecase/`](product/persona-usecase/SKILL.md) | 企画 | ペルソナ → 場面 → ユースケース → 機能ごとの「なぜ必要か」を整理する |

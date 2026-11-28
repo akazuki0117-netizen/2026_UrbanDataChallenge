@@ -1,0 +1,41 @@
+{
+ "id": "6632757709221798024",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632757709221798024/?year=2026",
+ "fetched_at": "2026-11-20T15:40:18+00:00",
+ "title": "江戸さんぽ（Edo Sanpo）",
+ "team": "nidena",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「江戸さんぽ」は、給水スポットを探す動作を入口に道中で足元の江戸に出会うまち歩きアプリ。来訪者は数十分の余白時間に何をすればよいか分からず給水場所も分からないが江戸の痕跡は無数に眠っていても気づけないという課題に対応。今いる駅を選ぶと近い順に給水スポットが並び、目的地への道中に江戸期の図会と短い解説が音声でも聞ける経由地として現れる。名所を目指さず給水へ向かう数十分がそのまま江戸を歩いた時間に変わる設計。4言語対応でPhase1として日本橋・大手町・神田周辺の1ルートを構築。Vite＋ReactとLeafletでAWS Amplifyに構築し、生成AIを多言語音声ガイド制作のコスト圧縮に活用した。",
+ "open_data_items": [
+  {
+   "name": "Tokyowater Drinking Station 一覧（東京都水道局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "給水拠点一覧データ（東京都水道局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "公衆無線LANアクセスポイント一覧（東京都デジタルサービス局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://main.d2bte0mb2npyuf.amplifyapp.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://main.d2bte0mb2npyuf.amplifyapp.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=138",
+ "image_count": 1,
+ "notes": ""
+}

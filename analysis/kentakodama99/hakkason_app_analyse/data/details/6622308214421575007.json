@@ -1,0 +1,67 @@
+{
+ "id": "6622308214421575007",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6622308214421575007/?year=2026",
+ "fetched_at": "2026-11-20T15:32:07+00:00",
+ "title": "チカミチ",
+ "team": "帽子男せきの",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「チカミチ」は、東京駅周辺の屋内・地下を通って階段と段差に当たらず目的地まで案内するWebアプリ。ベビーカーで階段しかない場所に遭遇しベビーカーを持ち上げて運んだ経験や、千代田区の熱中症搬送場所は「道路・交通施設等」が52%と最多で移動中に倒れる人が多いという課題に対応。国交省の屋内電子地図から民間ビルのエレベーターを経路網に取り込み標準・ベビーカー・車いすの3条件で経路を計算、車いすは階段・エスカレーターと2cm超の段差を除外する。環境省の暑さ指数で厳重警戒日は涼しい休憩場所を優先表示。TypeScript、Vite、MapLibre GL JSでブラウザ内経路探索を実装し、Claude Codeで並列の補助エージェントに調査を分担させた。",
+ "open_data_items": [
+  {
+   "name": "国土交通省 高精度測位社会プロジェクト 東京駅周辺屋内電子地図（令和2年度更新版）",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-indoor-tokyo-r2"
+  },
+  {
+   "name": "国土交通省 ほこナビDP バリアフリー施設等データ（東京都福祉局 車椅子使用者対応トイレのバリアフリー情報 R6 由来）",
+   "url": "https://ckan.hokonavi.go.jp/dataset/facility_tokyo_bf-toilet"
+  },
+  {
+   "name": "東京都福祉局 赤ちゃん・ふらっと一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000347"
+  },
+  {
+   "name": "千代田区 指定暑熱避難施設（クーリングシェルター）・ひと涼みスポット",
+   "url": "https://www.city.chiyoda.lg.jp/koho/kenko/kenko/kenkokanren/cooling-shelter.html"
+  },
+  {
+   "name": "国土地理院 地理院地図 住所検索API",
+   "url": "https://msearch.gsi.go.jp/address-search/AddressSearch"
+  },
+  {
+   "name": "環境省 熱中症予防情報サイト 暑さ指数の実況値・予測値ダウンロード",
+   "url": "https://www.wbgt.env.go.jp/wbgt_data_download.php"
+  },
+  {
+   "name": "国土地理院 地理院タイル（淡色地図）",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "国土交通省 新宿駅周辺屋内電子地図（令和2年度更新版）※利用予定",
+   "url": "https://www.geospatial.jp/ckan/dataset/mlit-indoor-shinjuku-r2"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000347"
+ ],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/mlit-indoor-tokyo-r2",
+  "https://ckan.hokonavi.go.jp/dataset/facility_tokyo_bf-toilet",
+  "https://www.city.chiyoda.lg.jp/koho/kenko/kenko/kenkokanren/cooling-shelter.html",
+  "https://msearch.gsi.go.jp/address-search/AddressSearch",
+  "https://www.wbgt.env.go.jp/wbgt_data_download.php",
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://www.geospatial.jp/ckan/dataset/mlit-indoor-shinjuku-r2"
+ ],
+ "demo_url": "https://indoor-route-tokyo.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://indoor-route-tokyo.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=1404",
+ "image_count": 3,
+ "notes": ""
+}

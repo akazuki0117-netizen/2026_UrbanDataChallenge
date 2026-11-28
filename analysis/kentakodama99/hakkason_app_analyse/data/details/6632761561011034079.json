@@ -1,0 +1,46 @@
+{
+ "id": "6632761561011034079",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632761561011034079/?year=2026",
+ "fetched_at": "2026-11-20T15:40:35+00:00",
+ "title": "あんしんコンシェルジュ（～話すだけで最適な行政窓口へ繋がる、シニア・市民向けAI音声コンシェルジュ～）",
+ "team": "チームおとなりさん",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「あんしんコンシェルジュ」は、話しかけるだけで使える音声型AI行政案内サービス。従来の行政サイトは情報が整理されていても、自分の悩みがどの制度・窓口の話か直感的に判断できず、ちょっとした憂鬱やざつなつぶやきでは検索カテゴリすら見当がつかないという課題に対応。マイクに話すだけで音声をその場でテキスト化し、東京都のオープンデータから関連度の高い相談窓口をAIがやさしい言葉で案内する。回答画面には「今すぐ電話する」「公式ページを見る」のワンタップボタンを用意し、調べて終わりにせず窓口まで届ける。Web Speech APIとCloudflare Workers/Pagesで完全サーバーレスの低コスト構成とした。",
+ "open_data_items": [
+  {
+   "name": "高齢者相談窓口（地域包括支援センター）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/2d396203-5281-4fa4-9e24-b0cc560479e6/resource/c6910707-6078-4af2-ae5a-dcdfd880ca76"
+  },
+  {
+   "name": "子育て・ひとり親家庭相談窓口",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/search/?q=%E5%AD%90%E8%82%B2%E3%81%A6%E7%9B%B8%E8%AB%87&term=0&size=10"
+  },
+  {
+   "name": "東京都消費生活総合センター",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/search/?q=%E6%B6%88%E8%B2%BB%E7%94%9F%E6%B4%BB%20%E7%9B%B8%E8%AB%87%E7%AA%93%E5%8F%A3&term=0&size=10"
+  },
+  {
+   "name": "東京都社会福祉協議会",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/45b61277-d95e-41d7-96fc-17ec17cd2bb9/resource/510193e1-ba29-4f1d-b2f7-9ba9d16fd895"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/2d396203-5281-4fa4-9e24-b0cc560479e6/resource/c6910707-6078-4af2-ae5a-dcdfd880ca76",
+  "https://catalog.data.metro.tokyo.lg.jp/search/?q=%E5%AD%90%E8%82%B2%E3%81%A6%E7%9B%B8%E8%AB%87&term=0&size=10",
+  "https://catalog.data.metro.tokyo.lg.jp/search/?q=%E6%B6%88%E8%B2%BB%E7%94%9F%E6%B4%BB%20%E7%9B%B8%E8%AB%87%E7%AA%93%E5%8F%A3&term=0&size=10",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/45b61277-d95e-41d7-96fc-17ec17cd2bb9/resource/510193e1-ba29-4f1d-b2f7-9ba9d16fd895"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://anshin-concierge.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://anshin-concierge.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=2331",
+ "image_count": 3,
+ "notes": ""
+}

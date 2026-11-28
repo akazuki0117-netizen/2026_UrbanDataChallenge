@@ -1,0 +1,77 @@
+{
+ "id": "6624060587743107366",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6624060587743107366/?year=2026",
+ "fetched_at": "2026-11-20T15:32:17+00:00",
+ "title": "東京制度コンパス",
+ "team": "東京制度コンパス",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京制度コンパス」は、離職や収入減少のときに関係する公的支援制度を制度名を知らなくても逆引きできるWebサービス。国・都・区が別々に情報を公開し東京23区の公式ページでは住居確保給付金の家賃上限額に2系統の食い違いがあり単身世帯の収入基準額に16,100円の差があったという課題に対応。「仕事を離れた」等を入口に雇用保険基本手当など5制度を横断判定し、Kleeneの3値論理で未回答や自治体未公開値を推測で補わず「要確認」として残す。判定は決定論的なJSON式で制度データ更新時の矛盾もテストで検出する。React＋TypeScript＋Viteの完全静的Webアプリでバックエンドを持たず、生成AIは開発・検証支援に限定し本番判定には使用しない設計とした。",
+ "open_data_items": [
+  {
+   "name": "支援制度_給付金_情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046"
+  },
+  {
+   "name": "生活困窮者自立支援制度に関する情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000045"
+  },
+  {
+   "name": "支援制度（給付金）情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000045"
+  },
+  {
+   "name": "東村山市支援制度（給付金）情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132136d3100000020"
+  },
+  {
+   "name": "東京都青梅市における支援制度一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132055d0000000019"
+  },
+  {
+   "name": "生活・居住・就労支援に関する情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000047"
+  },
+  {
+   "name": "子育て支援制度レジストリ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "児童手当の所得制限",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000035"
+  },
+  {
+   "name": "住居確保給付金給付事業",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132217d0000000064"
+  },
+  {
+   "name": "雇用保険の基本手当 所定給付日数",
+   "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_benefitdays.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000046",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000045",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000045",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132136d3100000020",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132055d0000000019",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000047",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000035",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132217d0000000064"
+ ],
+ "external_data_urls": [
+  "https://www.hellowork.mhlw.go.jp/insurance/insurance_benefitdays.html"
+ ],
+ "demo_url": "https://tokyo-seido-compass.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-seido-compass.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=518",
+ "image_count": 3,
+ "notes": ""
+}

@@ -1,0 +1,31 @@
+{
+ "id": "6632695676421931178",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632695676421931178/?year=2026",
+ "fetched_at": "2026-11-20T15:38:52+00:00",
+ "title": "3Mプラットフォーム",
+ "team": "ぱやぱや",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "行政の公園・緑地オープンデータをベースに市民が発見した「憩いの場」等のリアルな街の魅力をオープンデータとして収集・共有する統合プラットフォーム。行政オープンデータは更新頻度が低く静的になりがちで、既存のSNS口コミは企業に閉じた商業データ、シビックテックは道路破損等のネガティブな通報が多く市民が楽しく参加しにくいという課題に対応。簡単でプライバシーに配慮した投稿UXとAIによるネガティブ投稿ブロックで動的でポジティブな意見データを集め、マップ表示と分析ダッシュボードで市民のシビックプライド醸成と行政の施策発見に活用する。TypeScript/React/ViteとCloudflare Workers/D1/R2/Workers AIで構築し、Workers AIを投稿画像の内容確認やタグ候補の下書き生成に利用した。",
+ "open_data_items": [
+  {
+   "name": "緑のオープンデータ（GISデータ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://3m-platform.ta2ak1.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://3m-platform.ta2ak1.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=3020",
+ "image_count": 3,
+ "notes": ""
+}

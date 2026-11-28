@@ -1,0 +1,77 @@
+{
+ "id": "6632768098215400368",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632768098215400368/?year=2026",
+ "fetched_at": "2026-11-20T15:40:52+00:00",
+ "title": "MediRoute（メディルート）",
+ "team": "Mediroute",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「MediRoute」は、訪日旅行者が東京で病気や災害に直面した際、症状ガイダンスから受診支援、保険請求資料までを一つにつなぐ多言語ヘルスケア・スーパーアプリ。訪日外国人患者の診療には通常の1.1倍超の時間がかかる医療機関が4割超にのぼり、緊急度判断や受診先探し、費用、保険を別々の窓口で判断しなければならないという課題に対応。AIが症状を整理して緊急度の目安を示し、危険な兆候があれば119番通報を促す一方、緊急でなければ公式データから医療機関を検索し多言語で受付・問診を支援、受診後は薬・領収書・保険請求準備までサポートする。診断や予約成立、119通報の代行は行わない設計。React/FastAPIで構築し、AI&AND APIで症状の構造化や多言語翻訳を行っている。",
+ "open_data_items": [
+  {
+   "name": "医療情報ネットのオープンデータ（東京都の病院・診療所）",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html"
+  },
+  {
+   "name": "救急告示医療機関一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000356"
+  },
+  {
+   "name": "東京都指定二次救急医療機関（小児科）一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000355"
+  },
+  {
+   "name": "新宿区のAED設置個所一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000119"
+  },
+  {
+   "name": "新宿区の避難所情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000055"
+  },
+  {
+   "name": "給水拠点一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "車椅子使用者対応トイレのバリアフリー情報（令和7年度更新版）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342"
+  },
+  {
+   "name": "新宿区の公衆トイレ一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123"
+  },
+  {
+   "name": "新宿区の赤ちゃんの駅",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000130"
+  },
+  {
+   "name": "新宿区の施設情報（GIF）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000132"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000356",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000355",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000119",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000055",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000342",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000123",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000130",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000132"
+ ],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/newpage_43373.html"
+ ],
+ "demo_url": "https://www.medirouteguide.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://www.medirouteguide.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2507",
+ "image_count": 3,
+ "notes": ""
+}

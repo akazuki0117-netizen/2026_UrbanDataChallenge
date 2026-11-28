@@ -1,0 +1,67 @@
+{
+ "id": "6630851843427932010",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630851843427932010/?year=2026",
+ "fetched_at": "2026-11-20T15:34:45+00:00",
+ "title": "東京領収書",
+ "team": "東京領収書",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「東京領収書」は、払った住民税の行き先を受け取るWebサービス。決算書は総額と款名の一覧で個人の金額に翻訳されておらず、都が公開する約400万件の公金支出CSVを開く人はいないという課題に対応。年収・世帯構成・子の学年帯・居住区の4項目を30秒で入力すると都民税・特別区民税を推計し、都と区の決算の款別構成比で按分した「領収書」を発行、款を押すと支払1件まで下って負担分を1円単位で示す。用途が分からない件名には「これ何?」の解説を付け、納得できない支出には住民監査請求等への案内も用意する。TypeScriptのモノレポで構築し、解説生成にGemini 3.5 Flash-Liteを用いる。",
+ "open_data_items": [
+  {
+   "name": "公金支出情報（一般会計・特別会計）／東京都会計管理局・CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d0000000005"
+  },
+  {
+   "name": "TOKYO決算見える化ボード 普通会計決算 目的別歳出／東京都財務局・CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000020"
+  },
+  {
+   "name": "地方財政状況調査 調査表（都道府県分）歳出内訳及び財源内訳／総務省・e-Stat",
+   "url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00200251&tstat=000001077755&tclass1=000001078091&tclass2=000001078092&tclass3val=0"
+  },
+  {
+   "name": "地方財政状況調査 調査表（市町村分）歳出内訳及び財源内訳／総務省・e-Stat",
+   "url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00200251&tstat=000001077755&tclass1=000001077756&tclass2=000001077757&tclass3val=0"
+  },
+  {
+   "name": "特別区の統計 82表 普通会計目的別歳出内訳・普通会計歳入内訳／特別区協議会（原典: 東京都総務局 特別区決算状況調）",
+   "url": "https://www.tokyo-23city.or.jp/chosa/tokei/tokubetsuku/index.html"
+  },
+  {
+   "name": "特別区の統計 83表 都区財政調整区別算定結果／特別区協議会",
+   "url": "https://www.tokyo-23city.or.jp/chosa/tokei/tokubetsuku/index.html"
+  },
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ／東京都デジタルサービス局・CC BY 4.0",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+  },
+  {
+   "name": "行政手続等の悉皆調査結果等（行政手続等の棚卸調査）／デジタル庁・PDL1.0",
+   "url": "https://www.digital.go.jp/resources/procedures-survey-results"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000016d0000000005",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000004d1800000020",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000034"
+ ],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00200251&tstat=000001077755&tclass1=000001078091&tclass2=000001078092&tclass3val=0",
+  "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00200251&tstat=000001077755&tclass1=000001077756&tclass2=000001077757&tclass3val=0",
+  "https://www.tokyo-23city.or.jp/chosa/tokei/tokubetsuku/index.html",
+  "https://www.tokyo-23city.or.jp/chosa/tokei/tokubetsuku/index.html",
+  "https://www.digital.go.jp/resources/procedures-survey-results"
+ ],
+ "demo_url": "https://tokyo-receipt.vercel.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-receipt.vercel.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=5336",
+ "image_count": 3,
+ "notes": ""
+}

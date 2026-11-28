@@ -1,0 +1,41 @@
+{
+ "id": "6632799420403744672",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632799420403744672/?year=2026",
+ "fetched_at": "2026-11-20T15:42:50+00:00",
+ "title": "地下鉄でおでかけしたい",
+ "team": "みずき村技術部",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "車いす利用者が都営地下鉄で公共施設へ出かける前に、利用駅・目的施設・必要条件から駅設備・駅から施設まで・施設設備を3区間で確認できるWebアプリ。設備条件がある人は出かける前に階段回避ルートや対応トイレの有無を事前確認する必要があるが情報が交通事業者と施設情報に分かれ確認に手間がかかるという課題に対応。都営地下鉄のバリアフリー情報と「だれでも東京」施設情報を横断しOK／NG／条件あり／情報なしで表示、移動全体の可否は断定しない誠実な設計。React 18・TypeScript・Viteでアクセシビリティを確保した構成とし、ChatGPTとOpenCodeを企画・実装支援に活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都交通局「都営地下鉄駅基本情報」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000053"
+  },
+  {
+   "name": "地下鉄関連情報　バリアフリー情報",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028"
+  },
+  {
+   "name": "宿泊施設等の施設情報ポータルサイト「だれでも東京」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000053",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000028",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000003"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://tokyo-odh-mizki-odekake.tokyo-odh-mizukino.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-odh-mizki-odekake.tokyo-odh-mizukino.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=630",
+ "image_count": 3,
+ "notes": ""
+}

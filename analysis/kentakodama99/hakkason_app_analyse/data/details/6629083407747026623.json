@@ -1,0 +1,31 @@
+{
+ "id": "6629083407747026623",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629083407747026623/?year=2026",
+ "fetched_at": "2026-11-20T15:33:46+00:00",
+ "title": "東京スマートガーディアン（TOKYO　SMART　GUADIAN）",
+ "team": "チームたいちゃん",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "都民から投稿された危険箇所の情報をAIで精査し、PLATEAU上で可視化する市民参加型の安全データ基盤。街灯故障やカーブミラー不具合など小さな危険は通報先が分かりにくく対応状況も見えないため見過ごされがちで、危険情報が蓄積・分析されず都市の安全向上に活用されていないという課題に対応。都民が写真と位置情報を投稿するとAIがフェイク情報や重複通報を自動排除し危険度に応じた優先順位付けを行い、対応状況を「未対応・対応中・解決済」で可視化する。投稿が増えても行政負担が増えない運用モデルが特徴。Pythonで画像・テキストをGeoJSONに変換しPLATEAUと連携する構成とし、Microsoft CopilotとGeminiで企画・設計を検討した。",
+ "open_data_items": [
+  {
+   "name": "東京都避難所データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://youtu.be/SVdvn37ZpQg",
+ "submission_items": [
+  {
+   "name": "デモ動画",
+   "url": "https://youtu.be/SVdvn37ZpQg"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2383",
+ "image_count": 2,
+ "notes": ""
+}

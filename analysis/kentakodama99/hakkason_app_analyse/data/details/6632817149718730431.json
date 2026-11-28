@@ -1,0 +1,36 @@
+{
+ "id": "6632817149718730431",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632817149718730431/?year=2026",
+ "fetched_at": "2026-11-20T15:46:52+00:00",
+ "title": "CoolPath Tokyo",
+ "team": "MOTOGO",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "猛暑下の通勤や散歩等で最短距離より快適性を重視した「涼しさ優先ルート」を提示する都民のQOL向上プロダクト。夏季の都市部では路面温度が50℃を超え最短ナビが炎天下へ誘導する一方、自治体が整備した公園の木陰や給水所等のオープンデータが移動時に未活用という課題に対応。水辺・街路樹バッファ・公園のポリゴンと道路ネットワークの交差・近接判定を行い環境負荷の低い道路リンクのコストを下げるアルゴリズムを構築し、災害時だけでなく日常の移動シーンで自然に使える設計とした。",
+ "open_data_items": [
+  {
+   "name": "緑被率・緑被現況調査データ（東京都環境局）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "Tokyowater Drinking Station 一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003"
+  },
+  {
+   "name": "都市公園・都立公園一覧（墨田区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/organization/t131075"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000003",
+  "https://catalog.data.metro.tokyo.lg.jp/organization/t131075"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=360",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

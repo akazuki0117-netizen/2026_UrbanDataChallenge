@@ -1,0 +1,41 @@
+{
+ "id": "6632706002247485227",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632706002247485227/?year=2026",
+ "fetched_at": "2026-11-20T15:39:07+00:00",
+ "title": "マンナカ",
+ "team": "わくわくたねタイム",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「マンナカ」は、友人同士の待ち合わせ駅を「目的×混雑×乗換」の3軸で提案するWebサービス。待ち合わせ駅を毎回「とりあえず新宿・渋谷」で決めてしまい、既存の中間駅検索は地理的な中間点しか示さず乗換回数や混雑状況を考慮しないという課題に対応。参加者2〜6人の出発駅からダイクストラ法で乗換回数・所要時間の公平性をスコア化し、周辺の飲食店充実度や駅の混雑目安も加味して候補駅を最大8件ランキング表示する。各メンバーの経路も個別表示し「なぜその駅か」が一目で分かる設計。国土数値情報の鉄道データでJavaScriptにダイクストラ法を実装し、Claudeで同名駅の重複バグなど鉄道データの癖を発見・修正した。",
+ "open_data_items": [
+  {
+   "name": "国土交通省 国土数値情報（鉄道データ N02-24）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html"
+  },
+  {
+   "name": "JR東日本 各駅の乗車人員 2024年度",
+   "url": "https://www.jreast.co.jp/company/data/passenger/"
+  },
+  {
+   "name": "ホットペッパーグルメ Webサービス（リクルート）",
+   "url": "http://webservice.recruit.co.jp/"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-v3_1.html",
+  "https://www.jreast.co.jp/company/data/passenger/",
+  "http://webservice.recruit.co.jp/"
+ ],
+ "demo_url": "https://mannaka.hello-akari.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mannaka.hello-akari.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/8TGBakTZFyY?t=264",
+ "image_count": 3,
+ "notes": ""
+}

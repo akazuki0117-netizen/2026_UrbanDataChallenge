@@ -1,0 +1,17 @@
+{
+ "id": "6607716898916603923",
+ "group": "control",
+ "title": "UVかけいぼ",
+ "demo_url": "https://uv-kakeibo.pages.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6607716898916603923.png",
+ "status": "動く",
+ "form": "Webアプリ（スマホ向け）",
+ "clear_in_5s": "いいえ：いきなり計測画面で、説明が無い",
+ "n_features": 6,
+ "gen_ai": "なし",
+ "map_viz": "あり（別タブ）",
+ "maturity": "プロトタイプ",
+ "note": "タブ 6 つ。専門用語（SED・MED）が最初の画面に出る"
+}

@@ -1,0 +1,36 @@
+{
+ "id": "6632807410314396184",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632807410314396184/?year=2026",
+ "fetched_at": "2026-11-20T15:44:06+00:00",
+ "title": "TomoMed",
+ "team": "TomoMed",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TomoMed」は患者が自身の状況に応じて医療機関を選べる医療施設ナビゲーションサービス。既存の情報サイトは口コミや広告に依存し疾患別の客観的な治療実績を比較しづらく、厚労省の公的データも専門的で市民には活用しにくいという課題に対応（都内在留外国人78万人、訪日外国人年間4,268万人）。外国人患者受入リストと退院患者調査データを活用し、対応診療科・診療時間・33言語での検索に加え、病名が分かれば344疾患の実績比較もできる。口コミやランキングは用いず公的かつ客観的な情報のみで支援する設計。ReactとTypeScriptでCloudflare Workers上に構築し、Gemini Antigravity・Codex・Claude Codeを開発支援に活用した。",
+ "open_data_items": [
+  {
+   "name": "厚生労働省 DPCの評価・検証等に係る調査",
+   "url": "https://www.mhlw.go.jp/stf/shingi2/newpage_00203.html"
+  },
+  {
+   "name": "外国人患者を受け入れる医療機関の情報を取りまとめたリスト",
+   "url": "https://www.mlit.go.jp/kankocho/topics08_00038.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.mhlw.go.jp/stf/shingi2/newpage_00203.html",
+  "https://www.mlit.go.jp/kankocho/topics08_00038.html"
+ ],
+ "demo_url": "https://tomomed.tomomed.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tomomed.tomomed.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3774",
+ "image_count": 3,
+ "notes": ""
+}

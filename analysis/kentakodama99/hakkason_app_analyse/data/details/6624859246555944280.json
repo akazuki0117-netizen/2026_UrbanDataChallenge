@@ -1,0 +1,47 @@
+{
+ "id": "6624859246555944280",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6624859246555944280/?year=2026",
+ "fetched_at": "2026-11-20T15:32:21+00:00",
+ "title": "混雑・トラブル時の次の一手（混雑回避・代替移動ナビ）",
+ "team": "チームＪ",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "イベント終了後の駅混雑や運転見合わせ時に「次の一手」を提案するAI移動コンシェルジュ。多くの人が最寄り駅へ集中し混雑や長時間待機が発生するが、子ども連れや高齢者同伴は身体的負担が大きく一般的な経路検索では状況に応じた行動判断が難しいという課題に対応。利用者の状況や優先条件を入力すると代替交通手段・徒歩移動・待機場所を組み合わせた行動案を提示し、判断理由や家族への共有文も生成する。最短ルートではなく「今どう動くべきか」の支援に重点を置いた設計。Cloudflare WorkersとWorkers AIでサーバーレスなプロトタイプを構築した。",
+ "open_data_items": [
+  {
+   "name": "東京都交通局 都営バス・都営地下鉄オープンデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052"
+  },
+  {
+   "name": "TOKYO WALKING MAP",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "自転車走行空間について",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026"
+  },
+  {
+   "name": "だれでも東京",
+   "url": "https://www.digitalservice.metro.tokyo.lg.jp/business/data-utilization/daredemo-tokyo"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000018d0000000052",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000026"
+ ],
+ "external_data_urls": [
+  "https://www.digitalservice.metro.tokyo.lg.jp/business/data-utilization/daredemo-tokyo"
+ ],
+ "demo_url": "https://congestion-nav-worker.hackathon-app-j.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://congestion-nav-worker.hackathon-app-j.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=2492",
+ "image_count": 1,
+ "notes": ""
+}

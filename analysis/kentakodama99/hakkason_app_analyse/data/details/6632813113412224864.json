@@ -1,0 +1,37 @@
+{
+ "id": "6632813113412224864",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632813113412224864/?year=2026",
+ "fetched_at": "2026-11-20T15:46:27+00:00",
+ "title": "ANAGU MAP",
+ "team": "シグナイト",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ANAGU MAP（アナグマップ）」は、絞り込んだ検索条件外のスポットもあえて織り交ぜる東京都内の観光地図アプリ。都内旅行者の約半分が62市区町村のうち上位6区に集中し、検索は入力条件に合う場所しか返さず知らない場所は検索対象にならないという課題に対応。都内各自治体の観光施設オープンデータ740スポットをカテゴリ分類して地図表示し、絞り込み条件に合致するスポットと同時に近隣の条件外スポットも提示することで、旅行者が知らなかった地域と偶然出会える導線を作る。気に入ったスポットは訪問プランにまとめGoogleMapで経路検索できる。TypeScript+Reactで構築し、Claude/Claude CodeとCursorでモックアップを実装した。",
+ "open_data_items": [
+  {
+   "name": "モバイルデータを活用した訪都旅行者動態調査",
+   "url": "https://data.tourism.metro.tokyo.lg.jp/data/mobile/"
+  },
+  {
+   "name": "都内19自治体の観光施設オープンデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/group/c023?_organization_limit=0&page=1"
+  },
+  {
+   "name": "行政区域ポリゴン",
+   "url": "https://www.gsi.go.jp/kankyochiri/gm_jpn.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/group/c023?_organization_limit=0&page=1"
+ ],
+ "external_data_urls": [
+  "https://data.tourism.metro.tokyo.lg.jp/data/mobile/",
+  "https://www.gsi.go.jp/kankyochiri/gm_jpn.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=5358",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

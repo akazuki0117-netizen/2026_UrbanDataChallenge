@@ -1,0 +1,52 @@
+{
+ "id": "6632811241568093367",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811241568093367/?year=2026",
+ "fetched_at": "2026-11-20T15:45:25+00:00",
+ "title": "みりょくミッケ~近いのに知らなかった。興味から見つける地域文化~",
+ "team": "LW",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「みりょくミッケ」は、現在地と興味から近くの文化・歴史・自然の新しい行き先を発見するWebサービス。近場で新しい体験をしたい住民は有名施設や既知の場所に選択肢が偏り、自分の興味に合う未知の文化財・史跡を理由付きで探すのは容易ではないという課題に対応。調布市の文化財・文化施設37件を推薦対象化し距離で候補を絞り興味一致度と匿名回答から推定する未発見度を加えて順位付け、推薦理由・見どころ・注意・散歩ルートまで示す。推薦直後の認知や訪問後の満足度を匿名で集計し推薦や地域情報の改善に活用、他自治体への展開も想定。PythonとFastAPI/SQLiteで構築し、OpenAI Codexで要件整理からデータ処理まで活用した。",
+ "open_data_items": [
+  {
+   "name": "調布市「観光施設・イベント一覧」",
+   "url": "https://portal.data.metro.tokyo.lg.jp/visualization/distribution-and-list-of-tourist-facilities/"
+  },
+  {
+   "name": "02文化財一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001964"
+  },
+  {
+   "name": "01公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001963"
+  },
+  {
+   "name": "緑のオープンデータ(GISデータ)",
+   "url": "ttps://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+  },
+  {
+   "name": "地理院地図・住所検索",
+   "url": "https://maps.gsi.go.jp/help/intro/general/myhome.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://portal.data.metro.tokyo.lg.jp/visualization/distribution-and-list-of-tourist-facilities/",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001964",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001963",
+  "ttps://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000024"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/help/intro/general/myhome.html"
+ ],
+ "demo_url": "https://miryoku-mikke.tangy-pond-1345.chatgpt.site/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://miryoku-mikke.tangy-pond-1345.chatgpt.site/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1129",
+ "image_count": 3,
+ "notes": ""
+}

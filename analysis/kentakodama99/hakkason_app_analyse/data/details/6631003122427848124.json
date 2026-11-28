@@ -1,0 +1,42 @@
+{
+ "id": "6631003122427848124",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631003122427848124/?year=2026",
+ "fetched_at": "2026-11-20T15:34:55+00:00",
+ "title": "Tokyoみまもり隊",
+ "team": "OBS",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Tokyoみまもり隊」は「みんなで歩いてまちの防災を強くする」PWA型位置情報ゲーム。「災害時にどこへ避難すればよいか分からない」「避難所までの道を実際に歩いたことがない」という不安に対応。避難所を「確認すべき対象」から「行ってみたくなるゲームのミッション」に転換し、訪問してチェックインポイントを貯めるとランキング掲載や景品を獲得でき、訪問データを匿名集計することで行政の防災施策検討にも活用する循環を目指す。Cloudflare Workers（Hono）とD1、Vite+React+TypeScriptのPWAで構築し、企画から実装・テストまでAI駆動開発でどこまでできるか挑戦する意味を込めてClaudeCode・ChatGPT・Gemini・OpenCodeを併用した。",
+ "open_data_items": [
+  {
+   "name": "避難所情報（新宿区）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/61c2d76a-a6e3-471d-a6b8-4ff885c95535/resource/76c4aa08-d5d6-4b0e-bc0d-7c19209fd077"
+  },
+  {
+   "name": "背景地図タイル(国土地理院)",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "ハザードマップ配信タイル(国土交通省 重ねるハザードマップ)",
+   "url": "https://disaportal.gsi.go.jp/maps/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/61c2d76a-a6e3-471d-a6b8-4ff885c95535/resource/76c4aa08-d5d6-4b0e-bc0d-7c19209fd077"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://disaportal.gsi.go.jp/maps/"
+ ],
+ "demo_url": "https://tokyo-mission.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-mission.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=1008",
+ "image_count": 3,
+ "notes": ""
+}

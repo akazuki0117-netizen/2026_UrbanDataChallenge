@@ -1,0 +1,46 @@
+{
+ "id": "6631320168219111156",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631320168219111156/?year=2026",
+ "fetched_at": "2026-11-20T15:35:23+00:00",
+ "title": "だれでもコーチ",
+ "team": "塚本慎太郎",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "体力測定データを都平均と比較して弱点を数値で特定する診断機能と、週次の練習計画を生成する機能を競技非依存で提供するサービス。部活動の地域移行で専門知識のない保護者や地域の大人が指導を任される場面が増え、東京都の運動部顧問で専門的指導ができるのは52.1%にとどまるという課題に対応。診断は決定論ロジックで測定値と公開データの数値比較だけで完結させ再現性・説明可能性を保証し、その上でAIがチームの戦力・シーズン・練習時間から週次練習計画と現実的な目標を組む。競技固有の要素はドリル対応表の差し替えのみで他競技にも展開可能な設計。診断エンジンは決定論ロジックで、計画生成にGeminiの構造化出力を活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都児童・生徒体力・運動能力、生活・運動習慣等調査結果について（令和6年度・東京都教育委員会）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2025/03/2025030604"
+  },
+  {
+   "name": "東京都児童・生徒体力・運動能力、生活・運動習慣等調査 報告書一覧（東京都教育委員会）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/administration/statistics_and_research/physical_fitness_test.html"
+  },
+  {
+   "name": "令和6年度 同調査結果報告（江戸川区教育委員会・都データ転載）",
+   "url": "https://www.city.edogawa.tokyo.jp/documents/8803/r6tairyoku.pdf"
+  },
+  {
+   "name": "全国体力・運動能力、運動習慣等調査 都道府県別集計 令和6年度（スポーツ庁）",
+   "url": "https://www.mext.go.jp/sports/b_menu/toukei/kodomo/zencyo/1411922_00013.html"
+  },
+  {
+   "name": "体力・運動能力調査（e-Stat）",
+   "url": "https://www.e-stat.go.jp/stat-search/files?toukei=00402102"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.kyoiku.metro.tokyo.lg.jp/information/press/2025/03/2025030604",
+  "https://www.kyoiku.metro.tokyo.lg.jp/administration/statistics_and_research/physical_fitness_test.html",
+  "https://www.city.edogawa.tokyo.jp/documents/8803/r6tairyoku.pdf",
+  "https://www.mext.go.jp/sports/b_menu/toukei/kodomo/zencyo/1411922_00013.html",
+  "https://www.e-stat.go.jp/stat-search/files?toukei=00402102"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=4317",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

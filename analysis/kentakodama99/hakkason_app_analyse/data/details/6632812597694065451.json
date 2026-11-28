@@ -1,0 +1,77 @@
+{
+ "id": "6632812597694065451",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812597694065451/?year=2026",
+ "fetched_at": "2026-11-20T15:46:14+00:00",
+ "title": "まちケアリンク",
+ "team": "H3K",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まちケアリンク」は、子育て世帯の預け先不足、高齢者の孤立、働きたい人と地域施設の人材需要のミスマッチを地域の施設と人材で解決するサービス。子育て世帯は継続利用から一時預かりまで条件に合う施設を見つけにくく、高齢者は交流機会が少なく孤立しやすい一方施設では見守り等の人材が不足しているという課題に対応。施設は曜日・時間・資格などを指定して働き手を募集でき働きたい人は都合に合う形で参加、施設と運営団体の確認で安全性を確保し行政は地域別の需給状況を施策改善に活用する。HTML、CSS、JavaScript、Node.jsで軽量なデモを構築し、ChatGPT、Claude、Gemini、OpenAI Codexで要件定義から実装レビューまで分担活用した。",
+ "open_data_items": [
+  {
+   "name": "社会福祉施設等一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000054d0000000373"
+  },
+  {
+   "name": "子育て施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/?q=子育て施設一覧"
+  },
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/?q=公共施設一覧"
+  },
+  {
+   "name": "住民基本台帳による東京都の世帯と人口",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm"
+  },
+  {
+   "name": "国勢調査 人口等基本集計",
+   "url": "https://www.e-stat.go.jp/"
+  },
+  {
+   "name": "都内の保育サービスの状況／待機児童数",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2025/08/2025082917"
+  },
+  {
+   "name": "介護サービス情報公表システム オープンデータ",
+   "url": "https://www.mhlw.go.jp/stf/kaigo-kouhyou_opendata.html"
+  },
+  {
+   "name": "介護保険事業状況報告（月報・保険者別）",
+   "url": "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/kaigo_lib/info/chosa/geppo/kaigohokennsaisinjouhou6"
+  },
+  {
+   "name": "子ども食堂一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/?q=子ども食堂一覧"
+  },
+  {
+   "name": "国土数値情報 行政区域データ／位置参照情報",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/ja/dataset/t000054d0000000373",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/?q=子育て施設一覧",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/?q=公共施設一覧",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/?q=子ども食堂一覧"
+ ],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm",
+  "https://www.e-stat.go.jp/",
+  "https://www.metro.tokyo.lg.jp/information/press/2025/08/2025082917",
+  "https://www.mhlw.go.jp/stf/kaigo-kouhyou_opendata.html",
+  "https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/kaigo_lib/info/chosa/geppo/kaigohokennsaisinjouhou6",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html"
+ ],
+ "demo_url": "https://machicare-link-demo.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://machicare-link-demo.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=3697",
+ "image_count": 1,
+ "notes": ""
+}

@@ -1,0 +1,46 @@
+{
+ "id": "6632811831512933020",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811831512933020/?year=2026",
+ "fetched_at": "2026-11-20T15:46:01+00:00",
+ "title": "CallProof",
+ "team": "トラストコール",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "不審な電話が本物か詐欺かを一目で見分けられる詐欺防止サービス。東京都の特殊詐欺被害は令和7年に4,350件・約281.6億円と過去最悪を更新し、本物の警察署の番号すら偽装され検索しても本物と表示され見抜く手がかりがないという課題に対応。登録組織が発信すると通話にのみ有効な使い捨ての暗号署名が発行され受け手が着信の瞬間に自動照合、確認できれば緑のバッジと組織名を表示し数分で失効するため実在番号を騙る攻撃を無効化する。証明対象外の番号には利用者の口コミ機能で危険度を補い、総務省の全国データと照合し存在しない番号からの着信も検知する3層構造。Node.js（TypeScript）+ExpressでECDSA署名と短命JWTを実装し、Claudeで開発の壁打ちと統計の一次情報照合を行った。",
+ "open_data_items": [
+  {
+   "name": "住民基本台帳による東京都の世帯と人口：毎年",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm"
+  },
+  {
+   "name": "令和６年12月末の特殊詐欺認知・検挙状況等について",
+   "url": "https://www.npa.go.jp/news/release/2024/20240226001.html"
+  },
+  {
+   "name": "受付状況と傾向",
+   "url": "https://www.shouhiseikatu.metro.tokyo.lg.jp/sodan/tokei/keikou.html"
+  },
+  {
+   "name": "電気通信番号指定状況　（電気通信番号計画（令和元年総務省告示第6号）第1第4項による公表）",
+   "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/tel_number/number_shitei.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm",
+  "https://www.npa.go.jp/news/release/2024/20240226001.html",
+  "https://www.shouhiseikatu.metro.tokyo.lg.jp/sodan/tokei/keikou.html",
+  "https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/tel_number/number_shitei.html"
+ ],
+ "demo_url": "https://claude.ai/code/artifact/82941ac1-092b-4670-b0aa-95134fef29e3",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://claude.ai/code/artifact/82941ac1-092b-4670-b0aa-95134fef29e3"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1393",
+ "image_count": 3,
+ "notes": ""
+}

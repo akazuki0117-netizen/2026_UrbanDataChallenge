@@ -1,0 +1,37 @@
+{
+ "id": "6632508061113536959",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632508061113536959/?year=2026",
+ "fetched_at": "2026-11-20T15:37:47+00:00",
+ "title": "地元ワンダーランド東京（ジモワン東京）",
+ "team": "地元ワンダーランド（ジモワン）",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ジモワン」は、地元ファンしか知らないコアな魅力を体験するアプリ。地方への単身赴任経験から地元が実は宝の山であることに気づき、コロナ禍で地元が回れなくなった経験や東京の友人の居酒屋が潰れそうになった経験から地元コンテンツをつなぎ回遊させるサービスの必要性に着目。気分や目的を入れると意外な地元ワンダーランドを提案する「ワンダーランドサーチ」、知らなかった・予想外・初体験したいの3軸で投票する「ジモワンランキング」、ルート付きで表示する「ジモワンマップ」を備え、みんなでジモワンを登録・育てていける。Node.js、HTML、CSS、JavaScriptでJSONデータ保存の軽量構成とし、GitHub CopilotとChatGPTで機能追加や不具合修正を行った。",
+ "open_data_items": [
+  {
+   "name": "TOKYO WALKING MAP",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+  },
+  {
+   "name": "練馬カプセル",
+   "url": "https://www.nerimakanko.jp/course/"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363"
+ ],
+ "external_data_urls": [
+  "https://www.nerimakanko.jp/course/"
+ ],
+ "demo_url": "https://yss2501-jimowan-webapp-20260823-002.onrender.com/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://yss2501-jimowan-webapp-20260823-002.onrender.com/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2062",
+ "image_count": 3,
+ "notes": ""
+}

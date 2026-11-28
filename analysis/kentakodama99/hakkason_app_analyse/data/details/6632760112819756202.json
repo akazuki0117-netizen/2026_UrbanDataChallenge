@@ -1,0 +1,72 @@
+{
+ "id": "6632760112819756202",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632760112819756202/?year=2026",
+ "fetched_at": "2026-11-20T15:40:29+00:00",
+ "title": "進路コンパス",
+ "team": "チームWINS",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "最寄り駅・成績・希望を対話で答えるだけで、都立高校189校から候補を「安全圏・適正圏・挑戦圏」に分けて提案するWebサービス。都立高校選びは観点が多く情報が各校サイトや競技連盟に散在し、塾に通わない家庭には相談相手がいないという情報格差の課題に対応。3分の対話で内申点見込みを計算し、部活実績や倍率推移も横断的に確認、高専など順位づけできない学校も「測り方が違う」と明示して選択肢から漏らさない。結果は「くらべるシート」として印刷でき家族会議に持ち出せる。単一HTMLで審査員のどの端末でも開ける形にし、Claude Codeで公式記録PDFのパーサや回帰テストを整備した。",
+ "open_data_items": [
+  {
+   "name": "東京都公立学校一覧（東京都教育委員会・公立学校統計調査報告書）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000176"
+  },
+  {
+   "name": "都立高等学校 入学者選抜 応募状況（過去年度・令和4〜8年度）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/past/first_application"
+  },
+  {
+   "name": "進学指導重点校等の指定（東京都教育委員会）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/school/designated_and_promotional_school/reformation/priority_school"
+  },
+  {
+   "name": "中学校卒業者の進路状況調査（東京都教育委員会）",
+   "url": "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/career_report"
+  },
+  {
+   "name": "station_database（全国鉄道駅・路線データ、CC BY-SA 4.0）",
+   "url": "https://github.com/Seo-4d696b75/station_database"
+  },
+  {
+   "name": "東京都高等学校体育連盟 大会結果（過去記録）",
+   "url": "https://www.tokyo-kotairen.gr.jp/past"
+  },
+  {
+   "name": "東京都高等学校野球連盟 試合結果",
+   "url": "https://www.tokyo-hbf.com"
+  },
+  {
+   "name": "東京都高等学校吹奏楽連盟 コンクール結果",
+   "url": "https://tokousuiren.com/c/competition/com_result/"
+  },
+  {
+   "name": "高校生国際美術展 入賞・佳作一覧",
+   "url": "https://www.ihsaf.net"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000176"
+ ],
+ "external_data_urls": [
+  "https://www.kyoiku.metro.tokyo.lg.jp/admission/high_school/past/first_application",
+  "https://www.kyoiku.metro.tokyo.lg.jp/school/designated_and_promotional_school/reformation/priority_school",
+  "https://www.kyoiku.metro.tokyo.lg.jp/about/statistics_and_research/career_report",
+  "https://github.com/Seo-4d696b75/station_database",
+  "https://www.tokyo-kotairen.gr.jp/past",
+  "https://www.tokyo-hbf.com",
+  "https://tokousuiren.com/c/competition/com_result/",
+  "https://www.ihsaf.net"
+ ],
+ "demo_url": "https://nishi-taiga.github.io/Course_Compass/prototype/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://nishi-taiga.github.io/Course_Compass/prototype/"
+  }
+ ],
+ "video_url": "https://youtu.be/4h9Zjpeup60?t=10",
+ "image_count": 2,
+ "notes": ""
+}

@@ -1,0 +1,76 @@
+{
+ "id": "6630514867128640627",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6630514867128640627/?year=2026",
+ "fetched_at": "2026-11-20T15:34:33+00:00",
+ "title": "AI Database Map",
+ "team": "臼井健祐",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "全国約9,000駅の駅周辺半径500m〜20kmのオープンデータを地図・グラフ・AIチャットで可視化するWebアプリ。オープンデータはメッシュ・年次・単位が異なり駅単位で利用するには前処理が必要でPythonやGISの知識が求められるという課題に対応。乗降客数・人口・地価・事業所数等を駅の切り口で可視化しランキングやグラフで他駅と相対比較でき、AIチャットで「品川駅の人口推移は？」等の質問に答える。鉄道会社の需要予測やダイヤ作成担当者向け。公共交通オープンデータチャレンジ2024でINIAD賞受賞の前身アプリをAIネイティブにブラッシュアップした。Next.js（App Router）でTypeScript+Zodで応答の型を一元定義し、Claude CodeでCLAUDE.mdに開発規約を明記して開発した。",
+ "open_data_items": [
+  {
+   "name": "国土数値情報 駅別乗降客数データ（S12・2011〜2024年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-2024.html"
+  },
+  {
+   "name": "国勢調査 地域メッシュ統計（人口・250m/500mメッシュ・1995〜2020年）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521"
+  },
+  {
+   "name": "国土数値情報 メッシュ別将来推計人口データ（R6国政局推計250m・H30国政局推計500m）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh250r6.html"
+  },
+  {
+   "name": "国土数値情報 地価公示データ（L01・2007〜2026年）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html"
+  },
+  {
+   "name": "国土数値情報 バス停留所データ（P11・2022年度／2010年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-2022.html"
+  },
+  {
+   "name": "国土数値情報 高速バス停留所データ（P36・2023年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P36-2023.html"
+  },
+  {
+   "name": "経済センサス活動調査 地域メッシュ統計（事業所数・従業者数・2012／2016／2021年）",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200553"
+  },
+  {
+   "name": "経済センサス活動調査 市区町村別の売上（収入）金額（2016年調査／2021年調査）",
+   "url": "https://www.e-stat.go.jp/stat-search?page=1&toukei=00200553"
+  },
+  {
+   "name": "市町村税課税状況等の調（課税対象所得・納税義務者数・2015／2020／2025年度）",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09.html"
+  },
+  {
+   "name": "国土数値情報 行政区域データ（N03）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-2024.html",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200521",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-mesh250r6.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P11-2022.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P36-2023.html",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=1&toukeiCode=00200553",
+  "https://www.e-stat.go.jp/stat-search?page=1&toukei=00200553",
+  "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2026.html"
+ ],
+ "demo_url": "https://ai-database-map.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://ai-database-map.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=1618",
+ "image_count": 3,
+ "notes": ""
+}

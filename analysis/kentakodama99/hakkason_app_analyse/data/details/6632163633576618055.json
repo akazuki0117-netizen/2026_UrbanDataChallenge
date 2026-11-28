@@ -1,0 +1,31 @@
+{
+ "id": "6632163633576618055",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632163633576618055/?year=2026",
+ "fetched_at": "2026-11-20T15:37:09+00:00",
+ "title": "StoryMate",
+ "team": "VoiceMate",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「StoryMate」は、オープンデータと生成AIで街歩きを「物語のような体験」に変えるAI街歩きガイド。情報が多すぎて休日にどこへ行こうか迷い結局同じ場所へ行ってしまい、観光情報はスポット単位で提供され街を一つの体験として楽しむには利用者自身が組み合わせる必要があるという課題に対応。興味や滞在時間に合わせて街のスポットをつないだストーリーを提案し、音声AIが歴史や豆知識を案内する。神楽坂を舞台にWebアプリとして実証した。TypeScriptとNext.jsで構築し、xAI Voice APIで自然な音声対話を実現、ChatGPTと対話しながら企画・開発を行った。",
+ "open_data_items": [
+  {
+   "name": "TOKYO WALKING MAP「粋なまち’神楽坂’を満喫」",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/2018appcon/walkingmap/131041_Get_your_fill_of_the_hip_streets_of_Kagurazaka.zip"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/2018appcon/walkingmap/131041_Get_your_fill_of_the_hip_streets_of_Kagurazaka.zip"
+ ],
+ "demo_url": "https://storymate-demo.vercel.app",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://storymate-demo.vercel.app"
+  }
+ ],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4392",
+ "image_count": 3,
+ "notes": ""
+}

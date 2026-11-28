@@ -1,0 +1,76 @@
+{
+ "id": "6632812716718842543",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632812716718842543/?year=2026",
+ "fetched_at": "2026-11-20T15:46:16+00:00",
+ "title": "とどけ",
+ "team": "永留諒大",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「とどけ」は、区市町村・子どもの生年月日・最近の出来事を答えると受けられる支援制度と手続がまとめて出てくるWebアプリ。東京都には制度と手続が4,672件あるが、ひとり親や障害、死別といった状況は行政が最初から知る手がかりがなく本人が申し出るしかないという課題に対応。入力内容は端末から出さずブラウザ内だけで判定し、通信記録からも居住地が分からない全件配信方式を採用、機械で読み取った403件のうち原文と突き合わせて確認できた35件だけ「対象の可能性が高い」と表示する。バックエンドを持たない設計で、いちばん出したくない個人情報を預かる先自体を作らない方針とした。",
+ "open_data_items": [
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（0〜6歳）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.xlsx"
+  },
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（7〜18歳）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_7-18_tokyo.xlsx"
+  },
+  {
+   "name": "東京デジタル2030ビジョン（こどもDX）子育て支援制度レジストリ（README）",
+   "url": "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_README.pdf"
+  },
+  {
+   "name": "支援制度（給付金）情報",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/koganei/22_support_system.csv"
+  },
+  {
+   "name": "東村山市支援制度（給付金）情報",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/higashimurayama/20240619_support_system.csv"
+  },
+  {
+   "name": "支援制度_給付金_情報",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_57001324.csv"
+  },
+  {
+   "name": "TOKYO補助金サーチ見える化ボード データ一覧",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/zaimu/hojokin2026-2.csv"
+  },
+  {
+   "name": "対象手続一覧（KPI管理・令和5年12月末時点）",
+   "url": "https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/digitalfirst2-04"
+  },
+  {
+   "name": "対象手続一覧（第一期・令和3年7月）",
+   "url": "https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/digital_04_202107_ichiran"
+  },
+  {
+   "name": "重点手続一覧（令和8年6月末時点）",
+   "url": "https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/digitalfirst2-03"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_tokyo.xlsx",
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_7-18_tokyo.xlsx",
+  "https://data.storage.data.metro.tokyo.lg.jp/digitalservice/130001_kosodateshienseido_README.pdf",
+  "https://www.opendata.metro.tokyo.lg.jp/koganei/22_support_system.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/higashimurayama/20240619_support_system.csv",
+  "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_57001324.csv",
+  "https://www.opendata.metro.tokyo.lg.jp/zaimu/hojokin2026-2.csv",
+  "https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/digitalfirst2-04",
+  "https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/digital_04_202107_ichiran",
+  "https://www.digitalservice.metro.tokyo.lg.jp/documents/d/digitalservice/digitalfirst2-03"
+ ],
+ "demo_url": "https://todoke.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://todoke.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=1355",
+ "image_count": 3,
+ "notes": ""
+}

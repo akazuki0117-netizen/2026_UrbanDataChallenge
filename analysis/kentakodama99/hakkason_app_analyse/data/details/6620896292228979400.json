@@ -1,0 +1,51 @@
+{
+ "id": "6620896292228979400",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6620896292228979400/?year=2026",
+ "fetched_at": "2026-11-20T15:32:01+00:00",
+ "title": "土地プライス",
+ "team": "土地プライス",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "地図をクリックするだけでその土地のおおよその価格が分かるWebアプリ。相続や不動産売買の検討で正式な不動産鑑定には数万円と数日〜数週間かかり「とりあえずの目安」を知りたいだけの人には負担という課題に対応（都内の相続税申告は年間約2.6万件、土地は相続財産の35.9%）。登記情報・用途地域・公示地価というオープンデータのみを組み合わせ専門家への依頼なしに推定価格を無料・数秒で算出、航空写真や過去40年分の価格推移も確認できる。NuxtとMapLibre GL JS、PMTilesで構築し、Claude CodeでIDW法によるアルゴリズム実装や不具合切り分けを行った。",
+ "open_data_items": [
+  {
+   "name": "登記所備付地図データ",
+   "url": "https://front.geospatial.jp/moj-chizu-xml-readme/"
+  },
+  {
+   "name": "地価公示データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html"
+  },
+  {
+   "name": "都道府県地価調査データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L02-2025.html"
+  },
+  {
+   "name": "都市計画決定情報データ",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A55-2024.html"
+  },
+  {
+   "name": "地理院タイル",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://front.geospatial.jp/moj-chizu-xml-readme/",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L01-2026.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-L02-2025.html",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A55-2024.html",
+  "https://maps.gsi.go.jp/development/ichiran.html"
+ ],
+ "demo_url": "https://landprice.jp/odhackathon2026/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://landprice.jp/odhackathon2026/"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=2272",
+ "image_count": 2,
+ "notes": ""
+}

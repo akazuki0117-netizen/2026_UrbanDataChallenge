@@ -1,0 +1,32 @@
+{
+ "id": "6628270127415858124",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6628270127415858124/?year=2026",
+ "fetched_at": "2026-11-20T15:33:23+00:00",
+ "title": "Machimori",
+ "team": "ND-lab",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「マチモリ」は、まちの清掃活動を外国人住民と地域住民の出会いの接点として設計するサービス。都内区市町村の46%が多文化共生の取組が進んでいないと回答し、外国人が生活で困った経験の第1位は「ごみの捨て方」であるという課題に対応。参加者は集合場所のQRを読み使いたい言語を選びニックネームだけでチェックイン、申し込みもログインも不要で国籍も訊かない。同じ画面にその区のごみ分別区分が表示され実データのある10区では品目名検索もできる。ホストの町会・NPOは3クリックで募集を出せる設計。Python/FastAPIとNext.jsで構築し、生成AIは実装のたたき台やオープンデータの実在確認に活用した。",
+ "open_data_items": [
+  {
+   "name": "住民基本台帳による東京都の世帯と人口（町丁別・年齢別）令和8年1月",
+   "url": "https://www.metro.tokyo.lg.jp/information/press/2026/03/2026032310"
+  },
+  {
+   "name": "外国人人口　時系列",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000437"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000437"
+ ],
+ "external_data_urls": [
+  "https://www.metro.tokyo.lg.jp/information/press/2026/03/2026032310"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ITajISKmG50?t=2254",
+ "image_count": 2,
+ "notes": "提出作品URL なし"
+}

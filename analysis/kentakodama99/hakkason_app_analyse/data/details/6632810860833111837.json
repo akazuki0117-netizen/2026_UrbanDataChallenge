@@ -1,0 +1,72 @@
+{
+ "id": "6632810860833111837",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632810860833111837/?year=2026",
+ "fetched_at": "2026-11-20T15:45:17+00:00",
+ "title": "MACHIJIKAN（まちじかん）",
+ "team": "HARA^2",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "現在地・次の予定の時刻と場所・「ざっくり何がしたいか」を入れると今から行って締切までに戻れる場所だけが出るモバイルWebアプリ。既存の地図アプリは「行ける場所」は教えても「締切までに戻れるか」は答えず、行政のオープンデータには施設情報が揃うが桜の開花や混雑等「今の状態」は誰も更新せず古いままという課題に対応。移動時間・開館時間・天気から往復ルートと出発リミットを提示し「旅のしおり」に沿って動くだけで楽しめる。現地では「誰かが見たいと頼んだ写真」を撮るタスクに応え、集まった写真は開花や混雑などの観測データとして街へ還元される新しいオープンデータとなる。Vite＋React＋TypeScriptのモバイルWebでMapLibre＋OpenFreeMapを用い、生成AIを写真リクエストの査読等に活用した。",
+ "open_data_items": [
+  {
+   "name": "施設関連情報_博物館（東京都教育庁／東京都オープンデータカタログ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000004"
+  },
+  {
+   "name": "施設関連情報_博物館類似施設（東京都教育庁／東京都オープンデータカタログ）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000021"
+  },
+  {
+   "name": "施設地図情報（名所・史跡）（台東区オープンデータ）",
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.html"
+  },
+  {
+   "name": "天気予報API（bosai/forecast 130000.json）（気象庁）",
+   "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+  },
+  {
+   "name": "OpenFreeMap（地図タイル）",
+   "url": "https://openfreemap.org/"
+  },
+  {
+   "name": "OpenStreetMap（地図データ・ODbL）",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "Nominatim（「つぎの予定の場所」の地名検索）",
+   "url": "https://nominatim.openstreetmap.org/"
+  },
+  {
+   "name": "Wikimedia Commons（スポット写真39点・各画像のライセンスに従う）",
+   "url": "https://commons.wikimedia.org/"
+  },
+  {
+   "name": "台東区オープンデータ一覧（公衆浴場一覧・商店街データなど）",
+   "url": "https://www.city.taito.lg.jp/kusei/online/opendata/index.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000004",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000021d2000000021"
+ ],
+ "external_data_urls": [
+  "https://www.city.taito.lg.jp/kusei/online/opendata/seikatu/shisethutizujouhou.html",
+  "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+  "https://openfreemap.org/",
+  "https://www.openstreetmap.org/",
+  "https://nominatim.openstreetmap.org/",
+  "https://commons.wikimedia.org/",
+  "https://www.city.taito.lg.jp/kusei/online/opendata/index.html"
+ ],
+ "demo_url": "https://machijikan.pages.dev",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://machijikan.pages.dev"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=4019",
+ "image_count": 3,
+ "notes": ""
+}

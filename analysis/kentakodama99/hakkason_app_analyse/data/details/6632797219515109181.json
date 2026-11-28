@@ -1,0 +1,37 @@
+{
+ "id": "6632797219515109181",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632797219515109181/?year=2026",
+ "fetched_at": "2026-11-20T15:42:40+00:00",
+ "title": "防災コエル",
+ "team": "code415",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「防災コエル」は、災害時に住民や旅行者がWeb・ChatGPT・Xなど日常的な入口から支援ニーズを伝えられる地域防災プラットフォーム。既存の防災サービスは情報を一方向に知らせるだけで、被災者の困りごとを行政に伝え追跡する手段が乏しいという課題に対し、複数の入口から届く声を一つの地域基盤に集約。AIが投稿を地域・種類・緊急度別に分類・重複統合して行政の確認キューに集約し、行政は対応タスクを発行、住民は地図で対応状況を確認できる。Cloudflare Workers AIのLlamaで分類し、最終確認は人が行うhuman-in-the-loop設計。",
+ "open_data_items": [
+  {
+   "name": "首都直下地震等による東京の被害想定データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000391"
+  },
+  {
+   "name": "目黒区 地域避難所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000227"
+  },
+  {
+   "name": "国勢調査町丁・字等別境界データセット（令和2年・目黒区）",
+   "url": "https://geoshape.ex.nii.ac.jp/ka/resource/13110.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000391",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131105d0000000227"
+ ],
+ "external_data_urls": [
+  "https://geoshape.ex.nii.ac.jp/ka/resource/13110.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=2431",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

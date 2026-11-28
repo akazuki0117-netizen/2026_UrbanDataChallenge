@@ -1,0 +1,61 @@
+{
+ "id": "6620673392111741904",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6620673392111741904/?year=2026",
+ "fetched_at": "2026-11-20T15:31:59+00:00",
+ "title": "InpactBridge",
+ "team": "モアイのシマ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "385体のAI都民ペルソナで施策案を事前テストし、対立の構造を診断して分断を最小化しつつ効果を最大化する「第3の施策案」を自動生成するサービス。行政施策は分断を避けようとすると角が取れて効果が薄くなるというトレードオフに着目した。オープンデータや心理学等をもとに42次元のパラメータで調整した385体のAI都民に施策案への意見を述べさせ、対立軸の特定・反発クラスタのラベリング・共通ニーズの抽出を経て新たな施策案を生成する。Next.js+TypeScriptとPython+Google Gemini APIで構築し、Gemini 3.6 Flashの出力JSONを安定させるためプロンプトにサンプルを含めるなどの工夫をした。",
+ "open_data_items": [
+  {
+   "name": "国勢調査（令和2年）",
+   "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142525"
+  },
+  {
+   "name": "住民基本台帳人口",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm"
+  },
+  {
+   "name": "住宅・土地統計調査",
+   "url": "e-stat.go.jp/stat-search/files?stat_infid=000040145519"
+  },
+  {
+   "name": "家計調査（家計収支編）",
+   "url": "https://www.e-stat.go.jp/stat-search/files?page=1&stat_infid=000040108764"
+  },
+  {
+   "name": "就業構造基本調査",
+   "url": "https://www.e-stat.go.jp/stat-search/files?page=1&stat_infid=000040168498"
+  },
+  {
+   "name": "東京都環境基本計画",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/basic/plan/"
+  },
+  {
+   "name": "東京都の温室効果ガス排出量",
+   "url": "https://www.kankyo.metro.tokyo.lg.jp/climate/zenpan/emissions_tokyo"
+  },
+  {
+   "name": "喫煙と健康 喫煙の健康影響に関する検討会報告書",
+   "url": "https://www.mhlw.go.jp/stf/shingi2/0000135586.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032142525",
+  "https://www.toukei.metro.tokyo.lg.jp/juukiy/jy-index.htm",
+  "e-stat.go.jp/stat-search/files?stat_infid=000040145519",
+  "https://www.e-stat.go.jp/stat-search/files?page=1&stat_infid=000040108764",
+  "https://www.e-stat.go.jp/stat-search/files?page=1&stat_infid=000040168498",
+  "https://www.kankyo.metro.tokyo.lg.jp/basic/plan/",
+  "https://www.kankyo.metro.tokyo.lg.jp/climate/zenpan/emissions_tokyo",
+  "https://www.mhlw.go.jp/stf/shingi2/0000135586.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/ehI_QygHFF8?t=3689",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

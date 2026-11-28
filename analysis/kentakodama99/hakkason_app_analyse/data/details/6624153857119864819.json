@@ -1,0 +1,31 @@
+{
+ "id": "6624153857119864819",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6624153857119864819/?year=2026",
+ "fetched_at": "2026-11-20T15:32:19+00:00",
+ "title": "地震火災シミュレータ —",
+ "team": "INVEST-AITech",
+ "member_count": 1,
+ "is_finalist": true,
+ "awards": [],
+ "service_description": "住所や地点を選び自宅を建物1棟として地震火災の相対的な危険を確認できるWebアプリ。2024年能登半島地震で輪島市の1件の建物火災が約240棟に延焼した一方、東京の被害想定は町丁目単位の数字で見えやすく都民が自分の家の問題として考えるまでに距離があるという課題に対応。PLATEAUの建物データを用い道路で区切られる延焼クラスターを色分けし「自宅だけでなく街区ごと影響を受ける」ことを可視化、絶対的な被害予測ではなく相対評価として提示する。確認後は感震ブレーカーの自治体助成情報へ案内する。Claude Codeをデータ前処理やAPI・画面実装に使い、防災数値は東京都・消防庁・PLATEAUの一次資料と照合した。",
+ "open_data_items": [
+  {
+   "name": "3D都市モデル（Project PLATEAU）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+ ],
+ "demo_url": "https://invest-aitech-quakefire.web.app/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://invest-aitech-quakefire.web.app/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=633",
+ "image_count": 1,
+ "notes": ""
+}

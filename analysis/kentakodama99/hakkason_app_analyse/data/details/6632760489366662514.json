@@ -1,0 +1,36 @@
+{
+ "id": "6632760489366662514",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632760489366662514/?year=2026",
+ "fetched_at": "2026-11-20T15:40:31+00:00",
+ "title": "「たどりつけない」を数える",
+ "team": "AI64TY",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "障害のある子どもが支援に到達するまでの手続きを一歩ずつノード化した構造化データセットと到達経路図。診断が出ても制度の存在は教えられず制度ごとに別々の申請が必要で保護者任せになり、届かなかった家庭は申請がないため統計にも現れないという課題に対応。放課後等デイサービス等5系統を対象に各ノードに根拠法令・所管・来庁要否を付与し、CSV/JSONで公開して申請回数や通過不能ノード数を自動集計する。「大変だった」という体験談を反論できない計測値に変換する設計で、健診の保健師等が構造を把握する場面での活用を想定。データを主、表示を従にし第三者が他自治体に差し替えて再現できる構造とし、Claude(Opus)で分析と本文記述の大半を作成しつつ仮説を反証させる工夫をした。",
+ "open_data_items": [
+  {
+   "name": "特別支援学級_特別支援教室_特別支援学校一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000062"
+  },
+  {
+   "name": "令和7年度 学校基本統計（学校基本調査報告書",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001059"
+  },
+  {
+   "name": "社会福祉施設等一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000062",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000001059",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=3643",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

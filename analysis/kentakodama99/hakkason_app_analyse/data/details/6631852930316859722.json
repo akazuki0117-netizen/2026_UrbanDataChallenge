@@ -1,0 +1,31 @@
+{
+ "id": "6631852930316859722",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631852930316859722/?year=2026",
+ "fetched_at": "2026-11-20T15:36:02+00:00",
+ "title": "ココロナビ",
+ "team": "Kirari-TokyoNodeB",
+ "member_count": 6,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「ココロナビ」は、不安や悩みを抱える都民にAIとの対話で気持ちを整理させながら適切な相談窓口を案内するサービス。更年期や介護、非正規雇用による経済的不安など中高年女性の複合的な悩みは公的支援が多数あっても情報が各所に散在し「情報の孤島化」が起きているという課題に対応。猫キャラクター「ここにゃび」を案内役に、気分チェックやAI面接練習、キャリア再開支援、相談窓口検索を提供し、50代以上向けの生活安心ポータルとも連携して住まい・仕事・心の相談を一体的に支援する。TypeScript/React/ViteとCloudflare Workers AIで構築し、ManusとCodexで企画から実装まで行った。",
+ "open_data_items": [
+  {
+   "name": "東京都福祉局「福祉の相談窓口一覧」",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000374"
+ ],
+ "external_data_urls": [],
+ "demo_url": "https://restart-support-ai.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://restart-support-ai.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=3471",
+ "image_count": 3,
+ "notes": ""
+}

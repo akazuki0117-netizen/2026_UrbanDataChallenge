@@ -1,0 +1,67 @@
+{
+ "id": "6629539898213791437",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6629539898213791437/?year=2026",
+ "fetched_at": "2026-11-20T15:33:56+00:00",
+ "title": "いえバトン  親と実家の会話を始めるための生活圏シミュレーション",
+ "team": "いえバトンLab",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "実家の話を先送りしたまま空き家化することを防ぐ親子の会話支援サービス。空き家の本質は実家が空く前に親子が話を始められないことで、東京都の空き家は約90万戸うち約21万戸が長期不在等だが「相談に来た人」に届く仕組みしかないという課題に対応。帰省前に年齢・住所・築年数・移動手段を入力すると道路網の実距離と坂の負荷から移動手段ごとの生活圏を地図に表示し、加齢で生活圏が移動手段の変化とともに階段状に崩れることを可視化する。主語を「実家」から「生活圏」に変え、子が親に結論を迫るのではなく親子が同じデータを見て考える関係性を作る設計。生成AIは数値判定でなく親子の心理的摩擦を下げる会話カードへの変換に使用し、生活圏計算はルールベースで再現性を担保した。",
+ "open_data_items": [
+  {
+   "name": "東京都 土地利用現況調査GISデータ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019"
+  },
+  {
+   "name": "杉並区 公共施設一覧オープンデータ",
+   "url": "https://www.city.suginami.tokyo.jp/s002/1345.html"
+  },
+  {
+   "name": "OpenStreetMap（道路網・生活施設）",
+   "url": "https://download.geofabrik.de/asia/japan.html"
+  },
+  {
+   "name": "街区レベル位置参照情報",
+   "url": "https://nlftp.mlit.go.jp/isj/"
+  },
+  {
+   "name": "3D都市モデル PLATEAU 東京都23区（建築年）",
+   "url": "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku"
+  },
+  {
+   "name": "国土数値情報 用途地域（A29）／医療機関（P04）",
+   "url": "https://nlftp.mlit.go.jp/ksj/"
+  },
+  {
+   "name": "国土数値情報 洪水浸水想定区域（A31）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31.html"
+  },
+  {
+   "name": "e-Stat 統計GIS 国勢調査 小地域",
+   "url": "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2020&serveyId=A002005212020&datum=2000"
+  },
+  {
+   "name": "介護サービス情報公表システム",
+   "url": "https://www.mhlw.go.jp/stf/kayoinoba_opendata_00002.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019"
+ ],
+ "external_data_urls": [
+  "https://www.city.suginami.tokyo.jp/s002/1345.html",
+  "https://download.geofabrik.de/asia/japan.html",
+  "https://nlftp.mlit.go.jp/isj/",
+  "https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku",
+  "https://nlftp.mlit.go.jp/ksj/",
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31.html",
+  "https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2020&serveyId=A002005212020&datum=2000",
+  "https://www.mhlw.go.jp/stf/kayoinoba_opendata_00002.html"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2006",
+ "image_count": 1,
+ "notes": "提出作品URL なし"
+}

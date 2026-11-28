@@ -1,0 +1,57 @@
+{
+ "id": "6632235314918651402",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632235314918651402/?year=2026",
+ "fetched_at": "2026-11-20T15:37:25+00:00",
+ "title": "SOQ配",
+ "team": "アイデアたまご",
+ "member_count": 3,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "首都直下地震による災害関連死（想定4.1万人）を減らすため、量子コンピュータで災害物資の最適配送を実現するサービス。大規模地震では物資不足と物流マヒが想定され、命に係わる物資が本当に必要な人に届かなくなるという課題に対応。各避難所の在庫は職員の手入力に加え、物資を撮影するだけでAIが品目・数量を自動読取してリアルタイム更新し、需要は職員が随時入力して過不足を可視化する。量子コンピュータで全避難所・全物資の膨大な組み合わせから最適な移送パターンを瞬時に導出し、命に係わる薬を含めた配送を実現する。Cloudflare Workers AIで支援物資の写真判定を行うが、文字が読めない場合は自動登録せず確認を挟む設計とした。",
+ "open_data_items": [
+  {
+   "name": "地図データ：国土地理院タイル",
+   "url": "https://maps.gsi.go.jp/development/ichiran.html"
+  },
+  {
+   "name": "避難所・避難場所一覧データ：東京都防災マップ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "避難物資一覧：愛知県の避難所運営マニュアル",
+   "url": "https://www.pref.aichi.jp/soshiki/saigaitaisaku/0000013288.html"
+  },
+  {
+   "name": "首都直下地震の新被害想定",
+   "url": "https://scienceportal.jst.go.jp/stories/20251225_e01/"
+  },
+  {
+   "name": "南海トラフ地震被害想定",
+   "url": "https://www.bousai.go.jp/kohou/kouhoubousai/r07/113/news_02.html"
+  },
+  {
+   "name": "2050東京戦略「都市強靭化編」",
+   "url": "https://www.seisakukikaku.metro.tokyo.lg.jp/basic-plan/2050-tokyo/promotion/tokyo-resilience"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+ ],
+ "external_data_urls": [
+  "https://maps.gsi.go.jp/development/ichiran.html",
+  "https://www.pref.aichi.jp/soshiki/saigaitaisaku/0000013288.html",
+  "https://scienceportal.jst.go.jp/stories/20251225_e01/",
+  "https://www.bousai.go.jp/kohou/kouhoubousai/r07/113/news_02.html",
+  "https://www.seisakukikaku.metro.tokyo.lg.jp/basic-plan/2050-tokyo/promotion/tokyo-resilience"
+ ],
+ "demo_url": "https://resq.yoshiaki110.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://resq.yoshiaki110.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/w6LNrKOqOao?t=3470",
+ "image_count": 3,
+ "notes": ""
+}

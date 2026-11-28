@@ -1,0 +1,17 @@
+{
+ "id": "6631880520316969093",
+ "group": "finalist",
+ "title": "みちよみ（michiyomi）",
+ "demo_url": "https://michiyomi.dev/",
+ "checked_at": "2026-11-21",
+ "method": "Playwright（Chromium, 1280x800）で開き 5 秒待って最初の画面を確認。操作はしていない",
+ "screenshot": "6631880520316969093.png",
+ "status": "動く",
+ "form": "Webアプリ＋API・MCP",
+ "clear_in_5s": "はい：「地図にない街の様子を、言葉で探せる。」＋検索窓＋実例",
+ "n_features": 5,
+ "gen_ai": "あり",
+ "map_viz": "あり",
+ "maturity": "実用レベル",
+ "note": "独自ドメイン。登録・APIキー不要、ドキュメント・英語版あり。最初の画面に実データの例を表示"
+}

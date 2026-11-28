@@ -1,0 +1,26 @@
+{
+ "id": "6626019521343823399",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6626019521343823399/?year=2026",
+ "fetched_at": "2026-11-20T15:32:44+00:00",
+ "title": "まちクリーンナビ",
+ "team": "SAMUE",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「まちクリーンナビ」は、街路樹をゴミの個数と確認間隔から次に掃除・確認すべき場所を示すWebアプリ。ポイ捨ては大通りより植え込みや街路樹下など見えにくい場所に捨てられ、一度きれいにしても場所によって戻る速さが異なる一方、ゴミ拾いサークルは「どこにゴミが溜まっているか」を分からないまま活動しているという実体験の課題に対応。東京都オープンデータの都道街路樹データを候補レイヤーとして重ね、現場観測でゴミが溜まるまでの頻度を学習、「ゴミを見つける」「ゴミを拾う」それぞれのおすすめルートを案内する。ReactとLeafletでCloudflare Workers/D1に構築し、Cursorでアイデア整理から実装方針の検討まで活用し、UI改善は現地テストで判断した。",
+ "open_data_items": [
+  {
+   "name": "東京都建設局 都道街路樹データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d2000000029"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/H8XanEqOmb0?t=4121",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

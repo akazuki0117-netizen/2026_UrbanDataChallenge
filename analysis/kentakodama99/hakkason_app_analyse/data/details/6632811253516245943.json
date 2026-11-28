@@ -1,0 +1,57 @@
+{
+ "id": "6632811253516245943",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811253516245943/?year=2026",
+ "fetched_at": "2026-11-20T15:45:27+00:00",
+ "title": "Quantum Rescue Tokyo",
+ "team": "Naothebest",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「Quantum Rescue Tokyo」は、世田谷区の公式データで作った避難計画アプリ。首都直下地震シナリオで指定避難所の想定収容力は178,643人で区の想定避難者約17万人と席は足りているのに、全員が「一番近い避難所」へ行くと最大収容率273%・33,024人が入れないという課題に対応。行政画面では街全体の配分を「近さ」と「混みにくさ」を数式化してコンピュータで計算し直し施設の閉鎖もその場で試せる、市民画面では計算結果から「どの避難所へ何分で行けるか」を地図で一目で示す。通信がなくても表示できる設計。Python＋HiGHSのMILP数理最適化とシミュレーテッドアニーリングで3,097個の変数を扱い、OpenAI Codexを要件整理から実装まで活用した。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ「避難所一覧」：指定避難所の名称・住所・座標・公開設備欄",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d000000009"
+  },
+  {
+   "name": "・世田谷区「町丁目別・年齢別人口」：町丁目別需要と年齢属性（2026-08-01時点）",
+   "url": "https://www.city.setagaya.lg.jp/documents/24348/haisoukeikaku.pdf"
+  },
+  {
+   "name": "・世田谷区「一時集合所、広域避難場所、避難所等一覧」：区に関係する広域避難場所25か所（CC BY 4.0、更新2026-08-04）",
+   "url": "https://www.city.setagaya.lg.jp/02049/5455.html"
+  },
+  {
+   "name": "・東京都「震災時火災における避難場所等の一覧」第9回：避難場所・地区割当SHP（CC BY 4.0、2022-09-01適用）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000013"
+  },
+  {
+   "name": "・世田谷区「水害時・土砂災害時避難所について」：第1次11（うち条件付き1）、第2次で22追加（第1次と合わせ累積33）、野川・仙川6、土砂14（うち予備4）、重複除く48施設（更新2026-08-14）。画面では条件付き・予備施設より通常候補を優先",
+   "url": "https://www.city.setagaya.lg.jp/02049/577.html"
+  },
+  {
+   "name": "・世田谷区共通基盤データ「公共施設一覧」：43/48施設の座標（CC BY 4.0、2026年3月作成）",
+   "url": "https://www.city.setagaya.lg.jp/opendata/22308.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d000000009",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000013"
+ ],
+ "external_data_urls": [
+  "https://www.city.setagaya.lg.jp/documents/24348/haisoukeikaku.pdf",
+  "https://www.city.setagaya.lg.jp/02049/5455.html",
+  "https://www.city.setagaya.lg.jp/02049/577.html",
+  "https://www.city.setagaya.lg.jp/opendata/22308.html"
+ ],
+ "demo_url": "https://quantum-rescue-tokyo-updated.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://quantum-rescue-tokyo-updated.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/pfmXdRHww_Q?t=3574",
+ "image_count": 3,
+ "notes": ""
+}

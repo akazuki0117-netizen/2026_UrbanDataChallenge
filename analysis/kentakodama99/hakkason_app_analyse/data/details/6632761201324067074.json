@@ -1,0 +1,47 @@
+{
+ "id": "6632761201324067074",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632761201324067074/?year=2026",
+ "fetched_at": "2026-11-20T15:40:33+00:00",
+ "title": "マモリテ 〜避難所の「困りごと」と、あなたの「できる」をつなぐ〜",
+ "team": "MSOL Digital DIG",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "災害時、避難所の「困りごと」と支援者の「できること」をAIでつなぐWebサービス「マモリテ」。避難所運営者は看護・介護など専門スキルを持つ人がどこにいるか分からず口コミ頼みの募集しかできず、支援者側も自分の技能がどこで役立つか見えないというミスマッチの課題に対応（港区の人口密度13,392人/km²、高齢単独者10,222人）。運営者の自由文をAIがスキルタグへ自動変換し、支援者は14分類のスキルと活動地区を匿名IDで登録、スキル一致・地区・稼働可否でスコア化して最適な守り手を順位付けする。地区別のスキル需給ギャップも可視化し不足スキルを狙った募集発信を可能にする。React18とTF-IDF系のテキスト類似度でマッチングを実装し、Claude Codeでスペック駆動開発を行った。",
+ "open_data_items": [
+  {
+   "name": "東京都防災マップ 避難所一覧データ",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv"
+  },
+  {
+   "name": "防災施設・避難場所",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/4f7cf71b-eef6-4ccd-a7fc-65af22df6d9d/resource/53ed896c-a5d7-487f-8781-fe86ae2569b8"
+  },
+  {
+   "name": "第６表　区市町村別人口密度",
+   "url": "https://www.toukei.metro.tokyo.lg.jp/kokutyo/2025/kt25sv0600.csv"
+  },
+  {
+   "name": "令和２年国勢調査",
+   "url": "https://www.city.mitaka.lg.jp/c_service/077/attached/attach_77542_5.xlsx"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/4f7cf71b-eef6-4ccd-a7fc-65af22df6d9d/resource/53ed896c-a5d7-487f-8781-fe86ae2569b8"
+ ],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/soumu/130001_evacuation_center.csv",
+  "https://www.toukei.metro.tokyo.lg.jp/kokutyo/2025/kt25sv0600.csv",
+  "https://www.city.mitaka.lg.jp/c_service/077/attached/attach_77542_5.xlsx"
+ ],
+ "demo_url": "https://claude.ai/public/artifacts/bcba362b-e1d1-4db5-9126-25dd6cd21e3e",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://claude.ai/public/artifacts/bcba362b-e1d1-4db5-9126-25dd6cd21e3e"
+  }
+ ],
+ "video_url": "https://youtu.be/mbY-ijgB79E?t=5134",
+ "image_count": 2,
+ "notes": ""
+}

@@ -1,0 +1,62 @@
+{
+ "id": "6632811693491431609",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632811693491431609/?year=2026",
+ "fetched_at": "2026-11-20T15:45:54+00:00",
+ "title": "タスケAI(タスケアイ)",
+ "team": "Aidle",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "震度5弱以上を検知すると自動で安否確認画面に切り替わるスマートフォン向けアプリ。既存の安否確認サービスは本人がボタンを押す自己申告型が前提で、倒壊家屋の下敷きなど本当に危険な人ほど発信できず「未確認」のまま埋もれるという課題に対応（阪神・淡路大震災では生き埋めからの救出の約8割が家族や近隣の手による）。応答がなければ「応答なし＝要救助の可能性」として見守り地図に赤ピンで共有し、最大音量の自作SOSサイレンで居場所を知らせる。応答猶予時間は地域の危険度と被害想定から自動計算し、木造密集地は45秒など場所ごとに変える。Cloudflare Workers＋D1を採用し、Claude（Cowork）がデータパイプライン構築を自動実行した。",
+ "open_data_items": [
+  {
+   "name": "建物被害・人的被害（令和4年度首都直下地震等による東京の被害想定結果）",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393"
+  },
+  {
+   "name": "震度分布・液状化（同被害想定",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390"
+  },
+  {
+   "name": "東京都防災マップ 避難所・避難場所一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093"
+  },
+  {
+   "name": "給水拠点一覧データ",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001"
+  },
+  {
+   "name": "東京消防庁 本部及び消防署所在一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000001"
+  },
+  {
+   "name": "東京都の災害拠点病院等",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000357"
+  },
+  {
+   "name": "国土数値情報 医療機関データ（P04・2020年度）",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P04-2020.html"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000393",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d2000000390",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0000000093",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000019d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000001",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000357"
+ ],
+ "external_data_urls": [
+  "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P04-2020.html"
+ ],
+ "demo_url": "https://tasuke-ai.tasuke-ai.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tasuke-ai.tasuke-ai.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/ITajISKmG50?t=3890",
+ "image_count": 3,
+ "notes": ""
+}

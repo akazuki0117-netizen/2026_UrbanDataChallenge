@@ -1,0 +1,31 @@
+{
+ "id": "6632674940318707373",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632674940318707373/?year=2026",
+ "fetched_at": "2026-11-20T15:38:44+00:00",
+ "title": "Tokyo Time Recovery",
+ "team": "ひるとみん",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "講演や契約など同じ場所に通い続けない働き方の人向けに、移動ルート上で滞在可能時間に応じた休憩・作業スポットを提案するサービス。約束が早く終わって浮いた時間を有効に過ごせる場所を探したいという課題に対応。出発地から目的地までのルートを3分割し、公共施設や公衆無線LANスポットを対象に経路情報と所要時間を取得、その差分から滞在可能時間や営業時間を考慮して提示する。Next.js/TypeScript/ReactとOpenStreetMap/MapLibre GL JSで構築し、規約に問題のない経路情報APIを組み合わせた。開発にはChatGPTのみを使用し、エラー時はファイルやキャプチャを渡して原因分析に活用している。",
+ "open_data_items": [
+  {
+   "name": "公共施設一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030?utm_source=chatgpt.com"
+  },
+  {
+   "name": "公衆無線LANアクセスポイント一覧",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000025?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/Qgpsuu0QnoU?t=4511",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

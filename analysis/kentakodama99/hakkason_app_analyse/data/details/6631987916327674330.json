@@ -1,0 +1,46 @@
+{
+ "id": "6631987916327674330",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6631987916327674330/?year=2026",
+ "fetched_at": "2026-11-20T15:36:35+00:00",
+ "title": "Motion Point（モーションポイント）",
+ "team": "孫の声",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "Webカメラ搭載デバイスで始められる一人暮らし高齢者向け「おしゃべり＆健康フィットネス」アプリ。従来の見守りカメラはシニアに「監視されている」抵抗感を与え、毎日のLINE安否確認は事務的でQOL向上につながらないという課題に対応。リビングに入ると自動起動しAIお孫さんボイスが天気や防犯ニュースを読み上げた後、YouTubeフィットネス動画と骨格同期してマッスルヒートマップで運動を採点する。帰省時の家族団欒をAIカメラマンが自動撮影し翌週の会話に反映、日常ログは匿名化して自治体のEBPMを支援する。HTML/JSとFastAPI、MediaPipeで骨格解析を実装し、Google Geminiで防犯情報等をシニア向けの平易な日本語へ自動翻訳・要約した。",
+ "open_data_items": [
+  {
+   "name": "国勢調査（時系列データ 世帯：65歳以上の単独世帯）",
+   "url": "https://www.e-stat.go.jp/dbview?sid=0003410427"
+  },
+  {
+   "name": "統計FAQ「20C-Q10 高齢者がいる世帯の数」",
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-tyosa/k-tyosa25/index.html"
+  },
+  {
+   "name": "令和7年版 高齢社会白書",
+   "url": "https://www8.cao.go.jp/kourei/whitepaper/w-2025/zenbun/pdf/1s1s_03.pdf"
+  },
+  {
+   "name": "平成23年版 高齢社会白書（子どもとの同居・別居子との接触頻度）",
+   "url": "https://www8.cao.go.jp/kourei/whitepaper/w-2011/zenbun/html/s1-2-1-02.html"
+  },
+  {
+   "name": "第7回全国家庭動向調査 報告書（2022年社会保障・人口問題基本調査）",
+   "url": "https://www.ipss.go.jp/ps-katei/j/NSFJ7/Mhoukoku/kateidoukou7_kekka_20240426.pdf"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.e-stat.go.jp/dbview?sid=0003410427",
+  "https://www.mhlw.go.jp/toukei/saikin/hw/k-tyosa/k-tyosa25/index.html",
+  "https://www8.cao.go.jp/kourei/whitepaper/w-2025/zenbun/pdf/1s1s_03.pdf",
+  "https://www8.cao.go.jp/kourei/whitepaper/w-2011/zenbun/html/s1-2-1-02.html",
+  "https://www.ipss.go.jp/ps-katei/j/NSFJ7/Mhoukoku/kateidoukou7_kekka_20240426.pdf"
+ ],
+ "demo_url": null,
+ "submission_items": [],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=2732",
+ "image_count": 3,
+ "notes": "提出作品URL なし"
+}

@@ -1,13 +1,13 @@
 # アプリ案テンプレート
 
 アプリ案を出すときは、**このテンプレートの項目をすべて埋める**こと。
-各自 `idea/<名前>/<アイデアの英字名>/README.md` に1案ずつ書く（例：`idea/akimoto/mogi-senkyo/README.md`）。
+各自 `idea/<名前>/<アイデアの英字名>/README.md` に1案ずつ書く（例：`idea/akazuki0117-netizen/mogi-senkyo/README.md`）。
 
 ---
 
 ## モックの格納先・作り方
 
-**モックの置き場所：案のフォルダの中の `mock/`**（例：`idea/akimoto/mogi-senkyo/mock/index.html`）
+**モックの置き場所：案のフォルダの中の `mock/`**（例：`idea/akazuki0117-netizen/mogi-senkyo/mock/index.html`）
 
 > ※モックは、HTML・CSS・JavaScriptは**ファイル分け**、htmlファイルでcss・javascriptを**参照**するようにしてください（**保守性の観点で**）。
 

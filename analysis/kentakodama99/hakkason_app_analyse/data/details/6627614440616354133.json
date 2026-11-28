@@ -1,0 +1,36 @@
+{
+ "id": "6627614440616354133",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6627614440616354133/?year=2026",
+ "fetched_at": "2026-11-20T15:33:07+00:00",
+ "title": "まもりんナビ",
+ "team": "AX開発チーム",
+ "member_count": 5,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "東中野駅着の列車別混雑データとホーム上の号車情報を組み合わせ、到着列車ごとの混雑と号車ごとの痴漢リスク参考を可視化するサービス。混雑を避ければ安全という単純化はできず、利用者が必要としているのは混雑率だけでなくどの号車を選ぶかを判断できる情報だという課題に着目（都調査で最混雑区間が空いている人にも被害経験ありの回答が一定数存在）。都営大江戸線東中野駅着・平日朝7-9時に対象を固定し、列車別混雑目安と号車別「痴漢リスク参考：少ない／中／高め」を同じ画面で確認できる。公式の被害発生率を予測・断定するものではないと明示する誠実な設計。Next.js/GitHub ActionsとOpenCodeのマルチエージェント構成で開発した。",
+ "open_data_items": [
+  {
+   "name": "列車の混雑状況 都営大江戸線",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/kotsu/subway_congestion_train_congestion_oh01.png"
+  },
+  {
+   "name": "令和７年度痴漢被害実態把握調査報告",
+   "url": "https://www.chikanbokumetsu.metro.tokyo.lg.jp/pdf/report-25-02.pdf"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.opendata.metro.tokyo.lg.jp/kotsu/subway_congestion_train_congestion_oh01.png",
+  "https://www.chikanbokumetsu.metro.tokyo.lg.jp/pdf/report-25-02.pdf"
+ ],
+ "demo_url": "https://mamorin.pages.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://mamorin.pages.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=4083",
+ "image_count": 2,
+ "notes": ""
+}

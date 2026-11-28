@@ -1,0 +1,77 @@
+{
+ "id": "6632731277327662855",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632731277327662855/?year=2026",
+ "fetched_at": "2026-11-20T15:39:30+00:00",
+ "title": "TOKYO ONE",
+ "team": "イグニテーション",
+ "member_count": 2,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「TOKYO ONE」は、制度名や担当部署を知らなくても日常の言葉で相談できる都民向け生活公共プラットフォーム。国・都・区市町村や分野ごとに情報が分かれ「自分が使える制度は何か」「どこへ相談するか」が分からず、支援を必要とする人ほど検索や複数窓口への説明が負担になるという課題に対応。ONEコンシェルジュがオープンデータを活用し困りごとを整理、利用可能性のある制度・必要書類・期限・窓口・次の行動を一つのCaseとして管理し伴走する。平時の相談から防災、被災後の生活再建まで同じ入口で継続支援し、安全なカーネルがAIの権限や情報の出典・鮮度を管理しAIが推測で補わない設計。ChatGPTを要件整理から画面設計、コード生成まで活用した。",
+ "open_data_items": [
+  {
+   "name": "避難所・避難場所防災、現在地周辺の避難先、MAP/NAVI連携",
+   "url": "https://www.bousai.metro.tokyo.lg.jp/bousai/1000026/1000316.html?utm_source=chatgpt.com"
+  },
+  {
+   "name": "都立の一時滞在施設帰宅困難者支援、災害時の一時滞在先案内",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055?utm_source=chatgpt.com"
+  },
+  {
+   "name": "公共施設一覧図書館・文化施設・公園等の施設検索、MAP表示",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030?utm_source=chatgpt.com"
+  },
+  {
+   "name": "東京都認証保育所一覧子育て、保育施設検索、ONE相談からの案内",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000072?utm_source=chatgpt.com"
+  },
+  {
+   "name": "医療機関等施設・台帳医療機関・相談先検索、MAP連携",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612/resource/35fbfc2e-6ce8-4793-a9bc-62a6a418a91a?utm_source=chatgpt.com"
+  },
+  {
+   "name": "AED設置箇所緊急時の最寄りAED検索、MAP/NAVI案内",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000027?utm_source=chatgpt.com"
+  },
+  {
+   "name": "支援制度・給付金情報ONE相談→利用可能な支援候補→制度詳細への接続",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000045?utm_source=chatgpt.com"
+  },
+  {
+   "name": "公衆トイレ一覧日常MAP、移動中の施設検索、バリアフリー支援",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000388?utm_source=chatgpt.com"
+  },
+  {
+   "name": "イベント情報地域イベント、お出かけ、予定・施設・移動との連携",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t001001d0000000001?utm_source=chatgpt.com"
+  },
+  {
+   "name": "東京都オープンデータ一覧そのものカタログを横断探索し、新しいデータセットをTOKYO ONEへ追加",
+   "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000027?utm_source=chatgpt.com"
+  }
+ ],
+ "open_data_urls": [
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000003d0800000055?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000030?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000054d0000000072?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000612/resource/35fbfc2e-6ce8-4793-a9bc-62a6a418a91a?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t131083d0000000027?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000045?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000388?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t001001d0000000001?utm_source=chatgpt.com",
+  "https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000027?utm_source=chatgpt.com"
+ ],
+ "external_data_urls": [
+  "https://www.bousai.metro.tokyo.lg.jp/bousai/1000026/1000316.html?utm_source=chatgpt.com"
+ ],
+ "demo_url": "https://tokyo-one-web-public-20260821.yumihiro.chatgpt.site",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://tokyo-one-web-public-20260821.yumihiro.chatgpt.site"
+  }
+ ],
+ "video_url": "https://youtu.be/yv_F5Uk1tVs?t=2504",
+ "image_count": 3,
+ "notes": ""
+}

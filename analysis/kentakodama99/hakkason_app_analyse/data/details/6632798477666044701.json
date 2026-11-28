@@ -1,0 +1,36 @@
+{
+ "id": "6632798477666044701",
+ "url": "https://odhackathon.metro.tokyo.lg.jp/collection/6632798477666044701/?year=2026",
+ "fetched_at": "2026-11-20T15:42:44+00:00",
+ "title": "相談を、届く形に。",
+ "team": "イッカツ",
+ "member_count": 1,
+ "is_finalist": false,
+ "awards": [],
+ "service_description": "「イッカツ」は、暮らしの困りごとを少数の質問で整理し相談窓口と今日の一手へつなぐ案内サービス。行政の相談窓口情報は公開されていても、何の相談か言葉にできず似た窓口が複数あり、回されて最初から説明し直すという「相談が始まる前の摩擦」が課題。安全・時期・希望・地域などの質問で窓口の対象・権限・受付条件と照合し、第一候補と別経路、電話で最初に伝える台詞、窓口へ見せるメモを提示する。危険時は110・119・189を先に示し、法律判断はせず入力も保存しない設計。静的HTMLと窓口台帳JSONでCloudflare Workers上に構築し、開発補助にCodexとGrokを活用した。",
+ "open_data_items": [
+  {
+   "name": "消費生活相談のオープンデータ（受付状況と傾向）",
+   "url": "https://www.shouhiseikatu.metro.tokyo.lg.jp/sodan/tokei/deta_keikou.html"
+  },
+  {
+   "name": "消費生活相談のオープンデータ（テーマ別分析）",
+   "url": "https://www.shouhiseikatu.metro.tokyo.lg.jp/sodan/tokei/deta_thema.html"
+  }
+ ],
+ "open_data_urls": [],
+ "external_data_urls": [
+  "https://www.shouhiseikatu.metro.tokyo.lg.jp/sodan/tokei/deta_keikou.html",
+  "https://www.shouhiseikatu.metro.tokyo.lg.jp/sodan/tokei/deta_thema.html"
+ ],
+ "demo_url": "https://ikkatsu-odh2026.tokyo-odh-285.workers.dev/",
+ "submission_items": [
+  {
+   "name": "デモ",
+   "url": "https://ikkatsu-odh2026.tokyo-odh-285.workers.dev/"
+  }
+ ],
+ "video_url": "https://youtu.be/vZHTi9Yh-Ts?t=3596",
+ "image_count": 3,
+ "notes": ""
+}
