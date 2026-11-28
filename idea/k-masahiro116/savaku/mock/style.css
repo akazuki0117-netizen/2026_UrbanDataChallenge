@@ -1,0 +1,424 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #14161f;
+  --panel: #1d2130;
+  --card: #262b3c;
+  --line: #3a4057;
+  --muted: #a9adbd;
+  --text: #f2efe8;
+  --red: #e0463a;
+  --blue: #4aa3d8;
+  --orange: #f0a43a;
+  --wood: #6b4a33;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+}
+
+button { font: inherit; color: inherit; cursor: pointer; }
+textarea { font: inherit; }
+
+.app {
+  max-width: 440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  background: var(--panel);
+  z-index: 5;
+}
+
+.brand {
+  background: none;
+  border: none;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+main { flex: 1; padding: 20px 18px 28px; }
+
+.note {
+  font-size: 11px;
+  color: var(--muted);
+  text-align: center;
+  padding: 12px 18px 18px;
+  border-top: 1px solid var(--line);
+}
+
+h1 { font-size: 26px; font-weight: 900; line-height: 1.4; }
+h1 em { font-style: normal; color: var(--red); }
+h2 { font-size: 18px; font-weight: 900; margin-bottom: 10px; }
+.lead { color: var(--muted); font-size: 14px; margin-top: 8px; }
+.label { font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: var(--orange); }
+.group-label { display: block; margin-top: 16px; }
+.step-label { font-size: 12px; font-weight: 900; letter-spacing: 0.12em; color: var(--red); margin-bottom: 4px; }
+
+.section { margin-top: 22px; }
+
+.primary, .ghost {
+  display: block;
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 15px;
+  margin-top: 12px;
+}
+.primary { background: var(--red); border: none; color: #fff; }
+.primary:disabled { background: #5a3a3a; color: #b9a3a0; cursor: not-allowed; }
+.ghost { background: transparent; border: 1.5px solid var(--line); }
+.ghost.small { width: auto; padding: 6px 12px; margin: 0; font-size: 12px; }
+.row { display: flex; gap: 10px; }
+.row > * { flex: 1; }
+
+.presets { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.chip {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.chip:hover { border-color: var(--orange); }
+
+.input-box {
+  margin-top: 10px;
+  width: 100%;
+  min-height: 120px;
+  border-radius: 10px;
+  border: 2px dashed #6f7488;
+  background: var(--card);
+  color: var(--text);
+  padding: 12px;
+  font-size: 15px;
+  resize: vertical;
+}
+.input-box:focus { outline: none; border-color: var(--orange); }
+.counter { font-size: 12px; color: var(--muted); text-align: right; margin-top: 4px; }
+.counter.bad { color: var(--red); }
+
+.alert {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #3a2328;
+  border: 1px solid var(--red);
+  font-size: 13px;
+}
+.info {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #1f3240;
+  border: 1px solid var(--blue);
+  font-size: 13px;
+}
+
+/* 法廷 */
+.court {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px;
+  position: relative;
+}
+.bench {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  background: var(--wood);
+  border-bottom: 5px solid #4a3222;
+  border-radius: 10px;
+  padding: 8px 0 6px;
+  font-weight: 900;
+  font-size: 14px;
+}
+.seats { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; gap: 8px; }
+.seat {
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 8px 2px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.seat.pros { background: #3a2328; border: 2px solid var(--red); }
+.seat.def { background: #1f3240; border: 2px solid var(--blue); }
+.tag-ai, .tag-me {
+  display: inline-block;
+  font-size: 10px;
+  padding: 0 5px;
+  border-radius: 4px;
+  margin-left: 4px;
+  vertical-align: 1px;
+}
+.tag-ai { background: var(--blue); color: #10202b; }
+.tag-me { background: var(--red); color: #fff; }
+
+.defendant { width: 36%; text-align: center; }
+.face {
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: var(--orange);
+  border: 3px solid #f7c878;
+  position: relative;
+}
+.face::before, .face::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2a1f14;
+}
+.face::before { left: 16px; }
+.face::after { right: 16px; }
+.face .mouth {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  width: 20px;
+  height: 4px;
+  margin-left: -10px;
+  background: #2a1f14;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+.face.sweat .mouth { height: 8px; border-radius: 0 0 10px 10px; }
+.face.down { background: #8a8f9f; border-color: #b6bac6; }
+.defendant .name {
+  margin-top: 6px;
+  background: #3f455c;
+  border-radius: 8px;
+  padding: 4px 2px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.charge {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px dashed #5a6078;
+  font-size: 13px;
+}
+.charge b { color: var(--orange); }
+
+.meter { margin-top: 12px; }
+.meter-label { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); font-weight: 700; }
+.meter-track { height: 8px; background: #1f3240; border-radius: 4px; overflow: hidden; margin-top: 4px; }
+.meter-fill { height: 100%; background: var(--red); transition: width 0.5s; }
+
+/* 発言 */
+.log { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+.say {
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  animation: pop 0.3s ease;
+}
+.say .who { font-size: 11px; font-weight: 900; letter-spacing: 0.06em; margin-bottom: 2px; }
+.say.judge { background: #3b2c22; border-left: 4px solid var(--wood); }
+.say.pros { background: #f6d9d5; color: #1b1d26; border-left: 4px solid var(--red); }
+.say.def { background: #d5e8f4; color: #1b1d26; border-left: 4px solid var(--blue); }
+.say.pros .who { color: #a3271d; }
+.say.def .who { color: #1d5f88; }
+
+@keyframes pop {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+.law-link {
+  background: none;
+  border: none;
+  color: inherit;
+  font-weight: 900;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  padding: 0;
+}
+
+.choices { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.choice {
+  text-align: left;
+  background: var(--card);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.choice:hover { border-color: var(--red); }
+.choice small { display: block; font-weight: 600; color: var(--muted); font-size: 12px; margin-top: 2px; }
+.choice .row-law { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.choice .peek { font-size: 11px; color: var(--blue); white-space: nowrap; }
+
+/* 判決 */
+.verdict {
+  text-align: center;
+  background: var(--wood);
+  border-radius: 14px;
+  padding: 18px 14px;
+  border-bottom: 6px solid #4a3222;
+}
+.verdict .main { font-size: 13px; font-weight: 800; letter-spacing: 0.1em; color: #e9d6c6; }
+.verdict .result { font-size: 30px; font-weight: 900; margin-top: 4px; }
+.verdict .sub { font-size: 14px; font-weight: 700; margin-top: 6px; }
+.reason { margin-top: 14px; background: var(--card); border-radius: 10px; padding: 12px 14px; font-size: 14px; }
+.reason p + p { margin-top: 8px; }
+.score { margin-top: 10px; font-size: 13px; color: var(--muted); text-align: center; }
+
+/* 赤ペン */
+.law-list { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.law-item {
+  text-align: left;
+  background: var(--card);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.law-item.on { border-color: var(--red); background: #3a2328; }
+.paper {
+  margin-top: 12px;
+  background: #f7f3ea;
+  color: #1b1d26;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+.paper .title { font-weight: 900; margin-bottom: 6px; font-family: "Hiragino Sans", sans-serif; }
+.paper .old.struck { text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 2px; color: #6b6b6b; }
+.paper .new { color: var(--red); font-weight: 700; margin-top: 8px; white-space: pre-wrap; font-family: "Hiragino Sans", sans-serif; }
+.pen-box {
+  width: 100%;
+  min-height: 90px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--red);
+  background: #fff6f4;
+  color: #a3271d;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 700;
+  resize: vertical;
+}
+
+/* 共有カード・マイ法典 */
+.share-card {
+  margin-top: 14px;
+  background: linear-gradient(135deg, #262b3c, #3a2328);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+}
+.share-card .brand-s { font-weight: 900; letter-spacing: 0.06em; font-size: 13px; color: var(--muted); }
+.share-card .def { font-size: 17px; font-weight: 900; margin-top: 4px; }
+.share-card .res { font-size: 22px; font-weight: 900; color: var(--red); margin-top: 2px; }
+.share-card .rev { margin-top: 8px; font-size: 13px; border-top: 1px dashed var(--line); padding-top: 8px; }
+
+.entry { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin-top: 10px; font-size: 13px; }
+.entry .top { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; }
+.entry .def { font-weight: 900; font-size: 15px; margin-top: 2px; }
+.entry .res { color: var(--red); font-weight: 900; }
+.entry .rev { margin-top: 6px; color: #f6d9d5; }
+.empty { color: var(--muted); font-size: 14px; margin-top: 10px; }
+
+/* オーバーレイ */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 11, 16, 0.82);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  padding: 20px;
+}
+.overlay[hidden] { display: none; }
+#loading p { margin-top: 16px; font-weight: 800; }
+.gavel {
+  width: 56px;
+  height: 22px;
+  background: var(--wood);
+  border-radius: 6px;
+  position: relative;
+  transform-origin: 90% 50%;
+  animation: knock 0.6s ease-in-out infinite;
+}
+.gavel::after {
+  content: "";
+  position: absolute;
+  left: 22px;
+  top: 18px;
+  width: 8px;
+  height: 34px;
+  background: #4a3222;
+  border-radius: 3px;
+}
+@keyframes knock {
+  0%, 100% { transform: rotate(0); }
+  50% { transform: rotate(-28deg); }
+}
+
+.sheet {
+  width: 100%;
+  max-width: 400px;
+  background: var(--panel);
+  border-radius: 14px;
+  padding: 18px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.sheet h3 { font-size: 17px; font-weight: 900; }
+.sheet .article {
+  margin-top: 10px;
+  background: #f7f3ea;
+  color: #1b1d26;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+.sheet .plain { margin-top: 10px; font-size: 14px; }
+.sheet .src { margin-top: 8px; font-size: 11px; color: var(--muted); }
+.sheet .src a { color: var(--blue); }
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  background: var(--text);
+  color: var(--bg);
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  z-index: 30;
+}
+.toast[hidden] { display: none; }

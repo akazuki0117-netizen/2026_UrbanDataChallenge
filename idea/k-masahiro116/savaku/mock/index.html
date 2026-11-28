@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAVAKU プロトタイプ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="bar">
+      <button class="brand" type="button" data-action="home">SAVAKU</button>
+      <button class="ghost small" type="button" data-action="codex">マイ法典</button>
+    </header>
+
+    <main id="screen"></main>
+
+    <footer class="note">判決はAIのシミュレーションで、実際の法的助言ではありません。</footer>
+  </div>
+
+  <div id="loading" class="overlay" hidden>
+    <div class="gavel"></div>
+    <p id="loading-text">起訴状を作成中…</p>
+  </div>
+
+  <div id="modal" class="overlay" hidden>
+    <div class="sheet" role="dialog" aria-modal="true">
+      <div id="modal-body"></div>
+      <button class="primary" type="button" data-action="close-modal">閉じる</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
