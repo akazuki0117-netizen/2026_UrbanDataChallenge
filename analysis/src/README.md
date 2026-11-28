@@ -16,7 +16,7 @@
 
 | スクリプト | やること | 入力 | 出力 | 担当 |
 |---|---|---|---|---|
-| | | | | |
+| [`fetch/chiba_shigan_ratio.py`](fetch/chiba_shigan_ratio.py) | 千葉県の県立高校の学科別の志願倍率の PDF を表にする | 県の PDF（URL） | `dataset/processed/chiba/r8_shigan_ratio.csv` | akazuki0117-netizen |
 
 ## ルール
 

@@ -17,7 +17,7 @@
 
 | フォルダ | データ | 提供元 | 取得日 | 利用規約（ライセンス） | 作ったスクリプト |
 |---|---|---|---|---|---|
-| | | | | | |
+| `processed/chiba/r8_shigan_ratio.csv` | 千葉県 県立高校の学科別の募集人員・志願者確定数・倍率（令和8年度 一般入学者選抜） | [千葉県教育委員会](https://www.pref.chiba.lg.jp/kyouiku/shidou/nyuushi/koukou/r8/r8kakuteiitiran.html) | 2026-11-28 | 県のサイトは無断の複製・転用を禁止。数値（事実）だけを表にし、出典を書く | [`src/fetch/chiba_shigan_ratio.py`](../src/fetch/chiba_shigan_ratio.py) |
 
 ## ルール
 
