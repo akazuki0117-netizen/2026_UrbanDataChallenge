@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>アイデア採点表</title>
+<style>
+:root {
+  --bg: #f6f7f9; --card: #ffffff; --ink: #1f2330; --sub: #5f6677; --line: #e2e5ec;
+  --accent: #2f6fde; --accent-soft: #e5eeff; --gold: #c98a00; --gold-soft: #fff3d6;
+  --good: #1f9d5a; --bad: #d64545; --bar-bg: #eceff4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15171c; --card: #1f222a; --ink: #eef0f5; --sub: #a6adbd; --line: #333845;
+    --accent: #7aa7ff; --accent-soft: #1f2c47; --gold: #f0b93a; --gold-soft: #3a2f14;
+    --good: #5fd394; --bad: #ff8585; --bar-bg: #2b2f3a;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15171c; --card: #1f222a; --ink: #eef0f5; --sub: #a6adbd; --line: #333845;
+  --accent: #7aa7ff; --accent-soft: #1f2c47; --gold: #f0b93a; --gold-soft: #3a2f14;
+  --good: #5fd394; --bad: #ff8585; --bar-bg: #2b2f3a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; font-size: 15px; line-height: 1.6; }
+main { max-width: 1180px; margin: 0 auto; padding: 20px 16px 48px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+h2 { font-size: 17px; margin: 0 0 10px; }
+.lead { color: var(--sub); margin: 0 0 16px; font-size: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 0 0 16px; min-width: 0; }
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 16px; }
+@media (max-width: 860px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+button, select, input { font: inherit; color: inherit; }
+.btn { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+.btn.on, .btn:hover { border-color: var(--accent); background: var(--accent-soft); }
+.btn:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.note { color: var(--sub); font-size: 13px; }
+
+/* ランキング */
+.rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.rank li { display: grid; grid-template-columns: 36px minmax(0, 1fr) 56px; gap: 10px; align-items: center; }
+.pos { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; background: var(--bar-bg); }
+.rank li:first-child .pos { background: var(--gold-soft); color: var(--gold); }
+.rname { font-weight: 700; overflow-wrap: anywhere; }
+.rname small { color: var(--sub); font-weight: 400; margin-left: 4px; }
+.bar { height: 10px; border-radius: 99px; background: var(--bar-bg); overflow: hidden; margin-top: 4px; }
+.bar i { display: block; height: 100%; background: var(--accent); border-radius: 99px; transition: width .25s; }
+.rank li:first-child .bar i { background: var(--gold); }
+.pt { text-align: right; font-size: 20px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.tie { font-size: 12px; color: var(--gold); font-weight: 700; margin-left: 6px; }
+
+/* 重み */
+.weights { display: grid; gap: 6px; }
+.w { display: grid; grid-template-columns: minmax(0, 1fr) 120px 22px; gap: 8px; align-items: center; }
+.w label { font-size: 14px; overflow-wrap: anywhere; }
+.w label .tag { font-size: 11px; color: var(--sub); border: 1px solid var(--line); border-radius: 99px; padding: 0 6px; margin-left: 4px; white-space: nowrap; }
+.w input { width: 100%; accent-color: var(--accent); }
+.w output { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* 採点表 */
+.tbl-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 14px; }
+th, td { border-bottom: 1px solid var(--line); padding: 8px 6px; vertical-align: top; text-align: left; }
+thead th { position: sticky; top: 0; background: var(--card); font-size: 13px; }
+th.crit { min-width: 150px; }
+th.crit small { display: block; color: var(--sub); font-weight: 400; font-size: 12px; }
+td.cell { min-width: 150px; }
+td.cell select { border: 1px solid var(--line); background: var(--bg); border-radius: 6px; padding: 2px 4px; font-weight: 700; }
+td.cell .why { display: block; color: var(--sub); font-size: 12px; margin-top: 3px; line-height: 1.5; }
+td.cell.s5 select, td.cell.s4 select { color: var(--good); }
+td.cell.s1 select, td.cell.s2 select { color: var(--bad); }
+tfoot td { font-weight: 800; }
+.changed { box-shadow: inset 3px 0 0 var(--gold); }
+
+.ideas { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; }
+.idea { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.idea b { display: block; }
+.idea small { color: var(--sub); display: block; }
+.idea p { margin: 6px 0 0; font-size: 13px; }
+textarea { width: 100%; min-height: 110px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); padding: 8px; font-family: ui-monospace, Consolas, monospace; font-size: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>アイデア採点表（11/28 アイデア決定）</h1>
+  <p class="lead">5案を12の観点で 1〜5 点で採点し、重みをかけて100点満点に直して順位をつけます。点数と重みは会議で変えられます。変えた内容はこのブラウザに保存されます。最初に入っている点数と理由は akazuki0117-netizen が事前につけた叩き台です。</p>
+
+  <section class="card">
+    <h2>候補の5案</h2>
+    <div class="ideas" id="ideas"></div>
+  </section>
+
+  <div class="grid">
+    <section class="card">
+      <h2>ランキング</h2>
+      <ol class="rank" id="rank"></ol>
+      <p class="note" id="formula"></p>
+    </section>
+
+    <section class="card">
+      <h2>重み（0〜5）</h2>
+      <div class="row" style="margin-bottom:10px" id="presets"></div>
+      <div class="weights" id="weights"></div>
+      <p class="note">「追加」が付いているのは、指定の8観点に足した観点です。いらなければ重みを0にしてください。</p>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>採点表（セルの点数を変えられます）</h2>
+    <div class="tbl-wrap"><table id="tbl"></table></div>
+    <p class="note">金色の線が付いたセルは、叩き台から点数を変えたところです。「安全性」と「運用コスト」は、リスクやコストが小さいほど高い点にしています。</p>
+  </section>
+
+  <section class="card">
+    <h2>保存・共有</h2>
+    <div class="row">
+      <button type="button" class="btn" id="copy">議事録用に Markdown でコピー</button>
+      <button type="button" class="btn" id="dl">ファイルに保存（.md）</button>
+      <button type="button" class="btn" id="reset">叩き台に戻す</button>
+      <span class="note" id="msg" aria-live="polite"></span>
+    </div>
+    <textarea id="md" readonly aria-label="Markdown の出力"></textarea>
+  </section>
+</main>
+
+<script>
+(() => {
+  "use strict";
+  const KEY = "udc-idea-scoring-20261128";
+
+  const IDEAS = [
+    { id: "A2", name: "とうけいクエスト（仮）", who: "akazuki0117-netizen", desc: "小中学生が「見る → 基礎 → 発展」で統計を学ぶ。発展では自分の町のデータや自分で集めたデータでグラフを作る。" },
+    { id: "T1", name: "5秒コッカイ", who: "tmzwx4a-hub", desc: "政治版「5秒インフルエンサー」。国会会議録と参議院の賛否から、出典つきの縦型ショート動画を自動で作る（切り抜き照合のゲンテンと対）。" },
+    { id: "K1", name: "推しセン！", who: "kentakodama99", desc: "政治の好み診断 → 推しの候補 → 投票に「推しに行く」。推しの熱量を投票に向ける。" },
+    { id: "S1", name: "SAVAKU", who: "k-masahiro116", desc: "日常の違和感を被告席に立たせ、自分が検察官になって AI の弁護人・裁判長と法廷で争う。法律を自分ごとにする。" },
+    { id: "M2", name: "校則の変更履歴", who: "Maci-as", desc: "校則の改定事例 → 自分の学校の試行案づくり ＋ 変更履歴を次の代に引き継ぐ。" }
+  ];
+
+  // [id, 名前, 説明, 追加の観点か]
+  const CRITERIA = [
+    ["data", "データ", "使うデータの質・量・手に入れやすさ", false],
+    ["access", "アクセシビリティ", "誰でも迷わず使える（スマホ・ログイン不要・やさしい言葉）", false],
+    ["idea", "アイデア", "新しさ・挑戦度（審査の「挑戦度」）", false],
+    ["app", "アプリ", "体験の気持ちよさ・デモ映え（審査の「完成度」）", false],
+    ["odrate", "オープンデータ利用率", "オープンデータがどれだけ中心にあるか", false],
+    ["award", "一般部門・データキッズ賞", "賞の狙いやすさ（重点部門「教育・政治」・データキッズ賞）", false],
+    ["local", "地域課題解決", "特定の地域・自治体の課題に効くか", false],
+    ["social", "社会課題解決", "多くの人に共有された社会の課題に効くか（審査の「実用度」）", false],
+    ["feasible", "実現性", "12/27 までに今の体制で作り切れるか", true],
+    ["safety", "安全性・中立性", "政治的中立・公職選挙法・AI の誤り・個人情報のリスクが小さいほど高い", true],
+    ["theme", "テーマ適合", "教育・政治、チームの「選挙を自分ごとにする」に合うか", true],
+    ["cost", "公開・運用コスト", "2/21 まで無料で公開し続けられるか（小さいほど高い）", true]
+  ];
+
+  // 叩き台の点数と理由
+  const BASE = {
+    A2: {
+      data: [5, "e-Stat・SSDSE・気象庁と、整った統計がそろう"],
+      access: [5, "子ども向け・ログインなし・タップ中心で設計済み"],
+      idea: [3, "なるほど統計学園など公的サイトが競合"],
+      app: [4, "モックで最後まで遊べる"],
+      odrate: [4, "発展の課題で町のデータが主役"],
+      award: [5, "データキッズ賞のど真ん中"],
+      local: [3, "自分の町のデータを扱うが、課題の解決までは弱い"],
+      social: [3, "統計教育の場の不足。投票率などとは別の課題"],
+      feasible: [5, "静的サイトで作れる。データは先に JSON 化"],
+      safety: [5, "政治的なリスクがほぼない"],
+      theme: [2, "教育には入るが、政治の要素がほぼない"],
+      cost: [5, "Cloudflare Pages の無料枠で足りる"]
+    },
+    T1: {
+      data: [4, "国会会議録 API は無料・キー不要。参院の賛否は Web ページから整える"],
+      access: [4, "若者が普段見る縦型ショートと同じ形で届く"],
+      idea: [4, "他の作品の仕組みを政治の一次情報に移す。組み合わせは新しい"],
+      app: [4, "動画が出てくるのでデモで伝わりやすい"],
+      odrate: [5, "公式記録がそのまま動画の中身になる"],
+      award: [4, "重点部門の教育・政治にまっすぐ入る"],
+      local: [3, "地方議会版にすると地域に効く（12/27 までは国会が中心）"],
+      social: [5, "切り抜き動画の偏り・若者の政治離れという大きな課題"],
+      feasible: [3, "動画の自動生成と賛否データの整備が山"],
+      safety: [3, "「判定しない」設計だが、公職選挙法と映像の権利は確認が要る"],
+      theme: [5, "政治の一次情報に触れる入口そのもの"],
+      cost: [4, "動画を先に作って置けば安い。都度生成なら費用がかかる"]
+    },
+    K1: {
+      data: [3, "会議録はある。選挙公報は PDF で整備が要る"],
+      access: [4, "診断形式で入りやすい"],
+      idea: [4, "「推し活」を投票に向ける発想は新しい"],
+      app: [4, "コンセプト動画があり、体験が想像しやすい"],
+      odrate: [3, "診断の材料としてデータを使うが、主役は体験"],
+      award: [3, "一般部門の教育・政治。データキッズ賞は対象外"],
+      local: [2, "地域の課題とのつながりは薄い"],
+      social: [4, "若者の投票率の低さに直接効く"],
+      feasible: [3, "候補者データの整備と診断のロジックが重い"],
+      safety: [2, "候補者を勧める形は中立性・公職選挙法の確認が必須"],
+      theme: [5, "「選挙を自分ごとにする」にまっすぐ"],
+      cost: [4, "静的サイトでいける。AI を使うなら費用"]
+    },
+    S1: {
+      data: [4, "e-Gov 法令 API は無料・キー不要。判例は API なし"],
+      access: [3, "文章の入力と法律の言葉が、子どもには少し難しい"],
+      idea: [5, "日常のモヤモヤを被告にする発想が強い"],
+      app: [4, "法廷の演出でデモ映えする。モックあり（台本）"],
+      odrate: [4, "法令データが判決の根拠として中心にある"],
+      award: [3, "教育・政治には入るが、政治というより法教育"],
+      local: [1, "地域の課題とはほぼ関係しない"],
+      social: [3, "法律が身近でないという課題。投票・参画とは少し離れる"],
+      feasible: [2, "AI の弁護・判決と、条文を作らせない仕組み（RAG）が重い"],
+      safety: [2, "AI の法的判断の誤り・実在人物への誹謗中傷の対策が要る"],
+      theme: [3, "法教育として教育には入る。政治参画は弱め"],
+      cost: [2, "LLM の API が従量課金。公開期間中ずっとかかる"]
+    },
+    M2: {
+      data: [2, "校則の見直し事例は表にまとまっておらず、集める手間がかかる"],
+      access: [3, "学校で使う前提。先生の準備が要る"],
+      idea: [3, "ルールメイキングの取り組みは既にある"],
+      app: [2, "モックはこれから。地味になりやすい"],
+      odrate: [1, "オープンデータの出番がほぼない"],
+      award: [3, "教育・政治。中高生向けとしてデータキッズ賞も少し"],
+      local: [2, "学校単位の課題で、地域までは広がりにくい"],
+      social: [3, "最初の民主主義の体験（校則）という課題"],
+      feasible: [3, "仕組みは軽いが、事例データ集めが重い"],
+      safety: [4, "政治的なリスクは小さい。学校名などの扱いに注意"],
+      theme: [4, "身近な決まりを自分たちで決める＝政治参画の練習"],
+      cost: [5, "静的サイトで足りる"]
+    }
+  };
+
+  const PRESETS = {
+    "バランス":        { data:3, access:2, idea:3, app:3, odrate:3, award:2, local:3, social:3, feasible:3, safety:2, theme:2, cost:1 },
+    "均等":            { data:1, access:1, idea:1, app:1, odrate:1, award:1, local:1, social:1, feasible:1, safety:1, theme:1, cost:1 },
+    "指定の8観点だけ": { data:1, access:1, idea:1, app:1, odrate:1, award:1, local:1, social:1, feasible:0, safety:0, theme:0, cost:0 },
+    "審査基準重視":    { data:3, access:2, idea:5, app:5, odrate:4, award:2, local:3, social:5, feasible:2, safety:1, theme:2, cost:1 },
+    "賞狙い":          { data:3, access:3, idea:3, app:3, odrate:4, award:5, local:2, social:2, feasible:3, safety:2, theme:2, cost:1 },
+    "12/27確実":       { data:3, access:2, idea:2, app:3, odrate:3, award:2, local:2, social:2, feasible:5, safety:3, theme:2, cost:3 },
+    "Politica重視":    { data:2, access:2, idea:3, app:3, odrate:3, award:2, local:2, social:4, feasible:2, safety:2, theme:5, cost:1 }
+  };
+  const DEFAULT_PRESET = "バランス";
+
+  let st = load();
+
+  function fresh() {
+    const scores = {};
+    IDEAS.forEach(i => { scores[i.id] = {}; CRITERIA.forEach(([c]) => scores[i.id][c] = BASE[i.id][c][0]); });
+    return { weights: { ...PRESETS[DEFAULT_PRESET] }, scores, preset: DEFAULT_PRESET };
+  }
+  function load() {
+    const f = fresh();
+    try {
+      const s = JSON.parse(localStorage.getItem(KEY) || "null");
+      if (s && s.weights && s.scores) {
+        CRITERIA.forEach(([c]) => { if (typeof s.weights[c] === "number") f.weights[c] = s.weights[c]; });
+        IDEAS.forEach(i => CRITERIA.forEach(([c]) => { const v = s.scores[i.id] && s.scores[i.id][c]; if (typeof v === "number") f.scores[i.id][c] = v; }));
+        f.preset = s.preset || "";
+      }
+    } catch (e) {}
+    return f;
+  }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+
+  const esc = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+  const label = i => `${i.id} ${i.name}`;
+
+  function total(id) {
+    let sum = 0, max = 0;
+    CRITERIA.forEach(([c]) => { const w = st.weights[c]; sum += w * st.scores[id][c]; max += w * 5; });
+    return max ? Math.round(sum / max * 1000) / 10 : 0;
+  }
+  function ranking() {
+    const r = IDEAS.map(i => ({ i, p: total(i.id) })).sort((a, b) => b.p - a.p);
+    r.forEach((x, k) => { x.pos = k > 0 && x.p === r[k - 1].p ? r[k - 1].pos : k + 1; });
+    r.forEach(x => { x.tie = r.filter(y => y.p === x.p).length > 1; });
+    return r;
+  }
+
+  // 候補カード
+  document.getElementById("ideas").innerHTML = IDEAS.map(i =>
+    `<div class="idea"><b>${esc(label(i))}</b><small>${esc(i.who)}</small><p>${esc(i.desc)}</p></div>`).join("");
+
+  // プリセット
+  const presetsEl = document.getElementById("presets");
+  presetsEl.innerHTML = Object.keys(PRESETS).map(n => `<button type="button" class="btn" data-preset="${esc(n)}">${esc(n)}</button>`).join("");
+  presetsEl.addEventListener("click", e => {
+    const b = e.target.closest("[data-preset]"); if (!b) return;
+    st.weights = { ...PRESETS[b.dataset.preset] }; st.preset = b.dataset.preset;
+    renderWeights(); update();
+  });
+
+  // 重み
+  const weightsEl = document.getElementById("weights");
+  function renderWeights() {
+    weightsEl.innerHTML = CRITERIA.map(([c, n, d, extra]) =>
+      `<div class="w"><label for="w-${c}" title="${esc(d)}">${esc(n)}${extra ? '<span class="tag">追加</span>' : ""}</label>
+       <input type="range" id="w-${c}" min="0" max="5" step="1" value="${st.weights[c]}" data-w="${c}">
+       <output for="w-${c}" id="o-${c}">${st.weights[c]}</output></div>`).join("");
+    presetsEl.querySelectorAll("[data-preset]").forEach(b => b.classList.toggle("on", b.dataset.preset === st.preset));
+  }
+  weightsEl.addEventListener("input", e => {
+    const c = e.target.dataset.w; if (!c) return;
+    st.weights[c] = Number(e.target.value); st.preset = "";
+    document.getElementById("o-" + c).textContent = e.target.value;
+    presetsEl.querySelectorAll("[data-preset]").forEach(b => b.classList.remove("on"));
+    update();
+  });
+
+  // 採点表
+  const tbl = document.getElementById("tbl");
+  function renderTable() {
+    const head = `<thead><tr><th class="crit">観点</th><th>重み</th>${IDEAS.map(i => `<th>${esc(label(i))}</th>`).join("")}</tr></thead>`;
+    const body = CRITERIA.map(([c, n, d]) => `<tr><th class="crit">${esc(n)}<small>${esc(d)}</small></th><td id="tw-${c}">${st.weights[c]}</td>` +
+      IDEAS.map(i => {
+        const v = st.scores[i.id][c], b = BASE[i.id][c];
+        return `<td class="cell s${v}${v !== b[0] ? " changed" : ""}" id="c-${i.id}-${c}">
+          <select data-i="${i.id}" data-c="${c}" aria-label="${esc(label(i))}の${esc(n)}">${[1,2,3,4,5].map(k => `<option${k === v ? " selected" : ""}>${k}</option>`).join("")}</select>
+          <span class="why">${esc(b[1])}</span></td>`;
+      }).join("") + "</tr>").join("");
+    const foot = `<tfoot><tr><td>合計（100点満点）</td><td></td>${IDEAS.map(i => `<td id="t-${i.id}"></td>`).join("")}</tr></tfoot>`;
+    tbl.innerHTML = head + "<tbody>" + body + "</tbody>" + foot;
+  }
+  tbl.addEventListener("change", e => {
+    const s = e.target; if (!s.dataset.i) return;
+    const v = Number(s.value); st.scores[s.dataset.i][s.dataset.c] = v;
+    const td = s.closest("td");
+    td.className = `cell s${v}${v !== BASE[s.dataset.i][s.dataset.c][0] ? " changed" : ""}`;
+    update();
+  });
+
+  function update() {
+    const r = ranking();
+    document.getElementById("rank").innerHTML = r.map(x =>
+      `<li><span class="pos">${x.pos}</span>
+        <div><div class="rname">${esc(label(x.i))}<small>${esc(x.i.who)}</small>${x.tie ? '<span class="tie">同点</span>' : ""}</div>
+        <div class="bar"><i style="width:${x.p}%"></i></div></div>
+        <span class="pt">${x.p}</span></li>`).join("");
+    IDEAS.forEach(i => { document.getElementById("t-" + i.id).textContent = total(i.id); });
+    CRITERIA.forEach(([c]) => { document.getElementById("tw-" + c).textContent = st.weights[c]; });
+    const wsum = CRITERIA.reduce((a, [c]) => a + st.weights[c], 0);
+    document.getElementById("formula").textContent = `点数 = Σ（重み × 点数）÷（重みの合計 ${wsum} × 5）× 100。重み: ${st.preset || "カスタム"}`;
+    document.getElementById("md").value = toMd(r);
+    save();
+  }
+
+  function toMd(r) {
+    const L = [];
+    L.push("## アイデア採点（11/28）", "", `重み: ${st.preset || "カスタム"}`, "", "### ランキング", "");
+    L.push("| 順位 | 案 | 出した人 | 点数（100点満点） |", "|---|---|---|---|");
+    r.forEach(x => L.push(`| ${x.pos} | ${label(x.i)} | ${x.i.who} | ${x.p} |`));
+    L.push("", "### 採点表", "");
+    L.push(`| 観点 | 重み | ${IDEAS.map(label).join(" | ")} |`, `|---|---|${IDEAS.map(() => "---").join("|")}|`);
+    CRITERIA.forEach(([c, n]) => L.push(`| ${n} | ${st.weights[c]} | ${IDEAS.map(i => st.scores[i.id][c]).join(" | ")} |`));
+    L.push(`| **合計** | | ${IDEAS.map(i => "**" + total(i.id) + "**").join(" | ")} |`);
+    return L.join("\n");
+  }
+
+  const msg = t => { const m = document.getElementById("msg"); m.textContent = t; setTimeout(() => { m.textContent = ""; }, 2500); };
+  document.getElementById("copy").addEventListener("click", async () => {
+    const t = document.getElementById("md").value;
+    try { await navigator.clipboard.writeText(t); msg("コピーしました"); }
+    catch (e) { const a = document.getElementById("md"); a.select(); try { document.execCommand("copy"); msg("コピーしました"); } catch (e2) { msg("コピーできませんでした。下の欄から選んでコピーしてください"); } }
+  });
+  document.getElementById("dl").addEventListener("click", () => {
+    const blob = new Blob([document.getElementById("md").value], { type: "text/markdown" });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "アイデア採点_20261128.md";
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  });
+  document.getElementById("reset").addEventListener("click", () => {
+    if (!confirm("点数と重みを叩き台に戻します。よいですか？")) return;
+    st = fresh(); renderWeights(); renderTable(); update(); msg("叩き台に戻しました");
+  });
+
+  renderWeights(); renderTable(); update();
+})();
+</script>
+</body>
+</html>
