@@ -10,7 +10,6 @@
 | tmzwx4a-hub | [`tmzwx4a-hub/`](tmzwx4a-hub/README.md) |
 | yk2b0yuka-blip | [`yk2b0yuka-blip/`](yk2b0yuka-blip/README.md) |
 | Maci-as | [`Maci-as/`](Maci-as/README.md) |
-| kawamura | [`kawamura/`](kawamura/README.md) |
 
 ## 置き方
 
