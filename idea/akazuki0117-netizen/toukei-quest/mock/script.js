@@ -117,14 +117,14 @@
   }
 
   function header() {
-    document.getElementById("town-chip").textContent = S.town ? `📍 ${TOWNS[S.town].name}` : "📍 町をえらんでね";
+    document.getElementById("town-chip").textContent = S.town ? `📍 ${TOWNS[S.town].name}` : "📍 町はまだ";
     document.getElementById("xp").textContent = `⭐ ${S.xp} XP`;
   }
 
   // ---- 画面：町えらび ----
   function viewTown(back) {
     app.innerHTML = `<h1>きみの町は、<br>数字で見るとどんな町？</h1>
-      <p class="lead">さいしょに、きみの町をえらんでね。「発展」の問題が、その町のデータで出てくるよ。</p>
+      <p class="lead">きみの町をえらんでね。「発展」の問題が、その町のデータで出てくるよ。</p>
       <div class="card"><h2>町をえらぶ</h2>
         <div class="towns">${Object.entries(TOWNS).map(([k, t]) => `<button type="button" class="town" data-town="${k}" aria-pressed="${S.town === k}"><b>${t.name}</b><span>${t.desc}</span></button>`).join("")}</div>
         <p class="note">モックなので3つの町だけ（データは仮）。本番は都道府県 → 市区町村からえらぶ。</p>
@@ -134,10 +134,10 @@
 
   // ---- 画面：ホーム（単元の一覧） ----
   function viewHome() {
-    if (!S.town) return viewTown();
     header();
+    const where = S.town ? `${TOWNS[S.town].name}のデータ` : "きみの町のデータ";
     app.innerHTML = `<h1>クエストをえらぼう</h1>
-      <p class="lead">どの単元も「見る → 基礎 → 発展」の3ステップ。発展では、${TOWNS[S.town].name}のデータや、きみが集めたデータで挑戦するよ。</p>
+      <p class="lead">どの単元も「見る → 基礎 → 発展」の3ステップ。発展では、${where}や、きみが集めたデータで挑戦するよ。</p>
       <div class="units">${UNITS.map((u, i) => {
         const lock = !unlocked(i);
         return `<button type="button" class="unit${lock ? " locked" : ""}" data-i="${i}" ${lock ? 'aria-disabled="true"' : ""}>
@@ -146,9 +146,9 @@
           <span class="steps" aria-label="すすみぐあい">${STEPS.map(([s]) => `<i class="dot${isDone(u.id, s) ? " on" : ""}"></i>`).join("")}</span>
         </button>`;
       }).join("")}</div>
-      <div class="row end" style="margin-top:14px"><button type="button" class="btn sub" id="change-town">町をかえる</button></div>`;
+      <div class="row end" style="margin-top:14px"><button type="button" class="btn sub" id="change-town">${S.town ? "町をかえる" : "町をえらぶ"}</button></div>`;
     app.querySelectorAll(".unit").forEach(b => b.addEventListener("click", () => { if (unlocked(+b.dataset.i)) viewUnit(+b.dataset.i, "see"); }));
-    document.getElementById("change-town").addEventListener("click", () => viewTown());
+    document.getElementById("change-town").addEventListener("click", () => viewTown(viewHome));
   }
 
   // ---- 画面：単元 ----
@@ -209,6 +209,7 @@
   }
 
   function stepAdv(box, u, i) {
+    if (!S.town) return viewTown(() => viewUnit(i, "adv"));
     const t = TOWNS[S.town];
     const top = `<div class="card"><span class="badge">発展</span>
       <h2 style="margin-top:8px">あなたの周りのデータで挑戦してみよう！</h2>
