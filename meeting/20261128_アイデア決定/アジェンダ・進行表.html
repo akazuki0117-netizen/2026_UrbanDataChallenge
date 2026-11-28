@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UDC2026 アイデア決定</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --ink:#1d232b; --sub:#5b6570; --line:#e1e5ea; --soft:#f1f4f7;
+  --accent:#2c5d9f; --accent-soft:#e3ecf8; --goal:#2f7d6d; --goal-soft:#e1f1ec;
+  --warn:#b5651d; --warn-soft:#fbeedf; --star:#c0392b; --good:#2f7d6d; --bad:#b23a3a;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#13171c; --card:#1b2128; --ink:#e7ebef; --sub:#9aa5b1; --line:#2c343d; --soft:#222a32;
+    --accent:#7aa8e6; --accent-soft:#1b2a3d; --goal:#5cc0a8; --goal-soft:#1b332e;
+    --warn:#e7a465; --warn-soft:#3a2b1d; --star:#f08a7e; --good:#5cc0a8; --bad:#f08a7e;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#13171c; --card:#1b2128; --ink:#e7ebef; --sub:#9aa5b1; --line:#2c343d; --soft:#222a32;
+  --accent:#7aa8e6; --accent-soft:#1b2a3d; --goal:#5cc0a8; --goal-soft:#1b332e;
+  --warn:#e7a465; --warn-soft:#3a2b1d; --star:#f08a7e; --good:#5cc0a8; --bad:#f08a7e;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"BIZ UDPGothic","Hiragino Sans","Yu Gothic",sans-serif;font-size:15px;line-height:1.7}
+main{max-width:1080px;margin:0 auto;padding:28px 16px 64px}
+h1{font-size:26px;margin:0 0 4px;line-height:1.4}
+h2{font-size:19px;margin:34px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--line)}
+h3{font-size:16px;margin:18px 0 6px}
+p{margin:6px 0}
+a{color:var(--accent)}
+code{font-size:13px;background:var(--soft);padding:1px 5px;border-radius:4px;word-break:break-all}
+.meta{color:var(--sub);margin:0 0 14px}
+.meta b{color:var(--ink)}
+.goal{background:var(--goal-soft);border-left:5px solid var(--goal);border-radius:10px;padding:12px 16px;margin:14px 0}
+.goal b{color:var(--goal)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;break-inside:avoid}
+.muted{color:var(--sub);font-size:13px}
+.tag{display:inline-block;font-size:12px;border-radius:999px;padding:0 9px;margin-left:6px;background:var(--accent-soft);color:var(--accent);vertical-align:middle}
+.tag.warn{background:var(--warn-soft);color:var(--warn)}
+.tag.good{background:var(--goal-soft);color:var(--good)}
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-weight:700;white-space:nowrap}
+.tblwrap{overflow-x:auto;border-radius:10px}
+
+/* タイムライン */
+.tl{display:grid;gap:10px}
+.slot{display:grid;grid-template-columns:120px 1fr;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;break-inside:avoid}
+.slot.star{border:2px solid var(--star)}
+.tl>.slot,.slot>div{min-width:0}
+.time{font-weight:700;font-size:15px}
+.time small{display:block;color:var(--sub);font-weight:400;font-size:12px}
+.slot h3{margin:0 0 4px;font-size:16px}
+.slot .star-mark{color:var(--star);margin-right:4px}
+.decide{color:var(--accent);font-weight:700}
+.slot ul{margin:4px 0 0;padding-left:1.2em}
+.slot li{margin:2px 0}
+
+/* アイデアのカード */
+.ideas{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:12px}
+.idea{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;break-inside:avoid;display:flex;flex-direction:column;gap:6px}
+.idea .no{font-size:12px;color:var(--sub)}
+.idea h3{margin:0;font-size:16px}
+.idea .who{font-size:12px;color:var(--sub)}
+.core{background:var(--accent-soft);border-radius:8px;padding:6px 10px;font-weight:700;color:var(--accent)}
+.idea dl{margin:0;display:grid;grid-template-columns:5em 1fr;gap:4px 8px;font-size:13.5px}
+.idea dt{color:var(--sub);font-weight:700}
+.idea dd{margin:0}
+.fit{font-size:13px;border-top:1px dashed var(--line);padding-top:6px}
+.fit .p{color:var(--good)} .fit .m{color:var(--bad)}
+
+/* 判定シート */
+.sheet input[type=text],.sheet textarea,.sheet select{width:100%;font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:5px 7px}
+.sheet textarea{min-height:52px;resize:vertical}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+button{font:inherit;font-size:14px;border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:8px;padding:7px 14px;cursor:pointer}
+button.sub{background:transparent;color:var(--accent)}
+button.danger{background:transparent;color:var(--bad);border-color:var(--bad)}
+#copybox{display:none;width:100%;min-height:160px;font-family:monospace;font-size:12px;margin-top:8px}
+.saved{font-size:12px;color:var(--sub)}
+
+@media (max-width:600px){
+  .slot{grid-template-columns:1fr;gap:4px}
+  .idea dl{grid-template-columns:1fr}
+}
+@media print{
+  body{background:#fff} .btns,#copybox{display:none}
+  .slot,.card,.idea{break-inside:avoid}
+}
+</style>
+<style>
+.cluster{display:inline-block;font-size:12px;border-radius:999px;padding:0 9px;margin:2px 4px 2px 0;background:var(--goal-soft);color:var(--goal)}
+.ideas .idea .tags{display:flex;flex-wrap:wrap;gap:4px}
+.mini{font-size:13px}
+.mini td,.mini th{padding:5px 7px}
+</style>
+</head>
+<body>
+<main>
+
+<h1>UDC2026 アイデア決定　アジェンダ・進行表</h1>
+<p class="meta"><b>2026/11/28（土）</b>　Google Meet　<b>120分</b>　／　対象：チーム cocatrix　／　進行：akazuki0117-netizen</p>
+
+<div class="goal">
+  <b>今日のゴール</b><br>
+  ① みんなが出した案（新しく16案）を見て、<b>作るアプリを1つに決める</b>（組み合わせてもよい）。<br>
+  ② 決めた案の<b>コア要素・ターゲット・使うデータ・作品タイプ・狙う賞</b>までを決める。<br>
+  ③ 要件定義（〜12/6）からの日程と、担当を確かめる。
+</div>
+
+<div class="card">
+  <b>前提</b>（会議の前に目を通しておく）
+  <ul>
+    <li>前回の決定：体験型（パターン D）が有力。キーワードは「選挙を自分ごとにする」。年齢でターゲットを絞らない（<a href="../20261121_キックオフ/README.md">11/21 議事録</a>）</li>
+    <li>課題の一覧：<a href="../../analysis/kazy/課題一覧_若者と政治教育.md">analysis/kazy/課題一覧_若者と政治教育.md</a>（FigJam の「課題一覧」セクションにも同じもの）。下の「課題」欄の番号（3-⑥ など）はここの番号</li>
+    <li>勝ちパターン：A 新しいものさし ／ B データを作って配る ／ C 一次資料をまとめる ／ D 体験・ゲーム（<a href="../../analysis/kentakodama99/hakkason_app_analyse/reports/勝てるアプリ分析_2026.md">勝てるアプリ分析</a>）</li>
+    <li>コンテスト：UDC は<b>地域課題の解決</b>と<b>オープンデータの活用</b>を見る。テーマ「教育・政治」は重点部門。子どものデータ学習なら<b>データキッズ賞</b>も対象。本応募は 12/27 23:59、審査の中心は説明資料（<a href="../../docs/contest.md">docs/contest.md</a>）</li>
+    <li>前回の課題：面白いだけでなく、<b>課題が多くの人に共有されているか</b>を示す必要がある。国にしか変えられない課題と、自分たちで解ける課題を分ける</li>
+  </ul>
+</div>
+
+<h2>進行（120分）</h2>
+<div class="tl">
+  <div class="slot">
+    <div class="time">0:00〜0:05<small>5分</small></div>
+    <div><h3>1. 今日のゴールと決め方</h3>
+      <p>今日は「1つに決める」日。決め方は下の「判定の基準」を使い、最後は進行役が決める（決め切れなければ上位2案で要件定義に入る）。</p></div>
+  </div>
+  <div class="slot">
+    <div class="time">0:05〜0:45<small>40分</small></div>
+    <div><h3>2. 各自の案の発表（1人 5〜8分）</h3>
+      <ul>
+        <li>Maci-as：10案（8分。とくに推す案を2〜3つ）</li>
+        <li>yk2b0yuka-blip：3案（欠席なら進行役が代わりに紹介）</li>
+        <li>kentakodama99：推しセン！（コンセプト動画あり）</li>
+        <li>akazuki0117-netizen：人生ルート逆算、とうけいクエスト（モックを触って見せる）</li>
+        <li>tmzwx4a-hub・k-masahiro116：前回からの更新があれば</li>
+      </ul>
+      <p class="muted">発表中は黙って聞く。質問は1案1つまで（引継ぎのルール）。前回（11/21）見た9案：政治タイプ診断・生徒裁判・ミライの選択・支持者ワードウルフ・SEJICA（kentakodama99）、ゲンテン×5秒コッカイ（tmzwx4a-hub）、Self-Helping School・将来設計と政治マッチング・民主主義シミュレータ（k-masahiro116）も候補に残っている。</p></div>
+  </div>
+  <div class="slot star">
+    <div class="time">0:45〜1:25<small>40分</small></div>
+    <div><h3><span class="star-mark">★</span>3. 判定して1つに絞る</h3>
+      <p class="decide">決めること：作るアプリ（1つ。組み合わせてもよい）</p>
+      <ul>
+        <li><b>0:45〜0:55 足切り</b>：12/27 に作れない／オープンデータの出番がない／公職選挙法・中立性で重すぎる、を外す</li>
+        <li><b>0:55〜1:10 グループで見る</b>：下の「グループ」ごとに、いちばん良い案を1つずつ選ぶ（組み合わせもここで）</li>
+        <li><b>1:10〜1:25 決める</b>：残った案を「判定の基準」で比べ、判定シートに ◎○△ を付けて1つに決める</li>
+      </ul></div>
+  </div>
+  <div class="slot star">
+    <div class="time">1:25〜1:45<small>20分</small></div>
+    <div><h3><span class="star-mark">★</span>4. 決めた案の形を決める</h3>
+      <p class="decide">決めること：コア要素、ターゲットと場面、課題（数字1つで言えるか）、使うオープンデータ、作品タイプ、狙う賞、名前（Politica のままか）</p>
+      <p class="muted">「その課題は多くの人に共有されているか」を、課題一覧の数字で言えるかを確かめる。</p></div>
+  </div>
+  <div class="slot">
+    <div class="time">1:45〜1:55<small>10分</small></div>
+    <div><h3>5. 日程と担当の確認</h3>
+      <p>資料：<a href="../../app/planning/ガントチャート.html">ガントチャート</a>。要件定義 11/30〜12/6、kentakodama99 が動けない期間（11/29〜12/5 ごろ）、集中開発 12/12〜12/20、提出 12/25〜26。</p>
+      <p class="decide">決めること：要件定義の担当、次回の日時</p></div>
+  </div>
+  <div class="slot">
+    <div class="time">1:55〜2:00<small>5分</small></div>
+    <div><h3>6. まとめ・宿題・次回</h3><p>判定シートを読み上げ、議事録用にコピーする。</p></div>
+  </div>
+</div>
+
+<h2 id="criteria">判定の基準</h2>
+<div class="card">
+  <div class="tblwrap"><table class="mini">
+    <tr><th>観点</th><th>見ること</th></tr>
+    <tr><td>実現性</td><td>12/27 までに、6人で、Cloudflare の静的サイト中心で作れるか。データが手に入るか</td></tr>
+    <tr><td>地域課題・オープンデータ</td><td>自治体・地域の課題に結びつくか。オープンデータが主役になるか（UDC の前提）</td></tr>
+    <tr><td>課題の説得力</td><td>多くの人に共有されている課題か。数字1つで言えるか（課題一覧）</td></tr>
+    <tr><td>新しさ・分かりやすさ</td><td>似た作品が少ないか。最初の画面で何のアプリか分かるか（オーディエンス投票もある）</td></tr>
+    <tr><td>リスク</td><td>中立性、公職選挙法（18歳未満の選挙運動、人気投票の公表）、AI に判断させる部分</td></tr>
+    <tr><td>賞</td><td>一般部門（重点部門）に加え、データキッズ賞・BODIK賞なども狙えるか</td></tr>
+  </table></div>
+</div>
+
+<h2>グループ（似た案のまとまり）</h2>
+<div class="card">
+  <div class="tblwrap"><table class="mini">
+    <tr><th>グループ</th><th>案</th></tr>
+    <tr><td><b>投票・お金</b></td><td>A1 人生ルート逆算アプリ（仮）、M5 初投票の逆算カレンダー、K1 推しセン！</td></tr>
+<tr><td><b>学び</b></td><td>A2 とうけいクエスト（仮）、M7 15分の議会授業</td></tr>
+<tr><td><b>地域・参加</b></td><td>M1 返事の地図、M3 まちの予算ドラフト、M6 公報の余白、M10 選挙のない日の参加ナビ、Y1 議会デスク（仮）</td></tr>
+<tr><td><b>学校</b></td><td>M2 校則の変更履歴</td></tr>
+<tr><td><b>情報</b></td><td>M4 同じ発言、逆の印象、Y2 政治のつづき（仮）</td></tr>
+<tr><td><b>対話</b></td><td>M8 まだ決めてない会議、M9 誰に入れたか聞かないカード、Y3 グラデーションの広場（仮）</td></tr>
+  </table></div>
+  <p class="muted" style="margin-top:8px">叩き台の見立て：地域課題とオープンデータの両方が強いのは「地域・参加」（M1 返事の地図・M3 まちの予算ドラフト・M10 選挙のない日の参加ナビ・M6 公報の余白）。体験の分かりやすさは M3・Y1 議会デスク。賞の狙いやすさは A2 とうけいクエスト（データキッズ賞）。M3 と Y1 は「予算の中で選ぶ」で組み合わせられる。M10 は前回の「参加の関わり方メニュー」（課題一覧の種8）と同じ方向。</p>
+</div>
+
+<h2>新しい案（16案）</h2>
+<p class="muted">各案の「課題」の番号は課題一覧の番号。パターン・地域・賞と ＋／－ は進行役の叩き台で、会議で崩す前提。</p>
+<div class="ideas">
+  <div class="idea">
+    <span class="no">A1　<a href="../../idea/akazuki0117-netizen/jinsei-route/README.md">akazuki0117-netizen</a></span>
+    <h3>人生ルート逆算アプリ（仮）</h3>
+    <div class="tags"><span class="cluster">投票・お金</span><span class="tag">パターン A＋D</span><span class="tag">地域 ○</span><span class="tag warn">一般部門</span></div>
+    <div class="core">送りたい人生（20〜40代の条件）× 年収・地価・教育費の逆算 ＋ 制度でルートが変わる</div>
+    <dl>
+      <dt>課題</dt><dd>理想の人生に要るお金を、進学・就職の前に考える機会がない。制度が自分の人生をどう変えるか見えない（3-⑥・9-⑤）</dd>
+      <dt>ユースケース</dt><dd>就活前の大学3年生が「世田谷に戸建て・子ども2人・私立」を選ぶと、業界ごとに何歳でピンチかが出る</dd>
+      <dt>データ</dt><dd>不動産情報ライブラリ、賃金構造基本統計、子供の学習費調査</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 「その人生に要る年収」という新しいものさし。モックあり　<span class="m">－</span> 既存のライフプランのシミュレーターが多い。政治は「制度」として薄く</div>
+  </div>
+  <div class="idea">
+    <span class="no">A2　<a href="../../idea/akazuki0117-netizen/toukei-quest/README.md">akazuki0117-netizen</a></span>
+    <h3>とうけいクエスト（仮）</h3>
+    <div class="tags"><span class="cluster">学び</span><span class="tag">パターン D</span><span class="tag">地域 ○</span><span class="tag warn">データキッズ賞◎</span></div>
+    <div class="core">Progate 型の統計学習（見る → 基礎 → 発展）＋ 自分の町のデータ・自分で集めたデータ</div>
+    <dl>
+      <dt>課題</dt><dd>公的な統計の学習サイトは硬く、自分の町のデータで試す場がない。先生に教材を作る時間がない</dd>
+      <dt>ユースケース</dt><dd>小学5・6年生が「最頻値」を学び、発展で自分の町の施設の数やクラスで集めたデータでグラフを作る</dd>
+      <dt>データ</dt><dd>e-Stat、SSDSE、気象庁、自治体のオープンデータ</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> データキッズ賞がど真ん中。モックで最後まで遊べる　<span class="m">－</span> 政治の要素がない。公的サイト（なるほど統計学園）と競う</div>
+  </div>
+  <div class="idea">
+    <span class="no">M1　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>返事の地図</h3>
+    <div class="tags"><span class="cluster">地域・参加</span><span class="tag">パターン C＋B</span><span class="tag">地域 ◎</span><span class="tag warn">一般部門</span></div>
+    <div class="core">意見 → 市の回答 → 最終計画を照合 ＋ 対応表のデータ公開</div>
+    <dl>
+      <dt>課題</dt><dd>若者の意見を行政がどう扱ったか見えにくい（3-⑥・8-⑨）</dd>
+      <dt>ユースケース</dt><dd>放課後の居場所を増やしてほしい中学生が、自分たちの意見が計画にどう反映されたかをたどる</dd>
+      <dt>データ</dt><dd>川崎市の意見聴取結果（公開資料）</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 地域課題ど真ん中。データを作って配る（パターン B）　<span class="m">－</span> 対象自治体の資料集めと照合の手間</div>
+  </div>
+  <div class="idea">
+    <span class="no">M2　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>校則の変更履歴</h3>
+    <div class="tags"><span class="cluster">学校</span><span class="tag">パターン D</span><span class="tag">地域 △</span><span class="tag warn">一般部門</span></div>
+    <div class="core">校則の改定事例 → 自校の試行案づくり ＋ 変更履歴の引き継ぎ</div>
+    <dl>
+      <dt>課題</dt><dd>校則を誰とどう見直すか、過去の経緯が分かりにくい（8-⑨）</dd>
+      <dt>ユースケース</dt><dd>暑い日の制服ルールを見直したい生徒会役員が、他校の事例から試行案を作る</dd>
+      <dt>データ</dt><dd>カタリバの校則見直し事例、経産省のルールメイキング資料</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 最初の民主主義体験（校則）に直結　<span class="m">－</span> オープンデータの出番が薄い。学校の運用が前提</div>
+  </div>
+  <div class="idea">
+    <span class="no">M3　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>まちの予算ドラフト</h3>
+    <div class="tags"><span class="cluster">地域・参加</span><span class="tag">パターン D＋A</span><span class="tag">地域 ◎</span><span class="tag warn">一般部門</span></div>
+    <div class="core">予算内で地域の事業を選ぶゲーム ＋ 実際の選定結果と比べる</div>
+    <dl>
+      <dt>課題</dt><dd>地域の事業に優先順位をつける機会が少ない</dd>
+      <dt>ユースケース</dt><dd>中学3年生が授業で「通学路の照明」と「放課後の居場所」のどちらを優先するか、予算内で組む</dd>
+      <dt>データ</dt><dd>杉並区の区民参加型予算の投票・選定結果</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 地域・ゲーム・本物のデータがそろう。分かりやすい　<span class="m">－</span> 対象の自治体を広げるにはデータ集めが要る</div>
+  </div>
+  <div class="idea">
+    <span class="no">M4　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>同じ発言、逆の印象</h3>
+    <div class="tags"><span class="cluster">情報</span><span class="tag">パターン D</span><span class="tag">地域 △</span><span class="tag warn">一般部門</span></div>
+    <div class="core">短い引用 → 元の質疑と比べる（切り抜きの体験）</div>
+    <dl>
+      <dt>課題</dt><dd>切り抜きで省かれた条件や前後の文脈に気づきにくい（3-⑦・9-⑦）</dd>
+      <dt>ユースケース</dt><dd>SNS で政治の短い動画を見る高校1年生が、一文から元の質疑と省かれた条件を確かめる</dd>
+      <dt>データ</dt><dd>国会会議録検索 API</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 国会会議録 API で作りやすい　<span class="m">－</span> ゲンテン（tmzwx4a-hub）と近い。地域とのつながりが弱い</div>
+  </div>
+  <div class="idea">
+    <span class="no">M5　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>初投票の逆算カレンダー</h3>
+    <div class="tags"><span class="cluster">投票・お金</span><span class="tag">パターン C＋A</span><span class="tag">地域 ◎</span><span class="tag warn">一般部門</span></div>
+    <div class="core">転居の状況 → 確認先・必要情報・準備の目安日</div>
+    <dl>
+      <dt>課題</dt><dd>転居後、確認先や書類の手順が分からず投票を諦める（3-④・9-⑥）</dd>
+      <dt>ユースケース</dt><dd>進学で引っ越した19歳が、住民票と投票の準備をいつから始めればいいか分かる</dd>
+      <dt>データ</dt><dd>各自治体の案内</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 「19歳の壁」に直結。地域ごとの違いが出る　<span class="m">－</span> 対象は18歳以上寄り。自治体の案内を集める手間</div>
+  </div>
+  <div class="idea">
+    <span class="no">M6　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>公報の余白</h3>
+    <div class="tags"><span class="cluster">地域・参加</span><span class="tag">パターン C</span><span class="tag">地域 ◎</span><span class="tag warn">一般部門</span></div>
+    <div class="core">争点別に、全候補の選挙公報の記述を比べる</div>
+    <dl>
+      <dt>課題</dt><dd>地方選挙の争点を候補者ごとに探す負担が大きい（8-⑧）</dd>
+      <dt>ユースケース</dt><dd>市議選の前に、子育ての争点について全候補の公報を並べて見る</dd>
+      <dt>データ</dt><dd>選挙公報（自治体）</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 地方選挙の情報の空白（8-⑧）を埋める　<span class="m">－</span> 公報のデータ化が重い。公職選挙法の確認</div>
+  </div>
+  <div class="idea">
+    <span class="no">M7　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>15分の議会授業</h3>
+    <div class="tags"><span class="cluster">学び</span><span class="tag">パターン C</span><span class="tag">地域 ◎</span><span class="tag warn">一般部門</span></div>
+    <div class="core">地方議会の質疑と事業資料 → 15分の授業</div>
+    <dl>
+      <dt>課題</dt><dd>先生が質疑と資料を集めて教材にする負担が大きい（3-①）</dd>
+      <dt>ユースケース</dt><dd>社会科の先生が、地元の議会の質疑から15分の授業を組み立てる</dd>
+      <dt>データ</dt><dd>地方議会の会議録、事業資料</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 先生の課題に効く。地元の議会を教材にできる　<span class="m">－</span> 利用者が先生。会議録の形式が自治体ごとにばらばら</div>
+  </div>
+  <div class="idea">
+    <span class="no">M8　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>まだ決めてない会議</h3>
+    <div class="tags"><span class="cluster">対話</span><span class="tag">パターン D</span><span class="tag">地域 △</span><span class="tag warn">一般部門</span></div>
+    <div class="core">立場を決める前に、調べたい問いを出すところから参加</div>
+    <dl>
+      <dt>課題</dt><dd>考えが固まっていないと政治の話に参加しづらい（8-①）</dd>
+      <dt>ユースケース</dt><dd>身近な論点について、意見ではなく「次に調べたい問い」を教室で出し合う</dd>
+      <dt>データ</dt><dd>関連する公開資料</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 「安心して迷う場」に効く　<span class="m">－</span> オープンデータの出番が薄い</div>
+  </div>
+  <div class="idea">
+    <span class="no">M9　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>誰に入れたか聞かないカード</h3>
+    <div class="tags"><span class="cluster">対話</span><span class="tag">パターン D</span><span class="tag">地域 ○</span><span class="tag warn">一般部門（アクティビティでも）</span></div>
+    <div class="core">地域の話題の問いカード ＋ パスありで親子の会話を始める</div>
+    <dl>
+      <dt>課題</dt><dd>投票先を聞きづらく、家庭で政治の会話が止まる（9-①・3-⑤）</dd>
+      <dt>ユースケース</dt><dd>親子で地域のテーマを選び、カードの問いで数分話す</dd>
+      <dt>データ</dt><dd>地域の話題（自治体の資料）</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> リサーチで「最も深く、他と被らない課題」　<span class="m">－</span> アプリよりアクティビティ寄り</div>
+  </div>
+  <div class="idea">
+    <span class="no">M10　<a href="../../idea/Maci-as/APP_IDEAS.md">Maci-as</a></span>
+    <h3>選挙のない日の参加ナビ</h3>
+    <div class="tags"><span class="cluster">地域・参加</span><span class="tag">パターン C＋B</span><span class="tag">地域 ◎</span><span class="tag warn">一般部門</span></div>
+    <div class="core">困りごと → 意見公募・傍聴・陳情などの参加窓口 ＋ 参加方法のデータ公開</div>
+    <dl>
+      <dt>課題</dt><dd>制度名を知らないと、投票以外の参加手段を探しにくい（9-③）</dd>
+      <dt>ユースケース</dt><dd>「通学路が暗い」を入れると、市の意見募集や議会への陳情の窓口と手順が出る</dd>
+      <dt>データ</dt><dd>自治体の公式案内</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 課題一覧で地域課題に最も直結（種8）。データを配れる　<span class="m">－</span> 対象自治体の案内を集めて整える手間</div>
+  </div>
+  <div class="idea">
+    <span class="no">Y1　<a href="../../idea/yk2b0yuka-blip/policy-choice-experience/README.md">yk2b0yuka-blip</a></span>
+    <h3>議会デスク（仮）</h3>
+    <div class="tags"><span class="cluster">地域・参加</span><span class="tag">パターン D</span><span class="tag">地域 ○</span><span class="tag warn">一般部門</span></div>
+    <div class="core">首相・市長として議案を二択で決める ＋ 任期末に選択の積み重ねを振り返る</div>
+    <dl>
+      <dt>課題</dt><dd>政策を選ぶ理由や、立場ごとの影響を考える機会が少ない（8-①・9-⑤）</dd>
+      <dt>ユースケース</dt><dd>スマホで市長になり、予算の中で議案を決め、任期の終わりに結果と現実の似た政策を知る</dd>
+      <dt>データ</dt><dd>自治体の予算・決算、会議録（未調査）</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 体験として分かりやすい。市長シナリオの試作あり　<span class="m">－</span> データの使い方が未定。架空の結果と現実の因果の扱い</div>
+  </div>
+  <div class="idea">
+    <span class="no">Y2　<a href="../../idea/yk2b0yuka-blip/politics-follow/README.md">yk2b0yuka-blip</a></span>
+    <h3>政治のつづき（仮）</h3>
+    <div class="tags"><span class="cluster">情報</span><span class="tag">パターン C</span><span class="tag">地域 △</span><span class="tag warn">一般部門</span></div>
+    <div class="core">話題・人をフォローして国会の動きをニュースのように読む ＋ 博士・Tips</div>
+    <dl>
+      <dt>課題</dt><dd>選挙後に政策の動きを追いたくても、情報が分散して難しい（8-①・9-⑤）</dd>
+      <dt>ユースケース</dt><dd>選挙で気になった公約をフォローし、その後の国会の動きを追う</dd>
+      <dt>データ</dt><dd>国会会議録検索 API</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 選挙のあとも関心が続く　<span class="m">－</span> 公約・議案の対応づけが重い。地域とのつながりが弱い</div>
+  </div>
+  <div class="idea">
+    <span class="no">Y3　<a href="../../idea/yk2b0yuka-blip/gradient-dialogue/README.md">yk2b0yuka-blip</a></span>
+    <h3>グラデーションの広場（仮）</h3>
+    <div class="tags"><span class="cluster">対話</span><span class="tag">パターン D</span><span class="tag">地域 △</span><span class="tag warn">一般部門</span></div>
+    <div class="core">スライダーで考えを置く → 全員そろうと匿名の分布とコメントが出る</div>
+    <dl>
+      <dt>課題</dt><dd>意見が二分されると、迷いや中間の考えを出しづらい（8-①・8-③）</dd>
+      <dt>ユースケース</dt><dd>知り合い同士で同じお題に答え、考えの広がりを見てから話す</dd>
+      <dt>データ</dt><dd>世論調査などの公開資料（背景）</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 「迷いの共有」（種2）と同じ方向。体験が分かりやすい　<span class="m">－</span> オープンデータの出番が薄い。複数人が前提</div>
+  </div>
+  <div class="idea">
+    <span class="no">K1　<a href="../../idea/kentakodama99/推しセン！/README.md">kentakodama99</a></span>
+    <h3>推しセン！</h3>
+    <div class="tags"><span class="cluster">投票・お金</span><span class="tag">パターン D</span><span class="tag">地域 ○</span><span class="tag warn">一般部門</span></div>
+    <div class="core">人柄の好み診断 → 推しの候補者 → 投票日に「託しに行く」推し活</div>
+    <dl>
+      <dt>課題</dt><dd>「1票では変わらない」と選挙に行かない。候補者の人柄が見えない（3-⑥・8-④）</dd>
+      <dt>ユースケース</dt><dd>18〜29歳が診断で推しを見つけ、預けたい理由を言葉にして投票に行く</dd>
+      <dt>データ</dt><dd>国会会議録、選挙公報、年代別の投票者数、投票所</dd>
+    </dl>
+    <div class="fit"><span class="p">＋</span> 「推し」の熱量を投票に向ける新しさ。コンセプト動画あり　<span class="m">－</span> AI に人柄を判定させる中立性。公職選挙法（未成年・人気投票の公表）</div>
+  </div>
+</div>
+
+<h2>判定シート</h2>
+<div class="card sheet">
+  <p class="muted">入力するとこのブラウザに自動で保存されます。「議事録用にコピー」で Markdown の表になります。<span class="saved" id="saved"></span></p>
+  <h3>案の判定</h3>
+  <div class="tblwrap"><table id="ideaTable"><thead><tr><th>案</th><th>コア要素</th><th>判定</th><th>良い点・組み合わせ</th><th>気になる点</th></tr></thead><tbody></tbody></table></div>
+  <h3>決めること</h3>
+  <div class="tblwrap"><table id="decTable"><thead><tr><th>決めること</th><th>結論</th><th>理由・条件</th><th>担当・期限</th></tr></thead><tbody></tbody></table></div>
+  <h3>今日の結論（ひとこと）</h3>
+  <textarea data-k="summary" placeholder="例：M3 と Y1 を組み合わせ、「まちの予算を市長として組む」アプリにする"></textarea>
+  <p style="margin-top:8px">記入者：<input type="text" data-k="writer" style="max-width:240px"></p>
+  <div class="btns"><button id="copy">議事録用にコピー</button><button id="dl" class="sub">ファイルに保存（.md）</button><button id="clear" class="danger">入力を消す</button></div>
+  <textarea id="copybox" readonly></textarea>
+</div>
+
+<h2>事前に用意するもの</h2>
+<div class="card"><ul>
+  <li>各案のモック：<code>idea/Maci-as/mock/index.html</code>、<code>idea/yk2b0yuka-blip/&lt;案&gt;/mock/index.html</code>、<code>idea/kentakodama99/推しセン！/PROTOTYPE-oshisen.html</code>（コンセプト動画 <code>concept-video.mp4</code>）、<code>idea/akazuki0117-netizen/jinsei-route/mock/index.html</code>、<code>idea/akazuki0117-netizen/toukei-quest/mock/index.html</code></li>
+  <li>課題一覧（FigJam のボードか md）、ガントチャート</li>
+  <li>Google Meet の録画・文字起こしをオンにする。議事録はこのフォルダの <code>README.md</code> に書く（public なので実名・個人の事情は書かない）</li>
+</ul></div>
+
+</main>
+<script>
+(() => {
+  "use strict";
+  const KEY = "udc-idea-decision-20261128";
+  const IDEAS = [["A1 人生ルート逆算アプリ（仮）（akazuki0117-netizen）", "送りたい人生（20〜40代の条件）× 年収・地価・教育費の逆算 ＋ 制度でルートが変わる"], ["A2 とうけいクエスト（仮）（akazuki0117-netizen）", "Progate 型の統計学習（見る → 基礎 → 発展）＋ 自分の町のデータ・自分で集めたデータ"], ["M1 返事の地図（Maci-as）", "意見 → 市の回答 → 最終計画を照合 ＋ 対応表のデータ公開"], ["M2 校則の変更履歴（Maci-as）", "校則の改定事例 → 自校の試行案づくり ＋ 変更履歴の引き継ぎ"], ["M3 まちの予算ドラフト（Maci-as）", "予算内で地域の事業を選ぶゲーム ＋ 実際の選定結果と比べる"], ["M4 同じ発言、逆の印象（Maci-as）", "短い引用 → 元の質疑と比べる（切り抜きの体験）"], ["M5 初投票の逆算カレンダー（Maci-as）", "転居の状況 → 確認先・必要情報・準備の目安日"], ["M6 公報の余白（Maci-as）", "争点別に、全候補の選挙公報の記述を比べる"], ["M7 15分の議会授業（Maci-as）", "地方議会の質疑と事業資料 → 15分の授業"], ["M8 まだ決めてない会議（Maci-as）", "立場を決める前に、調べたい問いを出すところから参加"], ["M9 誰に入れたか聞かないカード（Maci-as）", "地域の話題の問いカード ＋ パスありで親子の会話を始める"], ["M10 選挙のない日の参加ナビ（Maci-as）", "困りごと → 意見公募・傍聴・陳情などの参加窓口 ＋ 参加方法のデータ公開"], ["Y1 議会デスク（仮）（yk2b0yuka-blip）", "首相・市長として議案を二択で決める ＋ 任期末に選択の積み重ねを振り返る"], ["Y2 政治のつづき（仮）（yk2b0yuka-blip）", "話題・人をフォローして国会の動きをニュースのように読む ＋ 博士・Tips"], ["Y3 グラデーションの広場（仮）（yk2b0yuka-blip）", "スライダーで考えを置く → 全員そろうと匿名の分布とコメントが出る"], ["K1 推しセン！（kentakodama99）", "人柄の好み診断 → 推しの候補者 → 投票日に「託しに行く」推し活"]];
+  const DECISIONS = ["作るアプリ（1つ・組み合わせ）","コア要素","ターゲットと場面","課題（数字1つで言えるか）","使うオープンデータ","作品タイプ・狙う賞","アプリの名前","要件定義の担当","次回の日時"];
+  const JUDGE = ["", "◎ これでいく", "○ 要素を取り込む", "△ 今回は見送る", "× 足切り"];
+  const CONC = ["", "決定", "条件つきで決定", "持ち越し"];
+  let store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { store = {}; }
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); document.getElementById("saved").textContent = "（保存しました）"; } catch (e) {} };
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const sel = (k, opts) => `<select data-k="${k}">${opts.map(o => `<option${store[k] === o ? " selected" : ""}>${esc(o)}</option>`).join("")}</select>`;
+  const txt = k => `<textarea data-k="${k}">${esc(store[k] || "")}</textarea>`;
+  document.querySelector("#ideaTable tbody").innerHTML = IDEAS.map((r, i) => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${sel("i" + i + "j", JUDGE)}</td><td>${txt("i" + i + "g")}</td><td>${txt("i" + i + "b")}</td></tr>`).join("");
+  document.querySelector("#decTable tbody").innerHTML = DECISIONS.map((d, i) => `<tr><td>${esc(d)}</td><td>${sel("d" + i + "c", CONC)}${txt("d" + i + "t")}</td><td>${txt("d" + i + "r")}</td><td>${txt("d" + i + "w")}</td></tr>`).join("");
+  document.querySelectorAll("[data-k]").forEach(el => {
+    const k = el.dataset.k;
+    if (el.tagName !== "SELECT" && store[k] != null) el.value = store[k];
+    el.addEventListener("input", () => { store[k] = el.value; save(); });
+    el.addEventListener("change", () => { store[k] = el.value; save(); });
+  });
+  const cell = s => String(s || "").replace(/\|/g, "／").replace(/\r?\n/g, "<br>");
+  function toMd() {
+    const L = ["## 判定シート（2026/11/28 アイデア決定）", "", "### 案の判定", "", "| 案 | 判定 | 良い点・組み合わせ | 気になる点 |", "|---|---|---|---|"];
+    IDEAS.forEach((r, i) => { if (store["i" + i + "j"] || store["i" + i + "g"] || store["i" + i + "b"]) L.push(`| ${r[0]} | ${cell(store["i" + i + "j"])} | ${cell(store["i" + i + "g"])} | ${cell(store["i" + i + "b"])} |`); });
+    L.push("", "### 決めること", "", "| 決めること | 結論 | 理由・条件 | 担当・期限 |", "|---|---|---|---|");
+    DECISIONS.forEach((d, i) => { const c = [store["d" + i + "c"], store["d" + i + "t"]].filter(Boolean).join("："); L.push(`| ${d} | ${cell(c)} | ${cell(store["d" + i + "r"])} | ${cell(store["d" + i + "w"])} |`); });
+    L.push("", "### 今日の結論", "", cell(store.summary) || "（未記入）", "", `記入者：${store.writer || ""}`);
+    return L.join("\n");
+  }
+  document.getElementById("copy").addEventListener("click", async () => {
+    const md = toMd();
+    try { await navigator.clipboard.writeText(md); alert("コピーしました。議事録に貼り付けてください。"); }
+    catch (e) { const b = document.getElementById("copybox"); b.style.display = "block"; b.value = md; b.focus(); b.select(); alert("自動でコピーできませんでした。選択されたテキストを Ctrl+C でコピーしてください。"); }
+  });
+  document.getElementById("dl").addEventListener("click", () => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([toMd()], { type: "text/markdown" }));
+    a.download = "判定シート_20261128_アイデア決定.md"; a.click();
+  });
+  document.getElementById("clear").addEventListener("click", () => {
+    if (!confirm("入力をすべて消します。よろしいですか？")) return;
+    store = {}; try { localStorage.removeItem(KEY); } catch (e) {} location.reload();
+  });
+})();
+</script>
+</body>
+</html>
